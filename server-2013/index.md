@@ -1,1 +1,3 @@
-# Welcome to OfficeDocs-Lync-Server-2013!
+﻿---
+redirect_url: 'microsoft-lync-server-2013'
+---
