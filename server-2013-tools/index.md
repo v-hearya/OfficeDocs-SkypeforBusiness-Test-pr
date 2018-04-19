@@ -1,1 +1,3 @@
-# Welcome to OfficeDocs-Lync-Server-2013-Tools!
+﻿---
+redirect_url: 'lync-server-2013-tools'
+---
