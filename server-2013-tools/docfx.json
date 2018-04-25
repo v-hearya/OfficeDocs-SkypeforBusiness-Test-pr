@@ -47,11 +47,11 @@
                                          "breadcrumb_path":  "/office/lync-server-2013-Tools/breadcrumb/toc.json",
                                          "extendBreadcrumb":  true,
                                          "ROBOTS":  "INDEX,FOLLOW",
-                                         "uhfHeaderId":  "MSDocsHeader-Office",
+                                         "uhfHeaderId":  "MSDocsHeader-MSEdge",
                                          "ms.topic":  "conceptual",
                                          "author":  "",
                                          "ms.author":  "",
-                                         "ms.prod":  "Lync-2013"
+                                         "ms.prod":  "lync-2013"
                                      },
                   "fileMetadata":  {
 
