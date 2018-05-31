@@ -90,7 +90,7 @@ Synthetic transactions run from inside of System Center Operations Manager will 
 
 
 > [!IMPORTANT]
-> By default, Lync Server 2013 saves log files to a folder that is not shared. To make these logs readily accessible, you should share this folder (for example, \\atl-watcher-001.litwareinc.com\WatcherNode.
+> By default, Lync Server 2013 saves log files to a folder that is not shared. To make these logs readily accessible, you should share this folder (for example, \\\\atl-watcher-001.litwareinc.com\WatcherNode.
 
 
 
