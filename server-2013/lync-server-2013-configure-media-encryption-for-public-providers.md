@@ -36,11 +36,15 @@ If you are implementing audio/video (A/V) federation with Windows Live Messenger
 
 2.  From the command prompt, type the following commands:
     
+       ```
         Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
+       ```
     
+       ```
         Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
+       ```
     
-    <div class="alert">
+    <div class=" ">
     
 
     > [!NOTE]

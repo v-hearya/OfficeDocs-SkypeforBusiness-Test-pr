@@ -48,11 +48,15 @@ Instructions for carrying out each of these tasks are provided below.
 
 2.  At the command line, type the following:
     
+       ```
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
+       ```
     
+       ```
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
+       ```
     
-    <div class="alert">
+    <div class="">
     
 
     > [!NOTE]

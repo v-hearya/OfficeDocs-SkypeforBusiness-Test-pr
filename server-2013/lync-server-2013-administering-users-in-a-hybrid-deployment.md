@@ -32,7 +32,7 @@ You can manage user settings and policies for users migrated to Lync Online by u
 
 ## Moving Users Back to On-premises
 
-<div class="alert">
+<div class="">
 
 
 > [!IMPORTANT]
@@ -44,9 +44,13 @@ You can manage user settings and policies for users migrated to Lync Online by u
 
   - Run the following cmdlets to move a user from Lync Online back to Lync on-premises:
     
+       ```
         $cred=Get-Credential
+       ```
     
+       ```
         Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
+       ```
 
 The format of the URL specified for the **HostedMigrationOverrideUrl** parameter must be the URL to the pool where the Hosted Migration service is running, in the following format:
 

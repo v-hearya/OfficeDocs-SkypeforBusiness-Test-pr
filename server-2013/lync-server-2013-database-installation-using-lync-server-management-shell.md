@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2016-06-16_
 
 Separation of roles and responsibilities between server administrators and SQL Server administrators can result in delays in implementation. Lync Server 2013 uses role-based access control (RBAC) to mitigate these difficulties. In some instances, the SQL Server administrator must manage the installation of databases on the SQL Server-based server outside RBAC. The Lync Server 2013 Management Shell provides a way for the SQL Server administrator to run Windows PowerShell cmdlets designed to configure the databases with the correct data and log files. For details, see [Deployment permissions for SQL Server in Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
 
-<div class="alert">
+<div class=" ">
 
 
 > [!IMPORTANT]
@@ -40,7 +40,7 @@ Separation of roles and responsibilities between server administrators and SQL S
 
 **Install-CsDatabase** is the Windows PowerShell cmdlet you use to install the databases. The **Install-CsDatabase** cmdlet has a large number of parameters, only a few of which are discussed here. For details about the possible parameters, see the Lync Server 2013 Management Shell documentation.
 
-<div class="alert">
+<div class=" ">
 
 
 > [!WARNING]
@@ -70,13 +70,17 @@ For installing databases, **Install-CsDatabase** uses three primary methods for 
 
 3.  Use the **Install-CsDatabase** cmdlet to install the Central Management store.
     
+       ```
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn <fully qualified domain name of SQL Server> 
         -SqlInstanceName <named instance> -DatabasePaths <logfile path>,<database file path> 
         -Report <path to report file>
+       ```
     
+       ```
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn sqlbe.contoso.net -SqlInstanceName rtc -DatabasePaths "C:\CSDB-Logs","C:\CSDB-CMS" -Report "C:\Logs\InstallDatabases.html"
+       ```
     
-    <div class="alert">
+    <div class=" ">
     
 
     > [!TIP]
@@ -103,7 +107,7 @@ For installing databases, **Install-CsDatabase** uses three primary methods for 
 
 2.  On any computer, log on with administrative credentials for creating the databases on the SQL Server-based server. See the topic, [Deployment permissions for SQL Server in Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
     
-    <div class="alert">
+    <div class=" ">
     
 
     > [!IMPORTANT]
@@ -116,13 +120,17 @@ For installing databases, **Install-CsDatabase** uses three primary methods for 
 
 4.  Use the **Install-CsDatabase** cmdlet to install the Topology Builder configured databases.
     
+       ```
         Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <fully qualified domain name of SQL Server> 
          -DatabasePaths <logfile path>,<database file path> -Report <path to report file>
+       ```
     
+       ```
         Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn sqlbe.contoso.net 
         -Report "C:\Logs\InstallDatabases.html"
+       ```
     
-    <div class="alert">
+    <div class=" ">
     
 
     > [!TIP]
@@ -143,7 +151,7 @@ For installing databases, **Install-CsDatabase** uses three primary methods for 
 
 2.  On any computer, log on with administrative credentials for creating the databases on the SQL Server-based server. See the topic, [Deployment permissions for SQL Server in Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
     
-    <div class="alert">
+    <div class=" ">
     
 
     > [!IMPORTANT]
