@@ -170,8 +170,9 @@ The file, PersistentChatMonitoringSummary.exe.config, must contain a \<connectio
 <div>
 
 ## Usage
-
+```Batch
     PersistentChatMonitoringSummary [-StartDateTime <date>] [-EndDateTime <date>]
+```
 
 These parameters define the selection of data:
 
@@ -184,7 +185,7 @@ These parameters define the selection of data:
 <div>
 
 ## Example
-
+```batch
     C:\Users\Administrator.VDOMAIN>Desktop\PersistentChatMonitoringSummary.exe
     Reading database connection information, Persistent Chat endpoint uri, and csv output path information from the application config file...
     Connecting to Monitoring database with connection string specified in the application config file...
@@ -193,6 +194,7 @@ These parameters define the selection of data:
     
     The summary information about Persistent Chat sessions from the Monitoring database has been output to C:\PersistentChatMonitoring_dd4ace24-4c8a-4a3d-8fd4-591bdfacf47b.csv
     Press enter to exit...
+```
 
 </div>
 
@@ -235,8 +237,9 @@ Create users and channels for use in the stress run:
   - Create a category for your stress channels, and then create as many rooms as are needed under that category. The category should have all stress users in its **Allowed** list (by way of adding their OU), and stress rooms should have a privacy setting of **Open**.
 
   - We recommend creating extra stress rooms. You can create 50,000 rooms with the following Windows PowerShell command-line interface command:
-    
+    ```Powershell
         for ($i = 0; $i -le 50000; $i++) { New-CsPersistentChatRoom -Category <parent category> -Name "StressChan_$i" -Privacy Open }
+    ```    
 
 Edit the configuration files to fit your topology:
 
@@ -349,9 +352,9 @@ The file, ChatUsageReport.exe.config, must contain a \<connectionStrings\> secti
 <div>
 
 ## Usage
-
+```Powershell
     ChatUsageReport [-StartDate {date}] [-EndDate {date}] [-TopActiveUsers {n}] [-TopActiveRooms {n}] [-LeastActiveRooms {n}] [-RoomsInactiveSince {Date}] [-OutputFolder {path}]
-
+```
 These parameters define the selection of data:
 
 **StartDate:** Optionally specifies the UTC start date of the selection period. Default: Earliest Date
@@ -405,9 +408,9 @@ The report will always include the following output:
 ## Example
 
 The following example generates a usage report for the entire year 2001 and places the report in the OutputFolder specified in the ChatUsageReport.exe.config.
-
+```Powershell
     ChatUsageReport -RoomsInactiveSince 06-20-2010
-
+```
 ChatUsageReport.exe.config:
 
     <?xml version="1.0" encoding="utf-8" ?>
@@ -458,7 +461,7 @@ The user account under which the script is run must have owner access to the Per
 ## Usage
 
 Following are the contents of the default script:
-
+```Powershell
     /*
     This script will schedule a principal for a forced AD synchronization cycle
     
@@ -494,6 +497,7 @@ Following are the contents of the default script:
          ,nextTry = null
         where
          prinID = <PrinID,int,0>
+```
 
 </div>
 

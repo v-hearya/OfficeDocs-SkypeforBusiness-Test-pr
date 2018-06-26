@@ -37,17 +37,17 @@ The UserProfileGenerator.exe tool creates a batch file that enables you to run L
 1.  Copy the folder that contains the configuration folders and files to the directory that contains LyncStressTool.exe on each client computer. (For example, if you generated the configuration files in the folder named 1.28\_13.16.16, copy that folder to the folder that contains LyncPerfTool.exe on each client.)
 
 2.  Navigate to the appropriately numbered client folder and run the RunClient batch script. You can simply double-click the batch file in Windows Explorer and it will run all of the configuration files for that client number. You can also run the script from the appropriate client folder by using the following syntax:
-    
+    ```batch
         RunClient0.bat "C:\Program Files\Microsoft Lync Server 2013\LyncStressAndPerfTool\LyncStress" 
-
+    ```
 To run LyncPerfTool.exe directly, open a command prompt, and then type the following command at the command line (when doing this for the first time, be sure to register the performance counters regsvr32 /i /n /s LyncPerfToolPerf.dll, as show in the note later in this topic):LyncPerfTool.exe /file:\<configXML\>
-
+```Powershell
     LyncPerfTool.exe /file:IM_client0.xml
-
+```
 To have the tool display the values in the configuration file, include the /displayfile parameter on the preceding command, like this:
-
+```Powershell
     LyncPerfTool.exe /file:IM_client0.xml /displayfile
-
+```
 To end the process, press Ctrl+C.
 
 <div class="alert">
@@ -60,8 +60,9 @@ To end the process, press Ctrl+C.
 
 </div>
 
+```Powershell
     regsvr32 /i /n /s LyncPerfToolPerf.dll
-
+```
 <div class="alert">
 
 
