@@ -36,9 +36,13 @@ Follow the steps in this section to configure interoperability between your on-p
 
 Federation allows users in your on-premises deployment to communicate with Office 365 users in your organization. To configure federation, run the following cmdlets:
 
+   ```
     Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $True
+   ```
 
+   ```
     New-CSHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+   ```
 
 </div>
 
@@ -60,13 +64,21 @@ To establish a remote PowerShell session with Skype for Business Online, you fir
 
 After you install the module, you can establish a remote session with the following cmdlets:
 
+   ```
     Import-Module LyncOnlineConnector
+   ```
 
+   ```
     $cred = Get-Credential
+   ``` 
 
+   ```
     $CSSession = New-CsOnlineSession -Credential $cred
+   ```
 
+   ```
     Import-PSSession $CSSession -AllowClobber
+   ```
 
 For more information about how to establish a remote PowerShell session with Skype for Business Online, see [Connecting to Skype for Business Online by using Windows PowerShell](connecting-to-skype-for-business-online-by-using-windows-powershell.md).
 

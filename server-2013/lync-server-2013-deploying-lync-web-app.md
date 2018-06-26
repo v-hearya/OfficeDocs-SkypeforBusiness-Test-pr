@@ -30,7 +30,7 @@ Lync Web App is an Internet Information Services (IIS) web client that installs 
 
 The voice, video, and sharing features in Lync Web App require a Microsoft ActiveX control. You can either install the ActiveX control in advance or allow users to install it when prompted, which happens the first time they use Lync Web App or the first time they access a feature that requires the ActiveX control.
 
-<div class="alert">
+<div class=" ">
 
 
 > [!NOTE]
@@ -46,7 +46,7 @@ The voice, video, and sharing features in Lync Web App require a Microsoft Activ
 
 The Lync Server 2013 version of Lync Web App supports multi-factor authentication. In addition to user name and password, you can require additional authentication methods, such as smart cards or PINs, to authenticate users who are joining from external networks when they sign in to Lync meetings. You can enable multi-factor authentication by deploying Active Directory Federation Service (AD FS) federation server and enabling passive authentication in Lync Server 2013. After AD FS is configured, external users who attempt to join Lync meetings are presented with an AD FS multi-factor authentication webpage that contains the user name and password challenge along with any additional authentication methods that you have configured.
 
-<div class="alert">
+<div class=" ">
 
 
 > [!IMPORTANT]
@@ -81,12 +81,18 @@ The Lync Server 2013 version of Lync Web App supports multi-factor authenticatio
 
 5.  Set the following relying party rules:
     
+       ```
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'
         $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
+       ```
     
+       ```
         Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
+       ```
     
+       ```
         Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+       ```
 
 </div>
 
@@ -124,7 +130,7 @@ If installation of the plug-in fails on a computer running Windows ServerÂ 2008Â
 
 4.  Clear **Do not save encrypted pages to disk**, and then click **OK**.
     
-    <div class="alert">
+    <div class=" ">
     
 
     > [!NOTE]

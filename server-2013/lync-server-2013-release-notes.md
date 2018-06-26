@@ -36,38 +36,27 @@ This document contains important information that you should know before you dep
 
 This document contains the following sections:
 
-  - <span></span>  
-    Lync 2013 client
+  - Lync 2013 client
 
-  - <span></span>  
-    Lync Server
+  - Lync Server
 
-  - <span></span>  
-    Installation
+  - Installation
 
-  - <span></span>  
-    Mobility
+  - Mobility
 
-  - <span></span>  
-    Conferencing
+  - Conferencing
 
-  - <span></span>  
-    Enterprise Voice
+  - Enterprise Voice
 
-  - <span></span>  
-    Presence
+  - Presence
 
-  - <span></span>  
-    Response Group Application and Call Park Application
+  - Response Group Application and Call Park Application
 
-  - <span></span>  
-    Lync Server Control Panel, Topology Builder, and Planning Tool
+  - Lync Server Control Panel, Topology Builder, and Planning Tool
 
-  - <span></span>  
-    Localization
+  - Localization
 
-  - <span></span>  
-    Copyright
+  - Copyright
 
 </div>
 
@@ -125,9 +114,13 @@ When the IP Address configuration is changed for a Lync Server 2013 deployment, 
 
 To work around this issue, restart Lync Server services after changing the IP Address configuration for the deployment. To do so, run the following cmdlets in the Lync Server Management Shell:
 
+   ```
     Stop-CsWindowsService -graceful
+   ```
 
+   ```
     Start-CsWindowsService
+   ```
 
 </div>
 
@@ -447,9 +440,13 @@ To work around this issue, update the system registry before installing Lync Ser
 
 1.  Start Windows PowerShell and run the following cmdlets:
     
+       ```
         New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
+       ```
     
+       ```
         $a="HKU:\.Default\Control Panel\International"
+       ```
 
 2.  To view the current value, run the following cmdlet:
     
@@ -685,7 +682,7 @@ To force an update to the most recent version of the screen-sharing plug-in when
 
 ## In some cases, a Lync client running on a computer configured to use IPv4 and IPv6 dual stack might not support capabilities that rely in the IP subnet of the computer such as E911, Media Bypass, Call Admission Control and Location Based Routing
 
-<div class="alert">
+<div class="">
 
 
 > [!NOTE]
@@ -777,7 +774,7 @@ This workaround will correctly display the Presence status of users homed to Off
 
 ## A caller might hear one second of music-on-hold during the establishment of a call with the retrieving party
 
-<div class="alert">
+<div class="">
 
 
 > [!NOTE]
@@ -903,7 +900,7 @@ There are no workarounds for this issue. The parked call should be retrieved wit
 
 ## Planning Tool Limitations
 
-<div class="alert">
+<div class="">
 
 
 > [!NOTE]
@@ -1017,7 +1014,7 @@ The *DropExistingDatabasesOnMirror* parameter causes the affected databases to b
 
 3.  Publish the topology.
 
-<div class="alert">
+<div class="">
 
 
 > [!IMPORTANT]
@@ -1123,7 +1120,7 @@ To work around this issue, refresh the page of the Lync Server Control Panel in 
 
 ## Indexing in the Address Book does not work as expected in some languages
 
-<div class="alert">
+<div class="">
 
 
 > [!NOTE]
@@ -1193,7 +1190,7 @@ If you want to select a language with a neutral locale, always make sure that yo
 
 ## There is limited support for Azeri and Uzbek locales when using Lync Web Scheduler, Dial-In, Join Launcher, Persistent Chat Room Management, and OCTab in some web browsers
 
-<div class="alert">
+<div class="">
 
 
 > [!NOTE]

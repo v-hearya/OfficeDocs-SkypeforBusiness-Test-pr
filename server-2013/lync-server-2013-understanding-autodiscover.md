@@ -34,7 +34,7 @@ In Lync Server 2013, Autodiscover is expanded to communicate to the client which
 
 The best way to understand the Autodiscover response document, including how the web services communicate features to clients through this document, is to dissect and define each line in a typical response from the Lync web service Autodiscover response document.
 
-<div class="alert">
+<div class="">
 
 
 > [!NOTE]
@@ -44,7 +44,7 @@ The best way to understand the Autodiscover response document, including how the
 
 </div>
 
-<div class="alert">
+<div class="">
 
 
 > [!NOTE]
@@ -98,11 +98,15 @@ The definition of **AccessLocation=”External”** indicates that the request w
 
     <SipServerInternalAccess fqdn="pool01.contoso.com" port="5061"/>
 
+&nbsp;
+
     <SipServerExternalAccess fqdn="sip.contoso.com" port="5061"/>
 
 SipServerInternalAccess and SipServerExternalAccess are currently not used. These entries are reserved for future use.
 
     <SipClientInternalAccess fqdn=" pool01.contoso.com" port="443"/>
+
+&nbsp;
 
     <SipClientExternalAccess fqdn="sip.contoso.com " port="443"/>
 
@@ -110,11 +114,15 @@ SipClientInternalAccess and SipClientExternalAccess describe the fully qualified
 
     <Link token="Internal/Autodiscover" href="https://webinternal.contoso.net/Autodiscover/AutodiscoverService.svc/root"/>
 
+&nbsp;
+
     <Link token ="External/Autodiscover" href="https://webexternal.contoso.com/Autodiscover/AutodiscoverService.svc/root"/>
 
 The `Autodiscover` references contain the service entry points for the Autodiscover service. The token attribute contains the name of the service, and the href is a URL that defines for the client where the service can be found. Clients on an external network use the `External/Autodiscover`. The Autodiscover service is installed as part of the deployment process. `Internal/Autodiscover` is not currently used, and is reserved for future use.
 
     <Link token="Internal/AuthBroker" href="https://webinternal.contoso.net/Reach/sip.svc"/>
+
+&nbsp;
 
     <Link token="External/AuthBroker" href="https://webexternal.contoso.com/Reach/sip.svc"/>
 
@@ -122,11 +130,15 @@ The `AuthBroker` references contain the service entry points for the internal an
 
     <Link token="Internal/WebScheduler" href="https://webinternal.contoso.net/Scheduler"/>
 
+&nbsp;
+
     <Link token="External/WebScheduler" href="https://webexternal.contoso.com/Scheduler"/>
 
 The `WebScheduler` token references the URLs for client access to the web-based scheduling for Lync Server conferences. Currently, only the `External/WebScheduler` is used. The WebScheduler is installed as part of the deployment process of your internal Lync Server 2013 deployment web services.
 
     <Link token="Internal/Mcx" href="https://webexternal.contoso.net/Mcx/McxService.svc"/>
+
+&nbsp;
 
     <Link token="External/Mcx" href="https://webexternal.contoso.com/Mcx/McxService.svc"/>
 
@@ -134,7 +146,11 @@ The `WebScheduler` token references the URLs for client access to the web-based 
 
     <Link token="Internal/Ucwa" href="https://webinternal.contoso.net/ucwa/v1/applications"/>
 
+&nbsp;
+
     <Link token="External/Ucwa" href="https://webexternal.contoso.com/ucwa/v1/applications"/>
+
+&nbsp;
 
     <Link token="Ucwa" href="https://webexternal.contoso.com/ucwa/v1/applications"/>
 
@@ -142,7 +158,11 @@ The `WebScheduler` token references the URLs for client access to the web-based 
 
     <Link token="Internal/XFrame" href="https://webinternal.contoso.net/Autodiscover/XFrame/XFrame.html"/>
 
+&nbsp;
+
     <Link token="External/XFrame" href="https://webexternal.contoso.com/Autodiscover/XFrame/XFrame.html"/>
+
+&nbsp;
 
     <Link token="XFrame" href="https://webexternal.contoso.com/Autodiscover/XFrame/XFrame.html"/>
 
