@@ -83,7 +83,7 @@ With SQL mirroring, you can either configure the topology for mirroring when you
 
 
 > [!NOTE]
-> A file share has to be created for the mirror files to be written to, and the service that SQL Server and SQL Agent are running under needs read/write access. If the SQL Server service is running under the context of Network Service, you can add &lt;Domain&gt;\&lt;SQLSERVERNAME&gt;$ of both the Principal and Mirror SQL Servers to the share permissions. The $ is important to identify that this is a computer account.
+> A file share has to be created for the mirror files to be written to, and the service that SQL Server and SQL Agent are running under needs read/write access. If the SQL Server service is running under the context of Network Service, you can add &lt;Domain&gt;\\&lt;SQLSERVERNAME&gt;$ of both the Principal and Mirror SQL Servers to the share permissions. The $ is important to identify that this is a computer account.
 
 
 

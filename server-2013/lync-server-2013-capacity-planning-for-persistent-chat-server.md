@@ -64,8 +64,7 @@ The minimum configuration and simplest deployment for Persistent Chat Server is 
 
 
 > [!IMPORTANT]
-> You cannot add additional servers to a Persistent Chat Server pool that is started as a single-server deployment in Topology Builder. We recommend using the multiple-server pool topology, even if you’re using a single server, so that you’ll be able to add more servers later, if needed.
-
+> You cannot add additional servers to a Persistent Chat Server pool that is started as a single-server deployment in Topology Builder. We recommend using the multiple-server pool topology, even if you’re using a single server. This is so that you’ll be able to add more servers later, if it's necessary. 
 
 
 </div>
