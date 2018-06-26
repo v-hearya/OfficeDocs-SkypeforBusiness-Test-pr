@@ -67,13 +67,13 @@ Lync-Skype Connectivity enables Skype users and Lync users to add each other as 
 
 For additional information on support for contacts, see [Add a contact in Lync](https://support.office.com/en-us/article/add-a-contact-ae55b88d-b9af-48da-bffe-7cc720a5059a).
 
-When a Skype user’s Microsoft account uses a custom domain name, such as **bob@contoso.com**, a Lync user can add that Microsoft account to Lync in two ways:
+When a Skype user’s Microsoft account uses a custom domain name, such as <strong>bob@contoso.com</strong> , a Lync user can add that Microsoft account to Lync in two ways:
 
 1.  Use the **Add a Contact** icon, or
 
 2.  Use the **Find someone or a room, or a dial a number** field.
 
-In each instance, the Lync user must enter the Skype user’s email in the following format: **user(domain name)@msn.com**.
+In each instance, the Lync user must enter the Skype user’s email in the following format: <strong>user(domain name)@msn.com</strong> .
 
 <div class="alert">
 
@@ -91,13 +91,13 @@ In each instance, the Lync user must enter the Skype user’s email in the follo
 
 2.  From the list of available contact providers, select **Skype**.
 
-3.  In the **IM Address** field, enter the Microsoft Account (MSA) of the Skype user in the format **user(domain name)@msn.com**. So for user bob@contoso.com, the entry would be **bob(contoso.com)@msn.com**.
+3.  In the **IM Address** field, enter the Microsoft Account (MSA) of the Skype user in the format **user(domain name)@msn.com** . So for user bob@contoso.com, the entry would be **bob(contoso.com)@msn.com** .
 
 4.  In the **Add to contact group** drop-down list box, select a contact group to add the user to.
 
 5.  In the **Set privacy relationship** drop-down list box, select the appropriate contact setting and then click **OK**.
 
-6.  A Lync user can also use the **Find someone or a room, or dial a number** field in Lync, and add an address that resembles the following **user(domain name)@msn.com**. So for the bob@contoso.com Microsoft account, the entry would be **bob(contoso.com)@msn.com**.
+6.  A Lync user can also use the **Find someone or a room, or dial a number** field in Lync, and add an address that resembles the following **user(domain name)@msn.com** . So for the bob@contoso.com Microsoft account, the entry would be **bob(contoso.com)@msn.com** .
 
 7.  Follow steps 4 and 5 earlier in this procedure to add the contact to a contact group and to select the appropriate privacy relationship.
 
