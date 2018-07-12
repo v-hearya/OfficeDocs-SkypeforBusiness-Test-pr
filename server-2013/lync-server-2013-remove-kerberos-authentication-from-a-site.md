@@ -30,7 +30,7 @@ To successfully complete this procedure you should be logged on as a user who is
 
 If you need to remove Kerberos authentication from a site or retire a site, you must remove the Kerberos authentication account assignment from the site by using the **Remove-CsKerberosAccountAssignment** cmdlet. Use the following procedure to remove the Kerberos authentication account assignment, which removes the assignment from all computers in the site.
 
-<div class="alert">
+<div class=" ">
 
 
 > [!WARNING]
@@ -50,17 +50,25 @@ If you need to remove Kerberos authentication from a site or retire a site, you 
 
 3.  From the command line, run the following two commands:
     
+       ```
         Remove-CsKerberosAccountAssignment -Identity "site:SiteName"
+       ```
     
+       ```
         Enable-CsTopology
+       ```
     
     For example:
     
+       ```
         Remove-CsKerberosAccountAssignment -Identity "site:Redmond"
+       ```
     
+       ```
         Enable-CsTopology
+       ```
     
-    <div class="alert">
+    <div class=" ">
     
 
     > [!IMPORTANT]

@@ -64,17 +64,25 @@ You can easily deploy the disaster recovery topology of paired Front End pools u
 
 10. Force the user and conference data of both pools to be synchronized with each other, with the following cmdlets:
     
+       ```
         Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
+       ```
     
+       ```
         Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
+       ```
     
     Synchronizing the data may take some time. You can use the following cmdlets to check the status. Make sure that the status in both directions is in steady state.
     
+       ```
         Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
+       ```
     
+       ```
         Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
+       ```
 
-<div class="alert">
+<div class="">
 
 
 > [!NOTE]

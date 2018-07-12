@@ -50,13 +50,19 @@ In the example topology, network interregion routes must be defined for each of 
 
 2.  Run the **New-CsNetworkInterRegionRoute** cmdlet to define the required routes. For example, run:
     
+       ```
         New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
+       ```
     
+       ```
         New-CsNetworkInterRegionRoute -Identity NorthAmerica_APAC_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 APAC -NetworkRegionLinkIDs "NA-EMEA-LINK, EMEA-APAC-LINK"
+       ```
     
+       ```
         New-CsNetworkInterRegionRoute -Identity EMEA_APAC_Route -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -NetworkRegionLinkIDs "EMEA-APAC-LINK"
+       ```
     
-    <div class="alert">
+    <div class=" ">
     
 
     > [!NOTE]
@@ -87,7 +93,7 @@ In the example topology, network interregion routes must be defined for each of 
 
 8.  Click **Add** beside the **Network Region Links** field, and then add a network region link that will be used in the network interregion route.
     
-    <div class="alert">
+    <div class=" ">
     
 
     > [!NOTE]

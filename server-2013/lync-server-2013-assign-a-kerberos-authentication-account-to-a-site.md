@@ -40,19 +40,27 @@ After creating the Kerberos account, you must assign it to a site. This is a Lyn
 
 3.  From the command line, run the following two commands:
     
+       ```
         New-CsKerberosAccountAssignment -UserAccount "Domain\UserAccount"
                   -Identity "site:SiteName"
+       ```          
     
+       ```
         Enable-CsTopology
+       ```
     
     For example:
     
+       ```
         New-CsKerberosAccountAssignment -UserAccount "contoso\kerbauth"
                   -Identity "site:redmond"
+       ```
     
+       ```
         Enable-CsTopology
+       ```
     
-    <div class="alert">
+    <div class="">
     
 
     > [!NOTE]
@@ -65,9 +73,8 @@ After creating the Kerberos account, you must assign it to a site. This is a Lyn
     
         setspn -S http/webservices.contoso.local kerbauth
 
-5.  
-    
-    <div class="alert">
+5.     
+    <div class="">
     
 
     > [!IMPORTANT]

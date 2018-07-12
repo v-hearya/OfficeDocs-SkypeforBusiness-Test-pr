@@ -160,7 +160,7 @@ In Lync 2010, user photos are managed on the server by the Address Book Service.
 
 User photos included in Presence status also have an associated hash value that Lync client uses to determine whether there is a newer image available. The client is automatically notified of changes to the image file used in Presence status.
 
-<div class="alert">
+<div class=" ">
 
 
 > [!NOTE]
@@ -240,17 +240,26 @@ The **Show picture from a website** option becomes available in Lync 2013 after 
 
 You can set the client policy to enable to **Show picture from a website** setting by running the [Set-CsClientPolicy](set-csclientpolicy.md) policy in the Lync Server Management Shell. The following example cmdlets demonstrate how to set the policy globally for all users in your deployment:
 
+   ```
     $pe=New-CsClientPolicyEntry -Name EnablePresencePhotoOptions -Value True
+   ```
 
+   ```
     $po=Get-CsClientPolicy -Identity Global
+   ```
 
+   ```
     $po.PolicyEntry.Add($pe)
+   ```
 
+   ```
     Set-CsClientPolicy -Instance $po
+   ```
+
 
 When an image is uploaded to the user’s mailbox, Exchange automatically creates a lower resolution version of the image which can be used in client applications. The user photo is also updated in AD DS.
 
-<div class="alert">
+<div class=" ">
 
 
 > [!NOTE]

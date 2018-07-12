@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-07-11_
 
 The following section describes how to configure Lync Server 2013 with Cumulative Updates: July 2013 to support passive authentication. Once enabled, Lync users who are enabled for two-factor authentication will be required to use a physical or virtual smart card and a valid PIN to sign in using the Lync 2013 with Cumulative Updates: July 2013 client.
 
-<div class="alert">
+<div class="">
 
 
 > [!NOTE]
@@ -54,7 +54,7 @@ The following steps describe how to create a custom web service configuration fo
     
         New-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
     
-    <div class="alert">
+    <div class="">
     
 
     > [!WARNING]
@@ -89,11 +89,15 @@ The following steps describe how to create a custom proxy configuration for Edge
 
 1.  From the Lync Server Management Shell command-line, create a new proxy configuration for each Lync Server 2013 with Cumulative Updates: July 2013 Edge Pool, Enterprise Pool, and Standard Edition server that will be enabled for passive authentication by running the following commands:
     
+       ```
         New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+       ```
     
+       ```
         New-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com" 
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+       ```
 
 2.  Verify that all other proxy authentication types have been successfully disabled by running the following command:
     

@@ -44,9 +44,13 @@ The Update-CsAddressBook cmdlet replaces the **abserver.exe –syncNow** command
 
 For example:
 
+   ```
     Update-CsAddressBook
+   ```
 
+   ```
     Update-CsAddressBook -Fqdn atl-abs-001.contoso.com
+   ```
 
 <div>
 

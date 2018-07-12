@@ -123,7 +123,7 @@ This command consists of three parts:
     /b
     ```
 
-  - The parameter value **kenmyer@litwareinc.com**.
+  - The parameter value <strong>kenmyer@litwareinc.com</strong>.
 
 That command, incidentally, returns information about a specific user: the user with the identity, kenmyer@litwareinc.com.
 

@@ -38,7 +38,7 @@ For example:
 
 The remainder of this topic focuses on how to define providers, modify a provider and what a provider definition contains to optimize your troubleshooting. There are two ways to issue Centralized Logging Service commands. You can use the CLSController.exe that is located, by default, in the directory C:\\Program Files\\Common Files\\Microsoft Lync Server 2013\\CLSAgent. Or, you can use the Lync Server Management Shell to issue Windows PowerShell commands. The important distinction is that when you use CLSController.exe at the command line there is a finite selection of scenarios available in which the providers are already defined and are not changeable, but you can define the log level. By using Windows PowerShell, you can define new providers for use in your logging sessions, and have complete control over their creation, what they collect, and at what level they collect data.
 
-<div class="alert">
+<div class="">
 
 
 > [!IMPORTANT]
@@ -142,7 +142,7 @@ Where $LyssProvider is the variable containing the defined scenario created with
 
 The end result of the command is that the scenario site:Redmond/RedmondLyssInfo will have updated flags and level for the provider assigned to it. You can view the new scenario by using Get-CsClsScenario. For details, see [Get-CsClsScenario](get-csclsscenario.md).
 
-<div class="alert">
+<div class="">
 
 
 > [!WARNING]
@@ -169,6 +169,8 @@ Where each provider defined with the Add directive has already been defined usin
 2.  The cmdlets provided allow you to update existing providers and create new providers. To remove a provider, you must use the Replace directive for the Provider parameter to **Set-CsClsScenario**. The only way to completely remove a provider is to replace it with a redefined provider of the same name and use the Update directive. For example, our provider LyssProvider is defined with WPP as the log type, level set to Debug, and flags set are TF\_CONNECTION and TF\_DIAG. You need to change the flags to “All”. To change the provider, type the following:
     
         $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
+
+     &nbsp;
     
         Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
 
@@ -180,7 +182,7 @@ Where each provider defined with the Add directive has already been defined usin
     
         Remove-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo"
     
-    <div class="alert">
+    <div class="">
     
 
     > [!WARNING]

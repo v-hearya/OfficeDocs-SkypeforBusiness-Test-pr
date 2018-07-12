@@ -346,7 +346,7 @@ Bandwidth Utilization Analyzer has the following two applications (tools):
 
   - **WanLinkLogCollector.exe**   This tool enables its user to input the required information.
 
-  - **BandwidthUtilizationAnalyzer.xlsm **  A Microsoft Excel spreadsheet software report is automatically launched by WanLinkLogCollector.exe. This application allows the user to apply filters to the report as shown later in this article.
+  - **BandwidthUtilizationAnalyzer.xlsm**  A Microsoft Excel spreadsheet software report is automatically launched by WanLinkLogCollector.exe. This application allows the user to apply filters to the report as shown later in this article.
 
 </div>
 
@@ -386,7 +386,7 @@ There are three steps to using WanLinkLogCollector.exe:
 
 2.  **Specify the file directories**   Provide file location information
 
-3.  **Collect the logs and launch the report viewer **  Execute the command to generate the report
+3.  **Collect the logs and launch the report viewer**  Execute the command to generate the report
 
 <div>
 
@@ -410,7 +410,7 @@ The following file directories can be specified by the user as shown.
 
   - **Server log files location** The folder location where Bandwidth policy server logs are stored. This is typically in \<fileserver\>\\\<choice of FE\>\\AppServerFiles\\PDP.
 
-  - **Temporary file storage location ** The temporary file location where intermediate files are stored while the report is being generated.
+  - **Temporary file storage location** The temporary file location where intermediate files are stored while the report is being generated.
 
 ![File directories in the Bandwidth Utilization Anal](images/JJ945604.d66daeac-1669-45e3-932d-3f6782840c2a(OCS.15).jpg "File directories in the Bandwidth Utilization Anal")
 
@@ -1301,7 +1301,7 @@ Save and Store CAC network topology diagram in JPG or BMP format: Lync Server 20
 
 ![Saving the network configuration as a picture.](images/JJ945604.145a6fb9-58b1-46b1-bbd5-a661ceba07b4(OCS.15).jpg "Saving the network configuration as a picture.")
 
-**View CAC network topology configuration data:**Lync Server 2013 administrators can view related network configuration data such as network regions, network sites, bandwidth profiles, and site subnet IP addresses in a textual format by using the View Network Configuration data option as shown below.
+**View CAC network topology configuration data:** Lync Server 2013 administrators can view related network configuration data such as network regions, network sites, bandwidth profiles, and site subnet IP addresses in a textual format by using the View Network Configuration data option as shown below.
 
 ![Viewing network configuration data.](images/JJ945604.b72a4c21-a042-4d91-bf96-fcb396af0679(OCS.15).jpg "Viewing network configuration data.")
 
@@ -2249,4 +2249,3 @@ This tool can be a valuable resource to administrators who need more precise con
 </div>
 
 </div>
-

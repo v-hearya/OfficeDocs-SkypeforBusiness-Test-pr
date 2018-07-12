@@ -34,9 +34,9 @@ Lync 2013 for iPhone and Lync 2013 for iPad are user-installable applications th
 
 You can instruct your users to install Lync 2013 for iPhone and Lync 2013 for iPad by directing them to the App Store from their devices. The App Store for each device is also available online.
 
-  - Lync for iPhone is available in the App Store at \< http://www.apple.com/iphone/from-the-app-store/\>
+  - Lync for iPhone is available in the App Store at \< h<span></span>ttp://www.apple.com/iphone/from-the-app-store/>
 
-  - Lync for iPad is available in the App Store at \< http://www.apple.com/ipad/from-the-app-store/\>
+  - Lync for iPad is available in the App Store at \< ht<span></span>tp://www.apple.com/ipad/from-the-app-store/>
 
 <div class="alert">
 

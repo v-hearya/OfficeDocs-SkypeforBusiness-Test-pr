@@ -36,7 +36,7 @@ For details about configuring contact objects, see the Lync Server Management Sh
 
   - [Set-CsExUmContact](set-csexumcontact.md)
 
-<div class="alert">
+<div class=" ">
 
 
 > [!IMPORTANT]
@@ -54,9 +54,13 @@ For details about configuring contact objects, see the Lync Server Management Sh
 
 2.  Run the New-CsExUmContact cmdlet to create any contact objects required for your deployment. For example, run the following to create an AA and an SA contact object:
     
+       ```
         New-CsExUmContact -SipAddress "sip:exumaa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101" -AutoAttendant $True
+       ```
     
+       ```
         New-CsExUmContact -SipAddress "sip:exumsa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101"
+       ```
     
     These examples set the following parameters:
     
@@ -64,7 +68,7 @@ For details about configuring contact objects, see the Lync Server Management Sh
     
       - **RegistrarPool** specifies the fully qualified domain name (FQDN) of the pool on which the Registrar service is running.
         
-        <div class="alert">
+        <div class=" ">
         
 
         > [!NOTE]

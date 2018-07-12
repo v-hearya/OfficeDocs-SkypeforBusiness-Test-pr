@@ -38,7 +38,7 @@ Remote call control requires that every Lync Server pool is configured with a pa
 
 3.  To create a static route and put it in the variable $TLSRoute or $TCPRoute, do one of the following:
     
-    <div class="alert">
+    <div class="">
     
 
     > [!TIP]
@@ -61,7 +61,7 @@ Remote call control requires that every Lync Server pool is configured with a pa
     
       - For a Transmission Control Protocol (TCP) connection, type the following at the command prompt:
         
-        <div class="alert">
+        <div class="">
         
 
         > [!NOTE]
@@ -90,9 +90,13 @@ Remote call control requires that every Lync Server pool is configured with a pa
 
 4.  To persist a newly created static route in the Central Management store, run one of the following, as appropriate:
     
+       ```
         Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
+       ```
     
+       ```
         Set-CsStaticRoutingConfiguration -Route @{Add=$TCPRoute}
+       ```
 
 </div>
 
