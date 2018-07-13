@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-23_
 
 To join a dial-in conference as an authenticated user, a Lync Server 2013 user with Active Directory Domain Services (AD DS) credentials requires a personal identification number (PIN). You can view a user’s PIN information from Lync Server 2013 Control Panel.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -64,7 +64,7 @@ To join a dial-in conference as an authenticated user, a Lync Server 2013 user w
     
     4.  Depending on the user property you selected, enter the criteria that you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
         
-        <div class="alert">
+        <div>
         
 
         > [!TIP]
@@ -75,7 +75,7 @@ To join a dial-in conference as an authenticated user, a Lync Server 2013 user w
     
     5.  Click **Find**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

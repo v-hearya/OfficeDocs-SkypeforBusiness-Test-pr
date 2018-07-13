@@ -62,7 +62,7 @@ The Announcement application uses the following port:
 
   - **Port 5071**   Used for SIP listening requests
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -36,7 +36,7 @@ Lync Server 2013 setup requires that permissions on shared folder allow full acc
 
 For more details about File Share requirements, see [File storage support in Lync Server 2013](lync-server-2013-file-storage-support.md) in the Supportability documentation.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

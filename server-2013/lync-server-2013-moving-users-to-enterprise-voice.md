@@ -70,7 +70,7 @@ After a primary number is chosen, it must be:
 
   - Copied to the Active Directory **msRTCSIP-line** attribute.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -101,7 +101,7 @@ The expected format of the number specified in this attribute is:
 
   - Tel:5550100 (for unique enterprise wide extensions)
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

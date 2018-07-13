@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-11-01_
 
 You can use the following Lync Server Management Shell commands to configure and monitor the Backup Service.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -62,7 +62,7 @@ For example, the following sets the interval to three minutes.
 
     Set-CsBackupServiceConfiguration -SyncInterval 00:03:00
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -82,7 +82,7 @@ Run the following cmdlet:
 
     Get-CsBackupServiceStatus -PoolFqdn <pool-FQDN>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

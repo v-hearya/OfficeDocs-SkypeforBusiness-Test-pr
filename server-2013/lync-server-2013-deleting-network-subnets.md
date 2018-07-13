@@ -42,7 +42,7 @@ In most deployments of Microsoft Lync Server 2013 where call admission control (
 
 4.  On the **Subnet** page, click the subnet that you want to delete.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

@@ -42,7 +42,7 @@ You can configure location policies from the **Network Configuration** group in 
 
 4.  On the **Location Policy** page, select the location policy that you want to delete.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -55,7 +55,7 @@ You can configure location policies from the **Network Configuration** group in 
 
 6.  Click **OK**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

@@ -34,7 +34,7 @@ This topic provides information and procedures that can help you troubleshoot ac
 
 Lync Server Control Panel requires that Microsoft Silverlight browser plug-in version 4.0.50524.0 or latest version is installed. If Silverlight is not installed or if an earlier version is installed, follow the instructions in the message to install the required version.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

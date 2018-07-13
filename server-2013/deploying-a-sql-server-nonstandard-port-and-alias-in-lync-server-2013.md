@@ -40,7 +40,7 @@ Lync Server 2013 Topology Builder supports using a SQL Server alias as the Full
 
 In order to be successful in determining the port Lync Server 2013 is using to communicate with SQL Server, the attacker would need to scan all ports to obtain the port information. A port scan by an attacker increases the chances that security can detect and stop the instruction. In addition to adding increased security with a non-standard port, you can also use a SQL Server alias to provide flexibility for the deployment. This is valuable in order to reduce configuration changes in situations where a SQL Server name change is required.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -114,7 +114,7 @@ The SQL Server non-standard port and alias must be set up on the database instan
     
     ![Reset the SQL Server service for instance.](images/Dn776290.a965c8cf-f769-4b52-bb38-c48a438cf491(OCS.15).jpg "Reset the SQL Server service for instance.")
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -140,7 +140,7 @@ The SQL Server non-standard port and alias must be set up on the database instan
     
     ![Creating a new alias](images/Dn776290.03653588-aecf-4fdd-b58a-95f5b372d478(OCS.15).jpg "Creating a new alias")
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]
@@ -181,7 +181,7 @@ The SQL Server non-standard port and alias must be set up on the database instan
 
 There are many different ways to make sure it is working. You want to make sure that the SQL Server database is listening on the specified port using the alias. A quick check can be completed using the **netstat** and **telnet** commands.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

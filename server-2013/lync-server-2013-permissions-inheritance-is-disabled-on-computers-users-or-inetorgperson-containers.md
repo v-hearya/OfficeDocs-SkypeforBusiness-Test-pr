@@ -112,7 +112,7 @@ You need user rights equivalent to Domain Admins group membership to run this cm
     
         Test-CsOuPermission -ObjectType "user","contact" -OU "cn=Bellevue,dc=contoso,dc=net" -Domain "contoso.net"
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

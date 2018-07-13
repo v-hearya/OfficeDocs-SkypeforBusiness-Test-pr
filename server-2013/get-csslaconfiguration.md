@@ -84,7 +84,7 @@ SLA is a feature in Skype for Business (SfB) for handling multiple calls on a sp
 
 The **Get-CsSlaConfiguration** cmdlet provides a way to retrieve a shared number configuration.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

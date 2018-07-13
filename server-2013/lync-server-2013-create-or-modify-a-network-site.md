@@ -30,7 +30,7 @@ Call admission control (CAC), E9-1-1, and media bypass deployments rely on the c
 
 Use the following procedures to create or modify network sites. For example, if you have already created network sites for one Voice feature, you do not need to create new network sites; other Voice features will use those same sites. You may, however, need to modify an existing network site definition to apply feature-specific settings. For example, if you created a network site for E9-1-1, you need to modify the network site during deployment of call admission control to apply a bandwidth policy profile.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -75,7 +75,7 @@ Create a network region that can be used by call admission control, E9-1-1, or m
     
     In this example, you created a network site called “Chicago” that is in the “NorthAmerica” network region.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -106,7 +106,7 @@ Create a network region that can be used by call admission control, E9-1-1, or m
 
 7.  Optionally, click **Bandwidth policy**, and then click a bandwidth policy in the list.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -117,7 +117,7 @@ Create a network region that can be used by call admission control, E9-1-1, or m
 
 8.  Optionally, click **Location policy**, and then click a location policy in the list.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -158,7 +158,7 @@ Modify a network region that can be used by call admission control, E9-1-1, or m
     
     In this example, the site called “Albuquerque” is moved to the “NorthAmerica” network region. To modify the network site configuration to deploy call admission control, E9-1-1, or media bypass, modify the network site settings by running the Set-CsNetworkSite cmdlet with the BWPolicyProfileID or LocationPolicy parameter, respectively.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

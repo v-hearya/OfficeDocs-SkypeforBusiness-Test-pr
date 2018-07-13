@@ -30,7 +30,7 @@ Forest preparation creates Active Directory global settings and objects and Acti
 
 Forest preparation also creates objects that contain property sets and display specifiers that are used by Lync Server 2013, and stores them in the Configuration container.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

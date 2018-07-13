@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-09-11_
 
 Use one of the following procedures to create or modify an interactive workflow.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -52,7 +52,7 @@ Use one of the following procedures to create or modify an interactive workflow.
 
 5.  In the **Select a Service** search field, type all or part of the name of the **ApplicationServer** service that hosts the workflow that you want to create or modify. In the resulting list of services, click the service that you want, and then click **OK**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -69,7 +69,7 @@ Use one of the following procedures to create or modify an interactive workflow.
 
 7.  If you are not ready for users to start calling the workflow, clear the **Activate the workflow** check box.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -80,7 +80,7 @@ Use one of the following procedures to create or modify an interactive workflow.
 
 8.  To allow federated users to call the group, select the **Enable for federation** check box. You must also have an external access policy that applies to the Response Group application configured for federation.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -89,7 +89,7 @@ Use one of the following procedures to create or modify an interactive workflow.
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -100,7 +100,7 @@ Use one of the following procedures to create or modify an interactive workflow.
 
 9.  To hide the identity of agents during calls, select the **Enable agent anonymity** check box.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -113,7 +113,7 @@ Use one of the following procedures to create or modify an interactive workflow.
 
 11. In **Display name**, type the name that you want to display for the workflow (for example, Sales IVR Response Group).
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -134,7 +134,7 @@ Use one of the following procedures to create or modify an interactive workflow.
     
     2.  Type the SIP URI of additional managers to add to the workflow, and click **Add**..
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -149,7 +149,7 @@ Use one of the following procedures to create or modify an interactive workflow.
     
       - To enter the welcome message as text that is converted to speech for callers, click **Use text-to-speech**, and then type the welcome message in the text box.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -160,7 +160,7 @@ Use one of the following procedures to create or modify an interactive workflow.
     
       - To use a Wave or Windows Media Audio file recording for the welcome message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the audio file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -171,7 +171,7 @@ Use one of the following procedures to create or modify an interactive workflow.
 
 18. Under **Step 4 Specify Your Business Hours**, in the **Your time zone** box, click the time zone of the workflow.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -184,7 +184,7 @@ Use one of the following procedures to create or modify an interactive workflow.
     
       - To use a predefined schedule of business hours, click **Use a preset schedule**, and then select the schedule you want to use from the drop-down list.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -199,7 +199,7 @@ Use one of the following procedures to create or modify an interactive workflow.
 
 21. If you are creating a custom schedule, type the **Open** and **Close** hours when the response group available.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -212,7 +212,7 @@ Use one of the following procedures to create or modify an interactive workflow.
     
       - To enter the message as text that is converted to speech for the caller, click **Use text-to-speech**, and then type the message in the text box.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -223,7 +223,7 @@ Use one of the following procedures to create or modify an interactive workflow.
     
       - To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -244,7 +244,7 @@ Use one of the following procedures to create or modify an interactive workflow.
 
 24. Under **Step 5 Specify Your Holidays**, click the check boxes for one or more sets of holidays that define the days when the response group is closed for business.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -257,7 +257,7 @@ Use one of the following procedures to create or modify an interactive workflow.
     
       - To enter the message as text that is converted to speech for the caller, click **Use text-to-speech**, and then type the message in the text box.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -268,7 +268,7 @@ Use one of the following procedures to create or modify an interactive workflow.
     
       - To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -293,7 +293,7 @@ Use one of the following procedures to create or modify an interactive workflow.
     
       - To use an audio file recording for the on-hold music, click **Select a music file**. If you want to upload a new audio file, click the **a music file** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -306,7 +306,7 @@ Use one of the following procedures to create or modify an interactive workflow.
     
       - To enter the question in text format, click **Use text-to-speech**, and type the question in the text box.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -315,7 +315,7 @@ Use one of the following procedures to create or modify an interactive workflow.
         
         </div>
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -326,7 +326,7 @@ Use one of the following procedures to create or modify an interactive workflow.
     
       - To use a prerecorded audio file that contains the question, click **Select a recording**, and then click the **a recording** link to upload the file. In the new browser window, click **Browse**, select the audio file, and then click **Open**. Click **Upload** to load the file, and then optionally you can type the question in the text box (this enables the question, and the caller’s response, to be forwarded to the responding agent).
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -337,7 +337,7 @@ Use one of the following procedures to create or modify an interactive workflow.
 
 29. Under **Response 1**, specify the first possible answer to the question by doing the following:
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -346,7 +346,7 @@ Use one of the following procedures to create or modify an interactive workflow.
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -430,7 +430,7 @@ Use one of the following procedures to create or modify an interactive workflow.
         $IVRAction = New-CsRgsCallAction -Action TransferToQuestion [-Question $Question]
         $IVRWorkflow = New-CsRgsWorkflow -Parent $ServiceId -Name "Contoso Helpdesk" [-Description "The Contoso Helpdesk line."] -PrimaryUri "sip:helpdesk@contoso.com" [-LineUri tel:+14255554321] [-DisplayNumber "+1 (425) 555-4321"] [-Active $true] [-Anonymous $true] [-DefaultAction $IVRAction] [-Managed $true] [-ManagersByURI ("sip:mindy@contoso.com", "sip:bob@contoso.com")]
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

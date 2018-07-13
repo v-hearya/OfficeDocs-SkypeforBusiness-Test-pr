@@ -36,7 +36,7 @@ In Microsoft Lync Server 2013, however, photos can be stored in a user's Microso
 
   - 648 pixels by 648 pixels for use in Lync 2013 and Microsoft Lync Web App.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -54,7 +54,7 @@ High-resolution photos, which are accessed by using Exchange Web Services, can b
 
 The first command in the preceding example uses the Get-Content cmdlet to read the contents of the file C:\\Photos\\Kenmyer.jpg and store that data in a variable named $photo. In the second command, the Exchange cmdlet Set-UserPhoto is used to upload the photo and attach that photo to Ken Myer's user account.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -84,7 +84,7 @@ Media port range settings can significantly impact client performance and should
     
         Set-CsConferencingConfiguration
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

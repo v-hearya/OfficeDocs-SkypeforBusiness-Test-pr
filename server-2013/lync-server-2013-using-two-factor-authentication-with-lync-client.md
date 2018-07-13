@@ -86,7 +86,7 @@ When you’re finished using Lync, you can close the display, sign out of your s
 <tr class="even">
 <td><p>Sign out</p></td>
 <td><p>Ends the Lync session associated with your user ID, but Lync continues to run in the background. When you sign out, the sign-in window will appear.</p>
-<div class="alert">
+<div>
 
 > [!TIP]
 > Select <STRONG>Delete my sign-in information</STRONG> when you sign out to remove the record of your logon ID and password from the computer. Doing this might make it easier for support people to troubleshoot sign-in issues. It can also help ensure your sign-in information is more secure by making it difficult for unauthorized users to log on with your credentials.
@@ -122,7 +122,7 @@ Some organizations now use a multi-step sign-in process, called two-factor authe
 
 Before you can sign in with a smart card, the card must be “enrolled”—that is, your user credentials have to be identified with the card. This is the case whether the card is physical or virtual. This process may already been carried out by your Lync Server administrator. Check with them if you’re not sure whether that has been done.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -140,7 +140,7 @@ Before you can sign in with a smart card, the card must be “enrolled”—that
     
     Ask your Lync Server administrator for the web address of this resource if you don’t already have it. The URL will look something like this: https://MyCA.\[yourcompanyname\].com/certsrv.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -175,7 +175,7 @@ Before you can sign in with a smart card, the card must be “enrolled”—that
 
 9.  When prompted, enter your personal identification number (PIN), and then click **OK**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -190,7 +190,7 @@ Before you can sign in with a smart card, the card must be “enrolled”—that
 
 12. When prompted, enter your personal identification number (PIN), and then click **OK**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -225,7 +225,7 @@ Before you use your smart card for the first time, it’s recommended that you c
 
 4.  Type in the PIN number you for your smart card and then click **OK**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

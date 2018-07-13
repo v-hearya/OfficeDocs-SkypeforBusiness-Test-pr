@@ -34,7 +34,7 @@ Lync Server 2013 and Lync 2013 can securely and seamlessly communicate with othe
 
   - Archived content from Lync, such as IM and meeting content, can be stored in Exchange storage.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -52,7 +52,7 @@ Lync Server 2013 supports the two server-to-server authentication scenarios. The
 
   - A pair of Office components (for example, between Microsoft Exchange 365 and Microsoft Lync Server 365, or between Microsoft Lync Server 365 and Microsoft SharePoint 365).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

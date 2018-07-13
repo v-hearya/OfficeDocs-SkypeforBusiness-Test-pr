@@ -40,7 +40,7 @@ Installing the latest version of Persistent Chat Server requires the following c
     
       - Compliance service, which is turned on if compliance is enabled
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -51,7 +51,7 @@ Installing the latest version of Persistent Chat Server requires the following c
 
   - Server(s) (more than one server if mirroring is used) that host the SQL Server back-end database for hosting the Persistent Chat content database where chat room content, rooms, and categories are stored.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -80,7 +80,7 @@ Persistent Chat Server can be deployed on the Standard Edition server. The Persi
 
 For Lync Server 2013 Enterprise Edition, Persistent Chat Servers cannot be collocated on the Enterprise Edition server. The SQL Server database for Persistent Chat Server can be collocated with the Back End Server database of an Enterprise Edition Front End pool. The SQL Server database for Persistent Chat compliance can also be collocated with the Back End Server database of an Enterprise Edition pool.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -114,7 +114,7 @@ Persistent Chat Server supports the following topologies:
 
 You can add Persistent Chat Server to your Lync Server 2013 deployment by using Topology Builder. You can add a single server or a multiple server Persistent Chat Server pool to your topology.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -130,7 +130,7 @@ You can add Persistent Chat Server to your Lync Server 2013 deployment by using 
 
 The minimum configuration and simplest deployment for Persistent Chat Server is a single Persistent Chat Server Front End Server topology. This deployment requires a single server that runs Persistent Chat Server (which optionally runs the Compliance service, if compliance is enabled), a server that hosts both the SQL Server database, and if compliance is required, the SQL Server database to store the compliance data.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

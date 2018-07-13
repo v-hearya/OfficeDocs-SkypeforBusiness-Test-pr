@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-09-20_
 
 A *hosted voice mail policy* provides information to the Lync Server 2013 ExUM Routing application about where to route calls for users whose mailboxes are located on a hosted Exchange service.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

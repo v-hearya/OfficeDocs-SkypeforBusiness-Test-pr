@@ -30,7 +30,7 @@ Before following these steps, make sure you’re logged onto the server with a d
 
 To be able to do anything with the Lync Server Deployment Wizard, we need the Local Configuration store to exist on a server. The Local Configuration store is a read-only copy of the Central Management store, which gets created after the local installation of SQL Server Express. The Central Management store itself is added to the existing SQL Server database installed on the Standard Edition server or SQL Server Express-based database.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

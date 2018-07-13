@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-22_
 
 A Lync Server 2013 dial plan is a named set of normalization rules that translate phone numbers for a named location, individual user, or contact object for purposes of phone authorization and call routing.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -58,7 +58,7 @@ The web conferencing service then stores content such as PowerPoint slides, whit
 
 The administrator must set permissions on the file share so that RTC groups have the necessary read and write access.
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]

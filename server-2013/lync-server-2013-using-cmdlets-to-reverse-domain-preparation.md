@@ -47,7 +47,7 @@ Use the **Disable-CsAdDomain** cmdlet to reverse the domain preparation step.
     
     If the Force parameter is present, domain preparation is rolled back, even if one or more Front End Servers or A/V Conferencing Servers in the domain are activated. If the Force parameter is not present, domain preparation rollback is terminated if any Front End Servers or A/V Conferencing Servers in the domain are activated.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

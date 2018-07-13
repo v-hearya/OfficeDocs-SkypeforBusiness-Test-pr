@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-11-01_
 
 You can stop a currently running logging session with the Stop-CsClsLogging cmdlet. Generally, there aren’t many situations in which you would need to stop a logging session. For example, you can search logs and change configurations without first needing to stop logging. If you have two scenarios running, for example AlwaysOn and UserReplicator, and you need to collect information related to Authentication, you will need to stop one of the other scenarios (at a global, site, pool or computer scope) before you can start running to Authentication scenario. For details, see [Stop-CsClsLogging](stop-csclslogging.md).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -70,7 +70,7 @@ For example:
     
     This command will stop logging with the UserReplicatior scenario on pool01.contoso.net.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

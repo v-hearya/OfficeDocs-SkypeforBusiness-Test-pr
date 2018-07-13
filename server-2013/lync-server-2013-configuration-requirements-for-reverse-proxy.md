@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-03-05_
 
 Lync Server 2013 imposes a few requirements on communications from the external client that are then passed on to the external Web services hosted on the Director, Director pool, Front End Server or Front End pool. The reverse proxy is also responsible for publishing the Office Web Apps Server, if you are offering conferencing to your users.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

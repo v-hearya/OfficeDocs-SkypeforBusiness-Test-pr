@@ -30,7 +30,7 @@ Call admission control (CAC) is a solution that determines whether a real-time s
 
 This section provides a set of example procedures that illustrate how to deploy and manage CAC in your network.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -40,7 +40,7 @@ This section provides a set of example procedures that illustrate how to deploy 
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

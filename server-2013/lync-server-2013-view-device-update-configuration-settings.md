@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-20_
 
 You can view the Device Update Service configuration settings by using Lync Server Management Shell and the **Get-CsDeviceUpdateConfiguration** cmdlet, which you can run from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

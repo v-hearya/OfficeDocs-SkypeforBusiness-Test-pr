@@ -42,7 +42,7 @@ Using Topology Builder, perform the steps in the following procedure to deploy I
     
       - **Use all configured IP addresses**. Select this option if you want to allow any IP address defined on the computer to be used.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -57,7 +57,7 @@ Using Topology Builder, perform the steps in the following procedure to deploy I
     
       - **PSTN IP address**. Define a PSTN IP address when a Mediation Server is standalone. This address must match the format of the selected address type.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]

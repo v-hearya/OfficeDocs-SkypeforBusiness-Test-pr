@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-18_
 
 You configure one or more external user access policies to control whether remote users can collaborate with internal Lync Server users. To control remote user access, you can configure policies at the global, site, and user level. Site policies override the global policy, and user policies override site and global policies. For details about the types of policies that you can configure, see [Managing federation and external access to Lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md). Lync Server policy settings that are applied at one policy level can override settings that are applied at another policy level. Lync Server policy precedence is: User policy (most influence) overrides a Site policy, and then a Site policy overrides a Global policy (least influence). This means that the closer the policy setting is to the object that the policy is affecting, the more influence it has on the object.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -40,7 +40,7 @@ You configure one or more external user access policies to control whether remot
 
 Use the following procedure to configure each external access policy that you want to use to control remote user access.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2016-12-08_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]
@@ -52,7 +52,7 @@ To determine the appropriate limits, you need to first determine how much memory
 
 Total memory used by the Mcx Mobility Service (MB) = 164 + (400 + 134) / 1024 \* **Currently Active Session Count with Active Presence Subscriptions** + 400 / 1024 \* (**Currently Active Session Count** – **Currently Active Session Count with Active Presence Subscriptions**)
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

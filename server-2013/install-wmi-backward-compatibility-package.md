@@ -40,7 +40,7 @@ To install the WMI Backward Compatibility Package
 
 2.  Install OCSWMIBC.MSI.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -49,7 +49,7 @@ To install the WMI Backward Compatibility Package
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

@@ -79,7 +79,7 @@ Microsoft Lync Server 2013 integrates an Extensible Messaging and Presence Proto
     
       - **SASL negotiation**. Defines the SASL negotiation rules. An XMPP service can require SASL, can make SASL optional, or you define that SASL is not supported. Choosing Optional leaves the requirement up to the partner XMPP service for a mandatory-to-negotiate decision.
         
-        <div class="alert">
+        <div>
         
 
         > [!WARNING]

@@ -44,7 +44,7 @@ The following are the general steps for working with your hosted Exchange tenant
 
 4.  The Exchange administrator assigns the phone numbers to appropriate Exchange UM dial plans for auto attendants and subscriber access.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -60,7 +60,7 @@ The following are the general steps for working with your hosted Exchange tenant
 
 ## Configuring Hosted Contact Objects
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

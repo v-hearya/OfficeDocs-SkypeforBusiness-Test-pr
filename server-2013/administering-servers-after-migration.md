@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-09-29_
 
 In general, you must use the administrative tool that corresponds to the server version that you want to manage. You cannot install the Lync Server 2010 and the Lync Server 2013 administrative tools on the same computer. Also, the Lync Server 2013 Control Panel is not installed automatically on each server. To install the Lync Server 2013 Control Panel, follow the procedure inside the topic [Install Lync Server 2013 administrative tools](lync-server-2013-install-lync-server-administrative-tools.md) in the Deployment documentation.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

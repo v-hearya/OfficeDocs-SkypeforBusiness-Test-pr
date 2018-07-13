@@ -98,7 +98,7 @@ Additionally, one Front End pool in the deployment also runs the *Central Manage
 
 The Back End Servers are database servers running Microsoft SQL Server that provide the database services for the Front End pool. The Back End Servers serve as backup stores for the pool’s user and conference data, and are the primary stores for other databases such as the Response Group database. You can have a single Back End Server, but a solution that uses SQL Server mirroring is recommended for failover. Back End Servers do not run any Lync Server software.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -118,7 +118,7 @@ Information stored in the Back End Server databases includes presence informatio
 
 Edge Server enables your users to communicate and collaborate with users outside the organization’s firewalls. These external users can include the organization’s own users who are currently working offsite, users from federated partner organizations, and outside users who have been invited to join conferences hosted on your Lync Server deployment. Edge Server also enables connectivity to public IM connectivity services, including Windows Live, AOL, Yahoo\!, and Google Talk.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

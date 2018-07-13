@@ -26,7 +26,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2012-10-11_
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -40,7 +40,7 @@ To configure Exchange Unified Messaging (UM) to work with Enterprise Voice, youâ
 
   - Configure certificates on the server running Exchange Unified Messaging (UM) services
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -79,7 +79,7 @@ Also note the following:
 
   - Integration steps are performed on both the Exchange Server roles where Unified Messaging services are running, and on the server running Lync Server 2013. You should perform the Exchange Server Unified Messaging integration steps before you perform the Lync Server 2013 integration steps.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2017-04-05_
 
 Returns information about the watcher node configuration settings in use in your organization. Watcher nodes are computers that periodically use Microsoft System Center Operations Manager and Lync Server 2013 synthetic transactions to verify that Lync Server components are working as expected. The watcher node configuration settings let you know which pools have been associated with a watcher node. This cmdlet was introduced in Lync Server 2013.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

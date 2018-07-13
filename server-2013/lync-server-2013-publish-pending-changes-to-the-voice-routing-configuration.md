@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-08-07_
 
 After you make changes to any of the configuration settings in pages in the **Voice Routing** group, perform this procedure to review, publish, or cancel the pending changes.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

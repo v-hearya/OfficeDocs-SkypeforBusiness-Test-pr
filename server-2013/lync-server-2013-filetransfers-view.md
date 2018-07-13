@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-01_
 
 The FileTranfer view stores information about peer-to-peer file transfer sessions. This view was introduced in Microsoft Lync Server 2013.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -30,7 +30,7 @@ To create a new Persistent Chat Server room
 
     New-CsPersistentChatRoom -Name Foo1 -PersistentChatPoolFqdn client.contoso.com -Category client.contoso.com\Foo [other parameters]
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

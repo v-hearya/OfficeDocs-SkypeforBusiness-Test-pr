@@ -38,7 +38,7 @@ The Active Directory Domain Services on-premises topologies that are supported b
 
   - Multiple forests in a resource forest topology
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -48,7 +48,7 @@ The Active Directory Domain Services on-premises topologies that are supported b
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

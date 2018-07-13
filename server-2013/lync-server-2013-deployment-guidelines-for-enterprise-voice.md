@@ -44,7 +44,7 @@ For an optimum experience when deploying Enterprise Voice, make sure that your I
 
   - A unique primary phone number has been designated, normalized, and copied to the **msRTCSIP-line** attribute for each user who is to be enabled for Enterprise Voice.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

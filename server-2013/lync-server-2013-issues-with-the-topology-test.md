@@ -30,7 +30,7 @@ Like the **Test-CsTopology** cmdlet, Best Practice Analyzer provides a way for y
 
 In addition to verifying the validity of Lync Server as a whole, **Test-CsTopology** also checks the validity of a specific service. For details about using the cmdlet to test specific services, see [Test-CsTopology](test-cstopology.md) in the Lync Server Management Shell documentation. Use the following information to help resolve issues with your topology.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

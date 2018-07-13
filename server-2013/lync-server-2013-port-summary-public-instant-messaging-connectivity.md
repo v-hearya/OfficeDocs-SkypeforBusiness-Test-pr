@@ -30,7 +30,7 @@ To configure your firewall for ports and protocols necessary to support public i
 
 Windows Live Messenger can participate in audio/video communications with Lync clients. This accounts for the very similar firewall port and protocol configuration that you would typically have on the firewall to support Lync clients as external users.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

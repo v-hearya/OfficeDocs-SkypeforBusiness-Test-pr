@@ -58,7 +58,7 @@ The User Activity Report is accessed from the Monitoring Reports home page. You 
 
 Although there is a lot of good information in the User Activity Report, that information can sometimes be difficult to locate. For example, all the user activity that takes place in your organization during a specified period is included in the User Activity Report; that means that, buried, within the report is information about which users actually used Microsoft Lync Server 2013 in some way.
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]

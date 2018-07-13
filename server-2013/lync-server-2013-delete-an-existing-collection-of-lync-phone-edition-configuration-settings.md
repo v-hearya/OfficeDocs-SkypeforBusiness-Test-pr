@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-23_
 
 If you no longer want to use a collection of settings for devices running Lync Phone Edition, delete it. If you delete a collection for a site, the global settings will apply to the phones in that site. You cannot delete the global collection.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -50,7 +50,7 @@ If you no longer want to use a collection of settings for devices running Lync P
 
 4.  On the **Device Configuration** page, click the collection you want to delete, click the **Edit** menu, and then click **Delete**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

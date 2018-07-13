@@ -40,7 +40,7 @@ At a minimum, each topology requires a server with Lync Server 2013 installed an
 
 You can also deploy Persistent Chat Server with Lync Server 2013 Standard Edition. In this case, the **PersistentChatService** Front End Server is collocated on the Standard Edition server, and you can deploy the **PersistentChatStore** Back End Server on the local SQL Server Express instance.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

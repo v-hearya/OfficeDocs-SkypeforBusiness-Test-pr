@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-09-11_
 
 Use one of the following procedures to create or modify a hunt group workflow.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -52,7 +52,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
 
 5.  In the **Select a Service** search field, type all or part of the name of the **ApplicationServer** service that hosts the workflow that you want to create or change. In the resulting list of services, click the service that you want, and then click **OK**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -69,7 +69,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
 
 7.  If you are ready for users to start calling the workflow, select **Activate the workflow**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -80,7 +80,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
 
 8.  To allow federated users to call the group, select the **Enable for federation** check box. You must also have an external access policy that applies to the Response Group application configured for federation.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -89,7 +89,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -100,7 +100,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
 
 9.  To hide the identity of agents during calls, select the **Enable agent anonymity** check box.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -111,7 +111,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
 
 10. Under **Enter the address of the group that will receive the calls**, type the primary SIP uniform resource identifier (URI) address of the group that will answer calls to the workflow.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -122,7 +122,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
 
 11. In **Display name**, type the name that you want to display for the workflow (for example, Sales Response Group).
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -143,7 +143,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     
     2.  Type the SIP URI of additional managers to add to the workflow, and click **Add**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -158,7 +158,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     
       - To enter the welcome message as text that is converted to speech for callers, click **Use text-to-speech**, and then type the welcome message in the text box.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -169,7 +169,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     
       - To use a wave (.wav) or Windows Media audio (.wma) file recording for the welcome message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the audio file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -180,7 +180,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
 
 18. Under **Step 4 Specify Your Business Hours**, in **Your time zone**, click the time zone for the workflow.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -193,7 +193,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     
       - To use a predefined schedule of business hours, click **Use a preset schedule**, and then select the schedule you want to use from the drop-down list.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -202,7 +202,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
         
         </div>
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -217,7 +217,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
 
 21. If you are creating a custom schedule, type the **Open** and **Close** hours for each day of the week that the response group available.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -230,7 +230,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     
       - To enter the message as text that is converted to speech for the caller, click **Use text-to-speech**, and then type the message in the text box.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -241,7 +241,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     
       - To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -262,7 +262,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
 
 24. Under **Step 5 Specify Your Holidays**, click the check boxes for one or more sets of holidays that define the days when the response group is closed for business.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -275,7 +275,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     
       - To enter the message as text that is converted to speech for the caller, click **Use text-to-speech**, and then type the message in the text box.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -286,7 +286,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     
       - To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -313,7 +313,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     
       - To use an audio file recording for the music on hold, click **Select a music file**. If you want to upload a new audio file, click the **a music file** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -342,7 +342,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     
         $promptWM = New-CsRgsPrompt -TextToSpeechPrompt "Welcome to Contoso. Please wait for an available agent."
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -361,7 +361,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     
         $actionWM = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken> -QueueID $qid
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -390,7 +390,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     
         $workflowHG = New-CsRgsWorkflow -Parent $serviceID -Name "Human Resources" -Description "Human Resources workflow" -PrimaryUri "sip:humanresources@contoso.com" -LineUri "TEL:+14255551219" -DisplayNumber "555-1219" -Active $true -Anonymous $true -DefaultAction $actionWM -EnabledForFederation $false -Managed $true -ManagersByUri "sip:bob@contoso.com", "mindy@contoso.com"
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -399,7 +399,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

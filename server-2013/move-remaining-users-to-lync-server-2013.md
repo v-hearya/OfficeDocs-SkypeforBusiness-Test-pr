@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-09-29_
 
 You can move users to the new Lync Server 2013 deployment by using either Lync Server Control Panel or Lync Server Management Shell. You must meet some requirements to ensure a smooth transition to Lync Server 2013. For details about prerequisites to completing the procedures in this topic, see [Configure clients for migration](configure-clients-for-migration.md). For detailed steps about moving users, see [Phase 4: Move test users to the pilot pool](phase-4-move-test-users-to-the-pilot-pool.md).
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -40,7 +40,7 @@ You can move users to the new Lync Server 2013 deployment by using either Lync S
 
 When you move a user to an Lync Server 2013 pool, the data for the user is moved to the back-end database that is associated with the new pool.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -50,7 +50,7 @@ When you move a user to an Lync Server 2013 pool, the data for the user is moved
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

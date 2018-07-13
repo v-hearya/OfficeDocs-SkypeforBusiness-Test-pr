@@ -30,7 +30,7 @@ To enable users to join the audio portion of on-premises conferences by dialing 
 
 Dial-in access numbers are displayed in meeting invitations and on the Dial-in Conferencing Settings webpage.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

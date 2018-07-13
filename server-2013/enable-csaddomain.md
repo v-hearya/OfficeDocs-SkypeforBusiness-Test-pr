@@ -70,7 +70,7 @@ Before you can install Lync Server in a domain, that domain must be correctly pr
 
 After the **Enable-CsAdDomain** cmdlet finishes running, you can use the **Get-CsAdDomain** cmdlet to verify that the domain is ready for the next step in the installation process.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

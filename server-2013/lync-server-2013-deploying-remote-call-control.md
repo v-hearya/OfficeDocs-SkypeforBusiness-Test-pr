@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-20_
 
 This section guides you through the process of deploying remote call control functionality to users in your organization.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

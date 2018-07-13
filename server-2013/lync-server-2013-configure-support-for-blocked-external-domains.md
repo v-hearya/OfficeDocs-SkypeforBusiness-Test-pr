@@ -46,7 +46,7 @@ Block one or more external domains from connecting to your organization. To do t
     
       - In **Domain name (or FQDN)**, type the name of the federated partner domain that you want to block.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]

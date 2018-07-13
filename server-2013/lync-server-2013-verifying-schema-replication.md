@@ -36,7 +36,7 @@ Before you run forest preparation, manually verify that the schema partition has
 
 2.  Open ADSI Edit by clicking **Start**, clicking **Administrative Tools**, and then clicking **ADSI Edit**.
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]

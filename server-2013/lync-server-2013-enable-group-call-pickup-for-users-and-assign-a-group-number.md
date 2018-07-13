@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-01-30_
 
 After you add call pickup group numbers to the call park orbit table, you assign the group numbers to users and enable Group Call Pickup for them. Use the secondary extension feature activation (SEFAUtil) resource kit tool to assign group numbers and enable Group Call Pickup.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

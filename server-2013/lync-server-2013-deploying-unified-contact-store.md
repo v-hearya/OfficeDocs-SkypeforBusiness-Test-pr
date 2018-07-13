@@ -34,7 +34,7 @@ Enabling unified contact store in Lync Server 2013 does not require any topology
 
 After a user’s contacts have been migrated, which happens automatically when a user logs in with Lync 2013, the user can access and manage their Lync contacts from Lync 2013, Outlook 2013, or Outlook Web Access. The user does not have to be logged in to Lync to manage their contacts from Outlook or Outlook Web Access.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

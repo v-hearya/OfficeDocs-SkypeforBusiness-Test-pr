@@ -30,7 +30,7 @@ Federation is a trust relationship between two or more SIP domains that permits 
 
 Use the following procedures to transition the federation route and the media traffic route from your Lync Server 2010 Edge Server and Director to your Lync Server 2013 Edge Server, for a single-site deployment.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -40,7 +40,7 @@ Use the following procedures to transition the federation route and the media tr
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -50,7 +50,7 @@ Use the following procedures to transition the federation route and the media tr
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -194,7 +194,7 @@ Use the following procedures to transition the federation route and the media tr
 
 2.  Expand the node, right-click the Edge Server listed, and then click **Edit Properties**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -235,7 +235,7 @@ Use the following procedures to transition the federation route and the media tr
 
 3.  Wait for Active Directory replication to occur to all pools in the deployment.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -254,7 +254,7 @@ Use the following procedures to transition the federation route and the media tr
 
 2.  Update the external firewall routing rules or the hardware load balancer settings to send SIP traffic for external access (usually port 443) and federation (usually port 5061) to the Lync Server 2013 Edge Server, instead of the legacy Edge Server.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

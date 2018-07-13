@@ -32,7 +32,7 @@ In addition to Forefront Security for Lync Server, we also highly recommend inst
 
 Keeping scanner engines and virus definitions updated is very important. Configuring and monitoring the health of the updates makes sure that the most current scanning information is being used to protect both Office Communications Server and file-system.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

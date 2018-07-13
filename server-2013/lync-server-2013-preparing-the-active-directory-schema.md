@@ -40,7 +40,7 @@ All .ldf files are installed during schema preparation, regardless of whether yo
 
 The Lync Server schema extensions are replicated across all domains, which impacts network traffic. Run schema preparation at a time when network usage is low.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

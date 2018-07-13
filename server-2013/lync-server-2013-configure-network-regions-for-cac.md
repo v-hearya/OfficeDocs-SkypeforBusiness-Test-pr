@@ -26,7 +26,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2012-09-21_
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -40,7 +40,7 @@ _**Topic Last Modified:** 2012-09-21_
 
 The example network topology for CAC has three regions: North America, EMEA, and APAC. Each region has a specified central site. For the North America region, the designated central site is named CHICAGO. The following procedure shows an example of how you can use the **New-CsNetworkRegion** cmdlet to create the North America region.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -36,7 +36,7 @@ Planning for call admission control (CAC) requires detailed information about yo
 
 4.  Determine the bandwidth limits for each WAN link.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -53,7 +53,7 @@ To explain these concepts, we’ll use the example network topology shown in the
 
 ![Litware Inc. Network Topology Example](images/Gg398334.477f3b52-2973-4026-9bc0-b1c6bf9f4803(OCS.15).jpg "Litware Inc. Network Topology Example")
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -83,7 +83,7 @@ Our example topology has three network regions: North America, EMEA, and APAC. A
 
 CAC requires that a Lync Server central site is defined for each network region. The central site is selected with the best network connectivity and highest bandwidth to all the other sites within that network region. The preceding example of network topology shows three network regions, each with a central site that manages CAC decisions. From the preceding example, the appropriate association is shown in the following table.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -177,7 +177,7 @@ CAC bandwidth policies can define any or all of the following:
 
   - Maximum bandwidth allocated for a single video call (session).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -187,7 +187,7 @@ CAC bandwidth policies can define any or all of the following:
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -262,7 +262,7 @@ Use the following table to help optimize the maximum per-session bandwidth setti
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -350,7 +350,7 @@ For each network site, you will need to work with your network administrator to 
 
 In our example, the New York site in the North America region is assigned the following IP subnets: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. Suppose Bob, who typically works in Detroit, travels to the New York office for training. When he turns on his computer and connects to the network, his computer will get an IP address in one of the four ranges reserved for New York, for example 172.29.80.103.
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]

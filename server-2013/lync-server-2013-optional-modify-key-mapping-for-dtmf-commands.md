@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-09-30_
 
 Dial-in conferencing users can press keys on the telephone keypad to perform dual-tone multi-frequency (DTMF) commands. DTMF commands enable users who dial in to a conference to control conference settings (such as muting and unmuting themselves or locking and unlocking the conference) by using the keypad on their telephone. You can use cmdlets to modify the keys used for the DTMF commands. This step is optional.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

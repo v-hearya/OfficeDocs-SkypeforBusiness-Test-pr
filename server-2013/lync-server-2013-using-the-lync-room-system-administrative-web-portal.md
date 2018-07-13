@@ -114,7 +114,7 @@ The Health section gives a visual indication of the health of the Lync Server co
 
 ## Additional Notes about the Administrative Web Portal
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

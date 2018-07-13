@@ -46,7 +46,7 @@ The procedure in this topic describes how to assign a **Line URI** for a single 
 
 6.  Under **Telephony**, in the **Line URI** field, type a unique, normalized phone number (for example, tel:+14255550200).
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

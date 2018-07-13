@@ -44,7 +44,7 @@ When you deploy Call Park, you need to reserve ranges of extension numbers for p
 
 You also configure other Call Park settings, such as where calls are redirected if they time out and whether the person on the phone hears music while parked. You can also specify the music file to play while the call is on hold.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

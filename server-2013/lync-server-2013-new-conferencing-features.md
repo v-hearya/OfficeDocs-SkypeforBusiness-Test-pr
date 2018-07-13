@@ -50,7 +50,7 @@ Lync Server 2013 introduces several new features that enhance conferencing, as d
     
     In video conferences, users can see videos of up to five conference participants at the same time.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

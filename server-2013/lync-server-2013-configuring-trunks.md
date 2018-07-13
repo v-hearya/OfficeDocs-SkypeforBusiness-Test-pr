@@ -36,7 +36,7 @@ As part of Enterprise Voice deployment, you can configure a trunk between a Medi
 
 For details, see [Planning for PSTN connectivity in Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md) in the Planning documentation.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -46,7 +46,7 @@ For details, see [Planning for PSTN connectivity in Lync Server 2013](lync-serve
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

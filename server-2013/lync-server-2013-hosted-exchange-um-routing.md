@@ -48,7 +48,7 @@ Alice’s mailbox and Exchange UM service are located at a hosted Exchange servi
 
   - The values set in the msExchUCVoiceMailSettings attribute of Alice’s user account tell the ExUM Routing application to check for routing details in a hosted voice mail policy.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -63,7 +63,7 @@ Alice’s mailbox and Exchange UM service are located at a hosted Exchange servi
     
       - Organizations are identified by the tenant IDs, which are the routing FQDNs for SIP messages for Exchange Server tenants that are located on ls.ExUm.\<hostedExchangeServer\>.com (corp.contoso.com and corp.litwareinc.com in this example).
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -74,7 +74,7 @@ Alice’s mailbox and Exchange UM service are located at a hosted Exchange servi
         
         For details, see [Hosted voice mail policies in Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

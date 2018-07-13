@@ -52,7 +52,7 @@ As you develop your plan, you need to consider, and account for, the following:
 
 Modify the backup and restoration procedures in this topic, adding and deleting procedures as appropriate, to reflect the servers and components in your deployment. You can also add appropriate details, such as the backup schedule, to the appropriate procedures to make sure that the information is not overlooked.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

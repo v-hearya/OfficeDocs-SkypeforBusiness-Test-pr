@@ -36,7 +36,7 @@ To support access by users of federated domains, you must enable federation. If 
 
 If you later want to temporarily or permanently prevent access by users of federated domains, you can disable federation for your organization. Use the procedure in this section to enable or disable federated user access for your organization, including specifying the appropriate federation options to be supported for your organization.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

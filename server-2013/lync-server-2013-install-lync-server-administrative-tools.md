@@ -30,7 +30,7 @@ This topic describes how to install the administrative tools you need to use to 
 
 Make sure that you review infrastructure, operating system, software, and administrator rights requirements before you install or use the Lync Server 2013 administrative tools. For details about infrastructure requirements, see [Administrative tools infrastructure requirements in Lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md). For details about operating system and software requirements to install the Lync Server 2013 administrative tools, see [Server and tools operating system support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md), [Additional software requirements for Lync Server 2013](lync-server-2013-additional-software-requirements.md), and [Additional server support and requirements in Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md). For details about the user rights and permissions required to install and use the tools, see [Administrator rights and permissions required for setup and administration of Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md).
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -52,7 +52,7 @@ Make sure that you review infrastructure, operating system, software, and admini
 
 4.  On the **Microsoft Lync Server 2013 Installation Location** page, click **OK**. Change this path to another location or drive if you need to have the files installed to another location.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

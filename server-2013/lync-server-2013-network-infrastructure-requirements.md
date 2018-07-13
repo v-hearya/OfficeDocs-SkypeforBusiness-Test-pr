@@ -42,7 +42,7 @@ Network requirements for audio/video (A/V) in a Lync Server deployment include t
 
   - If you are deploying a single Edge Server or an Edge pool using DNS load balancing, you can configure the external firewall as a NAT. You cannot configure the internal firewall as a NAT. For details about these requirements, see [Determine external A/V firewall and port requirements for Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md) in the Planning documentation.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

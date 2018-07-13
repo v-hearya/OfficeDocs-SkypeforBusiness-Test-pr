@@ -84,7 +84,7 @@ Simple Network Management Protocol (SNMP)   Simple Network Management Protoco
 
   - A management protocol, SNMP, is used to communicate management information between the management stations and agents. Management information refers to a collection of managed objects that live in a virtual information store called a Management Information Base (MIB).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

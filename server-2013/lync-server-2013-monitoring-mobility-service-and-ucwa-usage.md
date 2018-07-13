@@ -42,7 +42,7 @@ In addition to CPU and memory usage counters, you can use the following performa
 
   - **ASP.NET\\Requests Queued** (should always be zero).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -66,7 +66,7 @@ In addition to CPU and memory usage counters, you can use the following ASP.NET 
 
   - **ASP.NET\\Requests Queued** (should always be zero).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2014-03-27_
 
 If you have already deployed you Edge server or servers, adding the federated scenarios features is straight forward. If you have not set up Edge Servers, you must do that first. For details, see: [Planning for external user access in Lync Server 2013](lync-server-2013-planning-for-external-user-access.md) in the Planning documentation and [Deploying external user access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) in the Deployment documentation.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -52,7 +52,7 @@ If you have already deployed you Edge server or servers, adding the federated sc
 
 5.  At Setup Lync Server components, click Next. The summary screen will show actions as they are executed. Once the deployment is done, click View Log to view available log files. Click Finish to complete the deployment.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -122,7 +122,7 @@ If you have already deployed you Edge server or servers, adding the federated sc
     <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Create or edit hosted SIP federated providers Lync Server 2013</a></p></li>
     </ul></td>
     <td><p>This federation type defines services and hosting providers that you want to configure for your users. Typical uses include configuration for public IM providers like Windows Live Messenger, Yahoo! and AOL, as well as hosting providers such as Lync Online and Office 365</p>
-    <div class="alert">
+    <div>
 
     > [!IMPORTANT]
     > <UL>
@@ -144,7 +144,7 @@ If you have already deployed you Edge server or servers, adding the federated sc
 
 3.  Define and configure any policies using the Lync Server Control Panel or by using the Lync Server Management Shell and the appropriate cmdlets. For details on the Lync Server Management Shell cmdlets, see [Federation and external access cmdlets in Lync Server 2013](lync-server-2013-federation-and-external-access-cmdlets.md)
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

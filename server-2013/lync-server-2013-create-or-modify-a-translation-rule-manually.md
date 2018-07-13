@@ -58,7 +58,7 @@ Follow these steps if you want to define a translation rule by writing a regular
 
 10. On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

@@ -54,7 +54,7 @@ Best Practices Analyzer compares the data it gathers with a set of predefined ru
 
 After comparing the collected data with the predefined rules, the tool reports issues. For every issue that it reports, Best Practices Analyzer provides information about what was found in the scanned Lync Server 2013 environment and the recommended configuration. Best Practices Analyzer also provides links to more detailed information about the specific issues.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

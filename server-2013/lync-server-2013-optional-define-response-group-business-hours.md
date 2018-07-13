@@ -32,7 +32,7 @@ _**Topic Last Modified:** 2012-11-01_
 
 Business hour settings define when the workflow is available to answer calls and specify the actions to take for calls outside of business hours. Response Group administrators can use the **New-CsRgsHoursOfBusiness** cmdlet to create predefined schedules that you can use for any number of response groups.
 
-<div class="alert">
+<div>
 
 
 > [!TIP]
@@ -42,7 +42,7 @@ Business hour settings define when the workflow is available to answer calls and
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -52,7 +52,7 @@ Business hour settings define when the workflow is available to answer calls and
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

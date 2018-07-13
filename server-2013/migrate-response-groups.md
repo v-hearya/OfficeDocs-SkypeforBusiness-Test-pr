@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-09-23_
 
 After your users are moved to Lync Server 2013 pools, you can migrate your response groups. Migrating response groups includes copying agent groups, queues, workflows, audio files, and moving Response Group contact objects from the legacy deployment to the Lync Server 2013 pool. After you migrate your legacy response groups, calls to the response groups are handled by the Response Group application in the Lync Server 2013 pool. Calls to response groups are no longer handled by the legacy pool.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -40,7 +40,7 @@ After your users are moved to Lync Server 2013 pools, you can migrate your respo
 
 Before you migrate response groups, you must have deployed a Lync Server 2013 pool that includes the Response Group application. The Response Group application is installed and activated by default when you deploy Enterprise Voice. You can ensure that the Response Group application is installed by running the **Get-CsService –ApplicationServer** cmdlet.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -52,7 +52,7 @@ Before you migrate response groups, you must have deployed a Lync Server 2013 po
 
 To migrate response groups from a legacy pool to the Lync Server 2013, you run the **Move-CsRgsConfiguration** cmdlet.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -66,7 +66,7 @@ After you migrate the response groups, you need to use Lync Server Control Panel
 
 When you migrate response groups, the Lync Server 2010 response groups are not removed. When you manage response groups after migration by using either Lync Server Control Panel or Lync Server Management Shell, you can see both the Lync Server 2010 response groups and the Lync Server 2013 response groups. You should apply updates only to the Lync Server 2013 response groups. The Lync Server 2010 response groups are retained only for rollback purposes.
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]
@@ -76,7 +76,7 @@ When you migrate response groups, the Lync Server 2010 response groups are not r
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

@@ -36,7 +36,7 @@ For example:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -48,7 +48,7 @@ For example:
 
 A single computer scope can be defined during the execution of a [Search-CsClsLogging](search-csclslogging.md), [Show-CsClsLogging](show-csclslogging.md), [Start-CsClsLogging](start-csclslogging.md), [Stop-CsClsLogging](stop-csclslogging.md), [Sync-CsClsLogging](sync-csclslogging.md) and [Update-CsClsLogging](update-csclslogging.md) command using the –Computers parameter. The –Computers parameter accepts a comma separated list of fully qualified domain names (FQDNs) for the target computer.
 
-<div class="alert">
+<div>
 
 
 > [!TIP]
@@ -60,7 +60,7 @@ A single computer scope can be defined during the execution of a [Search-CsClsLo
 
 Site and Global scopes are defined in the **New-**, **Set-**, and **Remove-** Centralized Logging Service cmdlets. The following examples demonstrate how to set a site and a global scope.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -152,7 +152,7 @@ The command tells the CLSAgent on each computer and pool in the deployment to se
     
         Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40 -EtlFileFolder "C:\LogFiles\Tracing" 
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -175,7 +175,7 @@ The command tells the CLSAgent on each computer and pool in the site Redmond to 
     
         New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -206,7 +206,7 @@ You should carefully plan the creation of new configurations and how you define 
     
         Remove-CsClsConfiguration -Identity "site:Redmond"
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

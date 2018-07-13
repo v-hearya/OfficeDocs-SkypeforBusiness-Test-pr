@@ -38,7 +38,7 @@ Verify the following fields in your conferencing policy:
 
   - **Allow participants not enabled for Enterprise Voice to dial out**   This setting allows meeting participants and organizers that are not enabled for Enterprise Voice to dial out to a phone number to join the audio portion of the conference. The dial-out call is authorized based on the organizer’s assigned voice policy. This setting is not selected by default in the default global conferencing policy. The setting default value is disabled.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

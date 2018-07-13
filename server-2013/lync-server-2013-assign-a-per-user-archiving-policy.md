@@ -60,7 +60,7 @@ For details about creating per-user archiving policies, see [Creating an Archivi
     
     4.  Depending on the user property you selected, enter the criteria you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
         
-        <div class="alert">
+        <div>
         
 
         > [!TIP]
@@ -73,7 +73,7 @@ For details about creating per-user archiving policies, see [Creating an Archivi
 
 6.  Click a user in the search results, click **Action**, and then click **Assign policies**.
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]
@@ -84,7 +84,7 @@ For details about creating per-user archiving policies, see [Creating an Archivi
 
 7.  In **Assign Policies**, under **Archiving policy**, do one of the following:
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -97,7 +97,7 @@ For details about creating per-user archiving policies, see [Creating an Archivi
     
       - Click the name of a per-user archiving policy you previously defined on the **Archiving Policy** page.
         
-        <div class="alert">
+        <div>
         
 
         > [!TIP]

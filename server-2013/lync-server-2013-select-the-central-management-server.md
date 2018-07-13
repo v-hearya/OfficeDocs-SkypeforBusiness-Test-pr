@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-01-02_
 
 Before you can define and configure your topology, you must first define the location to install the Central Management Server.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

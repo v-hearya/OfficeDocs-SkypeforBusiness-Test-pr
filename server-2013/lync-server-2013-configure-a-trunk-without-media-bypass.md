@@ -52,7 +52,7 @@ A trunk configuration, as described below, groups a set of parameters that are a
         
           - **Pool trunk:** Choose the name of the trunk that this trunk configuration applies to in **Select a Service** and click **OK**. This trunk can be the root trunk, or any additional trunks defined in Topology Builder. Note that if a trunk configuration has already been created for a specific trunk, the trunk does not appear in **Select a Service**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -87,7 +87,7 @@ A trunk configuration, as described below, groups a set of parameters that are a
         
         2.  In the **Name** field, specify a descriptive name for the record that is unique.
             
-            <div class="alert">
+            <div>
             
 
             > [!NOTE]
@@ -124,7 +124,7 @@ A trunk configuration, as described below, groups a set of parameters that are a
         
         3.  Click **OK**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -135,7 +135,7 @@ A trunk configuration, as described below, groups a set of parameters that are a
 
 10. Arrange the PSTN usage records for optimum performance. To change a record’s position in the list, select the PSTN usage record, and click the up or down arrows.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -164,7 +164,7 @@ A trunk configuration, as described below, groups a set of parameters that are a
     
       - To remove a translation rule from the trunk, highlight the rule name and click **Remove**.
     
-    <div class="alert">
+    <div>
     
     <table>
     <thead>
@@ -193,7 +193,7 @@ A trunk configuration, as described below, groups a set of parameters that are a
     
       - To remove a translation rule from the trunk, highlight the rule name and click **Remove**.
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]
@@ -204,7 +204,7 @@ A trunk configuration, as described below, groups a set of parameters that are a
 
 17. Make sure that the trunk’s translation rules are arranged in the correct order. To change a rule’s position in the list, highlight the rule name, and then click the up or down arrow.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -217,7 +217,7 @@ A trunk configuration, as described below, groups a set of parameters that are a
 
 19. On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

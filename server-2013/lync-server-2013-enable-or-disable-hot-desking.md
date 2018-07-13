@@ -49,7 +49,7 @@ You use the EnableHotdesking parameter of the **New-CSClientPolicy** cmdlet or t
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

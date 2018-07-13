@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-23_
 
 View details about device update rules that have already been imported, including the type, model, and brand of devices the update applies to; version and type of update; and locale and pool for the update. Information is available for all imported device update rules—those that are pending approval, deployed (approved), recalled (restored), and those you’ve decided not to use (reset). Access this information from either Lync Server Control Panel or Windows PowerShell.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -56,7 +56,7 @@ View details about device update rules that have already been imported, includin
 
 Detailed information about all your device update rules can also be viewed by using Windows PowerShell and the **Get-CsDeviceUpdateRule** cmdlet. This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

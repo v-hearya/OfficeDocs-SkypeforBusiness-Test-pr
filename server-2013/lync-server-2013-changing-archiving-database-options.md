@@ -40,7 +40,7 @@ To make either of these changes, you must run Topology Builder, make the changes
 
 1.  On a computer that is running Lync Server 2013, or on which the Lync Server administrative tools are installed, log on by using an account that is a member of the local Users group (or an account with equivalent user rights).
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -99,7 +99,7 @@ To make either of these changes, you must run Topology Builder, make the changes
     
       - To switch to Microsoft Exchange integration to store archiving data and files on Exchange 2013 servers (if all users in your deployment are homed on your Exchange 2013 servers), delete all information for Archiving databases.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -110,7 +110,7 @@ To make either of these changes, you must run Topology Builder, make the changes
 
 8.  To save the configuration, click **OK**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

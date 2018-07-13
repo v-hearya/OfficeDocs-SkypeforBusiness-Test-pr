@@ -32,7 +32,7 @@ When you create workflows, there are two possible scenarios:
 
   - **The Administrator creates the workflow and the Manager configures options** — The CsResponseGroupAdministrator role member (or equivalent) defines the primary SIP URI, Display Name, assigns a member or members of the CsResponseGroupManager role, and selects a queue and activates the workflow. The CsResponseGroupManager can then log on and edit the configuration of the workflow by creating agent groups and also assigns the group to the queue, configuring the telephone number, holiday and business hours, music on hold, and so on.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

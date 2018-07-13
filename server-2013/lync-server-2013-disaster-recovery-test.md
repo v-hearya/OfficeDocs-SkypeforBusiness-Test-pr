@@ -87,7 +87,7 @@ To facilitate the failover, this CNAME record must be updated to reference the D
 
   - OCSServices.\<domain\>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

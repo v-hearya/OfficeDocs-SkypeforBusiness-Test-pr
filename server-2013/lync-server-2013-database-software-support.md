@@ -44,7 +44,7 @@ Lync Server 2013 supports the following database management systems:
         
         We support the patching and upgrade of Microsoft SQL Server on Front End Servers and Standard Edition servers. However, when you make any kind of upgrade or patch on Front End Servers, you must account for quorum requirements. For more information, see [Upgrade or update Front End Servers in Lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md) and [Topologies and components for Front End Servers, instant messaging, and presence in Lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -53,7 +53,7 @@ Lync Server 2013 supports the following database management systems:
     
     </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -73,7 +73,7 @@ Lync Server 2013 supports the following database management systems:
 
 In a Front End pool, the back-end database can be a single SQL Server computer.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

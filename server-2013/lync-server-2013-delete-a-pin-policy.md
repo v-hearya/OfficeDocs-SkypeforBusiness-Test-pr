@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-23_
 
 Follow these steps to delete a personal identification number (PIN) policy.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -42,7 +42,7 @@ To successfully complete this procedure, you should be logged on to the server o
 
 5.  Click **IP Address**, type the virtual IP (VIP) of the load balancer for the Front End pool.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -51,7 +51,7 @@ To successfully complete this procedure, you should be logged on to the server o
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

@@ -38,7 +38,7 @@ For details, see the Lync Server Management Shell documentation for the followin
 
   - [Remove-CsNetworkInterSitePolicy](remove-csnetworkintersitepolicy.md)
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

@@ -38,7 +38,7 @@ A Persistent Chat administrator can create and manage chat room categories. As p
 
 Persistent Chat Server relies on Active Directory for the pool of internal Persistent Chat users. After you install Persistent Chat (client), you can add domains of users and user groups to the room category. You can then add these users and groups to the membership of your room categories.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -72,7 +72,7 @@ A category’s **AllowedMembers** must include all users who will use any Persis
 
 Categories can also be used to create ethical walls. Ethical walls prevent any conflict of interest in an organization. For example, an administrator can create chat rooms in a category for traders only, whereas chat rooms in another category can be used by analysts only.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

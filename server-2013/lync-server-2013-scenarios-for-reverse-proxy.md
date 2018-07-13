@@ -48,7 +48,7 @@ When planning your Lync Server 2013 deployment, you map the actual requirements 
 
 2.  Lync Server 2013 external web services (deployed on the Front End Server and/or the Director) expect a connection from a reverse proxy on port TCP 4443, and it expects that the connection will be SSL/TLS.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -71,7 +71,7 @@ When planning your Lync Server 2013 deployment, you map the actual requirements 
     
       - The Office Web Apps Server when conferencing is defined and configured as part of the Lync Server topology
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]

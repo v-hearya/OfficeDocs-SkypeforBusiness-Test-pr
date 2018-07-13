@@ -48,7 +48,7 @@ When you upgrade servers, you must do so one Upgrade Domain at a time. Bring eac
     
     1.  Stop new connections to the Front End Servers you are going to upgrade by using the `Stop-CsWindowsService -Graceful -Verbose` cmdlet.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]

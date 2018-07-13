@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-09-28_
 
 You must use Topology Builder to build your topology and you must set up at least one internal Front End pool or Standard Edition server before you can deploy your Edge Server. Use the following procedure to define the edge topology for a single Edge Server, and then use the procedures in [Publish your topology in Lync Server 2013](lync-server-2013-publish-your-topology.md) and [Export your Lync Server 2013 topology and copy it to external media for edge installation](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md) to publish the topology and make it available to your Edge Server.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -42,7 +42,7 @@ To successfully publish, enable, or disable a topology when adding or removing a
 
 If you defined your edge topology when you defined and published your internal topology, and no changes are required to the edge topology that you previously defined, you do not need to do define it and publish it again. Use the following procedure only if you need to make changes to your edge topology. You must make the previously defined and published topology available to your Edge Servers, which you do by using the procedure in [Export your Lync Server 2013 topology and copy it to external media for edge installation](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md).
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -76,7 +76,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     
       - In **Pool FQDN**, type the fully qualified domain name (FQDN) of the internal interface for the Edge Server.
         
-        <div class="alert">
+        <div>
         
 
         > [!IMPORTANT]
@@ -93,7 +93,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     
       - If you plan to enable federation select the **Enable federation for this Edge pool (Port 5061)** check box.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -120,7 +120,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     
       - If in **Select features** you chose to use a single FQDN and IP address for the SIP access, Web Conferencing service, and A/V Edge service, type the external FQDN in **SIP Access**.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -145,7 +145,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     
       - If you chose to use IPv6 addresses and did not chose to use a single FQDN and IP Address for the SIP access, Web Conferencing service, and A/V Edge service, type the external IPv6 addresses of the Edge Server in **SIP Access**, **Web Conferencing**, and **A/V Conferencing**, and then click **Next**.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -156,7 +156,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
 
 12. If you chose to use NAT, a dialog box appears. In **Public IPv4 address for the A/V Edge service**, type the public IPv4 address to be translated by NAT, and then click **Next**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -167,7 +167,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
 
 13. If you chose to use NAT and IPv6 addresses, a dialog box appears. In **Public IPv6 address for the A/V Edge service**, type the public IPv6 address to be translated by NAT, and then click **Next**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -180,7 +180,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
 
 15. In **Associate Front End pools**, specify one or more internal pools, which can include Front End pools and Standard Edition servers, to be associated with this Edge Server, by selecting the names of the internal pools that are to use this Edge Server for communication with supported external users.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -211,7 +211,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     
       - In **Pool FQDN**, type the fully qualified domain name (FQDN) for the internal connection of the Edge pool.
         
-        <div class="alert">
+        <div>
         
 
         > [!IMPORTANT]
@@ -228,7 +228,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     
       - If you plan to enable federation, select the **Enable federation for this Edge pool (Port 5061)** check box. Click **Next**
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -257,7 +257,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     
       - If in **Select features** you chose to use a single FQDN and IP Address for the SIP access, Web Conferencing service, and A/V Edge service, type the external FQDN in **SIP Access**.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -278,7 +278,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     
       - In **Internal FQDN**, type the FQDN of the first Edge Server that you want to create in this pool.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -303,7 +303,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     
       - If you did not chose to use a single FQDN and IP Address for the SIP access, Web Conferencing service, and A/V Conferencing service, type the IPv6 address that you have chosen for your public facing side of this Edge pool server for **SIP Access**. In **Web Conferencing**, type the IPv6 address that you have chosen for your public facing side of this Edge pool server. In **A/V Conferencing**, type the IPv6 address you have chosen for your public facing side of this Edge pool server.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -314,7 +314,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
 
 17. Click **Finish**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -327,7 +327,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
 
 19. After you repeat steps 11 through 14, click **Next** in **Define the computers in this pool**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -338,7 +338,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
 
 20. If you chose to use NAT, a dialog box appears. In **Public IP address**, type the public IPv4 and IPv6 (as appropriate) addresses to be translated by NAT, and then click **Next**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -351,7 +351,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
 
 22. In **Associate Front End pools**, specify one or more internal pools, which can include Front End pools and Standard Edition servers, to be associated with this Edge Server, by selecting the names of the internal pool(s) that is to use this Edge Server for communication with supported external users.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -382,7 +382,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     
       - In **FQDN**, type the fully qualified domain name (FQDN) you have chosen for the internal side of the Edge pool.
         
-        <div class="alert">
+        <div>
         
 
         > [!IMPORTANT]
@@ -401,7 +401,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     
       - If you plan to enable federation, select the **Enable federation for this Edge pool (Port 5061)** check box.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -424,7 +424,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     
       - **Enable IPv6 on external interface**: Select the check box if you want to apply an IPv6 address to the Edge Server or Edge pool external interface
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -437,7 +437,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     
       - If in **Select features** you chose to use a single FQDN and IP address for the SIP access, Web Conferencing service, and A/V Edge service, type the external FQDN in **SIP Access**.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -448,7 +448,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     
       - If in **Select features** you did not chose to use a single FQDN and IP address, type the FQDN that you have chosen for your public facing side of the edge pool for in **SIP Access**. In **Web Conferencing**, type the FQDN you have chosen for your public facing side of the Edge pool. In **Audio/Video**, type the FQDN you have chosen for your public facing side of the Edge pool. Use the default ports.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -475,7 +475,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     
       - If you did not chose to use a single FQDN and IP Address for the SIP access, Web Conferencing service, and A/V Conferencing service, type the IPv6 address that you have chosen for your public facing side of this Edge pool server for **SIP Access**. In **Web Conferencing**, type the IPv6 address that you have chosen for your public facing side of this Edge pool server. In **A/V Conferencing**, type the IPv6 address you have chosen for your public facing side of this Edge pool server.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -486,7 +486,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
 
 15. Click **Finish**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -499,7 +499,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
 
 17. After you repeat steps 11 through 14, click **Next** in **Define the computers in this pool**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -512,7 +512,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
 
 19. In **Associate Front End pools**, specify one or more internal pools, which can include Front End pools and Standard Edition servers, to be associated with this Edge Server, by selecting the names of the internal pool(s) that is to use this Edge Server for communication with supported external users.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

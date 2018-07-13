@@ -32,7 +32,7 @@ Even if your Lync Server 2013 deployment is modest, you probably have components
 
 Use this section as a starting point to address the security of your Lync Server 2013 deployment. It provides general guidelines and best practices for assessing and managing the most common security risks. Additional product and security resources are listed at the end of each topic.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

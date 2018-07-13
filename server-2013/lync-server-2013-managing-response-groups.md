@@ -30,7 +30,7 @@ Response groups are a call management feature that enables you to queue calls th
 
 To manage response groups, you configure agent groups, queues, and workflows, which define what happens to a call from the time it is placed until an agent answers it.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

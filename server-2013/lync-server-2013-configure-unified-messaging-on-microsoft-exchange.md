@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-24_
 
 This topic describes how to configure Exchange Unified Messaging (UM) on a Microsoft Exchange Server for use with Enterprise Voice.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -44,7 +44,7 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
 
 1.  Create a UM Session Initiation Protocol (SIP) Uniform Resource Identifier (URI) dial plan for each of your Enterprise Voice location profiles. If you choose to use the Exchange Management Console, create a new dial plan with the security setting **Secured (preferred)**.
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]
@@ -65,7 +65,7 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
     
       - For Exchange 2013, see "Unified Messaging" at [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579).
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -90,7 +90,7 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
 
 3.  Record the dial plan name of each UM dial plan. Depending on your version of Exchange Server, you may need to use the FQDN of each dial plan name later as the name of each UM dial plan’s corresponding Lync Server dial plan so that the dial plan names match.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -116,7 +116,7 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
             $ums[0].DialPlans +=$dp.Identity; 
             set-umservice -instance $ums[0]
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -137,7 +137,7 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
     
     If you have one or more UM dial plans that are associated with multiple IP gateways, continue to step 6. If your dial plans are each associated with only a single IP gateway, skip step 6.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -148,7 +148,7 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
 
 6.  Using either the Exchange Management Shell or Exchange Management Console, disable outbound calling for all but one of the IP gateways associated with each of your dial plans.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -157,7 +157,7 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -176,7 +176,7 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
     
       - If you use the Exchange Management Console, clear the **Allow outgoing calls through this IP gateway** check box.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -187,7 +187,7 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
 
 7.  Create a UM auto-attendant for each Lync Server dial plan.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -208,7 +208,7 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
 
 8.  Associate Exchange UM users (each of whom should be configured with an Exchange mail box) with the UM dial plan and create a SIP URI for each user.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

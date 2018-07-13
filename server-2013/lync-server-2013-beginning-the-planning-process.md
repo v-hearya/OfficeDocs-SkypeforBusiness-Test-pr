@@ -44,7 +44,7 @@ You can run the Planning Tool multiple times, answering questions differently, a
 
 After you are satisfied, you can use the Planning Tool to create a diagram of your planned deployment. You can use this diagram while creating the deployment in Topology Builder.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

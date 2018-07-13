@@ -54,7 +54,7 @@ Users will experience the following behavior when a Lync Server 2013 client is u
 
   - For multiparty conferences, video resolution and video conferencing features are the same as experienced by a legacy client in the legacy pool.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-09-17_
 
 The topics in this section guide you through the process of migrating from Lync Server 2010 to Lync Server 2013.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

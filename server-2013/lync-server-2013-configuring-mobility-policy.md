@@ -46,7 +46,7 @@ For users to be able to use Call via Work, they must meet the following two addi
 
   - Users must be assigned a mobility policy that has the **EnableOutsideVoice** option set to True.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -70,7 +70,7 @@ For details about enabling users for Lync Server 2013, see [Disable or re-enable
     
         Set-CsMobilityPolicy -EnableMobility $False -EnableOutsideVoice $False
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

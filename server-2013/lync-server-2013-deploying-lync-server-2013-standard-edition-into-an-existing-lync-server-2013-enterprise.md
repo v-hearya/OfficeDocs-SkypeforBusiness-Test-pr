@@ -44,7 +44,7 @@ Deploying a Standard Edition server into an existing Enterprise Edition deployme
 
 6.  Set up and install a Standard Edition server.
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]

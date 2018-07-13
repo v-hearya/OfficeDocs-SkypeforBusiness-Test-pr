@@ -30,7 +30,7 @@ Federation is a trust relationship between two or more SIP domains that permits 
 
 Use the procedures that follow to transition the federation route and the media traffic route from your Office Communications Server 2007 R2 Edge Server and Director to your Lync Server 2013 Edge Server, for a single-site deployment.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -40,7 +40,7 @@ Use the procedures that follow to transition the federation route and the media 
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -55,7 +55,7 @@ Use the procedures that follow to transition the federation route and the media 
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -109,7 +109,7 @@ To successfully publish, enable, or disable a topology when adding or removing a
 
 5.  In **Specify External Edge**, clear the **This Edge pool is used for federation and public IM connectivity** check box. This will remove the federation association with the BackCompatSite.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -174,7 +174,7 @@ To successfully publish, enable, or disable a topology when adding or removing a
 
 2.  Expand the node, right-click the Edge Server listed, and then click **Edit Properties**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -233,7 +233,7 @@ To successfully publish, enable, or disable a topology when adding or removing a
 
 3.  Wait for Active Directory replication to occur to all pools in the deployment.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -272,7 +272,7 @@ To successfully publish, enable, or disable a topology when adding or removing a
 
 2.  Update the external firewall routing rules or the hardware load balancer settings to send SIP traffic for external access (usually port 443) and federation (usually port 5061) to the Lync Server 2013 Edge Server, instead of the legacy Edge Server.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

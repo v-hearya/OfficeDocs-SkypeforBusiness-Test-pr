@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2014-05-22_
 
 To use the Lync Room System (LRS) Administrative Web Portal, you will need to install or configure the following prerequisites.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

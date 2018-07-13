@@ -38,7 +38,7 @@ Following are the requirements for the public certificate used for access and we
 
   - The subject name of the certificate is the Access Edge service external interface fully qualified domain name (FQDN) or hardware load balancer VIP (for example, access.contoso.com). ). The subject name can’t have a wildcard character, it must be an explicit name.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -51,7 +51,7 @@ Following are the requirements for the public certificate used for access and we
     
       - The Access Edge service external interface or hardware load balancer VIP (for example, sip.contoso.com).
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -66,7 +66,7 @@ Following are the requirements for the public certificate used for access and we
     
       - The A/V Edge service does not use the subject name or the subject alternative names entries.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

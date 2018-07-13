@@ -32,7 +32,7 @@ The mobility feature introduced in the Cumulative Updates for Lync Server 2013: 
 
 The mobility feature introduced in the Cumulative Updates for Lync Server 2013: February 2013 supports Lync 2013 Mobile client functionality. The Cumulative Updates for Lync Server 2013: February 2013 install Unified Communications Web API, or UCWA. UCWA is the component used for Lync 2013 Mobile clients. In Lync Server 2013, Mcx is used for Lync 2010 Mobile clients. Cumulative Updates for Lync Server 2013: February 2013 introduce UCWA as the new entry point for mobility services. Lync Server 2013 concurrently implements the Mobility Service (Mcx), introduced in the Cumulative Updates for Lync Server 2010: November 2011, and provides support for Lync 2010 Mobile. When you deploy the Cumulative Updates for Lync Server 2013: February 2013, users can use supported Apple iOS, Android, and Windows Phone mobile devices to perform such activities as:
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -62,7 +62,7 @@ The mobility feature introduced in the Cumulative Updates for Lync Server 2013: 
 
   - Attendee video (H.264)
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -74,7 +74,7 @@ The mobility feature introduced in the Cumulative Updates for Lync Server 2013: 
 
 Apple iPad users will have access to enhanced capabilities. After joining a meeting by using audio call back, an iPad user will be able to view uploaded Microsoft PowerPoint presentations within a meeting, share applications and desktops, view the meeting participant list, and receive notifications of other content types that are being shared within the meeting.
 
-<div class="alert">
+<div>
 
 
 > [!TIP]
@@ -84,7 +84,7 @@ Apple iPad users will have access to enhanced capabilities. After joining a meet
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -96,7 +96,7 @@ Apple iPad users will have access to enhanced capabilities. After joining a meet
 
 When you use the Lync Server 2013 Autodiscover feature, mobile applications can automatically locate Lync Server 2013 Web Services without requiring users to manually enter the URLs in their device settings. Manually entering URLs in mobile device settings is also supported, primarily for troubleshooting purposes.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

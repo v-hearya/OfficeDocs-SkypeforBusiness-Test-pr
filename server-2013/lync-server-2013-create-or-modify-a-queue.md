@@ -34,7 +34,7 @@ Use one of the following procedures to create or modify a queue.
 
 1.  Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -65,7 +65,7 @@ Use one of the following procedures to create or modify a queue.
     
       - To change the order in which agents are searched, in the list of agent groups, click a group, and then click the up arrow or down arrow.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -122,7 +122,7 @@ Use one of the following procedures to create or modify a queue.
 
 1.  Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -141,7 +141,7 @@ Use one of the following procedures to create or modify a queue.
     
         "All agents are currently busy. Please call back later."
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -154,7 +154,7 @@ Use one of the following procedures to create or modify a queue.
     
         $actionTO = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -175,7 +175,7 @@ Use one of the following procedures to create or modify a queue.
     
         $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -188,7 +188,7 @@ Use one of the following procedures to create or modify a queue.
     
         $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -209,7 +209,7 @@ Use one of the following procedures to create or modify a queue.
     
         $agid = (Get-CsRgsAgentGroup -Name "Help Desk").Identity;
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

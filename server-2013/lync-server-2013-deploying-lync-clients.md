@@ -34,7 +34,7 @@ Lync 2013 introduces a different approach to client deployment. In a departure f
 
 The topics in this section focus on how to deploy clients by using the Office 2013 MSI-based installer. Your primary reference should be the Office 2013 Resource Kit documentation, which describes in detail how to prepare your infrastructure, customize setup, and deploy Office 2013. However, you should use the Office documentation in conjunction with topics in this section, which point out deployment considerations that are specific to Lync 2013.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

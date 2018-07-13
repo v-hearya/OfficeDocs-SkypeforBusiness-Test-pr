@@ -76,7 +76,7 @@ You can create CDR configuration settings by using either Lync Server Control Pa
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

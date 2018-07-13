@@ -38,7 +38,7 @@ Most Edge components are deployed in a perimeter network. The following componen
 
   - Load balancing for Scaled Edge Topologies (either DNS load balancing or a hardware load balancer)
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -63,7 +63,7 @@ The Edge Servers send and receive network traffic for the services offered by in
 
 Authorized external users can access the Edge Servers in order to connect to your internal Lync Server 2013 deployment, but the Edge Servers do not provide a means for any other access to the internal network.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -99,7 +99,7 @@ The reverse proxy is required for the following:
 
 For additional information related to reverse proxies and the requirements that reverse proxies must meet, see the details in [Configuration requirements for reverse proxy in Lync Server 2013](lync-server-2013-configuration-requirements-for-reverse-proxy.md).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -42,7 +42,7 @@ Network sites are the offices or locations configured within each region of a ca
 
 5.  In **New Site**, type a name for this site in the **Name** field.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -55,7 +55,7 @@ Network sites are the offices or locations configured within each region of a ca
 
 7.  (Optional) If you want to place bandwidth limitations on audio or video calls to this site, select the bandwidth policy profile with the appropriate settings from the **Bandwidth policy** drop-down list.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -66,7 +66,7 @@ Network sites are the offices or locations configured within each region of a ca
 
 8.  (Optional) If you want to provide location settings for this site, select a location policy from the **Location policy** drop-down list.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -79,7 +79,7 @@ Network sites are the offices or locations configured within each region of a ca
 
 10. Click **Commit**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -124,7 +124,7 @@ You cannot modify the **Associated Subnets** table on this page. The list of ass
 
 4.  On the **Site** page, click the site that you want to delete.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -137,7 +137,7 @@ You cannot modify the **Associated Subnets** table on this page. The list of ass
 
 6.  Click **OK**.
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]

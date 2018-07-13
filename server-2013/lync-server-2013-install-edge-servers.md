@@ -40,7 +40,7 @@ After using the Deployment Wizard to install each Edge Server, install and assig
 
 3.  Start the Deployment Wizard.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

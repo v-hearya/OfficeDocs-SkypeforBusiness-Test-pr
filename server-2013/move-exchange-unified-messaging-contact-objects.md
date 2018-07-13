@@ -32,7 +32,7 @@ To migrate Auto Attendant (AA) and Subscriber Access (SA) contact objects to the
 
   - Add it to the Unified Messaging hunt groups.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -78,7 +78,7 @@ To migrate Auto Attendant (AA) and Subscriber Access (SA) contact objects to the
     
     where forest FQDN specifies the forest in which Lync Server 2013 is deployed.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

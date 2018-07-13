@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2015-02-27_
 
 Microsoft Lync Server 2013 Monitoring Reports provide you with a wealth of information about the quality and quantity of the communication sessions that take place in your organization. However, Monitoring Reports are not automatically installed when you install Lync Server 2013; instead, you must install Monitoring Reports separately, and only after Lync Server has been installed on the computer.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -48,7 +48,7 @@ Lync Server Monitoring Reports include over 30 reports designed to provide detai
 
 More information on the individual reports can be found in the Monitoring Reports documentation.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -34,7 +34,7 @@ Authentication is the provision of user credentials to a trusted server. Lync Se
 
   - **NTLM protocol** for users with Active Directory credentials who are connecting from an endpoint outside the corporate firewall. The Access Edge service passes logon requests to a Director, if present, or a Front End Server for authentication. The Access Edge service itself performs no authentication.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

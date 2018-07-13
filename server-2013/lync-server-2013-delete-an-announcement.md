@@ -48,7 +48,7 @@ Use the following procedure to delete an announcement that is used for calls to 
     
         Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

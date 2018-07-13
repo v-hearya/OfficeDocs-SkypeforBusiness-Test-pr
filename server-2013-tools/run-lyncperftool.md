@@ -50,7 +50,7 @@ To have the tool display the values in the configuration file, include the /disp
 ```
 To end the process, press Ctrl+C.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -63,7 +63,7 @@ To end the process, press Ctrl+C.
 ```Powershell
     regsvr32 /i /n /s LyncPerfToolPerf.dll
 ```
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -41,7 +41,7 @@ Software support for clients and devices of a Lync Server 2013 deployment includ
   - <span></span>  
     [How user photos are displayed in Lync](how-user-photos-are-displayed-in-lync.md)
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

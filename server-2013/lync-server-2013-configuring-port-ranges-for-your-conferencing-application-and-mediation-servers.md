@@ -38,7 +38,7 @@ By default, audio and video port ranges do not overlap in Microsoft Lync Server 
     
     Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPortCount
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]

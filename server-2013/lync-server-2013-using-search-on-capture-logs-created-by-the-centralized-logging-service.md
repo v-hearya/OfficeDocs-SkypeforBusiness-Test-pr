@@ -60,7 +60,7 @@ The remainder of this topic focuses on how to define a search to optimize your t
     
         Search-CsClsLogging -OutputFilePath <string value of path and file to write the output file>
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -117,7 +117,7 @@ The remainder of this topic focuses on how to define a search to optimize your t
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

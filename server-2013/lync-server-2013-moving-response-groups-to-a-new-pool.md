@@ -30,7 +30,7 @@ Lync Server 2013 introduces new cmdlet support for moving response groups from o
 
 Use the steps in the following procedure to move response groups from one Front End pool to another Front End pool with a different FQDN.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -68,7 +68,7 @@ Use the steps in the following procedure to move response groups from one Front 
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:destination.contoso.com" -FileName "C:\RgsExportSource.zip" -OverwriteOwner -ReplaceExistingSettings
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

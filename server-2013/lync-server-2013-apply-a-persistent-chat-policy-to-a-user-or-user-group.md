@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-06_
 
 If a user has been enabled for Lync Server 2013, you can apply appropriate policies to specific users to enable or disable them for Persistent Chat Server.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -54,7 +54,7 @@ Use the procedure in this topic to apply a previously created Persistent Chat us
 
 5.  In **Edit Lync Server User** under **Persistent Chat policy**, select the Persistent Chat user policy that you want to apply.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

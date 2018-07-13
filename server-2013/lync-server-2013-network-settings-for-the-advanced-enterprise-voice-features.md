@@ -44,7 +44,7 @@ This topic provides an overview of the configuration requirements that are commo
 
 A network region is a network hub or network backbone used only in the configuration of call admission control (CAC), E9-1-1, and media bypass.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -70,7 +70,7 @@ To associate a Lync Server central site with a network region, you specify the c
 
 A network site represents a geographical location, such as a branch office, a regional office, or a main office. Each network site must be associated with a specific network region.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -92,7 +92,7 @@ For each network site, you will need to work with your network administrator to 
 
 For example, the New York site in the North America region can be assigned the following IP subnets: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. If Bob, who usually works in Detroit, travels to the New York office for training, turns on his computer and connects to the network, his computer will get an IP address in one of the four ranges that are allocated for New York—for example, 172.29.80.103.
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]

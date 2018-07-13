@@ -55,7 +55,7 @@ After Exchange Web Services has been installed you must then configure server-to
     $service.AllowOAuthOverHttp = $False
     $service.Update()
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -91,7 +91,7 @@ After server-to-server authentication has been established between Exchange and 
     $template = Get-SPWebTemplate | Where-Object {$_.Title -eq "eDiscovery Center"}
     New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmyer" -Template $Template -Name "Discovery Center"
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -57,7 +57,7 @@ Lync 2013 introduces hardware acceleration for video encoding and decoding based
 <li><p>Graphics card must support DirectX 9.0 and must expose the DXVA2_ModeH264_VLD_NoFGT decoding mode.</p></li>
 <li><p>The latest graphics card driver must be installed.</p></li>
 </ul>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > For details about decoding modes, see <A href="http://go.microsoft.com/fwlink/p/?linkid=268530">http://go.microsoft.com/fwlink/p/?LinkId=268530</A>.
@@ -83,7 +83,7 @@ Lync 2013 introduces hardware acceleration for video encoding and decoding based
 <tr class="odd">
 <td><p>Hardware accelerated H.264 encoding: Camera Requirements</p></td>
 <td><p>USB video cameras with integrated H.264 hardware encoder that conforms to the USB Video Class (UVC) specification version 1.5.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Lync 2013 supports UVC 1.5 cameras with Windows 8 or Windows 8.1, which includes support for UVC 1.5. Because Windows 7 does not include support for UVC 1.5, Lync 2013 treats UVC 1.5 cameras as regular cameras with no hardware encoding support.
@@ -219,7 +219,7 @@ The following three tables explain the maximum encoding and decoding capability 
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -36,7 +36,7 @@ The Response Group application offers speech recognition and text-to-speech capa
 
 Interactive workflows support up to two levels of questions, with each question having up to four possible answers. The IVR asks the caller a question, and depending on the caller’s response, routes the caller to a queue or asks a second question. The second question can also have four possible answers. Depending on the answer to the second-level question, the caller is routed to the appropriate queue.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

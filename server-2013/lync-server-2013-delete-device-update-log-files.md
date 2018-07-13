@@ -50,7 +50,7 @@ The Device Update Web service keeps an extensive collection of log files. This c
 
 You can clear device update logs by using Windows PowerShell and the **Clear-CsDeviceUpdateLog** cmdlet. This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

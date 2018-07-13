@@ -70,7 +70,7 @@ Use the following procedure to open the Topology Builder to define the servers t
 
 1.  Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -93,7 +93,7 @@ Use the following procedure to open the Topology Builder to define the servers t
 
 Use one of the following procedures to open Lync Server 2013 Control Panel to manage the configuration of servers, users, clients, and devices in your environment.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -109,7 +109,7 @@ Use one of the following procedures to open Lync Server 2013 Control Panel to ma
 
 1.  From a user account that is assigned to the CsAdministrator role or other role that has appropriate user rights and permissions for the task to be performed, log on to any computer in your internal deployment with a minimum screen resolution of 1024 x 768.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -142,7 +142,7 @@ Use one of the following procedures to open Lync Server 2013 Control Panel to ma
 
 Use the following procedure to open Lync Server 2013 Management Shell to administer servers, users, clients, and devices in your environment by using the command line.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -44,7 +44,7 @@ Use the following procedure to delete a Group Call Pickup number range.
     
         Remove-CsCallParkOrbit -Identity "Redmond call pickup"
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

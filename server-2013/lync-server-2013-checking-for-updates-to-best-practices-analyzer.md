@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-02_
 
 When you start Best Practices Analyzer, the tool provides you with an option to search for the latest updates to the tool. If an update is available, you can download the update. If you choose not to download updates, or if Best Practices Analyzer cannot access the Internet, you can continue to use the version that is already on the computer.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

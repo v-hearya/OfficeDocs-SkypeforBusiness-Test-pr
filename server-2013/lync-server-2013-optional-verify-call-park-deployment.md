@@ -30,7 +30,7 @@ After you install and configure Call Park, you need to verify the configuration 
 
   - Call a user who has Call Park enabled and have the user park the call.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

@@ -30,7 +30,7 @@ To create a new Persistent Chat Server Category
 
     New-CsPersistentChatCategory -Name Foo -PersistentChatPoolFqdn client.contoso1b118d91-b4c4-4b2f-b842-b451417ec2c6.com [other parameters]
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

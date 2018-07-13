@@ -44,7 +44,7 @@ You can deploy Persistent Chat Server in single-server or multiple-server pools,
 
 We now also support Persistent Chat Server on Standard Edition server for new Lync Server 2013 deployments. However, performance and scale will be affected, and because there is no high availability option for this new deployment, we expect you to use this primarily for the purposes of proof of concept, evaluation, and so on.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -60,7 +60,7 @@ We now also support Persistent Chat Server on Standard Edition server for new Ly
 
 The minimum configuration and simplest deployment for Persistent Chat Server is a single Persistent Chat Server Front End Server topology. This deployment requires a single server that runs Persistent Chat Server (which optionally runs the Compliance service, if compliance is enabled), a server that hosts both the SQL Server database, and if compliance is required, the SQL Server database to store the compliance data.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -381,7 +381,7 @@ This sample shows chat rooms categorized as small (30 active users at any given 
 
 For each chat room, the preceding capacity planning table specifies the number of access control entries that are associated with the chat room, including entries that are assigned directly to the chat room. You can control access to individual chat rooms by using access control lists (ACLs). You can also control access at the category level. In an ACL, an individual access control entry can be either a user group—for example, a security group, a distribution list, or a single user. You can define access control entries for chat room managers, presenters, and members.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -401,7 +401,7 @@ You can use the following capacity planning table to understand the number of in
 
 The sample data in the following table assumes that, on the **Chat room settings** page for 50 percent of all chat rooms, the **Invitations** option is set to **Yes**.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

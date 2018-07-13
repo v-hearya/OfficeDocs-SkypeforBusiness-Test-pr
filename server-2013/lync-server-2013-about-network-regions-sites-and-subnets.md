@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-24_
 
 The advanced Enterprise Voice features described in this section share certain configuration requirements for network regions, network sites, and subnets. For example, all three advanced features require that each subnet in your topology be associated with a specific *network site*, and each network site must be associated with a *network region*.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

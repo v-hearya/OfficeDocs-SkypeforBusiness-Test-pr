@@ -47,7 +47,7 @@ This table and the following sections illustrate the major feature sets, or *wor
 <td><p>IM and presence</p></td>
 <td><p>Instant messaging (IM) and presence help your users find and communicate with one another efficiently and effectively.</p>
 <p>IM provides an instant messaging platform with conversation history, and supports public IM connectivity with users of public IM networks such as MSN/Windows Live, Yahoo!, AOL, and Google Talk.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > <UL>

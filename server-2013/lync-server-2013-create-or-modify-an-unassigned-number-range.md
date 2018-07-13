@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-11-01_
 
 Use one of the following procedures to configure unassigned number ranges for the Announcement application.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -52,7 +52,7 @@ Use one of the following procedures to configure unassigned number ranges for th
     
       - To create a new number range, click **New**. In **Name**, type an identifying name for this range of numbers.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -65,7 +65,7 @@ Use one of the following procedures to configure unassigned number ranges for th
 
 5.  In the first **Number range** field, type the beginning number of the range, and in the second **Number range** field, type the ending number of the range.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -98,7 +98,7 @@ Use one of the following procedures to configure unassigned number ranges for th
 
 10. On the **Unassigned Number** page, be sure that the unassigned number ranges are arranged in the order that you want. To change a range's position in the table, click one or more consecutive names in the list of ranges, and then click the up arrow or the down arrow.
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]
@@ -121,7 +121,7 @@ Use one of the following procedures to configure unassigned number ranges for th
 
 3.  Use **New-CsUnassignedNumber** to create a new unassigned number range. Use **Set-CsUnassignedNumber** to modify an existing unassigned number range.
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]

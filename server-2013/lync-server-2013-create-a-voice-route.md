@@ -60,7 +60,7 @@ The following procedure explains how to create a new voice route by using the Ly
 
 10. To associate one or more trunks with the voice route, click **Add** and then select a trunk from the list.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -71,7 +71,7 @@ The following procedure explains how to create a new voice route by using the Ly
 
 11. To associate one or more public switched telephone network (PSTN) usages with the voice route, click **Select** and choose a record from the list of PSTN usage records that have been defined for your Enterprise Voice deployment.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -82,7 +82,7 @@ The following procedure explains how to create a new voice route by using the Ly
 
 12. Arrange the PSTN usage records for optimum performance. To change a record’s position in the list, highlight the record name and click the up or down arrow.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -93,7 +93,7 @@ The following procedure explains how to create a new voice route by using the Ly
 
 13. (Optional) Type a value into the **Enter a translated number to test** field and click **Go**. The test results are displayed under the field.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -104,7 +104,7 @@ The following procedure explains how to create a new voice route by using the Ly
 
 14. Click **OK** to save the voice route.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

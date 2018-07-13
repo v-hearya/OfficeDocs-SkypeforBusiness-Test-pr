@@ -34,7 +34,7 @@ The following procedure describes how to test the deployment of the Front End po
 
 1.  Use Active Directory Computers and Users to add the Active Directory user object of the administrator role for the Lync Server 2013 deployment (on which Lync Server 2013 Control Panel is installed) to the **CSAdministrator** group.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -45,7 +45,7 @@ The following procedure describes how to test the deployment of the Front End po
 
 2.  If the user object is currently logged on, log off and then log on again to register the new group assignment.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-06-19_
 
 After you have your initial deployment up and running, you can add additional server roles for Lync Server 2013, such as a Director or a stand-alone Mediation Server.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -30,7 +30,7 @@ You can use the Lync Server Control Panel **Test Voice Routing** tab to configur
 
 Before you actually deploy your voice routing configuration, we recommend that you test it on various phone numbers to make sure that the results are what you're expecting.
 
-<div class="alert">
+<div>
 
 
 > [!TIP]
@@ -40,7 +40,7 @@ Before you actually deploy your voice routing configuration, we recommend that y
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]

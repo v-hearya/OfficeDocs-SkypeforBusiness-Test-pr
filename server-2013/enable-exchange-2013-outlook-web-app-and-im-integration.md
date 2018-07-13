@@ -50,7 +50,7 @@ To enable Exchange 2013 Outlook Web Access (OWA) and instant messaging (IM) inte
     
     In Exchange OWA, verify that the pool’s FQDN is trusted as well.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

@@ -30,7 +30,7 @@ Configuring Persistent Chat rooms is commonly handled by users; a Persistent Cha
 
 Users who are **Creators** in any given category can use the Lync client to create and manage rooms. Users who have been designated as managers for a specific chat room can also perform ongoing management of the room, such as editing the room properties or membership.
 
-<div class="alert">
+<div>
 
 
 > [!TIP]
@@ -48,7 +48,7 @@ For details about configuring chat rooms by using the Windows PowerShell command
 
 For details about configuring chat rooms, see [Configure rooms in Lync Server 2013](lync-server-2013-configure-rooms.md) in the Deployment documentation.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -58,7 +58,7 @@ For details about configuring chat rooms, see [Configure rooms in Lync Server 20
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

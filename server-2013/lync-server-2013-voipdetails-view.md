@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-18_
 
 The VoIPDetails view stores information about peer-to-peer sessions, where at least one user is a VoIP user. This view was introduced in Microsoft Lync Server 2013.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -38,7 +38,7 @@ After you have installed the prerequisite software, you are ready to begin using
 
 3.  When you close your remote session, the downloaded items are deleted from your computer’s memory. For example, you might start a remote session of Windows PowerShell with the **Get-CsTenant** cmdlet, and then close that session. If you restart Windows PowerShell, the **Get-CsTenant** cmdlet will no longer be available. To get access to the **Get-CsTenant** cmdlet, you'll need to reconnect to Skype for Business Online.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -60,7 +60,7 @@ After the Windows PowerShell console appears, you must then create a Windows Pow
 
     $credential = Get-Credential
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -88,7 +88,7 @@ Windows PowerShell will respond by showing you something similar to this:
     --------                            --------
     kenmyer@litwareinc.com              System.Security.SecureString
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -102,7 +102,7 @@ After you have created the credentials object, you can then create a new remote 
 
     $session = New-CsOnlineSession -Credential $credential -Verbose
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -174,7 +174,7 @@ This message simply means that, in order to reconnect to Skype for Business Onli
 
 If you forget to remove the session before closing the Windows PowerShell console (or if the console closes unexpectedly), nothing bad will happen. After 15 minutes of inactivity, the session will automatically disconnect itself. However, by default, each Skype for Business Online administrator is allowed only three simultaneous connections to Skype for Business Online. If you close the Windows PowerShell console without removing the session, that closed session will still count as one connection, even though it's not being used at the moment. (And it will continue to count as one connection until it times out.) For example, you might open and close the Windows PowerShell console three times, each time without removing the Skype for Business Online session. If you open Windows PowerShell and try to make a fourth connection, your command will hang, and no connection will be made.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

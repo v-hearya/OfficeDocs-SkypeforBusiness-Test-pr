@@ -105,7 +105,7 @@ You need to create one of the following external DNS records:
 <td><p>_sipfederationtls._tcp. &lt;sipdomain&gt;</p>
 <p>Resolves to host (A or AAAA) record for the Access Edge service</p></td>
 <td><p>To support Push Notification Service and Apple Push Notification service, you create one SRV record for each SIP domain that has Microsoft Lync Mobile clients.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > This requirement applies only to Microsoft Lync Mobile clients on Apple or Microsoft based mobile devices. Andriod and Nokia Symbian devices do not use push notification.
@@ -117,7 +117,7 @@ You need to create one of the following external DNS records:
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

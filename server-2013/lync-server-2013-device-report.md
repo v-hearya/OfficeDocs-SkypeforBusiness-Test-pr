@@ -176,7 +176,7 @@ When it comes to device names, the Device Report is extremely detailed; for exam
 
   - Aastra 6725ip Microphone (USB Audio Device)-V0
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

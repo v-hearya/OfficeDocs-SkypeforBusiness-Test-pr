@@ -54,7 +54,7 @@ The mobility policy is one of the individual settings of a user account that you
     
     4.  Depending on the user property you selected, enter the criteria you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
         
-        <div class="alert">
+        <div>
         
 
         > [!TIP]
@@ -67,7 +67,7 @@ The mobility policy is one of the individual settings of a user account that you
 
 6.  Click a user in the search results, click **Action**, and then click **Assign policies**.
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]
@@ -78,7 +78,7 @@ The mobility policy is one of the individual settings of a user account that you
 
 7.  In **Assign Policies**, under **Mobility policy**, do one of the following:
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -91,7 +91,7 @@ The mobility policy is one of the individual settings of a user account that you
     
       - Click the name of a per-user mobility policy you previously defined on the **Mobility Policy** page.
         
-        <div class="alert">
+        <div>
         
 
         > [!TIP]

@@ -171,7 +171,7 @@ Policies configured on the server take precedence over Group Policy settings and
     
     `%systemroot%\sysvol\domain\policies\PolicyDefinitions`
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

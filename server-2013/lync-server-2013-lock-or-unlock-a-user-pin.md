@@ -54,7 +54,7 @@ You can lock or unlock a user’s PIN from the **Users** section of Lync Server 
     
     4.  Depending on the user property you selected, enter the criteria that you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
         
-        <div class="alert">
+        <div>
         
 
         > [!TIP]
@@ -95,7 +95,7 @@ You can lock or unlock a user’s PIN from the **Users** section of Lync Server 
     
     4.  Depending on the user property you selected, enter the criteria that you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
         
-        <div class="alert">
+        <div>
         
 
         > [!TIP]

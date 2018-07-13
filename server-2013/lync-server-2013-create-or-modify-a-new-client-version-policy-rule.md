@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-01-21_
 
 Client version policy rules define the actions that should be taken when users attempt to log on with specific clients and client versions. You can create or modify individual rules for a client version policy from Lync Server 2013 Control Panel.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -50,7 +50,7 @@ Client version policy rules define the actions that should be taken when users a
     
       - Click one of the defined client types in the list, and then click **Show details**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -71,7 +71,7 @@ Client version policy rules define the actions that should be taken when users a
     
       - In **Update**, type the number that corresponds to the updated release of the client.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -100,7 +100,7 @@ Client version policy rules define the actions that should be taken when users a
     
       - To allow the client to log on and receive updates from Windows Server Update Service or Microsoft Update, click **Allow and Upgrade**. This action is available only when user agent **OC** is selected.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]

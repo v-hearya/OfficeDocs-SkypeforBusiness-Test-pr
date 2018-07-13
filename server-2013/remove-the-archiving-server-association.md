@@ -40,7 +40,7 @@ To remove an Archiving Server, you need to change or clear the dependency on the
 
 4.  If you have Survivable Branch Server associated, expand **Branch sites**, expand the branch site name, and then expand **Survivable Branch Appliances**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

@@ -62,7 +62,7 @@ After Windows PowerShell is running, you must change the execution policy to all
 
     Set-ExecutionPolicy RemoteSigned -Force
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

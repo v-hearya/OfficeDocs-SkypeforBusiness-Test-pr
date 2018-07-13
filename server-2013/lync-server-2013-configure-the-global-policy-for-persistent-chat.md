@@ -30,7 +30,7 @@ You can use the default global policy by itself to enable Persistent Chat settin
 
 You cannot delete the global policy. If you attempt to delete it, the configuration resets to the default values.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -48,7 +48,7 @@ You cannot delete the global policy. If you attempt to delete it, the configurat
 
 2.  From the **Start** menu, select the Lync Server Control Panel or open a browser window, and then enter the Admin URL. For details about the different methods that you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md) in the Operations documentation.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

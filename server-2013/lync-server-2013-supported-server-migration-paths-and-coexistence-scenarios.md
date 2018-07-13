@@ -71,7 +71,7 @@ You must use separate and distinct computers running Microsoft SQL Server 2008 R
 
 Topology Builder will display the following message to inform you of this issue: "The SQL server \[FQDN of the server\] already contains a SQL instance hosting role 'User Store'."
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

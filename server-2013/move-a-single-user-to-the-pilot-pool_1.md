@@ -82,7 +82,7 @@ You can move a user from your Office Communications Server 2007 R2 pool to your 
     
     ![Output from Get-CsUser cmdlet with Identity filter](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Output from Get-CsUser cmdlet with Identity filter")  
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

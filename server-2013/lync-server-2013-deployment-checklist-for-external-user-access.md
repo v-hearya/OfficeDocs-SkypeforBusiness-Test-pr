@@ -40,7 +40,7 @@ For details about the Planning Tool and Topology Builder, see [Beginning the pla
 
 The following table provides an overview of the Edge Server deployment process. To review the planning decisions that must be made before deploying external user access, see [Scenarios for external user access in Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]
@@ -85,7 +85,7 @@ To enhance Edge Server performance and security, and to facilitate deployment, a
 <li><p>Run Topology Builder to configure Edge Server settings and create and publish the topology, and then use Lync Server Management Shell to export the topology configuration file.</p></li>
 </ul></td>
 <td><p><strong>Domain Admins</strong> group and <strong>RTCUniversalServerAdmins</strong> or <strong>CsAdmins</strong> group</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > You can define a topology using an account that is a member of the local users group, but publishing a topology requires an account that is a member of the <STRONG>Domain Admins</STRONG> group and the <STRONG>RTCUniversalServerAdmins</STRONG> group.
@@ -102,7 +102,7 @@ To enhance Edge Server performance and security, and to facilitate deployment, a
 <li><p>Configure internal and external DNS records (host A and AAAA for IPv4 and IPv6), including configuring the DNS suffix on the computer to be deployed as an Edge Server.</p></li>
 <li><p>(Optional) Create and install public certificates. The time required to obtain certificates depends on which certification authority (CA) issues the certificate. If you do not perform this step at this point, you must do it during Edge Server installation. The Edge Server services cannot be started until certificates are obtained and installed.</p></li>
 <li><p>Provision support for public IM connectivity, if your deployment is to support communications with Windows Live, AOL, or Yahoo! users.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > <UL>

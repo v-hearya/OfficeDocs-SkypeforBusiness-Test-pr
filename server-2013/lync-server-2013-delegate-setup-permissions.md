@@ -32,7 +32,7 @@ The domain preparation that takes place when you install Lync Server does not au
 
 Keep in mind that this cmdlet only grants permissions to the RTCUniversalServerAdmins group; the cmdlet cannot be used to grant permissions to other security groups or to individual users.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -54,7 +54,7 @@ Keep in mind that this cmdlet only grants permissions to the RTCUniversalServerA
     
         Grant-CsSetupPermission -ComputerOU <DN of the OU> -Domain <Domain FQDN>
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

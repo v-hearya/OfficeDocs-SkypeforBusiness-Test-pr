@@ -34,7 +34,7 @@ In environments where users are not located in an open office layout, or where u
 
 Group Call Pickup is built on the Call Park application. When you deploy Group Call Pickup, you configure the call park orbit table with separate ranges of extension numbers that are designated as call pickup group numbers. Like call park orbit numbers, call pickup group numbers must be virtual extensions that have no user or phone assigned to them. Each Front End pool where you deploy Group Call Pickup can have one or more ranges of call pickup group numbers. The group number ranges must be globally unique across the Lync Server deployment.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -46,7 +46,7 @@ Group Call Pickup is built on the Call Park application. When you deploy Group C
 
 After you configure the call pickup group numbers, you assign users to a call pickup group. Any user who is assigned to a call pickup group can have their calls answered by other users. When a call comes in to a user who is assigned to a call pickup group, any other user who notices the call can answer it by manually dialing the call pickup group number. The user who picks up the call does not need to be a member of the group. When a call is picked up by another user, a notification is sent to the number originally called.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -56,7 +56,7 @@ After you configure the call pickup group numbers, you assign users to a call pi
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -76,7 +76,7 @@ Group Call Pickup cannot be used to answer the following types of calls:
 
   - Calls from a contact who has been assigned the Friends and Family privacy relationship
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]
@@ -87,7 +87,7 @@ Group Call Pickup cannot be used to answer the following types of calls:
 
   - Video portion of audio/video calls
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

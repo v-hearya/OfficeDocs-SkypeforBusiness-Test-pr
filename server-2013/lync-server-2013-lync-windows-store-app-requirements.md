@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-12-03_
 
 Organizations with an on-premises deployment of Lync Server must meet the following requirements to support Lync Windows Store app.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

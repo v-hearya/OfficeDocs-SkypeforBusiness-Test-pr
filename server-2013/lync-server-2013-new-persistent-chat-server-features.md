@@ -88,7 +88,7 @@ Having these services run on each Persistent Chat Server provides high availabil
 
 Additionally, to support the file upload and download in Persistent Chat rooms, Persistent Chat Server includes a web service. Previously, this service was collocated on the Persistent Chat Server, Front End Server and required Internet Information Services (IIS) to be installed as a prerequisite. In Lync Server 2013 Persistent Chat Server, the File Upload/Download web service is collocated with the Lync Server 2013 Front End Server. As a side effect, Internet Information Services (IIS) is no longer a prerequisite for Persistent Chat Server. The File Upload/Download web service is identified as **PersistentChat** in the Internet Information Services (IIS) Manager.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -106,7 +106,7 @@ In Lync Server 2013, there are Compliance service modifications:
 
   - The Message Queuing (also known as MSMQ) queue that is shared by the Persistent Chat service and the Compliance service on each Persistent Chat Server Front End Server is now a private queue shared only by the two services. All compliance services write to the same Compliance Back End database. They also all read from that database, for the purpose of sending the data to their instance of the adapter. The Compliance Back End Server is represented as a new Back End Server role.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -115,7 +115,7 @@ In Lync Server 2013, there are Compliance service modifications:
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-09-10_
 
 Call Park is a call management feature that is installed by default when you deploy Enterprise Voice. This topic describes what you need to have in place before you can configure Call Park and the user rights that you need to perform configuration tasks.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -78,7 +78,7 @@ Configuring Call Park requires any of the following administrative roles, depend
 
   - **CsAdministrator:** This administrator role can perform all of the tasks of CsVoiceAdministrator, CsServerAdministrator, and CsUserAdministrator.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

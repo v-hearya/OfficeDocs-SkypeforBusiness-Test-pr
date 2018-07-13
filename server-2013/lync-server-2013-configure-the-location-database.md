@@ -36,7 +36,7 @@ To configure the location database, you will perform the following tasks:
 
 3.  Publish the updated database.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -50,7 +50,7 @@ A server that is running Lync Server on a Windows Server operating system recor
 
   - **Lync Server 2013**   The logging tool records significant events related to authentication, connections, and user actions. After enabling diagnostic logging, you can view the log entries in Event Viewer.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

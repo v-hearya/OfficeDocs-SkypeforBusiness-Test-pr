@@ -40,7 +40,7 @@ Network sites are the offices or locations configured within each region of a ca
 
 4.  On the **Site** page, click the site that you want to view.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

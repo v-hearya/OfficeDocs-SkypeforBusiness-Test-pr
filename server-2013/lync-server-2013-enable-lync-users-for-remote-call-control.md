@@ -32,7 +32,7 @@ If you prefer to let users to configure their own remote call control settings i
 
 If you have an existing Communications Server 2007 R2 or Communications Server 2007 deployment, Communicator 2007 R2 and Communicator 2007 clients will continue to use Group Policy during side-by-side migration. However, if you want policy settings to carry over to Lync clients, you need to configure the equivalent Lync Server in-band provisioning settings.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

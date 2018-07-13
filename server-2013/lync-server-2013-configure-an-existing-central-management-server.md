@@ -36,7 +36,7 @@ If you reuse a Central Management Server from an existing Lync Server 2013 deplo
 
 2.  Use the **Update-CsAdminRole** cmdlet to update the role-based access control (RBAC) roles stored in the Central Management Server.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

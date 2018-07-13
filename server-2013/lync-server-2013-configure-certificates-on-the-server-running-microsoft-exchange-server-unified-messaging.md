@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-09-26_
 
 If you have deployed Exchange Unified Messaging (UM), as described in [Planning for Exchange Unified Messaging integration in Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) in the Planning documentation, and you want to provide Exchange UM features to Enterprise Voice users in your organization, you can use the following procedures to configure the certificate on the server running Exchange UM.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -60,7 +60,7 @@ The Exchange Server must be configured with a server certificate in order to con
 
 3.  Under **Download a CA Certificate, Certificate Chain, or CRL**, select **Encoding Method to Base 64**, and then click **Download CA certificate**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -139,7 +139,7 @@ The Exchange Server must be configured with a server certificate in order to con
 
 6.  Under **Identifying Information for Offline Template**, in the **Name** box, type the fully qualified domain name (FQDN) of the Exchange Server.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -174,7 +174,7 @@ The Exchange Server must be configured with a server certificate in order to con
     
     2.  "Import an Exchange Certificate" at [http://go.microsoft.com/fwlink/p/?linkId=195496](http://go.microsoft.com/fwlink/p/?linkid=195496)
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -197,7 +197,7 @@ The Exchange Server must be configured with a server certificate in order to con
 
 4.  Double-click the certificate to read its details and verify that it is valid.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -208,7 +208,7 @@ The Exchange Server must be configured with a server certificate in order to con
 
 5.  Restart the Microsoft Exchange Unified Messaging service.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

@@ -106,7 +106,7 @@ This section describes the sequence of steps required to deploy the Lync Server 
 <li><p>If you want to support push notifications over a Wi-Fi network, configure a firewall rule outbound for TCP port 5223.</p></li>
 <li><p>Use the <strong>Set-CsPushNotificationConfiguration</strong> cmdlet to enable push notifications to the Apple Push Notification Service (APNS) and Microsoft Push Notification Service (MPNS). This feature is disabled by default.</p></li>
 <li><p>Use the <strong>Test-CsFederatedPartner</strong> cmdlet to test the federation configuration and the <strong>Test-CsMCXPushNotification</strong> cmdlet to test push notifications.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Push notifications are used for Lync 2010 Mobile clients on Apple devices and Windows Phone<BR>Push notification is required for Lync 2013 Mobile clients on Windows Phone only

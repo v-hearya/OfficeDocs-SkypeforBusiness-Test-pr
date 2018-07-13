@@ -38,7 +38,7 @@ Perform this procedure at the central site if you did not define the Survivable 
 
 3.  Right-click **Survivable Branch Appliances**, and then click **New Survivable Branch Appliance**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -49,7 +49,7 @@ Perform this procedure at the central site if you did not define the Survivable 
 
 4.  In the **Define Survivable Branch Appliance** dialog box, click **FQDN**, type the fully qualified domain name (FQDN) of the Survivable Branch Appliance or Survivable Branch Server you will deploy at this branch site, and then click **Next**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -64,7 +64,7 @@ Perform this procedure at the central site if you did not define the Survivable 
 
 7.  Click **Gateway FQDN or IP Address**, and then type the FQDN or IP address of the gateway peer that the Survivable Branch Appliance or Survivable Branch Server is associated with for routing inbound or outbound PSTN calls.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -77,7 +77,7 @@ Perform this procedure at the central site if you did not define the Survivable 
 
 9.  In **Sip Transport Protocol**, click the transport protocol the Survivable Branch Appliance or Survivable Branch Server will use, and then click **Finish**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

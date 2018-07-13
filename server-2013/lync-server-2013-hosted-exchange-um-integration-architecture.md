@@ -40,7 +40,7 @@ The following modes are supported:
 
   - **Mixed deployment:** Your Lync Server 2013 deployment has some user mailboxes homed on local Exchange servers within your enterprise and some mailboxes homed in a hosted Exchange service data center.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -57,7 +57,7 @@ To integrate Lync Server 2013 with an on-premises Exchange UM deployment, you gr
 
 To integrate Lync Server 2013 with hosted Exchange UM, you must configure a *shared SIP address space*. In this configuration, the same SIP domain address space is available to both Lync Server 2013 and the hosted Exchange UM service provider.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -72,7 +72,7 @@ Voice features are often the primary motivation for deploying SIP trunking, but 
 
   - E9-1-1 emergency calling enables the authorities who answer 911 calls to determine the caller’s location from his or her telephone number.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

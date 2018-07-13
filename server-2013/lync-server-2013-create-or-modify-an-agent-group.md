@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2014-02-07_
 
 Use one of the following procedures to create or modify an agent group.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -38,7 +38,7 @@ Use one of the following procedures to create or modify an agent group.
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -54,7 +54,7 @@ Use one of the following procedures to create or modify an agent group.
 
 1.  Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -85,7 +85,7 @@ Use one of the following procedures to create or modify an agent group.
 
 8.  In **Alert time (seconds)**, specify the number of seconds to ring an agent before offering the call to the next available agent (the default is 20 seconds).
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -128,7 +128,7 @@ Use one of the following procedures to create or modify an agent group.
         
           - If the distribution list contains users for which Lync Server 2010 is enabled but Enterprise Voice is not enabled, they will be added to the agent group as dysfunctional agents. Make sure that all members of the distribution list have Enterprise Voice enabled for their user accounts.
         
-        <div class="alert">
+        <div>
         
 
         > [!IMPORTANT]
@@ -163,7 +163,7 @@ Use one of the following procedures to create or modify an agent group.
     
         New-CsRgsAgentGroup -Name "Help Desk" -Parent "service:ApplicationServer:atl-cs-001.contoso.com"  -Description "Contoso Help Desk" -AgentAlertTime 20 -ParticipationPolicy Formal -RoutingMethod RoundRobin -AgentsByUri("sip:mindy@contoso.com","sip:bob@contoso.com")
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

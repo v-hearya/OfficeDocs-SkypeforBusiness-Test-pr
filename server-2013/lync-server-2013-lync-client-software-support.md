@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2016-02-25_
 
 This section summarizes software support for Lync 2013 and the Online Meeting Add-in for Lync 2013.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -59,7 +59,7 @@ This section summarizes software support for Lync 2013 and the Online Meeting Ad
 <p>Windows 8</p>
 <p>Windows 7 operating system</p>
 <p>Windows Server 2008 R2 with latest service pack</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Lync 2013 and the Online Meeting Add-in for Lync 2013 are not supported on Windows Vista or Windows XP (any version).
@@ -79,7 +79,7 @@ This section summarizes software support for Lync 2013 and the Online Meeting Ad
 <p>Internet Explorer 8 Internet browser</p>
 <p>Internet Explorer 7 Internet browser</p>
 <p>Mozilla Firefox web browser</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > If you are using Lync with Microsoft Exchange Online and your organization has deployed an authenticating HTTP proxy, Internet Explorer 9 or Internet Explorer 8 is required.

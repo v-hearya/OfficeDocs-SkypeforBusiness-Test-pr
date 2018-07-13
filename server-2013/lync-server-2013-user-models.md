@@ -94,7 +94,7 @@ The following table describes the user model for registration, contacts, instant
 <li><p>50% of the contacts are within the organization. 10% of those users are remote users, connecting from outside the firewall.</p></li>
 <li><p>40% of the contacts are public cloud users (such as users of AOL, Yahoo!, MSN, or Google Talk).</p></li>
 <li><p>10% of the contacts are from federated partners.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > <UL>
@@ -256,7 +256,7 @@ The following table describes the conferencing model.
 <td><p>Media mix for conferences</p></td>
 <td><p>75% of conferences are web conferences, which include audio plus some other collaboration modalities.</p>
 <p>For these conferences, the other collaboration methods are as follows:</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > These numbers add up to more than 100% because one conference can have multiple collaboration methods.

@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-10_
 
 You must incorporate archiving into your topology before you can configure your deployment to support archiving. The information in this topic explains how to use Topology Builder to add archiving to your existing topology.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -44,7 +44,7 @@ You must incorporate archiving into your topology before you can configure your 
 
 1.  On a computer that is running Lync Server 2013, or on which the Lync Server administrative tools are installed, log on by using an account that is a member of the local Users group (or an account with equivalent user rights).
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

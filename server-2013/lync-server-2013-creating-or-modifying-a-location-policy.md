@@ -60,7 +60,7 @@ In Lync Server 2013, you can override the default amount of time between client 
         
           - **Disclaimer**   This option is the same as **Required** except that the user cannot dismiss the prompt without entering location information. The user can still complete an emergency call, but no other calls can be completed without entering the information. In addition, disclaimer text will be displayed to the user that can alert them to the consequences of declining to enter location information. To set the disclaimer text, you must use Lync Server Management Shell to run the **Set-CsLocationPolicy** cmdlet or the **New-CsLocationPolicy** cmdlet with the EnhancedEmergencyServiceDisclaimer parameter. For details, see [Set-CsLocationPolicy](set-cslocationpolicy.md) or [New-CsLocationPolicy](new-cslocationpolicy.md) in the Lync Server Management Shell documentation.
             
-            <div class="alert">
+            <div>
             
 
             > [!NOTE]
@@ -77,7 +77,7 @@ In Lync Server 2013, you can override the default amount of time between client 
     
       - **Emergency dial mask**   A number that you want to translate into the value of the emergency dial number value when it is dialed. For example, if you enter a value of 212 in this field and the emergency dial number field has a value of 911, if a user dials 212 the call will be made to 911. This allows for alternate emergency numbers to be dialed and still have the call reach emergency services (for example, if someone from a country or region with a different emergency number attempts to dial that country or region’s number rather than the number for the country or region they are currently in). You can define multiple emergency dial masks by separating the values with semicolons. For example, 212;414. Maximum length of the string is 100 characters. Each character must be a digit 0 through 9.
         
-        <div class="alert">
+        <div>
         
 
         > [!IMPORTANT]
@@ -98,7 +98,7 @@ In Lync Server 2013, you can override the default amount of time between client 
 
 6.  Click **Commit**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

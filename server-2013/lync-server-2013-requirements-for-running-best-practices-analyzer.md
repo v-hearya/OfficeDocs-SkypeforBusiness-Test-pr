@@ -30,7 +30,7 @@ You can use Lync Server 2013, Best Practices Analyzer to scan your Lync Server 2
 
 Prior to starting your scan, you should ensure that all components in your Lync Server 2013 environment are running and online.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

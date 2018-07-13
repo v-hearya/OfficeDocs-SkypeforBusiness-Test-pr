@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-10-07_
 
 Federation, public instant messaging connectivity and Extensible Messaging and Presence Protocol (XMPP) define a different class of external users – Federated users. Users of a federated Lync Server deployment or XMPP deployment have access to a limited set of services and are authenticated by the external deployment. Remote users are members of your Lync Server deployment and have access to all services offered by your deployment.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -71,7 +71,7 @@ XMPP federation defines an external deployment based on the eXtensible Messaging
 
   - Creation of XMPP federated contacts in the Lync client
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -106,7 +106,7 @@ XMPP federation defines an external deployment based on the eXtensible Messaging
 <td><p>Determine the options to add to the existing Edge deployment</p></td>
 <td><p>Run Topology Builder to edit Edge Server settings and create and publish the topology. Your existing Edge topology will replicate changes from the Central Management store to the Edge Server.</p></td>
 <td><p>Domain Admins group and RTCUniversalServerAdmins group</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > You can edit a topology using an account that is a member of the local users group, but publishing a topology requires an account that is a member of the Domain Admins group and the RTCUniversalServerAdmins group

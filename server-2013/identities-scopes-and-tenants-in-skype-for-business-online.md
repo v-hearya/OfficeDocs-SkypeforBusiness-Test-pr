@@ -82,7 +82,7 @@ Per-user policies must be created for you by Office 365 Support. After the polic
 
     Identity : tag:AllowPublicIMCommunication
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

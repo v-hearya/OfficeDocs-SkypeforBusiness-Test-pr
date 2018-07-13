@@ -40,7 +40,7 @@ As part of call admission control (CAC), a bandwidth policy is used to define ba
 
 4.  On the **Bandwidth Policy** page, click the bandwidth policy profile that you want to delete.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -51,7 +51,7 @@ As part of call admission control (CAC), a bandwidth policy is used to define ba
 
 5.  On the **Edit** menu, click **Delete**.
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]

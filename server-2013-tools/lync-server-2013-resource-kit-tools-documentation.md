@@ -116,7 +116,7 @@ The ABSConfig tool can be started by using the absConfig.exe file. The tool open
 
 In Lync Server 2013 ABS Configuration tool, attributes (rows) may be removed by unchecking the “enable” checkbox for the attribute. This has the same effect as deleting the row in Lync Server 2010.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -242,7 +242,7 @@ The **Machine Info** tab shows the details of the Bandwidth Policy Service that 
 
 The **Topology Info** tab shows a list of all the links that are configured in the Network configuration settings. For each link, the audio and video bandwidth capacity is displayed. Additionally, the currently utilized bandwidth is displayed, both in Kbps and as a percentage of the capacity. The tool uses color-coding to highlight links that have utilization that is close to the capacity—this allows administrators to quickly isolate such links.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -360,7 +360,7 @@ There are two phases when using Bandwidth Utilization Analyzer:
 
   - Customize reports, which is performed by using BandwidthUtilizationAnalyzer.xlsm
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -414,7 +414,7 @@ The following file directories can be specified by the user as shown.
 
 ![File directories in the Bandwidth Utilization Anal](images/JJ945604.d66daeac-1669-45e3-932d-3f6782840c2a(OCS.15).jpg "File directories in the Bandwidth Utilization Anal")
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -768,7 +768,7 @@ DBAnalyze is a command-line tool that helps administrators to gather analysis re
 
   - **Diagnostic mode**   Creates a report that includes information about tables (number of records, fragmentation, data size, and index size), data and log file sizes, the last back-up time, contact distribution among servers that are running Microsoft Office Communications Server, the average number of permissions, contacts, containers, subscriptions, publications, endpoints per user, any improperly homed users, users that can’t be routed, the average number of conferences organized per user, scheduled conferences, active conferences, and the database version.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -825,7 +825,7 @@ To install Dbanalyze.exe, copy it to a local folder and then run the tool. To us
 
 ![Permissions table for Dbanalyze.exe.](images/JJ945604.b8931e9e-834e-4dec-8a84-2fc47d1613e9(OCS.15).jpg "Permissions table for Dbanalyze.exe.")
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -892,7 +892,7 @@ This tool will increase CPU and IO load on the front end it is running on, as we
 
 Install the Lync Server 2013, Resource Kit Tools. The tool runs on domain-joined machines where Lync Server and Lync Server Management Shell are installed. The tool uses a cmdlet from the management shell to identify all the Front End servers in the pool. Secondly, the tool must be executed from a machine in the pool which has the **RtcLocal** database installed. This database is used by the tool to retrieve the location of the WEBSERVICE file share for the pool.Additionally, before using the tool, each Front End server must first enable Windows PowerShell Remoting using **Enable-PSRemoting** on each Front End server, as well as the machine that the tool is executed from. Otherwise, remote Windows PowerShell commands from this tool will fail. Windows PowerShell Remoting can be turned off on all Front End servers in the pool after it is finished. Finally, the account or credential invoking the tool must have read/write permission to the webservice file share for the pool they are executing this tool on. Otherwise the tool will fail with IO Permission errors.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -1453,7 +1453,7 @@ The current version of SEFAUtil is only a command-line tool; there is no support
 
   - Enable/disable/modify team-call group settings
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -1464,7 +1464,7 @@ The current version of SEFAUtil is only a command-line tool; there is no support
 
   - Enable/disable/modify simultaneous ringing settings (includes destination)
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -1475,7 +1475,7 @@ The current version of SEFAUtil is only a command-line tool; there is no support
 
   - Enable/disable/modify group call pickup settings
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]
@@ -1530,7 +1530,7 @@ The SEFAUtil tool can be run only on a computer that is a part of a Trusted Appl
     
         New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -1543,7 +1543,7 @@ The SEFAUtil tool can be run only on a computer that is a part of a Trusted Appl
     
         New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -1584,7 +1584,7 @@ Group Call Pickup requires additional configuration in Lync Server for the capab
 
 The following command displays the call handling for the user. `SEFAUtil.exe /server:lyncserver.contoso.com katarina@contoso.com`
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -1702,7 +1702,7 @@ This example changes the simultaneous ringing rule that was set in the previous 
 
 This example removes the delegate.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -1750,7 +1750,7 @@ This example enables simultaneous ringing and sets a simultaneous ringing destin
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /setsimulringdestination:+14255550126 /enablesimulring
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -1797,7 +1797,7 @@ This example adds a team member to the team-call group of a user and enables sim
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /addteammember:anders@contoso.com /simulringteam
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -1824,7 +1824,7 @@ This example removes a team member of the team-call group of a user.
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /removeteammember:anders@contoso.com
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -1869,7 +1869,7 @@ This example enables team-call for a given user.
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /simulringteam
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -1926,7 +1926,7 @@ This example disables Group Call Pickup for a given user.
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /disablegrouppickup
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -2063,7 +2063,7 @@ When executed, the Unassigned Number Announcements Migration script will perform
 
 1.  Move all the audio files used by the unassigned number announcements of the announcement application hosted in the source server or pool to the file store of the destination server or pool.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -2174,7 +2174,7 @@ This tool allows the administrator to perform the following operations:
 
 4.  Move all Web conferencing data associated with a single user when that user is moved from one pool to another.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

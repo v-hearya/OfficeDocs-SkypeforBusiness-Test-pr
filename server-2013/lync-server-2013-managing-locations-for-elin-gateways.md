@@ -36,7 +36,7 @@ To have Lync Server automatically provide locations for clients within a network
 
 For details about how to perform these tasks, see [Configure the location database in Lync Server 2013](lync-server-2013-configure-the-location-database.md) in the Deployment documentation.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

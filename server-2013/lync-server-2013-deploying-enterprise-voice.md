@@ -40,7 +40,7 @@ Deploying Enterprise Voice requires that you:
 
 4.  Open the topology design in Topology Builder, as described in [Defining and configuring the topology in Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md) in the Deployment documentation.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -67,7 +67,7 @@ To view a reference topology that illustrates and explains a sample call admissi
 
 <div id="sectionSection2" class="section">
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

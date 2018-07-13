@@ -34,7 +34,7 @@ In Lync Server 2013, you use policies to enable and disable archiving for intern
 
 You initially set up Archiving policies when you deploy Archiving, but you can change, add, and delete policies after deployment. In Lync Server 2013 Control Panel, you can use the **Archiving Policy** page of the **Archiving and Monitoring** group to manage policies at the global level, site level, and user level.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

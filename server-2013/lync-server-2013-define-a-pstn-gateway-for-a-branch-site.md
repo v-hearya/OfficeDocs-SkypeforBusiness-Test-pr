@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-09-21_
 
 Perform this procedure at the central site, which contains at least one Front End pool or Standard Edition server.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -59,7 +59,7 @@ Perform this procedure at the central site, which contains at least one Front En
 
 6.  In the **SIP Transport Protocol** list, click the transport protocol the gateway uses, and then click **OK**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -68,7 +68,7 @@ Perform this procedure at the central site, which contains at least one Front En
     
     </div>
 
-<div class="alert">
+<div>
 
 
 > [!TIP]

@@ -26,7 +26,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2012-09-08_
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -70,7 +70,7 @@ If you decide to use the Certificates Microsoft Management Console (MMC) to impo
 
 1.  On the Edge Server, in the Deployment Wizard, next to **Step 3: Request, Install, or Assign Certificates**, click **Run again**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -135,7 +135,7 @@ If you decide to use the Certificates Microsoft Management Console (MMC) to impo
     
     The default certificate name of the template provided in Lync Server 2013 is Web Server. Only specify the \<template name\> if you need to use a template that is different from the default template.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -206,7 +206,7 @@ If you decide to use the Certificates Microsoft Management Console (MMC) to impo
 
 6.  Double-click **Certificates (Local Computer)** to expand the certificate stores, double-click **Personal**, and then double-click **Certificates**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -219,7 +219,7 @@ If you decide to use the Certificates Microsoft Management Console (MMC) to impo
 
 8.  In the Certificate Export Wizard, click **Next**, select **Yes, export the private key**, and then click **Next**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -234,7 +234,7 @@ If you decide to use the Certificates Microsoft Management Console (MMC) to impo
     
       - Export all extended properties
         
-        <div class="alert">
+        <div>
         
 
         > [!WARNING]
@@ -271,7 +271,7 @@ If you decide to use the Certificates Microsoft Management Console (MMC) to impo
 
 5.  On the **Certificate Store** page, select the public certificate that you requested and imported for the external interface of the Edge Server.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

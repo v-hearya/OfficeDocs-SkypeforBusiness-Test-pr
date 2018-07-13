@@ -101,7 +101,7 @@ If the branch site’s WAN connection to a central site becomes unavailable, int
 
 Lync Server supports up to two Survivable Branch Appliance at a branch site.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

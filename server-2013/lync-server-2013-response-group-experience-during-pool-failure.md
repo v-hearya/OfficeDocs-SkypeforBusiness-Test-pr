@@ -40,7 +40,7 @@ This section describes in detail how response group activity is affected in the 
 
 When a pool or site outage occurs, but the administrator has not yet initiated failover, response group activity is handled as described in the following table.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -114,7 +114,7 @@ When a pool or site outage occurs, but the administrator has not yet initiated f
 
 When an administrator invokes failover to a backup pool, response group activity is handled during and after the failover as described in the following table. The first column describes the type of activity that might be taking place. The middle column describes how each activity is handled during the brief time that it takes to fail over to the backup pool. The last column describes how the activity is handled for the duration, after the failover process is complete and the backup pool is standing in for the primary pool.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -216,7 +216,7 @@ When an administrator invokes failover to a backup pool, response group activity
 
 When an administrator invokes failback to the primary pool, response group activity is handled during and after the failback as described in the following table.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

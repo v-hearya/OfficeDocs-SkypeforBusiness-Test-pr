@@ -42,7 +42,7 @@ Setting up a Standard Edition server as the only server in your infrastructure t
 
 5.  On the **Executing Commands** page, the SQL Server 2012 Express is installed as the Central Management store. Necessary firewall rules are created. When the installation of the database and prerequisite software is completed, click **Finish**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

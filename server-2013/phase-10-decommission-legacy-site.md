@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-16_
 
 The following topics provide guidance in decommissioning pools, and deactivating and removing servers and pools from a legacy deployment of Office Communications Server 2007 R2. Not all of the procedures listed in this section are required. Read the information in each of these topics to determine which decommissioning procedure to use.
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]
@@ -38,7 +38,7 @@ The following topics provide guidance in decommissioning pools, and deactivating
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

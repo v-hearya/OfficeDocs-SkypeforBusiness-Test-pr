@@ -32,7 +32,7 @@ The certificates required to support external user access include certificates i
 
   - Certificates required for the internal interface can be issued by either a public CA or an internal enterprise CA. We recommend using an internal Windows Server 2008 CA, Windows Server 2008 R2 CA, Windows Server 2012 CA, or Windows Server 2012 R2 CA for creating these certificates to save on the expense of using public certificates.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -44,7 +44,7 @@ The certificates required to support external user access include certificates i
 
 Although you can choose to use a public CA for the internal edge certificate, we recommend that you use an internal enterprise CA for those other certificates instead to minimize the cost of certificates. For a summary of certificate requirements for Edge Servers, see [Certificate requirements for external user access in Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

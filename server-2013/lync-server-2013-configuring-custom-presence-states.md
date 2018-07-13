@@ -40,7 +40,7 @@ Configuration files have the following properties:
 
   - The CustomStateURL parameter specifies the location of the configuration file. In Lync 2013, SIP high security mode is enabled by default, so you will need to store the custom presence configuration file on a web server that has HTTPS enabled. Otherwise, Lync 2013 clients will be unable to connect to it. For example, a valid address would be `https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml`.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -101,7 +101,7 @@ Localize your custom presence state by specifying one or more locale ID (LCID) s
 
 For details, see [New-CsClientPolicy](new-csclientpolicy.md) and [Grant-CsClientPolicy](grant-csclientpolicy.md) in the Lync Server Management Shell documentation.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

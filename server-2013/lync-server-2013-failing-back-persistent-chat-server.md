@@ -42,7 +42,7 @@ These steps are designed to recover configuration as it existed prior to the dis
 
 1.  Clear all servers from the Persistent Chat Server Active Server list by using the `Set-CsPersistentChatActiveServer` cmdlet from the Lync Server Management Shell. This stops all Persistent Chat Servers from connecting to the mgc database and the mgccomp database during failback.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -112,7 +112,7 @@ These steps are designed to recover configuration as it existed prior to the dis
 
 6.  Set the Persistent Chat Server active servers. From the Lync Server Management Shell, use the **Set-CsPersistentChatActiveServer** cmdlet to set the list of active servers.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

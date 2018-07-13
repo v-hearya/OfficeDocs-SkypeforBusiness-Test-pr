@@ -42,7 +42,7 @@ The currently supported public instant messaging connectivity partners are:
 
 For communications with Windows Live users, Lync Server 2013 supports peer-to-peer IM and audio and video calls. For communications with AOL and Yahoo\!, Lync Server 2013 supports peer-to-peer IM. A separate license may be required.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-29_
 
 You can use Setup or Lync Server Management Shell cmdlets to prepare the Active Directory schema. The cmdlet that extends the Active Directory schema is **Install-CsAdServerSchema**.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

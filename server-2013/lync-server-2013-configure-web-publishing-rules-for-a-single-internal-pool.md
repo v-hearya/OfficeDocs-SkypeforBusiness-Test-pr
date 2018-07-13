@@ -34,7 +34,7 @@ If you are deploying mobility and using automatic discovery, you need to create 
 
 Use the following procedures to create web publishing rules.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -62,7 +62,7 @@ Use the following procedures to create web publishing rules.
 
 7.  On the **Internal Publishing Details** page, type the fully qualified domain name (FQDN) of the internal web farm that hosts your meeting content and Address Book content in the **Internal Site name** box.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -73,7 +73,7 @@ Use the following procedures to create web publishing rules.
 
 8.  On the **Internal Publishing Details** page, in the **Path (optional)** box, type **/\*** as the path of the folder to be published.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -120,7 +120,7 @@ Use the following procedures to create web publishing rules.
 
 1.  Bind the certificate that you will use for the reverse proxy to the HTTPS protocol. Click **Start**, select **Programs**, select **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -135,7 +135,7 @@ Use the following procedures to create web publishing rules.
 
 4.  Assign the certificate for use by HTTPS. On the left-hand side of the console, select the **Default Web Site** of the IIS server. On the right-hand side, click **Bindings…**. In the **Site Bindings** dialog, click **Add…**. On the **Add Site Binding** dialog under **Type:**, select **https**. Selecting https will allow you to select the certificate to use for https. Under **SSL certificate:**, select the certificate that you imported for the reverse proxy. Click **OK**. Then, click **Close**. The certificate is now bound to the reverse proxy for secure socket layer (SSL) and transport layer security (TLS).
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -146,7 +146,7 @@ Use the following procedures to create web publishing rules.
 
 5.  On the left-hand side of the console below the IIS server name, right-click **Server Farms** then click **Create Server Farm…**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -159,7 +159,7 @@ Use the following procedures to create web publishing rules.
 
 6.  On the **Add Server** dialog in **Server Address**, type the fully qualified domain name (FQDN) of the external web services on your Front End Server. The names that will be used here for example purposes are the same that are used in the Planning section for the reverse proxy, [Certificate summary - Reverse proxy in Lync Server 2013](lync-server-2013-certificate-summary-reverse-proxy.md). Referring to the reverse proxy planning, we type the FQDN `webext.contoso.com`. Confirm that the checkbox next to **Online** is selected. Click **Add** to add the server to the pool of web servers for this configuration.
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]
@@ -178,7 +178,7 @@ Use the following procedures to create web publishing rules.
 
 10. Click the name of the server farm. Under **Server Farm** in IIS Manager Features View, you double-click **Proxy**. On the Proxy settings page change the value for **Time-out (seconds)** to a value appropriate for your deployment. Click **Apply** to save the change.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -189,7 +189,7 @@ Use the following procedures to create web publishing rules.
 
 11. Click the name of the server farm. Under **Server Farm** in IIS Manager Features View, you double-click **Routing Rules**. On the Routing Rules dialog under Routing, clear the checkbox next to Enable SSL offloading. If the ability to clear the checkbox is not available, select the checkbox for **Use URL Rewrite to inspect incoming requests**. Click **Apply** to save your changes.
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]
@@ -212,7 +212,7 @@ Use the following procedures to create web publishing rules.
     
       - Office Web Apps Server URL: officewebapps01.contoso.com
         
-        <div class="alert">
+        <div>
         
 
         > [!IMPORTANT]
@@ -237,7 +237,7 @@ Use the following procedures to create web publishing rules.
 
 15. Repeat the procedure defined in Step 14 for each of the SSL rewrite rules that you have defined, one per Server Farm URL.
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]

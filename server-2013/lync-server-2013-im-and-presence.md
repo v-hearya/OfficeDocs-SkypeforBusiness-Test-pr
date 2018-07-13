@@ -38,7 +38,7 @@ With the integration between Lync Server and other products such as Outlook and 
 
 With instant messaging in Lync Server, users can quickly message each other with timely information. If you prefer, your users can also communicate with users of public IM networks such as MSN/Windows Live, Yahoo\!, and AOL. Note that a separate license might be required for public IM connectivity with Windows Live, AOL, and Yahoo\! Lync Server also includes Extensible Messaging and Presence Protocol (XMPP) compatibility, so your users can exchange IM messages and presence information with users of XMPP services such as Google Talk.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

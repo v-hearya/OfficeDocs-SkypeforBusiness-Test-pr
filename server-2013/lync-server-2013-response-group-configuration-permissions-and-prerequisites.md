@@ -123,7 +123,7 @@ To configure response groups, you must be a member of at least one of the follow
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -201,7 +201,7 @@ To modify the Web.config file, do the following:
 
 This section applies to you only if your organization needs to support Yi, Meng, or Zang characters.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

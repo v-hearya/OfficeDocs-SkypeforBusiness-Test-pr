@@ -62,7 +62,7 @@ Use one of the following procedures to delete a Call Park orbit range.
     
         Remove-CsCallParkOrbit -Identity "Redmond orbit 1"
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

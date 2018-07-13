@@ -30,7 +30,7 @@ _**Topic Last Modified:** 2012-10-29_
 
 The following table describes the Response Group user model that you can use as the basis for capacity planning requirements.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -40,7 +40,7 @@ The following table describes the Response Group user model that you can use as 
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

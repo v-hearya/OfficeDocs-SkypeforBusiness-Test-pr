@@ -34,7 +34,7 @@ The only component required to create and configure a Director is to deploy the 
 
 You can implement a single Director server or a Director pool. The Director is always a separate server or pool, not collocated with any other server role in Lync Server 2013.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

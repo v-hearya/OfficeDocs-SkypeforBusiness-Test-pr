@@ -170,7 +170,7 @@ Top worst servers by poor quality call percentage
 
 As noted, by default totals are shown for the current week and trend values are shown for the past six weeks. If you would prefer to see totals for the current month (as well as trend values for the past six months), click the **Monthly View** link in the upper right corner of the dashboard. If you decide to view monthly totals, the link text will change to **Weekly View**. You can switch back to the weekly view by clicking that link.
 
-<div class="alert">
+<div>
 
 
 > [!TIP]
@@ -182,7 +182,7 @@ As noted, by default totals are shown for the current week and trend values are 
 
 The values shown in the **This week**, **This month**, or **Today** columns link you to more detailed information about the item. Keep in mind that the column name and the values displayed in that column will often differ depending on the metric chosen and depending on whether you have selected weekly view or monthly view. For example, if you click the totals shown for the **Unique user logons** metric you will see the **User Registration Report** for the specified time period. You can return to the Monitoring Dashboard at any time by clicking **Dashboard**.
 
-<div class="alert">
+<div>
 
 
 > [!TIP]

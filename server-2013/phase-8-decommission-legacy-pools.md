@@ -30,7 +30,7 @@ The following topic provides guidance in updating DNS entries, moving the Conten
 
 For exhaustive coverage of removing Lync Server 2010 servers and server roles, and a step-by-step guide to decommissioning a Lync Server 2010 deployment, see "Uninstalling Microsoft Lync Server 2010 and Removing Server Roles," which can be downloaded at [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227).
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

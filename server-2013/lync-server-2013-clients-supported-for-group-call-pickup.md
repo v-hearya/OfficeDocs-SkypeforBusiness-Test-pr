@@ -34,7 +34,7 @@ Any of the following clients can be used to answer calls to Group Call Pickup me
 
   - Lync Phone Edition
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

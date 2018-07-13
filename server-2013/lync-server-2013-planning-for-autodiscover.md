@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-16_
 
 Autodiscover was introduced for Lync Server in the Cumulative Update for Lync Server 2010: November 2011. The primary purpose for this initial implementation of Autodiscover was to provide a means for Lync Mobile to locate the Mobility service (Mcx). The Autodiscover service in Lync Server 2013 is now a service used by all clients to locate server and user services. The Microsoft Lync Server 2013 Autodiscover service runs on Directors and Front End Servers.
 
-<div class="alert">
+<div>
 
 
 > [!TIP]
@@ -42,7 +42,7 @@ When Autodiscover was introduced in Lync Server 2010, there were compromises tha
 
 Because Lync Server 2013 uses Autodiscover for all clients, the main scenario is to use HTTPS exclusively and to create certificates with lyncdiscover.\<domain\> as part of the configuration of reverse proxies, Directors and Front End Servers. If you are implementing Autodiscover into an upgraded deployment from Lync Server 2010, you may want to use HTTP to avoid reissuing certificates. Guidance for both scenarios is provided in the following sections.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

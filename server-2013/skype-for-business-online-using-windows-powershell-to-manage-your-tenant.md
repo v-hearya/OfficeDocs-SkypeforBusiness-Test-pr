@@ -44,7 +44,7 @@ With the June 2013 release of Skype for Business Online, administrators are now 
 
   - [Diagnosing and resolving connection problems with Skype for Business Online](diagnosing-and-resolving-connection-problems-with-skype-for-business-online.md). Explains error messages that might occur when you attempt to use Windows PowerShell to connect to Skype for Business Online, and suggests steps that can be taken to resolve the issues that underlie those error messages.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

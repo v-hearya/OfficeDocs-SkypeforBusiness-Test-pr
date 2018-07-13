@@ -30,7 +30,7 @@ To enhance performance and facilitate deployment, apply the following best pract
 
   - Ensure that WANs are adequately provisioned for current and anticipated media traffic.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -45,7 +45,7 @@ To enhance performance and facilitate deployment, apply the following best pract
 
   - If you want to re-route blocked calls onto the PSTN, verify PSTN functionality and capacity. For details, see [Planning outbound voice routing in Lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md).
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

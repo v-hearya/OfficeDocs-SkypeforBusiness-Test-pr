@@ -32,7 +32,7 @@ For small and medium-sized branch sites (branch sites with 25 to 1,000 users), w
 
 For branch sites with 1,000 to 5,000 users and no resilient WAN, we recommend a Survivable Branch Server connected to either a PSTN gateway or a SIP trunk to a telephone service provider. A Survivable Branch Server is a Windows Server-based computer that has Registrar and Mediation Server software installed on it.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -42,7 +42,7 @@ For branch sites with 1,000 to 5,000 users and no resilient WAN, we recommend a 
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

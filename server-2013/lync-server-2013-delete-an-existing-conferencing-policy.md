@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-23_
 
 Follow these steps to delete a user-level or a site-level conferencing policy.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

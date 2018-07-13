@@ -30,7 +30,7 @@ _**Topic Last Modified:** 2014-07-24_
 
 Mobile users encounter various mobile application scenarios that require special planning. For example, someone might start using a mobile application while away from work by connecting through the 3G network, then switch to the corporate Wi-Fi network when arriving at work, and then switch back to 3G when leaving the building. You need to plan your environment to support such network transitions and guarantee a consistent user experience. This section describes the infrastructure requirements that you must have in order to support mobile applications and automatic discovery of mobility resources.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -42,7 +42,7 @@ Mobile users encounter various mobile application scenarios that require special
 
 The requirement for cookie affinity in hardware load balancers is dramatically reduced, and you substitute Transmission Control Protocol (TCP) affinity if you are using the Lync Mobile delivered with Lync Server 2013. Cookie affinity can still be used, but the web services no longer require it.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -62,7 +62,7 @@ The Mobility Services Mcx (introduced with the Cumulative Update for Lync Server
 
 When you use Automatic Discovery, mobile devices use DNS to locate resources. During the DNS lookup, a connection is first attempted to the FQDN that is associated with the internal DNS record (lyncdiscoverinternal.\<internal domain name\>). If a connection cannot be made by using the internal DNS record, a connection is attempted by using the external DNS record (lyncdiscover.\<sipdomain\>). A mobile device that is internal to the network connects to the internal Autodiscover Service URL, and a mobile device that is external to the network connects to the external Autodiscover Service URL. External Autodiscover requests go through the reverse proxy. The Lync Server 2013 Autodiscover Service returns all Web Services URLs for the user's home pool, including the Mobility Service (Mcx and UCWA) URLs. However, both the internal Mobility Service URL and the external Mobility Service URL are associated with the external Web Services FQDN. Therefore, regardless of whether a mobile device is internal or external to the network, the device always connects to the Lync Server 2013 Mobility Service externally through the reverse proxy.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -78,7 +78,7 @@ The following diagram illustrates the flow of mobile application web requests fo
 
 ![cdb96424-96f2-4abf-88d7-1d32d1010ffd](images/Hh690030.cdb96424-96f2-4abf-88d7-1d32d1010ffd(OCS.15).jpg "cdb96424-96f2-4abf-88d7-1d32d1010ffd")
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -120,7 +120,7 @@ The internal automatic discovery URL should not be addressable from outside your
 
 The DNS records can be either CNAME records or A (host, if IPv6, AAAA) records.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -140,7 +140,7 @@ For details about the DNS records required for your scenario, see [DNS summary -
 
 If you support push notifications and want Apple mobile devices to receive push notifications over your Wi-Fi network, you also need to open port 5223 on your enterprise Wi-Fi network. Port 5223 is an outbound TCP port used by the Apple Push Notification Service (APNS). The mobile device initiates the connection. For details, see [http://support.apple.com/kb/TS1629](http://support.apple.com/kb/ts1629) .
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]

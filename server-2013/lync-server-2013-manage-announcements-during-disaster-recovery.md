@@ -59,7 +59,7 @@ If you do not have backup copies of customized audio files, and the original aud
 
 To use the Announcement application during an outage, you need to recreate the announcement configuration in the backup pool by performing the tasks described in this section.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -69,7 +69,7 @@ To use the Announcement application during an outage, you need to recreate the a
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -87,7 +87,7 @@ To use the Announcement application during an outage, you need to recreate the a
     
     2.  Recreate each announcement by using the **New-CsAnnouncement** cmdlet and specifying the backup pool for the Parent parameter.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -110,7 +110,7 @@ To use the Announcement application during an outage, you need to recreate the a
 
 When the primary pool becomes available, you need to redirect the unassigned number ranges that you changed for the outage back to the primary pool.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

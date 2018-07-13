@@ -46,7 +46,7 @@ The Call Park application settings include the pickup timeout threshold, enablin
 
 2.  At the command line, type the following:
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

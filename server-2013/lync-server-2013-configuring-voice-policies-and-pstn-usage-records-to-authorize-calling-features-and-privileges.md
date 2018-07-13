@@ -30,7 +30,7 @@ A *voice policy* enables a set of calling features and associates one or more PS
 
 Voice policy scope can be either *Site* (which defines the default features and permissions for a network site) or *User* (which defines the features and permissions to be assigned on a per-user or group basis). Users not assigned to a voice policy will automatically be assigned to the global policy, which is the default voice policy that is installed with the product.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

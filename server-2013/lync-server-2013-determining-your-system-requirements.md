@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2014-01-02_
 
 All servers running Lync Server must meet certain minimum system requirements. System requirements for Lync Server include the server hardware, the operating system to be installed on each server, and related software requirements, such as the Windows updates and other software that must be installed on the servers.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -38,7 +38,7 @@ All servers running Lync Server must meet certain minimum system requirements. S
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

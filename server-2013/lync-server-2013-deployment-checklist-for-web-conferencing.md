@@ -62,7 +62,7 @@ The following table provides an overview of the steps required to deploy confere
 <tr class="odd">
 <td><p><strong>Install prerequisite hardware and software</strong></p></td>
 <td><p>Conferencing runs on Front End Servers in a Front End pool and Standard Edition servers. It has no additional hardware or software requirements beyond what is required to install those servers.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Lync Server 2013 uses Office Web Apps and the Office Web Apps Server to handle sharing and rendering of PowerPoint presentations. For information about installing and configuring the Office Web Apps Server, see <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Configuring integration with Office Web Apps Server and Lync Server 2013</A>.

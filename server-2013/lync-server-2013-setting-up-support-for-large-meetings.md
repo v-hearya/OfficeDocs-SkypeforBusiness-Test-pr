@@ -96,7 +96,7 @@ We recommend creating a new conferencing policy specifically for large meetings,
 
   - Set the **EnableMultiviewJoin** option to **False**.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

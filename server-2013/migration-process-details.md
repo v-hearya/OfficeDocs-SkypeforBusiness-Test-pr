@@ -38,7 +38,7 @@ Be sure that you’ve met the following prerequisites before migrating either Ly
 
 2.  Install the Lync Server 2013, Persistent Chat Server pool. It will be empty (no categories, rooms, or add-ins). Before you migrate your legacy categories, rooms, or add-ins, you can create rooms, categories, or add-ins in your Lync Server 2013, Persistent Chat Server deployment.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -57,7 +57,7 @@ Perform the following steps to properly prepare your source data for migration.
 
 1.  Back up the source databases for either Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat. For details about backing up SQL Server, see "Backup Overview (SQL Server)" at <http://go.microsoft.com/fwlink/p/?linkid=254851>.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -68,7 +68,7 @@ Perform the following steps to properly prepare your source data for migration.
 
 2.  Inspect your Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat chat rooms and category configuration. Any changes to categories, rooms, or add-ins in your existing legacy deployment will be done by the Group Chat Admin Tool.
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]
@@ -119,7 +119,7 @@ Perform the following steps to migrate your legacy Group Chat Server.
 
 7.  You must XCOPY all uploaded files (the entire folder) to the new Lync Server 2013, Persistent Chat file store.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -148,7 +148,7 @@ Perform the following steps to migrate your legacy Group Chat Server.
 
 13. You can now begin to enable Persistent Chat Server functionality through the new clients. For details about enabling Persistent Chat Server, see [Deploying Persistent Chat Server in Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

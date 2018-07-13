@@ -54,7 +54,7 @@ By default, simple URLs will be configured in the form of (for example, the dial
 
 2.  In the **Administrative access URL** box, enter the simple URL you want for administrative access to Lync Server 2013 Control Panel, and then click **OK**.
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]
@@ -63,7 +63,7 @@ By default, simple URLs will be configured in the form of (for example, the dial
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

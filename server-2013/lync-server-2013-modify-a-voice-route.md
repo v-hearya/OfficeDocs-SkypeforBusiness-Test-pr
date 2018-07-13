@@ -62,7 +62,7 @@ This topic explains how to edit a voice route. To create a new route, see [Creat
 
 9.  To associate one or more public switched telephone network (PSTN) trunks with the voice route, click **Add**, and then select a trunk from the list.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -73,7 +73,7 @@ This topic explains how to edit a voice route. To create a new route, see [Creat
 
 10. To associate one or more PSTN usages with the voice route, click **Select** and choose a record from the list of PSTN usage records that have been defined for your Enterprise Voice deployment.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -84,7 +84,7 @@ This topic explains how to edit a voice route. To create a new route, see [Creat
 
 11. Arrange the PSTN usage records for optimum performance. To change a record’s position in the list, highlight the record name and click the up or down arrow.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -95,7 +95,7 @@ This topic explains how to edit a voice route. To create a new route, see [Creat
 
 12. (Optional) Type a value into the **Enter a translated number to test** field and click **Go**. The test results are displayed under the field.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -108,7 +108,7 @@ This topic explains how to edit a voice route. To create a new route, see [Creat
 
 14. On the **Route** page, click **Commit**, and then click **Commit all**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

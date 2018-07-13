@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-22_
 
 You can use the following procedure to remove a previously added user account in Lync Server 2013.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -58,7 +58,7 @@ You can use the Microsoft Lync Server 2013, Planning Tool to evaluate whether co
 
 Mediation Servers at the central site can be used to route calls for IP-PBXs or PSTN gateways at branch sites. If you deploy SIP trunks, however, you must deploy a Mediation Server at the site where each trunk terminates. Having a Mediation Server at the central site route calls for an IP-PBX or PSTN gateway at a branch site does not require the use of media bypass. However, if you can enable media bypass, doing so will reduce media path latency and, consequently, result in improved media quality because the media path is no longer required to follow the signaling path. Media bypass will also decrease the processing load on the pool.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -74,7 +74,7 @@ For interactions with an IP-PBX, if the IP-PBX does not correctly support early 
 
 Finally, if your central site has a TDM PBX, or if your IP-PBX does not eliminate the need for a PSTN gateway, then you must deploy a gateway on the call route connecting Mediation Server and the PBX.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

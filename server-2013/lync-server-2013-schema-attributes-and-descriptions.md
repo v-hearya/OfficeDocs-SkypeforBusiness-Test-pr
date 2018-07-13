@@ -328,7 +328,7 @@ Some attributes have a bit-mask value. For these attributes, each setting is rep
 <td><p>msRTCSIP-EnableBestEffortNotify (obsolete)</p></td>
 <td><p>This attribute controls whether a server generates a Best Effort NOTIFY (BENOTIFY) request, instead of a NOTIFY request, in response to a SUBSCRIBE request from a client. BENOTIFY is a performance-enhancing extension to the subscribe notification handshake where the server generates BENOTIFY requests, instead of regular NOTIFY requests. The performance benefit is that a BENOTIFY request does not require a 200 OK response from the client as the NOTIFY request does.</p>
 <p>The valid values are <strong>TRUE</strong> or <strong>FALSE</strong>.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Live Communications Server 2003 does not support BENOTIFY requests. To interoperate with server applications written with the Live Communications Server 2003 server API running on Live Communications Server 2005 and third-party servers, BENOTIFY requests can be disabled by setting its value to <STRONG>FALSE</STRONG>. BENOTIFY is not currently part of the IETF (Internet Engineering Task Force) SIP standardization process.

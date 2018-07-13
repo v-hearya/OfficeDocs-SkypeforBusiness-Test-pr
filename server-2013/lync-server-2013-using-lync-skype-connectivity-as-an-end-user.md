@@ -30,7 +30,7 @@ Lync-Skype Connectivity enables Skype users and Lync users to add each other as 
 
 **What is an MSA?** Skype users must sign in to Skype with a Microsoft account (previously called Windows Live ID) in order to communicate with Lync contacts. A Microsoft account consists of the combination of an email address and a password, which you can also use to sign in to services such as Microsoft OneDrive storage technology, Windows Phone, Microsoft Xbox LIVE online game service, and Microsoft Outlook messaging and collaboration client (and, previously, Microsoft Hotmail web-based e-mail service or Windows Live Messenger). If you use an email address and a password to sign in to these or other services, you already have a Microsoft account. For details about creating a Microsoft Account, see the Microsoft account sign-up page at [https://go.microsoft.com/fwlink/p/?LinkId=306061](https://go.microsoft.com/fwlink/p/?linkid=306061). You can merge your existing Skype account with your Microsoft account for single sign-on, across a variety of applications and services. Once the account is merged a Skype user can send a contact request to Lync users.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -75,7 +75,7 @@ When a Skype user’s Microsoft account uses a custom domain name, such as <stro
 
 In each instance, the Lync user must enter the Skype user’s email in the following format: <strong>user(domain name)@msn.com</strong> .
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -115,7 +115,7 @@ In each instance, the Lync user must enter the Skype user’s email in the follo
 
 6.  The new contact is now added to your contact list, but you’ll see a question mark instead of their status icon until they accept your request. When your new contact accepts your request, you will be able to see when they are online, initiate IM conversations, and make audio and video calls.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

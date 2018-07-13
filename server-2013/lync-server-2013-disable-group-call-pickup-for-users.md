@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-01-30_
 
 Use the following procedure to disable Group Call Pickup for a user.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -30,7 +30,7 @@ In Lync Server 2013, support for remote call control scenarios enables users to 
 
 Integration between a PBX and Lync Server 2013 makes it possible for users enabled for remote call control to use the Lync 2013 user interface (UI) to control calls on their PBX phones in the following ways:
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -46,7 +46,7 @@ Integration between a PBX and Lync Server 2013 makes it possible for users enabl
 
   - Answer an incoming call with an instant message
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

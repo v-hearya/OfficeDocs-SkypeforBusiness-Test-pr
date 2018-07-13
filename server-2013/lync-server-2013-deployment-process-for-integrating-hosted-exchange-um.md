@@ -97,7 +97,7 @@ The following table provides an overview of the hosted Exchange UM integration p
 <li><p>Create Subscriber Access contact objects for hosted Exchange UM.</p></li>
 </ol></td>
 <td><p>RTCUniversalUserAdmins</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > To create, modify or remove contact objects, the user who runs the New-CsExUmContact, Set-CsExUmContact or Remove-CsExUmContact cmdlet must have the correct permission to the Active Directory organizational unit where the new contact objects are stored. This permission can be granted by running the Grant-CsOUPermission cmdlet. For details, see the Lync Server Management Shell documentation.

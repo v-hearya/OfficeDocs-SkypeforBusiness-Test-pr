@@ -156,7 +156,7 @@ If your policies require both inbound and outbound firewall rule definitions, th
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -176,7 +176,7 @@ NAT has typically been a routing function, but newer devices such as firewalls a
 
 Lync Server 2013 communications software does not support NAT for traffic to or from the Edge internal interface, but for the Edge external interface, the following NAT behavior is required.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

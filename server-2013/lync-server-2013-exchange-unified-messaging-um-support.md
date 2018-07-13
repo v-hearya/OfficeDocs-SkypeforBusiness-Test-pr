@@ -40,7 +40,7 @@ Lync Server 2013 supports the following versions:
 
 You cannot collocate Exchange UM with Lync Server 2013 or a Lync Server 2013 database. You can install Exchange UM and Lync Server 2013 in separate forests.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

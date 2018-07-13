@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-12_
 
 Push notifications, in the form of badges, icons, or alerts, can be sent to a mobile device even when the mobile application is inactive. Push notifications notify a user of events such as a new or missed IM invitation and voice mail. The Lync Server 2013 Mobility Service sends the notifications to the cloud-based Lync Server Push Notification Service, which then sends the notifications to the Apple Push Notification Service (APNS) (for an Apple device running the Lync 2010 Mobile client) or the Microsoft Push Notification Service (MPNS) (for a Windows Phone device running the Lync 2010 Mobile or the Lync 2013 Mobile client).
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -44,7 +44,7 @@ Configure your topology to support push notifications by doing the following:
 
   - If your environment has a Office Communications Server 2007 R2 Edge Server, you need to set up direct SIP federation with push.lync.com.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -73,7 +73,7 @@ Configure your topology to support push notifications by doing the following:
     
         New-CsHostingProvider -Identity "LyncOnline" -Enabled $True -ProxyFqdn "sipfed.online.lync.com" -VerificationLevel UseSourceVerification
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

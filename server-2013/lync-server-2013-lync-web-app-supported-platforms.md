@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2017-02-07_
 
 To use Lync Web App, you must have one of the following supported operating system and browser combinations.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

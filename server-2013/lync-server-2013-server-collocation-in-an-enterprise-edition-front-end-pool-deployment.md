@@ -74,7 +74,7 @@ You can collocate any or any or all of these databases in a single instance of S
 
 You can collocate a file share with the databases, as described later in this section.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -84,7 +84,7 @@ You can collocate a file share with the databases, as described later in this se
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -114,7 +114,7 @@ The file share can be a separate server or can be collocated on the same server 
 
 A single file share can be used for multiple Front End pools, Standard Edition servers (all in the same site).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2015-11-02_
 
 The SIP/CSTA gateway must be configured as a trusted application in order for Lync Server to apply a static route to route calls to the gateway.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

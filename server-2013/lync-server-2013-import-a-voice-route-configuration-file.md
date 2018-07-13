@@ -46,7 +46,7 @@ If you have made any uncommitted changes to the settings on any page within the 
 
 6.  Click **Commit**, and then click **Commit all**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

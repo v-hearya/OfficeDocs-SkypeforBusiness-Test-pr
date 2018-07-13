@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2016-01-21_
 
 When you add a Front End Server to a pool, or remove a Front End Server from a pool, you then need to restart the pool. To prevent any interruption of service to users, use the following procedure when adding or removing a Front End Server.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

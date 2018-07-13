@@ -44,7 +44,7 @@ If you have not made any changes to your UC phone configuration settings then yo
 
 For Quality of Service purposes, only one of these properties is of interest: VoiceDiffServTag. The VoiceDiffServTag represents the DSCP value assigned to voice traffic emanating from a Lync Phone Edition device.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

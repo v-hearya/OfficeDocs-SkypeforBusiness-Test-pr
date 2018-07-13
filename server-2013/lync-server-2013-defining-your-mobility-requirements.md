@@ -58,7 +58,7 @@ Here are the decisions that you must consider:
     
         Set-CsMcxConfiguration -Identity site:Redmond -ExposedWebURL Internal
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -67,7 +67,7 @@ Here are the decisions that you must consider:
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -82,7 +82,7 @@ Here are the decisions that you must consider:
     
     If you want to support push notifications over your Wi-Fi network, in addition to supporting push notifications over the mobile device providers' 3G or data networks, you must open port 5223 outbound on your enterprise Wi-Fi network. Supporting push notifications over the Wi-Fi network supports mobile devices that use only Wi-Fi and mobile devices that have poor indoor reception.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -93,7 +93,7 @@ Here are the decisions that you must consider:
     
     If you do not support push notifications, users of Apple mobile devices and Windows Phones will not find out about events—such as instant message invitations or missed messages—that occur when the mobile application is inactive.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -170,7 +170,7 @@ Here are the decisions that you must consider:
     
     For users to have access to mobility features and Call via Work, they must be enabled for Enterprise Voice. However, users who are not enabled for Enterprise Voice can join conferences by clicking the link on their mobile device, if they have an appropriate voice policy assigned to them. You can either assign a specific voice policy to these users or make sure that a global policy or site-level policy exists that applies to them. The voice policy that you assign must have public switched telephone network (PSTN) usage records and routes that define the areas to which users can dial out to join a conference. For details about setting voice policy, PSTN usage records, and routes, see [Configuring voice policies, PSTN usage records, and voice routes in Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md).
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

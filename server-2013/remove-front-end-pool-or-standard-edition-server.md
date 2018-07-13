@@ -54,7 +54,7 @@ This topic guides you through the process of removing a Front End pool or a Stan
 
 4.  Expand **SQL stores**, right-click the SQL Server database that is associated with the Standard Edition Front End Server, and then click **Delete**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

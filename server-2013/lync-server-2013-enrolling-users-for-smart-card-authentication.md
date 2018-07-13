@@ -40,7 +40,7 @@ For more information on enrolling on behalf of users as an enrollment agent, see
 
 3.  Browse to the **Certificate Authority Web Enrollment** page (e.g. https://MyCA.contoso.com/certsrv).
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -85,7 +85,7 @@ For more information on enrolling on behalf of users as an enrollment agent, see
 
 10. When prompted, enter the PIN that was used to create the virtual smart card.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -96,7 +96,7 @@ For more information on enrolling on behalf of users as an enrollment agent, see
 
 11. Once the certificate has been issued, click **Install this certificate** to complete the enrollment process.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

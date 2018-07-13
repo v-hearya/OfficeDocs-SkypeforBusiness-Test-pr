@@ -44,7 +44,7 @@ Verify the following settings in your conferencing policy:
     
     Example: if you specify 2000 kbps, then Lync Server can send 2000 kbps for the main video stream and 2000 kbps for the panoramic video stream.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -57,7 +57,7 @@ Verify the following settings in your conferencing policy:
     
     The default value for **TotalReceiveVideoBitRateKb** is 50000 kbps. If the **EnableMultiviewJoin** setting for Gallery View is set to True, **TotalReceiveVideoBitRateKb** must not be set below 420 kbps. If the **EnableMultiviewJoin** setting for Gallery View is set to False, **TotalReceiveVideoBitRateKb** must not be set below 100 kbps. If **EnableMultiviewJoin** is set to True and you set the value below 420 kbps, the values will default to the threshold value. This threshold helps prevent accidental misconfiguration that might result in poor user experience.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -80,7 +80,7 @@ Verify the following setting:
 
   - **MaxVideoRateAllowed**   This per-pool setting specifies the maximum rate at which video signals will be transferred at the client endpoints. It applies only to previous versions of Lync Server clients.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

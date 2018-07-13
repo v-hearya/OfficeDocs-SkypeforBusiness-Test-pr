@@ -40,7 +40,7 @@ High availability and disaster recovery for Persistent Chat Server requires addi
 
   - A file share on the secondary database server to serve as the destination folder for the SQL Server transaction logs that are copied from the primary server file share.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-21_
 
 When you choose a topology, you can use one the following supported topology options:
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -48,7 +48,7 @@ When you choose a topology, you can use one the following supported topology opt
 
   - [Scaled consolidated edge with hardware load balancers in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -123,7 +123,7 @@ Edge failover scenarios supported with DNS Load Balancing are Lync-to-Lync point
 
 **\*** Failover for public instant messaging (IM) connectivity, and federation with servers running Office Communications Server is not available with DNS load balancing. Exchange UM (remote user) failover using DNS load balancing requires Exchange Server 2010 SP1 or newer.
 
-<div class="alert">
+<div>
 
 <table>
 <colgroup>
@@ -141,7 +141,7 @@ Single Edge and Scaled Edge (DNS load balanced) topologies can use:
 <ul>
 <li><p>Routable public IP addresses</p></li>
 <li><p>Non-routable private IP address if symmetric network address translation (NAT) is used</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > If you use public IP address or private IP address with NAT, you will still use the same number of IP addresses based on your configuration choice in Topology Builder. You can configure the Edge Server to use a single IP address with distinct ports per service, or use distinct IP addresses per service, but use the same port (by default, TCP 443).
@@ -254,7 +254,7 @@ The primary decision points for topology selection are high availability and loa
 
   - **High availability**   If you need high availability, deploy at least two Edge Servers in a pool. A single Edge pool will support up to twelve Edge Servers. If more capacity is required, you can deploy multiple Edge pools. As a general rule, 10% of a given user base will need external access.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -271,7 +271,7 @@ The primary decision points for topology selection are high availability and loa
     
       - External access to Exchange 2007 Unified Messaging (UM) or Exchange 2010 UM
         
-        <div class="alert">
+        <div>
         
 
         > [!IMPORTANT]
@@ -282,7 +282,7 @@ The primary decision points for topology selection are high availability and loa
     
     These three applications will continue to operate, but they are not DNS load balancing aware and will only connect to the first Edge Server in the pool. If that server is unavailable, the connection will fail. For example, if multiple Edge Servers are deployed in a pool to handle the federated traffic load, only one access proxy actually receives traffic while the others are idle.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

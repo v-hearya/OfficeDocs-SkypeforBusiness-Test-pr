@@ -60,7 +60,7 @@ New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com
 
 After using this cmdlet, restart all Front End servers in the pool or the Standard Edition Servers where the Location-Based Routing Conferencing application has been enabled.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

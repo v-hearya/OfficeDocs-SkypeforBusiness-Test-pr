@@ -40,7 +40,7 @@ To modify an existing dial plan, perform the steps in the following procedure. I
 
 4.  On the **Dial Plan** page, double-click a dial plan name.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -51,7 +51,7 @@ To modify an existing dial plan, perform the steps in the following procedure. I
 
 5.  (Optional) In **Edit Dial Plan**, edit the **Simple name** field, which is prepopulated with the same name that appears in the **Name** field to specify a more descriptive name that reflects the site, service, or user to which the dial plan applies.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -64,7 +64,7 @@ To modify an existing dial plan, perform the steps in the following procedure. I
 
 7.  (Optional) If you want to use this dial plan as a region for dial-in access numbers, specify a **Dial-in conferencing region**. If you do not want to use this dial plan for dial-in access numbers, leave this field empty.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -75,7 +75,7 @@ To modify an existing dial plan, perform the steps in the following procedure. I
 
 8.  (Optional) In the **External access prefix** field, specify a value only if users need to dial one or more additional leading digits to get an external line (for example, 9). You can type in a prefix value of up to four characters (that is, \#, \*, and 0-9).
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -96,7 +96,7 @@ To modify an existing dial plan, perform the steps in the following procedure. I
     
       - To remove a normalization rule from the dial plan, highlight the rule name and click **Remove**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -107,7 +107,7 @@ To modify an existing dial plan, perform the steps in the following procedure. I
 
 10. Verify that the dial plan’s normalization rules are arranged in the correct order. To change a rule’s position in the list, highlight the rule name and then click the up or down arrow.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -118,7 +118,7 @@ To modify an existing dial plan, perform the steps in the following procedure. I
 
 11. (Optional) Enter a number to test the dial plan and then click **Go**. The test results are displayed under **Enter a number to test**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -131,7 +131,7 @@ To modify an existing dial plan, perform the steps in the following procedure. I
 
 13. On the **Dial Plan** page, click **Commit**, and then click **Commit all**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

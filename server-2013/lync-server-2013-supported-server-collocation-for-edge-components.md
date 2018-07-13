@@ -34,7 +34,7 @@ The Access Edge service, Web Conferencing Edge service, A/V Edge service and XMP
 
   - Reverse proxy
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

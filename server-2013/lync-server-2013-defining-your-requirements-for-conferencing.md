@@ -46,7 +46,7 @@ When you are determining which conferencing capabilities to deploy, you need to 
     
     If you do want to enable audio conferences but not video conferences, you can enable A/V conferencing and use meeting policies to prevent video conferences. Alternatively, you can enable A/V conferencing and enable only certain users to start or participate in A/V conferences.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

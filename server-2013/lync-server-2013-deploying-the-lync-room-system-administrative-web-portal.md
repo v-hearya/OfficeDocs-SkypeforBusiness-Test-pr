@@ -32,7 +32,7 @@ The LRS Administrative Web Portal is deployed on every Lync Front End Server. Th
 
 After LRS Administrative Web Portal is deployed on the server, administrators can check the status of all LRS rooms by logging on to the site from their own computers or laptops.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

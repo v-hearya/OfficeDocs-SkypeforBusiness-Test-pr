@@ -40,7 +40,7 @@ A network region interconnects various parts of a network across multiple geogra
 
 4.  On the **Region** page, click the region you want to view.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

@@ -108,7 +108,7 @@ Lync Server 2013 Archiving policies include the following:
 
 For details about how to set up initial Archiving policies when you deploy Archiving, see [Configuring and assigning Archiving policies in Lync Server 2013](lync-server-2013-configuring-and-assigning-archiving-policies.md) in the Deployment documentation. For details about using Archiving policies to enable and disable communications after deployment, see [Managing the Archiving of internal and external communications in Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md) in the Operations documentation.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -152,7 +152,7 @@ The global-level configuration is created automatically when you deploy archivin
     
       - After the archiving data has been exported (which includes data that has been uploaded to Exchange, if you enable Microsoft Exchange integration).
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

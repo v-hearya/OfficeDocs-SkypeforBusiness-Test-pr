@@ -68,7 +68,7 @@ Enterprise Voice includes several advanced calling features as well, such as Lyn
 
 Lync call delegation enables users to delegate call handling to one or more assistants, by going to **Tools** \> **Options** \> **Call Forwarding Settings**. The delegate can perform multiple calling tasks on behalf of the user, including screening calls, placing calls, and initiating conferences.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

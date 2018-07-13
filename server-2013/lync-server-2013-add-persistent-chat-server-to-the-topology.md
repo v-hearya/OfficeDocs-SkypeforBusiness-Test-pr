@@ -38,7 +38,7 @@ To deploy multiple Persistent Chat Server pools, repeat the same process for eac
 
 1.  On a computer that is running Lync Server 2013 or on which the Lync Server administrative tools are installed, log on using an account that is a member of the local Users group (or an account with equivalent user rights).
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -53,7 +53,7 @@ To deploy multiple Persistent Chat Server pools, repeat the same process for eac
     
     You can choose a **Multiple Computer Pool** or a **Single Computer Pool**. Choose the former if you are planning to have more than one Persistent Chat Server Front End Server in your Persistent Chat Server pool. Make this choice now, or at a later point, because after you create a single computer pool, you cannot add additional servers to it later. If you choose a multiple computer pool, enter the names of the individual Persistent Chat Server Front End Servers that comprise the pool.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -70,7 +70,7 @@ To deploy multiple Persistent Chat Server pools, repeat the same process for eac
 
 7.  Assign site affinity for the Persistent Chat Server pool. Select the **Use this pool as default for site \<SiteName\>** check box or **Use this pool as default for all sites** to designate this Persistent Chat Server pool as the default pool for the current site or all sites. When the Lync 2013 client is used to create and manage rooms, the default pool associated with the user’s site is used by the room creation and management experience so that it can route room creation and management operations to that pool. This only applies when you have multiple Persistent Chat Server pools deployed, and want to use the room creation and management features of Persistent Chat Server.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -93,7 +93,7 @@ To deploy multiple Persistent Chat Server pools, repeat the same process for eac
 
 9.  Define the SQL Server compliance database if you enabled Compliance.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -110,7 +110,7 @@ To deploy multiple Persistent Chat Server pools, repeat the same process for eac
     
       - In **File Share**, specify the file store that you want to use.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -125,7 +125,7 @@ To deploy multiple Persistent Chat Server pools, repeat the same process for eac
     
     To now publish your updated topology to which you’ve Persistent Chat Server, see [Publish the updated topology in Lync Server 2013](lync-server-2013-publish-the-updated-topology.md) in the Deployment documentation.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

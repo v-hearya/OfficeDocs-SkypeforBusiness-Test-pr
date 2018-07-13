@@ -50,7 +50,7 @@ When you defined the configuration of the Standard Edition server, Front End poo
 
 6.  Right-click **Lync Server 2013**, and then click **Publish**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

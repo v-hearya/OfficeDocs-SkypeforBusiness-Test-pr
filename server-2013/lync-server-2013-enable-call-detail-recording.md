@@ -30,7 +30,7 @@ Call detail recording (CDR) records usage and diagnostic information about peer-
 
 Use the following procedure to enable CDR for your whole organization or each site in your organization.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -52,7 +52,7 @@ Use the following procedure to enable CDR for your whole organization or each si
 
 4.  On the **Call Detail Recording** page, click the appropriate site from the table, click **Action**, and then click **Enable CDR**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

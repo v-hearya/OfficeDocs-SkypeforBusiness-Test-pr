@@ -30,7 +30,7 @@ You can specify Archiving options to be applied to specific sites by creating an
 
 For details about how Archiving configurations work, including the hierarchy for global, site, and pool configurations, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -40,7 +40,7 @@ For details about how Archiving configurations work, including the hierarchy for
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

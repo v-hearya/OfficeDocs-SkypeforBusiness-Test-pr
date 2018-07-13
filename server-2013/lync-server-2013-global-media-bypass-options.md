@@ -26,7 +26,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2012-10-04_
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -40,7 +40,7 @@ In addition to enabling media bypass for individual trunk connections associated
 
 This topic describes how to use Lync Server Control Panel and Lync Server Management Shell together to configure global media bypass settings.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

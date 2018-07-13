@@ -32,7 +32,7 @@ Skype for Business provides a new user experience that is based on the Skype con
 
 Lync Server 2013 supports the new Skype for Business client experience as well as the Lync client experience. As an administrator, you can choose the preferred client experience for your users. For example, you might want to deploy the Lync client experience until users in your organization are fully trained in the new Skype for Business experience. Or, if you have not yet upgraded all users to Skype for Business Server 2015, you might want all users to have the same client experience until all are upgraded to the new server.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -42,7 +42,7 @@ Lync Server 2013 supports the new Skype for Business client experience as well a
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

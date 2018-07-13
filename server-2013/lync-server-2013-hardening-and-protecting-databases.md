@@ -44,7 +44,7 @@ On any Lync Server 2013 server except Standard Edition server, the SQL Server Ex
     
       - Lync Server 2013 uses the TCP/IP protocol. It supports IP version 4 (IPv4), but not IP version 6 (IPv6).
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -59,7 +59,7 @@ On any Lync Server 2013 server except Standard Edition server, the SQL Server Ex
 
   - Run SQL Server on a static (non-default) port, and do not run SQL Server Browser (so it cannot report the listening port to the client). This requires a custom configuration on each SQL Server client, including Front End Servers, Monitoring Server, Archiving Server, and administrative consoles (running Lync Server Management Shell, Lync Server Control Panel, or Topology Builder), and all other servers running Lync Server databases).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -71,7 +71,7 @@ On any Lync Server 2013 server except Standard Edition server, the SQL Server Ex
 
 For details about custom configurations and hardening SQL Server databases, see the NextHop blog article, "Using Lync Server 2010 with a Custom SQL Server Network Configuration," at [http://go.microsoft.com/fwlink/p/?LinkId=214008](http://go.microsoft.com/fwlink/p/?linkid=214008).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

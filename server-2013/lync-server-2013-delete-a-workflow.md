@@ -44,7 +44,7 @@ Use one of the following procedures to delete a workflow.
 
 6.  In the list of services, click the service that you want, and then click **OK**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

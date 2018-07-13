@@ -76,7 +76,7 @@ If you use separate SQL Server databases for Archiving, instead of or in additio
 
   - Back-end database of an Enterprise Edition Front End pool
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

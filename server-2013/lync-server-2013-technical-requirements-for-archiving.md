@@ -38,7 +38,7 @@ Lync Server 2013 technical requirements include the following:
 
   - Performance requirements and considerations for your Archiving databases.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -88,7 +88,7 @@ Additionally, you need to set up the infrastructure for Archiving storage. This 
     
       - Microsoft SQL Server 2012 Standard
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

@@ -38,7 +38,7 @@ This section defines the scenarios for Edge Server deployments and maps the plan
 
 By using this process, you can plan for and document the configuration of all potential features that you intend to deploy for your users. However, you can add federation and mobility services after you have deployed the Edge Server and have confirmed the correct operation before adding other features. The process of adding features to an existing Edge Server deployment is covered in the Deployment section. For details on deployment, see [Deploying external user access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) By including planning for these features during the initial planning process, you can prepare for the DNS, firewall, and certificate requirements for the added features, which enables you to acquire the certificates and configure DNS and port/protocol requirements in advance.
 
-<div class="alert">
+<div>
 
 
 > [!TIP]
@@ -48,7 +48,7 @@ By using this process, you can plan for and document the configuration of all po
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -123,7 +123,7 @@ By using this process, you can plan for and document the configuration of all po
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!TIP]

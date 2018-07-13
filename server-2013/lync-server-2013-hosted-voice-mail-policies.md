@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-01_
 
 A *hosted voice mail policy* provides information to the Lync Server 2013 ExUM Routing application about where to route calls for users whose mailboxes are located on a hosted Exchange service.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -50,7 +50,7 @@ Hosted voice mail policy scope determines the hierarchical level at which the po
 
   - A *per-user* policy can affect only individual users or groups. To enforce a per-user policy, you must explicitly assign the policy to individual users, groups, and contact objects.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -70,7 +70,7 @@ A voice mail policy defines two attributes that the Lync Server 2013 ExUM Routin
 
   - **Destination:** The fully qualified domain name (FQDN) of the hosted Exchange UM service. This value is used by the on-premises Lync Server Edge Server for routing purposes.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -81,7 +81,7 @@ A voice mail policy defines two attributes that the Lync Server 2013 ExUM Routin
 
   - **Organization:** The FQDN of the tenant on the hosted Exchange UM service that homes your Lync Server 2013 users’ mailboxes. A voice mail policy can contain multiple organizations. If more than one organization is included in the policy, this attribute must be a comma-separated list of the Exchange Server tenants that home your Lync Server 2013 user mailboxes.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

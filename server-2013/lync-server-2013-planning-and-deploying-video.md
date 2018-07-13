@@ -34,7 +34,7 @@ Lync Server 2013 introduces the following new video features:
 
   - **H.264 video**   The H.264 video codec is now the default for encoding video on Lync 2013 clients. H.264 video supports a greater range of resolutions and frame rates, and improves video scalability.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

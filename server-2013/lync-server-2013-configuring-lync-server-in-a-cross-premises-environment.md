@@ -72,7 +72,7 @@ Keep in mind that the realm name for a tenant is typically different than the or
 
 After the script completes you must then configure a trust relationship between Lync Server 2013 and the authorization server, and a second trust relationship between Exchange 2013 and the authorization server. This can only be done by using the Microsoft Online Services cmdlets.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

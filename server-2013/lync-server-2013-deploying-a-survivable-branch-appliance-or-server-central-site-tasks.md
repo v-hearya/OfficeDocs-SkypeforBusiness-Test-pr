@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-18_
 
 Complete the tasks in this section at the central site. If you’re deploying a Survivable Branch Server, skip the first task.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

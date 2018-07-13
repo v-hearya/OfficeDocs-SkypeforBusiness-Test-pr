@@ -46,7 +46,7 @@ Perform the following steps for log shipping to continue if the primary Persiste
 
 9.  If the backup folder is located on the primary server, type the local path to the backup folder in the **If the backup folder is located on the primary server, type a local path to the folder** box. (If the backup folder is not on the primary server, you can leave this box empty.)
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -59,7 +59,7 @@ Perform the following steps for log shipping to continue if the primary Persiste
 
 11. Look at the backup schedule listed in the **Schedule** box under **Backup job**. To customize the schedule for your installation, click **Schedule**, and adjust the SQL Server Agent schedule, as required.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -86,7 +86,7 @@ Perform the following steps for log shipping to continue if the primary Persiste
 
 20. Select and run the first half of the query (see step 18) up to the line: -- \*\*\*\*\*\* End: Script to be run at Primary: \*\*\*\*\*\*.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

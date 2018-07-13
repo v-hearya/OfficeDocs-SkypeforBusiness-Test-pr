@@ -30,7 +30,7 @@ If you want to use automatic discovery for mobile device clients, you need to mo
 
 If you decide to use HTTPS for initial Lync Server 2013 Autodiscover Service requests and update the subject alternative names lists on the reverse proxy certificates, you need to assign the updated public certificate to the Secure Sockets Layer (SSL) Listener on your reverse proxy. For details about the required subject alternative name entries, see [Technical requirements for mobility in Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md). You then need to modify the existing listener for the external web services or create a new web publishing rule for the external Autodiscover Service URL. If you do not already have a web publishing rule for the external Lync Server 2013 Web Services URL for your Front End pool, you also need to publish a rule for that.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -44,7 +44,7 @@ If you decide to use HTTP for initial Autodiscover Service requests so that you 
 
 The procedures in this section describe how to create or modify the web publishing rules in Microsoft Forefront Threat Management Gateway 2010 for automatic discovery.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -120,7 +120,7 @@ The procedures in this section describe how to create or modify the web publishi
 
 1.  Click **Start**, point to **Programs**, point to **Microsoft Forefront TMG**, and then click **Forefront TMG Management**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

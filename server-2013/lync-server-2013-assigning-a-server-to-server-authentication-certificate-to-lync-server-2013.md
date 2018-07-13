@@ -56,7 +56,7 @@ On July 1, 2012 the new certificate will be configured as the current OAuthToken
 
 If you do not want to use Windows PowerShell you can also use the Certificates MMC console to export a certificate from one Front End Server and then import that same certificate on all your other Front End Servers. If you do this, make sure that you export the private key along with the certificate itself.
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]

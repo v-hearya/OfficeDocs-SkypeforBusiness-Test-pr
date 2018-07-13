@@ -288,7 +288,7 @@ Finally, globally enable Location-Based Routing to your routing configuration. U
 
 For more information, see [Set-CsRoutingConfiguration](set-csroutingconfiguration.md).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

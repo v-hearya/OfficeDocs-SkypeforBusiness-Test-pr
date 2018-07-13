@@ -30,7 +30,7 @@ You can use the results of a search query to configure users for Lync Server 201
 
 You can search for users by using the Lync Server Control Panel or the Active Directory Users and Computers snap-in. The following procedure describes how to use Lync Server Control Panel to search for users.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

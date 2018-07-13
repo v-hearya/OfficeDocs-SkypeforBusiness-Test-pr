@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-09-21_
 
 With Lync Server 2010, the called party’s phone number (that is, the phone number called) can be translated from E.164 format to the local dialing format that is required by the trunk peer (that is, the associated gateway, private branch exchange (PBX), or SIP trunk). To do this, you must define one or more translation rules to translate the Request URI before routing it to the trunk peer.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -44,7 +44,7 @@ You can use either of the following methods to create or modify a translation ru
 
   - Write regular expressions manually to define the matching pattern and translation rule.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-01_
 
 This section guides you through installing Lync Server 2013 and setting up the server roles for the Standard Edition server and the Front End pool, including the Front End Servers and any server roles that are collocated with the Front End Servers. To install and set up server roles, you run the Lync Server Deployment Wizard on each computer on which you are installing a server role. You use the Deployment Wizard to complete all four deployment steps, including installing the Local Configuration store, installing the Front End Servers, configuring certificates, and starting services.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

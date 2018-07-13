@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-01_
 
 The Media view stores information about one media type used in a peer-to-peer session. One session would be represented by multiple records in the table, if more than one media type is used. This view was introduced in Microsoft Lync Server 2013.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

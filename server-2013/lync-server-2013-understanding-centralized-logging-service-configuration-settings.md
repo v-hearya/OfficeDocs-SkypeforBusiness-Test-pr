@@ -38,7 +38,7 @@ The Centralized Logging Service is configured to define what the logging service
     
         Get-CsClsConfiguration
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]

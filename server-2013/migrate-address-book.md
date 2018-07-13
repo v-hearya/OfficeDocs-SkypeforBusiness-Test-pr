@@ -42,7 +42,7 @@ If you set the **PartitionbyOU** WMI property to True to create address books fo
 
 If you customized Address Book normalization rules in your Lync Server 2010 environment, you must migrate the customized rules to your pilot pool. If you did not customize Address Book normalization rules, you have nothing to migrate for Address Book service. The default normalization rules for Lync Server 2013 are the same as the default rules for Lync Server 2010. Follow the procedure later in this section to migrate customized normalization rules.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -62,7 +62,7 @@ If you set the value for **UseNormalizationRules** to False so that users can us
 
 1.  Find the Company\_Phone\_Number\_Normalization\_Rules.txt file in the root of the Address Book shared folder, and copy it to the root of the Address Book shared folder in your Lync Server 2013 pilot pool.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

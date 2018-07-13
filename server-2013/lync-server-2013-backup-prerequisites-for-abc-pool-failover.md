@@ -40,7 +40,7 @@ To get the maximum benefit from using the ABC pool failover procedure, you must 
     
     The Response Group application can store only one set of application-level settings per pool. These settings can be accessed through the **Get-CsRgsConfiguration** cmdlets. The settings include the default music-on-hold configuration, the default music-on-hold audio file, the agent ring-back grace period, and the call context configuration. These settings can be transferred from one pool to another through the **Import-CsRgsConfiguration** cmdlet by using the **ReplaceExistingSettings** parameter, but this operation will override any application-level settings in the destination pool.
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]
@@ -54,7 +54,7 @@ To get the maximum benefit from using the ABC pool failover procedure, you must 
         Xcopy  <Source: Pool A CPS File Store Path>  <Destination>
         Example: Xcopy  "<Pool A File Store Path>\LyncFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Destination:  Backup location 1>"
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

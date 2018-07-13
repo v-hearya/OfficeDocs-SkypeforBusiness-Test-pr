@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-11-01_
 
 With Lync Server 2013, you use Device Update Web service to view and manage software updates for your organization’s devices. These updates are available in .cab (cabinet) files from the Microsoft Support website at [http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091). After you download the .cab file, run the **Import-CSDeviceUpdate** cmdlet to import the device update rules from the .cab file. For details about the **Import-CSDeviceUpdate** cmdlet, see [Import-CsDeviceUpdate](import-csdeviceupdate.md) in the Lync Server Management Shell documentation.
 
-<div class="alert">
+<div>
 
 
 > [!TIP]

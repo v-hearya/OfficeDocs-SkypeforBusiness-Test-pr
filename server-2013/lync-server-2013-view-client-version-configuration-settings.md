@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-23_
 
 Client version configuration settings are used to turn client version control on or off. The global client version configuration installs with Lync Server 2013 and is used to enable or disable client version control for the entire server deployment. When the Global configuration is enabled, any client version policies you have in place will take effect when users attempt to log on. You can view client version configuration settings from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -51,7 +51,7 @@ The preceding command enables QoS at the global scope; however, it's important t
 
     Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $True
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

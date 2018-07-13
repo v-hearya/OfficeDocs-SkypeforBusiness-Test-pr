@@ -48,7 +48,7 @@ Before you deploy Persistent Chat Server for your organization, it’s essential
 
   - Are there regulatory requirements? If your company is in a country/region where data needs to be kept within the country, you may need to deploy multiple Persistent Chat Server pools, each local to a specific geography. A room, category, or add-in does not span pools—it belongs to only one Persistent Chat Server pool. You can manage the set of categories, add-ins and rooms for each Persistent Chat Server pool. Users can be configured to have access to rooms in one or more pools using the category AllowedMembers scope or Room’s membership scope, depending on how you design your categories.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

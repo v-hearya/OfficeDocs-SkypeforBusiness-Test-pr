@@ -34,7 +34,7 @@ To enable you to delegate administrative tasks while maintaining high standards 
 
 With RBAC, access and authorization is based precisely on a user’s Lync Server role. This enables use of the security practice of "least privilege," granting administrators and users only the rights that are necessary for their job.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

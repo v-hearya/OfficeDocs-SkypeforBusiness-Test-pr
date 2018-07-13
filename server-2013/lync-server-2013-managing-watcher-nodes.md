@@ -36,7 +36,7 @@ This command will disable the execution of synthetic transactions on the watcher
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $True
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

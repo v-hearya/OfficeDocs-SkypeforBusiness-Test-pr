@@ -40,7 +40,7 @@ The Centralized Logging Service is a new feature in Lync Server 2013. It is an e
     
       - Use an existing *provider* or create a new provider. A *provider* defines what the logging session collects, what level of detail, what components to trace, and what flags are applied.
         
-        <div class="alert">
+        <div>
         
 
         > [!TIP]

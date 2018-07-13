@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-09-11_
 
 When a caller calls a response group, the call is routed to an agent based on a hunt group or the caller's answers to interactive voice response (IVR) questions. The Response Group application uses standard response group routing methods to route the call to the next available agent. Call routing methods include serial, longest-idle, parallel, round robin, and Attendant routing (that is, all agents are called at the same time for every incoming call, regardless of their current presence). If no agents are available, the call is held in a queue until an agent is available. While in the queue, the caller hears music until an available agent accepts the call. If the queue is full, or if the call times out while in the queue, the caller might hear a message and then is either disconnected or transferred to a different destination. When an agent accepts the call, the caller might or might not be able to see the agent's identity, depending on how the administrator configures the response group. Agents can either be formal, which means that they must sign in to the group before they can accept calls routed to the group, or informal, which means that they do not sign into and out of the group to accept calls.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -38,7 +38,7 @@ When a caller calls a response group, the call is routed to an agent based on a 
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -135,7 +135,7 @@ Response Group Managers can use the following tools to manage their designated r
 
   - Lync Server Control Panel
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

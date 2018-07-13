@@ -30,7 +30,7 @@ As with other Lync Server policies, location policies can be assigned at multipl
 
 Each network site has a location policy assigned to it, and each policy will have different PSTN Usages, Notification URIs, and Conference URIs values assigned to it.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

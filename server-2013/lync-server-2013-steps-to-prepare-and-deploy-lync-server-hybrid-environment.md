@@ -67,7 +67,7 @@ The following table lists the steps required to prepare your environment for a h
 <td></td>
 <td><p>Prepare for Active Directory synchronization</p></td>
 <td><p>Active Directory synchronization keeps your on-premises Active Directory continuously synchronized with Office 365. This lets you create synchronized versions of each user account and group, and also enables global address list (GAL) synchronization from your local Microsoft Exchange Server environment to Microsoft Exchange Online.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > You need to synchronize the AD accounts for all Lync users in your organization between your on-premises and online Lync deployments, even if users are not moved to Lync Online. If you do not synchronize all users, communication between on-premises and online users in your organization may not work as expected.

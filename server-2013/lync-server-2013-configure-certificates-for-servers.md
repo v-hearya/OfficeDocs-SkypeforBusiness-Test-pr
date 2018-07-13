@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-03-17_
 
 To successfully complete this procedure you should be logged on as a user who is a member of the RTCUniversalServerAdmins group or have the correct permissions delegated. For details about delegating permissions, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md). Depending on your organization and requirements for requesting certificates, you may require other group memberships. Consult with the group that manages your public key infrastructure (PKI) certification authority (CA).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -38,7 +38,7 @@ To successfully complete this procedure you should be logged on as a user who is
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]
@@ -52,7 +52,7 @@ Each Standard Edition server or Front End Server requires up to four certificate
 
 Use the following procedure to request, assign, and install the Standard Edition server or Front End Server certificates. Repeat the procedure for each Front End Server.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -80,7 +80,7 @@ Use the following procedure to request, assign, and install the Standard Edition
 
 7.  On the **Specify Alternate Certificate Template** page, to use the default Web Server template, click **Next**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -91,7 +91,7 @@ Use the following procedure to request, assign, and install the Standard Edition
 
 8.  On the **Name and Security Settings** page, specify a **Friendly Name** that should allow you to identify the certificate and purpose. If you leave it blank, a name will be generated automatically. Set the **Bit length** of the key, or accept the default of 2048 bits. Select the **Mark the certificate’s private key as exportable** if you determine that the certificate and private key needs to be moved or copied to other systems, and then click **Next**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -120,7 +120,7 @@ Use the following procedure to request, assign, and install the Standard Edition
 
 18. On the **Certificate Store** page, select the certificate that you requested. If you want to view the certificate, click **View Certificate Details**, and then click **Next** to continue.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
