@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-01-30_
 
 Use the following procedure to create or modify a call pickup group number range in the call park orbit table.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -38,7 +38,7 @@ Use the following procedure to create or modify a call pickup group number range
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -82,7 +82,7 @@ The call pickup group number ranges must comply with the following rules:
     
         Set-CsCallParkOrbit -Identity "Redmond call pickup" -Type GroupPickup
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

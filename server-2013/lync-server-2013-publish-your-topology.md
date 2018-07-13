@@ -48,7 +48,7 @@ Each time you use Topology Builder to build your topology, you must publish the 
     
       - To close the wizard, click **Finish**.
         
-        <div class="alert">
+        <div>
         
 
         > [!IMPORTANT]

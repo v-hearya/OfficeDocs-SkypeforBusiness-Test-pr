@@ -38,7 +38,7 @@ You need to include subject alternative name entries for automatic discovery on 
 
 This section describes the subject alternative name entries that are required on your certificates for automatic discovery.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -74,7 +74,7 @@ This section describes the subject alternative name entries that are required on
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -110,7 +110,7 @@ This section describes the subject alternative name entries that are required on
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -142,7 +142,7 @@ This section describes the subject alternative name entries that are required on
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -152,7 +152,7 @@ This section describes the subject alternative name entries that are required on
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

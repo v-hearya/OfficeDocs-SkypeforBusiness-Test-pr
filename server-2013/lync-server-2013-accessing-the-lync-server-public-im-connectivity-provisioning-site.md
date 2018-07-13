@@ -62,7 +62,7 @@ The provisioning process for Lync-Skype connectivity has changed, as compared to
 <li><p>Select the check box, verifying that you have read and accept the Product Use Rights for Lync Server.</p></li>
 <li><p>On the <strong>Initiate a Provisioning Request</strong> page, click the appropriate link to initiate a provisioning request:</p></li>
 <li><p>On the <strong>Specify Provisioning Information</strong> page, enter the <strong>Access Edge service FQDN</strong>. For example, <strong>sip.contoso.com</strong>.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > After July 1st, 2017 Microsoft will additionally require customers have the Federation DNS SRV record deployed for Public IM connectivity to continue to work.
@@ -70,7 +70,7 @@ The provisioning process for Lync-Skype connectivity has changed, as compared to
 
 </div></li>
 <li><p>Enter at least one or more SIP domain names, and then click <strong>Add</strong>.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > At least one Access Edge server and one SIP domain are required to complete the provisioning process. The SIP domain and the Access Edge server must be active, functioning, and reachable on the network.
@@ -100,7 +100,7 @@ To prepare the Lync Server environment for Lync-Skype connectivity, the Lync Ser
 
 Federation is required to enable Skype users to communicate with Lync users in your organization. Public Instant Messaging Connectivity (PIC) is a class of federation, and it must be configured to enable your Lync users to communicate with Skype users. Federation and PIC are configured by using the Lync Server Control Panel, shown below.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -126,7 +126,7 @@ Using the Lync Server Control Panel, an administrator must configure one or more
 
 Using the Lync Server Management Shell, an administrator must configure the Lync client policy to display Skype as an additional PIC provider.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -142,7 +142,7 @@ Using the Lync Server Management Shell, an administrator must configure the Lync
     
       - `Remove-CsPublicProvider -Identity <identity-name>`
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -153,7 +153,7 @@ Using the Lync Server Management Shell, an administrator must configure the Lync
     
       - `New-CsPublicProvider -ProxyFqdn federation.messenger.msn.com -Enabled 1 -Identity Skype  -VerificationLevel 2 -NameDecorationRoutingDomain msn.com -NameDecorationExcludedDomainList "msn.com,outlook.com,live.com,hotmail.com" -IconUrl "https://images.edge.messenger.live.com/Messenger_16x16.png"`
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]

@@ -70,7 +70,7 @@ Every Survivable Branch Appliance (SBA) is associated with a Front End pool whic
 
 9.  Follow the directions in the wizard that opens. For information about wizard items, see [Define a Survivable Branch Appliance or Server in Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

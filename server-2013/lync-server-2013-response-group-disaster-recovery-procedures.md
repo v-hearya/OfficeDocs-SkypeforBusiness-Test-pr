@@ -52,7 +52,7 @@ Use the steps in the following procedure to prepare for and perform disaster rec
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:backup.contoso.com" -FileName "C:\RgsExportPrimary.zip" -ReplaceExistingSettings
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]
@@ -107,7 +107,7 @@ Use the steps in the following procedure to prepare for and perform disaster rec
     
         Get-CsRgsWorkflow -Identity "service:ApplicationServer:<backup pool FQDN>" -ShowAll
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -122,7 +122,7 @@ Use the steps in the following procedure to prepare for and perform disaster rec
 
 7.  Manage and modify the imported response groups as usual.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -143,7 +143,7 @@ Use the steps in the following procedure to prepare for and perform disaster rec
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:primary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip"
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -160,7 +160,7 @@ Use the steps in the following procedure to prepare for and perform disaster rec
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:newprimary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip" -ReplaceExistingSettings
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -221,7 +221,7 @@ Use the steps in the following procedure to prepare for and perform disaster rec
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer:primary.contoso.com" -FileName "C:\RgsExportPrimaryUpdated.zip" -RemoveExportedConfiguration
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-06_
 
 The topics in this section guide you through the process of migrating either Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server. If you intend for your Lync Server 2013, Persistent Chat Server deployment to coexist with a Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat deployment, this guide also includes some essential information for operating in this mixed environment. This guide primarily focuses on data migration for Persistent Chat Server. For users who are migrating from legacy versions of Lync Server to Lync Server 2013, see [Migration from Lync Server 2010 to Lync Server 2013](migration-from-lync-server-2010-to-lync-server-2013.md) and [Migration from Office Communications Server 2007 R2 to Lync Server 2013](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md).
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -38,7 +38,7 @@ The topics in this section guide you through the process of migrating either Lyn
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -69,7 +69,7 @@ Persistent Chat Server is an extension of the Lync Server 2013 infrastructure. D
 
 If your organization requires compliance support, it is now automatically installed with each Persistent Chat Server. A separate server is no longer needed for compliance.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

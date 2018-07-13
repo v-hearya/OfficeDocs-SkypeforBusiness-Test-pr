@@ -40,7 +40,7 @@ You can greatly increase the benefits of your investment in Lync Server by enabl
 
   - **Public users**   Users of public IM services, such as IM services provided by the Windows Live network of Internet services, Yahoo\!, and AOL, and users of providers and servers that use Extensible Messaging and Presence Protocol (XMPP), such as Google Talk.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -49,7 +49,7 @@ You can greatly increase the benefits of your investment in Lync Server by enabl
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

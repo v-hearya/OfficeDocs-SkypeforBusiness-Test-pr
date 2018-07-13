@@ -38,7 +38,7 @@ The reverse proxy has minimal requirements for firewall and port/protocol.
     
     ![13142405-d5c9-45b7-a8b7-a8c89f09c97c](images/JJ204932.13142405-d5c9-45b7-a8b7-a8c89f09c97c(OCS.15).jpg "13142405-d5c9-45b7-a8b7-a8c89f09c97c")  
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]

@@ -54,7 +54,7 @@ If your organization wants to support public instant messaging (IM) connectivity
     
     The default certificate name of the template used for Lync Server is Web Server. Only specify the \<template name\> if you need to use a template that is different from the default template.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

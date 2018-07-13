@@ -163,7 +163,7 @@ Peer-to-peer features are supported for users who are homed on different version
 
 The following table compares feature availability in peer-to-peer sessions where the client is signed in to either Lync Server 2013 or Lync Server 2010.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -281,7 +281,7 @@ The following table compares feature availability in peer-to-peer sessions where
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -299,7 +299,7 @@ The following table compares feature availability in peer-to-peer sessions where
 
 1 In Office Communicator 2007 R2, only desktop sharing (and not program sharing) is available.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -445,7 +445,7 @@ Server support for the various scheduling add-ins is consistent with server and 
 
   - **Office Communicator 2007 R2 Conferencing Add-in**   Provides scheduling for both Office Live Meeting conferences and Office Communicator 2007 R2 conferences. 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-19_
 
 Microsoft Lync 2013 has a redesigned user interface and important new features. For administrators, the client is now included with the Office setup program, providing a more streamlined approach to deploying Office and customizing clients in your organization.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -52,7 +52,7 @@ In previous versions of Lync and Office Communicator, you could use Windows Inst
 
   - Use Setup Command-Line Options
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

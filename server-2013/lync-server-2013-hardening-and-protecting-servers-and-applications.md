@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-12-05_
 
 You should harden and protect your operating system and applications according to best practices for that specific component. This section describes how to harden application servers and use Group Policy to implement security lockdowns.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

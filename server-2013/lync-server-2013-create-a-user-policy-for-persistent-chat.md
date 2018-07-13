@@ -30,7 +30,7 @@ In the Lync Server Control Panel, you define user policies that can be assigned 
 
 The user policy overrides the global policy and site policies, but only for the specific users who are assigned the user policy.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -48,7 +48,7 @@ The user policy overrides the global policy and site policies, but only for the 
 
 2.  From the **Start** menu, select the Lync Server Control Panel or open a browser window, and then enter the Admin URL. For details about the different methods that you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

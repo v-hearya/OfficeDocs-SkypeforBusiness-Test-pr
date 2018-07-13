@@ -55,7 +55,7 @@ To run the cmdlets, open a Lync Server Management Shell using Run as Administrat
 
 4.  Import backed-up Lync Server Response Group service workflows from pool A into pool B.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -74,7 +74,7 @@ To run the cmdlets, open a Lync Server Management Shell using Run as Administrat
         
             Import-CsRgsConfiguration -Destination "service:ApplicationServer:<Pool B FQDN>" -FileName "C:\RgsExportPrimary.zip"
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]
@@ -99,7 +99,7 @@ To run the cmdlets, open a Lync Server Management Shell using Run as Administrat
         
             Set-CsUnassignedNumber -Identity "<Range Name>" -AnnouncementService "<Pool B FQDN>" -AnnouncementName "<New Announcement in pool B>"
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -179,7 +179,7 @@ To run the cmdlets, open a Lync Server Management Shell using Run as Administrat
         
             Import-CsRgsConfiguration -Destination "service:ApplicationServer:<Pool B FQDN>" -FileName "C:\RgsExportPrimary.zip"
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]
@@ -210,7 +210,7 @@ To run the cmdlets, open a Lync Server Management Shell using Run as Administrat
     
       - (Optional) Remove from pool B the announcements that were re-created in pool C if they are no longer in use in pool B. To remove announcements, use the **Remove-CsAnnouncement** cmdlet.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -288,7 +288,7 @@ To run the cmdlets, open a Lync Server Management Shell using Run as Administrat
             Update-CsUserData -FileName c:\logs\exportedUserDAta.xml -UserFilter $user - 
             }
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]

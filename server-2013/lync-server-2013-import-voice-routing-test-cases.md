@@ -46,7 +46,7 @@ Test cases, which can be created by using Lync Server Control Panel, are typical
 
 6.  Click **Commit**, and then click **Commit all**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

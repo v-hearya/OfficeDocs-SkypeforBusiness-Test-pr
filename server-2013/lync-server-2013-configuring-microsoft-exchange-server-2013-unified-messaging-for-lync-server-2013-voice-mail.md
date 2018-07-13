@@ -45,7 +45,7 @@ In the second command, the parameter value passed to the ConfiguredInCountryOrRe
 
   - TextComment (\*, a wildcard character indicating that any text command is allowed)
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

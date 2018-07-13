@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-19_
 
 After your users are moved to Lync Server 2013 pools, you can migrate your response groups. Migrating response groups includes copying agent groups, queues, workflows, and audio files, and moving Response Group contact objects from the legacy deployment to the Lync Server 2013 pool. After you migrate your legacy response groups, calls to the response groups are handled by the Response Group application in the Lync Server 2013 pool. Calls to response groups are no longer handled by the legacy pool.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -40,7 +40,7 @@ After your users are moved to Lync Server 2013 pools, you can migrate your respo
 
 Before you migrate response groups, you must have deployed a Lync Server 2013 pool that includes the Response Group application. The Response Group application is installed and activated by default when you deploy Enterprise Voice. You can ensure that the Response Group application is installed by running the **Get-CsService–ApplicationServer** cmdlet.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -52,7 +52,7 @@ Before you migrate response groups, you must have deployed a Lync Server 2013 po
 
 To migrate response groups from a legacy pool to the Lync Server 2013, you run the **Move-CsRgsConfiguration** cmdlet. Before you can run **Move-CsRgsConfiguration**, you must first install the Windows Management Instrumentation (WMI) Backward Compatibility interfaces package. Install this application by running OCSWMIBC.msi. You can find OCSWMIBC.msi on the installation media in the Setup folder.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -64,7 +64,7 @@ To migrate response groups from a legacy pool to the Lync Server 2013, you run t
 
 After you migrate the response groups, you need to update the URL that formal agents use to sign into and out of their response groups, and use Lync Server Control Panel or Lync Server Management Shell cmdlets to verify that all agent groups, queues, and workflows moved successfully.
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]
@@ -74,7 +74,7 @@ After you migrate the response groups, you need to update the URL that formal ag
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -86,7 +86,7 @@ After you migrate the response groups, you need to update the URL that formal ag
 
 When you run the **Move-CsRgsConfiguration** cmdlet, the agent groups, queues, workflows, and audio files remain in the legacy pool for rollback purposes. If you do need to roll back to the legacy pool, however, you need to run the **Move-CsApplicationEndpoint** cmdlet to move contact objects back to the legacy pool.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -118,7 +118,7 @@ The procedure that follows for migrating Response Group configurations assumes t
 
 5.  If you deployed the Response Group tab for Microsoft Office Communicator 2007 R2 in your Office Communications Server 2007 R2 environment, remove the tab from the Office Communicator 2007 R2 tabs.xml file.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -129,7 +129,7 @@ The procedure that follows for migrating Response Group configurations assumes t
 
 6.  Provide users with the updated URL that agents need to sign into and out of their response groups.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -138,7 +138,7 @@ The procedure that follows for migrating Response Group configurations assumes t
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

@@ -54,7 +54,7 @@ In addition to the requirements for web conferencing and A/V conferencing, dial-
     
       - Session Border Controller (SBC) (for an Internet telephony service provider to which you connect by configuring a SIP trunk)
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -93,7 +93,7 @@ You can deploy dial-in conferencing in the following topologies and configuratio
 
 You can deploy Application service, Conferencing Attendant application, and Conferencing Announcement application in a central site, but not in a branch site.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -125,7 +125,7 @@ Lync Server 2013 provides the following ways to configure Office Web Apps Server
 
 Regardless of the topology you select, it is critical that the correct firewall ports be opened. You must make sure that DNS names, IP addresses, and ports are not blocked by firewalls on the Office Web Apps Server, the load balancer, or Lync Server.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

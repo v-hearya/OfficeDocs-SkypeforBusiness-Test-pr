@@ -46,7 +46,7 @@ For details about the [Set-CsHostedVoicemailPolicy](set-cshostedvoicemailpolicy.
     
       - **Organization** specifies a comma-separated list of the Exchange tenants that home Lync Server users. Each tenant must be specified as the FQDN of that tenant on the hosted Exchange UM service.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

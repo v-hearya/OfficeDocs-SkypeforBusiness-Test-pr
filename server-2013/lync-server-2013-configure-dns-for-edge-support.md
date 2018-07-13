@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-15_
 
 You must configure Domain Name System (DNS) records for internal and external edge interfaces, including both Edge Server and reverse proxy interfaces. By default, Edge Servers are not joined to a domain and will not have a fully qualified domain name (fully qualified domain name). The Edge Server is only referred to by the short (machine) name, not a fully qualified domain name. However, Topology Builder uses FQDNs, not short names. The name of the Edge Server must match the FQDN used by Topology Builder. To do this, you define a DNS suffix that, when combined with the machine name, results in the expected FQDN. Use the following procedure in “To add the DNS suffix to the computer name on and Edge Server that is not joined to a domain” to add the DNS suffix to the computer name.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -64,7 +64,7 @@ Use the following procedures in “**To create a DNS SRV record**” to create a
 
 1.  On the appropriate DNS server, click **Start**, click **Control Panel**, click **Administrative Tools**, and then click **DNS**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

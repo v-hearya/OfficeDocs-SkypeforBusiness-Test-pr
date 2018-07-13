@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-09-23_
 
 Deploying edge components for Microsoft Lync Server 2013 makes it possible for external users who are not logged into your organization’s internal network, including authenticated and anonymous remote users, federated partners (including XMPP partners), mobile clients and users of public instant messaging (IM) services, to communicate with other users in your organization using Lync Server. The deployment and configuration processes for Lync Server 2013 are not significantly different from Lync Server 2010. The tools for installation and administration are much the same as in Lync Server 2010.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

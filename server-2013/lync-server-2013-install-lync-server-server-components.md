@@ -48,7 +48,7 @@ The Lync Server Deployment Wizard is used to install the needed components for e
 
 7.  When Lync Server 2013 components setup is done, and you’ve reviewed the logs as needed, click **Finish** to complete this step in the installation.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

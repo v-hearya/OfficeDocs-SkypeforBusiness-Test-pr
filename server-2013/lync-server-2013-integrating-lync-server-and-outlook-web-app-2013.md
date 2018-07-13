@@ -44,7 +44,7 @@ If you have installed the Microsoft Exchange Unified Messaging Call Router servi
 
 Lync Server 2013 can autodiscover any Exchange servers that host a SipName UM dial plan; these servers are automatically added to the Lync Server Known Servers List. There is no need to create a trusted application pool and add these servers to the Known Servers List. In fact, doing so will cause Outlook Web App integration to stop working.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -80,7 +80,7 @@ With Lync Server correctly configured you can then begin to configure Outlook We
 
     Get-OwaVirtualDirectory | Set-OwaVirtualDirectory -InstantMessagingEnabled $True -InstantMessagingType OCS
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -48,7 +48,7 @@ For computers equipped with a Trusted Platform Module (TPM) chip that meets spec
 
 6.  From the TPM management console, verify that your TPM specification version is at least 1.2
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -63,7 +63,7 @@ For computers equipped with a Trusted Platform Module (TPM) chip that meets spec
     
         TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

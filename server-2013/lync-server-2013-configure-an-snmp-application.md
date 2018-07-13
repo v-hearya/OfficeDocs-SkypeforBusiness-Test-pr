@@ -32,7 +32,7 @@ If an SNMP application is installed and the Location Information service fails t
 
 For details, see [Set-CsWebServiceConfiguration](set-cswebserviceconfiguration.md).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

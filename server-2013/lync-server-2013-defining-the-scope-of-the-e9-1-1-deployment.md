@@ -46,7 +46,7 @@ Before you configure Microsoft Lync Server 2013 for E9-1-1, you need to plan you
   - **Will you enable E9-1-1 for users working outside the network?**  
     Automatic location acquisition is available only for clients located inside the organization’s network, so your organization needs to decide whether it will support E9-1-1 calls made from Lync clients while off-premises. For example, will you enable users to place emergency calls if they are working from home or from a customer site? If a client is located outside the enterprise network, the client can be configured to prompt the user for a location. However, because these user-provided locations cannot be prevalidated against the Master Street Address Guide (MSAG), the emergency services service provider dispatcher will need to confirm the validity of the location verbally with the caller before routing the call to the Public Safety Answering Point (PSAP).
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

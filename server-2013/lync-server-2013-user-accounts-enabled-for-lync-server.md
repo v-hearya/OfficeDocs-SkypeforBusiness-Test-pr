@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2014-04-18_
 
 Topics in this section provide step-by-step procedures for configuring user settings that you can perform using the Lync Server 2013 Control Panel.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

@@ -36,7 +36,7 @@ The following list describes the requirements for implementing unified contact s
 
   - You must have server-to-server authentication configured between Lync Server 2013 and Exchange 2013.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

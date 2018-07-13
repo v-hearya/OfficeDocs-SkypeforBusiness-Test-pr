@@ -56,7 +56,7 @@ You can restore a device update rule by using either Lync Server Control Panel o
 
 Device updates rules can also be restored by using Windows PowerShell and the **Restore-CsDeviceUpdateRule** cmdlet.. This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

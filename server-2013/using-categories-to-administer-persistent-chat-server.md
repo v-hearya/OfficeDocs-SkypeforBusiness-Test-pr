@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-10-01_
 
 Your Persistent Chat Server deployment can host many concurrent Persistent Chat rooms. Chat rooms can be organized into a set of categories on the server. Each chat room belongs to one category, and inherits some settings from that category. This organization creates a useful structure for identifying conversations, based on their business purpose, and facilitates delegated administration and simplified management.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -42,7 +42,7 @@ Persistent Chat administrators use Lync Server Control Panel or Windows PowerShe
 
 Persistent Chat room managers, who have the ability to manage one or more chat rooms, can use the Lync client to launch a room management Web application to create and manage rooms (or customers can create custom solutions and workflows to be invoked). Persistent Chat administrators can also use Lync Server Control Panel or Windows PowerShell cmdlets to create and manage rooms.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

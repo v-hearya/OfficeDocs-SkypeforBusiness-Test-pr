@@ -30,7 +30,7 @@ _**Topic Last Modified:** 2013-02-12_
 
 The following table describes the Group Call Pickup user model that you can use as the basis for capacity planning requirements.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -85,7 +85,7 @@ The following table describes the Group Call Pickup user model that you can use 
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

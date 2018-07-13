@@ -50,7 +50,7 @@ Instruct your users to configure the Lync settings on their Windows Phones as fo
 
 3.  Tap the empty field and enter the fully qualified domain name (FQDN) or URL for Exchange Web Services.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

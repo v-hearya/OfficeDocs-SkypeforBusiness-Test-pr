@@ -141,7 +141,7 @@ Every figure in Lync Server 2013 Help, including screenshots, diagrams, flow cha
 
 The following sections provide information about the features, products, and services that make Windows more accessible for people with disabilities.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

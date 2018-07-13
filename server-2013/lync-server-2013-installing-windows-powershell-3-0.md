@@ -30,7 +30,7 @@ To deploy Lync Server 2013 successfully, you’ll need Windows PowerShell 3.0 on
 
 Now, for systems running Windows Server 2012 or Windows Server 2012 R2, you don’t need to do anything here, and can go ahead to the next stage of deployment, because PowerShell 3.0 is included with those operating systems.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

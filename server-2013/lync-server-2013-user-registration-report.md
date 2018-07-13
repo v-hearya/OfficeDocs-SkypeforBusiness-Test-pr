@@ -95,7 +95,7 @@ In addition to knowing the number of unique logons, you need to know the total n
 
 If the preceding command returns a value of 1,236 and Unique logon users metric returns an average value of 667, that suggests that a little over half of your users enable for Lync are actually logging on to the system each day (that is, 667 divided by 1,236, which is approximately 54%).
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]

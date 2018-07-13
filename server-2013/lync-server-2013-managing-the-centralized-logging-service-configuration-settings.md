@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-11-01_
 
 The Centralized Logging Service is controlled and configured by settings and parameters that are created and used by the Centralized Logging Service Controller (CLSController) to send commands to the individual computer’s Centralized Logging Service Agent (CLSAgent). The agent processes the commands that are sent to it and (in the case of a Start command) uses the configuration of the scenarios, providers, log size, trace duration, and flags to begin collecting trace logs according to the configuration information provided.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

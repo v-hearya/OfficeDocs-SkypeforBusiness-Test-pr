@@ -107,7 +107,7 @@ Assuming you are running latest cumulative update, use the following stress test
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

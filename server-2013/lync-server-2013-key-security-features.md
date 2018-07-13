@@ -92,7 +92,7 @@ Microsoft Lync Server 2013 provides role-based access control (RBAC) to enable y
 
 Lync Server 2013 does not support the use of network address translation (NAT) on the internal interface of the Edge Server, but it does support placing the external interface of the Access Edge service, Web Conferencing Edge service, and A/V Edge service behind a router or firewall that performs network address translation (NAT) for both single and scaled consolidated Edge Server topologies. Multiple Edge Servers behind a hardware load balancer cannot use NAT. If multiple Edge Servers use NAT on their external interfaces, Domain Name System (DNS) load balancing is required. In turn, using DNS load balancing allows you to reduce the number of public IP addresses per Edge Server in an Edge Server pool. For details, see[Planning for external user access in Lync Server 2013](lync-server-2013-planning-for-external-user-access.md).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

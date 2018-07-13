@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-11-07_
 
 Before you begin designing and planning your Lync Server 2013 infrastructure by using the Microsoft Lync Server 2013, Planning Tool, you must first install the Planning Tool. The Planning Tool does not need to be deployed to a workstation or server that is part of the domain or infrastructure where you plan to install Lync Server 2013. The Readme file that accompanies the Planning Tool details important information about installing and using the tool. Some of the information in the Readme file is duplicated here for clarity.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

@@ -38,7 +38,7 @@ _**Topic Last Modified:** 2012-10-02_
 
 5.  In **Specify Edge Type**, enter the type of Edge Server configuration, and then click **Next**. This example uses the **Single Edge Server** option.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -53,7 +53,7 @@ _**Topic Last Modified:** 2012-10-02_
 
 7.  In **Specify External Edge**, enter the web conferencing FQDN information for your Edge Server.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -88,7 +88,7 @@ _**Topic Last Modified:** 2012-10-02_
 
 17. When the **Publishing wizard** completes, click **Finish**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

@@ -80,7 +80,7 @@ The Persistent Chat compliance database (mgccomp) is not failed over. The conten
 
 7.  Set the Persistent Chat Server active servers. From the Lync Server Command Shell, use the **Set-CsPersistentChatActiveServer** cmdlet to set the list of active servers.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

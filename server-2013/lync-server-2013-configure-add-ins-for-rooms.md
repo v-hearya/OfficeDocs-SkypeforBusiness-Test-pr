@@ -38,7 +38,7 @@ Add-ins are used to extend the in-room experience. A typical add-in might includ
 
 2.  From the **Start** menu, select the Lync Server Control Panel or open a browser window, and then enter the Admin URL. For details about the different methods that you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

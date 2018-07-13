@@ -26,7 +26,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2017-09-20_
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -52,7 +52,7 @@ Things to know about Windows PowerShell in Lync Server 2013:
 
   - To run the Lync Server cmdlets, open the Lync Server Management Shell.
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]

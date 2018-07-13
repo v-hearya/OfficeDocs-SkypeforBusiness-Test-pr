@@ -30,7 +30,7 @@ The following are the requirements needed for the installation and configuration
 
   - Lync Server 2013 Cumulative Update 2 must be deployed on all servers or pools in your topology.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

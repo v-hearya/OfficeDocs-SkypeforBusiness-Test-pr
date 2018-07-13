@@ -80,7 +80,7 @@ You might also encounter instances when the **Get-CsClientAccessLicense** cmdlet
 
 \* If a user joins a conference using a PSTN phone, a single license usage will be recorded for that call. However, no license is actually required to join a conference using a PSTN phone.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

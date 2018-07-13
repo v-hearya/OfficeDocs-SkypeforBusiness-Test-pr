@@ -46,7 +46,7 @@ Here is a list of terms and definitions that you might find useful as you read t
 
 You must use the Lync Server User Provisioning Tool to create users and contacts for load simulation. The Lync Server User Provisioning Tool is installed with the Lync Server Stress and Performance Tool package. Be sure that the package installer (CapacityPlanningTool.msi) has been run on the Front End Server or the Standard Edition server. Start the Lync Server User Provisioning Tool by running the file UserProvisioningTool.exe (located at %InstalledDirectory%LyncStressAndPerfTool\\LyncStress) on the Front End Server or on the Standard Edition server.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -56,7 +56,7 @@ You must use the Lync Server User Provisioning Tool to create users and contacts
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -116,7 +116,7 @@ When you click on Delete Users button, it will validate all the input parameters
 
   - If all the input values are correct, it will start disabling and deleting users in Active Directory Domain Services. A progress bar will appear at the bottom of this form. We recommend that you do not close the application while the progress bar is active.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -156,7 +156,7 @@ To configure users’ contacts, follow these steps.
 
 6.  In Federated / Cross Pool User SIP Domain, specify the SIP Domain Name of the federated users.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -169,7 +169,7 @@ To configure users’ contacts, follow these steps.
 
 8.  Click Create Contacts to begin the contact creation. This process can take several minutes. After it completes, a dialog box will appear with the message, "Operation Completed Successfully." You can validate the contacts that were created by logging on as a user that was created from the User Creation tab.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

@@ -70,7 +70,7 @@ You can use the **Create voice routing test case information** dialog box to run
     
     2.  Note that the remaining fields on the **Save Voice Routing Test Case Information** dialog box are read-only, and are prepopulated from the informal test configuration *and* results. Verify that this is the configuration that you want to save for the test case.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -90,7 +90,7 @@ You can use the **Create voice routing test case information** dialog box to run
 
 11. Click **Commit**, and then click **Commit all**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

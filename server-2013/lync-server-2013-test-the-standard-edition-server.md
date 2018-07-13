@@ -36,7 +36,7 @@ The following procedure describes how to test the deployment of a Standard Editi
 
 2.  If the user object is currently logged on, log off and then log on again to register the new group assignment.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

@@ -112,7 +112,7 @@ Perform the following steps to configure stress and performance testing for emer
 
 1.  Set up a voice route for emergency calls. See the RoutingRules.ps1 script under the comment "Route E911 to PSTN" for an example of setting up this voice route.
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]

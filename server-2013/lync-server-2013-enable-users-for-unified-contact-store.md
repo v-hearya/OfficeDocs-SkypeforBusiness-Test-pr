@@ -61,7 +61,7 @@ When you deploy Lync Server 2013 and publish the topology, unified contact store
             New-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $True
             Grant-CsUserServicesPolicy -Identity "<user display name>" -PolicyName <"policy name">
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -75,7 +75,7 @@ When you deploy Lync Server 2013 and publish the topology, unified contact store
             New-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $True
             Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "UCS Enabled Users"
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]

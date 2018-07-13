@@ -26,7 +26,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2013-02-17_
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

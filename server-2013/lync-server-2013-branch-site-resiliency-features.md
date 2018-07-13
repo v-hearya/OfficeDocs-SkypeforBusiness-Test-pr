@@ -65,7 +65,7 @@ The following features will be available only if your resiliency solution is a f
     
     If E9-1-1 is deployed, and the SIP trunk at the central site is not available because the WAN link is down, then the Survivable Branch Appliance will route E9-1-1 calls to the local branch gateway. To enable this feature, the branch-site users’ voice policies should route calls to the local gateway in the event of WAN failure.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -54,7 +54,7 @@ After migrating to Lync Server 2013, you must be aware of how the change impacts
 
 2.  Select **Simple URLs** in the left pane, then below **Administrative access URL** box, enter the simple URL you want for administrative access to Lync Server 2013 Control Panel, and then click **OK**.
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]

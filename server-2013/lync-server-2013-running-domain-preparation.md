@@ -88,7 +88,7 @@ Domain preparation is the final step in preparing Active Directory Domain Servic
     
         Get-CsAdDomain -Domain domain1.contoso.net -GlobalSettingsDomainController dc01.domain1.contoso.com
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

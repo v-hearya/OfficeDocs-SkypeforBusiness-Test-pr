@@ -36,7 +36,7 @@ There are two things to keep in mind when assigning policies to users. First, on
 
 This command fails because there is no need to assign the global policy. If you want to manage a user by using the global policy, just be sure that you do not assign that user a per-user policy. If no per-user policy has been assigned to a user, the user will automatically be managed by using the global policy.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

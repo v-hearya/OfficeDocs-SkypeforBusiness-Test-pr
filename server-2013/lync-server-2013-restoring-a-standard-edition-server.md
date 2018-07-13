@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-21_
 
 If a Standard Edition server that does not host the Central Management store fails, follow the procedures in this section. If the Central Management store fails, see [Restoring the server hosting the Central Management store in Lync Server 2013](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md).
 
-<div class="alert">
+<div>
 
 
 > [!TIP]
@@ -44,7 +44,7 @@ If a Standard Edition server that does not host the Central Management store fai
 
 1.  Start with a clean or new server that has the same fully qualified domain name (FQDN) as the failed computer, install the operating system, and then restore or reenroll the certificates.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -57,7 +57,7 @@ If a Standard Edition server that does not host the Central Management store fai
 
 3.  Restore the File Store by copying the appropriate File Store from $Backup to the File Store location on the server and share the folder.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

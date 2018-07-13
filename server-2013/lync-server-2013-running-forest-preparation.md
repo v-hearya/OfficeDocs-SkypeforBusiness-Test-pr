@@ -44,7 +44,7 @@ After you prepare the forest, you must verify that global settings have been rep
 
 5.  On the **Prepare Forest** page, click **Next**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

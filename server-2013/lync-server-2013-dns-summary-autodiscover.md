@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-13_
 
 Autodiscover is a flexible service in that it will accept communication over HTTP or HTTPS. To accomplish this, the domain name system (DNS) and the certificates used by servers that host the Autodiscover service must be configured correctly. Certificate requirements are covered in [Certificate summary - Autodiscover in Lync Server 2013](lync-server-2013-certificate-summary-autodiscover.md).
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -100,7 +100,7 @@ You need to create one of the following external DNS records:
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -110,7 +110,7 @@ You need to create one of the following external DNS records:
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

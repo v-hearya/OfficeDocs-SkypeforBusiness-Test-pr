@@ -63,7 +63,7 @@ Certificate requirements for a single Director consist of a default certificate 
 <td><p>OAuthTokenIssuer</p></td>
 <td><p>dir01.contoso.net</p></td>
 <td><p>No Entry</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!IMPORTANT]
 > Note that the minimum key length is 1024, but you may receive a warning that the minimum recommended key length is 2048 bits.

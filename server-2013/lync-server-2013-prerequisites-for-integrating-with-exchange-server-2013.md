@@ -68,7 +68,7 @@ After the autodiscover service has been configured you must then modify the Lync
 
     Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc"
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

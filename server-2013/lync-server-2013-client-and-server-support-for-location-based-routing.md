@@ -158,7 +158,7 @@ The following table identifies the clients that Location-Based Routing supports.
 
   
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

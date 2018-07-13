@@ -66,7 +66,7 @@ The reference topology with high availability and a single data center is design
     
       - Your users can exchange instant messages with users of public IM services, including any or all of the following: Windows Live, AOL, Yahoo\!, and Google Talk. A separate license might be required for public IM connectivity with these services.
         
-        <div class="alert">
+        <div>
         
 
         > [!IMPORTANT]

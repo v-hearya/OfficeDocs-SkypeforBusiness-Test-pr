@@ -40,7 +40,7 @@ Lync Server 2013 supports both scheduled conferences and impromptu conferences.
 
 When you deploy Lync Server 2013, Front End Server, you can choose whether to also deploy the web conferencing, A/V conferencing, and dial-in conferencing capabilities. IM conferencing capabilities are always automatically deployed along with IM conversation capabilities on Lync Server 2013 Front End Servers.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

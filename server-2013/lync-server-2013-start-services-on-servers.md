@@ -40,7 +40,7 @@ After you install the Local Configuration store on your servers, install the Lyn
 
 3.  On the **Executing Commands** page, after all services have started successfully, click **Finish**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

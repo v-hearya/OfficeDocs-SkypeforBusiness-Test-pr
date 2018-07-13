@@ -30,7 +30,7 @@ For each site you have deployed, you can create a site-specific Persistent Chat 
 
 The configuration in the site policy overrides the global policy, but only for the specific site covered by the site policy.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -50,7 +50,7 @@ The configuration in the site policy overrides the global policy, but only for t
 
 3.  In the left navigation bar, click **Persistent Chat**, and then click **Persistent Chat Policy**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

@@ -106,7 +106,7 @@ When you restore a server, you need to start with a new or clean computer. Addit
 
   - A clean or new server with the same fully qualified domain name (FQDN) as the server that failed.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -119,7 +119,7 @@ When you restore a server, you need to start with a new or clean computer. Addit
 
   - Installation software for SQL Server 2012 or SQL Server 2008 R2. To install a database server, use the appropriate version of SQL Server and the database server deployment procedures and configurations established by your organization. You should have these procedures and configuration requirements available when you restore service.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -130,7 +130,7 @@ When you restore a server, you need to start with a new or clean computer. Addit
 
   - Software for taking system images.
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]
@@ -169,7 +169,7 @@ Before you restore the server, you must perform the following steps:
 
 4.  Take an image of the system before starting restoration to use as a rollback point, in case something goes wrong during restoration.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

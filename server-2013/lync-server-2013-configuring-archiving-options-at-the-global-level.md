@@ -30,7 +30,7 @@ When you add Archiving to your topology and publish the topology, Lync Server cr
 
 For details about how Archiving configurations work, including the hierarchy for global, site, and pool configurations, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

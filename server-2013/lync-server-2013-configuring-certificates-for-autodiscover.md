@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-12-12_
 
 The certificates for your Director pool, Front End pool, and reverse proxy require additional subject alternative name entries to support secure connections with Lync clients.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -74,7 +74,7 @@ The certificates for your Director pool, Front End pool, and reverse proxy requi
 
 8.  If the certificate is located on this computer, select **Local computer**. If the certificate is located on another computer, select **Another computer**, type in the fully qualified domain name of the computer or click **Browse** In **Enter the object name to select**, type the name of the computer. Click **Check Names**. When the name of the computer is resolved, it will be underlined. Click **OK**, then click **Finish**. Click **OK** to commit the selection and close the **Add or Remove Snap-ins** dialog.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

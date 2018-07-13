@@ -74,7 +74,7 @@ The following procedure describes how to use SQL Server Management Studio to res
     
     3.  Under **Database role membership**, select the **ServerRole** permission, and then click **OK**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

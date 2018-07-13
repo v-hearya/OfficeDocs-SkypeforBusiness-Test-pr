@@ -40,7 +40,7 @@ Call admission control (CAC) is a network of regions, sites, and subnets that en
 
 4.  On the **Global** page, click the **Global** configuration.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

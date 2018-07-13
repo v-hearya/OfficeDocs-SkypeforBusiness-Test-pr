@@ -56,7 +56,7 @@ For details, see [Active Directory infrastructure requirements for Lync Server 2
 
 ## Active Directory Domain Services Preparation
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -92,7 +92,7 @@ During preparation of the forest, Lync Server 2013 creates various universal gro
 
 For details about the specific universal groups created when preparing AD for Lync Server, as well as the service and administration groups that get added to the infrastructure groups, see [Changes made by forest preparation in Lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md) in the Deployment documentation.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

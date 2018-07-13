@@ -38,7 +38,7 @@ Federation is required to enable Skype users to communicate with Lync users in y
 
 ![Showing PIC](images/Dn440170.451b94e3-0b38-488c-835f-1f25690e8074(OCS.15).jpg "Showing PIC")
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -66,7 +66,7 @@ Using the Lync Server Control Panel, an administrator must configure one or more
 
 Using the Lync Server Management Shell, an administrator must configure the Lync client policy to display Skype as an additional PIC provider.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -88,7 +88,7 @@ Using the Lync Server Management Shell, an administrator must configure the Lync
     
     `Remove-CsPublicProvider -Identity <identity-name>`
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -99,7 +99,7 @@ Using the Lync Server Management Shell, an administrator must configure the Lync
     
     `New-CsPublicProvider -ProxyFqdn federation.messenger.msn.com -Enabled 1 -Identity Skype  -VerificationLevel 2 -NameDecorationRoutingDomain msn.com -NameDecorationExcludedDomainList "msn.com,outlook.com,live.com,hotmail.com" -IconUrl "https://images.edge.messenger.live.com/Messenger_16x16.png"`
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

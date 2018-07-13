@@ -38,7 +38,7 @@ To ensure the best user experience, it is important to schedule the large meetin
     
       - If the meeting is an internal-only meeting, set the meeting access type to **Anyone from my organization**.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -55,7 +55,7 @@ To ensure the best user experience, it is important to schedule the large meetin
     
       - The list of presenters provided by a meeting requester
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -70,7 +70,7 @@ To ensure the best user experience, it is important to schedule the large meetin
     
       - The list of presenters provided by large meeting requesters
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

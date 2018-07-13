@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2017-09-14_
 
 Microsoft Lync Server 2013 uses TLS and MTLS to encrypt instant messages. All server-to-server traffic requires MTLS, regardless of whether the traffic is confined to the internal network or crosses the internal network perimeter. TLS is optional but strongly recommended between the Mediation Server and media gateway. If TLS is configured on this link, MTLS is required. Therefore, the gateway must be configured with a certificate from a CA that is trusted by the Mediation Server.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -38,7 +38,7 @@ Microsoft Lync Server 2013 uses TLS and MTLS to encrypt instant messages. All se
 
 </div>
 
-<div class="alert">
+<div>
 
 <table>
 <thead>
@@ -112,7 +112,7 @@ The following table summarizes the protocol requirements for each type of traffi
 
 Media traffic is encrypted using Secure RTP (SRTP), a profile of Real-Time Transport Protocol (RTP) that provides confidentiality, authentication, and replay attack protection to RTP traffic. In addition, media flowing in both directions between the Mediation Server and its internal next hop is also encrypted using SRTP. Media flowing in both directions between the Mediation Server and a media gateway is not encrypted by default. The Mediation Server can support encryption to the media gateway, but the gateway must support MTLS and storage of a certificate.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

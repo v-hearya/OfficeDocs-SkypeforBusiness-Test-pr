@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2014-07-24_
 
 After you have set up the hardware and system infrastructure, you need to install the appropriate Windows operating systems and updates, in addition to all other prerequisite software on each server that you are deploying. This includes each Lync Server 2013 server role and any additional infrastructure servers or servers running SQL Server that are required for your deployment.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -48,7 +48,7 @@ On each server that you are deploying, install the appropriate Windows operating
 
   - **Database servers**   For details about operating system requirements for database servers, including the back-end database, Archiving database, and Monitoring database, see the SQL Server documentation. For SQL Server 2012, see the SQL Server 2012 Books Online at [http://go.microsoft.com/fwlink/p/?linkId=218015](http://go.microsoft.com/fwlink/p/?linkid=218015).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -86,7 +86,7 @@ Lync Server 2013 requires the installation of the following additional software 
 
   - **Prerequisite software for database servers**   For details about the Windows Update required for database servers, including the back-end database, Archiving database, and Monitoring database, see the SQL Server 2012 documentation at [http://go.microsoft.com/fwlink/p/?linkId=218015](http://go.microsoft.com/fwlink/p/?linkid=218015).
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -97,7 +97,7 @@ Lync Server 2013 requires the installation of the following additional software 
 
   - **Windows Media Format Runtime**   All Front End Servers and Standard Edition servers where conferencing will be deployed must have the Windows Media Format Runtime installed. The Windows Media Format Runtime is required to run the Windows Media Audio (.wma) files that the Call Park, Announcement, and Response Group applications play for announcements and music.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -106,7 +106,7 @@ Lync Server 2013 requires the installation of the following additional software 
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

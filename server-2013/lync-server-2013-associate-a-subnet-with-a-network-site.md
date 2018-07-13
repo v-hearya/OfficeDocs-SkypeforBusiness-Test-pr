@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-19_
 
 Every subnet in your network must be associated with a specific network site, because subnet information is used to determine the network site on which an endpoint is located while a new session is initiated. When the location of each party in a session is known, advanced Enterprise Voice features can apply that information to determine how to handle the call setup or routing.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -38,7 +38,7 @@ Every subnet in your network must be associated with a specific network site, be
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -63,7 +63,7 @@ For details about working with network subnets, see the Lync Server Management S
 
   - [Remove-CsNetworkSubnet](remove-csnetworksubnet.md)
 
-<div class="alert">
+<div>
 
 
 > [!TIP]
@@ -135,7 +135,7 @@ For details about working with network subnets, see the Lync Server Management S
 
 7.  Click **Network site ID**, and then select the site ID of the site to which you are adding this subnet.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

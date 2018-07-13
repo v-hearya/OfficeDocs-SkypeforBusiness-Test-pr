@@ -114,7 +114,7 @@ In the Logging Tool, when you have ended the debug session, click Analyze Log Fi
 
 To help organize the performance of as-needed tasks, see As-Needed Operations Checklist.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

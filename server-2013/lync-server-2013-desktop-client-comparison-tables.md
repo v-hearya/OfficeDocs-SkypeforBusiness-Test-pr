@@ -46,7 +46,7 @@ The following tables compare the features and capabilities of Lync 2013 clients 
 
 These tables indicate the features that are available to Lync users in an on-premises deployment of Lync Server 2013. The same features are also available to Skype for Business Online and Office 365 users unless otherwise indicated.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -56,7 +56,7 @@ These tables indicate the features that are available to Lync users in an on-pre
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -671,7 +671,7 @@ These tables indicate the features that are available to Lync users in an on-pre
 
 ## Conferencing Support
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -1122,7 +1122,7 @@ These tables indicate the features that are available to Lync users in an on-pre
 
 ## Voice (Telephony) Support
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -60,7 +60,7 @@ For details about creating per-user dial-in conferencing PIN policies, see [Crea
     
     4.  Depending on the user property you selected, enter the criteria you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
         
-        <div class="alert">
+        <div>
         
 
         > [!TIP]
@@ -73,7 +73,7 @@ For details about creating per-user dial-in conferencing PIN policies, see [Crea
 
 6.  Click a user in the search results, click **Action**, and then click **Assign policies**.
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]
@@ -84,7 +84,7 @@ For details about creating per-user dial-in conferencing PIN policies, see [Crea
 
 7.  In **Assign Policies**, under **PIN policy**, do one of the following:
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -97,7 +97,7 @@ For details about creating per-user dial-in conferencing PIN policies, see [Crea
     
       - Click the name of a per-user PIN policy you previously defined on the **PIN Policy** page.
         
-        <div class="alert">
+        <div>
         
 
         > [!TIP]

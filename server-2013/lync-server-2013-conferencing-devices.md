@@ -30,7 +30,7 @@ Conferencing devices bring Lync Phone Edition features into conference rooms, en
 
 Use the topics in this section to learn how to set up and manage your conferencing devices.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

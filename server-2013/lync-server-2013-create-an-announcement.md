@@ -34,7 +34,7 @@ To create a new announcement, you need to perform the following steps:
 
 3.  Run the **New-CsAnnouncement** cmdlet to create and name the announcement. Perform this step to create announcements with an audio prompt, a text-to-speech (TTS) prompt, or no prompt.
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]

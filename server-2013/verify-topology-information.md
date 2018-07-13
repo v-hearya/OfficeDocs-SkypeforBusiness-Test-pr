@@ -38,7 +38,7 @@ The first step in verifying the merge completed successfully is to view the Offi
 
 3.  Verify that the FQDNs for the pools and servers that you merge are displayed.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -67,7 +67,7 @@ You can also use Lync Server 2013 Control Panel to view your merged topology. In
 
 To see more detail about a merged pool, use the **Get-CsPool** cmdlet. In addition to the information that is available in Topology Builder and Lync Server 2013 Control Panel, this cmdlet displays the services that run on the Lync Server 2013 pool.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

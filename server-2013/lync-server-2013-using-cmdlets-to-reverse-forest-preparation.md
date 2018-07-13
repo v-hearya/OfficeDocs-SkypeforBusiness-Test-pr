@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-06-19_
 
 Use the **Disable-CsAdForest** cmdlet to reverse the forest preparation step.
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]

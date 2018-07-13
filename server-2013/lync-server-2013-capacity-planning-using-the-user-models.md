@@ -104,7 +104,7 @@ The following table summarizes these recommendations.
 <tr class="even">
 <td><p>A/V Conferencing</p></td>
 <td><p>The A/V Conferencing service provided by a Front End pool supports the pool’s conferences assuming a maximum conference size of 250 users, and only one such large conference running at a time.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Additionally, you can support large conferences of between 250 and 1000 users by deploying a separate Front End pool with two Front End Servers to host the large conferences. For details, see <A href="lync-server-2013-supporting-large-meetings.md">Supporting large meetings using Lync Server 2013</A>.
@@ -144,7 +144,7 @@ The following table summarizes these recommendations.
 
 ## Front End Server
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -172,7 +172,7 @@ The number of users supported with good performance by a particular Front End po
 
   - Your organization’s usage differs significantly from the user models, such as significantly more conferencing traffic.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -205,7 +205,7 @@ The following table shows the average bandwidth for IM and presence, given the u
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -237,7 +237,7 @@ If your organization has many more mixed-mode conferences than are assumed in th
 
 ## Edge Server
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -251,7 +251,7 @@ You should deploy one Edge Server for every 12,000 remote users who will access 
 
 When you account for the number of users for the Edge Servers, include the users homed on Survivable Branch Appliances and Survivable Branch Servers at branch offices that are associated with a Front End pool at this site.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -267,7 +267,7 @@ When you account for the number of users for the Edge Servers, include the users
 
 ## Director
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -287,7 +287,7 @@ When you account for the number of users for the Directors, include the users ho
 
 ## Mediation Server
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -339,7 +339,7 @@ All the following tables assume usage as summarized in [User models in Lync Serv
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -371,7 +371,7 @@ All the following tables assume usage as summarized in [User models in Lync Serv
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -381,7 +381,7 @@ All the following tables assume usage as summarized in [User models in Lync Serv
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

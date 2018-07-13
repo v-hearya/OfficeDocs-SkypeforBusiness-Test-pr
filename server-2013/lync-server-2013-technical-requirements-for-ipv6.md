@@ -34,7 +34,7 @@ If you plan to configure Lync Server 2013 for IPv6, keep the following requireme
 
   - Each IPv6 address has a scope. The three scopes that you can use for IPv6 addressing are IPv6 global addresses (similar to public IPv4 addresses), IPv6 unique local addresses (similar to the private IPv4 address ranges), and IPv6 link-local addresses (similar to automatic private IP addresses in Windows Server for IPv4). All the servers within a pool should have IPv6 addresses with the same scope.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

@@ -66,7 +66,7 @@ Configuring Group Call Pickup requires any of the following administrative roles
 
   - **CsAdministrator:** This administrator role can perform all of the tasks of CsVoiceAdministrator, CsServerAdministrator, and CsUserAdministrator.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

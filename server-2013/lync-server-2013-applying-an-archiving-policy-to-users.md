@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-23_
 
 If a user has been enabled for Lync Server 2013 and you have created one or more user policies for archiving for users homed on Lync Server 2013, you can implement archiving support for specific users by applying the appropriate policies to those users or user groups. For example, if you create a policy to support archiving of internal communications, you can apply it to at least one user or user group to support archiving of the user’s Lync Server 2013 communications.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -54,7 +54,7 @@ Use the procedure in this topic to apply a previously created Archiving user pol
 
 5.  In **Edit Lync Server User** under **Archiving policy**, select the archiving user policy that you want to apply.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

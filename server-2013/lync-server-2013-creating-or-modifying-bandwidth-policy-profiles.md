@@ -54,7 +54,7 @@ As part of call admission control (CAC), a bandwidth policy is used to define ba
 
 11. Click **Commit**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -83,7 +83,7 @@ As part of call admission control (CAC), a bandwidth policy is used to define ba
 
 7.  Click **Commit**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2015-11-02_
 
 To ensure that the antivirus scanner does not interfere with the operation of Lync Server 2013, you must exclude specific processes and directories for each Lync Server 2013 server or server role on which you run an antivirus scanner. The following processes and directories should be excluded:
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -38,7 +38,7 @@ To ensure that the antivirus scanner does not interfere with the operation of Ly
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

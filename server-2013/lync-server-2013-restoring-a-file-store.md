@@ -34,7 +34,7 @@ File Stores for Standard Edition are typically located on the Standard Edition s
 
 1.  If a File Store fails, copy the appropriate File Store from $Backup\\ to the File Store location on the file server or Standard Edition server, and then share the folder.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -47,7 +47,7 @@ File Stores for Standard Edition are typically located on the Standard Edition s
     
         Enable-CsTopology
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

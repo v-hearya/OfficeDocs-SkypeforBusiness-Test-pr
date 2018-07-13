@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-06_
 
 In Lync Server 2013 Control Panel, you can use the **Persistent Chat Configuration** section of the **Persistent Chat** page to configure Persistent Chat settings globally where it applies to all Persistent Chat Server pools, or for a specific Persistent Chat Server pool.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -46,7 +46,7 @@ In Lync Server 2013 Control Panel, you can use the **Persistent Chat Configurati
 
 2.  From the **Start** menu, select the Lync Server Control Panel or open a browser window, and then enter the Admin URL. For details about the different methods that you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -59,7 +59,7 @@ In Lync Server 2013 Control Panel, you can use the **Persistent Chat Configurati
 
 4.  On the **Persistent Chat Configuration** page, click **New,** and then click **Site configuration**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -76,7 +76,7 @@ In Lync Server 2013 Control Panel, you can use the **Persistent Chat Configurati
     
       - In **Default chat history**, define the number of chat messages that will be processed for each room upon first request. By default, the number is 30. This is the global default, and administrators can disable chat history per category.
         
-        <div class="alert">
+        <div>
         
 
         > [!IMPORTANT]
@@ -87,7 +87,7 @@ In Lync Server 2013 Control Panel, you can use the **Persistent Chat Configurati
     
       - In **Maximum file size (KB)**, select the maximum file size of each chat history. By default, the number is 20 MB (20,000 KB). This is the maximum size for a file that can be uploaded to any chat room in the system (for which file uploads are enabled by its corresponding **Category** setting).
         
-        <div class="alert">
+        <div>
         
 
         > [!IMPORTANT]
@@ -114,7 +114,7 @@ In Lync Server 2013 Control Panel, you can use the **Persistent Chat Configurati
 
 2.  From the **Start** menu, select the Lync Server Control Panel, or open a browser window, and then enter the Admin URL. For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -135,7 +135,7 @@ In Lync Server 2013 Control Panel, you can use the **Persistent Chat Configurati
     
       - In **Default chat history**, define the number of chat messages that will be processed for each room upon first request. By default, the number is 30. This is the global default, and administrators can disable chat history per category.
         
-        <div class="alert">
+        <div>
         
 
         > [!IMPORTANT]
@@ -146,7 +146,7 @@ In Lync Server 2013 Control Panel, you can use the **Persistent Chat Configurati
     
       - In **Maximum file size (KB)**, select the maximum file size of each chat history. By default, the number is 20 MB (20,000 KB). This is the maximum size for a file that can be uploaded to any chat room in the system (for which file uploads are enabled by its corresponding **Category** setting).
         
-        <div class="alert">
+        <div>
         
 
         > [!IMPORTANT]

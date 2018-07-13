@@ -68,7 +68,7 @@ Use the procedures in this section to prepare the Lync Server 2013 Front End Se
 
 4.  On the **Executing Commands** page, SQL Server Express is installed as the Central Management Server. Necessary firewall rules are created. When the installation of the database and prerequisite software is completed, click **Finish**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -99,7 +99,7 @@ Use the procedures in this section to prepare the Lync Server 2013 Front End Se
     
         Enable-CsTopology
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]
@@ -130,7 +130,7 @@ Use the procedures in this section to prepare the Lync Server 2013 Front End Se
     
         Get-CsManagementStoreReplicationStatus
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -149,7 +149,7 @@ Use the procedures in this section to prepare the Lync Server 2013 Front End Se
 
 2.  Open Lync Server Management Shell
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]

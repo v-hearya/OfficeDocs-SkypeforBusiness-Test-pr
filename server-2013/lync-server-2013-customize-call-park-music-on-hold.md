@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-09-10_
 
 You can specify your own music file to use for music on hold, instead of the default music file that ships with Lync Server 2013. To customize music on hold, use the **Set-CsCallParkServiceMusicOnHoldFile** cmdlet.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -50,7 +50,7 @@ You can specify your own music file to use for music on hold, instead of the def
     
         Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte[]>
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]

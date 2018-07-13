@@ -44,7 +44,7 @@ Before you publish your topology, install the databases for Persistent Chat Serv
 
 5.  On the **Publishing wizard complete** page, verify that the topology was successfully published, and then click **Finish**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

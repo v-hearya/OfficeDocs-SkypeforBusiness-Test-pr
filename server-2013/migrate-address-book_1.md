@@ -30,7 +30,7 @@ _**Topic Last Modified:** 2012-10-02_
 
 1.  Find the Company\_Phone\_Number\_Normalization\_Rules.txt file in the root of the Address Book shared folder, and copy it to the root of the Address Book shared folder in your Lync Server 2013 pilot pool.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

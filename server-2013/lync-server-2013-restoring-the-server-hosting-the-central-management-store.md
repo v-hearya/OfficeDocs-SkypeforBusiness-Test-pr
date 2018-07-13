@@ -32,7 +32,7 @@ To find the pool where the Central Management Server is located, open Topology B
 
 If the Back End Server that hosts the Central Management store is in a mirrored setup and the mirror database is still functional, we recommend that you make a backup of this still-functioning mirror, and then perform a full restore on both the primary database and the mirror database, using this backup, by following the restoration procedure below. This is necessary because Back End restore requires modifying and publishing the topology, and this can be done only if the primary database hosting CMS is operational. Also note that the primary and mirror database roles cannot be interchanged if the topology cannot be published.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -42,7 +42,7 @@ If the Back End Server that hosts the Central Management store is in a mirrored 
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!TIP]
@@ -58,7 +58,7 @@ If the Back End Server that hosts the Central Management store is in a mirrored 
 
 1.  Start with a clean or new server that has the same fully qualified domain name (FQDN) as the failed computer, install the operating system, and then restore or reenroll the certificates.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -71,7 +71,7 @@ If the Back End Server that hosts the Central Management store is in a mirrored 
 
 3.  If you are restoring a Standard Edition server, restore the File Store by copying the appropriate File Store from $Backup to the File Store location on the server, and then share the folder.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -86,7 +86,7 @@ If the Back End Server that hosts the Central Management store is in a mirrored 
     
       - If you are installing an Enterprise Back End Server, install SQL Server 2012 or SQL Server 2008 R2, keeping the instance names the same as before the failure.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -113,7 +113,7 @@ If the Back End Server that hosts the Central Management store is in a mirrored 
     
         Set-CsConfigurationStoreLocation -SqlServerFqdn Server01.contoso.com -SqlInstanceName cms -Verbose
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -134,7 +134,7 @@ If the Back End Server that hosts the Central Management store is in a mirrored 
     
         Enable-CsTopology
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -157,7 +157,7 @@ If the Back End Server that hosts the Central Management store is in a mirrored 
     
     5.  Follow the **Install Database** wizard. If you are restoring a database other than the Central Management store on this server, on the **Create databases** page, select the databases you want to recreate.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -170,7 +170,7 @@ If the Back End Server that hosts the Central Management store is in a mirrored 
     
     7.  Follow the rest of the wizard, and then click **Finish**.
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]

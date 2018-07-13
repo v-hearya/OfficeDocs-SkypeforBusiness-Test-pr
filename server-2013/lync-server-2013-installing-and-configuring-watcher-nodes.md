@@ -149,7 +149,7 @@ The synthetic transactions available to watcher nodes include the following:
 
 You do not need to install watcher nodes in order to use System Center Operations Manager. If you do not install these nodes, you can still get real-time alerts from Lync Server 2013 components when an issue occurs. (The Component and User Management Pack does not use watcher nodes.) However, watcher nodes are required if you want to monitor end-to-end scenarios by using the Active Monitoring Management pack.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -161,7 +161,7 @@ You do not need to install watcher nodes in order to use System Center Operation
 
 Depending on the size of your deployment, synthetic transactions may use a large amount of computer memory and processor time. For this reason, we recommend that you use a dedicated computer as a watcher node. For example, you should not configure a Front End Server to act as a watcher node. Watcher nodes should meet the following hardware specifications:
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

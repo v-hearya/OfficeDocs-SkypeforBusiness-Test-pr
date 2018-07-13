@@ -71,7 +71,7 @@ QoE configuration settings can be created by using either Lync Server Control Pa
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

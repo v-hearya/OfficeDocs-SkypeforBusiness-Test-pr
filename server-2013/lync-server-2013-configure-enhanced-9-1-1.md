@@ -32,7 +32,7 @@ To support E9-1-1, Lync Server 2013 must be able to correctly associate a locati
 
 For details about planning for an E9-1-1 deployment, see [Planning for emergency services (E9-1-1) in Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md).
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

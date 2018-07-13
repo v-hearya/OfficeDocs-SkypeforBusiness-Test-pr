@@ -75,7 +75,7 @@ Instead, use syntax such as the following, which combines both the Get-CsVoiceNo
 
 Get-CsVoiceNormalizationRule -Identity "global/Prefix All" | Test-CsVoiceNormalizationRule -DialedNumber "12065551219"
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-17_
 
 If you deployed Archiving or Monitoring, you need to back up these databases according to your organization's SQL Server backup policy.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

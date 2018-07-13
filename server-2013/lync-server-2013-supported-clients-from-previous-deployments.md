@@ -127,7 +127,7 @@ The following table shows the supported combinations of client versions and serv
 
 3The presence and IM features in Office Communicator 2007 R2 are compatible with Lync Server 2013, but conferencing features are not. During migration from Office Communications Server 2007 R2, Office Communicator 2007 R2 is suitable for presence and IM interoperability, but users should use Lync Web App 2013 to join Lync Server 2013 meetings.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

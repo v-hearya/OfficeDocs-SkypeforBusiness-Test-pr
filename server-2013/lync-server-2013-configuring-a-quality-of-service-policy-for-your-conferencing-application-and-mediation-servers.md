@@ -54,7 +54,7 @@ In order to create a Quality of Service policy for managing audio, log on to a c
 
 10. Under the heading **Specify the source port number**, select **From this source port or range**. In the accompanying text box, type the port range reserved for audio transmissions. For example, if you reserved ports 49152 through ports 57500 for audio traffic enter the port range using this format: **49152:57500**. Click **Finish**.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

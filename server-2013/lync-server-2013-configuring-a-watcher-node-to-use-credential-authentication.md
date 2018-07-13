@@ -66,7 +66,7 @@ After the watcher node computer has restarted, your next step is to run the file
 
     C:\Tools\Watchernode.msi Authentication=Negotiate
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

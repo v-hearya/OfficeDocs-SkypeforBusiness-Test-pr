@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-01_
 
 The ProgressReport view stores information about completed sessions. Progress reports will be written only for calls and sessions that Lync Server 2013 determines might be useful for diagnostic purposes. This view was introduced in Microsoft Lync Server 2013.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

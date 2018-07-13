@@ -30,7 +30,7 @@ Remote users are users in your organization who have a persistent Active Directo
 
 To support remote user access, you must enable remote user access. When you enable remote user access, you enable it for your entire organization. If you later want to temporarily or permanently prevent remote user access, you can disable it for your organization. Use the procedure in this section to enable or disable remote user access for your organization.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

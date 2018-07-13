@@ -72,7 +72,7 @@ The Response Group Usage Report is accessed from the Monitoring Reports home pag
 
 One of the more interesting uses of the Response Group Usage Report might not be readily apparent: the ability to retrieve usage information for a single Response Group workflow.
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]

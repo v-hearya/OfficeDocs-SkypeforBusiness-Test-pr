@@ -30,7 +30,7 @@ You can use Lync Server 2013, Persistent Chat Server to enable multiple users to
 
 The content of Persistent Chat rooms consists primarily of short text messages, although it can include longer messages, referred to as *stories*, and also hyperlinks, emoticons, and uploaded documents.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

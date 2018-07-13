@@ -42,7 +42,7 @@ You can configure links between two network regions as part of call admission co
 
 5.  In **New Region Link**, type a value in the **Name** field.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

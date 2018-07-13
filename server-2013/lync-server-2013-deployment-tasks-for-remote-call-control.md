@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-05_
 
 This topic describes the deployment tasks that you must perform to enable remote call control for users in your Lync Server environment.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

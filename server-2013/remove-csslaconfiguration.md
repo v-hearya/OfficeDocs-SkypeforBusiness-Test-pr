@@ -74,7 +74,7 @@ SLA is a feature in Skype for Business (SfB) for handling multiple calls on a sp
 
 The **Remove-CsSlaConfiguration** cmdlet provides a way to remove the Shared Line Appearance (SLA) configuration for a shared number.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

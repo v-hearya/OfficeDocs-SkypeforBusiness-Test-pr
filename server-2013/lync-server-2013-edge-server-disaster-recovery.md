@@ -36,7 +36,7 @@ To enable disaster recovery procedures, you must have separate Edge Server pools
 
 If you have multiple sites, each with a pool of Edge servers, and one entire Edge pool fails, the remote access services will continue to function without needing administrator action. When creating Edge pools in different sites, you cannot use the same FQDN. Each Edge pool must have unique FQDNs (internal and external). The Edge pools do not use reverse proxy publishing rules to talk to the Front End servers. Automatic failover occurs when the client re-queries the remote access DNS service records, and remote users are routed to the Edge servers in another site. The client attempts each external Edge FQDN according to the priority of the DNS SRV records.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

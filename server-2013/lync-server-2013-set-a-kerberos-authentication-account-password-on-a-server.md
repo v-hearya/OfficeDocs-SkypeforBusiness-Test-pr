@@ -48,7 +48,7 @@ When you use the **Set-CsKerberosAccountPassword** cmdlet to set a password, Ker
     
         Set-CsKerberosAccountPassword -UserAccount "contoso\KerbAuth"
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -57,7 +57,7 @@ When you use the **Set-CsKerberosAccountPassword** cmdlet to set a password, Ker
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

@@ -44,7 +44,7 @@ Help improve the security of devices running Lync Phone Edition via your SIP sec
 
 6.  In **Edit Device Configuration**, under **Phone Lock**, select or clear the **Enforce device locking** check box (selected by default) and specify the minimum PIN length (6 characters by default) and timeout period (10 minutes by default). We recommend using these defaults or increasing the PIN length and/or decreasing the timeout period.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

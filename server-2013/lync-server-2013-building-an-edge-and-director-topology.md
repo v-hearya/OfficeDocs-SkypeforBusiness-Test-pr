@@ -36,7 +36,7 @@ You cannot deploy Edge Server components until you have deployed at least one in
 
 For details about these tools, see [Deployment checklist for external user access in Lync Server 2013](lync-server-2013-deployment-checklist-for-external-user-access.md).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

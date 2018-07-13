@@ -90,7 +90,7 @@ After you merge the topology and run the **Import-CsLegacyConfiguration** cmdlet
 
 3.  To verify imported conferencing policies, in the left pane, click **Conferencing**, click **Conferencing Policy**, and then verify that all the conferencing policies in your Office Communications Server 2007 R2 environment are included in the list.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -99,7 +99,7 @@ After you merge the topology and run the **Import-CsLegacyConfiguration** cmdlet
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -108,7 +108,7 @@ After you merge the topology and run the **Import-CsLegacyConfiguration** cmdlet
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -119,7 +119,7 @@ After you merge the topology and run the **Import-CsLegacyConfiguration** cmdlet
 
 4.  To verify imported dial plans, click **Voice Routing**, click **Dial Plan**, and then verify that all the dial plans in your Office Communicator 2007 R2 environment are included in the list.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -130,7 +130,7 @@ After you merge the topology and run the **Import-CsLegacyConfiguration** cmdlet
 
 5.  To verify imported voice policies, click **Voice Routing**, click **Voice Policy**, and then verify that all the voice policies in your Office Communicator 2007 R2 environment are included in the list.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

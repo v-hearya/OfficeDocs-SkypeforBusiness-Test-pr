@@ -44,7 +44,7 @@ An added requirement to support IPv6 in Lync Server 2013 is to create domain nam
 
 Edge Server introduces a fully integrated XMPP proxy (deployed on the Edge Servers) and an XMPP gateway (deployed on your Front End Servers). You can deploy XMPP federation as an optional component. By adding and configuring the XMPP proxy and XMPP gateway, you can enable your Microsoft Lync 2013 users to add contacts from XMPP-based partners for instant messaging (IM) and presence.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -54,7 +54,7 @@ Edge Server introduces a fully integrated XMPP proxy (deployed on the Edge Serve
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -86,7 +86,7 @@ New for Lync Server 2013 is the ability to stage a replacement Audio/Video Authe
 
 In previous versions of Lync Server and Office Communications Server, cookie-based affinity was used by the Web services to ensure that the client and Web services session state was maintained. Lync Server 2013 Web services use a built in affinity mechanism that eliminates most of the requirements for cookie-based affinity.
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]
@@ -114,7 +114,7 @@ The autodiscover feature in Lync Server 2013 enables clients to locate additiona
 
 Introduced in the cumulative update for Lync Server 2010: November 2011, mobility services in Lync Server 2013 enable mobile phones running Lync Mobile and tablet devices using supported Apple iOS, Android, Windows Phone, or Nokia mobile devices to perform activities such as sending and receiving instant messages, viewing contacts, and viewing presence. In addition, mobile devices support some Enterprise Voice features, such as click to join a conference, Call via Work, single number reach, voice mail, and missed call notification.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

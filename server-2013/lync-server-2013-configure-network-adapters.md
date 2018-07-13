@@ -34,7 +34,7 @@ In the following procedures, the server running either Forefront Threat Manageme
 
   - A private, or internal, network interface, for internal servers running Lync Server that are hosting Web Services.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -56,7 +56,7 @@ In the following procedures, the server running either Forefront Threat Manageme
 
 4.  On the **Internet Protocol (TCP/IP) Properties** page, configure the IP addresses as appropriate for the network subnet to which the network adapter is attached.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

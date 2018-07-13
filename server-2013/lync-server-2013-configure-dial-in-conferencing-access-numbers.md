@@ -30,7 +30,7 @@ When you deploy dial-in conferencing, you need to set up phone numbers that user
 
 Before you can create dial-in access numbers, you must first plan your dial-in conferencing regions and then configure dial plans with the regions. For details about regions, see [Dial-in conferencing requirements in Lync Server 2013](lync-server-2013-dial-in-conferencing-requirements.md) in the Planning documentation. For details about configuring dial plans for dial-in conferencing, see [Configure dial plans for dial-in conferencing in Lync Server 2013](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -40,7 +40,7 @@ Before you can create dial-in access numbers, you must first plan your dial-in c
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -30,7 +30,7 @@ Anonymous users are users who do not have a user account in your organization's 
 
 If you later want to temporarily or permanently prevent access by anonymous users, you can disable it for your organization. Use the procedure in this section to enable or disable anonymous user access for your organization.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -40,7 +40,7 @@ You can use the following procedure to view a network subnet. From the Lync Serv
 
 4.  On the **Subnet** page, click the subnet that you want to view.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

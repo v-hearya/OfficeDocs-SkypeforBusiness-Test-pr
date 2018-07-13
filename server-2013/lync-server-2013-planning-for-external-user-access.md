@@ -34,7 +34,7 @@ To support communications across your organization’s firewall, you deploy Lync
 
 Depending on your requirements, you can deploy one or more Edge Servers in one or more locations. This section describes scenarios for external user access in Lync Server 2013, and it explains how to plan your edge and reverse proxy topology.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

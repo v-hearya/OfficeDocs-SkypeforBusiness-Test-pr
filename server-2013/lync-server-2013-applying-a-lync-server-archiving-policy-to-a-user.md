@@ -30,7 +30,7 @@ After creating a Lync Server user policy, you must apply it to specific the user
 
 For details about how Archiving policies work, including the hierarchy for global, site, and user policies, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -54,7 +54,7 @@ For details about how Archiving policies work, including the hierarchy for globa
 
 5.  In **Edit Lync Server user** under **Archiving policy**, select the archiving user policy that you want to apply.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

@@ -34,7 +34,7 @@ In Microsoft Lync Server 2013, monitoring is used to collect usage information a
 
   - Another user via a peer-to-peer conversation such as instant messaging or an audio call
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -30,7 +30,7 @@ In Lync Server 2013, you can use the Lync Server Deployment Wizard to prepare Ac
 
 The Lync Server Deployment Wizard guides you through each Active Directory preparation task. The Deployment Wizard runs Lync Server Management Shell cmdlets. This tool is useful for environments with a single domain and single forest topology, or other similar topology.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -52,7 +52,7 @@ The following components are required to run Active Directory preparation tasks:
 
   - Lync Server Core components (OCScore.msi)
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -63,7 +63,7 @@ The following components are required to run Active Directory preparation tasks:
 
   - Microsoft .NET Framework 4.5
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -74,7 +74,7 @@ The following components are required to run Active Directory preparation tasks:
 
   - Remote Server Administration Tools (RSAT)
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -85,7 +85,7 @@ The following components are required to run Active Directory preparation tasks:
 
   - Microsoft Visual C++ 11 Redistributable
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -228,7 +228,7 @@ If you use Ldifde.exe to import the schema files, you must import all four files
 
 4.  VersionSchema.ldf
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -246,7 +246,7 @@ For example:
 
     ldifde -i -v -k -s DC1 -f ServerSchema.ldf -c DC=X "DC=contoso,DC=com" -j C:\BatchImportLogFile -b Administrator contoso password
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

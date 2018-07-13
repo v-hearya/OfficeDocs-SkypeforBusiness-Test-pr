@@ -42,7 +42,7 @@ Lync Server 2013 requires Domain Name System (DNS) and uses it in the following 
 
   - For DNS load balancing.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -52,7 +52,7 @@ Lync Server 2013 requires Domain Name System (DNS) and uses it in the following 
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

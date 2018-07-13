@@ -40,7 +40,7 @@ You can view links between two network regions as part of call admission control
 
 4.  On the **Region Link** page, click the region link that you want to view.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

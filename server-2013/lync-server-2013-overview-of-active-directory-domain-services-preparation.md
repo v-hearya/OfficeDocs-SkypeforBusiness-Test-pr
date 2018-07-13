@@ -54,7 +54,7 @@ The following table describes the steps required to prepare AD DS for Lync Serv
 <td><p>Extends the Active Directory schema by adding new classes and attributes that are used by Lync Server.</p>
 <p>Run once for each forest in your deployment where Lync Server will be deployed.</p></td>
 <td><p>Against the schema master in the root domain of each forest where Lync Server will be deployed.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > You do not need to run this step in the root domain if you have permissions on the schema master, but you must be a member of the Schema Admins group in the root domain and a member of the Enterprise Admins group on the schema master. In a resource forest topology, run this step only in the resource forest, not in any user forests. In a central forest topology, run this step only in the central forest, not in any user forests.
@@ -68,7 +68,7 @@ The following table describes the steps required to prepare AD DS for Lync Serv
 <td><p>Creates global settings and universal groups that are used by Lync Server.</p>
 <p>Run once for each forest in your deployment where Lync Server will be deployed.</p></td>
 <td><p>In the root domain of each forest where Lync Server will be deployed. To run this step, you must be a member of the Enterprise Admins group.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > In a resource forest topology, run this step only in the resource forest, not in any user forests. In a central forest topology, run this step only in the central forest, not in any user forests.
@@ -81,7 +81,7 @@ The following table describes the steps required to prepare AD DS for Lync Serv
 <td><p><a href="lync-server-2013-preparing-domains.md">Preparing domains for Lync Server 2013</a></p></td>
 <td><p>Adds permissions on objects to be used by members of universal groups.</p>
 <p>Run once per user domain or server domain.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > If you are migrating from Lync Server 2010 to Lync Server 2013, the Deployment Wizard may indicate that domain preparation is already complete. You do not need to run domain preparation again. Permissions were not changed from Lync Server 2010 to Lync Server 2013.

@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-06-21_
 
 This section provides an overview of the connectivity process and explains the differences between how an IP phone connects in an internal and external network.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -44,7 +44,7 @@ The following diagram describes all the components involved in device connectivi
 
 ![3d88893e-df57-46e3-855a-a1d24589030a](images/Gg425740.3d88893e-df57-46e3-855a-a1d24589030a(OCS.15).jpg "3d88893e-df57-46e3-855a-a1d24589030a")
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -60,7 +60,7 @@ The following diagram provides an overview of the components involved when the d
 
 ![8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3](images/Gg425740.8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3(OCS.15).jpg "8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3")
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

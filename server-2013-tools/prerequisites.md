@@ -62,7 +62,7 @@ Your client computer must meet the following software requirements:
 
   - A fully configured Lync Server 2013 deployment.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

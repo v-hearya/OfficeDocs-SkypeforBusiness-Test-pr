@@ -30,7 +30,7 @@ One of the first steps required for migration to Lync Server 2013 is to deploy a
 
 When you deploy a pilot pool, you use the Define New Front End Pool wizard. You should deploy the same features and workloads in your Lync Server 2013 pilot pool that you have in your Office Communications Server 2007 R2 pool. If you deployed Archiving Server, Monitoring Server, or System Center Operations Manager for archiving or monitoring your Office Communications Server 2007 R2 environment, and you want to continue archiving or monitoring throughout the migration, you need to also deploy these features in your pilot environment. The version you deployed to archive or monitor your Office Communications Server 2007 R2 environment will not capture data in your Lync Server 2013 environment.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -54,7 +54,7 @@ When you deploy a pilot pool, you use the Define New Front End Pool wizard. You 
 
 5.  Enter the pool FQDN. When you define your pilot pool, you can choose to deploy an Enterprise Edition Front End pool or a Standard Edition server. Lync Server 2013 does not require that your pilot pool features match what was deployed in your legacy pool.
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]

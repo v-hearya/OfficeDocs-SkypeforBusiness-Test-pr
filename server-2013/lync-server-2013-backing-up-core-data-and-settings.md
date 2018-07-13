@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2014-04-23_
 
 The following procedures use Lync Server Management Shell cmdlets to create backup files for settings and data for core services. For details about the tools used in this section, including where they are located, see [Backup and restoration requirements in Lync Server 2013: tools and permissions](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md). For details about backing up Archiving and Monitoring data, see [Backing up Archiving and Monitoring databases in Lync Server 2013](lync-server-2013-backing-up-archiving-and-monitoring-databases.md).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -58,7 +58,7 @@ You can run the cmdlets described in this section locally or remotely.
     
         Export-CsConfiguration -FileName "C:\Config.zip"
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

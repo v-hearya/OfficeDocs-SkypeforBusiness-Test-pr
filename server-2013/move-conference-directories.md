@@ -52,7 +52,7 @@ Before decommissioning a pool, you need to perform the following procedure for e
     
         Move-CsConferenceDirectory -Identity 3 -TargetPool pool02.contoso.net
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

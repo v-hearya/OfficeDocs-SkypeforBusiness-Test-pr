@@ -34,7 +34,7 @@ The default scenario is called **AlwaysOn**. The intended purpose for AlwaysOn i
 
 The Centralized Logging Service provides two ways to issue commands. A number of topics have been focused squarely on using Windows PowerShell through the Lync Server Management Shell. The ability to use a number of complex configurations and commands favors Windows PowerShell for Centralized Logging Service use. Because Windows PowerShell through the Lync Server Management Shell is nearly ubiquitous for all functions in Lync Server, only the Windows PowerShell commands are discussed.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -58,7 +58,7 @@ The Centralized Logging Service provides two ways to issue commands. A number of
     
         Start-CsClsLogging -Scenario AlwaysOn
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -69,7 +69,7 @@ The Centralized Logging Service provides two ways to issue commands. A number of
 
 3.  Press Enter to run the command.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -84,7 +84,7 @@ The Centralized Logging Service provides two ways to issue commands. A number of
     
         Start-CsClsLogging -Scenario Authentication
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

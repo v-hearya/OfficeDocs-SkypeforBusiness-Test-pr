@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-23_
 
 You can delete a user policy or site policy. The global policy cannot be removed. If you try to delete the global policy, Lync Server 2013 automatically resets the policy to the default values.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

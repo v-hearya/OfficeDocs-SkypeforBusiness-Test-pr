@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2016-04-06_
 
 This section summarizes the ports and protocols used by servers, load balancers, and clients in a Lync Server deployment.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -42,7 +42,7 @@ This section summarizes the ports and protocols used by servers, load balancers,
 
 ## Port and Protocol Details
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -447,7 +447,7 @@ The following table lists the ports that need to be open on each internal server
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -739,7 +739,7 @@ Your Front End pools and Director pools that use DNS load balancing also must ha
 
 **\*** To configure specific ports for these media types, use the CsConferencingConfiguration cmdlet (ClientMediaPortRangeEnabled, ClientMediaPort, and ClientMediaPortRange parameters).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -749,7 +749,7 @@ Your Front End pools and Director pools that use DNS load balancing also must ha
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

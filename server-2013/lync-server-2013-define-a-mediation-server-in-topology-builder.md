@@ -50,7 +50,7 @@ Follow the steps in this topic to use Topology Builder to define a Mediation Ser
 
 5.  In **Select collocated server roles**, check the option **Collocate Mediation Server**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -69,7 +69,7 @@ Follow the steps in this topic to use Topology Builder to define a Mediation Ser
 
 7.  Click **Finish** when you are finished associating one or more peers to the Front End pool.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -92,7 +92,7 @@ Follow the steps in this topic to use Topology Builder to define a stand-alone M
 
 If you already deployed Mediation Servers collocated to Front End pools at this site, you can skip this section and [Install the files for Mediation Server in Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md) before proceeding to [Configuring trunks in Lync Server 2013](lync-server-2013-configuring-trunks.md).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -118,7 +118,7 @@ If you already deployed Mediation Servers collocated to Front End pools at this 
     
       - If you want to deploy multiple Mediation Servers in the pool to provide high availability, then select **Multiple computer pool**.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -163,7 +163,7 @@ Follow the steps in this topic to use Topology Builder to define the listening p
 
 4.  Specify the desired TLS or TCP listening port range the Mediation Server will accept incoming connections from PSTN gateways.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

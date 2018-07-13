@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-01_
 
 An agent group consists of a group of people who are designated to answer calls to a response group. When you create an agent group, you select the agents who are assigned to the group and specify additional group settings, such as the routing method and whether an agent can sign in to and out of the group.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -38,7 +38,7 @@ An agent group consists of a group of people who are designated to answer calls 
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -52,7 +52,7 @@ An agent who must sign in and out of the group, which is different from signing 
 
 An agent who does not sign in or out of the group is called an *informal agent*. Informal agents are automatically signed in to the group when they sign in to Lync Server, and they cannot sign out of the group.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

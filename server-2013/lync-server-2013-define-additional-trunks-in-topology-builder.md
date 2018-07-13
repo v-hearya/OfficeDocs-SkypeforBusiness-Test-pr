@@ -32,7 +32,7 @@ A trunk is a logical connection between a Mediation Server and a gateway uniquel
 
 {Mediation Server FQDN, Mediation Server listening port (TLS or TCP) : gateway IP and FQDN, gateway listening port}
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -42,7 +42,7 @@ A trunk is a logical connection between a Mediation Server and a gateway uniquel
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -64,7 +64,7 @@ A trunk is a logical connection between a Mediation Server and a gateway uniquel
 
 3.  In **Define New Trunk**, specify a friendly name to uniquely identify the trunk. You cannot have two trunks with the same name.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -81,7 +81,7 @@ A trunk is a logical connection between a Mediation Server and a gateway uniquel
 
 6.  Under **SIP Transport Protocol**, click the transport type that the peer uses.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -94,7 +94,7 @@ A trunk is a logical connection between a Mediation Server and a gateway uniquel
 
 8.  Under **Associated Mediation Server port**, type the listening port that the Mediation Server will receive SIP messages from the peer.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -103,7 +103,7 @@ A trunk is a logical connection between a Mediation Server and a gateway uniquel
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

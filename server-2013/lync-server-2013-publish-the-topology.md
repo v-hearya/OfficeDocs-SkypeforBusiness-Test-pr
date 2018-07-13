@@ -30,7 +30,7 @@ To successfully publish, enable, or disable a topology when adding or removing a
 
 After you define your topology in Topology Builder, you must publish the topology to the Central Management store. The Central Management store provides a robust, schematized storage of the data needed to define, set up, maintain, administer, describe, and operate a Lync Server 2013 deployment. It also validates the data to help ensure configuration consistency. All changes to this configuration data happen at the Central Management store, eliminating “out-of-sync” issues. Read-only copies of the data are replicated to all servers in the topology, including Edge Servers.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -40,7 +40,7 @@ After you define your topology in Topology Builder, you must publish the topolog
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -64,7 +64,7 @@ After you define your topology in Topology Builder, you must publish the topolog
 
 5.  On the **Create databases** page, select the databases you want to publish.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

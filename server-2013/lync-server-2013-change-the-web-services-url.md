@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2015-11-16_
 
 When you set up your Front End pools and Standard Edition servers, you have the option to configure an external Web farm fully qualified domain name (FQDN) and associated ports. If you did not configure this URL when you ran the Lync Server Deployment Wizard, you need to manually configure these settings. An administrator typically does not need to modify these settings, as these are the recommended and default ports.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -52,7 +52,7 @@ When you set up your Front End pools and Standard Edition servers, you have the 
 
 4.  Add or edit the **External Web Services FQDN**, and then click **OK**.
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]
@@ -75,7 +75,7 @@ There are a few requirements you should be aware of when configuring the Listeni
 
   - You can override the Internal web services on a Front End pool, Director or a Director pool and define your own FQDN.
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]

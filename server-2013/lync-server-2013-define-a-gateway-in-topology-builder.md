@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-04_
 
 Follow these steps to use Topology Builder to define a *peer* with which you can associate a Mediation Server to provide connectivity to the public switched telephone network (PSTN) for users enabled for Enterprise Voice. A peer to the Mediation Server can be a PSTN gateway, an IP-PBX, or a Session Border Controller (SBC) for an Internet Telephony Service Provider (ITSP) to which you connect by configuring a SIP trunk.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -52,7 +52,7 @@ Follow these steps to use Topology Builder to define a *peer* with which you can
     
     ![8017ba5e-41bc-48d4-97d9-fd306cd322b8](images/Gg425945.8017ba5e-41bc-48d4-97d9-fd306cd322b8(OCS.15).png "8017ba5e-41bc-48d4-97d9-fd306cd322b8")
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -79,7 +79,7 @@ Follow these steps to use Topology Builder to define a *peer* with which you can
 
 7.  Under **SIP Transport Protocol**, click the transport type that the peer uses, and then click **OK**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -92,7 +92,7 @@ Follow these steps to use Topology Builder to define a *peer* with which you can
 
 9.  Under **Associated Mediation Server port**, type the listening port that the Mediation Server will use for SIP messages from the gateway.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -103,7 +103,7 @@ Follow these steps to use Topology Builder to define a *peer* with which you can
 
 10. Click **Finish**.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

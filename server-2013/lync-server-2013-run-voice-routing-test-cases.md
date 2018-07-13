@@ -54,7 +54,7 @@ You can run all of the test cases in your voice routing test case suite, or you 
     
     5.  **First route:** The first voice route in the first PSTN usage record that matches the dialed number.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -93,7 +93,7 @@ You can run all of the test cases in your voice routing test case suite, or you 
     
     5.  **First route:** The first voice route in the first PSTN usage record that matches the dialed number.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]

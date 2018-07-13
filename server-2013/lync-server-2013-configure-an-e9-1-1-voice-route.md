@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-09-17_
 
 To deploy E9-1-1, you first need to configure an emergency call voice route. For details about creating voice routes, see [Create a voice route in Lync Server 2013](lync-server-2013-create-a-voice-route.md). You may define more than one route if, for example, your deployment includes a primary SIP trunk and a secondary SIP trunk.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-09-25_
 
 The following are guidelines and best practices to consider when you deploy Enterprise Voice:
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -44,7 +44,7 @@ The following are guidelines and best practices to consider when you deploy Ente
 
   - Deploy the Exchange Mailbox server roles in each Exchange Unified Messaging (UM) forest where you want to enable users for Exchange UM. For details about installing Exchange server roles, see the Microsoft Exchange Server 2013 documentation.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -65,7 +65,7 @@ The following are guidelines and best practices to consider when you deploy Ente
 
 ## Deploying Redundant Exchange UM Servers
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -83,7 +83,7 @@ The following example configurations provide Exchange UM resiliency.
 
 In Example 1, Exchange UM servers 1 and 2 are enabled in the Tukwila data center, and Exchange UM servers 3 and 4 are enabled in the Dublin data center. In the event of an Exchange UM outage in Tukwila, the Domain Name System (DNS) A records for servers 1 and 2 should be configured to point to servers 3 and 4, respectively. In the event of an Exchange UM outage in Dublin, the DNS A records for servers 3 and 4 should be configured to point to servers 1 and 2, respectively.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2016-04-04_
 
 You can use the following procedure to disable a previously enabled user account in Lync Server 2013 without losing the Lync Server settings that you configured for the user account. Because you do not lose the Lync Server user account settings, you can re-enable a previously enabled user account again without having to reconfigure the user account.
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]

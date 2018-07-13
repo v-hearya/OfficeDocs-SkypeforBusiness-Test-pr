@@ -26,7 +26,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2013-11-07_
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -56,7 +56,7 @@ To set up certificates on the internal edge interface at a site, use the procedu
 
 If you have more than one site with Edge Servers (that is, a multiple-site edge topology), or separate sets of Edge Servers deployed behind different load balancers, you need to follow these steps for each site that has Edge Servers, and for each set of Edge Servers deployed behind a different load balancer.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -80,7 +80,7 @@ If you have more than one site with Edge Servers (that is, a multiple-site edge 
     
         https://ca01.contoso.net/certsrv
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -97,7 +97,7 @@ If you have more than one site with Edge Servers (that is, a multiple-site edge 
 
 6.  Save the .p7b file to the hard disk drive on the server, and then copy it to a folder on each Edge Server.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -162,7 +162,7 @@ If you have more than one site with Edge Servers (that is, a multiple-site edge 
 
 1.  On one of the Edge Servers, start the Deployment Wizard, and next to **Step 3: Request, Install, or Assign Certificates**, click **Run**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -187,7 +187,7 @@ If you have more than one site with Edge Servers (that is, a multiple-site edge 
     
       - In **Bit length**, specify the bit length (typically, the default of **2048**).
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -258,7 +258,7 @@ If you have more than one site with Edge Servers (that is, a multiple-site edge 
 
 6.  Double-click **Certificates (Local Computer)** to expand the certificate stores. Double-click **Personal**, then double-click **Certificates**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -271,7 +271,7 @@ If you have more than one site with Edge Servers (that is, a multiple-site edge 
 
 8.  In the Certificate Export Wizard, click **Next**. Select **Yes, export the private key**. Click **Next**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -286,7 +286,7 @@ If you have more than one site with Edge Servers (that is, a multiple-site edge 
     
       - Export all extended properties
         
-        <div class="alert">
+        <div>
         
 
         > [!WARNING]

@@ -34,7 +34,7 @@ After updating your topology in Topology Builder, you must publish the topology 
 
 1.  On a computer that is running Lync Server 2013, or on which the Lync Server administrative tools are installed, log on using an account that is a member of the local Users group (or an account with equivalent user rights).
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -51,7 +51,7 @@ After updating your topology in Topology Builder, you must publish the topology 
 
 5.  On the **Create databases** page, verify that the database is selected, and then click **Next**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -62,7 +62,7 @@ After updating your topology in Topology Builder, you must publish the topology 
 
 6.  On the **Publishing wizard complete** page, verify that the topology was successfully published, and then click **Finish**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

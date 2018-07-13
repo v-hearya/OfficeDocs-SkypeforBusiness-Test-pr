@@ -44,7 +44,7 @@ These options include the following types of access that can be configured throu
 
   - **Enable anonymous users to access conferences**   Enable this option if you want internal users to invite external anonymous users to conferences that they organize. Enabling this setting only allows anonymous users for conferences. To configure the conferencing experience and options that will define how and what your users can do with conferences and for the inclusion of anonymous users, see details at [Create or Modify Conferencing User Experience for a Site or Users](https://technet.microsoft.com/en-us/library/gg429715\(v=ocs.15\)) and [Conferencing policy settings reference for Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

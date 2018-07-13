@@ -87,7 +87,7 @@ Use the registry settings in the following table to add a command to the menus. 
 <td><p>ApplicationType</p></td>
 <td><p>DWORD</p></td>
 <td><p>0 = Executable (default)</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Requires ApplicationInstallPath.
@@ -100,7 +100,7 @@ Use the registry settings in the following table to add a command to the menus. 
 <td><p>ApplicationInstallPath</p></td>
 <td><p>REG_SZ</p></td>
 <td><p>Full path of the executable.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Must be specified if ApplicationType is 0 (Executable).

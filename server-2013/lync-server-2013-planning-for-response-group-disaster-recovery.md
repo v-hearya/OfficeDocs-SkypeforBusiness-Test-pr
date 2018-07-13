@@ -34,7 +34,7 @@ This section describes some ways to prepare response groups for disaster recover
 
 Keep the following in mind when you prepare for and carry out disaster recovery procedures.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -56,7 +56,7 @@ Keep the following in mind when you prepare for and carry out disaster recovery 
 
   - It is possible to import response groups to a backup pool before a disaster or failover operation occurs. Importing response groups in advance reduces downtime, because the Lync Server Response Group service can be restored in the backup pool as soon as calls are routed to the backup pool.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -81,7 +81,7 @@ During the failover phase of disaster recovery, the response groups reside in mu
 
 When you recover by creating a new pool with a different FQDN, you need to assign the new pool as the owner of the response groups when you import them. Ownership of response groups remains with the original pool unless or until you explicitly reassign ownership by using the –OverwriteOwner parameter with the **Import-CsRgsConfiguration** cmdlet.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -95,7 +95,7 @@ You can define only one set of application-level Response Group configuration se
 
 You can transfer these application-level settings from one pool to another by using the **Import-CsRgsConfiguration** cmdlet with the –ReplaceExistingSettings parameter, but doing so overrides the settings in the destination pool.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -138,7 +138,7 @@ For details about performing these steps, see [Response group disaster recovery 
 <tr class="even">
 <td><p>During outage</p></td>
 <td><p>Run the <strong>Import-CsRgsConfiguration</strong> cmdlet to import the backed up Lync Server Response Group service configuration from the primary pool to the backup pool.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Use the –ReplaceExistingSettings parameter if you want to replace application-level Response Group settings in the backup pool with the settings from the primary pool. If you do not transfer the application-level settings from the primary pool to the backup pool, and the primary pool can't be recovered, you will lose the settings from the primary pool.
@@ -151,7 +151,7 @@ For details about performing these steps, see [Response group disaster recovery 
 <tr class="odd">
 <td><p>After importing</p></td>
 <td><p>Run Response Group cmdlets with either the –ShowAll parameter (to display all response groups) or the –Owner parameter (to display only imported response groups) to verify that all response group configurations were imported to the backup pool.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > If you do not use either the –ShowAll parameter or the –Owner parameter, the response groups that you imported to the backup pool will not be listed in the results returned by the cmdlets.
@@ -176,7 +176,7 @@ For details about performing these steps, see [Response group disaster recovery 
 <li><p>All formal agents must sign in again to their formal groups on backup pool.</p></li>
 <li><p>Manage configuration changes:</p>
 <p>Response groups in the backup pool, whether imported to the backup pool or owned by the backup pool, can be modified as usual during the outage.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > You must use Lync Server Management Shell to manage the response groups that you imported to the backup pool. You cannot use Lync Server Control Panel to manage these response groups while they are in the backup pool.
@@ -196,7 +196,7 @@ For details about performing these steps, see [Response group disaster recovery 
 <td><p>After failback</p></td>
 <td><ul>
 <li><p>Run the <strong>Import-CsRgsConfiguration</strong> cmdlet to import the response groups back to the primary pool.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > If the primary pool can't be recovered and you deploy a new pool to replace it, use the –ReplaceExistingSettings parameter to transfer the application-level settings from the backup pool to the new pool. If you do not transfer the settings from the backup pool, the new pool will use the default settings.

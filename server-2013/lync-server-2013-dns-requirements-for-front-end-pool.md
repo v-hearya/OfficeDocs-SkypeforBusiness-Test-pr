@@ -30,7 +30,7 @@ To successfully complete this procedure, you should be logged on to the server o
 
 You need to configure the required Domain Name System (DNS) records prior to publishing your topology in Topology Builder. Additionally, some of the fully qualified domain names (FQDNs) used in the configuration of a Lync Server 2013 deployment are logical and not physical server FQDNs, so additional DNS configuration is required prior to publishing.
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]
@@ -40,7 +40,7 @@ You need to configure the required Domain Name System (DNS) records prior to pub
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -161,7 +161,7 @@ The table follows the reference architectures presented in the Planning section.
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

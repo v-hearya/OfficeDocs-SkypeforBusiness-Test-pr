@@ -46,7 +46,7 @@ To create a new dial plan, perform the steps in the following procedure. If you 
     
       - **User dial plan** can be applied to specified users or groups.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -57,7 +57,7 @@ To create a new dial plan, perform the steps in the following procedure. If you 
 
 5.  If you are creating a user dial plan, enter a descriptive name in the **Name** field on the **New Dial Plan** dialog box. After this name is saved, it cannot be changed.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -68,7 +68,7 @@ To create a new dial plan, perform the steps in the following procedure. If you 
 
 6.  The **Simple name** field is prepopulated with the same name that appears in the **Name** field. You can optionally edit this field to specify a more descriptive name that reflects the site, service, or user to which the dial plan applies.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -81,7 +81,7 @@ To create a new dial plan, perform the steps in the following procedure. If you 
 
 8.  (Optional) If you want to use this dial plan as a region for dial-in access numbers, specify a **Dial-in conferencing region**. If you do not want to use this dial plan for dial-in access numbers, leave this field empty.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -92,7 +92,7 @@ To create a new dial plan, perform the steps in the following procedure. If you 
 
 9.  (Optional) In the **External access prefix** field, specify a value only if users need to dial one or more additional leading digits (for example, 9) to get an external line. You can type in a prefix value of up to four characters (\#, \*, and 0-9).
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -113,7 +113,7 @@ To create a new dial plan, perform the steps in the following procedure. If you 
     
       - To remove a normalization rule from the dial plan, highlight the rule name and click **Remove**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -124,7 +124,7 @@ To create a new dial plan, perform the steps in the following procedure. If you 
 
 11. Verify that the dial plan’s normalization rules are arranged in the correct order. To change a rule’s position in the list, highlight the rule name and then click the up or down arrow.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -135,7 +135,7 @@ To create a new dial plan, perform the steps in the following procedure. If you 
 
 12. (Optional) Enter a number to test the dial plan and then click **Go**. The test results are displayed under **Enter a number to test**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -148,7 +148,7 @@ To create a new dial plan, perform the steps in the following procedure. If you 
 
 14. On the **Dial Plan** page, click **Commit**, and then click **Commit all**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

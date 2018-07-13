@@ -66,7 +66,7 @@ Configuring Announcement application requires one of the following administrativ
 
   - **CsViewOnlyAdministrator**   This administrator role can view the deployment to monitor deployment health.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

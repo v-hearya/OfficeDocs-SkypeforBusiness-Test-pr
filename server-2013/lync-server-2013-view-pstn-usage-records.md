@@ -40,7 +40,7 @@ A public switched telephone network (PSTN) usage record specifies a class of cal
 
 4.  On the **PSTN Usage** page, highlight the PSTN usage record you want to view, click **Edit** and then click **Show details**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

@@ -38,7 +38,7 @@ To return a per-user policy that has the Identity “RedmondAccessPolicy”, use
 
     Get-CsExternalAccessPolicy -Identity "RedmondAccessPolicy"
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -68,7 +68,7 @@ The following cmdlets operate against both the global scope and the per-user (ta
 
   - [Get-CsVoicePolicy](get-csvoicepolicy.md)
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

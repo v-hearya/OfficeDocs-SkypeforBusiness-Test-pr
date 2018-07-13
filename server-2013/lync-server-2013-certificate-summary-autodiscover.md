@@ -34,7 +34,7 @@ The decision about whether to use subject alternative name lists on reverse prox
 
   - **Published on port 443**   The subject alternative name list on certificates used by the external web services publishing rule must contain a *lyncdiscover.\<sipdomain\>* entry for each SIP domain within your organization.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -45,7 +45,7 @@ The decision about whether to use subject alternative name lists on reverse prox
 
 Reissuing certificates by using an internal certificate authority is typically a simple process. But for public certificates used on the web service publishing rule, adding multiple subject alternative name entries can become expensive. To work around this issue, we support the initial automatic discovery connection over port 80, which is then redirected to port 8080 on the Director or Front End Server.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -85,7 +85,7 @@ The following tables define the Autodiscover SAN entries for the Director pool, 
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -121,7 +121,7 @@ The following tables define the Autodiscover SAN entries for the Director pool, 
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -153,7 +153,7 @@ The following tables define the Autodiscover SAN entries for the Director pool, 
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

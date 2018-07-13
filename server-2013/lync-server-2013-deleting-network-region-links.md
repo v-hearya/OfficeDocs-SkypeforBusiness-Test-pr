@@ -40,7 +40,7 @@ You can configure links between two network regions as part of call admission co
 
 4.  On the **Region Link** page, click the region link that you want to delete.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

@@ -34,7 +34,7 @@ Public Instant Messaging Connectivity is a class of federation, and is configure
 
   - America Online (AOL) contacts
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

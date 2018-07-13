@@ -30,7 +30,7 @@ If you don’t like the way that an update works on your test devices, you can r
 
 You can remove a device update rule by using either Lync Server Control Panel or Windows PowerShell.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -60,7 +60,7 @@ You can remove a device update rule by using either Lync Server Control Panel or
 
 5.  Click **Action**, and then click **Cancel pending updates**.
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]
@@ -77,7 +77,7 @@ You can remove a device update rule by using either Lync Server Control Panel or
 
 Device update rules can also be reset by using Windows PowerShell and the **Reset-CsDeviceUpdateRule** cmdlet. This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

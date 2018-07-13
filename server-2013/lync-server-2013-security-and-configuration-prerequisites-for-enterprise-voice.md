@@ -44,7 +44,7 @@ Be sure that your environment is configured with the following administrative us
     
       - **CsAdministrator:** This administrator role can perform all of the tasks of CsVoiceAdministrator and CsUserAdministrator.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -55,7 +55,7 @@ Be sure that your environment is configured with the following administrative us
 
   - Managed key infrastructure (MKI) is deployed and configured, by using either a Microsoft or a third-party certification authority (CA) infrastructure.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -74,7 +74,7 @@ If you collocated the Mediation Server with each Front End pool or Standard Edit
 
 If you are newly deploying the Enterprise Voice workload at this time, before you begin the deployment process, designate a primary phone number for each user who you plan to enable for Enterprise Voice. As the administrator, you are responsible for ensuring that this number is unique. Before implementation, all primary phone numbers must be normalized (correctly formatted) and copied to each user’s **Line URI** property using Lync Server Control Panel.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

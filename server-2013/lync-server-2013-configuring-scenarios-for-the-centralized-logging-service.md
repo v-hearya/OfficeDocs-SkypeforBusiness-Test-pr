@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2014-02-05_
 
 Scenarios define the scope (that is, global, site, pool, or computer) and what providers to use in the Centralized Logging Service. By using scenarios, you enable or disable tracing on providers (for example, S4, SIPStack, IM, and Presence). By configuring a scenario, you can group all of the providers for a given logical collection that address a specific problem condition. If you find that a scenario needs to be modified to meet your troubleshooting and logging needs, the Lync Server 2013 Debug Tools provides you a Windows PowerShell module named *ClsController.psm1* that contains a function named *Edit-CsClsScenario*. The purpose of the module is to edit the properties of the named scenario. Examples of how this module works are provided in this topic. The Lync Server 2013 Debug Tools are downloaded from the following link: [http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -56,7 +56,7 @@ As introduced in [Overview of the Centralized Logging Service in Lync Server 201
     
     Optionally, you can use the –Name and –Parent parameters. You define the Name parameter to uniquely identify the scenario. If you use Name, you must also use Parent to add the scenario to either global or site.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -99,7 +99,7 @@ As introduced in [Overview of the Centralized Logging Service in Lync Server 201
     
         New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -162,7 +162,7 @@ The **Remove-CsClsScenario** cmdlet removes the specified scenario, but the trac
 
 1.  Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -175,7 +175,7 @@ The **Remove-CsClsScenario** cmdlet removes the specified scenario, but the trac
     
         Import-Module "C:\Program Files\Lync Server 2013\Debugging Tools\ClsController.psm1"
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]
@@ -188,7 +188,7 @@ The **Remove-CsClsScenario** cmdlet removes the specified scenario, but the trac
     
         Remove-Module ClsController
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]

@@ -30,7 +30,7 @@ To create a conferencing room object, first create an Active Directory user acco
 
 These cmdlets can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

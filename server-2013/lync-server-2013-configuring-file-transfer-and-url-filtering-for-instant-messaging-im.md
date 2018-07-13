@@ -46,7 +46,7 @@ Configuring Intelligent IM Filter includes the following:
 
 Before you deploy the Intelligent IM Message Filter tool, you need to understand how filtering options are applied as messages are routed from one Lync Server 2013 server to another. The way these filtering options are applied is consistent, regardless of whether the servers are located in a single organization or across organizational boundaries. This consistency applies to the way that the customized notice and warning texts are inserted into messages and sent across servers.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -64,7 +64,7 @@ When an instant message travels from one server to another, the following genera
 
   - If a server (Server1) adds a warning to an instant message that contains an active hyperlink, a subsequent server (Server2) that receives this instant message can still take a different action based on this active hyperlink present in the instant message and block the instant message or add a warning. If Server2 is configured only to add a warning for this URL, the earlier warning added by Server1 is removed, and the warning configured on Server2 is added to the beginning of the instant message.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -92,7 +92,7 @@ If you do not configure the instant message filter to perform any URL filtering,
 
   - **Block URLs with file extension**   The instant message filter blocks any active intranet or Internet URL that contains a file with an extension listed under **File type extensions to block** in the **Edit File Filter** dialog box. When a URL is blocked, an error message is displayed to the sender. When selected, this option takes precedence over all other filtering options for any file extensions defined under **File type extensions to block**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -125,7 +125,7 @@ If you select **Block hyperlinks** or **Send warning message**, the following op
 
 Filter transfer filtering affects both instant messages and conferences. For conferences, these settings affect the handout feature in the Office Live Meeting 2007 client and multimedia playback features.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -145,7 +145,7 @@ You can filter file transfers during instant message conversations, when you are
     
       - **Block All**   The server drops all instant messages that contain file transfer requests and returns an error message to the sender of the request. The handout feature in the Office Live Meeting 2007 client is disabled.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

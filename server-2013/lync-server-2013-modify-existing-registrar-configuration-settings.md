@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-11-01_
 
 You can use the Registrar to configure proxy server authentication protocols. For information about the available protocols, see [Create Registrar configuration settings in Lync Server 2013](lync-server-2013-create-registrar-configuration-settings.md).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2016-12-08_
 
 In addition to the hardware and operating system requirements for server platforms, Lync Server 2013 requires the installation of additional software on the servers that you deploy.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

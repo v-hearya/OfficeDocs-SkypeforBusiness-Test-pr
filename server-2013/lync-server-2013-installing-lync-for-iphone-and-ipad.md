@@ -38,7 +38,7 @@ You can instruct your users to install Lync 2013 for iPhone and Lync 2013 for iP
 
   - Lync for iPad is available in the App Store at \< ht<span></span>tp://www.apple.com/ipad/from-the-app-store/>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

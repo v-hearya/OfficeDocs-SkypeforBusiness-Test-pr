@@ -36,7 +36,7 @@ When a Lync client obtains its location from the Location Information service, t
 
 ELIN gateways support emergency calls only from within your organization's network. They do not support emergency calls made from outside your network.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-01-30_
 
 To deploy and manage Group Call Pickup, you need to use the SEFAUtil resource kit tool. The tool is part of the Lync Server 2013 resource kit tools. Before you can install SEFAUtil, you must have a trusted application pool in your topology, specify SEFAUtil as a trusted application, and enable the topology.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -40,7 +40,7 @@ To deploy and manage Group Call Pickup, you need to use the SEFAUtil resource ki
 
 You can run the SEFAUtil in any Front End pool in your deployment.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -66,7 +66,7 @@ You can run the SEFAUtil in any Front End pool in your deployment.
     
         New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -85,7 +85,7 @@ You can run the SEFAUtil in any Front End pool in your deployment.
     
     1.  Run the tool from the Windows command prompt with administrator privileges to display the call forwarding settings of a user in your deployment.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]

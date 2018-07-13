@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-09-28_
 
 The Tenants table is a supporting table that stores a list of the various tenants. Each record in the table represents one tenant.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

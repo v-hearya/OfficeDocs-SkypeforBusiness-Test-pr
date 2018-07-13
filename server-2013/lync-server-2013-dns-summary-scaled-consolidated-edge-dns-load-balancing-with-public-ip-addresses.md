@@ -66,7 +66,7 @@ You can configure two network adapters in each of your Edge Server as follows:
     
     Web Conferencing Edge service and A/V Edge service private IP addresses are additional IP addresses in the **Advanced** section of the properties of **Internet Protocol Version 4 (TCP/IPv4)** and **Internet Protocol Version 6 (TCP/IPv6)** of the **Local Area Connection Properties** in Windows Server.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -83,7 +83,7 @@ You can configure two network adapters in each of your Edge Server as follows:
     
     Web Conferencing Edge service and A/V Edge service private IP addresses are additional IP addresses in the **Advanced** section of the properties of **Internet Protocol Version 4 (TCP/IPv4)** and **Internet Protocol Version 6 (TCP/IPv6)** of the **Local Area Connection Properties** in Windows Server.
 
-<div class="alert">
+<div>
 
 
 > [!TIP]
@@ -179,7 +179,7 @@ You can configure two network adapters in each of your Edge Server as follows:
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>SIP Access Edge service external interface Required for automatic DNS discovery of your federation to other potential federation partners, and is known as “Allowed SIP Domains” (called enhanced federation in previous releases).</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > Repeat as necessary for all SIP domains with Lync enabled users and Microsoft Lync Mobile clients that use either the Push Notification Service or the Apple Push Notification service

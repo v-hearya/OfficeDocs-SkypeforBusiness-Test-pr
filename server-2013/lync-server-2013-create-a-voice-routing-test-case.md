@@ -60,7 +60,7 @@ _**Topic Last Modified:** 2014-02-07_
 
 14. Click **Commit**, and then click **Commit all**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

@@ -34,7 +34,7 @@ The Lync Server 2013 Persistent Chat Resource Kit tools help to make routine ta
 
 To install the Lync Server 2013, Resource Kit Tools, download **PersistentChatReskit.msi**. Run **PersistentChatReskit.msi** to do a simple installation. The .msi installs all the tools in the following path: \\**Program Files\\ Microsoft Lync Server 2013\\Persistent Chat Server Resource Kit**. Tools that are self-contained executables are in this folder. Tools that also have files are in their own subfolders.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -137,8 +137,7 @@ Configure the AffCheck.exe.config file according to the instructions in the conf
         <add key="Ignore" value ="DC=uatest,DC=test,DC=contoso,DC=com;DC=test,DC=contoso,DC=com"/>
       </appSettings>
     </configuration>
-```
-
+  ```
 </div>
 
 </div>
@@ -439,7 +438,6 @@ ChatUsageReport.exe.config:
       </appSettings>
     </configuration></configuration>
 ```
-
 </div>
 
 </div>

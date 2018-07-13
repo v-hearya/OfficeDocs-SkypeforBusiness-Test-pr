@@ -34,7 +34,7 @@ The tools included in the Lync Server 2013 Stress and Performance Tool package e
 
 To configure user profiles, run the Lync Server 2013 Load Configuration Tool (UserProfileGenerator.exe) and fill out each of the tabs. UserProfileGenerator.exe generates a directory for each of the client computers that you need to run the simulation. Each client directory also comes with a script to start all of the instances of the Lync Server 2013 Stress and Performance Tool (LyncPerfTool.exe).
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -90,7 +90,7 @@ Configure the load levels and parameters for each of the general scenarios that 
 
 1.  In **Instant Messaging**, which includes peer-to-peer and conferencing, specify the appropriate value for the Load Level.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -113,7 +113,7 @@ Configure the load levels and parameters for each of the general scenarios that 
 
 8.  In **Location Information Services**, select the appropriate value for Load Level. The load level for Location Information Services must be **Enabled** or **Disabled**.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -139,7 +139,7 @@ Use the **Voice Scenarios** tab to configure all of the voice-related scenarios.
 
 2.  In **UC/PSTN Gateway**, specify a value for Load Level. If you select a load level other than **Disabled**, you must supply a value for **PSTN Area Code** by clicking the **Add** button under Mediation Server and PSTN. Verify that you have a route configured for that area code.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -154,7 +154,7 @@ Use the **Voice Scenarios** tab to configure all of the voice-related scenarios.
 
 5.  In **Mediation Server and PSTN**, for each Mediation Server that you want to use, you must have a separate PSTN simulator. After you have determined which client you are going to use as the simulator, you need to configure your Mediation Server to route calls to that computer on the PSTN Simulator port that you configured. Click **Add** to configure the value for the Mediation Server.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -180,7 +180,7 @@ Use the **Reach** tab to configure all of the reach-related scenarios.
 
 2.  In **Application Sharing**, **Data Collaboration**, and **IM**, select the appropriate value for **Load Level**.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -198,7 +198,7 @@ Use the **Mobility** tab to configure all of the mobility-related scenarios.
 
 2.  In **Presence and P2P Instant Messaging\\Audio**, select the appropriate value for **Load Level** to enable Mobility Scenario simulation.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -38,7 +38,7 @@ To create a new Add-in
 
     New-CsPersistentChatAddin -PersistentChatPoolFqdn <String> -Name <String> -Url<String>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

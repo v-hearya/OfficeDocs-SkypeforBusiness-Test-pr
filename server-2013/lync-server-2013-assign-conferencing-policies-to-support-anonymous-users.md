@@ -30,7 +30,7 @@ By default, all users are prevented from inviting anonymous users to participate
 
 Use the procedure in this section to apply a conferencing policy that you have already created to one or more users or user groups.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -64,7 +64,7 @@ Use the procedure in this section to apply a conferencing policy that you have a
 
 8.  In **Edit Lync Server User** under **Conferencing policy**, select the user policy with the anonymous user access configuration that you want to apply to this user.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

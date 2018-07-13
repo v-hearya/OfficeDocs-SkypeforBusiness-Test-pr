@@ -30,7 +30,7 @@ The Domain Name System (DNS) records that will be required for defining a federa
 
 The DNS records summary table depicts the required entries for an open, or discoverable, federation. If you do not want to implement Federation Discovery, You can decide to not configure the \_sipfederationtls.\_tcp. *\<SIP domain name\>* record.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -70,7 +70,7 @@ When you configure domain name system (DNS) for public instant messaging connect
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Access Edge service external interface Required for automatic DNS discovery of your federation to other potential federation partners, and is known as “Allowed SIP Domains” (called enhanced federation in previous releases).Repeat as necessary for all SIP domains with Lync enabled users</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > This SRV record is required for mobility and the push notification clearing house. In cases where there is more than one SIP domain, create and publish an SRV record for each domain that will have Lync Mobile clients. The Push Notification Service and Apple Push Notification service may not operate as expected if there is not an explicit SRV record for each SIP domain that the deployment supports.

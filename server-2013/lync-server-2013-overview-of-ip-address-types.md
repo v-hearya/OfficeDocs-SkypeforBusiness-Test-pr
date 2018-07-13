@@ -36,7 +36,7 @@ You have three options when configuring IP addresses in Lync Server 2013. You ca
 
 The following sections outline the compatibility among these three configurations for various Lync Server features.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -380,7 +380,7 @@ The following table is a matrix of the supported combinations of internal and ex
 
 Deployments that include call admission control (CAC), Enhanced 9-1-1 (E9-1-1), or media bypass must be configured as IPv4 only or as a dual-stacked implementation.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

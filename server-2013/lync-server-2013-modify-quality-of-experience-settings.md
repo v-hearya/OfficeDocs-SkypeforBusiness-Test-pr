@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-23_
 
 By default, Quality of Experience (QoE) data is purged after 60 days. You can use the settings on the **Quality of Experience Data** page to retain the data for a longer or shorter period of time. If you disable QoE, data that was captured before QoE was enabled will also be subject to purging.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

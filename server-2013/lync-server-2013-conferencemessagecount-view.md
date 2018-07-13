@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-01_
 
 The ConferenceMessageCount view stores information about how many messages were sent by a user to a conference. This view was introduced in Microsoft Lync Server 2013.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

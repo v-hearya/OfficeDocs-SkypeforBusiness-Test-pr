@@ -32,7 +32,7 @@ Use the steps in this topic to run Lync Server 2013 Deployment Wizard to install
 
 At this site, if you have already deployed Mediation Servers collocated on the Front End pools or Standard Edition server, you can skip this topic and, instead, continue to [Configuring trunks in Lync Server 2013](lync-server-2013-configuring-trunks.md).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

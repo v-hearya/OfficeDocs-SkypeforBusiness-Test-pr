@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-08_
 
 Lync Server supports all of the phones listed in the following table. Note that not all of the supported phones can run Lync Phone Edition (some can run only earlier versions). Use the table to learn which phones can run Lync Phone Edition and where to get detailed information about all of the supported phones.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -109,7 +109,7 @@ For detailed comparison tables about all devices that are optimized to work with
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

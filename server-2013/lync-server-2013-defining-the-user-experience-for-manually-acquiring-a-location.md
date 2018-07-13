@@ -35,7 +35,7 @@ If a client is located outside the network, or in an undefined subnet, the user 
 
 When a user manually enters a location, the location is mapped to the MAC address of the default gateway of the client’s network, and is stored in a per-user table located on the client. When the user returns to any previously stored location, the Lync client automatically sets itself to that location.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

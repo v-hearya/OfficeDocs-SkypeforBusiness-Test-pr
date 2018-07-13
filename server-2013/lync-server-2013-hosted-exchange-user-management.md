@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-18_
 
 To provide voice mail services for Lync Server 2013 users whose mailboxes are located on a hosted Exchange service, you must enable their user accounts for hosted voice mail.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -88,7 +88,7 @@ The attribute’s key/value pairs and their authors are shown in the following t
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

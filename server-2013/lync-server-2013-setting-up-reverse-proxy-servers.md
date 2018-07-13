@@ -50,7 +50,7 @@ In addition, you need to publish the simple URLs. If the organization has a Dire
 
 You can use Microsoft Forefront Threat Management Gateway 2010, Microsoft Internet Security and Acceleration (ISA) Server 2006 SP1, or Internet Information Server 7.0, 7.5 or 8.0 with Application Request Routing (IIS ARR) as a reverse proxy. The detailed steps in this section describe how to configure Forefront Threat Management Gateway 2010, and the steps for configuring ISA Server 2006 are almost identical. Guidance is also provided for IIS ARR. If you are using a different reverse proxy, consult the documentation for that product and map the requirements defined here to the associated features in other reverse proxies.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -105,7 +105,7 @@ To successfully deploy IIS ARR as your reverse proxy, review the following topic
   - <span></span>  
     To install ARR, for the instructions at [Install Application Request Routing Version 2](http://go.microsoft.com/fwlink/?linkid=291299)
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

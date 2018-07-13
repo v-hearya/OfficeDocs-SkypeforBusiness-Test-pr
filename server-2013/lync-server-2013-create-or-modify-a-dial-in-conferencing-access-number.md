@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-09-17_
 
 Follow these steps if you want to create or modify a dial-in conferencing access number.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -54,7 +54,7 @@ Follow these steps if you want to create or modify a dial-in conferencing access
     
       - Click one of the dial-in access numbers in the list, click **Edit**, and then click **Show details**.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -65,7 +65,7 @@ Follow these steps if you want to create or modify a dial-in conferencing access
 
 5.  In **Display number**, type the phone number that public switched telephone network (PSTN) phone users dial to join a conference.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -76,7 +76,7 @@ Follow these steps if you want to create or modify a dial-in conferencing access
 
 6.  In **Display name**, type a description for the dial-in access number. This is the name that is associated with the dial-in access number in Lync search results.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -87,7 +87,7 @@ Follow these steps if you want to create or modify a dial-in conferencing access
 
 7.  In **Line URI**, type the E.164 number of the dial-in access number in TEL URI format, including the + symbol before the number and excluding spaces. For example, tel:+14255550200.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -100,7 +100,7 @@ Follow these steps if you want to create or modify a dial-in conferencing access
     
       - In the text box, type a unique SIP URI for this dial-in conferencing access number. This SIP URI is displayed in various locations including, but not limited to, call notification messages and previous versions of Communicator clients.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -113,7 +113,7 @@ Follow these steps if you want to create or modify a dial-in conferencing access
 
 9.  In **Pool**, click the pool that is running the instance of Conferencing Attendant that supports this dial-in access number.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -124,7 +124,7 @@ Follow these steps if you want to create or modify a dial-in conferencing access
 
 10. In **Primary language**, click the language in which prompts are played for this dial-in access number.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -135,7 +135,7 @@ Follow these steps if you want to create or modify a dial-in conferencing access
 
 11. (Optional) In **Secondary languages (maximum of four)**, click **Add**, select one or more additional languages that you want to support for callers to this dial-in access number, and then click **OK**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

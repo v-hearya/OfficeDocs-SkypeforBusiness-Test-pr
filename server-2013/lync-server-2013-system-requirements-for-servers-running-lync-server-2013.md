@@ -26,7 +26,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2014-07-24_
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -44,7 +44,7 @@ Servers running Lync Server 2013, Enterprise Edition are intended for large orga
 
 ## Operating System Installation
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -64,7 +64,7 @@ Standard Edition and Enterprise Edition server can use any of the following:
 
 Install the operating system software on the Standard Edition Server or Enterprise Edition Front End Server. Apply all updates in order to bring the operating system up to the latest update and required update level consistent with your organization’s standards. For more details about the operating requirements, see [Server and tools operating system support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in the Supportability documentation.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -98,7 +98,7 @@ Additionally, Windows PowerShell command-line interface 3.0 and Microsoft .NET F
 
 Lync Server 2013 requires you to install Windows PowerShell 3.0 on each computer that will take part in your Lync Server topology. For details about installing Windows PowerShell 3.0, see [Installing Windows PowerShell 3.0 for Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

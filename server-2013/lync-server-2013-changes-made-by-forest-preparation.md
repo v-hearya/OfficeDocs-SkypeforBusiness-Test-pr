@@ -226,7 +226,7 @@ Forest preparation creates both private and public ACEs. It creates private ACEs
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-11-01_
 
 Follow these steps if you want to create a new voice policy. If you want to edit a voice policy, see [Modify a voice policy and configure PSTN usage records in Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md) for the procedure.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -56,7 +56,7 @@ Follow these steps if you want to create a new voice policy. If you want to edit
 
 5.  If the voice policy scope is User, enter a descriptive name for the policy in the **Name** field.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -71,7 +71,7 @@ Follow these steps if you want to create a new voice policy. If you want to edit
     
       - **Voice mail escape** prevents calls from being immediately routed to the user’s mobile phone voice mail system when simultaneous ringing is configured and the phone is turned off, out of battery, or out of range.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -96,7 +96,7 @@ Follow these steps if you want to create a new voice policy. If you want to edit
     
       - **Bandwidth policy override** enables administrators to override call admission control policy decisions for a particular user. Disabled by default.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -119,7 +119,7 @@ Follow these steps if you want to create a new voice policy. If you want to edit
         
         2.  In the **Name** field, enter a unique descriptive name for the record. For example, you may want to create a PSTN usage record named **Redmond** for full-time employees located in Redmond, and another named **RedmondTemps** for temporary employees.
             
-            <div class="alert">
+            <div>
             
 
             > [!NOTE]
@@ -158,7 +158,7 @@ Follow these steps if you want to create a new voice policy. If you want to edit
 
 9.  Arrange the PSTN usage records for optimum performance. To change a record’s position in the list, highlight the record name and click the up or down arrow.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -185,7 +185,7 @@ Follow these steps if you want to create a new voice policy. If you want to edit
             
             2.  In the **Name** field, enter a unique descriptive name for the record.
                 
-                <div class="alert">
+                <div>
                 
 
                 > [!NOTE]
@@ -224,7 +224,7 @@ Follow these steps if you want to create a new voice policy. If you want to edit
 
 11. (Optional) Enter a number to test the voice policy and click **Go**. The test results are displayed under **Translated number to test**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -237,7 +237,7 @@ Follow these steps if you want to create a new voice policy. If you want to edit
 
 13. On the **Voice Policy** page, click **Commit**, and then click **Commit all**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

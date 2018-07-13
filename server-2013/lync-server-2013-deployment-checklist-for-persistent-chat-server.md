@@ -133,7 +133,7 @@ The following table lists the basic steps to deploy Persistent Chat Server and p
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

@@ -74,7 +74,7 @@ You can use Lync Server 2013 Control Panel to perform most of the administrative
 
 Lync Server Control Panel is automatically installed on every Lync Server Front End Server or Standard Edition server. In this release, you administer Edge Servers remotely. You can also install Lync Server Control Panel on another computer, such as a management console from which you want to centrally manage Lync Server. For details, see [Install Lync Server 2013 administrative tools](lync-server-2013-install-lync-server-administrative-tools.md).
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -104,7 +104,7 @@ In Lync Server, the Lync Server Management Shell provides a new method for admin
 
 The Lync Server Logging Tool facilitates troubleshooting by capturing logging and tracing information from the product while the product is running. You can use the tool to run debug sessions on any Lync Server server role. For details about the Logging Tool, see the Lync Server 2010 Logging Tool documentation on the TechNet Library at [http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265).
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2014-02-07_
 
 The unified contact store enables users to maintain a single contacts list and then have those contacts available in multiple applications, including Microsoft Lync 2013, Microsoft Outlook 2013, and Microsoft Outlook Web App 2013. When you enable the unified contact store for a user that user's contacts are not stored in Microsoft Lync Server 2013 and then retrieved using the SIP protocol. Instead, his or her contacts are stored in Microsoft Exchange Server 2013 and are retrieved by using Exchange Web Services.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -84,7 +84,7 @@ You can then assign this new per-user policy (NoUnifiedContactStore) by using a 
 
 The preceding command assigns the new policy to the user Ken Myer, and also prevents Ken's contacts from being migrated to the unified contact store.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

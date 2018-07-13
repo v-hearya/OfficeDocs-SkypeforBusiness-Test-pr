@@ -30,7 +30,7 @@ Use the following workarounds to resolve Persistent Chat Server configuration is
 
   - If the "principal not provisioned" error message appears, the principal that you tried to add is not available.
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]

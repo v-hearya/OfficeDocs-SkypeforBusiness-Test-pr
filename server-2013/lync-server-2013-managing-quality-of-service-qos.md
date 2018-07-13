@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-11-07_
 
 Quality of Service (QoS) is a networking technology used in some organizations to help provide an optimal end-user experience for audio and video communications. QoS is most-commonly used on networks where bandwidth is limited: with a large number of network packets competing for a relatively small amount of available bandwidth, Quality of Service provides a way for administrators to assign higher priorities to packets carrying audio or video data. By giving these packets a higher priority, audio and video communications are likely to complete faster, and with less interruption, than network sessions involving things like file transfers, web browsing, or database backups. That's because network packets used for file transfers or database backups are assigned a "best effort" priority.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -58,7 +58,7 @@ Lync Server 2013 offers full support for Quality of Service: that means that org
 
   - [Configuring Quality of Service on Microsoft Lync Phone Edition devices in Lync Server 2013](lync-server-2013-configuring-quality-of-service-on-microsoft-lync-phone-edition-devices.md). By default, QoS is enabled for Lync Phone Edition devices. However, you might want to change the default DSCP value in order to ensure that all audio packets in your organization use the same DSCP code.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

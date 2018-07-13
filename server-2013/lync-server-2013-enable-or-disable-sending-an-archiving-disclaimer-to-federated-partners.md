@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-23_
 
 At the time you deployed your Edge Servers and enabled federation for your organization, you should have specified whether to automatically send the archiving disclaimer to federated partners. If you archive external communications, you should enable the sending of an archiving disclaimer. Use the procedure in this topic to change that configuration.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

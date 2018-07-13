@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-22_
 
 If a user has been enabled for Lync Server, you can configure SIP federation, XMPP federation, remote user access, and public instant messaging (IM) connectivity in the Lync Server Control Panel by applying the appropriate policies to specific users. For example, if you created a policy to support remote user access, you must apply it to the user before the user can connect to Lync Server from a remote location and collaborate with internal users from the remote location.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -54,7 +54,7 @@ Use the procedure in this topic to apply a previously created external user acce
 
 5.  In **Edit Lync Server User** under **External access policy**, select the user policy that you want to apply.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

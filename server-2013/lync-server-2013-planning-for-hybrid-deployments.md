@@ -124,7 +124,7 @@ To configure your deployment for hybrid with Skype for Business Online, you need
     
       - The Edge Pool associated with SIP federation for the site
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -284,7 +284,7 @@ In a Lync Server 2013 hybrid deployment, any user that you want to home in Lync 
 
 When you synchronize user accounts between your Lync on-premises and Lync Online deployments with AD FS and Dirsync, you need to synchronize the AD accounts for all Lync users in your organization between your on-premises and online Lync deployments, even if users are not moved to Lync Online. If you do not synchronize all users, communication between on-premises and online users in your organization may not work as expected.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

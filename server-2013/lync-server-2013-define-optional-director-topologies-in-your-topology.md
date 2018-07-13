@@ -60,7 +60,7 @@ This topic describes the steps to define and publish the topology for the two Di
     
     2.  To create a new file share, click **Define a new file share**, type the FQDN for the location of the file share in **File Server FQDN**, type the name of the share in **File Share**, and then click **Next**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -71,7 +71,7 @@ This topic describes the steps to define and publish the topology for the two Di
 
 7.  In the **Specify the Web Services URL** dialog box, in **External Base URL**, specify the FQDN for the Directors, and then click **Finish**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -80,7 +80,7 @@ This topic describes the steps to define and publish the topology for the two Di
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]
@@ -123,7 +123,7 @@ This topic describes the steps to define and publish the topology for the two Di
     
       - To create a new file share, click **Define a new file share**, type the FQDN for the location of the file share in **File Server FQDN**, type the name of the share in **File Share**, and then click **Next**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -134,7 +134,7 @@ This topic describes the steps to define and publish the topology for the two Di
 
 8.  In the **Specify the Web Services URL** dialog box, in **External Base URL**, specify the FQDN for the Directors, and then click **Finish**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -143,7 +143,7 @@ This topic describes the steps to define and publish the topology for the two Di
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]

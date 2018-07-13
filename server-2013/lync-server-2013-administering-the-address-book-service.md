@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2014-02-05_
 
 As a part of the deployment of Lync Server, Enterprise Edition or Standard Edition server, the Address Book Service is installed by default. The database used by the Address Book Service – RTCab – is created on the SQL Server (for Enterprise Edition, this is the back-end SQL Server; for Standard Edition server, the collocated SQL Server).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -263,7 +263,7 @@ The numbers in the **ID** column must be unique and should never be reused. Also
 
 In previous versions of Lync Server, when applying a change to Active Directory, the administrator would be required to run **Update -CSUserDatabase** and **Update –CSAddressBook** Windows PowerShell cmdlets to persist the change to the Lync Server user database and RTCab database immediately. In Lync Server 2013, Lync Server User Replicator will pick up the changes from Active Directory and update the Lync Server user database based on a configured interval. Lync Server User Replicator will also propagate the changes to the RTCab database quickly without the administrator having to run Update-CSAddressBook. If Address Book Web query is enabled, then the changes will be reflected in search results by Lync clients. Administrators will only need to run Update -CSAddressBook if the Address Book file download is enabled.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -283,7 +283,7 @@ The users populated in the Address Book Server files can be controlled based on 
 
 You can use some flag bits to define a filter to use on Address Book Server attributes. For example, the presence of certain flag bits can identify an attribute as an include attribute or an exclude attribute. User Replicator filters out contacts that contain an exclude attribute and filters out contains that do not contain an include attribute.
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]
@@ -324,7 +324,7 @@ Currently, there are three different filters. The following table lists these fi
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -340,7 +340,7 @@ While having full contact records in the Address Book files enables you to use L
 
 After you modify the AbAttribute table, you can refresh the data in the AbUserEntry table by running the cmdlet **Update-CsUserDatabase** command. After UR replication completes, you can update the file in the Address Book Server file store by manually running the cmdlet **UpdateCsAddressBook** command.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -350,7 +350,7 @@ After you modify the AbAttribute table, you can refresh the data in the AbUserEn
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-10-07_
 
 Public instant messaging (IM) connectivity enables users in your organization to use IM to communicate with users of IM services provided by public IM service providers, including the Windows Live network of Internet services, Yahoo\!, and AOL. You configure one or more external user access policies to control whether public users can collaborate with internal Lync Server users. Public instant messaging connectivity is an added feature that relies on configuration of your deployment and users. It also depends on the provisioning of the service at the public IM provider. For information on how to provision your deployment to use the public providers, see the “Public IM Connectivity Provisioning Guide for Microsoft Lync Server, Office Communications Server, and Live Communications Server” guide: [http://go.microsoft.com/fwlink/?LinkId=269821](http://go.microsoft.com/fwlink/?linkid=269821)
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -50,7 +50,7 @@ To control public user access, you can configure policies at the global, site, a
 
 In the case of IM invitations, the response depends on the client software. The request is accepted unless external senders are explicitly blocked by a user-configured rule (that is, the settings in the user’s client **Allow** and **Block** lists). Additionally, IM invitations can be blocked if a user elects to block all IM from users who are not on his or her **Allow** list.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

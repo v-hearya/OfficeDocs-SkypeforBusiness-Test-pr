@@ -40,7 +40,7 @@ We recommend creating a separate voice over IP (VoIP) policy for users at branch
 
 4.  Set a backup call route on the Survivable Branch Appliance or Survivable Branch Server gateway to point to the backup Registrar pool (collocated with Mediation Server) at the central site. (See your Survivable Branch Appliance or Survivable Branch Server vendor documentation.)
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

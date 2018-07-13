@@ -30,7 +30,7 @@ We recommend using the Microsoft Lync Server 2013, Planning Tool to add branch s
 
 If you are not using the Planning Tool, use the procedures in the topics in this section—first, to add the branch sites, and then, to set up your voice infrastructure by defining the IP/public switched telephone network (PSTN) gateway and/or by configuring the SIP trunk (with or without media bypass). Connecting a private branch exchange (PBX) to the branch site is another option.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -52,7 +52,7 @@ For calls that fail because of CAC policies, the order of precedence for rerouti
 
 Call detail recording (CDR) captures information about calls that are rerouted to the PSTN or to voice mail. CDR does not capture information about calls that are rerouted to the Internet, because the Internet is treated as an alternate path rather than a secondary option.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2017-03-07_
 
 In a virtual desktop infrastructure (VDI) environment, the virtual machines and the user’s local computer must meet the requirements outlined in this section.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -36,7 +36,7 @@ If you want archiving and monitoring functionality during the migration and coex
 
   - During the time that your legacy and Lync Server 2013 deployments coexist, the Office Communications Server 2007 R2 version of Archiving Server and Monitoring Server gather data for users homed on Office Communications Server 2007 R2 pools. The Lync Server 2013 version of Archiving Server and Monitoring Server gather data for users homed on Lync Server 2013 pools.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

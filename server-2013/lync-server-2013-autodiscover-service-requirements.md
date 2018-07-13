@@ -62,7 +62,7 @@ For example, assume that a mobile client running Lync Mobile is configured to si
     
     In this scenario, there are no certificate changes required to support mobility.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

@@ -62,7 +62,7 @@ Use one of the following procedures to delete an unassigned number range for Ann
     
         Remove-CsUnassignedNumber -Identity "Unassigned range 1"
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

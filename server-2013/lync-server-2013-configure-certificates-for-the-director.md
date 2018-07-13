@@ -26,7 +26,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2012-09-08_
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -66,7 +66,7 @@ Use the following procedure to configure Director certificates. Repeat the proce
 
 11. On the **Subject Name / Subject Alternative Names** page, click **Next**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -87,7 +87,7 @@ Use the following procedure to configure Director certificates. Repeat the proce
 
 17. On the **Certificate Assignment** page, click **Next**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

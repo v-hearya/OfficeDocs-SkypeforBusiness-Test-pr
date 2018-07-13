@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-04-02_
 
 Lync 2013 mobile clients provide enhanced presence, IM, Lync meetings, and voice and video calls over the Internet or the cellular connection. For a matrix that lists the features and capabilities of mobile clients and compares them to the desktop client, see [Mobile client comparison tables for Lync Server 2013](lync-server-2013-mobile-client-comparison-tables.md).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

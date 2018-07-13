@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-22_
 
 Use the following flow chart to determine Domain Name System (DNS) requirements. Changes for the Cumulative Updates for Lync Server 2013: February 2013 are noted where they apply.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -42,7 +42,7 @@ Use the following flow chart to determine Domain Name System (DNS) requirements.
 
 ![175782ac-363e-408a-912f-8991bf152970](images/Gg398758.175782ac-363e-408a-912f-8991bf152970(OCS.15).jpg "175782ac-363e-408a-912f-8991bf152970")
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -90,7 +90,7 @@ When a connection is successful, the Autodiscover Service returns all the Web Se
 
 If the Cumulative Updates for Lync Server 2013: February 2013 has been installed, the Autodiscover Service also returns references to Internal/UCWA, External/UCWA and UCWA. These entries refer to the Unified Communications Web API (UCWA) web component. Currently, only the entry UCWA is used and provides a reference to a URL for the web component. UCWA is used by Lync 2013 Mobile clients instead of the Mcx Mobility Service used by the Lync 2010 Mobile clients.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -100,7 +100,7 @@ If the Cumulative Updates for Lync Server 2013: February 2013 has been installed
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!TIP]
@@ -110,7 +110,7 @@ If the Cumulative Updates for Lync Server 2013: February 2013 has been installed
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -136,7 +136,7 @@ We recommend that you use automatic discovery, rather than manual discovery. How
 
 Split-brain DNS is known by a number of names, for example, split DNS or split-horizon DNS. Simply, it describes a DNS configuration where there are two DNS zones with the same namespace – but one DNS zone services internal-only requests, and the other DNS zone services external-only requests. However, many of the DNS SRV and A records contained in the internal DNS will not be contained in the external DNS, and the reverse is also true. In cases where the same DNS record exists in both the internal and external DNS (for example, www.contoso.com), the IP address returned will be different based on where (internal or external) the query was initiated.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -210,7 +210,7 @@ If automatic configuration is required for clients running Lync, select one of t
 
   - **Group Policy Objects**   Use Group Policy objects (GPOs) to populate the correct server values.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -241,7 +241,7 @@ If automatic configuration is required for clients running Lync, select one of t
         dnscmd . /recordadd pool01.fabrikam.com. @ A 192.168.10.91
         dnscmd . /recordadd pool01.contoso.com. @ AAAA <IPv6 address>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -253,7 +253,7 @@ If automatic configuration is required for clients running Lync, select one of t
 
 For details, see the DMTF blog article, "Communicator Automatic Configuration and Split-Brain DNS," at [http://go.microsoft.com/fwlink/p/?linkId=200707](http://go.microsoft.com/fwlink/p/?linkid=200707).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -390,7 +390,7 @@ For example, if there are three front end servers in a pool named pool01.contoso
 
   - If the client tries all cached entries without a successful connection, the user is notified that no servers running Lync Server 2013 are available at the moment.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

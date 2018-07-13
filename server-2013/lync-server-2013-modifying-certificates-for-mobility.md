@@ -132,7 +132,7 @@ One last thing to keep in mind is that you may have a single Default certificate
         
         Where “Thumbprint” is the thumbprint displayed for the newly issued individual certificates.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

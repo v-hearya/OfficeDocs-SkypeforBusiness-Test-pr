@@ -38,7 +38,7 @@ If a server running one of the following server roles fails, follow the procedur
 
   - Edge Server
 
-<div class="alert">
+<div>
 
 
 > [!TIP]
@@ -54,7 +54,7 @@ If a server running one of the following server roles fails, follow the procedur
 
 1.  Start with a clean or new server that has the same fully qualified domain name (FQDN) as the failed server, install the operating system, and then restore or reenroll the certificates.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

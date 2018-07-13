@@ -46,7 +46,7 @@ In most deployments of Microsoft Lync Server 2013 where call admission control (
 
 6.  In the **Mask** field, enter a numeric value from 1 through 32.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

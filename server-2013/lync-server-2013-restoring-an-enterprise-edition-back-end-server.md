@@ -36,7 +36,7 @@ If you have a mirrored Enterprise Edition Back End and only the mirror or primar
 
 If the Central Management store fails, see [Restoring the server hosting the Central Management store in Lync Server 2013](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md). If an Enterprise Edition member server that is not the Back End Server fails, see [Restoring an Enterprise Edition member server in Lync Server 2013](lync-server-2013-restoring-an-enterprise-edition-member-server.md).
 
-<div class="alert">
+<div>
 
 
 > [!TIP]
@@ -52,7 +52,7 @@ If the Central Management store fails, see [Restoring the server hosting the Cen
 
 1.  Start with a clean or new server that has the same fully qualified domain name (FQDN) as the failed computer, install the operating system, and then restore or reenroll the certificates.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -65,7 +65,7 @@ If the Central Management store fails, see [Restoring the server hosting the Cen
 
 3.  Install SQL Server 2012 or SQL Server 2008 R2, keeping the instance names the same as before the failure.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -86,7 +86,7 @@ If the Central Management store fails, see [Restoring the server hosting the Cen
     
     5.  Follow the **Publish the Topology** wizard. On the **Create databases** page, select the databases that you want to re-create.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -99,7 +99,7 @@ If the Central Management store fails, see [Restoring the server hosting the Cen
     
     7.  Follow the rest of the wizard, and then click **Finish**.
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]

@@ -70,7 +70,7 @@ Deploying DNS load balancing on Front End pools and Director pools requires you 
 
   - To support the FQDN used by DNS load balancing, you must provision DNS to resolve the pool FQDN (such as pool01.contoso.com) to the IP addresses of all the servers in the pool (for example, 192.168.1.1, 192.168.1.2, and so on). You should include only the IP addresses of servers that are currently deployed.
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]
@@ -95,7 +95,7 @@ Using DNS load balancing on your Edge Servers causes a loss of failover ability 
 
   - Instant message exchange with users of public instant messaging (IM) services AOLand Yahoo\!, in addition to XMPP-based providers and servers, such as Google Talk.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

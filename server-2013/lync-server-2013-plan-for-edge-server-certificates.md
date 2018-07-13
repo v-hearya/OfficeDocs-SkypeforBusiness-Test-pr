@@ -34,7 +34,7 @@ Certificate creation for Edge is simplified in Lync Server 2013.
 
 Create a single public certificate, ensure that you have an exportable private key defined for the certificate, and assign it to the following Edge Server external interfaces using the certificate wizard:
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -44,7 +44,7 @@ Create a single public certificate, ensure that you have an exportable private k
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -54,7 +54,7 @@ Create a single public certificate, ensure that you have an exportable private k
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -76,7 +76,7 @@ Create a single internal certificate with exportable private key, copy and assig
 
   - Edge Server (referred to as **Edge Internal** in the certificate wizard)
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

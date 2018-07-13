@@ -52,7 +52,7 @@ Another possible solution is to use IPSec just to help secure the data sent by t
 
   - The SMB Service (TCP/445) from each Front End Server in Pool B to the File Store used by Pool A.
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]

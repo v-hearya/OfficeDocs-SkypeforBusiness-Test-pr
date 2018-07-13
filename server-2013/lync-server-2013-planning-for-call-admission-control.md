@@ -32,7 +32,7 @@ Call admission control (CAC) determines whether there is sufficient network band
 
 This section describes the call admission control functionality and explains how to plan for CAC.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

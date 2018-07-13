@@ -46,7 +46,7 @@ In this example, CAC is applied between the Mediation Server and a PSTN gateway.
 
 This works for both incoming PSTN calls to a client in Network Site 1, and for outgoing PSTN calls originating from a client application in Network Site 1.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -76,7 +76,7 @@ In this example, CAC is applied between the Mediation Server and the PBX/MTP. If
 
 This works for both incoming PSTN calls to a client in Network Site 1, and outgoing PSTN calls originating from a client in Network Site 1.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -102,7 +102,7 @@ In this example, if a Lync client user at Network Site 1 places a call to a user
 
 For calls that originate from the third-party endpoint, the information about that endpoint device is available at the time of session request and CAC check can be performed on both the sides of the Mediation Server.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

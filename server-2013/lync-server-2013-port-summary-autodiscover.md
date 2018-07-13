@@ -34,7 +34,7 @@ The decision about whether to use subject alternative name lists on reverse prox
 
   - **Published on port 443**   The subject alternative name list on certificates used by the external web services publishing rule must contain a `lyncdiscover.<sipdomain>` entry for each SIP domain within your organization.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

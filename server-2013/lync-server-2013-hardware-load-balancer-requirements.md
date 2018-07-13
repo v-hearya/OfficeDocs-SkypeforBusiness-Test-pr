@@ -34,7 +34,7 @@ The Lync Server 2013 scaled consolidated Edge topology is optimized for DNS load
 
   - Connectivity to public IM users
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -44,7 +44,7 @@ The Lync Server 2013 scaled consolidated Edge topology is optimized for DNS load
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -54,7 +54,7 @@ The Lync Server 2013 scaled consolidated Edge topology is optimized for DNS load
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -90,7 +90,7 @@ Following are the hardware load balancer requirements for Edge Servers running t
 
 Cookie-based affinity requirements are greatly reduced in Lync Server 2013 for Web services. If you are deploying Lync Server 2013 and will not retain any Lync Server 2010 Front End Servers or Front End pools, you do not need cookie-based persistence. However, if you will temporarily or permanently retain any Lync Server 2010 Front End Servers or Front End pools, you still use cookie-based persistence as it is deployed and configured for Lync Server 2010.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -116,7 +116,7 @@ For deployments that **will use** cookie-based affinity:
 
   - Hardware load balancer cookie MUST be set in every HTTP response for which the incoming HTTP request did not have a cookie, regardless of whether a previous HTTP response on that same TCP connection had already obtained a cookie. If the load balancer optimizes cookie insert to only occur once per TCP connection, that optimization MUST NOT be used
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -128,7 +128,7 @@ For deployments that **will use** cookie-based affinity:
 
 If you are deploying mobile devices, your hardware load balancer must be able to load balance individual request within a TCP session (in effect, you must be able to load balance an individual request based on the target IP address).
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]
@@ -146,7 +146,7 @@ Following are the hardware load balancer requirements for Director and Front End
 
   - On the firewall between the reverse proxy and the next hop pool’s hardware load balancer, create a rule to allow https: traffic on port 4443, from the reverse proxy to the hardware load balancer. The hardware load balancer must be configured to listen on ports 80, 443, and 4443.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

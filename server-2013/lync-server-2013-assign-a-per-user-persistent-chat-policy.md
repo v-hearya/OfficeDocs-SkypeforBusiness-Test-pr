@@ -54,7 +54,7 @@ You can assign a per-user persistent chat policy with either Lync Server 2013 Co
     
     4.  Depending on the user property you selected, enter the criteria you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
         
-        <div class="alert">
+        <div>
         
 
         > [!TIP]
@@ -67,7 +67,7 @@ You can assign a per-user persistent chat policy with either Lync Server 2013 Co
 
 6.  Click a user in the search results, click **Action**, and then click **Assign policies**.
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]
@@ -78,7 +78,7 @@ You can assign a per-user persistent chat policy with either Lync Server 2013 Co
 
 7.  In **Assign Policies**, under **Persistent Chat policy**, do one of the following:
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -91,7 +91,7 @@ You can assign a per-user persistent chat policy with either Lync Server 2013 Co
     
       - Click the name of a per-user Persistent Chat policy you previously defined on the **Persistent Chat Policy** page.
         
-        <div class="alert">
+        <div>
         
 
         > [!TIP]

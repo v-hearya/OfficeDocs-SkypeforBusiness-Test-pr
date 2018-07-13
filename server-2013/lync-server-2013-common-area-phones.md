@@ -32,7 +32,7 @@ To manage common area phones, you create Active Directory Domain Services contac
 
 Use the topics in this section to learn how to create contact objects for common area phones, modify and delete them, and configure and view configuration information about the common area phones in your deployment.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

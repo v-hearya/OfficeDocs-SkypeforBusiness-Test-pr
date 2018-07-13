@@ -156,7 +156,7 @@ When creating SIP trunk configuration settings using Lync Server Control Panel, 
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

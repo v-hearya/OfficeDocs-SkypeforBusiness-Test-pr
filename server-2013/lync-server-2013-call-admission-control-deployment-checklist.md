@@ -30,7 +30,7 @@ Use the following checklist to verify that you have completed all the necessary 
 
   - If one or more Edge Servers are deployed, each external interface IP address must be added to the subnet list in the network configuration settings, with a bit mask of 32. You should also associate this subnet (IP address) with the network site ID for the geographic location where the A/V Edge service is deployed.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

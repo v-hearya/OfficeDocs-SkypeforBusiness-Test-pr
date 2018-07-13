@@ -62,7 +62,7 @@ The Call Park application uses the following port:
 
   - **Port 5075**   Used for SIP listening requests.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -80,7 +80,7 @@ The Call Park application uses the following port:
 
 The Call Park application supports only Windows Media Audio (.wma) files for music on hold. You can use the Microsoft Expression Encoder 4 to customize files for music on hold. To download Expression Encoder 4, see "Expression Encoder 4" at [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843). Use the tool to convert the file to a .wma format. The recommended format for Call Park music-on-hold files is Media Audio 9, 44 kHz, 16 bits, Mono, CBR, 32 kbps.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

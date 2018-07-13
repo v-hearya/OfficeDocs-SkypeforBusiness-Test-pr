@@ -66,7 +66,7 @@ The supported Enterprise Voice-PBX integration scenarios are as follows:
 
   - Time division multiplexing (TDM) PBX, with a stand-alone PSTN gateway.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

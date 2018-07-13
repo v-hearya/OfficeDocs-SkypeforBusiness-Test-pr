@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2014-02-07_
 
 Holiday settings define the days that a response group is closed for business and specify the action to take on those days. A holiday set is the collection of holidays that apply to a response group.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

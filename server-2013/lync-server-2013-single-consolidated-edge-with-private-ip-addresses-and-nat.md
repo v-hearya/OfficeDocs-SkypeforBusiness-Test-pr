@@ -39,7 +39,7 @@ If your organization requires support for fewer than 15,000 Access Edge service 
 
 The figure does not show Directors, an optional server role deployed in the internal network between the Edge Servers and your Front End pools or server. For details about the topology for Directors, see [Components required for the Director in Lync Server 2013](lync-server-2013-components-required-for-the-director.md). The figure represents a single reverse proxy.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -55,7 +55,7 @@ Typical address types that you will use for IPv6 addressing will be the IPv6 glo
 
 Network address translation technologies (NAT) for IPv6 exist that will allow for NAT IPv6 to IPv4 (commonly referred to as NAT64) and for NAT IPv6 to IPv6 (commonly referred to as NAT66). The existence of NAT technologies means that the five scenarios presented for Lync Server Edge Servers are still valid.
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]
@@ -69,7 +69,7 @@ Network address translation technologies (NAT) for IPv6 exist that will allow fo
 
 ![d9b889c1-587c-4732-9b68-841186ccff78](images/Gg399001.d9b889c1-587c-4732-9b68-841186ccff78(OCS.15).jpg "d9b889c1-587c-4732-9b68-841186ccff78")
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

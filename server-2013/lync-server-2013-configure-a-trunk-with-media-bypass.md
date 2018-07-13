@@ -30,7 +30,7 @@ Follow these steps to configure a trunk with media bypass enabled. To configure 
 
 We strongly recommend that you enable media bypass. However, before you enable media bypass on a SIP trunk, confirm that your qualified SIP trunk provider supports media bypass and is able to accommodate the requirements for successfully enabling the scenario. Specifically, the provider must have the IP addresses of servers in your organization’s internal network. If the provider cannot support this scenario, media bypass will not succeed. For details, see [Planning for media bypass in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) in the Planning documentation.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -64,7 +64,7 @@ A trunk configuration as described below groups a set of parameters that are app
         
           - **Pool trunk:** Choose the name of the trunk that this trunk configuration applies to. This trunk can be the root trunk or any additional trunks defined in Topology Builder. From **Select a Service**, click **OK**. Note that if a trunk configuration has already been created for a specific trunk, the trunk does not appear in **Select a Service**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -75,7 +75,7 @@ A trunk configuration as described below groups a set of parameters that are app
 
 5.  Specify a value in **Maximum early dialogs supported**. This is the maximum number of forked responses a public switched telephone network (PSTN) gateway, IP-PBX, or ITSP Session Border Controller (SBC) can receive to an INVITE that it sent to the Mediation Server. The default value is 20.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -94,7 +94,7 @@ A trunk configuration as described below groups a set of parameters that are app
 
 7.  Select the **Enable media bypass** check box if you want media to bypass the Mediation Server for processing by the trunk peer.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -107,7 +107,7 @@ A trunk configuration as described below groups a set of parameters that are app
 
 9.  If the trunk peer supports receiving SIP REFER requests from the Mediation Server, select the **Enable sending refer to the gateway** check box.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -128,7 +128,7 @@ A trunk configuration as described below groups a set of parameters that are app
         
         2.  In the **Name** field, specify a descriptive name for the record that is unique.
             
-            <div class="alert">
+            <div>
             
 
             > [!NOTE]
@@ -165,7 +165,7 @@ A trunk configuration as described below groups a set of parameters that are app
         
         3.  Click **OK**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -176,7 +176,7 @@ A trunk configuration as described below groups a set of parameters that are app
 
 11. Arrange the PSTN usage records for optimum performance. To change a record’s position in the list, select the PSTN usage record, and click the up or down arrows.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -205,7 +205,7 @@ A trunk configuration as described below groups a set of parameters that are app
     
       - To remove a translation rule from the trunk, highlight the rule name and click **Remove**.
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]
@@ -226,7 +226,7 @@ A trunk configuration as described below groups a set of parameters that are app
     
       - To remove a translation rule from the trunk, highlight the rule name and click **Remove**.
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]
@@ -237,7 +237,7 @@ A trunk configuration as described below groups a set of parameters that are app
 
 18. Make sure that the trunk’s translation rules are arranged in the correct order. To change a rule’s position in the list, highlight the rule name and then click the up or down arrow.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -250,7 +250,7 @@ A trunk configuration as described below groups a set of parameters that are app
 
 20. On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

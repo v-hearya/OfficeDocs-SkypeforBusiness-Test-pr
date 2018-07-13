@@ -44,7 +44,7 @@ The reference topology for small organizations shows how you can deploy a robust
     
       - Your users can exchange instant messages with users of public IM services, including any or all of the following: Windows Live, AOL, Yahoo\!, and Google Talk. A separate license might be required for public IM connectivity with these services.
         
-        <div class="alert">
+        <div>
         
 
         > [!IMPORTANT]

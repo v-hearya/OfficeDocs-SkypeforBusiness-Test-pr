@@ -34,7 +34,7 @@ To implement Archiving, you need to first decide how to meet your organizationâ€
 
   - **Whether to archive internal or external communications**. You can enable archiving for internal communications (communications between internal users), external communications (communications that include at least one user outside your internal network), or both. You can specify these options for your entire organization, or you can specify them for specific sites and pools. By default, neither option is enabled.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -67,7 +67,7 @@ You control Archiving by using the following methods:
 
   - **Archiving policies**. You use one or more Archiving policies to enable and disable archiving of internal and external communications. By default, no archiving is enabled. You enable or disable Archiving for internal communications, external communications, or both in your deployment by using the default global policy. You cannot delete the global policy. You can specify one or more optional site policies to enable or disable Archiving for internal and external communications for specific sites. You can also specify one or more user policies to enable or disable Archiving for specific users and user groups. User-level policies override site policies. Site-level policies override the global-level policies. User-level policies are implemented only for the specific users who are configured to use the policy. Group instant messages and conferences are archived only if a policy for at least one of the participants is configured to enable archiving.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -82,7 +82,7 @@ As part of your requirements analysis, you need to determine how to configure th
 
 If you deploy Archiving for one Front End pool or Standard Edition server, you should then enable it for all other Front End pools and Standard Edition servers in your deployment. You need to do this because users whose communications are required to be archived can be invited to a group IM conversation or meetings hosted on a different pool. If archiving is not enabled on the pool where the conversation or meeting is hosted, all conference data may not be archived. Archiving will still work for archiving enabled users and all IM messages, but conferencing content and events may not be archived.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

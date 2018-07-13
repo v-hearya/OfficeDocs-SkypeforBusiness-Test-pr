@@ -38,7 +38,7 @@ If you have already defined a topology and have established the Central Manageme
 
 If you have not established a Central Management store and want to edit a previously saved configuration, you should choose to open the topology from a local file. The file that you will open would be the configuration file that was saved in a previous session. You can use this option to edit the previously saved topology.
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]

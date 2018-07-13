@@ -38,7 +38,7 @@ You can use client version policies to specify the versions of clients that are 
 
 3.  In the left navigation bar, click **Clients**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

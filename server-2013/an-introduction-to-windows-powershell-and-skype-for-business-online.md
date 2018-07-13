@@ -48,7 +48,7 @@ As you can see, the parameters (that is, EnableApplePushNotificationService and 
 
 In sum, you can use either the admin center or a Windows PowerShell cmdlet and the appropriate parameters to manage push notifications. Both approaches work, and both approaches work equally well.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

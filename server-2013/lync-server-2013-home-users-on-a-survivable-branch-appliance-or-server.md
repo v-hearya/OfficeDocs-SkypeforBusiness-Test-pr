@@ -42,7 +42,7 @@ The process of homing users on a Survivable Branch Appliance or a Survivable Bra
 
 2.  In the Lync Server Management Shell, run the cmdlet **Move-CsUser** to move home users.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -52,7 +52,7 @@ The process of homing users on a Survivable Branch Appliance or a Survivable Bra
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

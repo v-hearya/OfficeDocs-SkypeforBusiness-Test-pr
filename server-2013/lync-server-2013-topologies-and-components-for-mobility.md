@@ -30,7 +30,7 @@ _**Topic Last Modified:** 2013-02-17_
 
 To support Lync mobile applications on mobile devices, Lync Server 2013 provides three services: Lync Server 2013 Mcx Mobility Service, Lync Server 2013 Autodiscover Service, and Lync Server 2013 Push Notification Service. The Cumulative Updates for Lync Server 2013: February 2013 adds a complimentary, but advanced, service for Lync 2013 Mobile clients—mobility support through the use of the Unified Communications Web API, or UCWA. This section briefly describes these components and identifies the Lync Server 2013 topologies that support mobility.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -40,7 +40,7 @@ To support Lync mobile applications on mobile devices, Lync Server 2013 provides
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -58,7 +58,7 @@ The services that support mobility are as follows:
 
   - **Lync Server 2013 Unified Communications Web API (UCWA)**   Provides services for real-time communications with mobile and web clients in Lync Server 2013. When you deploy the Cumulative Updates for Lync Server 2013: February 2013 to the Front End Server and Director, the installation creates a virtual directory in the internal and external web services (Ucwa). A web component that is part of the Ucwa virtual directory accepts calls from UCWA-enabled clients. The client apps communicate over a REST interface for presence, contacts, instant messaging, VoIP, video conferencing, and collaboration. UCWA uses a P-GET based channel to send events, such as an incoming call, incoming instant message, or a message to the client app.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -69,7 +69,7 @@ The services that support mobility are as follows:
 
   - **Lync Server 2013 Mobility Service (Mcx)**   This service supports Lync functionality, such as instant messaging (IM), presence, and contacts, on mobile devices. The Mobility Service is installed on every Front End Server in each pool that is to support Lync functionality on mobile devices. When you install Lync Server 2013, a new virtual directory (Mcx) is created under both the internal website and the external website on your Front End Servers.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -82,7 +82,7 @@ The services that support mobility are as follows:
     
     The Autodiscover Service is installed on every Front End Server and on every Director in each pool that is to support Lync functionality on mobile devices. When you install the Autodiscover Service, a new virtual directory (Autodiscover) is created under both the internal website and the external website, on both Front End Servers and Directors.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -119,7 +119,7 @@ The Edge Server can be a Lync Server 2010 Edge Server.
 
 A Lync Server 2013 deployment without the Cumulative Updates for Lync Server 2013: February 2013 will use the Mcx Mobility Service and can provide services only for Lync 2010 Mobile.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

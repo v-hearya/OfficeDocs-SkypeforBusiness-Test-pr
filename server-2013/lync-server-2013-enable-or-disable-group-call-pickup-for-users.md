@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-22_
 
 When a Group Call Pickup range is added to the call park orbit table, you can enable and disable Group Call Pickup for the user as necessary. This section describes how to use the SEFAUtil resource kit tool to enable and disable Group Call Pickup for users.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

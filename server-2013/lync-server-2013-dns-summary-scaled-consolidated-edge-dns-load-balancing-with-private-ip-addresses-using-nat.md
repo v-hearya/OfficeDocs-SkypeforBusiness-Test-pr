@@ -62,7 +62,7 @@ You can configure two network adapters in each of your Edge Server as follows:
     
     Three private IP addresses are assigned to this network adapter, for example 10.45.16.10 for Access Edge, 10.45.16.20 for Web Conferencing Edge, 10.45.16.30 for AV Edge.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -83,7 +83,7 @@ You can configure two network adapters in each of your Edge Server as follows:
     
     Web conferencing and A/V Edge private IP addresses are additional IP addresses in the **Advanced** section of the properties of **Internet Protocol Version 4 (TCP/IPv4)** and **Internet Protocol Version 6 (TCP/IPv6)** of the **Local Area Connection Properties** in Windows Server.
 
-<div class="alert">
+<div>
 
 
 > [!TIP]
@@ -179,7 +179,7 @@ You can configure two network adapters in each of your Edge Server as follows:
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>SIP Access Edge external interface Required for automatic DNS discovery of your federation to other potential federation partners, and is known as “Allowed SIP Domains” (called enhanced federation in previous releases).Repeat as necessary for all SIP domains with Lync enabled users</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > This SRV record is required for mobility and the push notification clearing house

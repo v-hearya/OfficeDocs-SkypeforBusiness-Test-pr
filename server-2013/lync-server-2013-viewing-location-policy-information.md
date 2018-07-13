@@ -44,7 +44,7 @@ You can configure location policies from the **Network Configuration** group in 
 
 5.  On the **Edit** menu, click **Show details**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

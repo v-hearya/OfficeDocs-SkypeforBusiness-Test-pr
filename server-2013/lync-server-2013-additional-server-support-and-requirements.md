@@ -62,7 +62,7 @@ Lync Server 2013 requires the installation of other software on specific compone
 
   - Microsoft Visual C++ 2012 Redistributable
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

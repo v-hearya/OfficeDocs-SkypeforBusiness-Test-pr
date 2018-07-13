@@ -68,7 +68,7 @@ The Response Group application uses the following ports:
 
   - **Port 8404**   Used for interserver communications
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -77,7 +77,7 @@ The Response Group application uses the following ports:
     
     </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -133,7 +133,7 @@ You can use the Microsoft Expression Encoder 4 to convert a file to the Windows 
 
 The Response Group Configuration Tool supports the combinations of operating systems and web browsers described in the following table.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -193,7 +193,7 @@ The Response Group Configuration Tool supports the combinations of operating sys
 
 The agent console supports the combinations of operating systems and web browsers described in the following table.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

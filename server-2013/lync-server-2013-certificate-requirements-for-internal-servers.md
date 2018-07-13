@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2017-02-17_
 
 Internal servers that are running Lync Server and that require certificates include Standard Edition server, Enterprise Edition Front End Server, Mediation Server, and Director. The following table shows the certificate requirements for these servers. You can use the Lync Server certificate wizard to request these certificates.
 
-<div class="alert">
+<div>
 
 
 > [!TIP]
@@ -48,7 +48,7 @@ The following tables show certificate requirements by server role for Front End 
 
 Note that server enhanced key usage (EKU) is automatically configured when you use the certificate wizard to request certificates.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -58,7 +58,7 @@ Note that server enhanced key usage (EKU) is automatically configured when you u
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

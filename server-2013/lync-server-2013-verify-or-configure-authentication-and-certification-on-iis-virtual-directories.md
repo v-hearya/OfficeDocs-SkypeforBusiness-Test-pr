@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-05-25_
 
 Use the following procedure to configure the certificate on your Internet Information Services (IIS) virtual directories or verify that the certificate is configured correctly. Perform the following procedure on each server running IIS in your internal Lync Server pool and the optional Director.or Director pool servers.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -48,7 +48,7 @@ Use the following procedure to configure the certificate on your Internet Inform
 
 3.  In **Internet Information Services (IIS) Manager**, select **ServerName**. In **Features View**, select **Server Certificates**, right-click and select **Open Feature**.
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]
@@ -75,7 +75,7 @@ Use the following procedure to configure the certificate on your Internet Inform
     
         Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -CA dc01.contoso.net\contoso-DC01-CA -Verbose -DomainName "LyncdiscoverInternal.Contoso.com,Lyncdiscover.Contoso.com"
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]

@@ -30,7 +30,7 @@ To enable or disable Archiving for specific users homed on Lync Server, you must
 
 For details about how Archiving policies work, including the hierarchy for global, site, and user policies, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, in the Deployment documentation, or in the Operations documentation.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

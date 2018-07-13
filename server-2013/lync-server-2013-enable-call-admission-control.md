@@ -66,7 +66,7 @@ For details, see the Lync Server Management Shell documentation for the followin
 
 5.  On the **Edit Global Settings** page, select the **Enable call admission control** check box.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

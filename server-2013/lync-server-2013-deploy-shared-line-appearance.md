@@ -83,7 +83,7 @@ Shared Line Appearance (SLA) is a new feature in Lync Server 2013, Cumulative Up
     
     You can use Set-CsSlaConfiguration to create a new SLA group or modify an existing one.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

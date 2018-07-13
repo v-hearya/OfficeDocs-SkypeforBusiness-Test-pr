@@ -44,7 +44,7 @@ Persistent Chat Server lets users collaborate by posting messages into Persisten
 
 When a message is deleted, you cannot undo the action. However, deleted messages can be restored if there is a backup. If a Persistent Chat Compliance server is enabled, old messages are persisted in the compliance database.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

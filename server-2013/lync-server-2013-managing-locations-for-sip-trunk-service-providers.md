@@ -36,7 +36,7 @@ You populate the Location Information service database with an Emergency Respons
 
   - If the location is approximate because it’s determined by a wireless access point, you can add the word Near (for example, "Near 1st Floor 1234").
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

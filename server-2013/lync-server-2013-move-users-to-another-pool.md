@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2018-02-09_
 
 You can use Lync Server Control Panel to assign users to a specific server or pool.
 
-<div class="alert">
+<div>
 
 
 > [!TIP]
@@ -58,7 +58,7 @@ You can use Lync Server Control Panel to assign users to a specific server or po
 
 8.  (Optional) If the destination server or pool is unavailable, select the **Force** check box.
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]
@@ -87,7 +87,7 @@ You can use Lync Server Control Panel to assign users to a specific server or po
 
 7.  (Optional) If the destination server or pool is unavailable, select the **Force** check box.
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]
@@ -114,7 +114,7 @@ You can use Lync Server Control Panel to assign users to a specific server or po
 
 6.  On the **Action** menu, click **Move all users to pool**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -129,7 +129,7 @@ You can use Lync Server Control Panel to assign users to a specific server or po
 
 9.  (Optional) If the destination server or pool is unavailable, select the **Force** check box.
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]

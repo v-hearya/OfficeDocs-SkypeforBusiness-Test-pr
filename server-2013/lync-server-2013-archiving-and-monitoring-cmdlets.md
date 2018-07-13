@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-04_
 
 The archiving and monitoring cmdlets enable administrators to manage instant message and conference session archiving; to record call detail information; and to monitor Microsoft Lync Server 2013 using Quality of Experience (QoE).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

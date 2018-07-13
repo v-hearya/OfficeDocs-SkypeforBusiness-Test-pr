@@ -42,7 +42,7 @@ Use one of the following procedures to create or modify a call park orbit range.
     
       - To create a new orbit range, click **New**. In **Name**, type an identifying name for this range of numbers.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -55,7 +55,7 @@ Use one of the following procedures to create or modify a call park orbit range.
 
 5.  In the first **Number range** field, type the beginning number of the range of extensions for this call park orbit, and in the second **Number range** field, type the ending number of the range.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

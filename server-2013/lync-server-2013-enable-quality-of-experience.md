@@ -30,7 +30,7 @@ Quality of Experience (QoE) records numeric data that indicates the media qualit
 
 Use the following procedure to enable QoE for your whole organization or each site in your organization.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

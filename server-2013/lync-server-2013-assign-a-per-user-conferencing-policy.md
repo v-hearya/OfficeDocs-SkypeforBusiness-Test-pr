@@ -62,7 +62,7 @@ For details about creating conferencing policies, see [Create or modify a confer
     
     4.  Depending on the user property you selected, enter the criteria you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
         
-        <div class="alert">
+        <div>
         
 
         > [!TIP]
@@ -75,7 +75,7 @@ For details about creating conferencing policies, see [Create or modify a confer
 
 6.  Click a user in the search results, click **Action**, and then click **Assign policies**.
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]
@@ -86,7 +86,7 @@ For details about creating conferencing policies, see [Create or modify a confer
 
 7.  In **Assign Policies**, under **Conferencing policy**, do one of the following:
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -99,7 +99,7 @@ For details about creating conferencing policies, see [Create or modify a confer
     
       - Click the name of a per-user conferencing policy you previously defined on the **Conferencing Policy** page.
         
-        <div class="alert">
+        <div>
         
 
         > [!TIP]

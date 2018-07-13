@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-19_
 
 The topics in this section guide you through the process of migrating from Office Communications Server 2007 R2 to Lync Server 2013
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

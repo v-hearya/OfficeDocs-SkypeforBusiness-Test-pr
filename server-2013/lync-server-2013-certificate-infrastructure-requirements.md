@@ -50,7 +50,7 @@ For Lync Server, the following common requirements apply:
 
   - All certificates must be signed using a signing algorithm supported by the operating system. Lync Server 2013 supports the SHA-1 and SHA-2 suite of digest sizes (224, 256, 384 and 512-bit), and meets or exceeds the operating system requirements. For operating system support, see [http://go.microsoft.com/fwlink/?LinkId=287002](http://go.microsoft.com/fwlink/?linkid=287002).
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

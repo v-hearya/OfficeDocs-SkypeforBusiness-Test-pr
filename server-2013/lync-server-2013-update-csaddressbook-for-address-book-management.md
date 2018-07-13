@@ -32,7 +32,7 @@ Who can run this cmdlet: By default, members of the following groups are authori
 
 The Update-CsAddressBook cmdlet replaces the **abserver.exe –syncNow** command from Office Communications Server. The cmdlet’s purpose is to initiate a synchronization immediately rather than waiting for the scheduled time. The first example command updates all Address Books in the organization. The second updates only the Address Book associated with the defined server.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

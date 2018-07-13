@@ -60,7 +60,7 @@ You can use the **Get-CsKerberosAccountAssignment** cmdlet to query information 
         
             Get-CsKerberosAccountAssignment -Filter "*Redmond"
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]

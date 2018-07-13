@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2014-05-08_
 
 Did your organization deploy Lync Online before it ever deployed Lync Server on-premises? And now you’d like to move user accounts that were originally enabled for Lync in Lync Online to your on-premises Lync Server deployment? This section can help you do that.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

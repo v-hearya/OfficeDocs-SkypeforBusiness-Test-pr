@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-02-21_
 
 After you have finished installing the Lync Server 2013, Planning Tool, you are ready to start the Planning Tool and begin designing the proposed Lync Server 2013 infrastructure.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -56,7 +56,7 @@ After you have finished installing the Lync Server 2013, Planning Tool, you are 
 
 4.  Answer each section by selecting the appropriate criteria for your design, and then click **Next** to proceed to the next Wizard page. Click **Back** to make changes on previous pages.
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]
@@ -69,7 +69,7 @@ After you have finished installing the Lync Server 2013, Planning Tool, you are 
 
 6.  Click **Design Sites** to define your central site.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -86,7 +86,7 @@ After you have finished installing the Lync Server 2013, Planning Tool, you are 
 
 10. Modify the selections for Online Collaboration, Users, Voice, Additional Deployment Options, or Server Applications, as needed.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

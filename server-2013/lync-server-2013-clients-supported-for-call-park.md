@@ -34,7 +34,7 @@ This section identifies the clients that can be used to park calls and the clien
 
 Calls from any IP, private branch exchange (PBX), public switched telephone network (PSTN), or mobile phone can be parked.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -54,7 +54,7 @@ The following clients can use Call Park to park calls:
 
   - Lync Phone Edition
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

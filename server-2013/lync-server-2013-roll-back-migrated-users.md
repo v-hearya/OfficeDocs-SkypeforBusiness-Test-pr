@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-10-07_
 
 If you need to roll back the unified contact store feature, roll back the contacts only if you move the user back to Exchange 2010 or Lync Server 2010. To roll back, disable the policy for the user, and then run the **Invoke-CsUcsRollback** cmdlet. Just running **Invoke-CsUcsRollback** alone is not enough to ensure permanent rollback, because unified contact store migration will be initiated again if the policy is not disabled. For example, if a user is rolled back because Exchange 2013 is rolled back to Exchange 2010, and then the user’s mailbox is moved to Exchange 2013, the unified contact store migration will be initiated again seven days after the rollback, as long as unified contact store is still enabled for the user in the user services policy.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -43,7 +43,7 @@ If you need to roll back the unified contact store feature, roll back the contac
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -58,7 +58,7 @@ If you need to roll back the unified contact store feature, roll back the contac
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -86,7 +86,7 @@ The following procedure describes how to roll back user contacts. If you use the
 
 3.  Before moving a user from Lync Server 2013 to Lync Server 2010, roll back the Buddy List for the specified users on Lync Server.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -103,7 +103,7 @@ The following procedure describes how to roll back user contacts. If you use the
     
         Invoke-CsUcsRollback -Identity "Ken Myer"
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -136,7 +136,7 @@ The following procedure describes how to roll back user contacts. If you use the
     
         Invoke-CsUcsRollback -Identity "Ken Myer"
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

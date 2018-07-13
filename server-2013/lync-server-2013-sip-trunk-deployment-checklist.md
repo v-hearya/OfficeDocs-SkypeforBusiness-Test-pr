@@ -34,7 +34,7 @@ Get the following information for each ITSP gateway that you will connect to:
 
   - Fully qualified domain name (FQDN)
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -60,7 +60,7 @@ To determine whether you need a certificate for SIP trunking, check with your IT
 
 2.  If your ITSP supports Transport Layer Security (TLS), the ITSP must provide you with a certificate.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

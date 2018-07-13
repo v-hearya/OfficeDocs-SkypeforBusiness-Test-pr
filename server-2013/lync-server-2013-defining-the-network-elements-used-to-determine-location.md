@@ -42,7 +42,7 @@ The network elements are listed in order of precedence. If a client can be locat
 
 The following sections provide more details for using each network element.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -68,7 +68,7 @@ This location method assumes that the BSSID of each WAP is static. However, if y
 
 Managed Ethernet switches that support Link Layer Discovery Protocol-Media Endpoint Discover (LLDP-MED) can advertise their identity and port information to LLDP-MED compatible clients, which then can be queried against the location database to provide the location of the device. You can associate ERLs solely on the switch chassis ID, or you can map them down to the port level.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -102,7 +102,7 @@ If the subnet covers too broad an area, you may need to use another mechanism to
 
 To use a client computer's MAC address to locate a caller, you need managed Ethernet switches, and you must deploy a third-party SNMP solution that can discover the MAC addresses of Lync clients connected to (or through) those switches. The SNMP solution continually polls the managed switches to get the current mappings of the endpoint MAC addresses connected to each port and obtains the corresponding port IDs. During a Lync client’s request to the Location Information service, the Location Information service queries the third-party application by using the client’s MAC address, and then returns any matching switch IP addresses and port IDs. The Location Information service uses this information to query its published Layer 2 wiremap for a matching record and returns the location to the client. If you use this option, make sure that the switch port identifiers are consistent between the SNMP application and the published location database records.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

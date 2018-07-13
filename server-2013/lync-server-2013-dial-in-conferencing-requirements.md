@@ -44,7 +44,7 @@ You can deploy a Mediation Server in a central site or in a branch site. In a ce
 
 You can deploy a PSTN gateway in a central site or in a branch site. In a branch site, the PSTN gateway can be stand-alone or a component of the Survivable Branch Appliance.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

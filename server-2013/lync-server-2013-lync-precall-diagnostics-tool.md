@@ -74,7 +74,7 @@ This topic describes the following versions of the tool, available for free down
 
 ## Lync PCD System Requirements
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

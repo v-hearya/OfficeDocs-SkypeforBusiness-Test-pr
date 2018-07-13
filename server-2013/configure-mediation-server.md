@@ -30,7 +30,7 @@ This procedure details the steps to configure the Lync Server 2013 pool to use t
 
 To successfully publish, enable, or disable a topology when adding or removing a server role, you should be logged in as a user who is a member of the RTCUniversalServerAdmins and Domain Admins groups. It is also possible to delegate the proper administrator rights and permissions for adding server roles. For details, see Delegate Setup Permissions in the Standard Edition server or Enterprise Edition server Deployment documentation. For other configuration changes, only membership in the RTCUniversalServerAdmins group is required.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -72,7 +72,7 @@ To successfully publish, enable, or disable a topology when adding or removing a
 
 11. When the **Publishing wizard** completes, click **Finish** to close the wizard.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

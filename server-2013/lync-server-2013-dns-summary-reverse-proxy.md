@@ -75,7 +75,7 @@ You configure two network adapters in your reverse proxy as follows:
 <td><p>webdirext.contoso.com</p></td>
 <td><p>Assigned listener for externally published resources</p></td>
 <td><p>External web services for the Directors or Director pools in your deployment. You can define as many Directors as there are distinct Directors, of which may be associated with other SIP domains.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > Defining the DNS records for and publishing the Directors is not an either the Front End pool or the Director decision. You must define and publish both the Director and the Front End pool external web services if you are using Directors. Specific traffic types (for authentication and other uses) will be sent to the Director first, if it is defined in the topology.

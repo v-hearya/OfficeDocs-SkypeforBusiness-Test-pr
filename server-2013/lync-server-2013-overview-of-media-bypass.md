@@ -50,7 +50,7 @@ When a user receives a call from the PSTN, the user’s client compares its bypa
 
 Only Lync 2010 or above clients and devices support media bypass interactions with a Mediation Server.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

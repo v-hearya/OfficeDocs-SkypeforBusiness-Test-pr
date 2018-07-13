@@ -36,7 +36,7 @@ By default, there are no policies configured to support external user access, in
 
   - **User policy**   You can create and configure one or more user policies to limit support for remote user access to specific users. The configuration in the user policy overrides the global and site policy, but only for the specific users to whom the user policy is assigned. For example, if you enable remote user access in the global policy and site policy, you might specify a user policy that disables remote user access and then assign that user policy to specific users. If you create a user policy, you must apply it to one or more users before it takes effect.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -52,7 +52,7 @@ These options include the following types of external access:
     
     As an option, you can select **Enable communications with XMPP federated partners** if you first select **Enable communications with federated users**. XMPP federation is a federation with organizations that use extensible messaging and presence protocol (XMPP).
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -65,7 +65,7 @@ These options include the following types of external access:
 
   - **Enable communications with public users**   Enable this option if you want internal users to be able to communicate with public IM provider contacts, such as those provided by Windows Live, Yahoo\!, and America Online (AOL).
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -80,7 +80,7 @@ These options include the following types of external access:
     
     </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

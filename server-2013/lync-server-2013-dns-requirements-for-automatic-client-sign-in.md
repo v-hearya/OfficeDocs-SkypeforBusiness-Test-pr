@@ -34,7 +34,7 @@ To support automatic client sign-in, you must:
 
   - Create an internal DNS SRV record to support automatic client sign-in for this server or pool.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -81,7 +81,7 @@ The following table shows some example records required for the fictitious compa
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

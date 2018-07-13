@@ -32,7 +32,7 @@ You should set up and configure the SQL Server cluster before you install and de
 
 When you install SQL Server, you should install SQL Server Management Studio to manage the locations for database and log file locations. SQL Server Management Studio is installed as an optional component when you install SQL Server.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -48,7 +48,7 @@ When you install SQL Server, you should install SQL Server Management Studio to 
 
 1.  After you have completed the installation and configuration of SQL Server clustering, you define the SQL Server store in Topology Builder by using the SQL Server instance virtual cluster name (as configured in the setup for SQL Server clustering) and the instance name of the SQL Server database. Different from a single SQL Server-based server, you will use the virtual node fully qualified domain name (FQDN) for a clustered SQL Server-based server.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -61,7 +61,7 @@ When you install SQL Server, you should install SQL Server Management Studio to 
 
 3.  Ensure that the database folder and log files folder defaults are mapped correctly to the shared disks in the SQL Server cluster by using SQL Server Management Studio. This is a required procedure if you will create databases by using Topology Builder.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -80,7 +80,7 @@ When you install SQL Server, you should install SQL Server Management Studio to 
 
 1.  Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]

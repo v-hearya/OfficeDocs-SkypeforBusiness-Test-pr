@@ -40,7 +40,7 @@ Every region within a call admission control (CAC) configuration must have some 
 
 4.  On the **Region Route** page, click the region route that you want to delete.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

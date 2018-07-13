@@ -34,7 +34,7 @@ To define a location policy for subnets, you must do the following, in any order
 
 For details about network sites, see [Lync Server sites for Lync Server 2013](lync-server-2013-sites.md).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

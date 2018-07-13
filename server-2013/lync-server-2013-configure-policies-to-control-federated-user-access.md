@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2014-02-05_
 
 When you configure policies to support communications with federated partners, the policies apply to users of federated domains. You can configure one or more external user access policies to control whether users of federated domains can collaborate with your Lync Server 2013 users. To control federated user access, you can configure policies at the global, site, and user level. Lync Server policy settings that are applied at one policy level can override settings that are applied at another policy level. Lync Server policy precedence is: User policy (most influence) overrides a Site policy, and then a Site policy overrides a Global policy (least influence). This means that the closer the policy setting is to the object that the policy is affecting, the more influence it has on the object.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -90,7 +90,7 @@ If this is a user policy, you must also apply the policy to users that you want 
     
         Set-CsExternalAccessPolicy -Identity global -EnableFederationAccess $true -EnableXmppAccess $true -EnableOutsideAccess $true -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]

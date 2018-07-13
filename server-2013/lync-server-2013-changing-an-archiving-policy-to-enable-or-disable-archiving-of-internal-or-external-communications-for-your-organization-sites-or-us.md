@@ -36,7 +36,7 @@ You initially set up Archiving policies when you deploy Archiving, but you can c
 
 For details about how policies are implemented, including the hierarchy of policies, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -72,7 +72,7 @@ For details about how policies are implemented, including the hierarchy of polic
 
 6.  Click **Commit**.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
