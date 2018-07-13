@@ -104,6 +104,7 @@ Configure the AffCheck.exe.config file according to the instructions in the conf
 
 **AffCheck.exe.config:**
 
+  ```XML
     <?xml version="1.0" encoding="utf-8" ?>
     <configuration>
       <appSettings>
@@ -136,6 +137,7 @@ Configure the AffCheck.exe.config file according to the instructions in the conf
         <add key="Ignore" value ="DC=uatest,DC=test,DC=contoso,DC=com;DC=test,DC=contoso,DC=com"/>
       </appSettings>
     </configuration>
+  ```
 
 </div>
 
@@ -185,7 +187,7 @@ These parameters define the selection of data:
 <div>
 
 ## Example
-```batch
+```Batch
     C:\Users\Administrator.VDOMAIN>Desktop\PersistentChatMonitoringSummary.exe
     Reading database connection information, Persistent Chat endpoint uri, and csv output path information from the application config file...
     Connecting to Monitoring database with connection string specified in the application config file...
@@ -413,6 +415,7 @@ The following example generates a usage report for the entire year 2001 and plac
 ```
 ChatUsageReport.exe.config:
 
+  ```XML
     <?xml version="1.0" encoding="utf-8" ?>
     <configuration>
       <connectionStrings>
@@ -431,6 +434,7 @@ ChatUsageReport.exe.config:
         <add key="RoomsInactiveSince" value="01/01/0001"/>
       </appSettings>
     </configuration></configuration>
+  ```
 
 </div>
 
