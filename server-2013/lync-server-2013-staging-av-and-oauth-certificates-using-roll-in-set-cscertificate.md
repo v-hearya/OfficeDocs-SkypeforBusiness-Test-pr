@@ -161,8 +161,8 @@ When the effective time is reached (7/21/2012 1:00:00 AM), all new tokens are is
 
 
 [Set up Edge certificates for Lync Server 2013](lync-server-2013-set-up-edge-certificates.md)  
-[Set-CsCertificate](set-cscertificate.md)  
-[Remove-CsCertificate](remove-cscertificate.md)  
+[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)  
+[Remove-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCertificate)  
   
 
 </div>

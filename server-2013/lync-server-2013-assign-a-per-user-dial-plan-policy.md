@@ -8,27 +8,12 @@ ms.date: 07/23/2014
 mtps_version: v=OCS.15
 ---
 
-<div data-xmlns="http://www.w3.org/1999/xhtml">
-
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
-
-<div data-asp="http://msdn2.microsoft.com/asp">
-
 # Assign a per-user dial plan policy in Lync Server 2013
 
-</div>
+ 
 
-<div id="mainSection">
-
-<div id="mainBody">
-
-<span> </span>
-
-_**Topic Last Modified:** 2013-02-22_
 
 To complete user account configuration for either users of Enterprise Voice or users of dial-in conferencing, the user must be assigned a dial plan. User accounts will automatically use the global dial plan or, if one exists, the site-level dial plan when you do not explicitly assign an existing per-user dial plan. If you want to use the global or site dial plan for all users that are enabled for Enterprise Voice, you can skip this section.
-
-<div>
 
 ## To assign a dial plan by using the Lync Server 2013 Control Panel
 
@@ -52,15 +37,9 @@ To complete user account configuration for either users of Enterprise Voice or u
 
 For details about configuring dial plans, see the [Configuring dial plans in Lync Server 2013](lync-server-2013-configuring-dial-plans.md) topic.
 
-</div>
-
-<div>
-
 ## Assign a Per-User Dial Plan by Using Windows PowerShell Cmdlets
 
 You can assign per-user dial plans with Windows PowerShell and the **Grant-CsdialPlan** cmdlet. You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
-
-<div>
 
 ## To assign a per-user dial plan to a single user
 
@@ -68,19 +47,11 @@ You can assign per-user dial plans with Windows PowerShell and the **Grant-Csdia
     
         Grant-CsDialPlan -Identity "Ken Myer" -PolicyName "RedmondDialPlan"
 
-</div>
-
-<div>
-
 ## To assign a per-user dial plan to multiple users
 
-  - This command assigns the per-user dial plan RedmondDialPlan to all the users who work in the city of Redmond. For more information on the LdapFilter parameter used in this command, see the documentation for the [Get-CsUser](get-csuser.md) cmdlet.
+  - This command assigns the per-user dial plan RedmondDialPlan to all the users who work in the city of Redmond. For more information on the LdapFilter parameter used in this command, see the documentation for the [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) cmdlet.
     
         Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
-
-</div>
-
-<div>
 
 ## To unassign a per-user dial plan
 
@@ -88,30 +59,11 @@ You can assign per-user dial plans with Windows PowerShell and the **Grant-Csdia
     
         Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
 
-</div>
-
-For more information, see the help topic for the [Grant-CsDialPlan](grant-csdialplan.md) cmdlet.
-
-</div>
-
-<div>
+For more information, see the help topic for the [Grant-CsDialPlan](https://technet.microsoft.com/en-us/library/gg398547\(v=ocs.15\)) cmdlet.
 
 ## See Also
 
 
 [Configuring dial plans in Lync Server 2013](lync-server-2013-configuring-dial-plans.md)  
-[User accounts enabled for Lync Server 2013](lync-server-2013-user-accounts-enabled-for-lync-server.md)  
-  
-
-</div>
-
-</div>
-
-<span> </span>
-
-</div>
-
-</div>
-
-</div>
+[User accounts enabled for Lync Server 2013](lync-server-2013-user-accounts-enabled-for-lync-server.md)
 

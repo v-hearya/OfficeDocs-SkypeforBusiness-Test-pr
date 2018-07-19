@@ -73,7 +73,7 @@ Device update configuration settings can be created (at the site scope only) by 
 
 </div>
 
-For details about modifying existing device configuration settings, see the Help topic for the [Set-CsDeviceUpdateConfiguration](set-csdeviceupdateconfiguration.md) cmdlet. For details about creating collections of configuration settings, see the Help topic for the [New-CsDeviceUpdateConfiguration](new-csdeviceupdateconfiguration.md) cmdlet.
+For details about modifying existing device configuration settings, see the Help topic for the [Set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsDeviceUpdateConfiguration) cmdlet. For details about creating collections of configuration settings, see the Help topic for the [New-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsDeviceUpdateConfiguration) cmdlet.
 
 </div>
 

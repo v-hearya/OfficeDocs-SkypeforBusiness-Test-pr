@@ -47,7 +47,7 @@ Returns all configurations in all sites and applies the RunTimeOfDay of 23:00 ho
 ## See Also
 
 
-[Get-CsAddressBookConfiguration](get-csaddressbookconfiguration.md)  
+[Get-CsAddressBookConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAddressBookConfiguration)  
   
 
 </div>
