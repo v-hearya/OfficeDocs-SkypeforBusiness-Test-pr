@@ -83,7 +83,7 @@ For detailed parameter descriptions, see [Remove-CsNetworkInterSitePolicy](https
 ## See Also
 
 
-[Call admission control cmdlets in Lync Server 2013](lync-server-2013-call-admission-control-cmdlets.md)  
+[Call admission control cmdlets in Lync Server 2013](https://docs.microsoft.com/en-us/powershell/module/skype/)  
 
 
 [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterSitePolicy)  

@@ -69,8 +69,8 @@ A single policy, called Global, exists by default and cannot be deleted or renam
 
 [New-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsLocationPolicy)  
 [Set-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsLocationPolicy)  
-[Remove-CsLocationPolicy](remove-cslocationpolicy.md)  
-[Get-CsLocationPolicy](get-cslocationpolicy.md)  
+[Remove-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsLocationPolicy)  
+[Get-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsLocationPolicy)  
   
 
 </div>
