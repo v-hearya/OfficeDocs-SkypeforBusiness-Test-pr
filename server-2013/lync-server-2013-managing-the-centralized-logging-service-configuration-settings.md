@@ -65,7 +65,7 @@ The topics in this section define the configuration options, parameters, and set
 
 
 [Overview of the Centralized Logging Service in Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md)  
-[Centralized Logging cmdlets in Lync Server 2013](lync-server-2013-centralized-logging-cmdlets.md)  
+[Centralized Logging cmdlets in Lync Server 2013](https://docs.microsoft.com/en-us/powershell/module/skype/)  
   
 
 </div>
