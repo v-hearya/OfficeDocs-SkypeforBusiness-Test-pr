@@ -38,7 +38,7 @@ To enable Exchange 2013 Outlook Web Access (OWA) and instant messaging (IM) inte
     
         Get-CsSite
     
-    This returns the siteID for the siteName in which you are creating the pool. For details, see [Get-CsSite](get-cssite.md) in the Lync Server 2013 Management Shell documentation.
+    This returns the siteID for the siteName in which you are creating the pool. For details, see [Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite) in the Lync Server 2013 Management Shell documentation.
 
 3.  Run the following cmdlet:
     

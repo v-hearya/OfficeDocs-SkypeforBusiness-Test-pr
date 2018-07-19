@@ -62,7 +62,7 @@ After you have created the new policy you must then assign that policy to any us
 
 After the policy has been assigned Lync Server will begin to migrate the user's contacts to the unified contact store. After migration is complete, the user will then have his or her contacts stored in Exchange rather than Lync Server. If the user happens to be logged on to Lync 2013 at the time migration completes, a message box will appear and he or she will be asked to log off of Lync and then log back on in order to finalize the process. Users who have not been assigned this per-user policy will not have their contacts migrated to the unified contact store. That’s because those users are being managed by the global policy, and use of the unified contact store has been disabled in the global policy.
 
-You can verify that a user's contacts have successfully been migrated to the unified contact store by running the [Test-CsUnifiedContactStore](test-csunifiedcontactstore.md) cmdlet from within the Lync Server Management Shell:
+You can verify that a user's contacts have successfully been migrated to the unified contact store by running the [Test-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUnifiedContactStore) cmdlet from within the Lync Server Management Shell:
 
     Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 

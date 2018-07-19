@@ -32,7 +32,7 @@ Scenarios define the scope (that is, global, site, pool, or computer) and what p
 
 
 > [!IMPORTANT]
-> For any given scope—site, global, pool or computer—you can run a maximum of two scenarios at any given time. To determine which scenarios are currently running, use Windows PowerShell and <A href="get-csclsscenario.md">Get-CsClsScenario</A>. By using Windows PowerShell and <A href="set-csclsscenario.md">Set-CsClsScenario</A>, you can dynamically change which scenarios are running. You can modify which scenarios are running during a logging session to adjust or refine the data you are collecting and from which providers.
+> For any given scope—site, global, pool or computer—you can run a maximum of two scenarios at any given time. To determine which scenarios are currently running, use Windows PowerShell and <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</A>. By using Windows PowerShell and <A href="set-csclsscenario.md">Set-CsClsScenario</A>, you can dynamically change which scenarios are running. You can modify which scenarios are running during a logging session to adjust or refine the data you are collecting and from which providers.
 
 
 

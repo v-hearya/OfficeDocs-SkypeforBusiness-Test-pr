@@ -57,7 +57,7 @@ For example:
 ## See Also
 
 
-[Update-CsAddressBook](update-csaddressbook.md)  
+[Update-CsAddressBook](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsAddressBook)  
   
 
 </div>

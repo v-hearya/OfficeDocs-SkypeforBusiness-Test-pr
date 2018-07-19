@@ -58,7 +58,7 @@ Most management tasks that apply to users and user accounts can be performed fro
 
   - [Debug-CsUnifiedContactStore](debug-csunifiedcontactstore.md)
 
-  - [Test-CsUnifiedContactStore](test-csunifiedcontactstore.md)
+  - [Test-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUnifiedContactStore)
 
 <!-- end list -->
 
@@ -69,7 +69,7 @@ Most management tasks that apply to users and user accounts can be performed fro
     [Enable-CsUser](enable-csuser.md)
 
   - <span></span>  
-    [Get-CsUser](get-csuser.md)
+    [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)
 
   - <span></span>  
     [Move-CsUser](move-csuser.md)
@@ -86,7 +86,7 @@ Most management tasks that apply to users and user accounts can be performed fro
     [Remove-CsUserAcp](remove-csuseracp.md)
 
   - <span></span>  
-    [Set-CsUserAcp](set-csuseracp.md)
+    [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
 
   - <span></span>  
     [Test-CsAudioConferencingProvider](test-csaudioconferencingprovider.md)

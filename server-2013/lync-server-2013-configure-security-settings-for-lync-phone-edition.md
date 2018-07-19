@@ -81,7 +81,7 @@ Security settings can be managed by using Lync Server Management Shell and the *
 
 </div>
 
-For details, see [Get-CsUCPhoneConfiguration](get-csucphoneconfiguration.md).
+For details, see [Get-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUCPhoneConfiguration).
 
 </div>
 

@@ -116,7 +116,7 @@ You can create mobility policies (at the site scope or the per-user scope) by us
 
 </div>
 
-For details, see the Help topic for the [New-CsMobilityPolicy](new-csmobilitypolicy.md) and the [Set-CsMobilityPolicy](set-csmobilitypolicy.md) cmdlets.
+For details, see the Help topic for the [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy) and the [Set-CsMobilityPolicy](set-csmobilitypolicy.md) cmdlets.
 
 </div>
 

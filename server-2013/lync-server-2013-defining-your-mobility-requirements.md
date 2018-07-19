@@ -164,7 +164,7 @@ Here are the decisions that you must consider:
     </tbody>
     </table>
     
-    For a description of the policy settings that you can configure, and how to manage the policies, see [New-CsMobilityPolicy](new-csmobilitypolicy.md), [Set-CsMobilityPolicy](set-csmobilitypolicy.md), [Get-CsMobilityPolicy](get-csmobilitypolicy.md), [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md) and [Remove-CsMobilityPolicy](remove-csmobilitypolicy.md).
+    For a description of the policy settings that you can configure, and how to manage the policies, see [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy), [Set-CsMobilityPolicy](set-csmobilitypolicy.md), [Get-CsMobilityPolicy](get-csmobilitypolicy.md), [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md) and [Remove-CsMobilityPolicy](remove-csmobilitypolicy.md).
 
   - **Do you want users who are not enabled for Enterprise Voice to be able to use Click to Join to join conferences?**
     

@@ -59,7 +59,7 @@ To enable mobile clients to discover the deployment where the user home server i
 ## See Also
 
 
-[Get-CsHostingProvider](get-cshostingprovider.md)  
+[Get-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostingProvider)  
 [Set-CsHostingProvider](set-cshostingprovider.md)  
   
 

@@ -82,7 +82,7 @@ And you can enable a user for unified messaging by using a command similar to th
 
 In the preceding command, the Extensions parameter represents the telephone extension number for the user. In this example, the user has the extension number 100.
 
-After you have enabled his mailbox, the user kenmyer@litwareinc.com should be able to use Exchange unified messaging. You can verify that the user can connect to Exchange UM by running the [Test-CsExUMConnectivity](test-csexumconnectivity.md) cmdlet from within the Lync Server Management Shell:
+After you have enabled his mailbox, the user kenmyer@litwareinc.com should be able to use Exchange unified messaging. You can verify that the user can connect to Exchange UM by running the [Test-CsExUMConnectivity](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMConnectivity) cmdlet from within the Lync Server Management Shell:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     

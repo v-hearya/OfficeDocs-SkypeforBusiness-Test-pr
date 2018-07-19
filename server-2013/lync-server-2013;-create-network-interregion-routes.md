@@ -32,7 +32,7 @@ While region links set bandwidth limitations on the connections between regions,
 
 For details about working with network interregion routes, see the Lync Server Management Shell documentation for the following cmdlets:
 
-  - [New-CsNetworkInterRegionRoute](new-csnetworkinterregionroute.md)
+  - [New-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterRegionRoute)
 
   - [Get-CsNetworkInterRegionRoute](get-csnetworkinterregionroute.md)
 

@@ -80,7 +80,7 @@ After you install the module, you can establish a remote session with the follow
     Import-PSSession $CSSession -AllowClobber
    ```
 
-For more information about how to establish a remote PowerShell session with Skype for Business Online, see [Connecting to Skype for Business Online by using Windows PowerShell](connecting-to-skype-for-business-online-by-using-windows-powershell.md).
+For more information about how to establish a remote PowerShell session with Skype for Business Online, see [Connecting to Skype for Business Online by using Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 For more information about using the Skype for Business Online PowerShell module, see [Using Windows PowerShell to manage Skype for Business Online](skype-for-business-online-using-windows-powershell-to-manage-your-tenant.md).
 

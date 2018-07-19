@@ -111,9 +111,9 @@ Use **New-CsCpsConfiguration** cmdlet or the **Set-CsCpsConfiguration** cmdlet t
 [Customize Call Park music on hold in Lync Server 2013](lync-server-2013-customize-call-park-music-on-hold.md)  
 
 
-[New-CsCpsConfiguration](new-cscpsconfiguration.md)  
+[New-CsCpsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCpsConfiguration)  
 [Set-CsCpsConfiguration](set-cscpsconfiguration.md)  
-[Get-CsSite](get-cssite.md)  
+[Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite)  
   
 
 </div>

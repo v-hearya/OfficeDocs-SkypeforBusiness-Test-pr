@@ -60,7 +60,7 @@ After you have configured Lync Server 2013 to be a partner application for Excha
 
     https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 
-In Lync Server, partner applications are configured by using the [New-CsPartnerApplication](new-cspartnerapplication.md) cmdlet. In addition to specifying the metadata URI you should also set the application trust level to Full; this will allow Exchange to represent both itself and any authorized user in the realm. For example:
+In Lync Server, partner applications are configured by using the [New-CsPartnerApplication](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsPartnerApplication) cmdlet. In addition to specifying the metadata URI you should also set the application trust level to Full; this will allow Exchange to represent both itself and any authorized user in the realm. For example:
 
     New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 

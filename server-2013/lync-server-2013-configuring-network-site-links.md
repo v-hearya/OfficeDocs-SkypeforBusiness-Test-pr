@@ -42,7 +42,7 @@ Within a call admission control (CAC) configuration, you can create network inte
     
     This example creates a new network site link named Reno\_Portland that sets bandwidth limitations between the Reno and Portland network sites. The network sites and the bandwidth policy profile must already exist before running this command.
 
-For detailed parameter descriptions, see [New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md) in the Lync Server Management Shell documentation. To retrieve a list of bandwidth policy profiles that can be applied to the network site link, call the **Get-CsNetworkBandwidthPolicyProfile** cmdlet. For details, see [Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md) in the Lync Server Management Shell documentation.
+For detailed parameter descriptions, see [New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md) in the Lync Server Management Shell documentation. To retrieve a list of bandwidth policy profiles that can be applied to the network site link, call the **Get-CsNetworkBandwidthPolicyProfile** cmdlet. For details, see [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) in the Lync Server Management Shell documentation.
 
 </div>
 
@@ -90,7 +90,7 @@ For detailed parameter descriptions, see [Remove-CsNetworkInterSitePolicy](remov
 [Set-CsNetworkInterSitePolicy](set-csnetworkintersitepolicy.md)  
 [Remove-CsNetworkInterSitePolicy](remove-csnetworkintersitepolicy.md)  
 [Get-CsNetworkInterSitePolicy](get-csnetworkintersitepolicy.md)  
-[Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md)  
+[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
   
 
 </div>
