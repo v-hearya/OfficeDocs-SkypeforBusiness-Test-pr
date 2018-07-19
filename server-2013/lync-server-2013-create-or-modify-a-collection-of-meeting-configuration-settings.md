@@ -137,7 +137,7 @@ Meeting configuration settings can be created (at the site scope only) by using 
 
 </div>
 
-For more information, see the help topic for the [New-CsMeetingConfiguration](new-csmeetingconfiguration.md) cmdlet.
+For more information, see the help topic for the [New-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMeetingConfiguration) cmdlet.
 
 </div>
 

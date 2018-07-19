@@ -32,11 +32,11 @@ For details about working with network region links, see the Lync Server Managem
 
   - [New-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegionLink)
 
-  - [Get-CsNetworkRegionLink](get-csnetworkregionlink.md)
+  - [Get-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)
 
-  - [Set-CsNetworkRegionLink](set-csnetworkregionlink.md)
+  - [Set-CsNetworkRegionLink](href: https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegionLink)
 
-  - [Remove-CsNetworkRegionLink](remove-csnetworkregionlink.md)
+  - [Remove-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkRegionLink)
 
 The example topology has a link between the North America and APAC regions, and a link between the EMEA and APAC regions. Each of these region links is constrained by WAN bandwidth, as described in Region Link Bandwidth Information table in the [Example: Gathering your requirements for call admission control in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) section of the Planning documentation.
 

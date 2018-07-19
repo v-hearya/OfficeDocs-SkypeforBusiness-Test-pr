@@ -162,9 +162,9 @@ Use one of the following procedures to configure unassigned number ranges for th
 [Delete an unassigned number range in Lync Server 2013](lync-server-2013-delete-an-unassigned-number-range.md)  
 
 
-[New-CsUnassignedNumber](new-csunassignednumber.md)  
+[New-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUnassignedNumber)  
 [Set-CsUnassignedNumber](set-csunassignednumber.md)  
-[Get-CsUnassignedNumber](get-csunassignednumber.md)  
+[Get-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUnassignedNumber)  
   
 
 </div>

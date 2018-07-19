@@ -77,7 +77,7 @@ You can view network region links by using Windows PowerShell and the **Get-CsNe
 
 </div>
 
-For details, see [Get-CsNetworkRegionLink](get-csnetworkregionlink.md).
+For details, see [Get-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink).
 
 </div>
 

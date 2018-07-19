@@ -60,7 +60,7 @@ For details, see the Help topics for the [Grant-CsVoicePolicy](https://docs.micr
 ## See Also
 
 
-[Get-CsCommonAreaPhone](get-cscommonareaphone.md)  
+[Get-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCommonAreaPhone)  
   
 
 </div>

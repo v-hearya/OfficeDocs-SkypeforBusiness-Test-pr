@@ -92,7 +92,7 @@ You can delete PIN policies by using Windows PowerShell and the Remove-CsPinPoli
 
 </div>
 
-For more information, see the help topic for the [Remove-CsPinPolicy](remove-cspinpolicy.md) cmdlet.
+For more information, see the help topic for the [Remove-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsPinPolicy) cmdlet.
 
 </div>
 

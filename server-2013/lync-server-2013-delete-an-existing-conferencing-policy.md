@@ -88,7 +88,7 @@ You can delete conferencing policies by using Lync Server Management Shell and t
 
 </div>
 
-For details, see [Remove-CsConferencingPolicy](remove-csconferencingpolicy.md).
+For details, see [Remove-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsConferencingPolicy).
 
 </div>
 

@@ -122,7 +122,7 @@ Use the following procedure to configure the certificate on your Internet Inform
 
 
 [Get-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCertificate)  
-[Set-CsCertificate](set-cscertificate.md)  
+[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)  
   
 
 </div>

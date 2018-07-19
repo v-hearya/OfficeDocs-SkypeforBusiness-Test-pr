@@ -91,7 +91,7 @@ When you recover by creating a new pool with a different FQDN, you need to assig
 
 </div>
 
-You can define only one set of application-level Response Group configuration settings per pool. These settings include the default music-on-hold configuration, the default music-on-hold audio file, the agent ringback grace period, and the call context configuration. To view these configuration settings, run the **Get-CsRgsConfiguration** cmdlet. For details about the **Get-CsRgsConfiguration** cmdlet, see [Get-CsRgsConfiguration](get-csrgsconfiguration.md).
+You can define only one set of application-level Response Group configuration settings per pool. These settings include the default music-on-hold configuration, the default music-on-hold audio file, the agent ringback grace period, and the call context configuration. To view these configuration settings, run the **Get-CsRgsConfiguration** cmdlet. For details about the **Get-CsRgsConfiguration** cmdlet, see [Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration).
 
 You can transfer these application-level settings from one pool to another by using the **Import-CsRgsConfiguration** cmdlet with the –ReplaceExistingSettings parameter, but doing so overrides the settings in the destination pool.
 

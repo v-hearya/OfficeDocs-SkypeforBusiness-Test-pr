@@ -26,7 +26,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2013-02-20_
 
-Move a conferencing device from one Registrar pool to another by using the **Move-CsMeetingRoom** cmdlet. This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.
+Move a conferencing device from one Registrar pool to another by using the **move-csmeetingroom** cmdlet. This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.
 
 <div>
 
@@ -47,11 +47,11 @@ Move a conferencing device from one Registrar pool to another by using the **Mov
 
   - To move a conferencing device, you must specify the identity of the room to be moved, and then set the Target parameter to the fully qualified domain name (FQDN) of the Registrar pool the device will be moved to. For example:
     
-        Move-CsMeetingRoom -Target "atl-cs-001.litwareinc.com" -Identity "Room 14"
+        move-csmeetingroom -Target "atl-cs-001.litwareinc.com" -Identity "Room 14"
 
 </div>
 
-For details, see the Help topic for the [Move-CsMeetingRoom](move-csmeetingroom.md) cmdlet.
+For details, see the Help topic for the [move-csmeetingroom](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsMeetingRoom) cmdlet.
 
 </div>
 

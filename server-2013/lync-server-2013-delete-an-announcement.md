@@ -52,7 +52,7 @@ Use the following procedure to delete an announcement that is used for calls to 
     
 
     > [!NOTE]
-    > For details about more options, see <A href="get-csannouncement.md">Get-CsAnnouncement</A> and <A href="remove-csannouncement.md">Remove-CsAnnouncement</A>.
+    > For details about more options, see <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAnnouncement">Get-CsAnnouncement</A> and <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</A>.
 
     
     </div>
@@ -67,8 +67,8 @@ Use the following procedure to delete an announcement that is used for calls to 
 [Create an announcement in Lync Server 2013](lync-server-2013-create-an-announcement.md)  
 
 
-[Remove-CsAnnouncement](remove-csannouncement.md)  
-[Get-CsAnnouncement](get-csannouncement.md)  
+[Remove-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAnnouncement)  
+[Get-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAnnouncement)  
   
 
 </div>

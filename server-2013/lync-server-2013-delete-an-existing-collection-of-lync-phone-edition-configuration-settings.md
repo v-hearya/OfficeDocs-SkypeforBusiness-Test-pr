@@ -99,7 +99,7 @@ You can delete Lync Phone Edition configuration settings by using Windows PowerS
 
 </div>
 
-For details, see [Remove-CsUCPhoneConfiguration](remove-csucphoneconfiguration.md).
+For details, see [Remove-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUCPhoneConfiguration).
 
 </div>
 

@@ -60,7 +60,7 @@ To enable clients to discover the deployment where the user home server is locat
 
 
 [Get-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostingProvider)  
-[Set-CsHostingProvider](set-cshostingprovider.md)  
+[Set-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostingProvider)  
   
 
 </div>

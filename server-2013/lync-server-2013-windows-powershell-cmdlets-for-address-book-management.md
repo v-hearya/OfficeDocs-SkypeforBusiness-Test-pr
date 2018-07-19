@@ -34,7 +34,7 @@ All of these cmdlets are issued through the Lync Server Management Shell found i
 
 ## In This Section
 
-  - [New-CsAddressBookConfiguration for Address Book management in Lync Server 2013](lync-server-2013-new-csaddressbookconfiguration-for-address-book-management.md)
+  - [new-csaddressbookconfiguration for Address Book management in Lync Server 2013](lync-server-2013-new-csaddressbookconfiguration-for-address-book-management.md)
 
   - [Set-CsAddressBookConfiguration for Address Book management in Lync Server 2013](lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md)
 
@@ -54,7 +54,7 @@ All of these cmdlets are issued through the Lync Server Management Shell found i
 
   - [Get-CsService for Address Book management in Lync Server 2013](lync-server-2013-get-csservice-for-address-book-management.md)
 
-  - [New-CsWebServiceConfiguration for Address Book management in Lync Server 2013](lync-server-2013-new-cswebserviceconfiguration-for-address-book-management.md)
+  - [new-cswebserviceconfiguration for Address Book management in Lync Server 2013](lync-server-2013-new-cswebserviceconfiguration-for-address-book-management.md)
 
   - [Get-CsWebServiceConfiguration for Address Book management in Lync Server 2013](lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md)
 

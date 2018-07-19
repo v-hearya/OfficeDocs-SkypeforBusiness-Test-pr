@@ -67,8 +67,8 @@ A single policy, called Global, exists by default and cannot be deleted or renam
 [Create or modify a network site in Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md)  
 
 
-[New-CsLocationPolicy](new-cslocationpolicy.md)  
-[Set-CsLocationPolicy](set-cslocationpolicy.md)  
+[New-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsLocationPolicy)  
+[Set-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsLocationPolicy)  
 [Remove-CsLocationPolicy](remove-cslocationpolicy.md)  
 [Get-CsLocationPolicy](get-cslocationpolicy.md)  
   

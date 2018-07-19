@@ -3998,7 +3998,7 @@
         href: lync-server-2013-managing-certificates-for-operational-processes.md
         items:
         - name: Staging AV and OAuth certificates using -Roll in Set-CsCertificate
-          href: lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md
+          href: lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate
       - name: Managing server-to-server authentication (OAuth) and partner applications
         href: lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md
         items:
@@ -4188,7 +4188,7 @@
         - name: Windows PowerShell cmdlets for Address Book management
           href: lync-server-2013-windows-powershell-cmdlets-for-address-book-management.md
           items:
-          - name: New-CsAddressBookConfiguration for Address Book management
+          - name: new-csaddressbookconfiguration for Address Book management
             href: lync-server-2013-new-csaddressbookconfiguration-for-address-book-management.md
           - name: Set-CsAddressBookConfiguration for Address Book management
             href: lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md
@@ -4208,7 +4208,7 @@
             href: lync-server-2013-set-csclientpolicy-for-address-book-management.md
           - name: Get-CsService for Address Book management
             href: lync-server-2013-get-csservice-for-address-book-management.md
-          - name: New-CsWebServiceConfiguration for Address Book management
+          - name: new-cswebserviceconfiguration for Address Book management
             href: lync-server-2013-new-cswebserviceconfiguration-for-address-book-management.md
           - name: Get-CsWebServiceConfiguration for Address Book management
             href: lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md
@@ -4833,9 +4833,9 @@
       - name: Changes made by domain preparation
         href: lync-server-2013-changes-made-by-domain-preparation.md
       - name: Changes made by Grant-CsSetupPermission
-        href: lync-server-2013-changes-made-by-grant-cssetuppermission.md
+        href: lync-server-2013-changes-made-by-https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsSetupPermission
       - name: Changes made by Grant-CsOUPermission
-        href: lync-server-2013-changes-made-by-grant-csoupermission.md
+        href: lync-server-2013-changes-made-by-https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsOUPermission
   - name: Lync Server Management Shell
     href: https://docs.microsoft.com/en-us/powershell/module/skype/
   - name: Glossary

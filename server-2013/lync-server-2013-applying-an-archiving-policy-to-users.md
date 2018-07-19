@@ -103,7 +103,7 @@ Per-user archiving policies can be assigned by using Windows PowerShell and the 
 
 </div>
 
-For details, see the [Grant-CsArchivingPolicy](grant-csarchivingpolicy.md) cmdlet documentation.
+For details, see the [Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy) cmdlet documentation.
 
 </div>
 

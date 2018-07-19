@@ -92,7 +92,7 @@ You can create client version configuration settings by using the **New-CsClient
 
 </div>
 
-For details, see the Help topic for the [New-CsClientVersionConfiguration](new-csclientversionconfiguration.md) and [Set-CsClientVersionConfiguration](set-csclientversionconfiguration.md) cmdlets.
+For details, see the Help topic for the [New-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionConfiguration) and [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration) cmdlets.
 
 </div>
 

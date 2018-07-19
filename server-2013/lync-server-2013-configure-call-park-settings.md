@@ -112,7 +112,7 @@ Use **New-CsCpsConfiguration** cmdlet or the **Set-CsCpsConfiguration** cmdlet t
 
 
 [New-CsCpsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCpsConfiguration)  
-[Set-CsCpsConfiguration](set-cscpsconfiguration.md)  
+[Set-CsCpsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCpsConfiguration)  
 [Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite)  
   
 

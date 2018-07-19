@@ -82,7 +82,7 @@ You can delete the Registrar configuration settings by using Windows PowerShell 
 
 </div>
 
-For details, see [Remove-CsProxyConfiguration](remove-csproxyconfiguration.md).
+For details, see [Remove-CsProxyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsProxyConfiguration).
 
 </div>
 

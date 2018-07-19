@@ -101,7 +101,7 @@ Per-user external access policies can be assigned by using Windows PowerShell an
 
 </div>
 
-For more information, see the help topic for the [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md) cmdlet.
+For more information, see the help topic for the [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy) cmdlet.
 
 </div>
 

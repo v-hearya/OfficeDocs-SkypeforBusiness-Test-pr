@@ -91,7 +91,7 @@ For more information about using the Skype for Business Online PowerShell module
 ## See Also
 
 
-[New-CsHostingProvider](new-cshostingprovider.md)  
+[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)  
   
 
 </div>

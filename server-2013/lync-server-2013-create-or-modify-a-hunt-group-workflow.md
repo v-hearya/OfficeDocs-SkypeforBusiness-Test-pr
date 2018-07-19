@@ -346,7 +346,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     
 
     > [!NOTE]
-    > To use an audio file for the prompt, use the <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet. For details, see <A href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</A>.
+    > To use an audio file for the prompt, use the <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet. For details, see <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.
 
     
     </div>
@@ -355,7 +355,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     
         $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
     
-    For details about creating the queue, see [New-CsRgsQueue](new-csrgsqueue.md).
+    For details about creating the queue, see [New-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsQueue).
 
 5.  Define the default action to be taken when a workflow is opened during business hours, and save it in a variable. At the command line, run:
     
@@ -376,7 +376,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
 
 6.  If you want to define business hours and holidays, you need to create them before you create or modify the workflow. For details, see [(Optional) Define Response Group business hours in Lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md) and [(Optional) Define Response Group holiday sets in Lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md).
 
-7.  If you want to have prompts for calls that are received out of business hours or on holidays, use the **New-CsRgsPrompt** cmdlet to define the prompt, and use the **New-CsRgsCallAction** to define the action to be taken after the prompt. For details, see [New-CsRgsPrompt](new-csrgsprompt.md) and [New-CsRgsCallAction](new-csrgscallaction.md).
+7.  If you want to have prompts for calls that are received out of business hours or on holidays, use the **New-CsRgsPrompt** cmdlet to define the prompt, and use the **New-CsRgsCallAction** to define the action to be taken after the prompt. For details, see [New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt) and [New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction).
 
 8.  Retrieve the service name for the Lync Server Response Group service and assign it to a variable. At the command, run:
     
@@ -403,7 +403,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     
 
     > [!NOTE]
-    > For details about additional optional parameters, see <A href="new-csrgsworkflow.md">New-CsRgsWorkflow</A> or <A href="set-csrgsworkflow.md">Set-CsRgsWorkflow</A>
+    > For details about additional optional parameters, see <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow">New-CsRgsWorkflow</A> or <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow">Set-CsRgsWorkflow</A>
 
     
     </div>
@@ -421,10 +421,10 @@ Use one of the following procedures to create or modify a hunt group workflow.
 [(Optional) Define Response Group business hours in Lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md)  
 
 
-[New-CsRgsWorkflow](new-csrgsworkflow.md)  
-[Set-CsRgsWorkflow](set-csrgsworkflow.md)  
-[New-CsRgsPrompt](new-csrgsprompt.md)  
-[New-CsRgsCallAction](new-csrgscallaction.md)  
+[New-CsRgsWorkflow](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow)  
+[Set-CsRgsWorkflow](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow)  
+[New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt)  
+[New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction)  
   
 
 </div>

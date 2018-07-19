@@ -90,7 +90,7 @@ You can enable or disable push notifications for Windows Phone by using the **Se
 
 </div>
 
-For more information, see the help topic for the [Set-CsPushNotificationConfiguration](set-cspushnotificationconfiguration.md) cmdlet.
+For more information, see the help topic for the [Set-CsPushNotificationConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPushNotificationConfiguration) cmdlet.
 
 </div>
 

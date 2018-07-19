@@ -88,7 +88,7 @@ After you have enabled his mailbox, the user kenmyer@litwareinc.com should be ab
     
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-If you have a second user who has been enabled for unified messaging you can use the [Test-CsExUMVoiceMail](test-csexumvoicemail.md) cmdlet to verify that this second user can leave a voicemail message for the first user.
+If you have a second user who has been enabled for unified messaging you can use the [Test-CsExUMVoiceMail](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMVoiceMail) cmdlet to verify that this second user can leave a voicemail message for the first user.
 
     $credential = Get-Credential "litwareinc\pilar"
     
