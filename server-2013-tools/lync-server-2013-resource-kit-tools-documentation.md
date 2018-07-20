@@ -619,6 +619,7 @@ The purpose of the CPS tool is to provide command-line access to the CPS databas
 
 There are no requirements if this tool is run on the same computer that is running CPS. If this tool is run on a remote computer, the SQL Server database used by Lync Server 2013 must be configured to allow remote access. Call Parkometer must be configured with a SQL Server database connection string to connect to the pool’s SQL Server. This SQL Server database connection string is defined in the configuration file, **parkometer.exe.config**. It must be placed in the same directory where parkometer.exe is located. The following XML file is an example of a parkometer.exe.config. The parameters that must be configured are user name (for example, mydomain\\Administrator), password (for example, mypassword), and host name (for example, myserver).
 
+```xml
     <?xml version="1.0" encoding="utf-8" ?>
     <configuration>
       <appSettings>
@@ -629,6 +630,7 @@ There are no requirements if this tool is run on the same computer that is runni
     Integrated Security=false;"/>
       </appSettings>
     </configuration>
+```
 
 </div>
 
