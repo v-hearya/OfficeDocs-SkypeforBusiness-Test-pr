@@ -91,13 +91,13 @@ In each instance, the Lync user must enter the Skype user’s email in the follo
 
 2.  From the list of available contact providers, select **Skype**.
 
-3.  In the **IM Address** field, enter the Microsoft Account (MSA) of the Skype user in the format **user(domain name)@msn.com** . So for user bob@contoso.com, the entry would be **bob(contoso.com)@msn.com** .
+3.  In the **IM Address** field, enter the Microsoft Account (MSA) of the Skype user in the format <strong>user(domain name)@msn.com</strong>. So for user bob@contoso.com, the entry would be <strong>bob(contoso.com)@msn.com<strong> .
 
 4.  In the **Add to contact group** drop-down list box, select a contact group to add the user to.
 
 5.  In the **Set privacy relationship** drop-down list box, select the appropriate contact setting and then click **OK**.
 
-6.  A Lync user can also use the **Find someone or a room, or dial a number** field in Lync, and add an address that resembles the following **user(domain name)@msn.com** . So for the bob@contoso.com Microsoft account, the entry would be **bob(contoso.com)@msn.com** .
+6.  A Lync user can also use the **Find someone or a room, or dial a number** field in Lync, and add an address that resembles the following <strong>user(domain name)@msn.com</strong> . So for the bob@contoso.com Microsoft account, the entry would be <strong>bob(contoso.com)@msn.com</strong> .
 
 7.  Follow steps 4 and 5 earlier in this procedure to add the contact to a contact group and to select the appropriate privacy relationship.
 
