@@ -45,7 +45,7 @@ Every region within a call admission control (CAC) configuration must have some 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This value must be unique within your Microsoft Lync Server 2013 deployment.
 
     
@@ -60,7 +60,7 @@ Every region within a call admission control (CAC) configuration must have some 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Continue to click the <STRONG>Add</STRONG> button to add more links, or select a link and click <STRONG>Remove</STRONG> to remove a link.
 
     

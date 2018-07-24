@@ -62,7 +62,7 @@ To confirm that you have met the correct certificate requirements for your Edge 
 <p>contoso.com</p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > To support the contoso.com XMPP namespace
 
 
@@ -70,7 +70,7 @@ To confirm that you have met the correct certificate requirements for your Edge 
 <p>sip.fabrikam.com</p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > To support the fabrikam.com SIP namespace
 
 
@@ -78,7 +78,7 @@ To confirm that you have met the correct certificate requirements for your Edge 
 <p>fabrikam.com</p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > To support the fabrikam.com XMPP namespace
 
 
@@ -91,7 +91,7 @@ To confirm that you have met the correct certificate requirements for your Edge 
 </ul>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > Technically, a certificate is not assigned to the A/V Edge. Secure communication and authentication is managed by way of the Media Relay Authentication Service (MRAS). MRAS uses the certificate assigned to the Edge Server internal interface.
 
 

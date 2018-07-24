@@ -33,7 +33,7 @@ Windows Live Messenger can participate in audio/video communications with Lync c
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > More than ever, Lync is a powerful tool for connecting across organizations and with individuals around the world. Federation with Windows Live Messenger requires no additional user/device licenses beyond the Lync Standard Client Access License (CAL). Skype federation will be added to this list, enabling Lync users to reach hundreds of millions of people with IM and voice.<BR>Federation with Messenger client contacts will officially end on March 15, 2013, except for mainland China. Skype will become the federation client for federated users who previously used Messenger.
 
 

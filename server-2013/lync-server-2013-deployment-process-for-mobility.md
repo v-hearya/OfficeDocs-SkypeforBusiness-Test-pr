@@ -108,7 +108,7 @@ This section describes the sequence of steps required to deploy the Lync Server 
 <li><p>Use the <strong>Test-CsFederatedPartner</strong> cmdlet to test the federation configuration and the <strong>Test-CsMCXPushNotification</strong> cmdlet to test push notifications.</p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > Push notifications are used for Lync 2010 Mobile clients on Apple devices and Windows Phone<BR>Push notification is required for Lync 2013 Mobile clients on Windows Phone only
 
 

@@ -41,7 +41,7 @@ Verify the following fields in your conferencing policy:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > To enable this capability, a meeting organizer that is not enabled for Enterprise Voice should have an appropriate voice policy assigned to them to authorize any dial-out from a conference organized by that user. A voice policy can be assigned to a user that is not enabled for Enterprise Voice from the Lync Server Management Shell. If the user does not have a voice policy explicitly assigned to him, the site voice policy will be used to authorize the dial-out request. If there is no site voice policy, the global voice policy will be used.&nbsp;
 
     

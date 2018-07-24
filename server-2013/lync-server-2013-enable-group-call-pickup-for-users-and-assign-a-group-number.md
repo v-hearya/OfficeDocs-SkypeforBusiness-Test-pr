@@ -31,7 +31,7 @@ After you add call pickup group numbers to the call park orbit table, you assign
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In a hybrid deployment, do not assign a Group Call Pickup group to users who are homed online. Users who are homed online cannot participate in Group Call Pickup. That is, their calls cannot be answered by other users, and they cannot answer calls to other users.
 
 

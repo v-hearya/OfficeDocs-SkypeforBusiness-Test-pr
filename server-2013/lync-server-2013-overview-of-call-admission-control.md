@@ -55,7 +55,7 @@ Call detail recording (CDR) captures information about calls that are rerouted t
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Voice mail deposits will not be denied because of bandwidth constraints.
 
 

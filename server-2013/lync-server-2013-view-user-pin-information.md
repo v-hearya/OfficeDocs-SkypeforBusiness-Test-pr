@@ -31,7 +31,7 @@ To join a dial-in conference as an authenticated user, a Lync Server 2013 user w
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You can view PIN status information such as whether the PIN has been set or when the PIN was last changed, but you cannot see the current PIN by looking at the PIN status. If a user has lost their PIN, you can reset it by following the procedures in <A href="lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md">Set a user's dial-in conferencing PIN in Lync Server 2013</A>
 
 
@@ -67,7 +67,7 @@ To join a dial-in conference as an authenticated user, a Lync Server 2013 user w
         <div>
         
 
-        > [!TIP]
+        > [!TIP]  
         > To add additional search clauses to your query, click <STRONG>Add Filter</STRONG>.
 
         
@@ -78,7 +78,7 @@ To join a dial-in conference as an authenticated user, a Lync Server 2013 user w
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If the PIN is locked, you must unlock the PIN before you can set it. To unlock the PIN, click the user, click <STRONG>Action</STRONG>, and then click <STRONG>Unlock PIN</STRONG>.
 
     

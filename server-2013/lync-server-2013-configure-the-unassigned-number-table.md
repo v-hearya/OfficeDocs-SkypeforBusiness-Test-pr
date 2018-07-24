@@ -33,7 +33,7 @@ How you configure the unassigned number table depends on how you want to use it.
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Before you configure the unassigned number table, your system must already either have Announcements defined or an Exchange Unified Messaging (UM) Auto Attendant set up.
 
 
@@ -43,7 +43,7 @@ How you configure the unassigned number table depends on how you want to use it.
 <div>
 
 
-> [!TIP]
+> [!TIP]  
 > When someone calls an unassigned number, Lync Server searches the unassigned number table from top to bottom and uses the first matching range. Therefore, an action that you want to be performed as a last resort should be specified for the last range in the table.
 
 

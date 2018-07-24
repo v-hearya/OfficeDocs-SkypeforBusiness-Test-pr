@@ -291,7 +291,7 @@ For more information, see [Set-CsRoutingConfiguration](https://docs.microsoft.co
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > while Location-Based Routing must be enabled via a global configuration, the set of rules to be applied will only be enforced for the sites, users and trunks for which it has been configured as specified in this documentation.
 
 

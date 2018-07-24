@@ -43,7 +43,7 @@ ClsAgent maintains an index file of all .CACHE files that it has on the local ma
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Files that are moved to the file share from the local computer can be searched by ClsAgent. Once ClsAgent moves the files to the file share, the aging and removal of files is not maintained by ClsAgent. You should define an administrative task to monitor the size of the files in the file share and delete them or archive them.
 
 
@@ -65,7 +65,7 @@ When you start a logging session, you specify scenarios that are relative to the
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > By default, the AlwaysOn scenario is not running in your deployment. You must explicitly start the scenario. Once started, it will continue to run until explicitly stopped, and the running state will persist through reboots of the computers. For details on starting and stopping scenarios, see <A href="lync-server-2013-using-start-for-the-centralized-logging-service-to-capture-logs.md">Using Start for the Centralized Logging Service to capture logs in Lync Server 2013</A> and <A href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Using Stop for the Centralized Logging Service in Lync Server 2013</A>.
 
 
@@ -77,7 +77,7 @@ When a problem occurs, start a second scenario that relates to the problem repor
 <div>
 
 
-> [!TIP]
+> [!TIP]  
 > When presented with a problem scenario in Lync Server, start by asking yourself “What do I already know about the problem?” If you quantify the problem boundaries, you can eliminate a large part of the operational entities in Lync Server.<BR>Consider an example scenario where you know that users are not getting current results when looking for a contact. There is no point in looking for problems in the media components, Enterprise Voice, conferencing, and a number of other components. What you may not know is where the problem actually is: on the client, or is this a server-side problem? Contacts are collected from Active Directory by the User Replicator and delivered to the client by way of the Address Book Server (ABServer). The ABServer gets its updates from the RTC database (where User Replicator wrote them) and collects them into address book files, by default – 1:30 AM. The Lync Server clients retrieve the new address book on a randomized schedule. Because you know how the process works, you can reduce your search for the potential cause to an issue related to data being collected from Active Directory by the User Replicator, the ABServer not retrieving and creating the address book files, or the clients not downloading the address book file.
 
 

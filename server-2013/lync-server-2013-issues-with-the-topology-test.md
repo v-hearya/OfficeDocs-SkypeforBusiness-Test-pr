@@ -33,7 +33,7 @@ In addition to verifying the validity of Lync Server as a whole, **Test-CsTopolo
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Depending on the configuration of your Edge Servers and any related perimeter network settings, including firewall settings and permissions, Best Practices Analyzer might not be able to access and scan your Edge Servers. If you include Edge Servers in your scan and the reports indicate that there is an issue accessing Edge Servers, clear the <STRONG>Edge Servers</STRONG> check box and run the scan again to prevent the issue from showing up in reports.
 
 

@@ -41,7 +41,7 @@ The first step in verifying the merge completed successfully is to view the Offi
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You do not see any information in <STRONG>BackCompatSite</STRONG> for server roles that are collocated on a Front End Server or Standard Edition server. Only server roles that are required for interoperability between Office Communications Server 2007 R2 and Lync Server 2013 are shown.
 
     
@@ -70,7 +70,7 @@ To see more detail about a merged pool, use the **Get-CsPool** cmdlet. In additi
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > When you publish the topology after running the Merge wizard in Topology Builder, conference directories are merged to Lync Server 2013. Conference directories can be verified by running the <STRONG>Get-CsConferenceDirectory</STRONG> cmdlet.
 
 

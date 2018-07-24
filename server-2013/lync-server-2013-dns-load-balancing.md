@@ -73,7 +73,7 @@ Deploying DNS load balancing on Front End pools and Director pools requires you 
     <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > If you have more than one Front End pool or Front End Server the external Web services FQDN must be unique. For example, if you define the external Web services FQDN of a Front End Server as <STRONG>pool01.contoso.com</STRONG>, you cannot use <STRONG>pool01.contoso.com</STRONG> for another Front End pool or Front End Server. If you are also deploying Directors, the external Web services FQDN defined for any Director or Director pool must be unique from any other Director or Director pool as well as any Front End pool or Front End Server. If decide to override the Internal web services with a self-defined FQDN, each FQDN must be unique from any other Front End pool, Director or a Director pool.
 
     
@@ -98,7 +98,7 @@ Using DNS load balancing on your Edge Servers causes a loss of failover ability 
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > <UL>
     > <LI>
     > <P>Google Talk is currently the only supported XMPP partner.</P>

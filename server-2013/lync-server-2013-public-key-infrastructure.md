@@ -37,7 +37,7 @@ Each certificate is linked to a public key. The server named on the certificate 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Not all public CAs comply with the requirements of Lync Server 2013 certificates. We recommend that you refer to the listing of certified Public CA vendors for your public certificate needs. For details, see Unified Communications Certificate Partners at <A href="http://go.microsoft.com/fwlink/p/?linkid=140898">http://go.microsoft.com/fwlink/p/?LinkId=140898</A>.
 
 
@@ -61,7 +61,7 @@ Lync Server 2013 requires all server certificates to support Enhanced Key Usage 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The Client Authentication EKU is required for outbound MTLS connections from Live Communications Server 2003 and Live Communications Server 2005, but it is no longer required. However, this EKU must be present on Edge Servers that connect to AOL by means of public IM connectivity.
 
 

@@ -43,7 +43,7 @@ Call admission control (CAC) is a network of regions, sites, and subnets that en
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Only one network can be configured for any Microsoft Lync Server 2013 deployment, so there will never be more than one network configuration in the list. You cannot rename the Global configuration.
 
     

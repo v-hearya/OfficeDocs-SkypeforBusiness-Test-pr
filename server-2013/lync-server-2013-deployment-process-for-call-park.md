@@ -51,7 +51,7 @@ This section provides an overview of the steps involved in deploying the Call Pa
 <td><p>Use Lync Server Control Panel or the <strong>New-CSCallParkOrbit</strong> cmdlet to create the orbit ranges in the call park orbit table and associate them with the Application service that hosts the Call Park application.</p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > For seamless integration with existing dial plans, orbit ranges are typically configured as a block of virtual extensions. Assigning Direct Inward Dialing (DID) numbers as orbit numbers in the call park orbit table is not supported.
 
 
@@ -90,14 +90,14 @@ This section provides an overview of the steps involved in deploying the Call Pa
 <td><p>Use Lync Server Control Panel or the <strong>Set-CSVoicePolicy</strong> cmdlet with the <strong>EnableCallPark</strong> option to enable Call Park for users in voice policy.</p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > By default, Call Park is disabled for all users.
 
 
 </div>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > If you have multiple voice policies, make sure the EnableCallPark property is set for each voice policy, not just for the default policy.
 
 

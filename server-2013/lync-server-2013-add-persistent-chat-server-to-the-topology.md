@@ -41,7 +41,7 @@ To deploy multiple Persistent Chat Server pools, repeat the same process for eac
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can define a topology by using an account that is a member of the local Users group, but to publish a topology, which is required to install a Lync Server 2013 server, you must use an account that is a member of the <STRONG>Domain Admins</STRONG> group and the <STRONG>RTCUniversalServerAdmins</STRONG> group, and that has full control permissions (that is, read, write, and modify) on the file store that you are going to use for the Persistent Chat Server file store (that is, so that Topology Builder can configure the required DACLs), or an account with equivalent rights.
 
     
@@ -56,7 +56,7 @@ To deploy multiple Persistent Chat Server pools, repeat the same process for eac
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If the Persistent Chat Server role is being installed on a Lync Server 2013&nbsp;Standard Edition server, the FQDN needs to match the FQDN of the Standard Edition server.
 
     
@@ -73,7 +73,7 @@ To deploy multiple Persistent Chat Server pools, repeat the same process for eac
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > You can customize the room creation and management features using the Persistent Chat Server Software Development Kit (SDK).<BR>For details about how to configure SQL Server backup databases for disaster recovery, see <A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">Configuring Persistent Chat Server for high availability and disaster recovery in Lync Server 2013</A> in the Deployment documentation.
 
     
@@ -96,7 +96,7 @@ To deploy multiple Persistent Chat Server pools, repeat the same process for eac
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > For details about how to configure SQL Server mirrors for high availability for the Persistent Chat Server database and the Persistent Chat Server compliance database, see <A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">Configuring Persistent Chat Server for high availability and disaster recovery in Lync Server 2013</A> in the Deployment documentation.
 
     
@@ -113,7 +113,7 @@ To deploy multiple Persistent Chat Server pools, repeat the same process for eac
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > You can define the file store in Topology Builder before you create the file store, but you must create the file store in the defined location you define before you publish the topology.
 
     
@@ -128,7 +128,7 @@ To deploy multiple Persistent Chat Server pools, repeat the same process for eac
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > With Topology Builder already open, you can proceed to step 3 in <A href="lync-server-2013-publish-the-updated-topology.md">Publish the updated topology in Lync Server 2013</A> to begin publishing your updated topology.
 
     

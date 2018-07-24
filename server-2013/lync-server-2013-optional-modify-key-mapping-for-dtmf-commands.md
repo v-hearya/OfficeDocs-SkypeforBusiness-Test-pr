@@ -31,7 +31,7 @@ Dial-in conferencing users can press keys on the telephone keypad to perform dua
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details about these cmdlets and the possible DTMF options, see Lync Server Management Shell documentation or Lync Server Management Shell command-line Help.
 
 

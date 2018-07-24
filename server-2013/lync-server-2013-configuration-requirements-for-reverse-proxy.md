@@ -31,7 +31,7 @@ Lync Server 2013 imposes a few requirements on communications from the external 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Lync Server 2013 does not specify a particular reverse proxy that you must use. Lync Server 2013 only defines operational requirements that the reverse proxy must be able to do. Typically, the reverse proxy that you already have deployed in your infrastructure may be able to meet the requirements.
 
 

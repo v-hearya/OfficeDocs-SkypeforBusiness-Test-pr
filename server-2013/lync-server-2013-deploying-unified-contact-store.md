@@ -37,7 +37,7 @@ After a user’s contacts have been migrated, which happens automatically when a
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If a user logs in from Lync 2010 after migration, contacts and groups are available and up-to-date, but the user cannot manage (that is, add, delete, move, tag, untag, or modify) those contacts.
 
 

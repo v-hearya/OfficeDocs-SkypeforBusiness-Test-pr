@@ -31,7 +31,7 @@ Before you begin designing and planning your Lync Server 2013 infrastructure by 
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The Planning Tool requires installation by a user with administrator rights and permissions on the computer on which the tool is to be installed.
 
 

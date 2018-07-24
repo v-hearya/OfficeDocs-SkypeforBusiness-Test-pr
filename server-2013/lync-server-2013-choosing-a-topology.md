@@ -31,7 +31,7 @@ When you choose a topology, you can use one the following supported topology opt
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Unless otherwise noted, if you have experience with Microsoft Lync Server 2010, you will find the guidance here is largely unchanged.
 
 
@@ -51,7 +51,7 @@ When you choose a topology, you can use one the following supported topology opt
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The internal Edge interface and external Edge interface must use the same type of load balancing. You cannot use DNS load balancing on one Edge interface and hardware load balancing on the other Edge interface.
 
 
@@ -123,41 +123,25 @@ Edge failover scenarios supported with DNS Load Balancing are Lync-to-Lync point
 
 **\*** Failover for public instant messaging (IM) connectivity, and federation with servers running Office Communications Server is not available with DNS load balancing. Exchange UM (remote user) failover using DNS load balancing requires Exchange Server 2010 SP1 or newer.
 
-<div>
+> [!NOTE]  
+> Single Edge and Scaled Edge (DNS load balanced) topologies can use:
+> <ul>
+> <li><p>Routable public IP addresses</p></li>
+> <li><p>Non-routable private IP address if symmetric network address translation (NAT) is used</p>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398811.note(OCS.15).gif" title="note" alt="note" />Note:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><br />
-Single Edge and Scaled Edge (DNS load balanced) topologies can use:
-<ul>
-<li><p>Routable public IP addresses</p></li>
-<li><p>Non-routable private IP address if symmetric network address translation (NAT) is used</p>
-<div>
 
-> [!NOTE]
+> [!NOTE]  
 > If you use public IP address or private IP address with NAT, you will still use the same number of IP addresses based on your configuration choice in Topology Builder. You can configure the Edge Server to use a single IP address with distinct ports per service, or use distinct IP addresses per service, but use the same port (by default, TCP 443).
 
 
-</div></li>
+</li>
 </ul>
 If you decide to use non-routable private IP addresses with NAT:
 <ul>
 <li><p>You must use routable private IP addresses on all three external interfaces</p></li>
 <li><p>You must configure symmetric NAT for incoming and outgoing traffic</p></li>
 </ul>
-Scaled Edge (hardware load balanced) topology must use public IP addresses.</td>
-</tr>
-</tbody>
-</table>
+Scaled Edge (hardware load balanced) topology must use public IP addresses.
 
 
 </div>
@@ -257,7 +241,7 @@ The primary decision points for topology selection are high availability and loa
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Topology Builder will allow you to configure up to twenty Edge Servers in a single Edge pool. The tested and supported maximum number of Edge Servers in a pool is twelve and Topology Builder allowing for a number larger than twelve should not be construed as implied support for more than twelve Edge Servers in a single Edge pool.
 
     
@@ -274,7 +258,7 @@ The primary decision points for topology selection are high availability and loa
         <div>
         
 
-        > [!IMPORTANT]
+        > [!IMPORTANT]  
         > DNS load balancing for Exchange 2010 SP1 and newer is supported for Exchange UM.
 
         
@@ -285,7 +269,7 @@ The primary decision points for topology selection are high availability and loa
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Using DNS load balancing is recommended if you are federating with companies using Lync Server 2010 and Microsoft Office 365. Be aware that there are significant performance impacts if most of your federated partners are using Office Communications Server 2007 or Office Communications Server 2007 R2.
 
 

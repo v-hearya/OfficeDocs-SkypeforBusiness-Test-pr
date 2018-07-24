@@ -53,7 +53,7 @@ For Lync Server, the following common requirements apply:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Using the RSASSA-PSS signature algorithm is unsupported, and may lead to errors on login and call forwarding issues, among other problems.
 
     

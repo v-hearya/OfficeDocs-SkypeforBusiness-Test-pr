@@ -59,7 +59,7 @@ If you do not want to use Windows PowerShell you can also use the Certificates M
 <div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > In this case, the procedure must be performed on each Front End Server. When exporting and importing certificates in this manner Lync Server 2013 will not replicate that certificate to each Front End Server.
 
 

@@ -33,7 +33,7 @@ The Lync Server Deployment Wizard guides you through each Active Directory prepa
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > You can deploy Lync Server in a forest or domain where domain controllers run 32-bit versions of some operating systems (for details, see <A href="lync-server-2013-active-directory-infrastructure-requirements.md">Active Directory infrastructure requirements for Lync Server 2013</A>). However, you cannot use the Lync Server Deployment Wizard to run schema, forest, and domain preparation in these environments because the Deployment Wizard and supporting files are 64-bit only. Instead, you can use ldifde.exe and the associated .ldf files on a 32-bit domain controller to prepare the schema, forest and domain. See the section “Using Cmdlets and Ldifde.exe” later in this topic.
 
 
@@ -55,7 +55,7 @@ The following components are required to run Active Directory preparation tasks:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you plan to use Lync Server Management Shell for Active Directory preparation, you must run the Lync Server Deployment Wizard first to install Core components.
 
     
@@ -66,7 +66,7 @@ The following components are required to run Active Directory preparation tasks:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For Windows Server 2012 and Windows Server 2012 R2, you install and activate .NET Framework 4.5 by using Server Manager. For details, see "Microsoft .NET Framework 4.5" in <A href="lync-server-2013-additional-software-requirements.md">Additional software requirements for Lync Server 2013</A>. For Windows Server&nbsp;2008&nbsp;R2, download and install <A href="http://www.microsoft.com/en-us/download/details.aspx?id=30653">.Net Framework 4.5</A> from the Microsoft web site.
 
     
@@ -77,7 +77,7 @@ The following components are required to run Active Directory preparation tasks:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Some RSAT tools are required if you run Active Directory preparation steps on a member server rather than on a domain controller. Install the AD DS snap-ins and command-line tools and the Active Directory Module for Windows PowerShell from the AD DS and AD LDS Tools node in Server Manager.
 
     
@@ -88,7 +88,7 @@ The following components are required to run Active Directory preparation tasks:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Setup prompts you to install this prerequisite if it is not already installed on the computer. The package is supplied for you, and you will not have to acquire it separately.
 
     
@@ -231,7 +231,7 @@ If you use Ldifde.exe to import the schema files, you must import all four files
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The four .ldf files are located in \Support\Schema directory of your installation media or download.
 
 
@@ -249,7 +249,7 @@ For example:
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Use the b parameter only if you are logged in as a different user. For details about the required user rights, see the "Administrator Rights and Roles" section earlier in this topic.
 
 

@@ -56,7 +56,7 @@ The following table specifies DNS requirements for a Lync Server 2013 Front End 
 <li><p>DNS load balancing:   Pool01.contoso.net   IP Address of pool   10.10.10.5</p>
 <div>
 
-> [!WARNING]
+> [!WARNING]  
 > Each Front End Server will also have a distinct A record:
 
 
@@ -92,7 +92,7 @@ The following table specifies DNS requirements for a Lync Server 2013 Front End 
 <td><p>An internal A record with the name ucupdates-r2.&lt;SIP domain&gt; that resolves to the IP address of the Front End pool that hosts the Device Update Web service. In the situation where a UC device is turned on, but a user has never logged into the device, the A record allows the device to discover the Front End pool hosting Device Update Web service and obtain updates. Otherwise, devices obtain this information though in-band provisioning the first time a user logs in.</p>
 <div>
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If you have an existing deployment of Device Update Web service in Lync Server 2010, you have already created an internal A record with the name ucupdates.&lt;SIP domain&gt;. For Microsoft Office Communications Server 2007 R2, you must create an additional DNS A record with the name ucupdates-r2.&lt;SIP domain&gt;.
 
 

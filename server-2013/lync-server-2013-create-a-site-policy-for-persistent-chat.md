@@ -33,7 +33,7 @@ The configuration in the site policy overrides the global policy, but only for t
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > To configure and use Persistent Chat Server, you must first use Topology Builder to add Persistent Chat Server support to the topology, and then publish the topology. For details, see <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Adding Persistent Chat Server to your deployment in Lync Server 2013</A> in the Deployment documentation.<BR>To configure Persistent Chat Server configuration settings, see <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Configure Persistent Chat Server options globally or for Persistent Chat Server pool in Lync Server 2013</A> in the Deployment documentation.
 
 
@@ -53,7 +53,7 @@ The configuration in the site policy overrides the global policy, but only for t
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > You can also use Windows PowerShell cmdlets. For details, see <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuring Persistent Chat Server by using Windows PowerShell cmdlets</A> in the Deployment documentation.
 
     

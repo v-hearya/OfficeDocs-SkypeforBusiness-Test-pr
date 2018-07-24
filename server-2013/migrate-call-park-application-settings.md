@@ -49,7 +49,7 @@ The Call Park application settings include the pickup timeout threshold, enablin
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If your Lync Server 2013 Call Park application settings are identical to the legacy Lync Server 2010 settings, you can skip running this step. If Call Park application settings are different for the Lync Server 2013 and Lync Server 2010 environments, use the cmdlet below as a template to update those changes.
 
     

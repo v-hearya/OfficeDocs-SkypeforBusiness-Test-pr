@@ -49,7 +49,7 @@ In most deployments of Microsoft Lync Server 2013 where call admission control (
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This value is the bitmask that is to be applied to the subnet being created.
 
     

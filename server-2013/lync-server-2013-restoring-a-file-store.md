@@ -37,7 +37,7 @@ File Stores for Standard Edition are typically located on the Standard Edition s
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The path and file name for the restored File Store should be exactly the same as the backed up File Store, so that components that use the files can access them.
 
     
@@ -50,7 +50,7 @@ File Stores for Standard Edition are typically located on the Standard Edition s
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You need to perform this step only if you have not otherwise run Topology Builder during your restoration process.
 
     

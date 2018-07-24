@@ -49,7 +49,7 @@ When you are determining which conferencing capabilities to deploy, you need to 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Enterprise Voice is not required for you to use A/V conferencing. If you enable A/V conferencing, your users can add audio to their conferences if they have audio devices, even if you use a PBX for your telephone solution.
 
     

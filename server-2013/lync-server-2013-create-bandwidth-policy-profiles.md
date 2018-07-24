@@ -53,7 +53,7 @@ The example policies created in the following procedure set limits for overall a
 <div class=" ">
 
 
-> [!NOTE]
+> [!NOTE]  
 > The minimum Audio Session Limit value is 40 kbps. The minimum Video Session Limit value is 100 kbps.
 
 

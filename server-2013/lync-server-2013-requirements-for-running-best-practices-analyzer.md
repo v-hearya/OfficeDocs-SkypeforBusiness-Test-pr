@@ -33,7 +33,7 @@ Prior to starting your scan, you should ensure that all components in your Lync 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Depending on the configuration of your Edge Servers and any related perimeter network settings, including firewall settings and permissions, Best Practices Analyzer might not be able to access and scan your Edge Servers. If you include Edge Servers in your scan and the reports indicate that there is an issue with accessing Edge Servers, you might want to remove Edge Servers from the scan options and run the scan again so that the issues do not show up in the report.
 
 

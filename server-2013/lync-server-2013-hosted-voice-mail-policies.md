@@ -31,7 +31,7 @@ A *hosted voice mail policy* provides information to the Lync Server 2013 ExUM R
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Hosted voice mail policies are required only for Lync Server 2013 integration with hosted Exchange UM. They are not needed for integration with on-premises Exchange UM.
 
 
@@ -53,7 +53,7 @@ Hosted voice mail policy scope determines the hierarchical level at which the po
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In most cases, only one hosted voice mail policy is required. You can often modify the global policy to meet all your needs. If you deploy multiple hosted voice mail policies, all such policies have per-user scope.
 
 
@@ -73,7 +73,7 @@ A voice mail policy defines two attributes that the Lync Server 2013 ExUM Routin
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The FQDN for Exchange Online is exap.um.outlook.com.
 
     
@@ -84,7 +84,7 @@ A voice mail policy defines two attributes that the Lync Server 2013 ExUM Routin
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The tenant administrator of your hosted Exchange UM service will provide the necessary values for your Destination and Organization attribute settings. To configure your policy, you must run the New-CsHostedVoicemailPolicy cmdlet or use the set-cshostedvoicemailpolicy cmdlet to modify one that exists (for example, the global policy).
 
 

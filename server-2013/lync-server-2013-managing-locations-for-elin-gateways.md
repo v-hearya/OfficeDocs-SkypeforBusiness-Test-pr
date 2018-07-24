@@ -39,7 +39,7 @@ For details about how to perform these tasks, see [Configure the location databa
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Locations added to the central location database are not available to the client until they have been published by using a Lync Server Management Shell command and are replicated to the pool's local stores. For details, see <A href="lync-server-2013-publish-the-location-database.md">Publish the location database from Lync Server 2013</A> in the Deployment documentation.
 
 

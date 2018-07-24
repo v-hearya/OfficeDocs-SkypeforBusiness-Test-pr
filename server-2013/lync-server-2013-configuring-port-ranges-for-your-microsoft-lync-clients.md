@@ -31,7 +31,7 @@ By default, Lync client applications can use any port between ports 1024 and 655
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > End users cannot make these changes themselves. Port changes can only be made by administrators using the Set-CsConferencingConfiguration cmdlet.
 
 
@@ -135,7 +135,7 @@ Individual users must log off from Lync and then log back on before these change
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You can also enable client media port ranges, and then assign those port ranges, using a single command. For example:<BR><CODE>Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20</CODE>
 
 

@@ -69,7 +69,7 @@ We recommend that you take an image copy of the system before you start restorat
         <div>
         
 
-        > [!TIP]
+        > [!TIP]  
         > Instead of running Topology Builder, you can use the <STRONG>Install-CsMirrorDatabase</STRONG> cmdlet to configure mirroring. For details, see the Lync Server Management Shell documentation.
 
         

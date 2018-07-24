@@ -31,7 +31,7 @@ When you run Lync Server 2013, Best Practices Analyzer in your Lync Server 2013 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Lync Server 2013, Best Practices Analyzer scans and reports issues only with Lync Server 2013 components. If your deployment includes Microsoft Lync Server 2010 or Office Communications Server 2007 R2 components, use the previous version of Best Practices Analyzer to analyze those components. For details, see <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Requirements for running Best Practices Analyzer in Lync Server 2013</A>.
 
 

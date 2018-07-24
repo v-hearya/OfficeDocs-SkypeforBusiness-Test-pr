@@ -83,7 +83,7 @@ The Persistent Chat compliance database (mgccomp) is not failed over. The conten
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > All the active servers must be located within the same data center as the new primary database, or in a data center that has a low latency/high bandwidth connection to the database.
 
     

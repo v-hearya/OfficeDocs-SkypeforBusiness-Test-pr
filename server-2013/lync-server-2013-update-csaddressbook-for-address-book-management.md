@@ -35,7 +35,7 @@ The Update-CsAddressBook cmdlet replaces the **abserver.exe –syncNow** command
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In Lync Server 2013, Lync Server User Replicator will pick up the changes from Active Directory and update the Lync Server user database based on a configured interval. Lync Server User Replicator will also propagate the changes to the RTCab database quickly without the administrator having to run Update-CSAddressBook. Administrators will only need to run Update -CSAddressBook if the Address Book file download is enabled.
 
 

@@ -73,7 +73,7 @@ You can collocate a file share with the databases, as described later in this se
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In Lync Server 2013, you have the option of integrating Monitoring and Archiving storage with Exchange 2013 storage for some or all users in your deployment. You cannot deploy any servers running Lync Server or components on the same servers as the Exchange storage.
 
 
@@ -83,7 +83,7 @@ You can collocate a file share with the databases, as described later in this se
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Although collocation of databases is supported, the size of the databases can grow quickly. For example, when you consider collocating the Archiving database with other databases, be aware that if you are archiving the messages of more than a few users, the disk space needed by the Archiving database can grow very large. For this reason, we do not recommend collocating multiple databases, especially the Archiving database, Persistent Chat database, and Persistent Chat compliance database with the back-end database of an Enterprise pool.
 
 
@@ -113,7 +113,7 @@ A single file share can be used for multiple Front End pools, Standard Edition s
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In Lync Server 2013, Monitoring and Archiving use the Lync Server file share as the Standard Edition server.
 
 

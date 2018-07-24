@@ -39,7 +39,7 @@ By default, there are no policies configured to support external user access, in
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Lync Server policy settings that are applied at one policy level can override settings that are applied at another policy level. Lync Server policy precedence is: User policy (most influence) overrides a Site policy, and then a Site policy overrides a Global policy (least influence). This means that the closer the policy setting is to the object that the policy is affecting, the more influence it has on the object.
 
 
@@ -55,7 +55,7 @@ These options include the following types of external access:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you enable XMPP federation, you must also select to deploy <STRONG>XMPP federation</STRONG> in the Edge pools configuration section of Topology Builder. Configuring for XMPP federation deploys an XMPP Proxy on the Edge Server and an XMPP gateway on the Front End Server.
 
     
@@ -68,7 +68,7 @@ These options include the following types of external access:
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > <UL>
     > <LI>
     > <P>As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (“PIC USL”) is no longer available for purchase for new or renewing agreements. Customers with active licenses will be able to continue to federate with Yahoo! Messenger until the service shut down date. An end of life date of June 2014 for AOL and Yahoo! has been announced. For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>.</P>
@@ -83,7 +83,7 @@ These options include the following types of external access:
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In addition to enabling external user access support, you must also configure policies to control the use of external user access in your organization before any type of external user access is available to users. For details about creating, configuring, and applying policies for external user access see <A href="lync-server-2013-enable-or-disable-remote-user-access.md">Enable or disable remote user access in Lync Server 2013</A>.
 
 

@@ -57,7 +57,7 @@ You can lock or unlock a user’s PIN from the **Users** section of Lync Server 
         <div>
         
 
-        > [!TIP]
+        > [!TIP]  
         > To add additional search clauses to your query, click <STRONG>Add Filter</STRONG>.
 
         
@@ -98,7 +98,7 @@ You can lock or unlock a user’s PIN from the **Users** section of Lync Server 
         <div>
         
 
-        > [!TIP]
+        > [!TIP]  
         > To add additional search clauses to your query, click <STRONG>Add Filter</STRONG>.
 
         

@@ -31,7 +31,7 @@ After you have set up the hardware and system infrastructure, you need to instal
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > This section describes installation of operating systems and prerequisite software for internal servers. If you are deploying Edge Servers to support external user access, you also need to install operating systems and prerequisite software for those servers, including Edge Servers and reverse proxy servers. For details about preparing servers to support external user access, see <A href="lync-server-2013-preparing-for-installation-of-servers-in-the-perimeter-network.md">Preparing for installation of servers in the perimeter network for Lync Server 2013</A> in the Deployment documentation.
 
 
@@ -51,7 +51,7 @@ On each server that you are deploying, install the appropriate Windows operating
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you are installing Lync Server 2013 on Windows Server&nbsp;2008&nbsp;R2 with SP1, you must first install the update described in the Microsoft Knowledge Based article 2646886, “FIX: Heap corruption occurs when a module calls the InsertEntityBody method in IIS 7.5”, at <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2646886">http://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2646886</A>.<BR>You must also modify the registry as described in the KB article, <A href="http://go.microsoft.com/fwlink/p/?linkid=506893">Event IDs 32402, 61045 are logged in Lync Server 2013 Front End servers that are installed in Windows Server 2012 R2</A>.
 
 
@@ -89,7 +89,7 @@ Lync Server 2013 requires the installation of the following additional software 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Lync Server 2013 automatically installs Microsoft SQL Server 2012 Express on each Standard Edition server and each server running Lync Server 2013 on which the local configuration store is located.
 
     
@@ -100,7 +100,7 @@ Lync Server 2013 requires the installation of the following additional software 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For Windows Server 2012 and Windows Server 2012 R2 the Windows Media Format Runtime installs with Microsoft Media Foundation.
 
     
@@ -109,7 +109,7 @@ Lync Server 2013 requires the installation of the following additional software 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For Windows Server&nbsp;2008 and Windows Server&nbsp;2008&nbsp;R2 the Windows Media Format Runtime installs as part of the Windows Desktop Experience. It is recommended that you install Windows Desktop Experience before you install Lync Server 2013. If Lync Server 2013 does not find this software on the server, it will prompt you to install it, and then you must restart the server to complete installation.
 
     

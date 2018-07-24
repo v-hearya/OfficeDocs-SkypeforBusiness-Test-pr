@@ -35,7 +35,7 @@ When you create workflows, there are two possible scenarios:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > When you want to create a managed workflow, you need to create the workflow as active. After you save an active, managed workflow, you can then modify and deactivate the workflow.
 
     

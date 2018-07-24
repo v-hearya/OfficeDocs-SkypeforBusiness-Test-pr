@@ -55,7 +55,7 @@ The DNS records can be either A (host) records or CNAME records, based on your a
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > This domain is the Active Directory domain where your Lync Server 2013&nbsp;Director pool and Front End pool are installed.
 
         
@@ -80,7 +80,7 @@ The DNS records can be either A (host) records or CNAME records, based on your a
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you are creating an external DNS record, <STRONG>Forward Lookup Zones</STRONG> is already expanded for your SIP domain from step 3.
 
     
@@ -103,7 +103,7 @@ The DNS records can be either A (host) records or CNAME records, based on your a
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you do not use a Director, use the internal and external Web Services FQDN for the Front End pool, or, for a single server, the FQDN for the Front End Server or Standard Edition server.
 
     
@@ -112,7 +112,7 @@ The DNS records can be either A (host) records or CNAME records, based on your a
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > You must create a new Autodiscover CNAME record in the forward lookup zone of each SIP domain that you support in your Lync Server 2013 environment.
 
     
@@ -139,7 +139,7 @@ The DNS records can be either A (host) records or CNAME records, based on your a
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > This domain is the Active Directory domain where your Lync Server 2013&nbsp;Director pool and Front End pool are installed.
 
         
@@ -164,7 +164,7 @@ The DNS records can be either A (host) records or CNAME records, based on your a
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you are creating an external DNS record, <STRONG>Forward Lookup Zones</STRONG> is already expanded for your SIP domain from step 3.
 
     
@@ -181,7 +181,7 @@ The DNS records can be either A (host) records or CNAME records, based on your a
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The domain name is assumed from the zone in which the record is defined and, therefore, does not need to be entered as part of the A record.
 
     
@@ -194,7 +194,7 @@ The DNS records can be either A (host) records or CNAME records, based on your a
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > If you do not use a Director, type the IP address of the Front End Server or Standard Edition server, or, if you use a load balancer, type the VIP of the Front End pool load balancer.
 
         
@@ -209,7 +209,7 @@ The DNS records can be either A (host) records or CNAME records, based on your a
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > You must create a new lyncdiscover and lyncdiscoverinternal A records in the forward lookup zone of each SIP domain that you support in your Lync Server 2013 environment.
 
     

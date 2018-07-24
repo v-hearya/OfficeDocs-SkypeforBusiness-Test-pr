@@ -81,7 +81,7 @@ The example topology has a link between the North America and APAC regions, and 
     <div class=" ">
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Apply a bandwidth policy only if the network region link is bandwidth-constrained and you want to use CAC to control media traffic on that link.
 
     

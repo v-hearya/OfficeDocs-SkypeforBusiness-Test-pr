@@ -33,7 +33,7 @@ The following table describes the Call Park user model that you can use as the b
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Keep in mind that, for disaster recovery capacity planning, each pool of a paired pool should be able to handle the workloads for Call Park services in both pools.
 
 

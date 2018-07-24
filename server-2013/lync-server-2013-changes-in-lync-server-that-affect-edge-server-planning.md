@@ -47,7 +47,7 @@ Edge Server introduces a fully integrated XMPP proxy (deployed on the Edge Serve
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Currently, the XMPP services in Edge Server only provide IM and presence between Lync Server clients and XMPP-based contacts. Additionally, XMPP is hosted in only one site.
 
 
@@ -57,7 +57,7 @@ Edge Server introduces a fully integrated XMPP proxy (deployed on the Edge Serve
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The XMPP capability of Lync Server 2013 is tested and supported by Microsoft for instant messaging federation with Google Talk. For any other XMPP systems contact the third-party vendor to verify that they support federation with Lync Server 2013, and for any deployment or troubleshooting recommendations.
 
 
@@ -89,7 +89,7 @@ In previous versions of Lync Server and Office Communications Server, cookie-bas
 <div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > The Microsoft Lync 2010 Mobile client must still use cookie-based affinity and will require configuration of cookie-based affinity until you have migrated all clients to the upcoming Microsoft Lync Mobile client (Date of release not yet determined).
 
 
@@ -117,7 +117,7 @@ Introduced in the cumulative update for Lync Server 2010: November 2011, mobilit
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The mobility services use the reverse proxy and published services that are deployed on your Front End Servers. No changes are required to Edge Servers. Minimally you need outbound SIP/TCP/5061from the server running the Lync Server Access Edge service.
 
 

@@ -43,7 +43,7 @@ To install the WMI Backward Compatibility Package
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > OCSWMIBC.msi must be installed on the computer where the Topology Builder Merge wizard is run. However, we recommend installing OCSWMIBC.msi on all Front End servers in your topology.
 
     
@@ -52,7 +52,7 @@ To install the WMI Backward Compatibility Package
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > OCSWMIBC.msi can be installed on any computer in the domain that has the Lync Server 2013 Core Components and the Lync Server 2013 Management Shell installed, and has access to the Office Communications Server 2007 R2 topology (WMI provider to Active Directory Domain Services (AD DS) and SQL Server).
 
     

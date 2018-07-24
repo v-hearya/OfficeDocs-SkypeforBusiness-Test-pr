@@ -89,7 +89,7 @@ Use the registry settings in the following table to add a command to the menus. 
 <td><p>0 = Executable (default)</p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > Requires ApplicationInstallPath.
 
 
@@ -102,7 +102,7 @@ Use the registry settings in the following table to add a command to the menus. 
 <td><p>Full path of the executable.</p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > Must be specified if ApplicationType is 0 (Executable).
 
 

@@ -43,7 +43,7 @@ Every region within a call admission control (CAC) configuration must have some 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can delete more than one region route at a time. To do this, press CTRL and select multiple region routes while holding down the CTRL key. Or, to select all region routes, click <STRONG>Select all</STRONG> on the <STRONG>Edit</STRONG> menu.
 
     

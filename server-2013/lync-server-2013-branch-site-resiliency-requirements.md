@@ -57,7 +57,7 @@ We recommend that you create a separate user-level Voice over Internet Protocol 
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > When you create a branch office backup route, we recommend that you add two PSTN phone usage records to the branch office user policy and assign separate routes to each one. The first, or primary, route would direct calls to the gateway associated with the Survivable Branch Appliance (SBA) or branch server; the second, or backup, route would direct calls to the gateway at the central site. In directing calls, the SBA or branch server will attempt all routes assigned to the first PSTN usage record before attempting the second usage record.
 
 
@@ -69,7 +69,7 @@ To help ensure that inbound calls to branch site users will reach those users wh
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > To account for the consumption of central site resources by any branch site users that rely on the central site for presence, conferencing, or failover, we recommend that you consider each branch site user as if the user were registered with the central site. There are currently no limits on the number of branch site users, including users registered with a Survivable Branch Appliance.
 
 
@@ -233,7 +233,7 @@ If the enterprise DNS servers are located only in central sites, branch site use
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > It is not necessary to have a domain controller at a branch site. The Survivable Branch Appliance authenticates clients by using a special certificate that it sends the client in response to the client’s certificate request when it signs in.
 
 

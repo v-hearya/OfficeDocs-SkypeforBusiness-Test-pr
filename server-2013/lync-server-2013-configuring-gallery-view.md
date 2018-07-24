@@ -33,7 +33,7 @@ When a conference participant's video is not available, the users' Gallery View 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The content of each blog and its URL are subject to change without notice.
 
 

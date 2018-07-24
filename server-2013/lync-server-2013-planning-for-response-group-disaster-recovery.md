@@ -37,7 +37,7 @@ Keep the following in mind when you prepare for and carry out disaster recovery 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In a coexistence environment, only the Lync Server 2013 response groups are supported for the disaster recovery procedures described in this document.
 
 
@@ -59,7 +59,7 @@ Keep the following in mind when you prepare for and carry out disaster recovery 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The Response Group application cannot reach any agents homed in an inactive pool until failover is complete. During this time, the Response Group application processes calls as if those agents are unavailable.
 
     
@@ -84,7 +84,7 @@ When you recover by creating a new pool with a different FQDN, you need to assig
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You also need to use the –OverwriteOwner parameter if you rebuilt the pool during the recovery (that is, the Response Group database is empty), whether or not you use the same FQDN. You do not need to use the –OverwriteOwner parameter if you did not rebuild the pool, but it is permissible to use this parameter whenever you import response groups back to the primary pool.
 
 
@@ -98,7 +98,7 @@ You can transfer these application-level settings from one pool to another by us
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > This constraint about transferring settings to another pool is true only for the application-level settings and the default music-on-hold audio file. It does not apply to agent groups, queues, workflows, business hours, and holiday sets.
 
 
@@ -140,7 +140,7 @@ For details about performing these steps, see [Response group disaster recovery 
 <td><p>Run the <strong>Import-CsRgsConfiguration</strong> cmdlet to import the backed up Lync Server Response Group service configuration from the primary pool to the backup pool.</p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > Use the –ReplaceExistingSettings parameter if you want to replace application-level Response Group settings in the backup pool with the settings from the primary pool. If you do not transfer the application-level settings from the primary pool to the backup pool, and the primary pool can't be recovered, you will lose the settings from the primary pool.
 
 
@@ -153,7 +153,7 @@ For details about performing these steps, see [Response group disaster recovery 
 <td><p>Run Response Group cmdlets with either the –ShowAll parameter (to display all response groups) or the –Owner parameter (to display only imported response groups) to verify that all response group configurations were imported to the backup pool.</p>
 <div>
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If you do not use either the –ShowAll parameter or the –Owner parameter, the response groups that you imported to the backup pool will not be listed in the results returned by the cmdlets.
 
 
@@ -178,7 +178,7 @@ For details about performing these steps, see [Response group disaster recovery 
 <p>Response groups in the backup pool, whether imported to the backup pool or owned by the backup pool, can be modified as usual during the outage.</p>
 <div>
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > You must use Lync Server Management Shell to manage the response groups that you imported to the backup pool. You cannot use Lync Server Control Panel to manage these response groups while they are in the backup pool.
 
 
@@ -198,7 +198,7 @@ For details about performing these steps, see [Response group disaster recovery 
 <li><p>Run the <strong>Import-CsRgsConfiguration</strong> cmdlet to import the response groups back to the primary pool.</p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > If the primary pool can't be recovered and you deploy a new pool to replace it, use the –ReplaceExistingSettings parameter to transfer the application-level settings from the backup pool to the new pool. If you do not transfer the settings from the backup pool, the new pool will use the default settings.
 
 

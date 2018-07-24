@@ -31,7 +31,7 @@ You can use the following procedure to disable a previously enabled user account
 <div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > Simply disabling a user account in Active Directory <STRONG>will not</STRONG> stop a user from being able to sign into or use Lync Server. This is because Lync uses certificate authentication that streamlines the authentication process, and these client certificates are valid for 180 days. If you want to stop disabled Active Directory accounts that had been enabled for Lync from having access to Lync Server, you must use the <STRONG>Disable-CsUser</STRONG> cmdlet, or use the <STRONG>Lync Server Control Panel</STRONG> as laid out in this article. Once the user is disabled in Lync and the Central Management store has been replicated in the environment the users will no longer be able to sign in. Also, users that are signed in will get disconnected.
 
 

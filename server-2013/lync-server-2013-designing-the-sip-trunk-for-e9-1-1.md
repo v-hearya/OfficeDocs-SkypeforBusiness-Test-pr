@@ -31,7 +31,7 @@ Lync Server uses SIP trunks to connect an emergency call to the E9-1-1 service p
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > There are two ways to implement a SIP trunk in a Lync Server environment: 
 > <UL>
 > <LI>

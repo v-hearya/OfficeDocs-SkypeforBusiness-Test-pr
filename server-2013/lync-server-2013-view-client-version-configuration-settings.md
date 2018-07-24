@@ -31,7 +31,7 @@ Client version configuration settings are used to turn client version control on
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Because anonymous users are not associated with a user, site, or service, anonymous users are affected by global-level policies only.
 
 

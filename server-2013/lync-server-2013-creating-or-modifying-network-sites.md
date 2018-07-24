@@ -45,7 +45,7 @@ Network sites are the offices or locations configured within each region of a ca
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Site names must be unique within the Lync Server 2013 deployment.
 
     
@@ -58,7 +58,7 @@ Network sites are the offices or locations configured within each region of a ca
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can view the details of the available bandwidth policy profiles, or create a new bandwidth policy profile, on the <STRONG>Policy Profile</STRONG> page of the <STRONG>Network Configuration</STRONG> group. For details, see <A href="lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md">Creating or modifying bandwidth policy profiles in Lync Server 2013</A>.
 
     
@@ -69,7 +69,7 @@ Network sites are the offices or locations configured within each region of a ca
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The location policy assigns specific Enhanced 9-1-1 (E9-1-1) and client location settings to the site. You can view the details of the available location policies, or create a new location policy, from the <STRONG>Location Policy</STRONG> page of the <STRONG>Network Configuration</STRONG> group. For details, see <A href="lync-server-2013-viewing-location-policy-information.md">Viewing location policy information in Lync Server 2013</A>.
 
     
@@ -82,7 +82,7 @@ Network sites are the offices or locations configured within each region of a ca
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You do not use the <STRONG>Associated Subnets</STRONG> table when you create a new network site. You associate a subnet with a site when you create or modify the subnet. For details, see <A href="lync-server-2013-create-or-modify-network-subnets.md">Create or modify network subnets in Lync Server 2013</A>.
 
     
@@ -127,7 +127,7 @@ You cannot modify the **Associated Subnets** table on this page. The list of ass
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can delete more than one site at a time. To do this, press CTRL and select multiple sites while holding down the CTRL key. Or, to select all sites, click <STRONG>Select all</STRONG> on the <STRONG>Edit</STRONG> menu.
 
     
@@ -140,7 +140,7 @@ You cannot modify the **Associated Subnets** table on this page. The list of ass
     <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > You cannot remove a network site if it is associated with a network subnet. If you attempt to remove a site associated with a subnet you will receive an error message. To see if a site is associated with any subnets, click the site and then click <STRONG>Show details</STRONG> on the <STRONG>Edit</STRONG> menu.
 
     

@@ -31,7 +31,7 @@ In Microsoft Lync Server 2013 communications software, you can run the Microsof
 <div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > If you have used previous versions of the Planning Tool, you may have used the tool to create your topology and the exported the topology document for use in Topology Builder to publish your topology. The ability to export the topology was removed from Planning Tool. Using a previous version of the Planning Tool to create a topology document for Lync Server 2013 is strongly discouraged, and will produce unexpected results.
 
 

@@ -31,7 +31,7 @@ The Centralized Logging Service is controlled and configured by settings and par
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Not all Windows PowerShell cmdlets listed for the Centralized Logging Service are intended for use with Lync Server 2013 on-premises deployments. Although they may appear to work, the following cmdlets are not designed to function with Lync Server 2013 on-premises deployments: 
 > <UL>
 > <LI>

@@ -31,7 +31,7 @@ A Lync Server 2013 dial plan is a named set of normalization rules that translat
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details, see <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Dial plans and normalization rules in Lync Server 2013</A> in the Planning documentation.
 
 

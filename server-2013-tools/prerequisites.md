@@ -65,7 +65,7 @@ Your client computer must meet the following software requirements:
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Microsoft Unified Communications Managed API (UCMA) 4.0 libraries are included in the installation package, so UCMA is not required and should not be installed on client computers.
 
 

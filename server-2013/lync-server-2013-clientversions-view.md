@@ -31,7 +31,7 @@ The ClientVersions view stores information about the various client types and ve
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > There may be multiple records for certain columns.
 
 

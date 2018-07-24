@@ -39,7 +39,7 @@ A Lync Server 2013 on-premises deployment consists of the following:
         <div>
         
 
-        > [!IMPORTANT]
+        > [!IMPORTANT]  
         > If you collocate Lync Server databases, we highly recommend assessing all factors that might affect availability and performance. To verify failover capabilities, we recommend testing all failover scenarios.
 
         
@@ -54,7 +54,7 @@ This section describes the sites and components of a Lync Server 2013 deployment
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Stretched pools are not supported for the Front End, Edge, Mediation, and Director server roles.
 
 
@@ -90,7 +90,7 @@ Although a central site topology must include one Front End pool or one Standard
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In Lync Server 2013, A/V Conferencing, Monitoring, and Archiving run on Front End Servers and are no longer separate server roles.
 
 
@@ -116,7 +116,7 @@ All Front End pools and Standard Edition servers that you deploy at a central si
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > An Exchange UM Server can be implemented with your Lync Server 2013 deployment if you want to support integration of Exchange 2013 Unified Messaging, but it is not a component of the Lync Server 2013 site.
 
 
@@ -138,7 +138,7 @@ Multiple central sites can also share any of the following that you deploy in on
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > An Exchange UM Server can be implemented with your Lync Server 2013 deployment and shared by multiple central sites, but it is not a component of the Lync Server 2013 site.
 
 

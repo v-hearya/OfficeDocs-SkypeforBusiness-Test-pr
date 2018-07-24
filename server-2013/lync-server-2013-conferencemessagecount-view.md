@@ -31,7 +31,7 @@ The ConferenceMessageCount view stores information about how many messages were 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The ConferenceMessageCount view contains all of the columns in the <A href="lync-server-2013-conferencesessiondetails-view.md">ConferenceSessionDetails view in Lync Server 2013</A> in addition the columns listed below.
 
 

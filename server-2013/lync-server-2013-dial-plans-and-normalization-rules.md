@@ -41,7 +41,7 @@ Clients obtain dial plan scope levels through in-band provisioning settings that
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The service level public switched telephone network (PSTN) gateway dial plan is applied to the incoming calls from a particular gateway.
 
 
@@ -123,7 +123,7 @@ You can specify an external access prefix of up to four characters (\#, \*, and 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you specify an external access prefix, you do not need to create an additional normalization rule to accommodate the prefix.
 
 
@@ -322,7 +322,7 @@ The following table illustrates a sample dial plan for Redmond, Washington, Unit
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The normalization rules names shown in the preceding table do not include spaces, but this is a matter of choice. The first name in the table, for example, could have been written "5 digit extension" or "5-digit Extension" and still be valid.
 
 

@@ -47,7 +47,7 @@ After you are satisfied, you can use the Planning Tool to create a diagram of yo
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The Planning Tool included with this release of Lync Server 2013 is a prerelease version. Note that the capacity planning numbers in the Planning Tool are preliminary and are not supported for the final release.
 
 

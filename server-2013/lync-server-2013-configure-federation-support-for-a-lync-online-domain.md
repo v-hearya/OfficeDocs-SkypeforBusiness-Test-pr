@@ -33,7 +33,7 @@ Federating with a Microsoft Lync Online 2010 customer requires you to complete t
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > A Lync Online customer can have multiple domains. If you want to federate with more than one of the domains, you must configure support for each individual domain with which you want to support federation, and the administrator of the Lync Online customer must enable federation for each of the domains to be federated.
 
     
@@ -44,7 +44,7 @@ Federating with a Microsoft Lync Online 2010 customer requires you to complete t
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This step is required only for federation with a domain of a Lync Online customer, not for federation with any domain that is deployed on-premises at a federated partner’s location.
 
     

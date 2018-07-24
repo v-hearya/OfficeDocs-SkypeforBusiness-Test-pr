@@ -85,7 +85,7 @@ You can move a user from your Office Communications Server 2007 R2 pool to your 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For details about the <STRONG>Get-CsUser</STRONG> cmdlet, run: <STRONG>Get-Help Get-CsUser –Detailed</STRONG>
 
     

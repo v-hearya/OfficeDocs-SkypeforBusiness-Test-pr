@@ -63,7 +63,7 @@ _**Topic Last Modified:** 2014-02-07_
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Whenever you create a voice routing test case, you must run the <STRONG>Commit all</STRONG> command to publish the configuration change. For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A> in the Operations documentation.
 
     

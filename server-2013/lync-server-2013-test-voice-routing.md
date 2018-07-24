@@ -33,7 +33,7 @@ Before you actually deploy your voice routing configuration, we recommend that y
 <div>
 
 
-> [!TIP]
+> [!TIP]  
 > You can use the <STRONG>Export test cases</STRONG> and <STRONG>Import test cases</STRONG> commands to save voice routing test cases and import them for use on another computer.
 
 
@@ -43,7 +43,7 @@ Before you actually deploy your voice routing configuration, we recommend that y
 <div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > If you delete any part of your voice routing configuration, such as a dial plan, voice policy, voice route, or phone usage, you should review and update your voice routing test cases. The Lync Server Control Panel will not alert you to test cases that are no longer valid due to changed configurations.
 
 

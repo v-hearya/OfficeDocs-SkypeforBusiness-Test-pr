@@ -35,7 +35,7 @@ Enterprise Voice call management features control how incoming calls are routed 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Group Pickup is new with Cumulative Updates for Lync Server 2013: February 2013.
 
     

@@ -31,7 +31,7 @@ After your users are moved to Lync Server 2013 pools, you can migrate your respo
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Although you can migrate response groups before you move all users to the Lync Server 2013 pool, we recommend that you move all users first. In particular, users who are response group agents will not have full functionality of new features until they are moved to the Lync Server 2013 pool.
 
 
@@ -43,7 +43,7 @@ Before you migrate response groups, you must have deployed a Lync Server 2013 po
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You can create new Lync Server 2013 response groups in the Lync Server 2013 pool before you migrate your legacy response groups.
 
 
@@ -55,7 +55,7 @@ To migrate response groups from a legacy pool to the Lync Server 2013, you run t
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The Response Group migration cmdlet moves the Response Group configuration for the entire pool. You cannot select specific groups, queues, or workflows to migrate.
 
 
@@ -67,7 +67,7 @@ After you migrate the response groups, you need to update the URL that formal ag
 <div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > When you migrate response groups, the Office Communications Server 2007 R2 response groups are not removed. Do not remove Office Communications Server 2007 R2 response groups. If you remove an Office Communications Server 2007 R2 response group, the response groups in Lync Server 2013 stop working.
 
 
@@ -77,7 +77,7 @@ After you migrate the response groups, you need to update the URL that formal ag
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > We recommend that you do not remove any data from your previous deployment until you decommission the pool. In addition, we strongly recommend that you export response groups immediately after you migrate. If an Office Communications Server 2007 R2 response group gets removed, you can then restore your response groups from the backup to get Lync Server 2013 response groups running again.
 
 
@@ -89,7 +89,7 @@ When you run the **Move-CsRgsConfiguration** cmdlet, the agent groups, queues, w
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > We recommend that you don't delete any response group data from the legacy pool until you decommission the pool.
 
 
@@ -121,7 +121,7 @@ The procedure that follows for migrating Response Group configurations assumes t
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Formal agents used the Response Group tab to sign in to their response groups before they could receive calls. If you deployed the Response Group tab, you chose the location for the Office Communicator 2007 R2 tabs.xml file when you deployed it.
 
     
@@ -132,7 +132,7 @@ The procedure that follows for migrating Response Group configurations assumes t
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The URL is typically https://webpoolFQDN/RgsClients/Tab.aspx, where webpoolFQDN is the fully qualified domain name (FQDN) of the web pool that is associated with the pool that you just migrated to Lync Server 2013.
 
     
@@ -141,7 +141,7 @@ The procedure that follows for migrating Response Group configurations assumes t
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This step is not required after users upgrade to Lync 2013 because the URL is available from the <STRONG>Tools</STRONG> menu in Lync.
 
     

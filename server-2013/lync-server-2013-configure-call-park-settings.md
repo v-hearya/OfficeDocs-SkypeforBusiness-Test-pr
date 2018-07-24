@@ -31,7 +31,7 @@ If you don't want to use default Call Park settings, you can customize them. Whe
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > At a minimum, we recommend that you configure the <STRONG>OnTimeoutURI</STRONG> option for the fallback destination to use when a parked call times out and ringback fails.
 
 
@@ -91,7 +91,7 @@ Use **New-CsCpsConfiguration** cmdlet or the **Set-CsCpsConfiguration** cmdlet t
     <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > Use the <STRONG>Get-CsSite</STRONG> cmdlet to identify the site. For details, see Lync Server Management Shell documentation.
 
     

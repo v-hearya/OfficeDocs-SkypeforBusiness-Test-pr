@@ -31,7 +31,7 @@ After you have your initial deployment up and running, you can add additional se
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Before undertaking the task of installing additional server roles, see the Planning topics related to each role.
 
 

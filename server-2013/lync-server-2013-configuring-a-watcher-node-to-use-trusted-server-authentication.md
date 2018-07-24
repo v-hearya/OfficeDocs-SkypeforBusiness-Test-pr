@@ -33,7 +33,7 @@ The first step in configuring Trusted Server authentication is to create a trust
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > A trusted application is an application that is given trusted status to run as part of Lync Server 2013, but that is not a built-in part of the product. Trusted status means that the application will not be challenged for authentication each time it runs.
 
 
@@ -47,7 +47,7 @@ To create a trusted application pool, open the Lync Server 2013 Management Shell
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details about the parameters used in the preceding command, type the following at the Lync Server Management Shell prompt:<BR>Get-Help New-CsTrustedApplicationPool -Full | more
 
 
@@ -83,7 +83,7 @@ Each watcher node must have a Default certificate assigned by using the Lync Ser
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If the <STRONG>Run</STRONG> button is disabled, you may need to first click <STRONG>Run</STRONG> under <STRONG>Install Local Configuration Store</STRONG>.
 
     
@@ -114,7 +114,7 @@ After you have restarted the watcher node computer and configured a certificate,
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can also run Watchernode.msi from a command window. To open a command window, click <STRONG>Start</STRONG>, right-click <STRONG>Command Prompt</STRONG>, and then click <STRONG>Run as administrator</STRONG>. When the command window opens, type the same preceding command.
 
     

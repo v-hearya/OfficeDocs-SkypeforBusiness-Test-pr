@@ -31,7 +31,7 @@ You must configure Domain Name System (DNS) records for internal and external ed
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > By default, DNS uses a round robin algorithm to rotate the order of resource record data returned in query answers where multiple resource records of the same type exist for a queried DNS domain name. Lync Server 2013 DNS load balancing, depends on DNS round-robin as a part of the DNS Load Balancing mechanism. Verify that round-robin setting has not been disabled. If you are using a DNS server that is not running a Windows operating system, verify that round-robin resource record ordering is enabled.
 
 
@@ -67,7 +67,7 @@ Use the following procedures in “**To create a DNS SRV record**” to create a
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > You need to configure DNS so that there are: 1) external DNS entries for external DNS lookups by remote users and federated partners; 2) entries for DNS lookups for use by the Edge Servers within the perimeter network (also known as DMZ, demilitarized zone, and screened subnet), including A records for the internal servers running Lync Server 2013; and 3) internal DNS entries for lookups by the internal clients and servers running Lync Server 2013.
 
     

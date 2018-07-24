@@ -31,7 +31,7 @@ When you configure policies to support communications with federated partners, t
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You can configure policies to control federated user access, even if you have not enabled federation for your organization. However, the policies that you configure are in effect only when you have federation enabled for your organization. For details about enabling federation, see <A href="lync-server-2013-enable-or-disable-remote-user-access.md">Enable or disable remote user access in Lync Server 2013</A> in the Deployment documentation or the Operations documentation. Additionally, if you specify a user policy to control federated user access, the policy applies only to users that are enabled for Lync Server 2013 and configured to use the policy.
 
 
@@ -93,7 +93,7 @@ If this is a user policy, you must also apply the policy to users that you want 
     <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > The parameter “EnablePublicCloudAudioVideoAccess” does not have a corresponding selection in the Lync Server Control Panel
 
     

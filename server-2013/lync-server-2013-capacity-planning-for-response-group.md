@@ -33,7 +33,7 @@ The following table describes the Response Group user model that you can use as 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The numbers in the following table assume that you use 16 kHz, mono, 16-bit Wave (.wav) files for all response group audio files. If you use other file formats, such as Windows Media Audio (.wma), the numbers may vary.
 
 
@@ -43,7 +43,7 @@ The following table describes the Response Group user model that you can use as 
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Keep in mind that for disaster recovery capacity planning, each pool of a paired pool should be able to handle the workloads for all the response groups in both pools.
 
 

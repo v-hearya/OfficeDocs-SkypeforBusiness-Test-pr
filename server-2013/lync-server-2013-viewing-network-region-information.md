@@ -43,7 +43,7 @@ A network region interconnects various parts of a network across multiple geogra
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can only view one region at a time.
 
     

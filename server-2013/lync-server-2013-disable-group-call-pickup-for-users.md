@@ -31,7 +31,7 @@ Use the following procedure to disable Group Call Pickup for a user.
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > When you disable Group Call Pickup for a user, the call pickup group number that was assigned to the user is not retained. If you subsequently want to re-enable Group Call Pickup for that user, you must assign the call pickup group number again with the /enablegrouppickup parameter.
 
 

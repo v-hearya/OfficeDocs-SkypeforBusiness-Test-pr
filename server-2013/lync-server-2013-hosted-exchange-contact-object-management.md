@@ -47,7 +47,7 @@ The following are the general steps for working with your hosted Exchange tenant
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > There is no need to configure any Lync Server 2013 dial plan settings on the Contact objects as there is with on-premises deployments.
 
 
@@ -63,7 +63,7 @@ The following are the general steps for working with your hosted Exchange tenant
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Before Lync Server 2013 Contact objects can be enabled for hosted Exchange UM, a hosted voice mail policy that applies to them must be deployed. The policy can be of global, site-level, or per-user scope, as long as it applies to the contact object you want to enable. For details, see <A href="lync-server-2013-hosted-voice-mail-policies.md">Hosted voice mail policies in Lync Server 2013</A>.
 
 

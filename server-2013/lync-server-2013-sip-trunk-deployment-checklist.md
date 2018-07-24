@@ -37,7 +37,7 @@ Get the following information for each ITSP gateway that you will connect to:
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The service provider may ask you to connect to more than one ITSP gateway. In that case, you must configure a connection between each ITSP gateway and each Mediation Server in your pool.
 
 
@@ -63,7 +63,7 @@ To determine whether you need a certificate for SIP trunking, check with your IT
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > SIP works in conjunction with real-time transport protocol (RTP) or secure real-time transport protocol (SRTP), the protocols that manage the actual voice data in Voice over Internet Protocol (VoIP) calls.
 
 

@@ -39,7 +39,7 @@ There are three components of client version control:
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Because anonymous users are not associated with a user, site, or service, anonymous users are affected by global-level policies only.
 
 

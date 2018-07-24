@@ -74,7 +74,7 @@ QoE configuration settings can be created by using either Lync Server Control Pa
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The New-CsQoEConfiguration cmdlet includes additional options not available in Lync Server Control Panel. For more information, see the <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsQoEConfiguration">New-CsQoEConfiguration</A> help topic.
 
 

@@ -33,7 +33,7 @@ Lync-Skype Connectivity enables Skype users and Lync users to add each other as 
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > In order for Lync and Skype users to fully communicate with each other, the following requirements must be met: 
 > <UL>
 > <LI>
@@ -78,7 +78,7 @@ In each instance, the Lync user must enter the Skype user’s email in the follo
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > This step is not required for Microsoft accounts that use the following domain names: <STRONG>@live.com, @hotmail.com or @outlook.com</STRONG>. For more information on supported custom domain names, see <A href="https://support.microsoft.com/kb/897567">Supported public IM domains</A>.
 
 
@@ -118,7 +118,7 @@ In each instance, the Lync user must enter the Skype user’s email in the follo
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The Lync Server administrator must configure the Lync user’s policy settings to allow incoming requests. If not, the Lync user will not receive contact requests from the Skype user. Depending on the configuration of the Lync user’s policy settings, the request to add the Skype user will appear on the Lync client’s <STRONG>New</STRONG> tab. To begin communicating with the Skype user, the Lync user must add the Skype user to either the Favorites list or a contact list. The image below shows the location of the <STRONG>New</STRONG> tab in the Lync client.
 
     

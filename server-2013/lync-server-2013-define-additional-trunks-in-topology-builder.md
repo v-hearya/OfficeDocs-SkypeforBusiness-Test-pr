@@ -35,7 +35,7 @@ A trunk is a logical connection between a Mediation Server and a gateway uniquel
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > This topic assumes that you have setup a PSTN gateway and root trunk with at least one collocated or stand-alone Mediation Server or pool as described in <A href="lync-server-2013-define-a-gateway-in-topology-builder.md">Define a gateway in Topology Builder in Lync Server 2013</A> in the Deployment documentation.
 
 
@@ -45,7 +45,7 @@ A trunk is a logical connection between a Mediation Server and a gateway uniquel
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > This topic assumes that you have set up at least one Front End pool or Standard Edition server in at least one central site, as described in <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Define and configure a Front End pool or Standard Edition server in Lync Server 2013</A> and <A href="lync-server-2013-publish-the-topology.md">Publish the topology in Lync Server 2013</A> in the Deployment documentation.
 
 
@@ -67,7 +67,7 @@ A trunk is a logical connection between a Mediation Server and a gateway uniquel
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you specify Transport Layer Security (TLS) as the transport type, you must specify the FQDN instead of the IP address of the peer of the Mediation Server.
 
     
@@ -84,7 +84,7 @@ A trunk is a logical connection between a Mediation Server and a gateway uniquel
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For security reasons, we strongly recommend that you deploy a peer to the Mediation Server that can use TLS.
 
     
@@ -97,7 +97,7 @@ A trunk is a logical connection between a Mediation Server and a gateway uniquel
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > With multiple trunk support in Lync Server 2013, two trunks with different trunk names cannot be configured with the same <STRONG>Associated Mediation Server port</STRONG> and <STRONG>Listening Port for IP/PSTN gateway</STRONG>
 
     
@@ -106,7 +106,7 @@ A trunk is a logical connection between a Mediation Server and a gateway uniquel
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > With multiple trunk support in Lync Server 2013, multiple SIP signaling ports can be defined on the Mediation Server for communication with multiple peers. When defining a trunk, the <STRONG>Associated Mediation Server port</STRONG> number must be within the range of the listening ports for the respective protocol allowed by the Mediation Server. This port range is defined under Lync Server 2013 and Mediation Server pools. Right-click the relevant Mediation Server pool, and select <STRONG>Edit Properties</STRONG>. Specify the port range in the <STRONG>Listening ports</STRONG> field.
 
     

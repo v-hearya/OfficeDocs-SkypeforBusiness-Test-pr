@@ -33,7 +33,7 @@ Dial-in conferencing is an optional feature that you can configure when you depl
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you deploy dial-in conferencing, you must deploy it in every pool where you deploy Lync Server 2013 conferencing. You do not need to assign access numbers in every pool, but you must deploy the dial-in feature in every pool. This requirement supports the recorded name feature when a user calls an access number from one pool to join a Lync Server 2013 conference in a different pool.
 
 
@@ -55,7 +55,7 @@ Enterprise users or conference leaders who join a conference that is enabled for
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Enterprise users who dial in from an office IP phone or from Lync Server 2013 or Lync 2010 Attendant are not prompted for their phone number because they are already authenticated.
 
 
@@ -67,7 +67,7 @@ Anonymous users who want to join a dial-in conference dial one of the conference
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Enterprise users who choose not to enter their phone number and PIN are not authenticated. They are prompted to record their name and are treated as anonymous users in the conference.
 
 
@@ -81,7 +81,7 @@ Dial-in participants (that is, whether or not they dial from the PSTN), hear per
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Participants who join the conference by clicking a link instead of dialing in do not hear personal announcements.
 
 

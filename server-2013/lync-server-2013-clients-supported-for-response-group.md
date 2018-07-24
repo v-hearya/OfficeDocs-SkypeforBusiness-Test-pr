@@ -41,7 +41,7 @@ The Response Group application supports the following clients:
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The Response Group application is not supported on Lync mobile clients.
 
 

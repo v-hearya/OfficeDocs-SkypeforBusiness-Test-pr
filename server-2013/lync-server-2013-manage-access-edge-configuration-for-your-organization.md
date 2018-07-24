@@ -47,7 +47,7 @@ These options include the following types of access that can be configured throu
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In addition to enabling external user access support, you also configure policies to control the use of remote user access in your organization before any type of external user access is available to users. For details about creating, configuring, and applying policies for external user access, see <A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Manage external access policy in Lync Server 2013</A>.
 
 

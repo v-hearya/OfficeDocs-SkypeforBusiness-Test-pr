@@ -31,7 +31,7 @@ You realize the real benefit of the Centralized Logging Service after you run th
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The intent of this topic is not to detail and discuss troubleshooting techniques. Troubleshooting and the processes around it is a complex subject. For details about troubleshooting basics and troubleshooting specific workloads, see the Microsoft Lync Server 2010 Resource Kit book at <A href="http://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A>. The processes and procedures still apply to Lync Server 2013.
 
 
@@ -85,7 +85,7 @@ You can hover over the diagram view and get details about the messages and conte
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you click on a message or trace that is not part of a call flow, the diagram will not appear and a status message appears at the bottom of Snooper stating “This message is not eligible for callfow”. Choose another message or trace and the call flow will appear if the message or trace is part of a call flow.
 
     

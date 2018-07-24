@@ -43,7 +43,7 @@ High availability and disaster recovery for Persistent Chat Server requires addi
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Active Persistent Chat servers in a Persistent Chat Server pool MUST reside in the same time zone as the next hop Lync Pool defined in the topology.
 
 

@@ -43,7 +43,7 @@ In order to be successful in determining the port Lync Server 2013 is using to c
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > SQL Server provides two fault tolerance methods (Failover Clustering and Mirroring). Both SQL Server fault tolerance methods are supported using a SQL Server non-standard port and alias with Lync Server 2013. If the SQL Server backend used by the pool is in a mirrored configuration, then the SQL browser service on the SQL Server backend servers should be running for Front End servers to connect to the mirrored database when the databases are failed over to the mirrored SQL Server.
 
 
@@ -117,7 +117,7 @@ The SQL Server non-standard port and alias must be set up on the database instan
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Make sure you update your firewall settings to accommodate the new SQL Server port.
 
 
@@ -143,7 +143,7 @@ The SQL Server non-standard port and alias must be set up on the database instan
     <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Make sure to enter the same non-standard port you used in the previous step since that is the port SQL Server will be listening on. If a configured alias is connecting to the wrong SQL Server FQDN or Instance, disable and then re-enable the associated network protocol. Doing this clears any cached connection information and allows the client to connect correctly.
 
     
@@ -184,7 +184,7 @@ There are many different ways to make sure it is working. You want to make sure 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Telnet Client is a Feature that comes with Windows Server but that must be installed. A Windows Server Feature can be installed by opening Server Manager and selecting Add Roles and Features from the Manage menu.
 
 

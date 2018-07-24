@@ -31,7 +31,7 @@ The unified contact store enables users to maintain a single contacts list and t
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Technically, contact information is stored in a pair of folders found in the user's Exchange 2013 mailbox. The contacts themselves are stored in a folder named Lync Contacts which is visible to end users; metadata about the contacts are stored in a subfolder that is not visible to end users.
 
 
@@ -87,7 +87,7 @@ The preceding command assigns the new policy to the user Ken Myer, and also prev
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In some cases you can achieve the same net effect by simply unassigning the user's current user services policy. For example, suppose Ken Myer has a per-user user services policy the enables the unified contact store, but your global policy prohibits the use of the unified contact store. In that case, you could unassign Ken's per-user services policy. When you do that, Ken will automatically be managed by the global policy, and thus will no longer have access to the unified contact store.<BR>To unassign a previously-assigned per-user policy, use the same command as shown before, but this time set the PolicyName parameter to a null value:<BR>Grant-CsUserServicesPolicy –Identity "Ken Myer" –PolicyName $Null
 
 

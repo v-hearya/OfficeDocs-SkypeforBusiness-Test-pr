@@ -63,7 +63,7 @@ Exporting your design to Microsoft Visio creates a diagram for use in your docum
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If your design is large enough to require more than three Front End Servers, an additional page will be created for the Front End pool, Front End Servers, the computer running SQL Server, IP addresses, and FQDNs.
 
 

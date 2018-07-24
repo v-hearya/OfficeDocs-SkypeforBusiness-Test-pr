@@ -65,7 +65,7 @@ The Announcement application uses the following port:
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > This port is the default setting, which you can change by using the <STRONG>Set-CsApplicationServer</STRONG> cmdlet. For details about this cmdlet, see the Lync Server Management Shell documentation.
 
 

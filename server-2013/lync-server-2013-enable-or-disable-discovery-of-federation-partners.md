@@ -31,7 +31,7 @@ At the time you deployed your Edge Servers and enabled federation for your organ
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The following procedure assumes that you have already enabled federation for your organization. For details about enabling federation, see <A href="lync-server-2013-enable-or-disable-remote-user-access.md">Enable or disable remote user access in Lync Server 2013</A> in the Deployment documentation or the Operations documentation.
 
 

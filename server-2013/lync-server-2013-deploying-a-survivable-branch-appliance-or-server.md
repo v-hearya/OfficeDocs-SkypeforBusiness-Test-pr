@@ -35,7 +35,7 @@ For branch sites with 1,000 to 5,000 users and no resilient WAN, we recommend a 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For branch sites with more than 5,000 users and dedicated Lync Server administrators, we recommend a full Lync Server 2013 deployment, separate from that of the central site.<BR>For details about choosing the best resiliency solution for the branch sites in your organization, including prerequisites and planning considerations, see <A href="lync-server-2013-branch-site-resiliency-requirements.md">Branch-site resiliency requirements for Lync Server 2013</A> in the Planning documentation.
 
 
@@ -45,7 +45,7 @@ For branch sites with 1,000 to 5,000 users and no resilient WAN, we recommend a 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Users who are homed on a Lync Server Survivable Branch Appliance are unable to create new chat rooms or view the room card for existing rooms.
 
 

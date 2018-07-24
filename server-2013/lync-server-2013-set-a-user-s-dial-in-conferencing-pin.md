@@ -31,7 +31,7 @@ To join a dial-in conference as an authenticated user, a Lync Server 2013 user w
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Specific characteristics of the PIN, such as its minimum length, can be configured as a policy. In addition to the global policy, you can configure a PIN policy for individual sites or users. For details about configuring a PIN policy, see <A href="lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md">Configure dial-in conferencing personal identification number (PIN) rules in Lync Server 2013</A>.
 
 
@@ -67,7 +67,7 @@ To join a dial-in conference as an authenticated user, a Lync Server 2013 user w
         <div>
         
 
-        > [!TIP]
+        > [!TIP]  
         > To add additional search clauses to your query, click <STRONG>Add Filter</STRONG>.
 
         
@@ -78,7 +78,7 @@ To join a dial-in conference as an authenticated user, a Lync Server 2013 user w
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If the PIN is locked, you must unlock the PIN before you can set it. To unlock the PIN, click the user, click <STRONG>Action</STRONG>, and then click <STRONG>Unlock PIN</STRONG>.
 
     

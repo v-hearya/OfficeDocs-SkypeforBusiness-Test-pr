@@ -53,7 +53,7 @@ Follow the steps in this topic to use Topology Builder to define a Mediation Ser
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > <UL>
     > <LI>
     > <P>If the type of Front End pool you selected is the Enterprise Edition, then the Mediation Server component will be installed on all the Front End Servers of that Front End pool.</P>
@@ -72,7 +72,7 @@ Follow the steps in this topic to use Topology Builder to define a Mediation Ser
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Before you proceed to the next step in the Enterprise Voice deployment process, make sure that the Mediation Server pool (i.e. Front End pool with the Mediation Server component collocated) is using the FQDNs that you specified.
 
     
@@ -95,7 +95,7 @@ If you already deployed Mediation Servers collocated to Front End pools at this 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > This section assumes that you have already setup at least one Front End pool, as described in <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Define and configure a Front End pool or Standard Edition server in Lync Server 2013</A> and <A href="lync-server-2013-publish-the-topology.md">Publish the topology in Lync Server 2013</A> in the Deployment Guide documentation.
 
 
@@ -121,7 +121,7 @@ If you already deployed Mediation Servers collocated to Front End pools at this 
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > You must deploy DNS load balancing to support Mediation Server pools that have multiple Mediation Servers. For details, see the Using DNS Load Balancing on Mediation Server Pools section of <A href="lync-server-2013-dns-load-balancing.md">DNS load balancing in Lync Server 2013</A> in the Planning documentation.
 
         
@@ -166,7 +166,7 @@ Follow the steps in this topic to use Topology Builder to define the listening p
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Entering a TCP port range is not required if <STRONG>Enable TCP port</STRONG> is not checked. This setting is optional.
 
     

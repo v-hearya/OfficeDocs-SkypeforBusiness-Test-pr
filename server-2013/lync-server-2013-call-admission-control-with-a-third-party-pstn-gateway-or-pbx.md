@@ -49,7 +49,7 @@ This works for both incoming PSTN calls to a client in Network Site 1, and for o
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Make sure that the IP subnet that the PSTN gateway belongs to is configured and associated with Network Site 2.<BR>Make sure that the IP subnet that both interfaces of the Mediation Server belong to is configured and associated with Network Site 1.<BR>For details, see <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">Associate a subnet with a network site in Lync Server 2013</A>.
 
 
@@ -79,7 +79,7 @@ This works for both incoming PSTN calls to a client in Network Site 1, and outgo
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Make sure that the IP subnet that the MTP belongs to is configured and associated with Network Site 2.<BR>Make sure that the IP subnet that both interfaces of the Mediation Server belong to is configured and associated with Network Site 1.<BR>For details, see <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">Associate a subnet with a network site in Lync Server 2013</A>.
 
 
@@ -105,7 +105,7 @@ For calls that originate from the third-party endpoint, the information about th
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Make sure that the IP subnet that the endpoint devices belong to is configured and associated with Network Site 2.<BR>Make sure that the IP subnet that both interfaces of the Mediation Server belong to is configured and associated with Network Site 1.<BR>For details, see <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">Associate a subnet with a network site in Lync Server 2013</A>.
 
 

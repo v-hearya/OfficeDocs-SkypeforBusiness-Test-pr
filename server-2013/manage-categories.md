@@ -33,7 +33,7 @@ To create a new Persistent Chat Server Category
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > PersistentChatPoolFqdn is needed only if there is more than one Persistent Chat Server pool.
 
 

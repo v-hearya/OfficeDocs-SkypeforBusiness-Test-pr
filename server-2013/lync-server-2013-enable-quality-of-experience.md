@@ -33,7 +33,7 @@ Use the following procedure to enable QoE for your whole organization or each si
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > To enable QoE, you must first configure monitoring and a monitoring back-end database. For details, see <A href="lync-server-2013-deploying-monitoring.md">Deploying monitoring in Lync Server 2013</A>.
 
 

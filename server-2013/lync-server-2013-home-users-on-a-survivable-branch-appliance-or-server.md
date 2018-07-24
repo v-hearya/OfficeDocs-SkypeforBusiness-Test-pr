@@ -45,7 +45,7 @@ The process of homing users on a Survivable Branch Appliance or a Survivable Bra
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You can also use Lync Server Control Panel to verify prerequisites and home users.
 
 
@@ -55,7 +55,7 @@ The process of homing users on a Survivable Branch Appliance or a Survivable Bra
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Users who are homed on a Lync Server Survivable Branch Appliance are unable to create new chat rooms or view the room card for existing rooms.
 
 

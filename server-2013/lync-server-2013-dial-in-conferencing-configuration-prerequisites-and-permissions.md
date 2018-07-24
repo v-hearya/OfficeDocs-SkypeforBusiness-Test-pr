@@ -51,7 +51,7 @@ You deploy these components when you use the Topology Builder to define and publ
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you are upgrading from Office Communications Server 2007 R2 to Lync Server 2013, deploy dial-in conferencing in every pool that you plan to use to host Lync Server 2013 conferences. For details about migrating dial-in conferencing, see <A href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">Migration from Office Communications Server 2007 R2 to Lync Server 2013</A>.
 
 
@@ -69,7 +69,7 @@ This section assumes that you have done the following:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > When you install your published topology, the Dial-in Conferencing Settings webpage is installed on the Front End Server or Standard Edition server as part of Web Services.
 
     
@@ -78,7 +78,7 @@ This section assumes that you have done the following:
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If you change the path for the File Store in Topology Builder after you deploy Lync Server 2013, you need to restart the Conferencing Attendant and Conferencing Announcement applications to use the new path.
 
     

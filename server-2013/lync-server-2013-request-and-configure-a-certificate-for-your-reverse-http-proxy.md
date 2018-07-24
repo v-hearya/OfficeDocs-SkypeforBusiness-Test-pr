@@ -56,7 +56,7 @@ You also must install a public web server certificate on your reverse proxy serv
 <td><p>webext.contoso.com</p>
 <div>
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The subject name must also be present in the subject alternative name.
 
 
@@ -72,7 +72,7 @@ You also must install a public web server certificate on your reverse proxy serv
 <td><p>Meeting simple URL</p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > All meeting simple URLs must be in the subject alternative name. Each SIP domain must have at least one active meeting simple URL.
 
 
@@ -95,7 +95,7 @@ You also must install a public web server certificate on your reverse proxy serv
 <td><p>lyncdiscover.contoso.com</p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > If you are also using Microsoft Exchange Server you will also need to configure reverse proxy rules for the Exchange autodiscover and web services URLs.
 
 
@@ -108,7 +108,7 @@ You also must install a public web server certificate on your reverse proxy serv
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If your internal deployment consists of more than one Standard Edition server or Front End pool, you must configure web publishing rules for each external web farm FQDN and you will either need a certificate and web listener for each, or you must obtain a certificate whose subject alternative name contains the names used by all of the pools, assign it to a web listener, and share it among multiple web publishing rules.
 
 
@@ -124,7 +124,7 @@ You create a certificate request on the reverse proxy. You create a request on a
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > A certificate request or a certificate signing request (CSR) is a request to a trusted public certification authority (CA) to validate and sign the requesting computer’s public key. When a certificate is generated, a public key and a private key are created. Only the public key is shared and signed. As the name implies, the public key is made available to any public request. The public key is for use by clients, servers and other requesters that need to exchange information securely and validate a computer’s identity. The private key is kept secured and is used only by the computer that created the key pair to decrypt messages encrypted with its public key. The private key can be used for other purposes. For reverse proxy purposes, data encipherment is the primary use. Secondarily, the certificate authentication at the certificate key level is another use, and is limited only to validation that a requester has the computer’s public key, or that the computer that you have a public key for is actually the computer that it claims to be.
 
 
@@ -134,7 +134,7 @@ You create a certificate request on the reverse proxy. You create a request on a
 <div>
 
 
-> [!TIP]
+> [!TIP]  
 > If you plan your Edge Server certificates and your reverse proxy certificates at the same time, you should notice that there is a great deal of similarity between the two certificate requirements. When you configure and request your Edge Server certificate, combine the Edge Server and the reverse proxy subject alternative names. You can use the same certificate for your reverse proxy if you export the certificate and the private key and copy the exported file to the reverse proxy and then import the certificate/key pair and assign it as needed in the upcoming procedures. Refer to the certificate requirements for the Edge Server&nbsp;<A href="lync-server-2013-plan-for-edge-server-certificates.md">Plan for Edge Server certificates in Lync Server 2013</A> and the reverse proxy <A href="lync-server-2013-certificate-summary-reverse-proxy.md">Certificate summary - Reverse proxy in Lync Server 2013</A>. Make sure that you create the certificate with an exportable private key. Creating the certificate and certificate request with an exportable private key is required for pooled Edge Servers, so this is a normal practice and the Certificate Wizard in the Lync Server Deployment Wizard for the Edge Server will allow you to set the <STRONG>Make private key exportable</STRONG> flag. Once you receive the certificate request back from the public certification authority, you will export the certificate and the private key. See the section “To export the certificate with the private key for Edge Servers in a pool” in the topic <A href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">Set up certificates for the external edge interface for Lync Server 2013</A> for details on how to create and export your certificate with a private key. The extension of the certificate should be of type <STRONG>.pfx</STRONG>.
 
 
@@ -205,7 +205,7 @@ To generate a certificate signing request on the computer where the certificate 
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Microsoft has identified Public CAs that meets the requirements for Unified Communications purposes. A list is maintained in the following knowledge base article. <A href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</A>
 
     

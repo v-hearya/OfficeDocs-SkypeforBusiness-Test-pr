@@ -54,7 +54,7 @@ To end the process, press Ctrl+C.
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Before running LyncPerfTool directly, you must register the performance counters. Enter the following command to register performance counters:
 
 
@@ -67,7 +67,7 @@ To end the process, press Ctrl+C.
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Every instance of LyncPerfTool.exe that you start will immediately start signing in users, usually at a rate of one user per second. The peak user sign-in rate for the pool is about 12 per second. This means that you should not start more than 12 LyncPerfTool instances at the same time, while the users are still signing in. 1000 users will take about 20 minutes to fully sign in, at one per second.
 
 

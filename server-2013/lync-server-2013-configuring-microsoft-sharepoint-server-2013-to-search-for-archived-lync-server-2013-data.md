@@ -58,7 +58,7 @@ After Exchange Web Services has been installed you must then configure server-to
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Be sure and use the URI for your autodiscover service. Do not use the sample URI https://autodiscover.litwareinc.com/autodiscover/metadata/json/1.
 
 
@@ -94,7 +94,7 @@ After server-to-server authentication has been established between Exchange and 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > "eDiscovery" is short for "electronic discovery," and typically refers to the process of looking through electronic archives for items that can be "reasonably calculated to lead to admissible evidence" in a court of law.
 
 

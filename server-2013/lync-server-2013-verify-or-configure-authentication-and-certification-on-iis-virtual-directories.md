@@ -31,7 +31,7 @@ Use the following procedure to configure the certificate on your Internet Inform
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The following procedure defines a procedure to request a combined certificate that is used for all purposes Lync Server, Internal Web Site and External Web Site in IIS. Lync Server 2010 introduced a set of Lync Server Management Shell&nbsp;Windows PowerShell cmdlets for the express purpose of managing certificate request, import, and assignment. The procedure assumes that there is an internally deployed certification authority (CA) that can process the request. If you use public certificates for your Lync Server purposes, or your CA requires an offline request, see the detailed syntax in this topic for information on the –Output parameter. <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Request-CsCertificate">Request-CsCertificate</A>
 
 
@@ -51,7 +51,7 @@ Use the following procedure to configure the certificate on your Internet Inform
     <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > In the Server Certificates Feature View, if there are certificates assigned to the server, they will appear here. If there is a certificate that matches the requirements for the External Web Site in IIS, you can re-use that certificate. To view a certificate, right-click the certificate and select <STRONG>View…</STRONG>
 
     
@@ -78,7 +78,7 @@ Use the following procedure to configure the certificate on your Internet Inform
     <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > By default, Request-CsCertificate will populate the subject name with the server or pool name and populate entries in the subject alternative name with the server FQDN, pool FQDN, Simple URL FQDNs, and internal and external web services FQDNs. It does this by referencing to the topology document in your deployment. If there is a missing value and you have specified the –Verbose parameter, you will be notified that the computed and actual values for alternative names are different, but it does not inform you which values are missing. It does supply you with the entire computed value that the cmdlet references. Use the computed alternative names string in the output to re-request a new certificate that will include all values.
 
     

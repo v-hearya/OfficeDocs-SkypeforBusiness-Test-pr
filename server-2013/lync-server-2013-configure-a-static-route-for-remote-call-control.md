@@ -41,7 +41,7 @@ Remote call control requires that every Lync Server pool is configured with a pa
     <div class="">
     
 
-    > [!TIP]
+    > [!TIP]  
     > To match child domains of a domain, you can specify a wildcard value in the MatchUri parameter. For example, <STRONG>*.contoso.net</STRONG>. That value matches any domain that ends with the suffix <STRONG>contoso.net</STRONG>.
 
     
@@ -64,7 +64,7 @@ Remote call control requires that every Lync Server pool is configured with a pa
         <div class="">
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > If you specify a fully qualified domain name (FQDN), you must configure a Domain Name System (DNS) A record first.
 
         

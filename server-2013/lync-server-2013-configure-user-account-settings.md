@@ -49,7 +49,7 @@ The procedure in this topic describes how to assign a **Line URI** for a single 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can specify <STRONG>Line URI</STRONG> only if <STRONG>Telephony</STRONG> is set to <STRONG>PC-to-PC only</STRONG>, <STRONG>Enterprise Voice</STRONG>, <STRONG>Remote call control</STRONG> or <STRONG>Remote call control only</STRONG>.
 
     

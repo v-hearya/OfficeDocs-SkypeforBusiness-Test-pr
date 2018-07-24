@@ -33,7 +33,7 @@ When you deploy a pilot pool, you use the Define New Front End Pool wizard. You 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The following procedure discusses features and settings you should consider as part of your overall pilot pool deployment process. This section only highlights key points you should consider as part of your pilot pool deployment. For detailed steps, refer to the <A href="lync-server-2013-deploying-lync-server.md">Deploying Lync Server 2013</A> deployment guide.
 
 
@@ -57,7 +57,7 @@ When you deploy a pilot pool, you use the Define New Front End Pool wizard. You 
     <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > The pool or server fully qualified domain name (FQDN) that you define for the pilot pool must be unique. It cannot match the name of the currently deployed Office Communications Server 2007 R2 pool, or any other servers currently deployed.
 
     

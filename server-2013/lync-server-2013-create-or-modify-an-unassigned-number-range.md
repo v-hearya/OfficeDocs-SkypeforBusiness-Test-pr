@@ -31,7 +31,7 @@ Use one of the following procedures to configure unassigned number ranges for th
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Before you configure the unassigned number table, you must have already defined one or more announcements or set up an Exchange Unified Messaging (UM) Auto Attendant.
 
 
@@ -55,7 +55,7 @@ Use one of the following procedures to configure unassigned number ranges for th
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > After you commit the new unassigned number range to the database, you cannot change this name.
 
         
@@ -68,7 +68,7 @@ Use one of the following procedures to configure unassigned number ranges for th
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > <UL>
     > <LI>
     > <P>The beginning number of the range must be less than or equal to the ending number of the range.</P>
@@ -101,7 +101,7 @@ Use one of the following procedures to configure unassigned number ranges for th
     <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > Lync Server searches the unassigned number table from top to bottom and uses the first range that matches the unassigned number. If you have overlapping ranges and one range specifies a last resort action, make sure that range is at the bottom of the list.
 
     
@@ -124,7 +124,7 @@ Use one of the following procedures to configure unassigned number ranges for th
     <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > If you have overlapping ranges and want the ranges to be applied in a specific order, include the Priority parameter. The range with the highest priority will be applied to the call.
 
     

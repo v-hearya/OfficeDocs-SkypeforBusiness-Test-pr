@@ -33,7 +33,7 @@ You need to configure the required Domain Name System (DNS) records prior to pub
 <div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > Lync Server 2013 does not support single-labeled domains. For example, a forest with a root domain named <STRONG>contoso.local</STRONG> is supported, but a root domain named <STRONG>local</STRONG> is not supported. For details, see Microsoft Knowledge Base article 300684, “Information about configuring Windows for domains with single-label DNS names,” at <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684">http://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=300684</A>.
 
 
@@ -43,7 +43,7 @@ You need to configure the required Domain Name System (DNS) records prior to pub
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The name you specify must be identical to the computer name configured on the server. By default the computer name of a computer that is not joined to a domain is a short name, not an FQDN. Topology Builder uses FQDNs, not short names. <STRONG>Use only standard characters</STRONG> (including A–Z, a–z, 0–9, and hyphens) when assigning FQDNs of your servers running Lync Server, Edge Servers, and pools. Do not use Unicode characters or underscores. Nonstandard characters in an FQDN are often not supported by external DNS and public certification authorities (CAs) (when the FQDN must be assigned to the SN in the certificate).
 
 
@@ -164,7 +164,7 @@ The table follows the reference architectures presented in the Planning section.
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > VIP = Virtual IP address for hardware load balancer
 
 

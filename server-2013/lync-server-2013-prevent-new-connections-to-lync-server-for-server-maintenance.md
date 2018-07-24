@@ -49,7 +49,7 @@ In addition to preventing new connections for all services on a server running L
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > When you set a server to prevent new connections, and then restart the server, by default the server will immediately begin accepting new connections after it starts. To prevent this, set the server to only pause and resume manually, before you restart the server.
 
 
@@ -73,7 +73,7 @@ In addition to preventing new connections for all services on a server running L
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > When you set a server to prevent new connections, and then restart the server, by default the server will immediately begin accepting new connections after it starts. To prevent this, set the server to only pause and resume manually, before you restart the server.
 
     

@@ -77,7 +77,7 @@ The following procedure describes how to use SQL Server Management Studio to res
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You do not need to restart the archiving or monitoring service.
 
     

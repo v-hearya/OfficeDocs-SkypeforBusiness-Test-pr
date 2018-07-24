@@ -26,7 +26,7 @@ To return a per-user policy that has the Identity “RedmondAccessPolicy”, use
     Get-CsExternalAccessPolicy -Identity "RedmondAccessPolicy"
 
 
-> [!NOTE]
+> [!NOTE]  
 > When referencing a per-user policy, the tag <STRONG>prefix</STRONG> is optional. This syntax, which includes the prefix, is also valid:<BR>Get-CsExternalAccessPolicy –Identity "tag:RedmondAccessPolicy"
 
 
@@ -52,7 +52,7 @@ The following cmdlets operate against both the global scope and the per-user (ta
   - [Get-CsVoicePolicy](https://technet.microsoft.com/en-us/library/gg398101\(v=ocs.15\))
 
 
-> [!NOTE]
+> [!NOTE]  
 > Despite the name, dial plans are, functionally speaking, policies. The term <EM>dial plan</EM> is used instead of, for example, dialing policy, in order to preserve the terminology used with previous versions of Lync Server.
 
 

@@ -29,7 +29,7 @@ _**Topic Last Modified:** 2013-02-25_
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > This topic assumes that you have already configured media bypass for any trunk connections to a peer (a public switched telephone network (PSTN) gateway, an IP-PBX, or a Session Border Controller (SBC) at an Internet Telephony Service Provider (ITSP)) for a specific site or service for which you want media to bypass the Mediation Server.<BR>You cannot configure media to always bypass the Mediation Server while also enabling call admission control. These settings are incompatible and are therefore mutually exclusive settings in the Lync Server Control Panel user interface.
 
 

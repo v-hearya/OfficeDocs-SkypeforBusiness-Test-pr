@@ -330,7 +330,7 @@ Some attributes have a bit-mask value. For these attributes, each setting is rep
 <p>The valid values are <strong>TRUE</strong> or <strong>FALSE</strong>.</p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > Live Communications Server 2003 does not support BENOTIFY requests. To interoperate with server applications written with the Live Communications Server 2003 server API running on Live Communications Server 2005 and third-party servers, BENOTIFY requests can be disabled by setting its value to <STRONG>FALSE</STRONG>. BENOTIFY is not currently part of the IETF (Internet Engineering Task Force) SIP standardization process.
 
 

@@ -37,7 +37,7 @@ Any of the following clients can be used to answer calls to Group Call Pickup me
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Users can use any of these clients to answer calls to Group Call Pickup members, but the users must be homed on a Lync Server 2013 pool with Cumulative Updates for Lync Server 2013: February 2013.
 
 

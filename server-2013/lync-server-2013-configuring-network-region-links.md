@@ -45,7 +45,7 @@ You can configure links between two network regions as part of call admission co
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This value must be unique within your Lync Server 2013 deployment.
 
     

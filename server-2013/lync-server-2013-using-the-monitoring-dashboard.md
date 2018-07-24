@@ -173,7 +173,7 @@ As noted, by default totals are shown for the current week and trend values are 
 <div>
 
 
-> [!TIP]
+> [!TIP]  
 > The Monitoring Dashboard restricts you to looking at totals for the current week (or month) and trend values for the past six weeks (or months). You cannot change these dates and times. For example, you cannot use the Dashboard to view report totals for the time period beginning nine months ago.
 
 
@@ -185,7 +185,7 @@ The values shown in the **This week**, **This month**, or **Today** columns link
 <div>
 
 
-> [!TIP]
+> [!TIP]  
 > You can also access the Monitoring Server Reports home page by clicking the <STRONG>Reports</STRONG> link in the upper right corner of the Dashboard.
 
 

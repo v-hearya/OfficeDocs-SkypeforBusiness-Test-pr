@@ -41,7 +41,7 @@ To configure CAC on a SIP trunk, you will have to perform the following tasks du
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For the ITSP, this network site configuration is not functional. Bandwidth policy values are actually applied in step 2.
 
     

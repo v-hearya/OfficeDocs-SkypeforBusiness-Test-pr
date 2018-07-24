@@ -31,7 +31,7 @@ After you publish your topology, the Lync Server Deployment Wizard needs access 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > After you install Lync Server 2013 on an Edge Server, you manage the Edge Server using the administrative tools in the internal network, which automatically replicate configuration to any Edge Servers in your deployment. The only exception is assigning and installing certificates and stopping and starting services, both of which must be done on the Edge Server.
 
 

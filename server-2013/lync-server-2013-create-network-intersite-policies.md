@@ -41,7 +41,7 @@ For details, see the Lync Server Management Shell documentation for the followin
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > A network intersite policy is required <EM>only</EM> if there is a direct cross link between two network sites.
 
 

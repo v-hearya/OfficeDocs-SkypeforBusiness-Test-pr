@@ -43,7 +43,7 @@ To get the maximum benefit from using the ABC pool failover procedure, you must 
     <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > In a separate location, keep a backup copy of all the original audio files that have been used to configure the Response Group application (that is, any recordings or music-on-hold files).
 
     
@@ -57,7 +57,7 @@ To get the maximum benefit from using the ABC pool failover procedure, you must 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The Call Park application can store only one set of settings and one customized music-on-hold audio file per pool. These settings can be accessed through the <STRONG>Get-CsCpsConfiguration</STRONG> cmdlet. Because the disaster recovery mechanism for Call Park relies on the Call Park application of the backup pool, the settings of the primary pool are not backed up or preserved if a disaster occurs. If the primary pool is lost, these settings cannot be recovered, and when a new pool is deployed to replace the primary pool, the Call Park settings and any customized music-on-hold audio file would need to be reconfigured.
 
     

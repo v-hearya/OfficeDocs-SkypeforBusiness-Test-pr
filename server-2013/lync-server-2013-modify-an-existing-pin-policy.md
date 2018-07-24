@@ -59,7 +59,7 @@ Follow these steps to modify a user-level or a site-level PIN policy.
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > We recommend that you do not allow common patterns.
 
     

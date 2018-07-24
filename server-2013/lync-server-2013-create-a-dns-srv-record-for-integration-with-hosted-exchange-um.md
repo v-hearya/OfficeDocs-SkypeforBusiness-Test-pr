@@ -41,7 +41,7 @@ This topic describes how to configure the Domain Name System (DNS) SRV record th
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > You must create the DNS SRV record in the SIP domain in which Lync Server is or will be installed. When you create the SRV record, the FQDN used for the Host offering this service field must be the external FQDN of the Edge pool. For example, if the external FQDN of your Edge pool is edge01.contoso.net, enter that value. This must also be in the same domain as the DNS Hosts (A) record.
 
     
@@ -62,7 +62,7 @@ This topic describes how to configure the Domain Name System (DNS) SRV record th
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The domain must also be set up as an authoritative, accepted domain in your Exchange Online settings. For details, see Create Accepted Domains at <A href="http://go.microsoft.com/fwlink/p/?linkid=229762">http://go.microsoft.com/fwlink/p/?linkId=229762</A>.
 
     

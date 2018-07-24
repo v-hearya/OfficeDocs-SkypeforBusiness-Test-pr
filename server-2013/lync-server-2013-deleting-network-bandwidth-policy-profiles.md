@@ -43,7 +43,7 @@ As part of call admission control (CAC), a bandwidth policy is used to define ba
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can delete more than one profile at a time. To do this, press CTRL and select multiple profiles while holding down the CTRL key. Or, to select all profiles, click <STRONG>Select all</STRONG> on the <STRONG>Edit</STRONG> menu.
 
     
@@ -54,7 +54,7 @@ As part of call admission control (CAC), a bandwidth policy is used to define ba
     <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > You cannot delete a bandwidth policy profile that is associated with a network site. You must first remove the association with the network site before you can delete the profile. For details about how to modify the network site, see <A href="lync-server-2013-creating-or-modifying-network-sites.md">Creating or modifying network sites in Lync Server 2013</A>.
 
     

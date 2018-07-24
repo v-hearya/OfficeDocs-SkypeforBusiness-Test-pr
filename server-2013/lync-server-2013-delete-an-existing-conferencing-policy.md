@@ -31,7 +31,7 @@ Follow these steps to delete a user-level or a site-level conferencing policy.
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You cannot delete the global conferencing policy.
 
 

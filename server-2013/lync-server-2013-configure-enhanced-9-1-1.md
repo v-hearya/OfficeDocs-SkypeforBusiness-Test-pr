@@ -35,7 +35,7 @@ For details about planning for an E9-1-1 deployment, see [Planning for emergency
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Lync Server 2013 only supports E9-1-1 within the United States. To deploy E9-1-1, you need to configure a SIP connection to a qualified E9-1-1 service provider, or deploy an emergency location identification number (ELIN) gateway to a public switched telephone (PSTN)-based E9-1-1 service provider. For details, see <A href="lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md">Enhanced 9-1-1 (E9-1-1) and Mediation Server in Lync Server 2013</A>. For details about configuring trunk connections, see <A href="lync-server-2013-configure-a-trunk-with-media-bypass.md">Configure a trunk with media bypass in Lync Server 2013</A>.
 
 

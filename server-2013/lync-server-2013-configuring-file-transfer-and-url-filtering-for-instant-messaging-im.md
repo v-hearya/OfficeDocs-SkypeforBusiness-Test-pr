@@ -49,7 +49,7 @@ Before you deploy the Intelligent IM Message Filter tool, you need to understand
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The instant message filter increases the amount of CPU resources required to process URLs in a message. This increase in CPU demand also affects the performance of Lync Server.
 
 
@@ -67,7 +67,7 @@ When an instant message travels from one server to another, the following genera
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you are running Lync Server 2013 in a mixed environment, Live Communications Server 2005 with SP1 is the minimum version required to use the Intelligent IM Filter application. The Intelligent IM Filter is not supported on Live Communications Server 2005 without SP1.
 
 
@@ -95,7 +95,7 @@ If you do not configure the instant message filter to perform any URL filtering,
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Filtering of file extensions is limited to standard file names. Filtering may not work with file extensions embedded in other names.
 
     
@@ -128,7 +128,7 @@ Filter transfer filtering affects both instant messages and conferences. For con
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Lync Server also offers file transfer setting options. This server-side option is offered in addition to the client-side controls available in Lync Server.
 
 
@@ -148,7 +148,7 @@ You can filter file transfers during instant message conversations, when you are
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Filtering of file extensions is limited to standard file names. Filtering may not work with file extensions embedded in other names.
 
 

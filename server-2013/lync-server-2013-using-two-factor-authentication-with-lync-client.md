@@ -88,7 +88,7 @@ When you’re finished using Lync, you can close the display, sign out of your s
 <td><p>Ends the Lync session associated with your user ID, but Lync continues to run in the background. When you sign out, the sign-in window will appear.</p>
 <div>
 
-> [!TIP]
+> [!TIP]  
 > Select <STRONG>Delete my sign-in information</STRONG> when you sign out to remove the record of your logon ID and password from the computer. Doing this might make it easier for support people to troubleshoot sign-in issues. It can also help ensure your sign-in information is more secure by making it difficult for unauthorized users to log on with your credentials.
 
 
@@ -125,7 +125,7 @@ Before you can sign in with a smart card, the card must be “enrolled”—that
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Since each virtual smart card is associated only with the device it’s installed on, a separate card will need to be enrolled for each Windows 8 computer you use.
 
 
@@ -143,7 +143,7 @@ Before you can sign in with a smart card, the card must be “enrolled”—that
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you’re using Internet Explorer 10, you may need to view this website in Compatibility Mode.
 
     
@@ -178,7 +178,7 @@ Before you can sign in with a smart card, the card must be “enrolled”—that
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If your technical support person has not given you a special PIN to use to enroll your smart card, use the default smart card PIN value, which is 12345678.
 
     
@@ -193,7 +193,7 @@ Before you can sign in with a smart card, the card must be “enrolled”—that
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If your technical support person has not given you a special PIN to use to enroll your smart card, use the default smart card PIN value, which is 12345678.
 
     
@@ -228,7 +228,7 @@ Before you use your smart card for the first time, it’s recommended that you c
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you were not assigned a smart card PIN number by your support person, use the default value, which is 12345678.
 
     

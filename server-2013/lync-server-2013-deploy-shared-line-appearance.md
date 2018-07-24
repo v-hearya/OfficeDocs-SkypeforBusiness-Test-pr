@@ -86,7 +86,7 @@ Shared Line Appearance (SLA) is a new feature in Lync Server 2013, Cumulative Up
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Note that what you specify for <CODE>-Identity</CODE> must be a valid existing Enterprise Voice-enabled user account.
 
     

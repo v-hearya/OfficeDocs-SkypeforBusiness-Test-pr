@@ -117,7 +117,7 @@ The Health section gives a visual indication of the health of the Lync Server co
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > <UL>
 > <LI>
 > <P>Setting changes are applied only after the LRS system is restarted.</P>

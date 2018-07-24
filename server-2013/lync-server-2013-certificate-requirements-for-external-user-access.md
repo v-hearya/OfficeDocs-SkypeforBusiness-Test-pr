@@ -41,7 +41,7 @@ Following are the requirements for the public certificate used for access and we
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For Lync Server 2013, this is no longer a requirement, but it is still recommended for compatibility with Office Communications Server.
 
     
@@ -54,7 +54,7 @@ Following are the requirements for the public certificate used for access and we
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Even though the certificate subject name is equal to the access Edge FQDN, the subject alternative name must also contain the access Edge FQDN because Transport Layer Security (TLS) ignores the subject name and uses the subject alternative name entries for validation.
 
         
@@ -69,7 +69,7 @@ Following are the requirements for the public certificate used for access and we
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The order of the FQDNs in the subject alternative names list does not matter.
 
     

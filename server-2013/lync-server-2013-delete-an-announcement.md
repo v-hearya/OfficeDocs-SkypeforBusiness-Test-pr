@@ -51,7 +51,7 @@ Use the following procedure to delete an announcement that is used for calls to 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For details about more options, see <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAnnouncement">Get-CsAnnouncement</A> and <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</A>.
 
     

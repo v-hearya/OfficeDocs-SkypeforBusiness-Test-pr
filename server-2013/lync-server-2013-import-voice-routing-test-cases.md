@@ -49,7 +49,7 @@ Test cases, which can be created by using Lync Server Control Panel, are typical
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Whenever you import a .vtest file, you must run the <STRONG>Commit all</STRONG> command to publish the test case. For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A> in the Operations documentation.
 
     

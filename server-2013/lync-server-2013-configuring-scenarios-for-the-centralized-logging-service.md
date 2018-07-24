@@ -31,7 +31,7 @@ Scenarios define the scope (that is, global, site, pool, or computer) and what p
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > For any given scope—site, global, pool or computer—you can run a maximum of two scenarios at any given time. To determine which scenarios are currently running, use Windows PowerShell and <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</A>. By using Windows PowerShell and <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsScenario">Set-CsClsScenario</A>, you can dynamically change which scenarios are running. You can modify which scenarios are running during a logging session to adjust or refine the data you are collecting and from which providers.
 
 
@@ -59,7 +59,7 @@ As introduced in [Overview of the Centralized Logging Service in Lync Server 201
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If you use the Name and Parent parameters, you cannot use the <STRONG>–Identity</STRONG> parameter.
 
     
@@ -102,7 +102,7 @@ As introduced in [Overview of the Centralized Logging Service in Lync Server 201
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > As it is known in Windows PowerShell, the convention for creating a hash table of values using <CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE> is known as <EM>splatting</EM>. For details about splatting in Windows PowerShell, see <A href="http://go.microsoft.com/fwlink/p/?linkid=267760">http://go.microsoft.com/fwlink/p/?LinkId=267760</A>.
 
     
@@ -165,7 +165,7 @@ The **Remove-CsClsScenario** cmdlet removes the specified scenario, but the trac
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The ClsController.psm1 module is provided as a separate Web download. The module is part of the Lync Server 2013 Debugging tools. By default, the debugging tools are installed in the directory C:\Program Files\Lync Server 2013\Debugging Tools.
 
     
@@ -178,7 +178,7 @@ The **Remove-CsClsScenario** cmdlet removes the specified scenario, but the trac
     <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > Successful loading of the module returns you to the Windows PowerShell command prompt. To confirm that the module is loaded and that Edit-CsClsScenario is available, type <CODE>Get-Help Edit-CsClsScenario</CODE>. You should see the basic synopsis of the syntax for EditCsClsScenario.
 
     
@@ -191,7 +191,7 @@ The **Remove-CsClsScenario** cmdlet removes the specified scenario, but the trac
     <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > Successful unloading of the module returns you to the Windows PowerShell command prompt. To confirm that the module is unloaded, type <CODE>Get-Help Edit-CsClsScenario</CODE>. Windows PowerShell will attempt to locate the help for the cmdlet and fail.
 
     

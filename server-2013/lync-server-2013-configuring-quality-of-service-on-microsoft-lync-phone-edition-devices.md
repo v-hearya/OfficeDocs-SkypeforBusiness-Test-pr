@@ -47,7 +47,7 @@ For Quality of Service purposes, only one of these properties is of interest: Vo
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The Voice8021p parameter is no longer supported in Lync Server 2013. The parameter is still valid for backward compatibility with Microsoft Lync Server 2010; however, it has no effect on devices used with Lync Server 2013.
 
 

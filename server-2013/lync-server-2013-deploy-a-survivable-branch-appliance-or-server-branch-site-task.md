@@ -31,7 +31,7 @@ Perform one of the two procedures described in this topic at the branch site, af
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > To perform this procedure, you must be a member of the RTCUniversalSBATechnicians group.
 
 
@@ -55,7 +55,7 @@ Perform one of the two procedures described in this topic at the branch site, af
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For information about installing Lync Server, see <A href="lync-server-2013-deploying-lync-server.md">Deploying Lync Server 2013</A> in the Deployment documentation.
 
     

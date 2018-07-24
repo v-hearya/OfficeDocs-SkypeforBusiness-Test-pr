@@ -47,7 +47,7 @@ To learn how to configure an analog gateway, see "Planning to Deploy Analog Devi
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > You can configure the switch for Enhanced 9-1-1 (E9-1-1), if the switch supports this.
 
 

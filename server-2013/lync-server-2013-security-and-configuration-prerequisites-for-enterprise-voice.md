@@ -47,7 +47,7 @@ Be sure that your environment is configured with the following administrative us
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Delegation enables more administrators to participate in your Lync Server deployment without opening up unnecessary access to resources.
 
     
@@ -58,7 +58,7 @@ Be sure that your environment is configured with the following administrative us
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For details about certificate requirements in Lync Server, see <A href="lync-server-2013-certificate-infrastructure-requirements.md">Certificate infrastructure requirements for Lync Server 2013</A> in the Planning documentation.
 
     
@@ -77,7 +77,7 @@ If you are newly deploying the Enterprise Voice workload at this time, before yo
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For examples of primary phone numbers required for Enterprise Voice deployment, see the <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Dial plans and normalization rules in Lync Server 2013</A> section of <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Dial plans and normalization rules in Lync Server 2013</A> in the Planning documentation.
 
 

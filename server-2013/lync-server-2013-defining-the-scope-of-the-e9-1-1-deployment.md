@@ -49,7 +49,7 @@ Before you configure Microsoft Lync Server 2013 for E9-1-1, you need to plan you
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Lync clients of users who connect to your organization’s network by using VPN can pick up internal IP address information, but because these addresses cannot be used to identify the user’s actual location, it is essential that VPN subnets are excluded from the Location Information service.
 
     

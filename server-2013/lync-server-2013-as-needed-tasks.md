@@ -117,7 +117,7 @@ To help organize the performance of as-needed tasks, see As-Needed Operations Ch
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > For detailed administration and management procedures, see the Microsoft Lync Server 2013 Administration Guide.
 
 

@@ -53,7 +53,7 @@ During a conference you can share your entire desktop, an individual application
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Participants who are viewing the conference can also take over and start sharing content during the meeting
 
 

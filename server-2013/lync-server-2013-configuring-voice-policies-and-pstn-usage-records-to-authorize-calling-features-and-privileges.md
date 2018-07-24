@@ -33,7 +33,7 @@ Voice policy scope can be either *Site* (which defines the default features and 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details, see <A href="lync-server-2013-voice-policies.md">Voice policies in Lync Server 2013</A> in the Planning documentation.
 
 

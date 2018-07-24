@@ -31,7 +31,7 @@ If you have implemented a disaster recovery topology with paired pools, and one 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > To reduce downtime and potential data loss, perform the restoration procedures described in this document only if troubleshooting procedures are not effective in identifying and correcting the problem. During troubleshooting, try to minimize the impact on other servers and components as you shut down and restart servers.
 
 
