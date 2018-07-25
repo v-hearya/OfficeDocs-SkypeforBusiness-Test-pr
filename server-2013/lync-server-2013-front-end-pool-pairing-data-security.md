@@ -55,7 +55,7 @@ Another possible solution is to use IPSec just to help secure the data sent by t
 <div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > IPsec is not intended as a replacement for application-level security, such as SSL/TLS. One advantage of using IPsec is that it can provide network traffic security for existing applications without having to change them. Enterprises that want to just secure the transport between the two data centers should consult their respective networking hardware vendors about ways to set up secure WAN connections by using the vendor’s equipment.
 
 

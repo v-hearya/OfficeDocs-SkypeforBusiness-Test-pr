@@ -18,13 +18,13 @@ Federation is a trust relationship between two or more SIP domains that permits 
 Use the procedures that follow to transition the federation route and the media traffic route from your Office Communications Server 2007 R2 Edge Server and Director to your Lync Server 2013 Edge Server, for a single-site deployment.
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Changing the federation route and media traffic route requires that you schedule maintenance downtime for the Lync Server 2013 and Office Communications Server 2007 R2 Edge Servers. This entire transition process also means that federated access will be unavailable for the duration of the outage. You should schedule the downtime for a time when you expect minimal user activity. You should also provide sufficient notification to your end users. Plan accordingly for this outage and set appropriate expectations within your organization.
 
 
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If your legacy Office Communications Server 2007 R2 Edge Server is configured to use the same FQDN for the Access Edge service, Web Conferencing Edge service, and the A/V Edge service, the procedures in this section to transition the federation setting to a Lync Server 2013 Edge Server are not supported. If the legacy Edge services are configured to use the same FQDN, you must first migrate all your users from Office Communications Server 2007 R2 to Lync Server 2013, then decommission the Office Communications Server 2007 R2 Edge Server before enabling federation on the Lync Server 2013 Edge Server. For details, see the following topics: 
 > <UL>
 > <LI>
@@ -35,7 +35,7 @@ Use the procedures that follow to transition the federation route and the media 
 
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If your XMPP federation is routed through a Lync Server 2013 Edge Server, legacy Office Communications Server 2007 R2 users will not be able to communicate with the XMPP federated partner until all users have been moved to Lync Server 2013, XMPP policies and certificates have been configured, the XMPP federated partner has been configured on Lync Server 2013, and lastly the DNS entries have been updated.
 
 
@@ -79,7 +79,7 @@ To successfully publish, enable, or disable a topology when adding or removing a
 5.  In **Specify External Edge**, clear the **This Edge pool is used for federation and public IM connectivity** check box. This will remove the federation association with the BackCompatSite.
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > This step is important. You must clear this option to remove the legacy federation association.
 
 
@@ -129,7 +129,7 @@ To successfully publish, enable, or disable a topology when adding or removing a
 2.  Expand the node, right-click the Edge Server listed, and then click **Edit Properties**.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Federation can only be enabled for a single Edge pool. If you have multiple Edge pools, select one to use as the federating Edge pool.
 
 
@@ -177,7 +177,7 @@ To successfully publish, enable, or disable a topology when adding or removing a
 3.  Wait for Active Directory replication to occur to all pools in the deployment.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You may see the following message:<BR><STRONG>Warning: The topology contains more than one Federated Edge Server. This can occur during migration to a more recent version of the product. In that case, only one Edge Server would be actively used for federation. Verify that the external DNS SRV record points to the correct Edge Server. If you want to deploy multiple federation Edge Server to be active concurrently (that is, not a migration scenario), verify that all federated partners are using Office Communications Server 2007 R2 or Lync Server. Verify that the external DNS SRV record lists all federation enabled Edge Servers.</STRONG><BR>This warning is expected and can be safely ignored.
 
 
@@ -205,7 +205,7 @@ To successfully publish, enable, or disable a topology when adding or removing a
 2.  Update the external firewall routing rules or the hardware load balancer settings to send SIP traffic for external access (usually port 443) and federation (usually port 5061) to the Lync Server 2013 Edge Server, instead of the legacy Edge Server.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve the new Lync Server Access Edge server. To accomplish this with minimum disruption, reduce the TTL value for the external Lync Server Access Edge FQDN so that when DNS is updated to point to the new Lync Server Access Edge server, federation and remote access will be updated quickly.
 
 

@@ -37,7 +37,7 @@ To implement Archiving, you need to first decide how to meet your organizationâ€
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you use Microsoft Exchange integration to store archived data, your Exchange settings control whether Lync communications are archived. If your deployment includes multiple forests, you must synchronize the settings between Lync Server and Exchange. Controlling archiving for internal or external communications is only available for Lync Policy. For Exchange-integrated archiving, both of them will be archived or not archived.
 
     
@@ -70,7 +70,7 @@ You control Archiving by using the following methods:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you use Microsoft Exchange integration, Exchange 2013 policies override Lync Server Archiving policies for all users homed on the Exchange 2013 servers.
 
     
@@ -85,7 +85,7 @@ If you deploy Archiving for one Front End pool or Standard Edition server, you s
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > To enable delegation of administrative tasks while maintaining your organization's security standards, Lync Server 2013&nbsp;uses role-based access control (RBAC). With RBAC, administrative privilege is granted by assigning users to predefined administrative roles. To configure Lync Archiving policies and Archiving configurations, the user must be assigned to the CsArchivingAdministrator role (unless the configuration is done directly on the server where Archiving is deployed, instead of remotely from another computer). For details about RBAC, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation. For a list of the user rights, permissions, and roles required for archiving deployment, see <A href="lync-server-2013-deployment-checklist-for-archiving.md">Deployment checklist for Archiving in Lync Server 2013</A>, which is available in both the Planning documentation and the Deployment documentation.<BR>If you use Microsoft Exchange integration, configuration of Exchange policies requires appropriate administrator rights and permissions. For details, see the Exchange 2013 documentation.
 
 

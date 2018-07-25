@@ -29,7 +29,7 @@ _**Topic Last Modified:** 2012-09-21_
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > This topic assumes that you have already configured media bypass for any trunk connections from the Mediation Server to a peer (a public switched telephone network (PSTN) gateway, an IP-PBX, or a Session Border Controller (SBC) at an Internet Telephony Service Provider (ITSP) for a specific site or service for which you want media to bypass the Mediation Server.<BR>This topic also assumes that you have defined all central sites and branch sites in Topology Builder in a way that matches the network region, network site, and subnet configuration that you performed according to the steps in <A href="lync-server-2013-create-or-modify-a-network-region.md">Create or modify a network region in Lync Server 2013</A>, <A href="lync-server-2013-create-or-modify-a-network-site.md">Create or modify a network site in Lync Server 2013</A>, and <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">Associate a subnet with a network site in Lync Server 2013</A>. If they do not match, then media bypass will not succeed.
 
 
@@ -45,7 +45,7 @@ In addition to enabling media bypass for individual trunk connections associated
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For details about the considerations for both call admission control and media bypass, see the "Call Admission Control of PSTN Connections" section in <A href="lync-server-2013-media-bypass-and-mediation-server.md">Media bypass and Mediation Server in Lync Server 2013</A> in the Planning documentation.
 
     
@@ -76,7 +76,7 @@ Furthermore, for bypass to work properly there must be consistency between a sit
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Select this check box only if you have one or more large sites associated with the same region that do not have bandwidth constraints (for example, a large central site), but you also have some branch sites associated with the same region that do have bandwidth constraints. When you enable bypass for non-mapped sites, configuration is streamlined in that you specify only the subnets associated with the branch sites, rather than needing to specify all subnets associated with all sites. We recommend that you do not select this check box if call admission control is enabled.
 
     
@@ -89,7 +89,7 @@ Next, add subnets to the network site, as described in [Associate subnets with n
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If you have not already created network regions and network sites, you must first create those before you can proceed with media bypass deployment. For details, see <A href="lync-server-2013-create-or-modify-a-network-region.md">Create or modify a network region in Lync Server 2013</A> and <A href="lync-server-2013-create-or-modify-a-network-site.md">Create or modify a network site in Lync Server 2013</A>.
 
 

@@ -31,7 +31,7 @@ This section guides you through installing Lync Server 2013 and setting up the s
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Before you can set up server roles, you must have successfully published a topology. For details about publishing a topology, see <A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">Finalizing and implementing the topology design in Lync Server 2013</A>.
 
 

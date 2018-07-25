@@ -49,7 +49,7 @@ If you have made any uncommitted changes to the settings on any page within the 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Whenever you import a voice configuration file, you must run the <STRONG>Commit all</STRONG> command to publish the configuration change. For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A> in the Operations documentation.
 
     

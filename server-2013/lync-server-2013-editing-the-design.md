@@ -53,7 +53,7 @@ The Planning Tool displays the site topology for the selected site. At the botto
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The information on the Site Summary page is customized for each design and may not contain all sections or information detailed here.
 
     

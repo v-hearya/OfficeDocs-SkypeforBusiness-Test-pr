@@ -55,7 +55,7 @@ A presence policy is a set of limits and restrictions that affect presence. The 
 <p>A setting of 0 means that the user or contact object cannot be subscribed to by others.</p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > This setting can have a significant impact on performance if it is set to a high number, and the average user has a large number of users subscribing to his or her presence.
 
 

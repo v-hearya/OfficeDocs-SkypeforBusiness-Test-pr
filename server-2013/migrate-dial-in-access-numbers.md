@@ -49,7 +49,7 @@ You must finish migrating dial-in access numbers that point to a Lync Server 201
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > You must perform this procedure prior to decommissioning the Lync Server 2010 pool.
 
 
@@ -59,7 +59,7 @@ You must finish migrating dial-in access numbers that point to a Lync Server 201
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > We recommend that you move dial-in access numbers when network usage is low, in case there is a short period of service outage.
 
 
@@ -85,7 +85,7 @@ You must finish migrating dial-in access numbers that point to a Lync Server 201
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > When all dial-in access numbers point to the Lync Server 2013 pool, you can then decommission the Lync Server 2010 pool.
 
     

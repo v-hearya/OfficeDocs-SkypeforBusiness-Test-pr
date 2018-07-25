@@ -39,7 +39,7 @@ The following list describes the requirements for implementing unified contact s
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For detailed requirements about setting up authentication between Lync Server 2013 and Exchange 2013, see <A href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Managing server-to-server authentication (OAuth) and partner applications in Lync Server 2013</A> in the Operations documentation.
 
     

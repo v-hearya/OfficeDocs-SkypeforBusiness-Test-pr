@@ -39,7 +39,7 @@ For details about configuring contact objects, see the Lync Server Management Sh
 <div class=" ">
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Before Lync Server 2013 contact objects can be enabled for hosted Exchange UM, a hosted voice mail policy that applies to them must be deployed. For details, see <A href="lync-server-2013-hosted-voice-mail-policies.md">Hosted voice mail policies in Lync Server 2013</A>.
 
 
@@ -71,7 +71,7 @@ For details about configuring contact objects, see the Lync Server Management Sh
         <div class=" ">
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Exchange UM contact objects cannot be moved to pools that are part of Lync Server 2013 deployments prior to Lync Server 2013.
 
         

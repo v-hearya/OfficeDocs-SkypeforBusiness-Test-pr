@@ -33,7 +33,7 @@ Use the following checklist to verify that you have completed all the necessary 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Edge servers are not required to implement CAC.
 
     

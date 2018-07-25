@@ -45,7 +45,7 @@ Use one of the following procedures to create or modify a call park orbit range.
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > After you commit the orbit range to the database, you cannot change this name.
 
         
@@ -58,7 +58,7 @@ Use one of the following procedures to create or modify a call park orbit range.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > <UL>
     > <LI>
     > <P>The beginning number of the range must be less than or equal to the ending number of the range.</P>

@@ -37,7 +37,7 @@ Lync Server Control Panel requires that Microsoft Silverlight browser plug-in ve
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Other software requirements for Lync Server Control Panel pertain to the operating system on which Lync Server Control Panel and all other Lync Server 2013 administrative tools can be installed. For details, see <A href="lync-server-2013-server-and-tools-operating-system-support.md">Server and tools operating system support in Lync Server 2013</A> in the Supportability documentation.
 
 

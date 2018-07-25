@@ -52,7 +52,7 @@ You use the EnableHotdesking parameter of the **New-CSClientPolicy** cmdlet or t
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > After this policy has been created, you must assign it to the appropriate common area phones. For details, see <A href="lync-server-2013-assign-policies-to-a-common-area-phone.md">Assign policies in Lync Server 2013 to a common area phone</A>.
 
 

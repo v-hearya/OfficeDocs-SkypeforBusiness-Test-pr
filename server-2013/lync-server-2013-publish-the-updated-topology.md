@@ -47,7 +47,7 @@ Before you publish your topology, install the databases for Persistent Chat Serv
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > After publishing the topology, you must configure support for Persistent Chat Server before any content can be archived.
 
     

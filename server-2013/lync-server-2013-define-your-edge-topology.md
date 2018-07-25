@@ -31,7 +31,7 @@ You must use Topology Builder to build your topology and you must set up at leas
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The internal Edge interface and external Edge interface must use the same type of load balancing. You cannot use DNS load balancing on one Edge interface and hardware load balancing on the other Edge interface.
 
 
@@ -45,7 +45,7 @@ If you defined your edge topology when you defined and published your internal t
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > You cannot run Topology Builder from an Edge Server. You must run it from your Front End Server or Standard Edition servers.
 
 
@@ -79,7 +79,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
         <div>
         
 
-        > [!IMPORTANT]
+        > [!IMPORTANT]  
         > The name you specify must be identical to the computer name configured on the server. By default the computer name of a computer that is not joined to a domain is a short name, not an FQDN. Topology Builder uses FQDNs, not short names. So, you must configure a DNS suffix on the name of the computer to be deployed as an Edge Server that is not joined to a domain. Use only standard characters (including A–Z, a–z, 0–9, and hyphens) when assigning FQDNs of your Lync Servers, Edge Servers, and pools. Do not use Unicode characters or underscores. Nonstandard characters in an FQDN are often not supported by external DNS and public CAs (when the FQDN must be assigned to the SN in the certificate). For details about adding a DNS suffix to a computer name, see <A href="lync-server-2013-configure-dns-for-edge-support.md">Configure DNS for edge support in Lync Server 2013</A>.
 
         
@@ -96,7 +96,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > You can select this option, but only one Edge pool or Edge Server in your organization can be published externally for federation. All access by federated users, including public instant messaging (IM) users, go through the same Edge pool or single Edge Server. For example, if your deployment includes an Edge pool or single Edge Server deployed in New York and one deployed in London and you enable federation support on the New York Edge pool or single Edge Server, signal traffic for federated users will go through the New York Edge pool or single Edge Server. This is true even for communications with London users, although a London internal user calling a London federated user uses the London pool or Edge Server for A/V traffic.
 
         
@@ -123,7 +123,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > If you choose this option, you must specify a different port number for each of the edge services (recommended port settings: 5061 for Access Edge service, 444 for Web Conferencing Edge service, and 443 for A/V Edge service). Selecting this option can help prevent potential connectivity issues, and simplify the configuration because you can then use the same port number (for example, 443) for all three services.
 
         
@@ -148,7 +148,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > If you did not choose to enable and assign IPv6 addressing, you will not see this dialog box.
 
         
@@ -159,7 +159,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This should be the external IP address of the A/V Edge service.
 
     
@@ -170,7 +170,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This should be the external IP address of the A/V Edge service.
 
     
@@ -183,7 +183,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Only one load-balanced Edge pool or single Edge Server can be associated with each internal pool for A/V traffic. If you already have an internal pool associated with an Edge pool or Edge Server, a warning appears indicating that the internal pool is already associated an Edge pool or Edge Server. If you select a pool that is already associated with another Edge Server, it will change the association.
 
     
@@ -214,7 +214,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
         <div>
         
 
-        > [!IMPORTANT]
+        > [!IMPORTANT]  
         > The name you specify for the pool must be the internal edge pool name. This must be defined as a FQDN. Topology Builder uses FQDNs, not short names. Use only standard characters (including A–Z, a–z, 0–9, and hyphens) when assigning FQDNs of your Lync Servers, Edge Servers, and pools. Do not use Unicode characters or underscores. Nonstandard characters in an FQDN are often not supported by external DNS and public CAs (when the FQDN must be assigned to the SN in the certificate).
 
         
@@ -231,7 +231,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > You can select this option, but only one Edge pool or Edge Server in your organization can be published externally for federation. All access by federated users, including public instant messaging (IM) users, go through the same Edge pool or single Edge Server. For instance, if your deployment includes an Edge pool or single Edge Server deployed in New York and one deployed in London and you enable federation support on the New York Edge pool or single Edge Server, signal traffic for federated users will go through the New York Edge pool or single Edge Server. This is true even for communications with London users, although a London internal user calling a London federated user uses the London pool or Edge Server for A/V traffic.
 
         
@@ -260,7 +260,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > If you choose this option, you must specify a different port number for each of the Edge services (recommended port settings: 5061 for Access Edge service, 444 for Web Conferencing Edge service, and 443 for A/V Edge service). By selecting this option, you can help prevent potential connectivity issues and simplify the configuration because you can then use the same port number (for example, 443) for all three services.
 
         
@@ -281,7 +281,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > The name you specify must be identical to the computer name configured on the server. By default, the computer name of a computer that is not joined to a domain is a short name, not an FQDN. Topology Builder uses FQDNs, not short names. So, you must configure a DNS suffix on the name of the computer to be deployed as an Edge Server that is not joined to a domain. Use only standard characters (including A–Z, a–z, 0–9, and hyphens) when assigning FQDNs of your Lync Servers, Edge Servers, pools, and arrays. Do not use Unicode characters or underscores. Nonstandard characters in an FQDN are often not supported by external DNS and public CAs (when the FQDN must be assigned to the SN in the certificate). For details about adding a DNS suffix to a computer name, see <A href="lync-server-2013-configure-dns-for-edge-support.md">Configure DNS for edge support in Lync Server 2013</A>.
 
         
@@ -306,7 +306,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you did not choose to enable and assign IPv6 addressing, you will not see this dialog box.
 
     
@@ -317,7 +317,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You will now see the first Edge Server you created in your pool in the <STRONG>Define the computers in this pool</STRONG> dialog box.
 
     
@@ -330,7 +330,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > At this point, you can see both of the Edge Servers in your pool.
 
     
@@ -341,7 +341,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This should be the external IP Address of the A/V Edge.
 
     
@@ -354,7 +354,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Only one load-balanced Edge pool or single Edge Server can be associated with each internal pool for A/V traffic. If you already have an internal pool associated with an Edge pool or Edge Server, a warning appears indicating that the internal pool is already associated an Edge pool or Edge Server. If you select a pool that is already associated with another Edge Server, it will change the association.
 
     
@@ -385,7 +385,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
         <div>
         
 
-        > [!IMPORTANT]
+        > [!IMPORTANT]  
         > The name you specify for the pool must be the internal edge pool name. This must be defined as a FQDN. Topology Builder uses FQDNs, not short names. Use only standard characters (including A–Z, a–z, 0–9, and hyphens) when assigning FQDNs of your Lync Servers, Edge Servers, and pools. Do not use Unicode characters or underscores. Nonstandard characters in an FQDN are often not supported by external DNS and public CAs (when the FQDN must be assigned to the SN in the certificate).
 
         
@@ -404,7 +404,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > You can select this option, but only one Edge pool or Edge Server in your organization may be published externally for federation. All access by federated users, including public instant messaging (IM) users, go through the same Edge pool or single Edge Server. For instance, if your deployment includes an Edge pool or single Edge Server deployed in New York and one deployed in London and you enable federation support on the New York Edge pool or single Edge Server, signal traffic for federated users will go through the New York Edge pool or single Edge Server. This is true even for communications with London users, although a London internal user calling a London federated user uses the London pool or Edge Server for A/V traffic.
 
         
@@ -427,7 +427,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > <STRONG>Do Not</STRONG> select the <STRONG>The external IP address of the Edge pool is translated by NAT</STRONG> check box. Network address translation (NAT) is not supported when you are using hardware load balancing.
 
     
@@ -440,7 +440,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > If you choose to select this option, you must specify a different port number for each of the Edge services (recommended port settings: 5061 for Access Edge service, 444 for Web Conferencing Edge service, and 443 for A/V Edge service). By selecting this option, you can help prevent potential connectivity issues and simplify the configuration because you can then use the same port number (for example, 443) for all three services.
 
         
@@ -451,7 +451,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > These will be the publicly facing virtual IP (VIP) FQDNs for the pool.
 
         
@@ -478,7 +478,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you did not choose to enable and assign IPv6 addressing, you will not see this dialog box.
 
     
@@ -489,7 +489,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You will now see the first Edge Server you created in your pool in the <STRONG>Define the computers in this pool</STRONG> dialog box.
 
     
@@ -502,7 +502,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > At this point, you can see both of the Edge Servers in your pool.
 
     
@@ -515,7 +515,7 @@ The process to define your Edge Server topology is done in Topology Builder. The
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Only one load-balanced Edge pool or single Edge Server can be associated with each internal pool for A/V traffic. If you already have an internal pool associated with an Edge pool or Edge Server, a warning appears indicating that the internal pool is already associated an Edge pool or Edge Server. If you select a pool that is already associated with another Edge Server, it will change the association.
 
     

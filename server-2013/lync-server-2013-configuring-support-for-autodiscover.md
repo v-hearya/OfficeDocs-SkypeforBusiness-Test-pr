@@ -33,7 +33,7 @@ The autodiscover service acts as a single location for all clients to request in
 <div>
 
 
-> [!TIP]
+> [!TIP]  
 > For technical details on what the elements within the autodiscover request/response do, see <A href="lync-server-2013-understanding-autodiscover.md">Understanding Autodiscover in Lync Server 2013</A>.
 
 

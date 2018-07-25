@@ -65,7 +65,7 @@ Deciding whether to deploy centralized or distributed SIP trunking requires a co
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details about why and how you might use distributed SIP trunking, see <A href="lync-server-2013-branch-site-sip-trunking.md">Branch site SIP trunking in Lync Server 2013</A> in the Planning documentation.
 
 

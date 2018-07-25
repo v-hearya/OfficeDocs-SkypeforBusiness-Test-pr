@@ -33,7 +33,7 @@ You use the Response Group Configuration Tool to create workflows. You can acces
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You must create agent groups and queues before you create a workflow that uses them.
 
 

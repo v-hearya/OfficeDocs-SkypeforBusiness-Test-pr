@@ -39,7 +39,7 @@ Before you run forest preparation, manually verify that the schema partition has
     <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > Alternatively, you can run <STRONG>adsiedit.msc</STRONG> from the command line.
 
     

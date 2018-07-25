@@ -43,7 +43,7 @@ After using the Deployment Wizard to install each Edge Server, install and assig
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you get a message saying that you need to install Microsoft Visual C++ Redistributable, click <STRONG>Yes</STRONG>. In the next dialog box, you can accept the default <STRONG>Installation Location</STRONG> or click the <STRONG>Browse</STRONG> to select an alternate location, and then click <STRONG>Install</STRONG>. In the next dialog box, select the <STRONG>I accept the terms in the license agreement</STRONG> check box, and then click <STRONG>OK</STRONG>.
 
     

@@ -152,7 +152,7 @@ You do not need to install watcher nodes in order to use System Center Operation
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Administrators can also run synthetic transactions manually, without needing to use, or install, Operations Manager. For details about the various Test-Cs cmdlets, see the <A href="https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps">Lync Server 2013 cmdlets index</A>.
 
 
@@ -164,7 +164,7 @@ Depending on the size of your deployment, synthetic transactions may use a large
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > A legacy Microsoft Lync Server 2010 watcher node cannot be collocated on the same machine with a Lync Server 2013 watcher node. This is because the core system files for Lync Server 2010 and Lync Server 2013 cannot be installed on the same computer.<BR>However, Lync Server 2013 watcher nodes can simultaneously monitor both Lync Server 2013 and Lync Server 2010. The Default synthetic transactions are supported on both product versions.
 
 

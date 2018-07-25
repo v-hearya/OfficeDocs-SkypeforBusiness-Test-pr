@@ -31,7 +31,7 @@ Use the following procedure to create or modify a call pickup group number range
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You must use Lync Server Management Shell to create, modify, remove, and view Group Call Pickup number ranges in the call park orbit table. Group Call Pickup number ranges are not available in Lync Server Control Panel.
 
 
@@ -41,7 +41,7 @@ Use the following procedure to create or modify a call pickup group number range
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The call pickup group number range must be assigned a type of GroupPickup. Users are enabled for Group Call Pickup only if the group number that they are assigned is type GroupPickup.
 
 
@@ -85,7 +85,7 @@ The call pickup group number ranges must comply with the following rules:
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Use this cmdlet to change the type assigned to number ranges only if you initially specified the incorrect type and the group range is not yet in use. If you change the number range from CallPark to GroupPickup or vice versa and the number range is already in use, either Call Park or Group Call Pickup will stop working for that number range. For example, if you change a number range from CallPark to GroupPick, the Call Park application can no longer use that range of orbits to park calls.
 
     

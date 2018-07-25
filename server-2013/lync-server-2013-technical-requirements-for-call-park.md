@@ -65,7 +65,7 @@ The Call Park application uses the following port:
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > This port is a default setting that you can change by using the <STRONG>Set-CsApplicationServer</STRONG> cmdlet. For details about this cmdlet, see the Lync Server Management Shell documentation.
 
 
@@ -83,7 +83,7 @@ The Call Park application supports only Windows Media Audio (.wma) files for mus
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The converted file plays over the phone only at 16 kHz, even if it was recorded at 44 kHz.
 
 

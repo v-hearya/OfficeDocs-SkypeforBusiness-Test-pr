@@ -41,7 +41,7 @@ Some Lync Server 2013 roles run Web Services on Internet Information Services (I
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can also use bootstrapper.exe or <STRONG>Enable-CsComputer</STRONG> to re-activate the server.
 
     

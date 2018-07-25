@@ -31,7 +31,7 @@ If you have configured support for federated partners, you can manage which spec
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > This procedure describes how to configure support for specific domains, but implementing support for federated users also requires that you enable support for federated users for your organization, and configure and apply policies to control which users can collaborate with federated users. For details about enabling support for federated users, see <A href="lync-server-2013-enable-or-disable-remote-user-access.md">Enable or disable remote user access in Lync Server 2013</A>. For details about configuring policies to control federation, see <A href="lync-server-2013-configure-policies-to-control-federated-user-access.md">Configure policies to control federated user access in Lync Server 2013</A>.
 
 
@@ -57,7 +57,7 @@ If you have configured support for federated partners, you can manage which spec
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > This name must be unique and cannot already exist as an allowed domain for this server running the Access Edge service. The name cannot exceed 256 characters in length.<BR>The search on the federated partner domain name performs a suffix match. For example, if you type <STRONG>contoso.com</STRONG>, the search will also return the domain <STRONG>it.contoso.com</STRONG>.<BR>A federated partner domain cannot simultaneously be blocked and allowed. Lync Server 2013 prevents this from happening so that you do not have to synch up your lists.
 
         

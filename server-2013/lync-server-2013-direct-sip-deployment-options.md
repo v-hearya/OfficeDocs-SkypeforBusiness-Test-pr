@@ -59,7 +59,7 @@ The following figure shows the generic topology for deployment of Enterprise Voi
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you are connecting your Lync Server deployment to a certified Direct SIP partner, a public switched telephone network (PSTN) gateway between the Mediation Server and the PBX is not required. For a list of certified Direct SIP partners, see the Microsoft Unified Communications Open Interoperability Program website at <A href="http://go.microsoft.com/fwlink/p/?linkid=203309">http://go.microsoft.com/fwlink/p/?linkId=203309</A>.
 
 
@@ -69,7 +69,7 @@ The following figure shows the generic topology for deployment of Enterprise Voi
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The media path shown in this figure has media bypass enabled (the recommended configuration). If you opt to disable media bypass, the media path is routed through the Mediation Server.
 
 
@@ -139,7 +139,7 @@ In this deployment, all calls are routed over the IP network. Calls to the PSTN 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In addition to the network infrastructure that is required to support Lync Server 2013, a VoIP-only deployment can use a small, qualified gateway to support fax machines and analog devices.
 
 
@@ -155,7 +155,7 @@ The following figure shows a typical topology for a VoIP-only deployment.
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The media path shown in this figure has media bypass enabled (the recommended configuration). If you opt to disable media bypass, the media path is routed through the Mediation Server.
 
 

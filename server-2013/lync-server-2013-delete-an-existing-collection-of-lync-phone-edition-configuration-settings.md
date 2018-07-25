@@ -31,7 +31,7 @@ If you no longer want to use a collection of settings for devices running Lync P
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Instead of deleting a collection, you might just want to change some of the settings. For details about how to do so, see <A href="lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md">Create or modify a collection of Lync Phone Edition configuration settings in Lync Server 2013</A>.
 
 
@@ -53,7 +53,7 @@ If you no longer want to use a collection of settings for devices running Lync P
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you delete the global collection, the settings just revert to the default settings. The collection does not go away.
 
     

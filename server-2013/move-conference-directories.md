@@ -55,7 +55,7 @@ Before decommissioning a pool, you need to perform the following procedure for e
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You may experience an error, shown below, that is caused by the Lync Server Management Shell requiring an updated set of permissions from Active Directory. To resolve the error, closed the current window and open a new Lync Server Management Shell and run the command again.
 
 

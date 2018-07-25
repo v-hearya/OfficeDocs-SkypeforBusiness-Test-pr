@@ -73,7 +73,7 @@ After a primary number is chosen, it must be:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > <STRONG>Coexisting with remote call control (RCC)</STRONG><BR>RCC is the ability to use Lync Server to monitor and control a desktop PBX phone. Control is routed through the server, which acts as a gateway to the PBX. Although you cannot configure a user for both RCC and Enterprise Voice, the Line URI setting designates a user’s primary phone number in either case.<BR>If you have an existing PBX infrastructure that you want selected users to continue using, you can introduce Enterprise Voice incrementally into your organization. For details about this deployment scenario, see <A href="lync-server-2013-direct-sip-deployment-options.md">Direct SIP deployment options in Lync Server 2013</A> in the Planning documentation.<BR>In previous releases, you could enable both RCC and Enterprise Voice for a user, but only if you also configured the user for dual forking, a feature in which an incoming call will ring a user’s PBX phone and Communicator simultaneously. In Lync Server 2010, dual-forking is not supported.
 
     
@@ -104,7 +104,7 @@ The expected format of the number specified in this attribute is:
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The normalization performed by the Address Book Service (ABS) does not replace or otherwise eliminate the need to normalize each user's primary phone number in Active Directory Domain Services because ABS does not have access to Active Directory Domain Services and therefore cannot copy primary numbers to the <STRONG>msRTCSIP-line</STRONG> attribute.
 
     

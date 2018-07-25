@@ -39,7 +39,7 @@ In Microsoft Lync Server 2013, however, photos can be stored in a user's Microso
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you have the resources, it is recommended that you upload 648x648 photos; that provides the maximum resolution and optimal picture quality in any of the Office 2013 applications. Each JPEG photo with a size of 648x648 and a depth of 24 bits results in a file size of approximately 240 kilobytes. That means you will need approximately 1 megabyte of disk space for every 4 user photos.
 
 
@@ -57,7 +57,7 @@ The first command in the preceding example uses the Get-Content cmdlet to read t
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In this example, Ken Myer's Active Directory display name is used as the user account Identity. You can also reference a user account by using other identifiers such as the user's SMTP address or his or her User Principal Name. See the documentation for the Set-UserPhoto cmdlet at <A href="http://go.microsoft.com/fwlink/p/?linkid=268536">http://go.microsoft.com/fwlink/p/?LinkId=268536</A> for more information
 
 

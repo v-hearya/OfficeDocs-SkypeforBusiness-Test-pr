@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure Lync Server 2013 to work with Unified Messaging on Microsoft Exchange Server'
 TOCTitle: Configure Lync Server 2013 to work with Unified Messaging on Microsoft Exchange Server
 ms:assetid: 1098ae4d-f57f-44f3-804e-39889d9fc14e
@@ -21,8 +21,6 @@ mtps_version: v=OCS.15
 <div id="mainSection">
 
 <div id="mainBody">
-
-<span> </span>
 
 _**Topic Last Modified:** 2013-04-03_
 
@@ -158,7 +156,7 @@ To verify that the contact objects have been created, open Active Directory User
 
 </div>
 
-<span> </span>
+<span> </span>
 
 </div>
 

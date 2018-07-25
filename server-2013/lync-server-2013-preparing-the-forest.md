@@ -33,7 +33,7 @@ Forest preparation also creates objects that contain property sets and display s
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Make sure that schema preparation changes have replicated to all domain controllers before performing the forest preparation procedure. If replication is not completed, an error occurs.
 
 

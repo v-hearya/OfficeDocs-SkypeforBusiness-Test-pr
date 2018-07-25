@@ -71,7 +71,7 @@ Use the procedures in this section to prepare the Lync Server 2013 Front End Se
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The initial installation may take some time with no visible updates to the command output summary screen. This is due to the installation of the SQL Server Express. If you need to monitor the installation of the database, use Task Manager to monitor the setup.
 
     
@@ -102,7 +102,7 @@ Use the procedures in this section to prepare the Lync Server 2013 Front End Se
     <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > If <CODE>Enable-CsTopology</CODE> is not successful, resolve the problem preventing the command from completing before continuing. If <STRONG>Enable-CsTopology</STRONG> is not successful, the move will fail and it may leave your topology in a state where there is no Central Management store.
 
     
@@ -133,7 +133,7 @@ Use the procedures in this section to prepare the Lync Server 2013 Front End Se
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The replication may take some time to update all current replicas.
 
     
@@ -152,7 +152,7 @@ Use the procedures in this section to prepare the Lync Server 2013 Front End Se
     <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Do not proceed with the removal of the previous database files until replication is complete and is stable. If you remove the files prior to completing replication, you will disrupt the replication process and leave the newly moved Central Management Server in an unknown state. Use the cmdlet <STRONG>Get-CsManagementStoreReplicationStatus</STRONG> to confirm the replication status.
 
     

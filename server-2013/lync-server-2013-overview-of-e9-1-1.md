@@ -43,7 +43,7 @@ When you use an ELIN gateway, you also add ERLs to the Location Information serv
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Lync-connected analog devices cannot receive location information from the Location Information service or transmit location to the E9-1-1 service provider. If you use the SIP trunk E9-1-1 service provider option and need to support E9-1-1 from analog phones, you have two options: 
 > <UL>
 > <LI>

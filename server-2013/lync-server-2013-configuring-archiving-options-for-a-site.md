@@ -33,7 +33,7 @@ For details about how Archiving configurations work, including the hierarchy for
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You should specify all appropriate options in the Archiving configurations before enabling Archiving.
 
 
@@ -43,7 +43,7 @@ For details about how Archiving configurations work, including the hierarchy for
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > To enable archiving, you must specify archiving policies to control the archiving of internal and external communications at the global level and, if appropriate, at site and user levels. If you configure user-level policies, you must also assign the user policies to specific users. For details about creating and configuring archiving policies, see <A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Managing the Archiving of internal and external communications in Lync Server 2013</A> in the Operations documentation.
 
 

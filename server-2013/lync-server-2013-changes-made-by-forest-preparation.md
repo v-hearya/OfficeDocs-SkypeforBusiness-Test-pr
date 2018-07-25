@@ -229,7 +229,7 @@ Forest preparation creates both private and public ACEs. It creates private ACEs
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > <STRONG>*</STRONG>ACEs that are not inherited do not grant access to child objects under these containers. ACEs that are inherited grant access to child objects under these containers.
 
 

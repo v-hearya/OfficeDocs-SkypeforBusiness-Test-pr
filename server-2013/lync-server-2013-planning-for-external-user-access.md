@@ -37,7 +37,7 @@ Depending on your requirements, you can deploy one or more Edge Servers in one o
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Although you need an Edge Server to support Enterprise Voice and external user access, this section focuses on support for IM, presence, A/V conferencing, federation, web conferencing, and Lync Mobile. For details about support for Enterprise Voice, see <A href="lync-server-2013-planning-for-enterprise-voice.md">Planning for Enterprise Voice in Lync Server 2013</A> in the Planning documentation.
 
 

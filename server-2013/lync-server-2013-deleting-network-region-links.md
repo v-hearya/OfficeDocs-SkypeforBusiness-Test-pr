@@ -43,7 +43,7 @@ You can configure links between two network regions as part of call admission co
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can delete more than one region link at a time. To do this, press CTRL and select multiple region links while holding down the CTRL key. Or, to select all region links, click <STRONG>Select all</STRONG> on the <STRONG>Edit</STRONG> menu.
 
     

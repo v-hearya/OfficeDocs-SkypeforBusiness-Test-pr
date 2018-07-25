@@ -91,7 +91,7 @@ Lync Server provides a way to manipulate the caller ID for outbound calls. For e
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For calls that are rerouted over the PSTN, the generic caller ID will be presented instead of the original caller ID. This can cause the call to bypass Do Not Disturb or privacy settings that the callee may have configured.
 
 

@@ -49,7 +49,7 @@ Use the following procedure to disable Enterprise Voice for a user account that 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > To restrict a user from making audio or video calls by using Lync, under <STRONG>Telephony</STRONG>, click <STRONG>Audio/video disabled</STRONG>.
 
     

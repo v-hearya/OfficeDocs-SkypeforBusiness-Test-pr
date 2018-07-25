@@ -43,7 +43,7 @@ You cannot collocate Exchange UM with Lync Server 2013 or a Lync Server 2013 dat
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Exchange UM may not be required for Enterprise Voice deployments that have a PBX deployed, because the PBX can continue to provide voice mail and related services to all users. If you eventually retire the PBX (for example, if you deploy SIP trunking for public switched telephone network (PSTN) connectivity), you must reconfigure Exchange UM to provide voice mail to users who previously used the PBX voice mail system.
 
 

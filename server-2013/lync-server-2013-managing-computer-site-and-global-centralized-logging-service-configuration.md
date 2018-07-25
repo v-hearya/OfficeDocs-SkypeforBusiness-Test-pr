@@ -39,7 +39,7 @@ For example:
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Windows PowerShell provides you more options and additional configuration options that are not available by using CLSController.exe. CLSController offers a quick, concise method to run commands, but is limited to the set of commands available for the CLSController. Windows PowerShell is not limited to just the command available to the command processor of the CLSController, and provides a wider set of commands and a richer set of options. For example, CLSController.exe does provide you with a scope options for –computers and –pools. With Windows PowerShell, you can indicate computers or pools in most commands, and when you define new scenarios (CLSController has a finite number of scenarios that are not user modifiable) you can define a site or global scope. This powerful feature of Windows PowerShell enables you to define a scenario a site or global scope, but limit the actual logging to a computer or pool.<BR>There are fundamental differences between the command-line commands that you can run in Windows PowerShell or CLSController. Windows PowerShell provides a rich method to configure and define scenarios, and to reuse those scenarios in a meaningful way for your troubleshooting scenarios. While CLSController does provide a fast and efficient way to issue commands and get results, the command set for CLSController is limited by the finite commands that you have available from the command line. Unlike the Windows PowerShell cmdlets, CLSController cannot define new scenarios, manage scope at a site or global level, and many other limitations of a finite command set that cannot be dynamically configured. While CLSController provides a means for fast execution, Windows PowerShell provides a means to extend the Centralized Logging Service functionality beyond what is possible with CLSController.
 
 
@@ -51,7 +51,7 @@ A single computer scope can be defined during the execution of a [Search-CsClsLo
 <div>
 
 
-> [!TIP]
+> [!TIP]  
 > You can also define –Pools and a comma separated list of pools that you want to run the logging commands on.
 
 
@@ -63,7 +63,7 @@ Site and Global scopes are defined in the **New-**, **Set-**, and **Remove-** Ce
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The commands shown may contain parameters and concepts that are covered in other sections. The example commands are intended to demonstrate the use of the <STRONG>–Identity</STRONG> parameter to define scope, and the other parameters are included for completeness and to specify the scope. For details about the <STRONG>Set-CsClsConfiguration</STRONG> cmdlets, see <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration">Set-CsClsConfiguration</A> in the Operations documentation.
 
 
@@ -155,7 +155,7 @@ The command tells the CLSAgent on each computer and pool in the deployment to se
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > As noted in the example, the default location of the log files is %TEMP%\Tracing. However, because it is actually CLSAgent that is writing the file and CSLAgent runs as Network Service, the %TEMP% variable expands to %WINDIR%\ServiceProfiles\NetworkService\AppData\Local.
 
     
@@ -178,7 +178,7 @@ The command tells the CLSAgent on each computer and pool in the site Redmond to 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > New-CsClsConfiguration provides access to a large number of optional configuration settings. For details about the configuration options, see <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration">Get-CsClsConfiguration</A> and <A href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Understanding Centralized Logging Service configuration settings in Lync Server 2013</A>.
 
     
@@ -209,7 +209,7 @@ You should carefully plan the creation of new configurations and how you define 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This is the new configuration that was created in the procedure "To create a new Centralized Logging Service configuration."
 
     

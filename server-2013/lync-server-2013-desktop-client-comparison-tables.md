@@ -49,7 +49,7 @@ These tables indicate the features that are available to Lync users in an on-pre
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > See <A href="lync-server-2013-mobile-client-comparison-tables.md">Mobile client comparison tables for Lync Server 2013</A> for details about feature availability in Lync 2013 mobile clients.
 
 
@@ -59,7 +59,7 @@ These tables indicate the features that are available to Lync users in an on-pre
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > <UL>
 > <LI>
 > <P>For details about Skype for Business Online subscription plans, see the Skype for Business Online Service Description at <A href="https://go.microsoft.com/fwlink/p/?linkid=282430">https://go.microsoft.com/fwlink/p/?LinkId=282430</A>.</P>
@@ -674,7 +674,7 @@ These tables indicate the features that are available to Lync users in an on-pre
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > <UL>
 > <LI>
 > <P>Lync meeting features are not available in Skype for Business Online Standalone Plan 1.</P>
@@ -1125,7 +1125,7 @@ These tables indicate the features that are available to Lync users in an on-pre
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Lync Voice features are limited to certain Skype for Business Online subscription plans. For details, see the “Lync Voice Features” topic in the Skype for Business Online Service Description at <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>.
 
 

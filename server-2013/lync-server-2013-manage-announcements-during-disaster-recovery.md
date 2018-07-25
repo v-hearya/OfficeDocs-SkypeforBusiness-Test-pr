@@ -62,7 +62,7 @@ To use the Announcement application during an outage, you need to recreate the a
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > We recommend that you perform these tasks after you fail over to the backup pool, because as soon as you perform step 2, the backup pool takes ownership of the unassigned number ranges.
 
 
@@ -72,7 +72,7 @@ To use the Announcement application during an outage, you need to recreate the a
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > These steps are not required for number ranges that use an Exchange UM Auto Attendant phone number.
 
 
@@ -90,7 +90,7 @@ To use the Announcement application during an outage, you need to recreate the a
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For details about using these parameters to create announcements in the backup pool, see <A href="lync-server-2013-create-an-announcement.md">Create an announcement in Lync Server 2013</A>.
 
     
@@ -113,7 +113,7 @@ When the primary pool becomes available, you need to redirect the unassigned num
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > These steps are not required for number ranges that use an Exchange UM Auto Attendant phone number.
 
 

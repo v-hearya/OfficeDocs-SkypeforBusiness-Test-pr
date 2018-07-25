@@ -31,7 +31,7 @@ If a Standard Edition server that does not host the Central Management store fai
 <div>
 
 
-> [!TIP]
+> [!TIP]  
 > We recommend that you take an image copy of the system before you start restoration. You can use this image as a rollback point, in case something goes wrong during restoration. You might want to take the image copy after you install the operating system and SQL Server, and restore or re-enroll the certificates.
 
 
@@ -47,7 +47,7 @@ If a Standard Edition server that does not host the Central Management store fai
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Follow your organization's server deployment procedures to perform this step.
 
     
@@ -60,7 +60,7 @@ If a Standard Edition server that does not host the Central Management store fai
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The path and file name for the restored File Store should be exactly the same as the backed up File Store so that components that use the files can access them.
 
     

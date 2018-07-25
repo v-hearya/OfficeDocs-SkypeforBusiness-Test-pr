@@ -31,7 +31,7 @@ If a user has been enabled for Lync Server, you can configure SIP federation, XM
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > To support external user access, you must enable support for each type of external user access you want to support, and configure the appropriate policies and other options to control its use. For details, see <A href="lync-server-2013-configuring-support-for-external-user-access.md">Configuring support for external user access in Lync Server 2013</A> in the Deployment documentation or <A href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Managing federation and external access to Lync Server 2013</A> in the Operations documentation.
 
 
@@ -57,7 +57,7 @@ Use the procedure in this topic to apply a previously created external user acce
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The <STRONG>&lt;Automatic&gt;</STRONG> settings apply the default server or global policy settings.
 
     

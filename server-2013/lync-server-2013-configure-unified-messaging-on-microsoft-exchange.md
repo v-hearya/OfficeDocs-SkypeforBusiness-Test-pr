@@ -31,7 +31,7 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The cmdlet examples in this topic provide syntax for the Exchange 2007 version of Exchange Management Shell. If you are running Exchange 2010 or Exchange 2013, see the appropriate documentation as referenced.
 
 
@@ -47,7 +47,7 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
     <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > If you set your security setting value to <STRONG>SIP Secured</STRONG> to require encryption for SIP traffic only, as previously recommended, note that this security setting on a dial plan is insufficient if the Front End pool is configured to require encryption, which means the pool requires encryption for both SIP and RTP traffic. When the dial plan and pool security settings are not compatible, all calls to Exchange UM from the Front End pool will fail, resulting in an error indicating that you have an "Incompatible security setting."
 
     
@@ -68,7 +68,7 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Whether you select a security level of <STRONG>SIPSecured</STRONG> or <STRONG>Secured</STRONG> depends on whether secure real-time transport protocol (SRTP) is activated or deactivated for media encryption. For the Lync Server 2010 integration with Exchange UM, this should correspond to the encryption level in the Lync Server media configuration. The Lync Server media configuration can be viewed by running the <STRONG>Get-CsMediaConfiguration</STRONG> cmdlet. For details, see Get-CsMediaConfiguration in the Lync Server Management Shell documentation.<BR>For details about selecting the appropriate VoIP Security setting, see <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">Deployment process for integrating on-premises Unified Messaging and Lync Server 2013</A>.
 
     
@@ -93,7 +93,7 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Lync Server dial plan names must match UM dial plan names only if the UM dial plan is running on a version of Exchange <EM>earlier</EM> than Exchange 2010 SP1.
 
     
@@ -119,7 +119,7 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Before you perform the following step, make sure that all Enterprise Voice users have been configured with an Exchange Server mailbox.<BR>For Exchange 2007, see the Exchange Server 2007 TechNet Library at <A href="http://go.microsoft.com/fwlink/p/?linkid=268685">http://go.microsoft.com/fwlink/p/?LinkId=268685</A>.<BR>For Exchange 2010, see the Exchange Server 2010 TechNet Library at <A href="http://go.microsoft.com/fwlink/p/?linkid=268686">http://go.microsoft.com/fwlink/p/?LinkId=268686</A>.<BR>When specifying a mailbox policy for each dial plan that you created in step 1, select either the default policy or one that you have created.
 
     
@@ -140,7 +140,7 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Be sure to restart the <STRONG>Lync Server Front-End</STRONG> service (rtcsrv.exe) <EM>after</EM> you run exchucutil.ps1. Otherwise, Lync Server will not detect Unified Messaging in the topology.
 
     
@@ -151,7 +151,7 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This step is necessary to make sure that outbound calls by the server running Exchange Server Unified Messaging to external users (for example, as is the case with play-on-phone scenarios) reliably traverse the corporate firewall.
 
     
@@ -160,7 +160,7 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > When selecting the UM IP gateway through which to allow outgoing calls, choose the one that is likely to handle the most traffic. Do not allow outgoing traffic through an IP gateway that connects to a pool of Lync Server Directors. Also avoid pools in another central site or a branch site. You can use either of the following methods to block outgoing calls from passing through an IP gateway:
 
     
@@ -179,7 +179,7 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If your UM SIP URI dial plan is associated with only a single IP gateway, do not disallow outgoing calls through this gateway.
 
     
@@ -190,7 +190,7 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Do not include any spaces in the name of the auto attendant.
 
     
@@ -211,7 +211,7 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The <STRONG>SIPResourceIdentifier</STRONG> in the following sample must be the SIP address of the Lync Server user.
 
     

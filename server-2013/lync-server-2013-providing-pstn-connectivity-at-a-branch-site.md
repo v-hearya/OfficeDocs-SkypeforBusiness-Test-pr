@@ -33,7 +33,7 @@ If you are not using the Planning Tool, use the procedures in the topics in this
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you want to provide branch-site resiliency, you must deploy a Survivable Branch Appliance, a Survivable Branch Server, or Standard Edition server at the branch site. For details, see <A href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">Deploying a Survivable Branch Appliance or Server with Lync Server 2013</A> or <A href="lync-server-2013-deploying-lync-server.md">Deploying Lync Server 2013</A>, as appropriate, in the Deployment documentation.
 
 

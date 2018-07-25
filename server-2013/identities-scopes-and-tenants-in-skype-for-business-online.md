@@ -85,7 +85,7 @@ Per-user policies must be created for you by Office 365 Support. After the polic
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The tag <STRONG>prefix</STRONG> dates back to the early development days of Lync Server 2010. In those days, per-user policies were referred to as <EM>tag policies</EM> and were identified by the tag <STRONG>prefix</STRONG>. These policies are now more accurately referred to as <EM>per-user policies</EM>, and the tag scope is more accurately referred to as the <EM>per-user scope</EM>. However, for technical reasons, the tag <STRONG>prefix</STRONG> was never changed.
 
 

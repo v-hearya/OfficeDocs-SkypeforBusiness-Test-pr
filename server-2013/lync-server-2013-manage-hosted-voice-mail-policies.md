@@ -31,7 +31,7 @@ A *hosted voice mail policy* provides information to the Lync Server 2013 ExUM R
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Typically, only one hosted voice mail policy is required. In many cases, you can modify the global policy to meet all your needs. If you create a policy with site scope, it is assigned automatically to all users homed at the specified site. If you create a policy with per-user scope, you must explicitly assign it to users, groups, and contact objects. It is possible to deploy multiple hosted voice mail policies, but in that case the policies must be assigned on a per-user basis.
 
 

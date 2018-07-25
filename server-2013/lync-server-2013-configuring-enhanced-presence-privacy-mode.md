@@ -31,7 +31,7 @@ With enhanced presence privacy mode, users can restrict their presence informati
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Lync 2013 and Lync 2010 privacy settings are not honored by previous versions (Microsoft Office Communicator 2007 R2 or Microsoft Office Communicator 2007). If previous versions of Office Communicator are allowed to sign in, a Lync 2013 user’s status, contact information, or picture could be viewed by someone who has not been authorized to view it. Additionally, a Lync 2013 user’s privacy settings are reset if he or she later signs in with previous version of Communicator.<BR>For these reasons, in a migration scenario, before you enable enhanced presence privacy mode: 
 > <UL>
 > <LI>

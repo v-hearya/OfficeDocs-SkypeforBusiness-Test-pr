@@ -31,7 +31,7 @@ The Tenants table is a supporting table that stores a list of the various tenant
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In on-premises deployment, CDR uses the build-in Tenant ID to indicate different authentication type, such as public IM connectivity, Federated and Anonymous.
 
 

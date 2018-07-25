@@ -29,7 +29,7 @@ _**Topic Last Modified:** 2012-09-05_
 <div class=" ">
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If you have already created network sites for E9-1-1 or media bypass, you can modify the existing network sites to apply a bandwidth policy profile by using the <STRONG>Set-CsNetworkSite</STRONG> cmdlet. For an example of how to modify a network site, see <A href="lync-server-2013-create-or-modify-a-network-site.md">Create or modify a network site in Lync Server 2013</A>.
 
 
@@ -45,7 +45,7 @@ To view the example network topology, see [Example: Gathering your requirements 
 <div class=" ">
 
 
-> [!NOTE]
+> [!NOTE]  
 > In the following procedure, Lync Server Management Shell is used to create a network site. For details about using Lync Server Control Panel to create a network site, see <A href="lync-server-2013-create-or-modify-a-network-site.md">Create or modify a network site in Lync Server 2013</A>.
 
 

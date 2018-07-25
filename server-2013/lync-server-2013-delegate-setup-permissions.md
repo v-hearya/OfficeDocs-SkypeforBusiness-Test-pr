@@ -35,7 +35,7 @@ Keep in mind that this cmdlet only grants permissions to the RTCUniversalServerA
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > <STRONG>Enable-CsTopology</STRONG> is the key cmdlet to allow the RTCUniversalServerAdmins group members to set up and deploy Lync Server 2013.
 
 
@@ -57,7 +57,7 @@ Keep in mind that this cmdlet only grants permissions to the RTCUniversalServerA
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If the OU is not top level, you must provide the full domain name.
 
     

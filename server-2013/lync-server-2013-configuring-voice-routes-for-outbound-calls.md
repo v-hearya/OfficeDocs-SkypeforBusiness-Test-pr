@@ -41,7 +41,7 @@ A Lync Server 2013 voice route associates destination phone numbers with one or 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can only view detailed information for a single route at a time.
 
     
@@ -70,7 +70,7 @@ A Lync Server 2013 voice route associates destination phone numbers with one or 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details, see <A href="lync-server-2013-voice-routes.md">Voice routes in Lync Server 2013</A> in the Planning documentation.
 
 

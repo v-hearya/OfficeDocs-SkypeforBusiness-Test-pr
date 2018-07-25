@@ -43,7 +43,7 @@ A public switched telephone network (PSTN) usage record specifies a class of cal
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > A read-only page of the selected PSTN usage record shows the associated routes and associated voice policies.
 
     

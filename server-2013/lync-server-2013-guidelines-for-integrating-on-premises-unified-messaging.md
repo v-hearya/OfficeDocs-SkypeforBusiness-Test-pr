@@ -31,7 +31,7 @@ The following are guidelines and best practices to consider when you deploy Ente
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Exchange Unified Messaging (UM) supports IPv6 only if you are also using UCMA 4.
 
 
@@ -47,7 +47,7 @@ The following are guidelines and best practices to consider when you deploy Ente
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > When Exchange Unified Messaging (UM) is installed, it is configured to use a self-signed certificate.<BR>The self-signed certificate, however, does not enable Lync Server 2013 and Exchange UM to trust each other, which is why it is necessary to request a separate certificate from a certification authority that both servers trust.
 
     
@@ -68,7 +68,7 @@ The following are guidelines and best practices to consider when you deploy Ente
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > We recommend that you deploy a minimum of two servers on which Exchange UM services is running for each Exchange UM SIP URI dial plan that you configure for your organization. In addition to providing expanded capacity, deploying redundant servers provides high availability. In the event of an server failure, Lync Server 2013 can be configured to fail over to another server.
 
 
@@ -86,7 +86,7 @@ In Example 1, Exchange UM servers 1 and 2 are enabled in the Tukwila data center
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For Example 1, you should also assign one of following certificate on each Exchange UM server: 
 > <UL>
 > <LI>

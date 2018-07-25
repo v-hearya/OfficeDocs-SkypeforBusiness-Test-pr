@@ -45,7 +45,7 @@ Network requirements for audio/video (A/V) in a Lync Server deployment include t
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If you have an Edge pool and are using a hardware load balancer, you must use public IP addresses on each of the Edge Servers and you cannot use NAT for the servers or the pool at your NAT device (for example, the firewall, or other infrastructure device that would NAT inbound or outbound traffic). For details, see <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Port summary - Scaled consolidated edge with hardware load balancers in Lync Server 2013</A> in the Planning for External User Access documentation.
 
     

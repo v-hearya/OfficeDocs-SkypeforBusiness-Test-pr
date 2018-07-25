@@ -31,7 +31,7 @@ With Lync Server 2013, you use Device Update Web service to view and manage soft
 <div>
 
 
-> [!TIP]
+> [!TIP]  
 > Before deploying a new update to your organization, verify that it functions correctly on a test device.
 
 

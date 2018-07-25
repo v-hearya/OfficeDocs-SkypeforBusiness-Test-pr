@@ -43,7 +43,7 @@ The Centralized Logging Service is a new feature in Lync Server 2013. It is an e
         <div>
         
 
-        > [!TIP]
+        > [!TIP]  
         > If you are familiar with OCSLogger, the term <EM>providers</EM> refers to the collection of <STRONG>components</STRONG> (for example, S4, SIPStack), a <STRONG>logging type</STRONG> (for example, WPP, EventLog, or IIS logfile), a <STRONG>tracing level</STRONG> (for example, All, verbose, debug), and <STRONG>flags</STRONG> (for example, TF_COMPONENT, TF_DIAG). These items are defined in the provider (a Windows PowerShell variable) and passed into the Centralized Logging Service command.
 
         

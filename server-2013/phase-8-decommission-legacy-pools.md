@@ -33,7 +33,7 @@ For exhaustive coverage of removing Lync Server 2010 servers and server roles, a
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > For information on migrating and upgrading Microsoft Unified Communications Managed API (UCMA) applications, prior to decommissioning your legacy environment, see <A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A>
 
 

@@ -49,7 +49,7 @@ Configuration settings consist of the collection name, scope (global or site), S
         <div>
         
 
-        > [!TIP]
+        > [!TIP]  
         > To go back to using the default settings for the global collection, click the global collection, click the <STRONG>Edit</STRONG> menu, click <STRONG>Delete</STRONG>, and then click <STRONG>OK</STRONG>. This will not delete the global collection; it just resets the settings to the defaults.
 
         

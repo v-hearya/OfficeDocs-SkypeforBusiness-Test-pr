@@ -31,7 +31,7 @@ Autodiscover was introduced for Lync Server in the Cumulative Update for Lync Se
 <div>
 
 
-> [!TIP]
+> [!TIP]  
 > For a more technical understanding of Autodiscover and what is communicated to clients, see <A href="lync-server-2013-understanding-autodiscover.md">Understanding Autodiscover in Lync Server 2013</A>.<BR>Mobility is still a distinct scenario and the Mobility services still require some special planning. For additional details, see <A href="lync-server-2013-planning-for-mobility.md">Planning for mobility in Lync Server 2013</A>.
 
 
@@ -45,7 +45,7 @@ Because Lync Server 2013 uses Autodiscover for all clients, the main scenario is
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The subject alternative name list on certificates used by the external web services publishing rule must contain a <EM>lyncdiscover.&lt;sipdomain&gt;</EM> entry for each SIP domain within your organization. For details about the subject alternative name entries that are required for Directors, Front End Servers, and reverse proxies, see <A href="lync-server-2013-certificate-summary-autodiscover.md">Certificate summary - Autodiscover in Lync Server 2013</A>.
 
 

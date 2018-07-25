@@ -75,7 +75,7 @@ Persistent Chat Server uses the Persistent Chat database to store chat history, 
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The Persistent Chat database (mgc) and the compliance database (mgccomp) can be located in the same instance of SQL Server or on different SQL Servers.
 
 

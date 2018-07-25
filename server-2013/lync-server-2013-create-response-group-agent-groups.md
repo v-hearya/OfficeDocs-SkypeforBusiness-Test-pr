@@ -35,7 +35,7 @@ An agent who does not sign in or out of the group is called an *informal agent*.
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Only on-premises users can be agents. If an agent is moved from on-premises to online, Response Group calls will not be routed to that agent.
 
 

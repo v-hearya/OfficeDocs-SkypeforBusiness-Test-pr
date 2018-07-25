@@ -31,7 +31,7 @@ The ProgressReport view stores information about completed sessions. Progress re
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The ErrorTime, ErrorReportSeq and ProgressReportSeq fields don’t necessarily refer to errors but to messages that indicate the status of calls or messages.
 
 

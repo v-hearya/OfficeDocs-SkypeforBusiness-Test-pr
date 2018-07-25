@@ -31,7 +31,7 @@ You must incorporate archiving into your topology before you can configure your 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you want to use Microsoft Exchange integration to store archiving data and files on Exchange 2013 servers for all your users in your deployment, do not specify <STRONG>Archiving SQL Server store</STRONG> or <STRONG>Use SQL Server Store mirroring</STRONG> information.
 
 
@@ -47,7 +47,7 @@ You must incorporate archiving into your topology before you can configure your 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can define a topology by using an account that is a member of the local Users group, but to publish a topology, which is required to add a server to the topology, you must use an account that is a member of the <STRONG>Domain Admins</STRONG> group and the <STRONG>RTCUniversalServerAdmins</STRONG> group, and that has full control permissions (that is, read, write, and modify) on the file share that you are using for the Lync Server 2013 file store (that is, so that Topology Builder can configure the required discretionary access control list (DACLs), or an account with equivalent rights.
 
     

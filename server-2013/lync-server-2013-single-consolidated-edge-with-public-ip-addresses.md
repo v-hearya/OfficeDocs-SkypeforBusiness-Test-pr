@@ -40,7 +40,7 @@ If your organization needs support for fewer than 15,000 Access Edge service cli
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > When using public IP address on the Edge Server, the default gateway on the Edge Server is no longer your firewall or router, but the router or firewall at your public perimeter edge – which will be a public address. The reverse proxy continues to use the router or firewall associated with the outermost perimeter network. The difference between the reverse proxy and the Edge Server with public IP addresses is that the reverse proxy is still using NAT and the Edge Server is using a route relationship.
 
 
@@ -52,7 +52,7 @@ The figure does not show Directors, an optional server role deployed in the inte
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The figure shown is for orientation and example IP addressing, but does not intend to represent actual communication flows with the correct incoming and outgoing traffic. The figure represents a high level view of possible traffic. Details for traffic flow as they pertain to incoming (to listening ports) and outgoing (to destination servers or clients) is represented in the Port Summary diagram in each scenario. For example, TCP 443 is actually inbound (to the Edge or reverse proxy) only, and is only a two-way flow from a protocol (TCP) perspective. Additionally, the figure shows the nature of traffic as it changes when NAT (network address translation) occurs (destination address is changed on inbound, source address is changed on outbound). Example external and internal firewall, and server interfaces are shown for reference purposes only. Finally, example default gateway and route relationships are shown, where applicable. Note also that the diagram uses the <EM>.com</EM> DNS zone to represent the external DNS zone for both reverse proxy and Edge Servers, and the <EM>.net</EM> DNS zone refers to the internal DNS zone.
 
 
@@ -68,7 +68,7 @@ Network address translation technologies (NAT) for IPv6 exist that will allow fo
 <div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > IPv6 is a complex topic and requires careful planning with your networking team and your Internet provider to ensure that the addresses you assign at the Windows server level and at the Lync Server 2013 level will work as expected. See the links at the end of this topic for additional resources on IPv6 addressing and planning.
 
 
@@ -82,7 +82,7 @@ Network address translation technologies (NAT) for IPv6 exist that will allow fo
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If you are using Call Admission Control (CAC), you still must assign IPv4 addresses to the Edge Server internal interface. CAC uses IPv4 addresses and must have them available to operate.
 
 

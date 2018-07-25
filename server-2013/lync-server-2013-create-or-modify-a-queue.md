@@ -37,7 +37,7 @@ Use one of the following procedures to create or modify a queue.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you are one of the delegated Response Group Managers for a managed workflow, you can create or modify response group queues and assign them to the workflows that you manage.
 
     
@@ -68,7 +68,7 @@ Use one of the following procedures to create or modify a queue.
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > When the server searches for an available agent for the queue, it uses group order. That is, the first group in the list is searched first, followed by the second group in the list, and so on.
 
         
@@ -125,7 +125,7 @@ Use one of the following procedures to create or modify a queue.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you are one of the delegated Response Group Managers for a managed workflow, you will be able to create agent groups and queues, and assign agent groups to queues.
 
     
@@ -144,7 +144,7 @@ Use one of the following procedures to create or modify a queue.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > To use an audio file for the prompt, use the <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet. For details, see <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.
 
     
@@ -157,7 +157,7 @@ Use one of the following procedures to create or modify a queue.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For details about possible actions and their syntax, see <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.
 
     
@@ -178,7 +178,7 @@ Use one of the following procedures to create or modify a queue.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > To use an audio file for the prompt, use the <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet. For details, see <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.
 
     
@@ -191,7 +191,7 @@ Use one of the following procedures to create or modify a queue.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For details about possible actions and their syntax, see <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.
 
     
@@ -212,7 +212,7 @@ Use one of the following procedures to create or modify a queue.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For details about creating the agent group, see <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</A>
 
     

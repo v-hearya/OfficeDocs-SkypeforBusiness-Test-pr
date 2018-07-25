@@ -111,7 +111,7 @@ For details about how to set up initial Archiving policies when you deploy Archi
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you implement both Lync Server 2013 Archiving databases and enable Microsoft Exchange integration, Exchange 2013 policies override Lync Server Archiving policies, but only for users who are homed on Exchange 2013 and have had had their mailboxes put on In-Place Hold. Lync Archiving depends on Microsoft Exchange In-Place Hold policy only.
 
 
@@ -155,7 +155,7 @@ The global-level configuration is created automatically when you deploy archivin
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you enable Microsoft Exchange integration, purging for users homed on Exchange 2013 and with their mailboxes put on In-Place Hold is controlled by Exchange. The only qualification is for conferencing files, which are stored on the Lync Server file share. These files are purged from the file share only after the files have been exported (uploaded to Exchange), if you select the option to purge data after the archiving data has been exported, or after the specified maximum number of days, if you specify a maximum number of days for retention.
 
     

@@ -91,7 +91,7 @@ Additionally, to support the file upload and download in Persistent Chat rooms, 
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The <STRONG>PersistentChatService</STRONG> role can run on the same server as a Lync Server 2013&nbsp;Front End Server only if that Front End Server is a Standard Edition&nbsp;Front End Server. The <STRONG>PersistentChatService</STRONG> role cannot run independently of a Lync Server 2013&nbsp;Front End Server. It can be installed only in the context of a Lync Server 2013 deployment.
 
 
@@ -109,7 +109,7 @@ In Lync Server 2013, there are Compliance service modifications:
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > As in previous versions, all compliance data is processed only once. The data may be processed by any of the adapter instances invoked by the compliance service running on the various Lync Server 2013, Persistent Chat Server computers. In Persistent Chat Server, any one of the adapter instances could process the data.
 
     
@@ -118,7 +118,7 @@ In Lync Server 2013, there are Compliance service modifications:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For information about installing Message Queuing, see <A href="lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md">Install operating systems and prerequisite software on servers for Lync Server 2013</A> in the Deployment documentation.
 
     

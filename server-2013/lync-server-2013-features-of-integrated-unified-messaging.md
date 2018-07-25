@@ -63,7 +63,7 @@ Exchange UM includes fax features, which enable users to receive incoming faxes 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Fax services provided by the Exchange UM server are not available in Lync Server deployments that are integrated with Microsoft Exchange Server 2010, Exchange 2010 with the latest service pack, or Exchange 2013.
 
 

@@ -42,7 +42,7 @@ For details about assigning or removing the assignment of per-user hosted voice 
       - The user's Active Directory Domain Services Display-Name (for example, Ken Myer). If using the Display-Name as the Identity value, you can use the asterisk (\*) wildcard character. For example, the Identity "\* Smith" returns all the users who have a Display-Name that ends with the string value "Smith".
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The user’s Active Directory SAM-Account-Name cannot be used as the Identity value because the SAM-Account-Name is not necessarily unique in the forest.
 
 

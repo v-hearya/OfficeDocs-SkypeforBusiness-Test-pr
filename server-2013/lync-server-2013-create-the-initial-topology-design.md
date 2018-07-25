@@ -31,7 +31,7 @@ After you have finished installing the Lync Server 2013, Planning Tool, you are 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The Planning Tool is a wizard-driven tool with detailed guides to inform your decision-making process in designing your sites and topology. This topic is intended not as an exhaustive guide, but simply to help get you started using the Planning Tool in your design sessions.
 
 
@@ -59,7 +59,7 @@ After you have finished installing the Lync Server 2013, Planning Tool, you are 
     <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > Each page has a description of the selection criteria, and recommendations based on preferred practices and capacity planning. If you require additional details, click <STRONG>Learn more</STRONG> to read detailed information from the Lync Server 2013 Planning documentation on the Microsoft TechNet website. You must have Internet connectivity to access the Microsoft TechNet website.
 
     
@@ -72,7 +72,7 @@ After you have finished installing the Lync Server 2013, Planning Tool, you are 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Each Lync Server 2013 topology will have at least one central site. Your design may have a single central site, a central site with a number of branch sites, a number of central sites, or a number of central sites with branch sites associated with each central site.
 
     
@@ -89,7 +89,7 @@ After you have finished installing the Lync Server 2013, Planning Tool, you are 
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > At this point in the design, you can only select or clear options for your deployment. However, you can configure more options in a later phase of the Planning Tool. There are also options that are unavailable and cannot be cleared. In addition, you may have to clear one option in order to clear another. For example, if you clear the <STRONG>Enterprise Voice</STRONG> option under Voice, then the <STRONG>Response Group</STRONG>, <STRONG>Announcement</STRONG>, and <STRONG>Call Park</STRONG> options under Server Applications (all of which are features of Enterprise Voice) are also cleared.
 
     

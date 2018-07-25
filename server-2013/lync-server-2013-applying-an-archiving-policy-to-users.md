@@ -31,7 +31,7 @@ If a user has been enabled for Lync Server 2013 and you have created one or more
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you enabled Microsoft Exchange integration for your deployment, Exchange In-Place Hold policies control whether archiving is enabled for the users who are homed on Exchange 2013 and have their mailboxes put on In-Place Hold. For details, see <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Setting up policies for Archiving in Lync Server 2013 when using Exchange Server integration</A> in the Deployment documentation.<BR>You should specify all appropriate options in the Archiving configurations before enabling Archiving. For details, see <A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Managing Archiving configuration options in Lync Server 2013 for your organization, sites, and pools</A> in the Operations documentation.
 
 
@@ -57,7 +57,7 @@ Use the procedure in this topic to apply a previously created Archiving user pol
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The <STRONG>&lt;Automatic&gt;</STRONG> settings apply the default server installation settings. These settings are applied automatically by the server.
 
     

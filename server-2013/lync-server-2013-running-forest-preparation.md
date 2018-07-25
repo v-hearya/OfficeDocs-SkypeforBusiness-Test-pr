@@ -47,7 +47,7 @@ After you prepare the forest, you must verify that global settings have been rep
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Forest Preparation allows you to choose where to place the Universal Groups for Lync Server 2013. Choose a location that is consistent with the requirements of your organization.
 
     

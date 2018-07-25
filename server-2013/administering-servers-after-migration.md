@@ -31,7 +31,7 @@ In general, you must use the administrative tool that corresponds to the server 
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > After a Lync Server 2013 pilot pool is deployed, you cannot use Lync Server 2010 Topology Builder or Lync Server 2010 Control Panel to manage any Lync Server 2013 resources. You must use Lync Server 2013 tools to manage Lync Server 2013 and Lync Server 2010 resources.
 
 

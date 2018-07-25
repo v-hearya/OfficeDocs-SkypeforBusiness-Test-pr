@@ -31,7 +31,7 @@ Every subnet in your network must be associated with a specific network site, be
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > All configured public IP addresses of the Audio/Video Edge Servers in your deployment must be added to your network configuration settings. These IP addresses are added as subnets with a mask of 32. The associated network site should correspond to the appropriate configured network site. For example, the public IP address that corresponds to the A/V Edge Server in central site Chicago would be NetworkSiteID Chicago. For details about public IP addresses, see <A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Determine external A/V firewall and port requirements for Lync Server 2013</A> in the Planning documentation.
 
 
@@ -41,7 +41,7 @@ Every subnet in your network must be associated with a specific network site, be
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > A Key Health Indicator (KHI) alert is raised, specifying a list of IP addresses that are present in your network but are either not associated with a subnet, or the subnet that includes the IP addresses is not associated with a network site. This alert will not be raised more than once within an 8-hour period. The relevant alert information and an example are as follows:<BR><STRONG>Source:</STRONG> CS Bandwidth Policy Service (Core)<BR><STRONG>Event number:</STRONG> 36034<BR><STRONG>Level:</STRONG> 2<BR><STRONG>Description:</STRONG> The subnets for the following IP addresses: &lt;List of IP Addresses&gt; are either not configured or the subnets are not associated to a Network Site.<BR><STRONG>Cause:</STRONG> The subnets for the corresponding IP addresses are missing from the network configuration settings or the subnets are not associated to a network site.<BR><STRONG>Resolution:</STRONG> Add subnets corresponding to the list of IP addresses into the network configuration settings and associate every subnet to a network site.<BR>For example, if the IP address list in the alert specifies 10.121.248.226 and 10.121.249.20, either these IP addresses are not associated with a subnet or the subnet they are associated with does not belong to a network site. If 10.121.248.0/24 and 10.121.249.0/24 are the corresponding subnets for these addresses, you can resolve this issue as follows: 
 > <OL>
 > <LI>
@@ -66,7 +66,7 @@ For details about working with network subnets, see the Lync Server Management S
 <div>
 
 
-> [!TIP]
+> [!TIP]  
 > If you are working with a large number of subnets, we recommend using a comma-separated values (CSV) file to associate the subnets to sites. The CSV file must have the following four columns: <STRONG>IPAddress</STRONG>, <STRONG>mask</STRONG>, <STRONG>description</STRONG>, <STRONG>NetworkSiteID</STRONG>.
 
 
@@ -138,7 +138,7 @@ For details about working with network subnets, see the Lync Server Management S
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you have not yet created network sites, this list will be empty. For details about the procedure, see <A href="lync-server-2013-create-or-modify-a-network-site.md">Create or modify a network site in Lync Server 2013</A>. You can also retrieve site IDs for your deployment by running the <STRONG>Get-CsNetworkSite</STRONG> cmdlet. For details, see the Lync Server Management Shell documentation.
 
     

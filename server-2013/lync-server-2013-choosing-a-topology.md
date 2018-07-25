@@ -22,8 +22,6 @@ mtps_version: v=OCS.15
 
 <div id="mainBody">
 
-<span> </span>
-
 _**Topic Last Modified:** 2013-02-21_
 
 When you choose a topology, you can use one the following supported topology options:
@@ -252,7 +250,7 @@ Using NAT for all Edge external interfaces requires the use of DNS load balancin
 
 The primary decision points for topology selection are high availability and load balancing. The requirement for high availability can influence the load balancing decision.
 
-  - **High availability**   If you need high availability, deploy at least two Edge Servers in a pool. A single Edge pool will support up to twelve Edge Servers. If more capacity is required, you can deploy multiple Edge pools. As a general rule, 10% of a given user base will need external access.
+  - **High availability**   If you need high availability, deploy at least two Edge Servers in a pool. A single Edge pool will support up to twelve Edge Servers. If more capacity is required, you can deploy multiple Edge pools. As a general rule, 10% of a given user base will need external access.
     
     <div>
     
@@ -263,7 +261,7 @@ The primary decision points for topology selection are high availability and loa
     
     </div>
 
-  - **Hardware load balancing**   Hardware load balancing is supported for load balancing Lync Server 2013 Edge Servers when using publicly routable IP addresses for the Edge external interfaces. For example, you would use this approach in situations where failover is required for any of the following applications:
+  - **Hardware load balancing**   Hardware load balancing is supported for load balancing Lync Server 2013 Edge Servers when using publicly routable IP addresses for the Edge external interfaces. For example, you would use this approach in situations where failover is required for any of the following applications:
     
       - Public IM connectivity
     
@@ -294,7 +292,7 @@ The primary decision points for topology selection are high availability and loa
 
 </div>
 
-<span> </span>
+<span> </span>
 
 </div>
 

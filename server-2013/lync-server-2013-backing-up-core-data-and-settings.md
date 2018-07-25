@@ -31,7 +31,7 @@ The following procedures use Lync Server Management Shell cmdlets to create back
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The step in this section to back up the Central Management store includes the settings and configuration for Archiving and Monitoring.
 
 
@@ -61,7 +61,7 @@ You can run the cmdlets described in this section locally or remotely.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This step exports your Lync Server topology, policies, and configuration settings to a file. No other step is required to backup topology data.
 
     

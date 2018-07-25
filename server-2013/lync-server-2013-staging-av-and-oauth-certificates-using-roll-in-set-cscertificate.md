@@ -31,7 +31,7 @@ Audio/Video (A/V) communications is a key component of Microsoft Lync Server 201
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > <OL>
 > <LI>
 > <P>This new feature is designed to work for the A/V Edge service and the <EM>OAuthTokenIssuer</EM> certificate. Other certificate types can be provisioned along with the A/V Edge service and OAuth certificate type, but will not benefit from the coexistence behavior that the A/V Edge service certificate will.</P>
@@ -47,7 +47,7 @@ The A/V Authentication service is responsible for issuing tokens that are used b
 <div>
 
 
-> [!TIP]
+> [!TIP]  
 > Using the Lync Server Management Shell cmdlets for managing certificates, you can request separate and distinct certificates for each purpose on the Edge Server. Using the Certificate Wizard in the Lync Server Deployment Wizard assists you in creating certificates, but is typically of the <STRONG>default</STRONG> type which couples all certificate uses for the Edge Server onto a single certificate. The recommended practice if you are going to use the rolling certificate feature is to decouple the AudioVideoAuthentication certificate from the other certificate purposes. You can provision and stage a certificate of the Default type, but only the AudioVideoAuthentication portion of the combined certificate will benefit from the staging. A user involved in (for example) an instant messaging conversation when the certificate expires will need to log out and log back in to make use of the new certificate associated with the Access Edge service. Similar behavior will occur for a user involved in a Web conference using the Web Conferencing Edge service. The OAuthTokenIssuer certificate is a specific type that is shared across all servers. You create and manage the certificate in one place and the certificate is stored in the Central Management store for all other servers.
 
 
@@ -81,7 +81,7 @@ When staging OAuthTokenIssuer certificates, there are different requirements for
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > For an Edge pool, you must have all AudioVideoAuthentication certificates deployed and provisioned by the date and time defined by the –EffectiveDate parameter of the first certificate deployed to avoid possible A/V communications disruption due to the older certificate expiring before all client and consumer tokens have been renewed using the new certificate.
 
     
@@ -98,7 +98,7 @@ When staging OAuthTokenIssuer certificates, there are different requirements for
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The EffectiveDate must be formatted to match your server’s region and language settings. The example uses the US English Region and Language settings
 
     
@@ -139,7 +139,7 @@ When the effective time is reached (7/22/2012 6:00:00 AM), all new tokens are is
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The EffectiveDate must be formatted to match your server’s region and language settings. The example uses the US English Region and Language settings
 
     

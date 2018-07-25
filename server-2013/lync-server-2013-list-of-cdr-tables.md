@@ -301,7 +301,7 @@ The call detail recording (CDR) database schema consists of the following tables
 <td><p>For each two-party VoIP/PSTN call, stores information about the call, such as the phone ID of VoIP phone, gateway used, and which party disconnected. Refers to the <a href="lync-server-2013-sessiondetails-table.md">SessionDetails table in Lync Server 2013</a> for call start/end times and response code.</p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > If one party on a call is a VoIP user or if a Mediation Server was involved in the call, a record will be created in this table. Information about VoIP/VoIP calls not involving a public switched telephone network (PSTN) phone is captured in the <A href="lync-server-2013-sessiondetails-table.md">SessionDetails table in Lync Server 2013</A>.
 
 
@@ -335,7 +335,7 @@ The call detail recording (CDR) database schema consists of the following tables
 <td><p>For each emergency call, such as an Enhanced 9-1-1 (E9-1-1) call, stores location information about the call. Refers to the <a href="lync-server-2013-sessiondetails-table.md">SessionDetails table in Lync Server 2013</a> for call start/end times and response code.</p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > This table only contains the location blob for the E9-1-1 call. Refers to the SessionDetails table for other detailed information about the call.
 
 

@@ -37,7 +37,7 @@ If you plan to configure Lync Server 2013 for IPv6, keep the following requireme
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > IPv6 is a complex topic and requires careful planning with your networking team and your Internet provider to help ensure that the addresses that you assign at the Windows Server level and at the Lync Server 2013 level work as expected. See the links at the end of this topic for additional resources on IPv6 addressing and planning.
 
 

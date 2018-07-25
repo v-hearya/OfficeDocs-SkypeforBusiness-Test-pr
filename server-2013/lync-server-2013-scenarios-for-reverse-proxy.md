@@ -51,7 +51,7 @@ When planning your Lync Server 2013 deployment, you map the actual requirements 
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The suggested default listening ports for the external web services are TCP 8080 for HTTP traffic, and TCP 4443 for HTTPS traffic. Topology Builder provides an opportunity to override the defaults and define your own listening ports for the external web services. It’s important to note that the reverse proxy communicates with the external web services, and the external clients communicate with the reverse proxy. The external client communicates with the reverse proxy on port TCP 443, but you can redefine what port the reverse proxy communicates with the external web services on. The options in Topology Builder to override the default listening ports for the web services allows you to resolve listening port conflicts that may arise in your infrastructure.
 
     
@@ -74,7 +74,7 @@ When planning your Lync Server 2013 deployment, you map the actual requirements 
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > The Office Web Apps Server is a separate role server and is not configured as part of the external web services. This server is separately published for client access.
 
         

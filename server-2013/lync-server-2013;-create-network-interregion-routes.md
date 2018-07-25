@@ -65,7 +65,7 @@ In the example topology, network interregion routes must be defined for each of 
     <div class=" ">
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The North America/APAC network interregion route requires two network region links because there is no direct network region link between them.
 
     
@@ -96,7 +96,7 @@ In the example topology, network interregion routes must be defined for each of 
     <div class=" ">
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you are creating a route for two network regions that do not have a direct network region link between them, you must add all the necessary links to complete the route. For example, the North America/APAC network interregion route requires two network region links because there is no direct network region link between them.
 
     

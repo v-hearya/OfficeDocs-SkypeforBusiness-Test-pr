@@ -163,7 +163,7 @@ User photos included in Presence status also have an associated hash value that 
 <div class=" ">
 
 
-> [!NOTE]
+> [!NOTE]  
 > Because photos are not stored in the GalContacts.db database, downloading user photos is not dependent on the <STRONG>AddressBookAvailability</STRONG> setting in the client policy (<A href="http://go.microsoft.com/fwlink/p/?linkid=507508">Set-CsClientPolicy</A>).
 
 
@@ -262,7 +262,7 @@ When an image is uploaded to the user’s mailbox, Exchange automatically create
 <div class=" ">
 
 
-> [!NOTE]
+> [!NOTE]  
 > When an image file is updated in AD DS, a 48 x 48 pixel image is created and used for the thumbnailPhoto in AD DS. Any existing image is replaced. So if you added a 96 x 96 image to AD DS, it will be overwritten with the new 48 x 48 image. This is only important is you have users in your environment using Lync 2010 clients, as those clients will obtain user photos from AD DS. You can import 96 x 96 pixel images to replace the ones created by AD DS if you have Lync 2010 clients in your organization.
 
 

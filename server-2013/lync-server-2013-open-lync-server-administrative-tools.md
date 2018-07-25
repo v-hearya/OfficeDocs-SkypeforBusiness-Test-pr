@@ -73,7 +73,7 @@ Use the following procedure to open the Topology Builder to define the servers t
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can define a topology by using an account that is a member of the local Users group, but to read, publish, or enable a topology, which is required to install Lync Server 2013 on a server, you must use an account that is a member of the Domain Admins group and the RTCUniversalServerAdmins group, and that has full control permissions (that is, read, write, and modify) on the file share that you are going to use for the archiving file store so that Topology Builder can configure the required discretionary access control list (DACLs), or an account with equivalent user rights.
 
     
@@ -96,7 +96,7 @@ Use one of the following procedures to open Lync Server 2013 Control Panel to ma
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You can use a user account that is assigned to the CsAdministrator role to perform any task in Lync Server 2013 Control Panel. You can use other roles to log on to Lync Server 2013 Control Panel to perform specific administration tasks, dependent on the task you need to perform. For example, you can use CSArchivingAdministrator to administer Archiving in Lync Server 2013 Control Panel. For details about roles, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation. For details about the roles that you can use to perform a specific task, see the documentation for the task.
 
 
@@ -112,7 +112,7 @@ Use one of the following procedures to open Lync Server 2013 Control Panel to ma
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If you have configured an administration simple uniform resource locator (URL), you can access Lync Server 2013 Control Panel from an Internet browser that is running on any computer within your organization’s firewall. For details about configuring the administration simple URL, see <A href="lync-server-2013-planning-for-simple-urls.md">Planning for simple URLs in Lync Server 2013</A> in the Planning documentation and <A href="lync-server-2013-edit-or-configure-simple-urls.md">Edit or configure simple URLs in Lync Server 2013</A> in the Deployment documentation.
 
     
@@ -145,7 +145,7 @@ Use the following procedure to open Lync Server 2013 Management Shell to adminis
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You can use a user account that is assigned to the CsAdministrator role to perform any task in Lync Server 2013 Management Shell. You can log on using other roles to perform specific administration tasks, depending on the task you need to perform. For example, you can use CSArchivingAdministrator to run cmdlets related to Archiving administration. For details about roles, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation. For details about the roles that you can use to run a specific cmdlet, see the documentation for the cmdlet.<BR>You can also run certain cmdlets by using a user account in the RTCUniversalServerAdmins, RTCUniversalUserAdmins, or RTCUniversalReadOnlyAdmins groups, depending on the cmdlet.
 
 

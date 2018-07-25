@@ -37,7 +37,7 @@ Calls from any IP, private branch exchange (PBX), public switched telephone netw
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Only audio calls can be parked. Instant messages and conferences cannot be parked.
 
 
@@ -57,7 +57,7 @@ The following clients can use Call Park to park calls:
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Mobile phones cannot use Call Park to park calls.
 
 

@@ -69,7 +69,7 @@ Configuring Group Call Pickup requires any of the following administrative roles
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details about administrative rights, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation.
 
 

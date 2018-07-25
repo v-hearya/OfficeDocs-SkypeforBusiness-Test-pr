@@ -31,7 +31,7 @@ If you deployed Archiving or Monitoring, you need to back up these databases acc
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The settings for Archiving and Monitoring are backed up when you back up the Central Management store. For details, see <A href="lync-server-2013-backing-up-core-data-and-settings.md">Backing up core data and settings in Lync Server 2013</A>.
 
 

@@ -31,7 +31,7 @@ If you plan to deploy a Survivable Branch Appliance, you must add the Survivable
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Perform this procedure only if you are deploying a Survivable Branch Appliance. Do not perform it if you are deploying a Survivable Branch Server.
 
 
@@ -55,7 +55,7 @@ If you plan to deploy a Survivable Branch Appliance, you must add the Survivable
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > A member of the RTCUniversalSBATechnicians group at the branch site will add this device to the domain later.
 
     

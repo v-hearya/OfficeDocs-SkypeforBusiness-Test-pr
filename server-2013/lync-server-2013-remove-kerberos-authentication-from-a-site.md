@@ -33,7 +33,7 @@ If you need to remove Kerberos authentication from a site or retire a site, you 
 <div class=" ">
 
 
-> [!WARNING]
+> [!WARNING]  
 > If you are permanently retiring the Kerberos-enabled account, you should use Active Directory Users and Computers to delete it from Active Directory Domain Services after you have removed the assignment. If you plan to use the object in the future, you might want to keep the Active Directory object.
 
 
@@ -71,7 +71,7 @@ If you need to remove Kerberos authentication from a site or retire a site, you 
     <div class=" ">
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > After making any changes to Kerberos authentication, such as adding an account or removing an account, you must run <STRONG>Enable-CsTopology</STRONG> from the Lync Server Management Shell command prompt.
 
     

@@ -33,7 +33,7 @@ Users who are **Creators** in any given category can use the Lync client to crea
 <div>
 
 
-> [!TIP]
+> [!TIP]  
 > Persistent Chat administrators can also be Creators, and they are not subject to the restrictions placed on Creators.
 
 
@@ -51,7 +51,7 @@ For details about configuring chat rooms, see [Configure rooms in Lync Server 20
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Persistent Chat Server lets users create and manage chat room for a specific site. Users cannot, however, create or manage chat rooms on other sites within the same topology. Be sure to specify chat room Creators and Managers for all the sites in your organization.
 
 
@@ -61,7 +61,7 @@ For details about configuring chat rooms, see [Configure rooms in Lync Server 20
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Users who are homed on a Lync Server Survivable Branch Appliance are unable to create new chat rooms or view the room card for existing rooms.
 
 

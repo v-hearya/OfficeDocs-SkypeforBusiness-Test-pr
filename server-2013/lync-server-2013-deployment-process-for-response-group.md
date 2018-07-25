@@ -79,7 +79,7 @@ This section provides an overview of the phases and steps involved in deploying 
 <li><p>Use the Response Group Configuration Tool or Lync Server Management Shell to create workflows (hunt groups or interactive voice response (IVR) call flows), including custom response group business hours and holidays.</p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > You can access the Response Group Configuration Tool through Lync Server Control Panel.
 
 

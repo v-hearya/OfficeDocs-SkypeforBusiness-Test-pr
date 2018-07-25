@@ -33,7 +33,7 @@ Before you can create dial-in access numbers, you must first plan your dial-in c
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You cannot use a new dial-in access number until Active Directory Domain Services (AD&nbsp;DS) replication of that access number is complete. Replication can take several hours to complete.
 
 
@@ -43,7 +43,7 @@ Before you can create dial-in access numbers, you must first plan your dial-in c
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > After you create dial-in access numbers, you can modify the display name for the Active Directory contact objects so that users can more easily identify the correct access number. Use the <STRONG>Set-CsDialInConferencingAccessNumber</STRONG> cmdlet to modify the display name. You should not modify Active Directory objects manually. For details about modifying an access number, see Lync Server Management Shell documentation for the <STRONG>Set-CsDialInConferencingAccessNumber</STRONG> cmdlet.
 
 

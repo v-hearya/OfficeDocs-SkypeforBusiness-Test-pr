@@ -33,7 +33,7 @@ Mobile users encounter various mobile application scenarios that require special
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Although mobile applications can also connect to other Lync Server 2013 services, the requirement to send all mobile application web requests to the same external web fully qualified domain name (FQDN) applies only to the Lync Server 2013 Mobility Service. Other mobility services do not require this configuration.
 
 
@@ -45,7 +45,7 @@ The requirement for cookie affinity in hardware load balancers is dramatically r
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > All Mobility Service traffic goes through the reverse proxy, regardless of where the origination point is—internal or external. In the case of a single reverse proxy or a farm of reverse proxies, or a device that is providing the reverse proxy function, an issue can arise when the internal traffic is egressing through an interface and attempting to immediately ingress on the same interface. This often leads to a Security rule violation known as TCP packet spoofing or just spoofing. <EM>Hair pinning</EM> (the egress and immediate ingress of a packet or series of packets) must be allowed in order for mobility to function. One way to resolve this issue is to use a reverse proxy that is separate from the firewall (the spoofing prevention rule should always be enforced at the firewall, for security purposes). The hairpin can occur at the external interface of the reverse proxy instead of the firewall external interface. You detect the spoofing at the firewall, and relax the rule at the reverse proxy, thereby allowing the hairpin that mobility requires.<BR>Use the Domain Name System (DNS) host or CNAME records to define the reverse proxy for the hairpin behavior (not the firewall), if at all possible.
 
 
@@ -65,7 +65,7 @@ When you use Automatic Discovery, mobile devices use DNS to locate resources. Du
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > It is important to understand that your deployment can consist of multiple distinct namespaces for internal and external use. Your SIP domain name may be different than the internal deployment domain name. For example, your SIP domain may be <STRONG>contoso.com</STRONG>, while your internal deployment may be <STRONG>contoso.net</STRONG>. Users who log in to Lync Server will use the SIP domain name, such as <STRONG>john@contoso.com</STRONG>. When addressing the external web services (defined in Topology Builder as <STRONG>External web services</STRONG>), the domain name and the SIP domain name will be consistent, as defined in DNS. When addressing the internal Web services (defined in Topology Builder as <STRONG>Internal web services</STRONG>), the default name of the internal web services will be the FQDN of the Front End Server, Front End pool, Director, or Director pool. You have the option to override the internal web services name. You should use the internal domain name (and not the SIP domain name) for internal web services and define the DNS host A (or, for IPv6, AAAA) record to reflect the overridden name. For example, the default internal web services FQDN may be <STRONG>pool01.contoso.net</STRONG>. An overridden internal web services FQDN may be <STRONG>webpool.contoso.net</STRONG>. Defining the web services in this way helps to ensure that the internal and external locality of the services—and not the locality of the user who is using them—is observed.<BR>However, because the web services are defined in Topology Builder and the internal web services name can be overridden, as long as the resulting web services name, the certificate that validates it, and the DNS records that define it, are consistent, you can define the internal web services with any domain name—including the SIP domain name—that you want. Ultimately, the resolution for the name to the IP address is determined by DNS host records and a consistent namespace.<BR>For the purposes of this topic and the examples, the internal domain name is used to illustrate the topology and the DNS definitions.
 
 
@@ -81,7 +81,7 @@ The following diagram illustrates the flow of mobile application web requests fo
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The diagram illustrates generic web services. A virtual directory named Mobility depicts the Mobility services Mcx and/or UCWA. If you have not applied the Cumulative Updates for Lync Server 2013: February 2013, you may or may not have the virtual directory Ucwa defined on your internal and external Web services. You will have a virtual directory Autodiscover, and you may have a virtual directory Mcx.<BR>Autodiscover and the discovery of services work the same way, regardless of the mobility services technology that you have deployed.
 
 
@@ -123,7 +123,7 @@ The DNS records can be either CNAME records or A (host, if IPv6, AAAA) records.
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Mobile device clients do not support multiple Secure Sockets Layer (SSL) certificates from different domains. Therefore, CNAME redirection to different domains is not supported over HTTPS. For example, a DNS CNAME record for lyncdiscover.contoso.com that redirects to an address of director.contoso.net is not supported over HTTPS. In such a topology, a mobile device client needs to use HTTP for the first request, so that the CNAME redirection is resolved over HTTP. Subsequent requests then use HTTPS. To support this scenario, you need to configure your reverse proxy with a web publishing rule for port 80 (HTTP). For details, see "To create a web publishing rule for port 80" in <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Configuring the reverse proxy for mobility in Lync Server 2013</A>.<BR>CNAME redirection to the same domain is supported over HTTPS. In this case, the destination domain's certificate covers the originating domain.
 
 
@@ -143,7 +143,7 @@ If you support push notifications and want Apple mobile devices to receive push 
 <div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > An Apple device using the Lync 2013 Mobile client does not require push notifications.
 
 

@@ -47,7 +47,7 @@ To deploy the XMPP Proxy on the Edge Server, you must configure the Edge Server 
     <div class=" ">
     
 
-    > [!TIP]
+    > [!TIP]  
     > If you are deploying the Edge Server for the first time, you will see Run instead of Run Again.
 
     
@@ -84,7 +84,7 @@ To deploy the XMPP Proxy on the Edge Server, you must configure the Edge Server 
     <div class=" ">
     
 
-    > [!TIP]
+    > [!TIP]  
     > If the XMPP proxy is installed, by default the domain name (such as contoso.com) is populated in the SAN entries. If you require more entries, add them in this step.
 
     
@@ -113,7 +113,7 @@ To deploy the XMPP Proxy on the Edge Server, you must configure the Edge Server 
     <div class=" ">
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If you have Edge pools in multiple sites, we recommend that you add multiple SRV records for XMPP federation. Add a SRV record for every Edge pool in your organization, and give each of those SRV records a different priority. When all Edge pools are running, XMPP requests will all be handled by the Edge pool with the first priority, but if that Edge pool goes down you won’t then have to add a new SRV record to regain XMPP federation functionality.
 
     
@@ -190,7 +190,7 @@ To deploy the XMPP Proxy on the Edge Server, you must configure the Edge Server 
     <div class=" ">
     
 
-    > [!TIP]
+    > [!TIP]  
     > Though not required and typically not necessary, you may find that you will need to restart the Edge Servers
 
     

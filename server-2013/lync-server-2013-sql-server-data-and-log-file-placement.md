@@ -31,7 +31,7 @@ During the planning and deployment of Microsoft SQL Server 2012 or Microsoft SQL
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If your policies and SQL Server configurations require a more specialized installation, the database and log files can be installed to any pre-defined location using the Lync Server Management Shell. See <A href="lync-server-2013-database-installation-using-lync-server-management-shell.md">Database installation using Lync Server Management Shell in Lync Server 2013</A> for more details.
 
 

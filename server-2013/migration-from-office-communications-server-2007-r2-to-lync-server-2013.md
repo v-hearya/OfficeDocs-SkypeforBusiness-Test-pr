@@ -31,7 +31,7 @@ The topics in this section guide you through the process of migrating from Offic
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > This document describes the steps generally required to accomplish each phase of migration. It does not address every possible legacy deployment topology or every possible migration scenario. Therefore, you may not need to perform every step described, or you may need to perform additional steps, depending on your deployment. This document also provides examples of verification steps. These verification steps are provided to help you understand what you need to look for to ensure that each phase completes successfully as you progress through your migration. Tailor these verification steps to your specific migration process.
 
 

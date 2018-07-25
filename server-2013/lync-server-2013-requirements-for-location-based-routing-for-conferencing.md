@@ -33,7 +33,7 @@ The following are the requirements needed for the installation and configuration
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If a Lync server or pool in your topology does not have Lync Server 2013 Cumulative Update 2 or higher installed, then enforcement of Location-Based Routing of Lync meetings cannot be guaranteed.
 
 

@@ -33,7 +33,7 @@ For details about how Archiving configurations work, including the hierarchy for
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You should specify all appropriate options in the Archiving configurations before enabling Archiving.
 
 

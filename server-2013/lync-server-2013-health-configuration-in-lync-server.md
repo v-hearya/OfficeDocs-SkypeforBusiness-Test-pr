@@ -35,7 +35,7 @@ In a similar fashion, administrators can use System Center Operations Manager to
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For Lync Server 2013, the Management Pack for System Center Operations Manager is also able to detect "external" issues that can adversely affect Lync Server. For example, administrators can be notified if Internet Information Services (IIS) goes offline, system resources on a Lync Server computer fall below a specified amount, or a Lync Server computer experiences a hardware failure.
 
 

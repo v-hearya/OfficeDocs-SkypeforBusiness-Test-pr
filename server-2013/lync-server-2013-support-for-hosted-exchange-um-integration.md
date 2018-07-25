@@ -41,7 +41,7 @@ The following modes are supported:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Mixed mode can be used as a transitional solution during evaluation and stepwise migration of users to hosted Exchange UM, or as a permanent solution if you opt to keep some users’ Exchange UM services on-premises after migrating others.
 
     

@@ -41,7 +41,7 @@ To create a new Add-in
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > PersistentChatPoolFqdn &lt;String&gt; is required only if there is more than one Persistent Chat Server pool.
 
 

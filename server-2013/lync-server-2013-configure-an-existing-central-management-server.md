@@ -39,7 +39,7 @@ If you reuse a Central Management Server from an existing Lync Server 2013 deplo
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > No output is expected unless there is an error.
 
     

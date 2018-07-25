@@ -65,7 +65,7 @@ For example, assume that a mobile client running Lync Mobile is configured to si
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If the target web server has a certificate that does not have a matching value for lyncdiscover.contoso.com as a subject alternative name list value:<BR>a.&nbsp;&nbsp;&nbsp;Web server responds with a “Server Hello” and no certificate.<BR>b.&nbsp;&nbsp;&nbsp;Mobile device running Lync Mobile immediately terminates the session.<BR>If the target web server has a certificate that includes lyncdiscover.contoso.com as a subject alternative name list value:<BR>a.&nbsp;&nbsp;&nbsp;Web server responds with a “Server hello” and a certificate.<BR>b.&nbsp;&nbsp;&nbsp;Mobile device running Lync Mobile validates the certificate and completes the handshake.
 
     

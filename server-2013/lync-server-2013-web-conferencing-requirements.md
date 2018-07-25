@@ -61,7 +61,7 @@ The administrator must set permissions on the file share so that RTC groups have
 <div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > If you encounter any errors with the permissions, open Topology Builder, download and republish the existing topology. Publishing the topology will verify the file share permissions and reset them if needed.
 
 

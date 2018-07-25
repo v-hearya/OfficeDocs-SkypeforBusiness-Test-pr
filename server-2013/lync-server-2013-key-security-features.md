@@ -95,7 +95,7 @@ Lync Server 2013 does not support the use of network address translation (NAT) o
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you federate with enterprises that have a Microsoft Office Communications Server 2007 deployment and you need to use audio/video between your enterprise and the federated enterprise, the port requirements will be those for the older version of the Edge Servers that are deployed. For example, the port ranges required for those older versions must be opened for both enterprises until the federated partner upgrades its Edge Servers to Lync Server 2013. At that time, the port requirements can be reviewed and reduced according to the new configuration.
 
 

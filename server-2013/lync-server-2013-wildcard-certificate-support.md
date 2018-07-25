@@ -31,7 +31,7 @@ Lync Server 2013 uses certificates to provide communications encryption and serv
 <div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > To retain the functionality of unified communications (UC) devices (for example, desk phones), you should test the deployed certificate carefully to ensure that devices function properly after you implement a wildcard certificate.
 
 
@@ -72,7 +72,7 @@ Server roles that are not addressed in this topic:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For the internal Edge Server interface, a wildcard entry can be assigned to the SAN, and is supported. The SAN on the internal Edge Server is not queried, and a wildcard SAN entry is of limited value.
 
     

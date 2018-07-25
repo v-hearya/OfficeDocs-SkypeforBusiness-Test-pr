@@ -33,7 +33,7 @@ You can search for users by using the Lync Server Control Panel or the Active Di
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In an environment with a central forest topology, search results might not be accurate when you search for a user by the user’s email address. Instead, you can search for users by specifying a SIP address prefix, for example, sip:name, add a search filter and select a SIP address that contains a partial email address, or use the <STRONG>Get-CSUser</STRONG> cmdlet.
 
 

@@ -45,7 +45,7 @@ Setting up a Standard Edition server as the only server in your infrastructure t
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The initial installation may take some time with no visible updates to the command output summary screen. This is due to the installation of the SQL Server Express. If you need to monitor the installation of the database, use Task Manager to monitor the setup.
 
     

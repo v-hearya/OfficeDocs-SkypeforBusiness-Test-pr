@@ -41,7 +41,7 @@ Most Edge components are deployed in a perimeter network. The following componen
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Using DNS load balancing on one interface and hardware load balancing on the other is not supported. You must use hardware load balancing for both interfaces or DNS load balancing for both.
 
     
@@ -66,7 +66,7 @@ Authorized external users can access the Edge Servers in order to connect to you
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Edge servers are deployed to provide connections for enabled Lync clients and other Microsoft Edge servers (as in federation scenarios). They are not designed to allow connections from other end point client or server types. The XMPP Gateway server can be deployed to allow connections with configured XMPP partners. The Edge server and XMPP Gateway can only support end point connections from these client and federation types.
 
 
@@ -102,7 +102,7 @@ For additional information related to reverse proxies and the requirements that 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > External users do not need a virtual private network (VPN) connection to your organization in order to participate in communications using Lync Server 2013. If you have implemented VPN technology in your organization and your users use the VPN for Lync, media traffic (such as video conferencing) can be adversely affected. You should consider providing a means for media traffic to connect to the AV Edge service directly and bypass the VPN. For details, see the NextHop Blog article, “Enabling Lync Media to Bypass a VPN Tunnel,” at <A href="http://go.microsoft.com/fwlink/p/?linkid=256532">http://go.microsoft.com/fwlink/p/?LinkId=256532</A>.
 
 

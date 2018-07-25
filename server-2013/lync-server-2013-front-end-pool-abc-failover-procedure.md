@@ -58,7 +58,7 @@ To run the cmdlets, open a Lync Server Management Shell using Run as Administrat
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Currently, the <STRONG>Import-CsRgsConfiguration</STRONG> cmdlet requires that the queue and workflow names on pool A are distinct from the queue and workflow names on pool B. If the names are not distinct, you will get an error when running the <STRONG>Import-CsRgsConfiguration</STRONG> cmdlet, and the queues and workflows will need to be renamed in pool B before proceeding with <STRONG>Import-CsRgsConfiguration</STRONG> cmdlet.
 
     
@@ -77,7 +77,7 @@ To run the cmdlets, open a Lync Server Management Shell using Run as Administrat
     <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Keep in mind that if you do not want to overwrite the application-level settings of the backup pool (pool B) with the settings of the primary pool (pool A), pool A’s application-level settings will be lost if pool A is lost, because the Response Group application can store only one set of application-level settings per pool. When pool C is deployed to replace pool A, the application-level settings must be reconfigured, including the default music-on-hold audio file.
 
     
@@ -102,7 +102,7 @@ To run the cmdlets, open a Lync Server Management Shell using Run as Administrat
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This step is not required for unassigned number ranges that use "Exchange UM" as the selected announcement service.
 
     
@@ -182,7 +182,7 @@ To run the cmdlets, open a Lync Server Management Shell using Run as Administrat
     <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Keep in mind that if you do not want to overwrite the application-level settings of Pool C with the settings of the backup pool (pool B), pool B’s application-level settings will be lost because the Response Group application can store only one set of application-level settings per pool.
 
     
@@ -213,7 +213,7 @@ To run the cmdlets, open a Lync Server Management Shell using Run as Administrat
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > This step is not required for unassigned number ranges that use "Exchange UM" as the announcement service.
 
         
@@ -291,7 +291,7 @@ To run the cmdlets, open a Lync Server Management Shell using Run as Administrat
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > A service outage will occur for users who are homed on SBAs that are associated with pool A until these users are moved to pool C.
 
         

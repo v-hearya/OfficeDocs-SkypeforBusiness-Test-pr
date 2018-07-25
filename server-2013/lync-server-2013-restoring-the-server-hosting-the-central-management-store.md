@@ -35,7 +35,7 @@ If the Back End Server that hosts the Central Management store is in a mirrored 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If a Back End Server or Standard Edition server that does not host the Central Management store failed, see <A href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Restoring an Enterprise Edition Back End Server in Lync Server 2013</A> or <A href="lync-server-2013-restoring-a-standard-edition-server.md">Restoring a Standard Edition server in Lync Server 2013</A>. If a Back End Server that hosts the Central Management store is in a mirrored configuration and only the mirror failed, see <A href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Restoring a mirrored Enterprise Edition Back End Server in Lync Server 2013 - mirror</A>. If any other server failed, see <A href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Restoring an Enterprise Edition member server in Lync Server 2013</A>.
 
 
@@ -45,7 +45,7 @@ If the Back End Server that hosts the Central Management store is in a mirrored 
 <div>
 
 
-> [!TIP]
+> [!TIP]  
 > We recommend that you take an image copy of the system before you start restoration. You can use this image as a rollback point, in case something goes wrong during restoration. You might want to take the image copy after you install the operating system and SQL Server, and restore or reenroll the certificates.
 
 
@@ -61,7 +61,7 @@ If the Back End Server that hosts the Central Management store is in a mirrored 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Follow your organization's server deployment procedures to perform this step.
 
     
@@ -74,7 +74,7 @@ If the Back End Server that hosts the Central Management store is in a mirrored 
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The path and file name for the restored File Store should be exactly the same as the backed up File Store so that components that use the files can access them.
 
     
@@ -89,7 +89,7 @@ If the Back End Server that hosts the Central Management store is in a mirrored 
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Depending on the server that you are restoring and on your deployment, the server might include multiple collocated or separate databases. Follow the same procedure to install SQL Server that you used originally to deploy the server, including SQL Server permissions and logins.
 
         
@@ -116,7 +116,7 @@ If the Back End Server that hosts the Central Management store is in a mirrored 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you lose the connection point, you can rerun this cmdlet.
 
     
@@ -137,7 +137,7 @@ If the Back End Server that hosts the Central Management store is in a mirrored 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > After you enable the topology, you can find the topology document in the database.
 
     
@@ -160,7 +160,7 @@ If the Back End Server that hosts the Central Management store is in a mirrored 
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Only stand-alone databases are displayed on the <STRONG>Create databases</STRONG> page. Collocated databases are created when you run the Lync Server Deployment Wizard.
 
         
@@ -173,7 +173,7 @@ If the Back End Server that hosts the Central Management store is in a mirrored 
     <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > Instead of running Topology Builder, you can use the <STRONG>Install-CsDatabase</STRONG> cmdlet to create each database, and the <STRONG>Install-CsMirrorDatabase</STRONG> cmdlet to configure mirroring. For details, see <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsDatabase">Install-CsDatabase</A> and <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsMirrorDatabase">Install-CsMirrorDatabase</A>.
 
     

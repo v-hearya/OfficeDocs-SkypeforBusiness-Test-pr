@@ -33,7 +33,7 @@ The Persistent Chat database refers to the database corresponding to the Lync Se
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > We reserve the right to evolve this schema. Microsoft does not make any guarantees to maintain full backward compatibility with this published schema.
 
 

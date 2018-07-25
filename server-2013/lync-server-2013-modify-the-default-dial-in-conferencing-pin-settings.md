@@ -57,7 +57,7 @@ The global PIN policy defines the rules for dial-in conferencing PINs at the for
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > We recommend that you do not allow common patterns.
 
     

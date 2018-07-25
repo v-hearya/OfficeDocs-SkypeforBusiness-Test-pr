@@ -41,7 +41,7 @@ By using this process, you can plan for and document the configuration of all po
 <div>
 
 
-> [!TIP]
+> [!TIP]  
 > If you are planning to install the Edge Servers and reverse proxy and then add features later (for example, federation and mobility), determine what certificates you will require for all services after deployment. Planning for and acquiring the certificates for all features in advance, initially deployed or not, saves you from having to order new certificates to satisfy the requirements of federation (that is, on the Edge Servers) or the reverse proxy (that is, for mobility services).
 
 
@@ -51,7 +51,7 @@ By using this process, you can plan for and document the configuration of all po
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > All edge services run on each Edge Server. Services cannot be split between two different Edge Servers. If you deploy an Edge pool for scalability, all edge services are deployed on each Edge Server in the pool. XMPP federation, Office Communications Server, and Lync Server federation, public IM connectivity and client mobility are additional services that can be deployed after you have deployed your first Edge Server or Edge pool. Mobility services is a feature that uses the reverse proxy. Installation of mobility services will not add features to your Edge Servers, but will require reconfiguration of your reverse proxy. The <STRONG>Installation goal</STRONG> column that lists these features provides planning guidance in the associated column under <STRONG>Edge Server planning section or sections</STRONG> for concurrently planning these features to be deployed when the Edge Servers are installed and configured.
 
 
@@ -126,7 +126,7 @@ By using this process, you can plan for and document the configuration of all po
 <div>
 
 
-> [!TIP]
+> [!TIP]  
 > In the following Scenarios sections are reference architectures, example DNS, port/protocol definitions, and certificate requirements. Also included are diagrams for your DNS, port/protocol definitions and certificate needs. The diagrams will provide a template for you to fill in and distribute to other teams (for example, your organization’s Network Team, Public Key Infrastructure Team, and Server Deployment Team). The goal of the diagrams is to enhance communication and to ensure success when communicating the required Edge Server configuration elements to the people who will do the actual configuration work. We recommend that you use the diagrams and associated reference architectures to plan your deployment.
 
 

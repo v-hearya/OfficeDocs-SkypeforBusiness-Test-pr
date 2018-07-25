@@ -45,7 +45,7 @@ The following sections provide more details for using each network element.
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > When you use network elements to map callers to locations, it is of utmost importance that you keep the Location Information service database up-to-date. For example, if you add or change a network element, such as adding a WAP, you must delete the old entry and add the new entry in the location database.
 
 
@@ -71,7 +71,7 @@ Managed Ethernet switches that support Link Layer Discovery Protocol-Media Endpo
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Lync Server 2013 supports using LLDP-MED for determining locations only of Lync Phone Edition devices and Lync 2013 running on Windows 8. If you need to use switch-level Layer 2 data to determine the location of other wired PC-based Lync clients, you need to use the client MAC address method.
 
 
@@ -105,7 +105,7 @@ To use a client computer's MAC address to locate a caller, you need managed Ethe
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Some third-party SNMP solutions can support unmanaged access switches; if the switch that services the Lync client is unmanaged but has an uplink to a managed distribution switch, the managed switch can report back to the SNMP application the MAC addresses of the clients connected to the access switch. This information enables the Location Information service to identify the location of the user. However, it is possible to assign only a single ERL to all ports on the unmanaged switch, so the location specificity is available only at the chassis level of the access switch, not the port level.
 
 

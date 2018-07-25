@@ -39,7 +39,7 @@ If you have multiple sites, each with a pool of Edge servers, and one entire Edg
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For failover to work smoothly, ensure that the firewall allows the Front End servers from every pool to communicate with all Edge servers.
 
 

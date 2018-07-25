@@ -41,7 +41,7 @@ The remainder of this topic focuses on how to define providers, modify a provide
 <div class="">
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > As mentioned, providers are very powerful. However, scenarios are more powerful because they contain the embodiment of all information needed to set and execute tracing on the components that the providers represent. With scenarios being a collection of providers, this could be loosely compared to running a batch file containing hundreds of commands to collect a lot of information versus issuing hundreds of commands, one at a time, at the command line.<BR>Instead of requiring you to dig deeply into the details of providers, the Centralized Logging Service provides a number of scenarios that are already defined for you. The provided scenarios cover the vast majority of possible issues that you will encounter. In rare cases, you may need to create and define providers and assign them to scenarios. We strongly recommend that you become familiar with each of the scenarios provided before you investigate the need to create new providers and scenarios. While information about creating providers is found here to familiarize you with how the scenarios use the provider elements to collect trace information, details on the providers themselves are not provided at this time.
 
 
@@ -145,7 +145,7 @@ The end result of the command is that the scenario site:Redmond/RedmondLyssInfo 
 <div class="">
 
 
-> [!WARNING]
+> [!WARNING]  
 > <STRONG>New-ClsCsProvider</STRONG> does not check to determine whether the flags are valid. Make sure that the spelling of the flags (for example, TF_DIAG or TF_CONNECTION) is spelled correctly. If the flags are not spelled correctly, the provider cannot return the expected log information.
 
 
@@ -185,7 +185,7 @@ Where each provider defined with the Add directive has already been defined usin
     <div class="">
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > The cmdlet <STRONG>Remove-CsClsScenario</STRONG> does not prompt you for confirmation. The scenario is deleted, along with the providers that were assigned to it. You can recreate the scenario by re-running the commands used to create it initially. There is no procedure to recover removed scenarios or providers.
 
     

@@ -54,7 +54,7 @@ The preceding command enables QoS at the global scope; however, it's important t
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Do you need to enable QoS at the site scope? That depends. Settings assigned to the site scope take precedence over settings assigned to the global scope. Suppose you have QoS enabled at the global scope but disabled at the site scope (for the Redmond site.) In that case, Quality of Service will be disabled for the Redmond site; that's because the site settings take precedence. To enable QoS for the Redmond site you will have to do so using the media configuration settings applied to that site.
 
 

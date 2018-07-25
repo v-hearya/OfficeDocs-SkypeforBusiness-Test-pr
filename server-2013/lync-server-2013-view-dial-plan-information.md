@@ -43,7 +43,7 @@ To view information for an existing dial plan, perform the steps in the followin
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can view information for only one dial plan at a time.
 
     

@@ -31,7 +31,7 @@ Lync Server 2013 supports Enhanced 9-1-1 (E9-1-1) services within the United Sta
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Lync Server has three advanced Enterprise Voice features: call admission control, emergency services (E9-1-1), and media bypass. For an overview of planning information that is common to all three of these features, see <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Network settings for the advanced Enterprise Voice features in Lync Server 2013</A>.
 
 

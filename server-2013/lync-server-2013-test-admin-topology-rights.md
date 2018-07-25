@@ -62,7 +62,7 @@ The Test-CsSetupPermission cmdlet verifies that the required permissions that ar
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For a detailed list of permissions assigned by Grant-CsSetupPermission, see the blog post <A href="https://blogs.technet.com/b/jenstr/archive/2011/02/07/grant-cssetuppermission-and-grant-csoupermission.aspx">Grant-CsSetupPermission and Grant-CsOUPermission</A>.
 
 

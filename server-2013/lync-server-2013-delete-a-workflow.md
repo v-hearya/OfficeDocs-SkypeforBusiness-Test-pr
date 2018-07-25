@@ -47,7 +47,7 @@ Use one of the following procedures to delete a workflow.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The Response Group Configuration Tool webpage opens. You can also open the Response Group Configuration Tool webpage directly from a web browser by connecting to <STRONG>https://&lt;webPoolFqdn&gt;/RgsConfig</STRONG>.
 
     

@@ -37,7 +37,7 @@ You can implement a single Director server or a Director pool. The Director is a
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you do not deploy Directors, the Front End Server or Front End pool will assume the Director role.
 
 

@@ -47,7 +47,7 @@ Help improve the security of devices running Lync Phone Edition via your SIP sec
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For details, see <A href="lync-server-2013-enforce-phone-locking.md">Enforce phone locking in Lync Server 2013</A>.
 
     

@@ -57,7 +57,7 @@ In addition to the requirements for web conferencing and A/V conferencing, dial-
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you are also deploying Enterprise Voice, Mediation Server and PSTN gateways are part of the Enterprise Voice deployment. If you are not deploying Enterprise Voice, you need to deploy at least one Mediation Server and at least one PSTN gateway, IP-PBX, or SBC for dial-in conferencing.
 
     
@@ -96,7 +96,7 @@ You can deploy Application service, Conferencing Attendant application, and Conf
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you deploy dial-in conferencing, you must deploy it in every pool where you deploy Lync Server 2013 conferencing. You do not need to assign access numbers in every pool, but you must deploy the dial-in conferencing feature in every pool. This requirement supports the recorded name feature when a user calls an access number from one pool to join a Lync Server 2013 conference in a different pool.
 
 
@@ -128,7 +128,7 @@ Regardless of the topology you select, it is critical that the correct firewall 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Another option for providing external access to Office Web Apps Server is to deploy the server in the perimeter network. If you elect to do this, keep in mind that Office Web Apps Server setup requires the server computer to be a member of your Active Directory domain. Unless your network policy allows computers in the perimeter network to be Active Directory domain members, it is recommended that you do not install Office Web Apps Server in the perimeter network. Instead, you should install Office Web Apps Server in the internal network and provide external user access through your reverse proxy server.
 
 

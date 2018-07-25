@@ -31,7 +31,7 @@ Deploying edge components for Microsoft Lync Server 2013 makes it possible for e
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Microsoft Lync Server 2013&nbsp;Edge Server installation and configuration can be a complex process requiring a potentially significant amount of planning and coordination with your internal teams, including – but not limited to – security, networking, firewall, domain name system (DNS), load balancer, and public key infrastructure (PKI) considerations. It is strongly recommended that you review and use the planning process and documentation provided before deploying your external access components. This will assist in limiting the number and frequency of undesired changes and problems as you proceed through the deployment process. For information on planning you external user access, see <A href="lync-server-2013-planning-for-external-user-access.md">Planning for external user access in Lync Server 2013</A>.
 
 

@@ -31,7 +31,7 @@ The following section describes how to configure Lync Server 2013 with Cumulativ
 <div class="">
 
 
-> [!NOTE]
+> [!NOTE]  
 > It is strongly recommended that customers enable passive authentication for Registrar and Web Services at the service level. If passive authentication is enabled for Registrar and Web Services at the global level, it will likely result in organization-wide authentication failures for users who are not signing in with the Lync 2013 with Cumulative Updates: July 2013 client desktop client.
 
 
@@ -57,7 +57,7 @@ The following steps describe how to create a custom web service configuration fo
     <div class="">
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > The value for the WsFedPassiveMetadataUri FQDN is the Federation Service Name of your AD FS 2.0 server. The Federation Service Name value can be found in the AD FS 2.0 Management Console by right-clicking on <STRONG>Service</STRONG> from the navigation pane and then selecting <STRONG>Edit Federation Service Properties</STRONG>.
 
     

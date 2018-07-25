@@ -51,7 +51,7 @@ The Lync Server Deployment Wizard is used to install the needed components for e
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you’re prompted to restart the server (which might happen if Windows Desktop Experience needed to be installed), definitely do that. When the computer is back up and running, you need to do these steps over again, starting from step three listed above (basically run Step 2 in the Deployment Wizard one more time).
 
     

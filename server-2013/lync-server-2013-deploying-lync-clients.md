@@ -37,7 +37,7 @@ The topics in this section focus on how to deploy clients by using the Office 20
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > <UL>
 > <LI>
 > <P>The Online Meeting Add-in for Lync 2013, which supports meeting management from within the Outlook messaging and collaboration client, installs automatically with Lync 2013.</P>

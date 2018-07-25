@@ -37,7 +37,7 @@ Group Call Pickup is built on the Call Park application. When you deploy Group C
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Number ranges that are designated as Group Call Pickup numbers in the call park orbit table cannot be managed or viewed by using the Lync Server Control Panel. The only way to see all the number ranges in the call park orbit table is to use Lync Server Management Shell. Similarly, the only way to add, modify, or remove Group Call Pickup numbers is to use Lync Server Management Shell.
 
 
@@ -49,7 +49,7 @@ After you configure the call pickup group numbers, you assign users to a call pi
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > A user can be a member of only one call pickup group.
 
 
@@ -59,7 +59,7 @@ After you configure the call pickup group numbers, you assign users to a call pi
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Although any user in the Lync Server deployment can answer a call to a call pickup group member, the person answering the call must know the correct call pickup group number to dial.
 
 
@@ -79,7 +79,7 @@ Group Call Pickup cannot be used to answer the following types of calls:
     <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > A user who is a member of a call pickup group can prevent certain calls from being retrieved through Group Call Pickup by marking the contact as a personal contact in the Lync client. To mark a contact as a personal contact, set the Privacy Relationship for the contact to Friends and Family. Any incoming call from contacts with the Privacy Relationship set to Friends and Family cannot be retrieved by using Group Call Pickup.
 
     
@@ -90,7 +90,7 @@ Group Call Pickup cannot be used to answer the following types of calls:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If a user answers an audio/video call, the user receives only the audio. Either the person calling or the person answering the call can escalate the call to add video.
 
     

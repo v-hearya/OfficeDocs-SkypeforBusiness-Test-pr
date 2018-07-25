@@ -37,7 +37,7 @@ Authentication is the provision of user credentials to a trusted server. Lync Se
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > NTLM protocol offers weaker attack protection than Kerberos, so some organizations minimize usage of NTLM. As a result, access to Lync Server 2013 might be restricted to internal or clients connected through a VPN or DirectAccess connection.
 
     

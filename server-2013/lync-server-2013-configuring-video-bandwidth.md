@@ -47,7 +47,7 @@ Verify the following settings in your conferencing policy:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The maximum video network bandwidth for a Lync 2013 endpoint is 8000 kbps for the main video and 2500 kbps for panoramic video. These maximum values are reached only if multiple videos are received or sent. For details, see the "Media Traffic Network Usage" section in <A href="lync-server-2013-network-bandwidth-requirements-for-media-traffic.md">Network bandwidth requirements for media traffic in Lync Server 2013</A>. This section lists the maximum and typical video stream bandwidth for all supported resolutions.
 
     
@@ -60,7 +60,7 @@ Verify the following settings in your conferencing policy:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For details about the <STRONG>EnableMultiviewJoin</STRONG> setting, see <A href="lync-server-2013-configuring-gallery-view.md">Configuring Gallery View in Lync Server 2013</A>.
 
     
@@ -83,7 +83,7 @@ Verify the following setting:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Lync Server 2013 clients ignore this setting and use the TotalReceiveVideoBitRateKb setting in conferencing policy instead.
 
     

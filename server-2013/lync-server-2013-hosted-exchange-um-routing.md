@@ -51,7 +51,7 @@ Alice’s mailbox and Exchange UM service are located at a hosted Exchange servi
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The value of the msExchUCVoiceMailSettings attribute can be set by either the Exchange service provider or the Lync Server 2013 administrator. In the example shown in the preceding diagram, the value (CsHostedVoiceMail=1) was set by the Lync Server 2013 administrator to enable hosted voice mail for Alice. For details about this attribute, see <A href="lync-server-2013-hosted-exchange-user-management.md">Hosted Exchange user management in Lync Server 2013</A>.
 
     
@@ -66,7 +66,7 @@ Alice’s mailbox and Exchange UM service are located at a hosted Exchange servi
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > The FQDN for Exchange Online is exap.um.outlook.com.
 
         
@@ -77,7 +77,7 @@ Alice’s mailbox and Exchange UM service are located at a hosted Exchange servi
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If both the msExchUCVoiceMailSettings attribute and the UM proxy address settings are present in a user account, the msExchUCVoiceMailSettings attribute takes precedence.
 
 

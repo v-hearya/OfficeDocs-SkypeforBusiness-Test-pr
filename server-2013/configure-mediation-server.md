@@ -33,7 +33,7 @@ To successfully publish, enable, or disable a topology when adding or removing a
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For the latest information on finding qualified PSTN gateways, IP-PBXs, and SIP trunking services that work with Lync Server 2013, see "Microsoft Unified Communications Open Interoperability Program" at <A href="http://go.microsoft.com/fwlink/p/?linkid=206015">http://go.microsoft.com/fwlink/p/?linkId=206015</A>.
 
 
@@ -75,7 +75,7 @@ To successfully publish, enable, or disable a topology when adding or removing a
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > It is important that you complete the next topic, <A href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">Change voice routes to use the new Lync Server 2013 Mediation Server</A> to ensure that the voice routes are pointing to the correct Mediation Server.
 
 

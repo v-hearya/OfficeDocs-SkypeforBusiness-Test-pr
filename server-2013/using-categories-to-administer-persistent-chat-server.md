@@ -31,7 +31,7 @@ Your Persistent Chat Server deployment can host many concurrent Persistent Chat 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Although many of the management features of chat rooms are available in computers running Persistent Chat (Lync client) for the user, Persistent Chat Administrators (in the <STRONG>cspersistentchatadministrator</STRONG> role) must use the Lync Server Control Panel or Windows PowerShell cmdlets to create or manage categories.
 
 
@@ -45,7 +45,7 @@ Persistent Chat room managers, who have the ability to manage one or more chat r
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > A Persistent Chat room cannot have the same name as a Persistent Chat category.
 
 

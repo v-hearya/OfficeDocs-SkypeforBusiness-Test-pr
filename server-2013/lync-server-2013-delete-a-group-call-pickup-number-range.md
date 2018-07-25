@@ -47,7 +47,7 @@ Use the following procedure to delete a Group Call Pickup number range.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For details about more options, see <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.
 
     

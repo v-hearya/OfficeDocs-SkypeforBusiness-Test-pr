@@ -33,7 +33,7 @@ The recommended workflow for a new Enterprise Voice deployment is to start by co
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You can also create voice policies with <EM>user</EM> scope and assign them to individual users or groups.
 
 

@@ -41,7 +41,7 @@ For details, see the “Preparing for Voice Mail Survivability” section of [Br
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you need to modify the voice mail rerouting setting later, use the <STRONG>Set-CsVoiceMailReRoutingConfiguration</STRONG> cmdlet to do so. For details, about <STRONG>New-</STRONG> and <STRONG>Set-CSVoiceMailReroutingConfiguration</STRONG>, in the Shell Help topics.
 
     
@@ -52,7 +52,7 @@ For details, see the “Preparing for Voice Mail Survivability” section of [Br
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Configure the Exchange UM users’ dial plan so that there is only one dial plan associated with all branch users who need access to the Get Voice Mail functionality during a WAN outage.
 
     

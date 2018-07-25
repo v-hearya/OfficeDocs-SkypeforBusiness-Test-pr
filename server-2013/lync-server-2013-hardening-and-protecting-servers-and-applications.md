@@ -31,7 +31,7 @@ You should harden and protect your operating system and applications according t
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You can also harden and protect the databases used for you Microsoft Lync Server 2013 deployment. For details, see <A href="lync-server-2013-hardening-and-protecting-databases.md">Hardening and protecting the databases of Lync Server 2013</A>.
 
 

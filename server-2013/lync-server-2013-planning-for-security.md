@@ -35,7 +35,7 @@ Use this section as a starting point to address the security of your Lync Server
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Security is a constantly evolving topic. As new threats and solutions arise, outdated documents, solutions, methods, and procedures should be replaced with up-to-date material.
 
 

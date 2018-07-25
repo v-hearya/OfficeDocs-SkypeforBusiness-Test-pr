@@ -51,7 +51,7 @@ Before you deploy Persistent Chat Server for your organization, it’s essential
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Having multiple Persistent Chat Server pools does not give you more scale (you can still have only 80,000 concurrently connected users across all your Persistent Chat Server pools). The primary reason for supporting multiple Persistent Chat Server pools is to support regulatory concerns.
 
     

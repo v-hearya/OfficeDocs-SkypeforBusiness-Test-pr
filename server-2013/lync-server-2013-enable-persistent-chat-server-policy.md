@@ -31,7 +31,7 @@ In the Lync Server 2013 Control Panel, you can use the **Persistent Chat Policy*
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In the topology, Persistent Chat Server site policies apply globally, per user’s pool, or per user’s site, or per user.
 
 
@@ -45,7 +45,7 @@ You can create and configure multiple site and user policies which, together wit
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > To configure and use Persistent Chat Server, you must first use Topology Builder to add Persistent Chat Server support to the topology, and then publish the topology. For details, see <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Adding Persistent Chat Server to your deployment in Lync Server 2013</A> in the Deployment documentation.
 
 

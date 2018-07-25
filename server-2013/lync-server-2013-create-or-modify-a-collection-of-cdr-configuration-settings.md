@@ -79,7 +79,7 @@ You can create CDR configuration settings by using either Lync Server Control Pa
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The New-CsCdrConfiguration and Set-CsCdrConfiguration cmdlets include additional options not available in Lync Server Control Panel. See the <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration">New-CsCdrConfiguration</A> and the <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration">Set-CsCdrConfiguration</A> help topics for more information.
 
 

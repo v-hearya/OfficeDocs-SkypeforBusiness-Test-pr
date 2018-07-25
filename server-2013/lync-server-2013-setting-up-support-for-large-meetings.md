@@ -99,7 +99,7 @@ We recommend creating a new conferencing policy specifically for large meetings,
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The support for 1000 user large meetings in Lync Server 2013 requires the <STRONG>AllowLargeMeetings</STRONG> setting in the conferencing policy for the meeting scheduler to be set to true. When this setting is set to true, the Lync experience will be optimized for extra large meetings when users joins such meeting. Specifically, in a large meeting, Lync will not show the initial or update of the full meeting participant list, which is a performance bottleneck for both the client and Lync Server 2013. Instead, Lync will only show information about the user and the list of presenters of the meeting. Lync will still properly shows total number of participants available in the large meetings.
 
 

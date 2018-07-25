@@ -46,7 +46,7 @@ The following table summarizes the group or groups that a person should belong t
 <td><p>Member of the Local Administrators group on the computer from which the executable is run. Member of Domain Users group to read information in Active Directory Domain Services. This level of permission is required because the automatic installation of required MSI packages on the local computer requires privileges that allow reading from and writing to protected local computer resources such as Program Files directories, and protected registry such as the Local Machine hive.</p>
 <div>
 
-> [!TIP]
+> [!TIP]  
 > You can also delegate setup permissions to users or groups to whom you do not want to grant membership in the Domain Admins group. For details, see <A href="lync-server-2013-granting-setup-permissions.md">Granting setup permissions in Lync Server 2013</A> in the Deployment documentation.
 
 
@@ -57,7 +57,7 @@ The following table summarizes the group or groups that a person should belong t
 <td><p>Member of the Local Administrators group on the computer from which the executable is run. Member of Domain Users group to read information in AD DS. This level of permission is required because the automatic installation of required MSI packages on the local computer requires privileges that allow reading from and writing to protected local computer resources such as Program Files directories, and protected registry such as the Local Machine hive. Membership in RtcUniversalReadOnlyAdmins group is necessary to read the Central Management store.</p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > If you are running the Windows Vista operating system or Windows 7 operating system, you will be prompted by User Account Control (UAC) to proceed with installation. If you are logged on with a standard user account, you will need someone who is a member of the Local Administrators group to provide credentials when prompted for an account with permissions to install the software.
 
 

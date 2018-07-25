@@ -45,7 +45,7 @@ Using Topology Builder, perform the steps in the following procedure to deploy I
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > This is the recommended option for IP version 6 (IPv6) configurations.
 
         

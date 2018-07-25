@@ -97,7 +97,7 @@ Lync Server does not support single-labeled domains. For example, a forest with 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Lync Server does not support renaming domains. If you need to rename a domain where Lync Server is deployed, you need to first uninstall Lync Server, then rename the domain, and then reinstall Lync Server.
 
 

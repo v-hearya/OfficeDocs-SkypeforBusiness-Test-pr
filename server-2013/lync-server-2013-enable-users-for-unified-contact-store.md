@@ -64,7 +64,7 @@ When you deploy Lync Server 2013 and publish the topology, unified contact store
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > You can also use user alias or SIP URI instead of the user display name.
 
         
@@ -78,7 +78,7 @@ When you deploy Lync Server 2013 and publish the topology, unified contact store
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > In the preceding example, the first command creates a new per-user policy named <EM>UCS Enabled Users</EM> with the UcsAllowed flag set to True. The second command assigns the policy to the user with the display name Ken Myer, which means that Ken Myer is now enabled for unified contact store.
 
         

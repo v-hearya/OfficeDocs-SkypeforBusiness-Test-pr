@@ -43,7 +43,7 @@ Installing the latest version of Persistent Chat Server requires the following c
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > In Lync Server 2013, the Persistent Chat Web Services for File Upload/Download is now collocated with Lync Server 2013&nbsp;Front End Server.<BR>The Persistent Chat Web Services for Chat Room Management is also collocated with Lync Server 2013&nbsp;Front End Server.
 
     
@@ -54,7 +54,7 @@ Installing the latest version of Persistent Chat Server requires the following c
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The back-end database stores chat history data, including information about categories and Persistent Chat rooms that are created.
 
     
@@ -83,7 +83,7 @@ For Lync Server 2013 Enterprise Edition, Persistent Chat Servers cannot be coll
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The server hosting the Persistent Chat database can host other databases. However, when you consider collocating the Persistent Chat database with other databases, be aware that if you are storing the messages of more than a few users, the disk space needed by the Persistent Chat database can grow very large. For this reason, we do not recommend collocating the Persistent Chat database with the back-end database.
 
 
@@ -117,7 +117,7 @@ You can add Persistent Chat Server to your Lync Server 2013 deployment by using 
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > After you create a Persistent Chat Server pool with a single server by using Topology Builder, you cannot add additional servers to the pool.
 
 
@@ -133,7 +133,7 @@ The minimum configuration and simplest deployment for Persistent Chat Server is 
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > You cannot add additional servers to a Persistent Chat Server pool that is started as a single-server deployment in Topology Builder. We recommend using the multiple-server pool topology, even if you’re using a single server, so that you can add more servers later, if needed..
 
 

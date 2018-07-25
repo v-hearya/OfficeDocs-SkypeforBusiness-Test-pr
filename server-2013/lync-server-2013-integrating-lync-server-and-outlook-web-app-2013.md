@@ -47,7 +47,7 @@ Lync Server 2013 can autodiscover any Exchange servers that host a SipName UM di
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > This is due to the fact that the Lync Server topology will now have two entries for the same computer: the autodiscovered entry, and the manually-added entry. To fix the problem, and to get Outlook Web App working again, use Windows PowerShell to remove the trusted pool and trusted application entries for the server. See the help topics for the <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplicationPool">Remove-CsTrustedApplicationPool</A> and <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplication">Remove-CsTrustedApplication</A> cmdlets for more information.
 
 
@@ -83,7 +83,7 @@ With Lync Server correctly configured you can then begin to configure Outlook We
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > By default, instant messaging is enabled when you install Outlook Web App; that is, the InstantMessagingEnabled property is set to True. However, you must still run the preceding command in order to set the instant messaging type to OCS. By default, InstantMessagingType is set to None.
 
 

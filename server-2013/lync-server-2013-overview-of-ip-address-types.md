@@ -39,7 +39,7 @@ The following sections outline the compatibility among these three configuration
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Client or server configuration with IPv6 only is supported only for lab or validation purposes. IPv6 only configuration is not supported in the production deployment.
 
 
@@ -383,7 +383,7 @@ Deployments that include call admission control (CAC), Enhanced 9-1-1 (E9-1-1), 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In a dual-stacked deployment, even if a Lync client connects to a Lync Server by using IPv6, Lync will make a best effort to map an appropriate IPv4 address to support E9-1-1.
 
 

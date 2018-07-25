@@ -127,7 +127,7 @@ To configure your deployment for hybrid with Skype for Business Online, you need
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > All user management, including user moves between on-premises and UNRESOLVED_TOKEN_VAL(skypeforbusiness) Online, needs to be done using the latest installed version of the administrative tools. The administrative tools must be installed on a separate server that has connect access to the existing on-premises deployment and to the Internet. The <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser">Move-CsUser</A> cmdlet to move users from your on-premises deployment to UNRESOLVED_TOKEN_VAL(skype16_online) must be run from the administrative tools connected to your on-premises deployment.
 
 
@@ -287,7 +287,7 @@ When you synchronize user accounts between your Lync on-premises and Lync Online
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If the user is created by using the online portal for Office 365, the user account will not be synchronized with on-premises Active Directory, and the user will not exist in the on-premises Active Directory. If you have already created users in Lync Online, and want to configure hybrid with an on-premises Lync Server, see <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Moving users from Lync Online to Lync on-premises in Lync Server 2013</A>.
 
 

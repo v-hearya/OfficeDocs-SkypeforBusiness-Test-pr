@@ -73,7 +73,7 @@ Every Survivable Branch Appliance (SBA) is associated with a Front End pool whic
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > A Lync Server 2010 Survivable Branch Appliance can only be associated with a Lync Server 2010 Monitoring Store.
 
     

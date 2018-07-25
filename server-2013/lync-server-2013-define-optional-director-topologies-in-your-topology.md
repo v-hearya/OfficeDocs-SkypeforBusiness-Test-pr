@@ -63,7 +63,7 @@ This topic describes the steps to define and publish the topology for the two Di
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The file share that you specify or create in this step must exist or be created prior to publishing the topology.<BR>The file share assigned to a Director is not actually used, so you can assign the file share of any pool in the organization.
 
     
@@ -74,7 +74,7 @@ This topic describes the steps to define and publish the topology for the two Di
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The name must be resolvable from Internet DNS servers and point to the public IP address of the reverse proxy, which listens for HTTP/HTTPS requests to that URL and proxies them to the external Web Services virtual directory on that Director.
 
     
@@ -83,7 +83,7 @@ This topic describes the steps to define and publish the topology for the two Di
     <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > If you have more than one Front End pool or Front End Server the external Web services FQDN must be unique. For example, if you define the external Web services FQDN of a Front End Server as <STRONG>pool01.contoso.com</STRONG>, you cannot use <STRONG>pool01.contoso.com</STRONG> for another Front End pool or Front End Server. If you are also deploying Directors, the external Web services FQDN defined for any Director or Director pool must be unique from any other Director or Director pool as well as any Front End pool or Front End Server. If decide to override the Internal web services with a self-defined FQDN, each FQDN must be unique from any other Front End pool, Director or a Director pool.
 
     
@@ -126,7 +126,7 @@ This topic describes the steps to define and publish the topology for the two Di
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The file share that you specify or create in this step must exist or be created prior to publishing the topology.<BR>The file share assigned to a Director is not actually used, so you can assign the file share of any pool in the organization.
 
     
@@ -137,7 +137,7 @@ This topic describes the steps to define and publish the topology for the two Di
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The name must be resolvable from Internet DNS servers and point to the public IP address of the reverse proxy, which listens for HTTP/HTTPS requests sent to that URL and proxies them to the external Web Services virtual directory on that Director pool.
 
     
@@ -146,7 +146,7 @@ This topic describes the steps to define and publish the topology for the two Di
     <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > If you have more than one Front End pool or Front End Server the external Web services FQDN must be unique. For example, if you define the external Web services FQDN of a Front End Server as <STRONG>pool01.contoso.com</STRONG>, you cannot use <STRONG>pool01.contoso.com</STRONG> for another Front End pool or Front End Server. If you are also deploying Directors, the external Web services FQDN defined for any Director or Director pool must be unique from any other Director or Director pool as well as any Front End pool or Front End Server. If decide to override the Internal web services with a self-defined FQDN, each FQDN must be unique from any other Front End pool, Director or a Director pool.
 
     

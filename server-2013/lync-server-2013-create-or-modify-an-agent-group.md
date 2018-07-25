@@ -31,7 +31,7 @@ Use one of the following procedures to create or modify an agent group.
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > An Administrator—for example, CsVoiceAdministrator—must enable users for Enterprise Voice and Lync Server before the users can be assigned to agent groups. If you are one of the delegated Response Group Managers for a managed workflow, you can create agent groups and use the agent groups in the workflows that you manage.
 
 
@@ -41,7 +41,7 @@ Use one of the following procedures to create or modify an agent group.
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > When you assign users as response group agents, inform them that, if they have Privacy mode enabled, they need to search for "RGS Presence Watcher" contacts and add them to their Contacts list. Agents who have Privacy mode enabled, but who do not have "RGS Presence Watcher" in their Contacts list, cannot receive calls to the response group. Agents who do not have Privacy mode enabled are not affected.
 
 
@@ -57,7 +57,7 @@ Use one of the following procedures to create or modify an agent group.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you are one of the delegated Response Group Managers for a managed workflow, you can create groups and use them in the workflows that you manage.
 
     
@@ -88,7 +88,7 @@ Use one of the following procedures to create or modify an agent group.
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The agent alert time setting cannot exceed 180 seconds. If the agent alert time exceeds 180 seconds, the client application rejects the call because the SIP transaction timer reaches its maximum wait time.
 
     
@@ -131,7 +131,7 @@ Use one of the following procedures to create or modify an agent group.
         <div>
         
 
-        > [!IMPORTANT]
+        > [!IMPORTANT]  
         > If you use an email distribution list, hidden memberships or hidden lists might become visible to the Response Group administrator or users.
 
         
@@ -166,7 +166,7 @@ Use one of the following procedures to create or modify an agent group.
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The agent alert time setting cannot exceed 180 seconds. If the agent alert time is greater than 180 seconds, the client application rejects the call because the SIP transaction timer reaches its maximum wait time.
 
     

@@ -43,7 +43,7 @@ If you enable archiving in one Front End pool or Standard Edition server, you sh
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If archiving is critical in your organization for compliance reasons, be sure to deploy Archiving, configure policies and other options at the appropriate level, and enable it for all appropriate users, before you enable those users for Lync Server 2013.
 
 
@@ -83,7 +83,7 @@ The following table provides an overview of the steps required to deploy archivi
 </ul>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > Archiving runs on Front End Servers of an Enterprise pool and Standard Edition servers. It has no additional hardware or software requirements beyond what is required to install those servers.
 
 

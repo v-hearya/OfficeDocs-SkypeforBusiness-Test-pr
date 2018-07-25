@@ -31,7 +31,7 @@ You can use the following procedure to remove a previously added user account in
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Removing a user will cause you to lose any settings you configured for the user account. If you would like to temporarily disable a user account instead, see the topic <A href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Disable or re-enable user account for Lync Server 2013</A>.
 
 

@@ -37,7 +37,7 @@ In addition, the IP Phone Inventory Report does not report summary totals for th
 <div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > Or, export the data and use Microsoft Excel or Windows PowerShell to do that counting for you.
 
 

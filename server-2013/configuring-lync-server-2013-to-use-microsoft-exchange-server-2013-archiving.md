@@ -31,7 +31,7 @@ Microsoft Lync Server 2013 gives administrators the option of having instant mes
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > To completely disable archiving of Lync conversation, you must also disable Lync conversation history. For more information, see the following topics: <A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Managing the Archiving of internal and external communications in Lync Server 2013</A>, <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy">New-CsClientPolicy</A>, and <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</A>.
 
 
@@ -69,7 +69,7 @@ To disable Exchange archiving, use a command similar to the following, which ena
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If the EnableArchiving property is set to None then Lync Server will not archive instant messaging and Web conferencing transcripts at all. In that case, the server will simply ignore the value configured for EnableExchangeArchiving.
 
 
@@ -89,7 +89,7 @@ Exchange archiving can also be enabled (or disabled) by using the Lync Server Co
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The <STRONG>Exchange Server integration</STRONG> checkbox will not be available if the <STRONG>Archiving setting</STRONG> is set to <STRONG>Disable archiving</STRONG>. You must enable archiving first and then enable Exchange archiving.
 
 

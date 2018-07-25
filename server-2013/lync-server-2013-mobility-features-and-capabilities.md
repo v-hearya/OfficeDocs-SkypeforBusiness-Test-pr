@@ -35,7 +35,7 @@ The mobility feature introduced in the Cumulative Updates for Lync Server 2013: 
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Features supported by the Mobility Service from the Cumulative Updates for Lync Server 2010: November 2011 are noted with (Mcx). All listed features are supported by the UCWA, introduced in the Cumulative Updates for Lync Server 2013: February 2013.
 
 
@@ -65,7 +65,7 @@ The mobility feature introduced in the Cumulative Updates for Lync Server 2013: 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Lync 2010 Mobile provided a client for Nokia Symbian devices. Lync 2013 Mobile will not have a client for Nokia Symbian-based devices.
 
 
@@ -77,7 +77,7 @@ Apple iPad users will have access to enhanced capabilities. After joining a meet
 <div>
 
 
-> [!TIP]
+> [!TIP]  
 > With single number reach, a user receives calls on a mobile phone that were dialed to the work number. With Call via Work, the user places an outbound call from the Lync Mobile client by using a work phone number instead of the mobile phone number. With dial-out, the client sends a request to Mcx or UCWA (based on the Lync Mobile version) to make the call for them. The server initiates the call and then calls the user back on the mobile phone. When the user answers, the server completes the call by dialing the other party. By using Call via Work, users can maintain their work identity during a call, which means that the call recipient does not see the caller's mobile number, and the caller avoids incurring outbound calling charges.
 
 
@@ -87,7 +87,7 @@ Apple iPad users will have access to enhanced capabilities. After joining a meet
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Not all features work exactly the same on all mobile devices. For details about features supported on mobile devices, see the Mobile Client Comparison Tables at <A href="http://go.microsoft.com/fwlink/p/?linkid=234777">http://go.microsoft.com/fwlink/p/?LinkId=234777</A>. For details about supported devices and operating systems, see the requirements topics under <A href="lync-server-2013-planning-for-mobile-clients.md">Planning for mobile clients in Lync Server 2013</A>.
 
 
@@ -99,7 +99,7 @@ When you use the Lync Server 2013 Autodiscover feature, mobile applications can 
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The Mcx and UCWA are complimentary services and both are deployed to support Lync 2010 Mobile and Lync 2013 Mobile clients. Lync 2013 Mobile will not be able to sign in to Lync Server 2010 deployments. Lync 2010 Mobile and Lync 2013 Mobile will be able to use a Lync Server 2013 deployment with the Cumulative Updates for Lync Server 2013: February 2013 applied.
 
 

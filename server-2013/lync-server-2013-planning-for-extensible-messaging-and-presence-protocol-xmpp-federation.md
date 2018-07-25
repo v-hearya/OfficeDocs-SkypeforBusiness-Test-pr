@@ -33,7 +33,7 @@ Deployment and configuration of XMPP is covered in [Deploying external user acce
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The XMPP capability of Lync Server 2013 is tested and supported by Microsoft for instant messaging federation with Google Talk. For any other XMPP systems contact the third-party vendor to verify that they support federation with Lync Server 2013, and for any deployment or troubleshooting recommendations.
 
 

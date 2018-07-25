@@ -41,7 +41,7 @@ After you migrate users to Lync Server 2013, do the following:
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Do not enable Lync 2013 enhanced presence privacy mode until every user on a given server pool has the most current client versions installed.
 
     

@@ -33,7 +33,7 @@ The certificate assigned to the external interfaces of the Edge Server is reques
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The following table shows a second SIP entry (sip.fabrikam.com) in the subject alternative name list for reference. For each SIP domain in your organization, you need to add a corresponding FQDN listed in the certificate subject alternative name list.
 
 

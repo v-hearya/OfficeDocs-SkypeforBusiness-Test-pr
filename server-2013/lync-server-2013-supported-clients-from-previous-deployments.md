@@ -130,7 +130,7 @@ The following table shows the supported combinations of client versions and serv
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details about the ability of Lync Server 2013 clients to coexist and interact with clients from earlier versions of Lync Server and Office Communications Server, see <A href="lync-server-2013-client-interoperability-in-lync-2013.md">Client interoperability in Lync 2013</A> in the Planning documentation.
 
 

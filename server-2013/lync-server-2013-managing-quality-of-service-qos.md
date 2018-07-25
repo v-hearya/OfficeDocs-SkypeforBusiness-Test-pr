@@ -31,7 +31,7 @@ Quality of Service (QoS) is a networking technology used in some organizations t
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > As a general rule, Quality of Service applies only to communication sessions on your internal network. When you implement QoS, you configure your servers and routers to support packet marking; however, you configure these devices to support packet marking in a particular manner. You cannot assume that Quality of Service will be supported on the Internet or on other networks. Even if Quality if Service is supported on other networks, there is no guarantee that QoS will be configured the same way that you configured the service on your network.
 
 
@@ -61,7 +61,7 @@ Lync Server 2013 offers full support for Quality of Service: that means that org
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you are using Microsoft Windows Server 2012 or Windows Server 2012 R2 you might be interested in the new set of Windows PowerShell cmdlets available for managing Quality of Service on that platform. For more information, see Network Quality of Service Cmdlets in Windows PowerShell at <A href="http://go.microsoft.com/fwlink/p/?linkid=285379">http://go.microsoft.com/fwlink/p/?LinkId=285379</A>.
 
 

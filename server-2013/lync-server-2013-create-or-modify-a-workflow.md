@@ -31,7 +31,7 @@ Lync Server 2013 supports two types of workflows: hunt group and interactive voi
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You must create agent groups and queues before you create a workflow that uses them. If you want to create predefined business hours and holidays that you can use for multiple workflows, you must also define these hours and holidays before you create a workflow that uses them.
 
 

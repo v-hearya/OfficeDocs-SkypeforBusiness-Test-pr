@@ -31,7 +31,7 @@ Call Park is a call management feature that is installed by default when you dep
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Customized music-on-hold files for the Call Park application are not backed up as part of the Lync Server 2013 disaster recovery process, and the files will be lost if the files uploaded to the pool are damaged, corrupted, or erased. Always keep a separate backup copy of the customized music-on-hold files that you have uploaded for Call Park.
 
 
@@ -81,7 +81,7 @@ Configuring Call Park requires any of the following administrative roles, depend
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details about administrative rights, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation.
 
 

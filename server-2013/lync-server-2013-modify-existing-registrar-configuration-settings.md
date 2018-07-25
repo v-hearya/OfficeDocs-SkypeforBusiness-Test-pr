@@ -31,7 +31,7 @@ You can use the Registrar to configure proxy server authentication protocols. Fo
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > We recommend that you enable both Kerberos and NTLM when a server supports authentication for both remote and enterprise clients. The Edge Server and internal servers communicate to ensure that only NTLM authentication is offered to remote clients. If only Kerberos is enabled on these servers, they cannot authenticate remote users. If enterprise users also authenticate against the server, Kerberos is used.
 
 
