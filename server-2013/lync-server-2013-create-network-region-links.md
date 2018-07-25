@@ -102,4 +102,3 @@ The example topology has a link between the North America and APAC regions, and 
 </div>
 
 </div>
-
