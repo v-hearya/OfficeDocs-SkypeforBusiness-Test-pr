@@ -174,7 +174,7 @@ Policies configured on the server take precedence over Group Policy settings and
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This procedure assumes that you want to manage multiple computers in your domain. In this case, you store the templates in a central store in the Sysvol folder on the primary domain controller. This provides a replicated central storage location for domain Administrative Templates.
 
     

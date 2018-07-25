@@ -47,7 +47,7 @@ Using SQL Server Management Studio connected to the Persistent Chat primary data
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If the SQL Server service account on your primary server runs under the local system account, you must create your backup folder on the primary server and specify a local path to that folder.
 
     

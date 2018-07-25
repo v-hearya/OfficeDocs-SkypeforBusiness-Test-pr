@@ -87,7 +87,7 @@ Simple Network Management Protocol (SNMP)   Simple Network Management Protoco
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Examples of third-party network monitoring solutions are provided above. This list is not definitive and Microsoft does not favor any specific vendor solution. Consult with a network service provider and or your respective technology provider to determine the best network monitoring solution for your organization.
 
 

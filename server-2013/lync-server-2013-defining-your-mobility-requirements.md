@@ -61,7 +61,7 @@ Here are the decisions that you must consider:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > There are no additional configurations required for UCWA. UCWA does not have an equivalent internal-only configuration.
 
     
@@ -70,7 +70,7 @@ Here are the decisions that you must consider:
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If you are using a Lync Server 2013&nbsp;Front End Server or Front End pools and <STRONG>you do not have</STRONG> any Lync Server 2010&nbsp;Front End Servers or Front End pools, <STRONG>there is no requirement for cookie-based persistence</STRONG>. If you need to retain any Lync Server 2010&nbsp;Front End Servers or Front End pools, the same rules still apply as in Lync Server 2010 for cookie-based persistence.
 
     
@@ -85,7 +85,7 @@ Here are the decisions that you must consider:
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Opening port TCP 5223 is required only when supporting Apple devices running the Lync 2010 Mobile client.
 
     
@@ -96,7 +96,7 @@ Here are the decisions that you must consider:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Lync 2013 Mobile clients on Apple devices do not require push notification. The Lync 2013 Mobile clients on Windows Phone use push notification. Planning for push notification and the push notification clearinghouse remain the same for Lync Mobile on Windows Phone and Apple devices that are not able to run the Lync 2013 Mobile client.
 
     
@@ -173,7 +173,7 @@ Here are the decisions that you must consider:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Mobile users who want to use Click to Join require a voice policy, along with the related PSTN usage records and voice routes, because clicking the link on the mobile device results in an outbound call from Lync Server 2013.
 
     

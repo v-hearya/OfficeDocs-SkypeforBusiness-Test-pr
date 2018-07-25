@@ -35,7 +35,7 @@ For details about the [Set-CsUser](https://docs.microsoft.com/en-us/powershell/m
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Before a Lync Server 2013 user can be enabled for hosted voice mail, a hosted voice mail policy that applies to their user account must be deployed. For details, see <A href="lync-server-2013-hosted-voice-mail-policies.md">Hosted voice mail policies in Lync Server 2013</A>.
 
 
@@ -69,7 +69,7 @@ For details about the [Set-CsUser](https://docs.microsoft.com/en-us/powershell/m
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > The user’s Active Directory SAM-Account-Name cannot be used as the Identity value because the SAM-Account-Name is not necessarily unique in the forest.
 
         

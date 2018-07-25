@@ -73,7 +73,7 @@ These ports are default settings that you can change by using the **Set-CsApplic
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > All instances of the same application in a pool use the same SIP listening port.
 
 
@@ -127,7 +127,7 @@ The Dial-in Conferencing Settings page supports the combinations of operating sy
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > 32-bit and 64-bit versions of the operating systems are supported.
 
 

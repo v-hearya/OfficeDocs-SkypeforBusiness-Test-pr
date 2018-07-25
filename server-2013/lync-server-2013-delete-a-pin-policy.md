@@ -31,7 +31,7 @@ Follow these steps to delete a personal identification number (PIN) policy.
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You cannot delete the global PIN policy.
 
 

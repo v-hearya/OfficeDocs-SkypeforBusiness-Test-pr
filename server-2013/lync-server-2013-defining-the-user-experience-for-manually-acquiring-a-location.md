@@ -38,7 +38,7 @@ When a user manually enters a location, the location is mapped to the MAC addres
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You can modify only the current location of your client, but you can also delete any location stored in the local user’s table.
 
 

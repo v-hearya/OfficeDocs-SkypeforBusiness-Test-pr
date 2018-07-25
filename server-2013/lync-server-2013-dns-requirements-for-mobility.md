@@ -107,7 +107,7 @@ You need to create one of the following external DNS records:
 <td><p>To support Push Notification Service and Apple Push Notification service, you create one SRV record for each SIP domain that has Microsoft Lync Mobile clients.</p>
 <div>
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > This requirement applies only to Microsoft Lync Mobile clients on Apple or Microsoft based mobile devices. Andriod and Nokia Symbian devices do not use push notification.
 
 
@@ -120,7 +120,7 @@ You need to create one of the following external DNS records:
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Lyncdiscover, also known as autodiscover, traffic goes through the reverse proxy. SRV record points to a record that resolves through the Access Edge service.
 
 

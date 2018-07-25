@@ -33,7 +33,7 @@ Use the procedure in this section to apply a conferencing policy that you have a
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In addition to configuring and applying a policy to enable users to invite anonymous users, you must also enable support for anonymous users for your organization. For details, see <A href="lync-server-2013-configure-policies-to-control-public-user-access.md">Configure policies to control public user access in Lync Server 2013</A>.
 
 
@@ -67,7 +67,7 @@ Use the procedure in this section to apply a conferencing policy that you have a
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The <STRONG>&lt;Automatic&gt;</STRONG> settings apply the default server installation settings and are applied automatically by the server.
 
     

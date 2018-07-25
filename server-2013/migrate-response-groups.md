@@ -31,7 +31,7 @@ After your users are moved to Lync Server 2013 pools, you can migrate your respo
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Although you can migrate response groups before you move all users to the Lync Server 2013 pool, we recommend that you move all users first. In particular, users who are response group agents will not have full functionality of new features until they are moved to the Lync Server 2013 pool.
 
 
@@ -43,7 +43,7 @@ Before you migrate response groups, you must have deployed a Lync Server 2013 po
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You can create new Lync Server 2013 response groups in the Lync Server 2013 pool before you migrate your legacy response groups.
 
 
@@ -55,7 +55,7 @@ To migrate response groups from a legacy pool to the Lync Server 2013, you run t
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The Response Group migration cmdlet moves the Response Group configuration for the entire pool. You cannot select specific groups, queues, or workflows to migrate.
 
 
@@ -69,7 +69,7 @@ When you migrate response groups, the Lync Server 2010 response groups are not r
 <div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > After the migration has been completed and the new response groups have been created, the Lync Server Control Panel and the Lync Server Management Shell will display the Lync Server 2010 and Lync Server 2013 versions of each response group. Do not use Lync Server Control Panel or Lync Server Management Shell to remove the Lync Server 2010 response groups. If you do remove one, the corresponding response group that was created during migration will stop working. The Lync Server 2010 response groups will be removed when you decommission the Lync Server 2010 pool.
 
 
@@ -79,7 +79,7 @@ When you migrate response groups, the Lync Server 2010 response groups are not r
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > We recommend that you do not remove any data from your previous deployment until you decommission the pool. In addition, we strongly recommend that you export response groups immediately after you migrate. If a Lync Server 2010 response group should get removed, you can then restore your response groups from the backup to get Lync Server 2013 response groups running again.
 
 

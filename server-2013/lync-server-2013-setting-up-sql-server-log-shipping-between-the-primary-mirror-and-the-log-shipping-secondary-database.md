@@ -49,7 +49,7 @@ Perform the following steps for log shipping to continue if the primary Persiste
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If the SQL Server service account on your primary server runs under the local system account, you must create your backup folder on the primary server and specify a local path to that folder.
 
     
@@ -62,7 +62,7 @@ Perform the following steps for log shipping to continue if the primary Persiste
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Use the same settings that you used for the primary database.
 
     
@@ -89,7 +89,7 @@ Perform the following steps for log shipping to continue if the primary Persiste
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Manually running this script is necessary because SQL Server Management Studio does not support multiple primary databases in a SQL Server Log Shipping configuration.
 
     

@@ -37,7 +37,7 @@ Use the following procedures to create web publishing rules.
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > These procedures assume that you have installed the Standard Edition of Forefront Threat Management Gateway (TMG) 2010 or have installed and configured Internet Information Server with the Application request Routing (IIS ARR) extension. You use either TMG or IIS ARR.
 
 
@@ -65,7 +65,7 @@ Use the following procedures to create web publishing rules.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If your internal server is a Standard Edition server, this FQDN is the Standard Edition server FQDN. If your internal server is a Front End pool, this FQDN is a hardware load balancer virtual IP (VIP) that load balances the internal web farm servers. The TMG server must be able to resolve the FQDN to the IP address of the internal web server. If the TMG server is not able to resolve the FQDN to the proper IP address, you can select <STRONG>Use a computer name or IP address to connect to the published server</STRONG>, and then in the <STRONG>Computer name or</STRONG> <STRONG>IP address</STRONG> box, type the IP address of the internal web server. If you do this, you must ensure that port 53 is open on the TMG server and that it can reach a DNS server that resides in the perimeter network. You can also use entries in the local hosts file to provide name resolution.
 
     
@@ -76,7 +76,7 @@ Use the following procedures to create web publishing rules.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > In the website publishing wizard you can only specify one path. Additional paths can be added by modifying the properties of the rule.
 
     
@@ -123,7 +123,7 @@ Use the following procedures to create web publishing rules.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Additional help, screen shots and guidance on deploying and configuring IIS ARR can be found in the NextHop article <A href="http://go.microsoft.com/fwlink/?linkid=293391">Using IIS ARR as a Reverse Proxy for Lync Server 2013</A>.
 
     
@@ -138,7 +138,7 @@ Use the following procedures to create web publishing rules.
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If you receive a warning when closing the Bindings dialogs that intermediate certificates are missing, you need to locate and import the public CA root authority certificate and any intermediate CA certificates. Consult the instructions at the public CA that you requested your certificate from and follow the instructions to request and import a certificate chain. If you exported the certificate from your Edge Server, you can export the root CA certificate and any intermediate CA certificates associated with the Edge Server. Import the root CA certificate into the Computer’s (not to be confused with the User store) Trusted Root Certification Authorities store and intermediate certificates into the Computer’s Intermediate Certification Authorities store.
 
     
@@ -149,7 +149,7 @@ Use the following procedures to create web publishing rules.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you do not see the <STRONG>Server Farms</STRONG> node, you need to install Application Request Routing. For details, see <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">Setting up reverse proxy servers for Lync Server 2013</A>.
 
     
@@ -162,7 +162,7 @@ Use the following procedures to create web publishing rules.
     <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Lync Server uses hardware load balancers to pool Director and Front End Servers for HTTP and HTTPS traffic. You will only supply one FQDN when adding a server to the IIS ARR Server Farm. The FQDN will be the Front End Server or Director in non-pooled server configurations, or the FQDN of the configured hardware load balancer for server pools. The only supported method to load balance HTTP and HTTPS traffic is by using hardware load balancers.
 
     
@@ -181,7 +181,7 @@ Use the following procedures to create web publishing rules.
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The Proxy Time-out value is a number that will vary from deployment to deployment. You should monitor your deployment and modify the value for the best experience for clients. You may be able to set the value as low as 200. If you are supporting Lync mobile clients in your environment, you should set the value to 960 to allow for push notifications timeout from Office 365 which have a time-out value of 900. It is very likely that you will need to increase the time-out value to avoid client disconnects when the value is too low or decrease the number if connections through the proxy do not disconnect and clear long after the client has disconnected. Monitoring and base-lining what is normal for your environment is the only accurate means to determine where the right setting is for this value.
 
     
@@ -192,7 +192,7 @@ Use the following procedures to create web publishing rules.
     <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > SSL Offloading by the reverse proxy is not supported.
 
     
@@ -215,7 +215,7 @@ Use the following procedures to create web publishing rules.
         <div>
         
 
-        > [!IMPORTANT]
+        > [!IMPORTANT]  
         > The URL for the Office Web Apps Server will use a different httpsPort address. In step 7, you define the <STRONG>httpsPort</STRONG> as <STRONG>443</STRONG> and the <STRONG>httpPort</STRONG> as port <STRONG>80</STRONG>. All other configuration settings are the same.
 
         
@@ -240,7 +240,7 @@ Use the following procedures to create web publishing rules.
     <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > By default, HTTP rules are created as well and are denoted by the similar naming to the SSL rules. For our current example, the HTTP rule would be named <STRONG>ARR_webext.contoso.com_loadbalance</STRONG>. No modifications are needed to these rules and they can be safely ignored.
 
     

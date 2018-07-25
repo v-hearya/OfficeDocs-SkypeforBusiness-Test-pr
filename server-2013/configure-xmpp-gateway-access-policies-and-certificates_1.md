@@ -37,7 +37,7 @@ When you configure policies for support of extensible messaging and presence pro
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > To begin the XMPP Gateway migration, you need to deploy the Lync Server 2013 XMPP Gateway, and configure access policies to enable users for Lync Server 2013 XMPP Gateway. All users must be moved to the Lync Server 2013 deployment before you perform these steps. For details, see <A href="configure-xmpp-gateway-on-lync-server-2013_1.md">Configure XMPP gateway on Lync Server 2013</A>.
 
 

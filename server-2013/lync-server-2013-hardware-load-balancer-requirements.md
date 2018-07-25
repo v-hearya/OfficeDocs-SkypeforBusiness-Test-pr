@@ -37,7 +37,7 @@ The Lync Server 2013 scaled consolidated Edge topology is optimized for DNS load
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Using DNS load balancing on one interface and hardware load balancing on the other is not supported. You must use hardware load balancing for both interfaces or DNS load balancing for both.
 
 
@@ -47,7 +47,7 @@ The Lync Server 2013 scaled consolidated Edge topology is optimized for DNS load
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you are using a hardware load balancer, the load balancer deployed for connections with the internal network must be configured to load balance only the traffic to servers running the Access Edge service and the A/V Edge service. It cannot load balance the traffic to the internal Web Conferencing Edge service or the internal XMPP Proxy service.
 
 
@@ -57,7 +57,7 @@ The Lync Server 2013 scaled consolidated Edge topology is optimized for DNS load
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The direct server return (DSR) NAT is not supported with Lync Server 2013.
 
 
@@ -93,7 +93,7 @@ Cookie-based affinity requirements are greatly reduced in Lync Server 2013 for W
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > <STRONG>If you decide to use cookie-based affinity even though your deployment does not require it</STRONG>, there is no negative impact to doing so.
 
 
@@ -119,7 +119,7 @@ For deployments that **will use** cookie-based affinity:
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Typical hardware load balancer configurations use source-address affinity and a 20 min. TCP session lifetime, which is fine for Lync Server and Lync 2013 clients because session state is maintained through client usage and/or and application interaction.
 
 
@@ -131,7 +131,7 @@ If you are deploying mobile devices, your hardware load balancer must be able to
 <div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > F5 hardware load balancers have a feature called OneConnect that ensures each request within a TCP connection is individually load balanced. If you are deploying mobile devices, ensure your hardware load balancer vendor supports the same functionality. The latest Apple iOS mobile apps require Transport Layer Security (TLS) version 1.2. F5 provides specific settings for this.<BR>For details on third party hardware load balancers, see <A href="http://go.microsoft.com/fwlink/p/?linkid=230700">http://go.microsoft.com/fwlink/p/?linkId=230700</A>
 
 
@@ -149,7 +149,7 @@ Following are the hardware load balancer requirements for Director and Front End
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > For further reading on configuration of the hardware load balancer, please review <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Port summary - Scaled consolidated edge with hardware load balancers in Lync Server 2013</A>.
 
 

@@ -198,7 +198,7 @@ The preceding command will return information similar to this, depending on the 
 <div>
 
 
-> [!TIP]
+> [!TIP]  
 > To view the synthetic transactions in alphabetical order, use this command instead:<BR>Get-CsWatcherNodeConfiguration –Identity "atl-cs-001.litwareinc.com" | Select-Object –ExpandProperty Tests | Sort-Object
 
 

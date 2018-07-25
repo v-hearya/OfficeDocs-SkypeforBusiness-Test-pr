@@ -31,7 +31,7 @@ Perform this procedure at the central site, which contains at least one Front En
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Before you perform the procedure, the following conditions must be in place: 
 > <UL>
 > <LI>
@@ -62,7 +62,7 @@ Perform this procedure at the central site, which contains at least one Front En
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For security reasons, we strongly recommend that you use a PSTN gateway that supports Transport Layer Security (TLS).
 
     
@@ -71,7 +71,7 @@ Perform this procedure at the central site, which contains at least one Front En
 <div>
 
 
-> [!TIP]
+> [!TIP]  
 > Use the cmdlet <STRONG>Set-CsPstnGateway</STRONG> to modify properties of a PSTN gateway. For details, see <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPstnGateway">Set-CsPstnGateway</A>, in the Lync Server Management Shell Help.
 
 

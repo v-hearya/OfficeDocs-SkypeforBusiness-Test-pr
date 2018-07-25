@@ -43,7 +43,7 @@ Deploying Enterprise Voice requires that you:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Installation of Topology Builder is part of the deployment process for the internal pool. For details, see <A href="lync-server-2013-install-lync-server-administrative-tools.md">Install Lync Server 2013 administrative tools</A> in the Deployment documentation.
 
     
@@ -70,7 +70,7 @@ To view a reference topology that illustrates and explains a sample call admissi
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > To deploy Enterprise Voice at a central site, continue reading the topics in this section. To deploy Enterprise Voice at a branch site, skip to <A href="lync-server-2013-deploying-branch-sites.md">Deploying branch sites in Lync Server 2013</A> in the Deployment documentation.
 
 

@@ -33,7 +33,7 @@ Use the steps in the following procedure to move response groups from one Front 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In a coexistence environment, you can move response groups only between Lync Server 2013&nbsp;Front End pools.
 
 
@@ -71,7 +71,7 @@ Use the steps in the following procedure to move response groups from one Front 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Application-level settings include the default music-on-hold configuration, the default music-on-hold audio file, the agent ringback grace period, and the call context configuration. To view these configuration settings, run the <STRONG>Get-CsRgsConfiguration</STRONG> cmdlet. For details about this cmdlet, see <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</A>.
 
     

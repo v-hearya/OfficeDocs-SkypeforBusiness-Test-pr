@@ -77,7 +77,7 @@ Lync Server Control Panel is automatically installed on every Lync Server Front 
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > <UL>
 > <LI>
 > <P>To configure settings using Lync Server Control Panel, you must be logged in using an account that is assigned to the CsAdministrator role. For details about the predefined administrative roles available in Lync Server 2013, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A>.</P>
@@ -107,7 +107,7 @@ The Lync Server Logging Tool facilitates troubleshooting by capturing logging an
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The Centralized Logging Service is recommended for all logging collection over the Lync Server Logging Tool in all circumstances. The Lync Server Logging Tool will still work, but it will interfere or be rendered mostly ineffective if the Centralized Logging Service is already running. You should use only the Centralized Logging Service or the Lync Server Logging Tool, but never both concurrently. For more information on the Centralized Logging Service and why you should use it exclusively, see <A href="lync-server-2013-using-the-centralized-logging-service.md">Using the Centralized Logging Service in Lync Server 2013</A>.
 
 

@@ -65,7 +65,7 @@ You can use the settings on the Meeting Configuration page to define various cha
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > The logo must be a GIF or JPG image with a size of 188 by 30 pixels.
 
         

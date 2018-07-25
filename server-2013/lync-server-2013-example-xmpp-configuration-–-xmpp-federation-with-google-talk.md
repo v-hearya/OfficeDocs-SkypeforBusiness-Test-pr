@@ -53,7 +53,7 @@ An example configuration for deploying the XMPP Proxy defines a federation with 
     <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > If you are deploying the Edge Server for the first time, you will see Run instead of Run Again.
 
     
@@ -90,7 +90,7 @@ An example configuration for deploying the XMPP Proxy defines a federation with 
     <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > If the XMPP proxy is installed, by default the domain name (such as contoso.com) is populated in the SAN entries. If you require more entries, add them in this step.
 
     

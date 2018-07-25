@@ -41,7 +41,7 @@ Add-ins are used to extend the in-room experience. A typical add-in might includ
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > You can also use Windows PowerShell cmdlets. For details, see <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuring Persistent Chat Server by using Windows PowerShell cmdlets</A> in the Deployment documentation.
 
     

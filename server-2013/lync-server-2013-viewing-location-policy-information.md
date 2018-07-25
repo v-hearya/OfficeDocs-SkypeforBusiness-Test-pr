@@ -47,7 +47,7 @@ You can configure location policies from the **Network Configuration** group in 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can only view information about one location policy at a time.
 
     

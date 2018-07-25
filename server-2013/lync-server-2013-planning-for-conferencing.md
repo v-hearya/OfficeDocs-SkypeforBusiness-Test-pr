@@ -43,7 +43,7 @@ When you deploy Lync Server 2013, Front End Server, you can choose whether to a
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If your deployment includes meetings organized using Office Communicator 2007 R2 clients (including the Live Meeting console or Conferencing Add-in for Microsoft Office Outlook), the meetings will have the following limitations after they are migrated to Lync Server 2013: 
 > <UL>
 > <LI>

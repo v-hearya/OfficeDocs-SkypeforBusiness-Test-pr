@@ -57,7 +57,7 @@ After comparing the collected data with the predefined rules, the tool reports i
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The Lync Server 2013, Best Practices Analyzer gathers configuration information only from Lync Server 2013 components. You can use the previous versions of the tool to scan previous environments. For details, see <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Requirements for running Best Practices Analyzer in Lync Server 2013</A>.
 
 

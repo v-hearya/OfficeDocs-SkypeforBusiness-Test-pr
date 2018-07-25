@@ -57,7 +57,7 @@ In order to create a Quality of Service policy for managing audio, log on to a c
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The DSCP value of 46 is somewhat arbitrary: although DSCP 46 is often used for marking audio packets, you do not have to use DSCP 46 for audio communications. If you have already implemented QoS and you are using a different DSCP code for audio (for example, DSCP 40) then you should configure your Quality of Service policy to use that same code (i.e., 40 for audio). If you are just now implementing Quality of Service, then it is recommended that you use DSCP 46 for audio, simply because that value is commonly used to mark audio packets.
 
 

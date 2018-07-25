@@ -69,7 +69,7 @@ For details, see the Lync Server Management Shell documentation for the followin
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you want to disable call admission control throughout your deployment, clear this check box.
 
     

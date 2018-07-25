@@ -33,7 +33,7 @@ Domain Name System (DNS) Load Balancing balances the network traffic that is uni
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Hardware load balancing is still required for client to server HTTPS traffic.
 
 
@@ -47,7 +47,7 @@ Before you can use DNS load balancing, you must do the following:
     <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > If decide to override the Internal web services with a self-defined FQDN, each FQDN must be unique from any other Front End pool, Director or a Director pool.
 
     
@@ -60,7 +60,7 @@ Before you can use DNS load balancing, you must do the following:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Round robin should be enabled by default.
 
     
@@ -158,7 +158,7 @@ Before you can use DNS load balancing, you must do the following:
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > This feature should be enabled by default.
 
 

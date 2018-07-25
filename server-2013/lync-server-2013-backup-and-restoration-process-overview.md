@@ -43,7 +43,7 @@ In general, the restoration process works as follows:
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > This restoration process does not restore data onto an existing server state. That is, this process requires that the server is clean or new.
 
     
@@ -68,7 +68,7 @@ If a server running Lync Server fails, recovery includes the following steps:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If the server hosted a database collocated with the server role, running step 2 of the Lync Server Deployment Wizard recreates the database.
 
     

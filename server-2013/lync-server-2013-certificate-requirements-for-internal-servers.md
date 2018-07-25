@@ -31,7 +31,7 @@ Internal servers that are running Lync Server and that require certificates inc
 <div>
 
 
-> [!TIP]
+> [!TIP]  
 > Wildcard certificates are supported for the subject alternative names associated with the simple URLs on the Front End pool, Front End Server, or Director. For details about wildcard certificate support, see <A href="lync-server-2013-wildcard-certificate-support.md">Wildcard certificate support in Lync Server 2013</A>.
 
 
@@ -51,7 +51,7 @@ Note that server enhanced key usage (EKU) is automatically configured when you u
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Each certificate Friendly Name must be unique in the computer store.
 
 
@@ -61,7 +61,7 @@ Note that server enhanced key usage (EKU) is automatically configured when you u
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you have configured sipinternal.contoso.com or sipexternal.contoso.com in your DNS, you will need to add them in the certificate’s Subject Alternative Name.
 
 

@@ -41,7 +41,7 @@ You can instruct your users to install Lync 2013 for iPhone and Lync 2013 for iP
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > iPhone users who have not installed the Lync 2013 app and who try to join a Lync meeting from a meeting invitation will be redirected to a Join Launcher page. This page contains a link for installing the Lync 2013 app. However, instead of directing the user to the App Store, this link opens a blank Safari browser page. The user can do one of two things to work around this issue: 
 > <UL>
 > <LI>

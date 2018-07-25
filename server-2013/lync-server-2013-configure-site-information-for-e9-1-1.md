@@ -37,7 +37,7 @@ For details about network sites, see [Lync Server sites for Lync Server 2013](ly
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you create network sites for another voice feature and you want to configure E9-1-1 by using the same sites, then you can modify the sites to be used for E9-1-1.
 
 

@@ -35,7 +35,7 @@ Keeping scanner engines and virus definitions updated is very important. Configu
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > When using a third-party, file-level antivirus software on a server that runs Lync Server 2013 and Forefront Security for Lync Server, make sure that the folders in which Forefront Security for Lync Server and the Lync Server are installed are not scanned, to prevent their corruption. For the full list of exclusions, see <A class=uri href="http://support.microsoft.com/kb/943620">http://support.microsoft.com/kb/943620</A>.
 
 

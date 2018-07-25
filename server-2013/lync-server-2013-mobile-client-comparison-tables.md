@@ -51,7 +51,7 @@ These tables indicate the features that are available to Lync users in an on-pre
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > <UL>
 > <LI>
 > <P>Looking for the mobile client comparison tables for Skype for Business? See <A href="https://technet.microsoft.com/en-us/library/dn951412.aspx">Mobile client comparison tables for Skype for Business</A>.</P>

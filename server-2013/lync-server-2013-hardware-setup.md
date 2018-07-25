@@ -41,7 +41,7 @@ Setting up the hardware and other components required in the infrastructure that
     <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > The file share for Lync Server 2013, Enterprise Edition cannot be located on the Front End Server.
 
     

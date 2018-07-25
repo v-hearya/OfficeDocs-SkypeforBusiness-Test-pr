@@ -62,7 +62,7 @@ Enabling federation between Microsoft Lync Server 2013, Lync Server 2010 and Off
         <div>
         
 
-        > [!WARNING]
+        > [!WARNING]  
         > Manual configuration of a federation partner’s Edge Server is prone to failure in the event that the partner changes the IP address of their Edge Server.
 
         
@@ -71,7 +71,7 @@ Enabling federation between Microsoft Lync Server 2013, Lync Server 2010 and Off
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > For <STRONG>New SIP Federated Domains</STRONG>, you must provide the <STRONG>Domain name (or FQDN)</STRONG> for Microsoft Lync Online, Microsoft Office 365. For Microsoft Lync Server 2013, Lync Server 2010 and Office Communications Server you must also provide an <STRONG>Access Edge service (FQDN)</STRONG>
 
         
@@ -83,7 +83,7 @@ Enabling federation between Microsoft Lync Server 2013, Lync Server 2010 and Off
         <div>
         
 
-        > [!IMPORTANT]
+        > [!IMPORTANT]  
         > If you are supporting Microsoft Lync Mobile clients on either Windows Phone or Apple iPhone, iPad, or other Apple devices and are using the Push Notification Service or Push Notification Service, you must plan for _sipfederationtls._tcp. &lt;SIP domain&gt; SRV records for each SIP domain that you have Lync Mobile clients. Android and Nokia Symbian Lync Mobile do not use push notification and are not subject to this requirement.
 
         
@@ -100,7 +100,7 @@ Planning for certificates, firewall and port/protocol requirements and DNS requi
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If you have a pool of Edge Servers and are federating with Lync Server 2013 or Lync Server 2010 partners, then you can use either DNS load balancing or hardware load balancers on the internal and external facing sides of the Edge Servers. If you are federating with Office Communications Server 2007 or Office Communications Server 2007 R2, hardware load balancing will provide failover support in the event of an Edge Server. Office Communications Server 2007 and Office Communications Server 2007 R2 are not DNS load balancing aware. The partner Edge Servers will establish communication with the first Edge Server in your pool that responds. If that Edge Server fails, communication does not automatically failover.
 
 

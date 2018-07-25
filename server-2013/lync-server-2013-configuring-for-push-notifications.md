@@ -31,7 +31,7 @@ Push notifications, in the form of badges, icons, or alerts, can be sent to a mo
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If you use Windows Phone with Lync 2010 Mobile or Lync 2013 Mobile client, push notification is an important consideration.<BR>If you use Lync 2010 Mobile on Apple devices, push notification is an important consideration.<BR>If you use Lync 2013 Mobile on Apple devices, you no longer need push notification.
 
 
@@ -47,7 +47,7 @@ Configure your topology to support push notifications by doing the following:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Push.lync.com is a Microsoft Office 365 domain for Push Notification Service.
 
     
@@ -76,7 +76,7 @@ Configure your topology to support push notifications by doing the following:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You cannot have more than one federation relationship with a single hosting provider. That is, if you have already set up a hosting provider that has a federation relationship with sipfed.online.lync.com, do not add another hosting provider for it, even if the identity of the hosting provider is something other than LyncOnline.
 
     

@@ -31,7 +31,7 @@ With Lync Server 2010, the called party’s phone number (that is, the phone num
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The ability to associate one or more translation rules with an Enterprise Voice trunk configuration is intended to be used as an <EM>alternative</EM> to configuring translation rules on the trunk peer. Do not associate translation rules with an Enterprise Voice trunk configuration if you have configured translation rules on the trunk peer because the two rules might conflict.
 
 
@@ -47,7 +47,7 @@ You can use either of the following methods to create or modify a translation ru
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For information about how to write regular expressions, see ".NET Framework Regular Expressions" at <A href="http://go.microsoft.com/fwlink/p/?linkid=140927">http://go.microsoft.com/fwlink/p/?linkId=140927</A>.
 
 

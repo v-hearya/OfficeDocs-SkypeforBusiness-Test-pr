@@ -64,7 +64,7 @@ The provisioning process for Lync-Skype connectivity has changed, as compared to
 <li><p>On the <strong>Specify Provisioning Information</strong> page, enter the <strong>Access Edge service FQDN</strong>. For example, <strong>sip.contoso.com</strong>.</p>
 <div>
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > After July 1st, 2017 Microsoft will additionally require customers have the Federation DNS SRV record deployed for Public IM connectivity to continue to work.
 
 
@@ -72,7 +72,7 @@ The provisioning process for Lync-Skype connectivity has changed, as compared to
 <li><p>Enter at least one or more SIP domain names, and then click <strong>Add</strong>.</p>
 <div>
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > At least one Access Edge server and one SIP domain are required to complete the provisioning process. The SIP domain and the Access Edge server must be active, functioning, and reachable on the network.
 
 
@@ -103,7 +103,7 @@ Federation is required to enable Skype users to communicate with Lync users in y
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > PIC federation is no longer supported by Live Communication Server 2005 SP1 or by Office Communications Server 2007. The supported platforms for PIC federation include Lync Server 2013, Lync Server 2010, and Office Communications Server 2007 R2.
 
 
@@ -129,7 +129,7 @@ Using the Lync Server Management Shell, an administrator must configure the Lync
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Users of the Public Instant Messaging Connectivity (PIC) service providers can’t participate in IM or conferences in your organization until you also configure at least one policy (step 2, earlier in this procedure) to support public IM connectivity.<BR>To configure federation and PIC, see "Enable or Disable Federation and Public IM Connectivity" at <A href="https://go.microsoft.com/fwlink/p/?linkid=306063">https://go.microsoft.com/fwlink/p/?LinkId=306063</A>.<BR>To configure at least one policy to support federated user access, see "Configure Policies to Control Public User Access" at <A href="https://go.microsoft.com/fwlink/p/?linkid=306064">https://go.microsoft.com/fwlink/p/?LinkId=306064</A>.
 
 
@@ -145,7 +145,7 @@ Using the Lync Server Management Shell, an administrator must configure the Lync
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > If you do not already have a PIC provider in your environment and are creating a new PIC provider then you do not need to run the <STRONG>Remove-CsPublicProvider</STRONG> cmdlet.
 
         
@@ -156,7 +156,7 @@ Using the Lync Server Management Shell, an administrator must configure the Lync
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Added in Lync Server 2013 CU5 &amp; Lync desktop client in Office 2013 SP1, the NameDecorationRoutingDomain and NameDecorationExcludedDomainList improve the situation where Lync users adding Skype contacts needed to “decorate” non-Microsoft domains to identify and route them to Skype (the format of: user(contoso.com)@msn.com). These new settings will allow automatic formatting of the address user’s enter in the “Add Skype contact” dialog box with the NameDecorationRoutingDomain (which should be set to msn.com) if it does not contain the domains in the NameDecorationExcludedDomainList (we currently can support msn.com, live.com, Hotmail.com, outlook.com).
 
         

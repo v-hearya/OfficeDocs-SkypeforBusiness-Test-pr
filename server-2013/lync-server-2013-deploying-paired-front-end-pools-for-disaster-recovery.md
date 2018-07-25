@@ -85,7 +85,7 @@ You can easily deploy the disaster recovery topology of paired Front End pools u
 <div class="">
 
 
-> [!NOTE]
+> [!NOTE]  
 > The <STRONG>Automatic failover and failback for Voice</STRONG> option and the associated time intervals in Topology Builder apply only to the voice resiliency features that were introduced in Lync Server 2010. Selecting this option does not imply that the pool failover discussed in this document is automatic. Pool failover and failback always require an administrator to manually invoke the failover and failback cmdlets, respectively.
 
 

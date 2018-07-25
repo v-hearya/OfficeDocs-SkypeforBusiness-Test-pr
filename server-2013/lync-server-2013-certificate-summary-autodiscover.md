@@ -37,7 +37,7 @@ The decision about whether to use subject alternative name lists on reverse prox
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > We highly recommend using HTTPS over HTTP. HTTPS uses certificates to encrypt traffic. HTTP does not provide for encryption, and any data sent will be plain text.
 
     
@@ -48,7 +48,7 @@ Reissuing certificates by using an internal certificate authority is typically a
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If your Lync Server 2013 infrastructure uses internal certificates that are issued from an internal certification authority (CA) and you plan to support mobile devices connecting wirelessly, either the root certificate chain from the internal CA must be installed on the mobile devices or you must change to a public certificate on your Lync Server 2013 infrastructure.
 
 
@@ -88,7 +88,7 @@ The following tables define the Autodiscover SAN entries for the Director pool, 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You assign the newly updated certificate with the new SAN entry to the Default certificate. Alternatively, you can use SAN=*.&lt;sipdomain&gt;.
 
 
@@ -124,7 +124,7 @@ The following tables define the Autodiscover SAN entries for the Director pool, 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You assign the newly updated certificate with the new SAN entry to the Default certificate. Alternatively, you can use SAN=*.&lt;sipdomain&gt;
 
 
@@ -156,7 +156,7 @@ The following tables define the Autodiscover SAN entries for the Director pool, 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You assign the newly updated certificate with the new SAN entry to the SSL Listener on the reverse proxy.
 
 

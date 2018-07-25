@@ -31,7 +31,7 @@ To deploy and manage Group Call Pickup, you need to use the SEFAUtil resource ki
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK must be installed on any computer where you plan to run the SEFAUtil tool.
 
 
@@ -43,7 +43,7 @@ You can run the SEFAUtil in any Front End pool in your deployment.
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For more details about running SEFAUtil, see the Technet blog article, "How to get SEFAutil running?" at <A href="http://go.microsoft.com/fwlink/?linkid=278940">http://go.microsoft.com/fwlink/?LinkId=278940</A>.
 
 
@@ -69,7 +69,7 @@ You can run the SEFAUtil in any Front End pool in your deployment.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can use a different port if needed.
 
     
@@ -88,7 +88,7 @@ You can run the SEFAUtil in any Front End pool in your deployment.
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > The tool is located at \Program Files\Microsoft Lync Server 2013\Reskit.
 
         

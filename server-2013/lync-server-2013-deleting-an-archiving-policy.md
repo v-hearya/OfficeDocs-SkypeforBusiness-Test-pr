@@ -31,7 +31,7 @@ You can delete a user policy or site policy. The global policy cannot be removed
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you enabled Microsoft Exchange integration for your deployment, Exchange policies control whether archiving is enabled for the users who are homed on Exchange 2013 and have their mailboxes put on In-Place Hold. For details, see <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Setting up policies for Archiving in Lync Server 2013 when using Exchange Server integration</A> in the Deployment documentation.
 
 

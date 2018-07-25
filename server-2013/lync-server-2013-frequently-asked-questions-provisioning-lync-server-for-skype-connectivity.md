@@ -89,7 +89,7 @@ _**Topic Last Modified:** 2016-12-27_
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Specify only the domain suffix for the SIP domain. Do not specify any FQDNs, including the FQDN for the Access Edge service, for the SIP domain.
 
     

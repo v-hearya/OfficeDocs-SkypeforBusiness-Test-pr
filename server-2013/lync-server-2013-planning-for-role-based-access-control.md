@@ -37,7 +37,7 @@ With RBAC, access and authorization is based precisely on a user’s Lync Server
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > RBAC restrictions work only on administrators working remotely, using either the Lync Server Control Panel or Lync Server Management Shell. A user sitting at a server running Lync Server is not restricted by RBAC. Therefore, physical security of your Lync Server is important to preserve RBAC restrictions.
 
 

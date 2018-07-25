@@ -65,7 +65,7 @@ Follow these steps to create a user-level or a site-level PIN policy.
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > We recommend that you do not allow common patterns.
 
     

@@ -39,7 +39,7 @@ This command will disable the execution of synthetic transactions on the watcher
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The Enabled property can be used to turn watcher nodes on or off. If you want to permanently delete a watcher node, use the <STRONG>Remove-CsWatcherNodeConfiguration</STRONG> cmdlet:<BR>Remove-CsWatcherNodeConfiguration –Identity "atl-watcher-001.litwareinc.com"<BR>That command removes all the watcher node configuration settings from the specified computer, which prevents the computer from automatically running synthetic transactions. However, the command does not uninstall the System Center agent files or the Lync Server 2013 system files.
 
 

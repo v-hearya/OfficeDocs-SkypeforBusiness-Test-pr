@@ -57,7 +57,7 @@ After migrating to Lync Server 2013, you must be aware of how the change impacts
     <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > We recommend using the simplest possible URL for the Admin URL. The simplest option is <STRONG>https://admin.</STRONG>&lt;domain&gt;.
 
     

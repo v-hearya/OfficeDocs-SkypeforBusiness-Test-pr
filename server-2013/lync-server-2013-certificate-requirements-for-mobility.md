@@ -41,7 +41,7 @@ This section describes the subject alternative name entries that are required on
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Reissuing certificates by using an internal certificate authority is typically a simple process, but adding multiple subject alternative name entries to public certificates used by the reverse proxy can be expensive. If you have many SIP domains, making the addition of subject alternative names very expensive, you can configure the reverse proxy to use HTTP for the initial Autodiscover Service request, instead of using HTTPS (the default configuration). For details, see <A href="lync-server-2013-technical-requirements-for-mobility.md">Technical requirements for mobility in Lync Server 2013</A>.
 
 
@@ -77,7 +77,7 @@ This section describes the subject alternative name entries that are required on
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Alternatively, you can use SAN=*.&lt;sipdomain&gt;
 
 
@@ -113,7 +113,7 @@ This section describes the subject alternative name entries that are required on
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Alternatively, you can use SAN=*.&lt;sipdomain&gt;
 
 
@@ -145,7 +145,7 @@ This section describes the subject alternative name entries that are required on
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You assign this SAN to the certificate assigned to the SSL Listener on the reverse proxy.
 
 
@@ -155,7 +155,7 @@ This section describes the subject alternative name entries that are required on
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Your reverse proxy listener will have subject alternative names for your external Web Services URL(s) (for example, SAN=lyncwebextpool01.contoso.com, and dirwebexternal.contoso.com if you have deployed the optional Director).
 
 

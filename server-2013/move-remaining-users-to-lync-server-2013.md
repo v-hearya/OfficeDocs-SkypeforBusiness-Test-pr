@@ -31,7 +31,7 @@ You can move users to the new Lync Server 2013 deployment by using either Lync S
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > You cannot use the Active Directory Users and Computers snap-in or the Lync Server 2010 administrative tools to move users from your legacy environment to Lync Server 2013.
 
 
@@ -43,7 +43,7 @@ When you move a user to an Lync Server 2013 pool, the data for the user is moved
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > This includes the active meetings created by the legacy user. For example, if a legacy user has configured a <STRONG>my meeting</STRONG> conference, that conference will still be available in the new Lync Server 2013 pool after the user has been moved. The details to access that meeting will still be the same <STRONG>conference URL and conference ID</STRONG>. The only difference is that the conference is now hosted in the Lync Server 2013 pool, and not in the Lync Server 2010 pool.
 
 
@@ -53,7 +53,7 @@ When you move a user to an Lync Server 2013 pool, the data for the user is moved
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Homing users on Lync Server 2013 does not require that you deploy upgraded clients at the same time. New functionality will be available to users only when they have upgraded to the new client software.
 
 

@@ -39,7 +39,7 @@ The following procedure describes how to test the deployment of a Standard Editi
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The user account cannot be the local administrator of the server running Lync Server 2013, Standard Edition. If you do not add the appropriate users and groups to the CsAdministors group, you will receive an error when opening Lync Server 2013 Control Panel, which states that “Unauthorized: Access is denied due to a role-based access control (RBAC) authorization failure.”
 
     

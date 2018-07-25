@@ -63,7 +63,7 @@ The following procedure explains how to create a new voice route by using the Ly
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If your deployment includes any Microsoft Office Communications Server 2007 R2 Mediation Servers, they will also be available in the list.
 
     
@@ -74,7 +74,7 @@ The following procedure explains how to create a new voice route by using the Ly
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > To view the properties of each of the available PSTN usage records, see <A href="lync-server-2013-view-pstn-usage-records.md">View PSTN usage records in Lync Server 2013</A>.<BR>To create or edit PSTN usage records, see <A href="lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md">Create a voice policy and configure PSTN usage records in Lync Server 2013</A> or <A href="lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md">Modify a voice policy and configure PSTN usage records in Lync Server 2013</A>.
 
     
@@ -85,7 +85,7 @@ The following procedure explains how to create a new voice route by using the Ly
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > In contrast to a voice policy, where the order in which PSTN usage records are listed is important, the order in which PSTN usage records are listed in the voice route is insignificant. However, we recommend that you organize the list by frequency of use. For example: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (Lync Server traverses the list from the top down.)
 
     
@@ -96,7 +96,7 @@ The following procedure explains how to create a new voice route by using the Ly
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can save a voice route that does not yet pass the test and then reconfigure it later. For details, see <A href="lync-server-2013-test-voice-routing.md">Test voice routing in Lync Server 2013</A>.
 
     
@@ -107,7 +107,7 @@ The following procedure explains how to create a new voice route by using the Ly
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Whenever you create a voice route, you must run the <STRONG>Commit All</STRONG> command to publish the configuration change. For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A>.
 
 

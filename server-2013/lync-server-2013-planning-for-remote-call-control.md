@@ -33,7 +33,7 @@ Integration between a PBX and Lync Server 2013 makes it possible for users enabl
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Ultimately, the capabilities of the PBX that hosts a user’s PBX phone determine the remote call control features that will be available to that user.
 
 
@@ -49,7 +49,7 @@ Integration between a PBX and Lync Server 2013 makes it possible for users enabl
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > That is, when the caller’s phone number can be associated with an instant message address in your organization’s global address list (GAL), in the callee’s Lync Contacts list, or in a federated partner’s organization.
 
     

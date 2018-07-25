@@ -55,7 +55,7 @@ From the Front End Server in your Lync Server 2013 deployment, open the Lync Ser
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > On Lync Server 2013, you must upgrade Silverlight to Silverlight version 5 prior to using the Lync Server Control Panel.
 
 

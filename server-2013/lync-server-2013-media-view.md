@@ -31,7 +31,7 @@ The Media view stores information about one media type used in a peer-to-peer se
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The Media view should not be used to calculate the media duration for a session. This view contains the signaling details of media exchange in a session. Media exchange is done by the INVITE request, and StartTime indicates the time that the INVITE was sent out. The invite time does not necessarily mean the media start time, because media starts only after the session is accepted.
 
 

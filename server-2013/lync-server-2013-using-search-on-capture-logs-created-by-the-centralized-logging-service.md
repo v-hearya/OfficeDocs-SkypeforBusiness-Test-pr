@@ -63,7 +63,7 @@ The remainder of this topic focuses on how to define a search to optimize your t
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > By default, Search-CsClsLogging sends the results of the search to the console. If you want to save the search results to a file, use –OutputFilePath &lt;string fully qualified file path&gt;. To define the –OutputFilePath parameter, supply a path and a filename as part of the parameter in a string format enclosed in quotation marks (for example; C:\LogFiles\SearchOutput.txt). In this example, you must ensure that the directory C:\LogFiles exists and that you have permissions to Read and Write (NTFS permission Modify) files in the folder. The output is appended to and is not overwritten. If you need separate files, define a distinct file name for each search.
 
     
@@ -120,7 +120,7 @@ The remainder of this topic focuses on how to define a search to optimize your t
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The time and date string that you specify can be "date time" or "time date. " The command will parse the string and use the appropriate values for date and time.
 
     

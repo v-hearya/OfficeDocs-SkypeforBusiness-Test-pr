@@ -116,7 +116,7 @@ For details about working with location policies, see the Lync Server Management
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > CsLocationPolicy will fail if the setting for <STRONG>PstnUsage</STRONG> is not already in the Global list of PstnUsages.
 
     

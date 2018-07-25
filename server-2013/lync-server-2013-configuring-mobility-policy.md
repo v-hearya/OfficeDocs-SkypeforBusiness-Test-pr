@@ -49,7 +49,7 @@ For users to be able to use Call via Work, they must meet the following two addi
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Users who are not enabled for Enterprise Voice can use their mobile devices to make Lync to Lync Voice over IP (VoIP) calls, or can join conferences by using the Click to Join link on their mobile devices, if you assign those users the appropriate options for voice policy. For details, see <A href="lync-server-2013-defining-your-mobility-requirements.md">Defining your mobility requirements for Lync Server 2013</A>.
 
 
@@ -73,7 +73,7 @@ For details about enabling users for Lync Server 2013, see [Disable or re-enable
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can turn off Call via Work without turning off access to mobility. However, you cannot turn off mobility without also turning off Call via Work.
 
     

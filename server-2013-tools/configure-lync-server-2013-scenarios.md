@@ -37,7 +37,7 @@ We have provided example Lync Server Management Shell scripts that may be used i
 <div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > Take care in reviewing and understanding the examples provided. Scripts will overwrite any existing settings in the topology.
 
 
@@ -47,7 +47,7 @@ We have provided example Lync Server Management Shell scripts that may be used i
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details about using Windows PowerShell and the Lync Server Management Shell, see the Lync Server 2013 Windows PowerShell Blog at <A href="https://go.microsoft.com/fwlink/?linkid=203150">https://go.microsoft.com/fwlink/?LinkId=203150</A>.
 
 

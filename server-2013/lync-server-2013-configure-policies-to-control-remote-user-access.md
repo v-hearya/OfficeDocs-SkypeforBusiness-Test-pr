@@ -31,7 +31,7 @@ You configure one or more external user access policies to control whether remot
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You can configure policies to control remote user access, even if you have not enabled remote user access for your organization. However, the policies that you configure are in effect only when you have remote user access enabled for your organization. For details about enabling remote user access, see <A href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Enable or disable federation and public IM connectivity in Lync Server 2013</A>. Additionally, if you specify a user policy to control remote user access, the policy applies only to users that are enabled for Lync Server and configured to use the policy. For details about specifying users that can sign in to Lync Server from remote locations, see <A href="lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md">Assign an external user access policy to a Lync enabled user in Lync Server 2013</A>.
 
 
@@ -43,7 +43,7 @@ Use the following procedure to configure each external access policy that you wa
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > This procedure describes how to configure a policy only to enable communications with remote users, but each policy that you configure to support remote user access can also configure federated user access and public user access. For details about configuring policies to support federated users, see <A href="lync-server-2013-configure-policies-to-control-federated-user-access.md">Configure policies to control federated user access in Lync Server 2013</A>. For details about configuring policies to support public users, see <A href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Create or edit public SIP federated providers in Lync Server 2013</A>.
 
 

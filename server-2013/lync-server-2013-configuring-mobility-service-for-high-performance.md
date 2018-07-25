@@ -29,7 +29,7 @@ _**Topic Last Modified:** 2013-02-17_
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > This topic applies only to the Lync Server 2013 Mobility Service (Mcx), and does not apply to Unified Communications Web API (UCWA), as delivered in the Cumulative Updates for Lync Server 2013: February 2013.
 
 

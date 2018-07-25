@@ -57,7 +57,7 @@ You can run all of the test cases in your voice routing test case suite, or you 
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > The <STRONG>Expected PSTN usage record</STRONG> and <STRONG>Expected route</STRONG> fields are optional in voice routing test case configuration. If the test case does not specify these values, the corresponding field in the test results will be empty.
 
         
@@ -96,7 +96,7 @@ You can run all of the test cases in your voice routing test case suite, or you 
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > The <STRONG>Expected PSTN usage record</STRONG> and <STRONG>Expected route</STRONG> fields are optional in voice routing test case configuration. If the test case does not specify these values, the corresponding field in the test results will be empty.
 
         

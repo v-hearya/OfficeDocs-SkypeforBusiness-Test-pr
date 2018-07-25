@@ -31,7 +31,7 @@ A Director is a server running Microsoft Lync Server 2013 communications softwa
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If you deploy Directors, you must publish the Director web services externally through the reverse proxy as well as the web services of the Front End Server. The topics following describe the planning process for the possible Director topologies.
 
 

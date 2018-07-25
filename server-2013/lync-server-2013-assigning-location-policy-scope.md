@@ -33,7 +33,7 @@ Each network site has a location policy assigned to it, and each policy will hav
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The reason for this special policy scoping behavior is so that when a user homed on a pool at one office site visits another site and has to make an emergency call, the E9-1-1 call routing settings appropriate to that network site will apply no matter what pool or site the user is assigned to.
 
 

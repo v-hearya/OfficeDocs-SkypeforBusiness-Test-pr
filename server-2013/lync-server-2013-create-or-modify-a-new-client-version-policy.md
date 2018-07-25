@@ -41,7 +41,7 @@ You can use client version policies to specify the versions of clients that are 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The <STRONG>Client Version Policy</STRONG> tab is selected by default.
 
     

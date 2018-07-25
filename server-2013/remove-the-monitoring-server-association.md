@@ -43,7 +43,7 @@ To remove the Monitoring Server, you need to change or clear the dependency on t
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > <STRONG>Survivable Branch Appliances</STRONG> in the user interface applies to both Survivable Branch Server and Survivable Branch Appliance.
 
     

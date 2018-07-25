@@ -31,7 +31,7 @@ Holiday settings define the days that a response group is closed for business an
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If a workflow is defined as a Managed workflow, then any user is assigned the CsResponseGroupManager role can set and modify holidays for workflows that they manage.
 
 

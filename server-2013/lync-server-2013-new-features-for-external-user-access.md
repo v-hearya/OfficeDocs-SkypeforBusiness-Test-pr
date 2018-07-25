@@ -33,7 +33,7 @@ Lync Server 2013 introduces new features that extend the features and communicat
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Use of IPv6 addresses in Lync Server 2013 depends on support of IPv6 in routers and firewalls that your organization deploys, as well as support through your Internet service provider.
 
     
@@ -44,7 +44,7 @@ Lync Server 2013 introduces new features that extend the features and communicat
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Currently, the XMPP services in Lync Server 2013 only provide instant messaging and presence between Lync clients and XMPP-based contacts.
 
     
@@ -55,7 +55,7 @@ Lync Server 2013 introduces new features that extend the features and communicat
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The mobility services use the reverse proxy and published services that are deployed on your Front End Servers. No changes are required to Edge Servers.
 
     

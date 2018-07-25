@@ -69,7 +69,7 @@ After the watcher node computer has restarted, your next step is to run the file
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > As noted previously, Watchernode.msi can also be run from a command window. To open a command window, click <STRONG>Start</STRONG>, right-click <STRONG>Command Prompt</STRONG>, and then click <STRONG>Run as administrator</STRONG>. When the command window opens, type the same command as shown earlier.
 
 

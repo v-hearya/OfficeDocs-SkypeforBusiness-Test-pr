@@ -31,7 +31,7 @@ Client version policy rules define the actions that should be taken when users a
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Rules are listed in order of precedence. For example, if you have a rule that allows clients running version 1.5 to connect, followed by a rule that blocks clients running a version earlier than 2.0, the first rule takes precedence, and clients running version 1.5 are allowed to connect.
 
 
@@ -53,7 +53,7 @@ Client version policy rules define the actions that should be taken when users a
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can use wildcards to indicate the client type.
 
     
@@ -74,7 +74,7 @@ Client version policy rules define the actions that should be taken when users a
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can use wildcards to indicate the client version number.
 
     
@@ -103,7 +103,7 @@ Client version policy rules define the actions that should be taken when users a
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Selecting this action causes a notification to appear the next time users sign in to Lync 2013. The notification states that an update is available, even if updates have not yet been released to Windows Server Update Service or Microsoft Update. To avoid confusion, you should choose this action only after updates become available.
 
         

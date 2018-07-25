@@ -28,7 +28,7 @@ Global and site-level voice policies are automatically assigned to all Lync Serv
 5.  In **Edit Lync Server User** under **Voice policy**, select the user policy that you want to apply.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The <STRONG>&lt;Automatic&gt;</STRONG> settings apply the default server or global policy settings.
 
 

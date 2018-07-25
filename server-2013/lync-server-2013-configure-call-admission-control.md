@@ -33,7 +33,7 @@ This section provides a set of example procedures that illustrate how to deploy 
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Before you deploy CAC, you must gather all of the required information for your enterprise network topology, as described in <A href="lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md">Example: Gathering your requirements for call admission control in Lync Server 2013</A> in the Planning documentation. Also be sure that CAC components have been installed and activated, as described in <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Define and configure a Front End pool or Standard Edition server in Lync Server 2013</A> in the Deployment documentation.
 
 
@@ -43,7 +43,7 @@ This section provides a set of example procedures that illustrate how to deploy 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > All CAC deployment and management examples in this section are performed by using the Lync Server Management Shell. As an alternative, you can also use the <STRONG>Network Configuration</STRONG> section of Lync Server Control Panel to manage CAC.
 
 

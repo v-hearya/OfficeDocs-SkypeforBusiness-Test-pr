@@ -68,7 +68,7 @@ The following features will be available only if your resiliency solution is a f
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > SBA (survivable branch office) is not supported for XMPP. Users homed in a SBA configurations will not be able to send IMs or see Presence with XMPP contacts.
 
 

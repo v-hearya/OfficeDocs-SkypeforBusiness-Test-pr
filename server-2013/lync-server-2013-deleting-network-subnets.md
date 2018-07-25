@@ -45,7 +45,7 @@ In most deployments of Microsoft Lync Server 2013 where call admission control (
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can delete more than one subnet at a time. To do this, press CTRL and select multiple subnets while holding down the CTRL key. Or, to select all subnets, click <STRONG>Select all</STRONG> on the <STRONG>Edit</STRONG> menu.
 
     

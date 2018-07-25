@@ -43,7 +43,7 @@ When a pool or site outage occurs, but the administrator has not yet initiated f
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > During disaster recovery, calls behave differently depending on whether the primary pool response groups were imported to the backup pool during recovery. In the following table, references to imported response groups mean that primary pool response groups were imported to the backup pool during disaster recovery mode.
 
 
@@ -117,7 +117,7 @@ When an administrator invokes failover to a backup pool, response group activity
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > During disaster recovery, calls behave differently depending on whether the primary pool response groups were imported to the backup pool during recovery. In the following table, references to imported response groups mean that primary pool response groups were imported to the backup pool during disaster recovery mode.
 
 
@@ -219,7 +219,7 @@ When an administrator invokes failback to the primary pool, response group activ
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > During disaster recovery, calls behave differently depending on whether the primary pool response groups were imported to the backup pool during recovery. In the following table, references to imported response groups mean that primary pool response groups were imported to the backup pool during disaster recovery mode.
 
 

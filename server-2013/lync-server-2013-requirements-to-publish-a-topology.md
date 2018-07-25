@@ -39,7 +39,7 @@ This topic describes the infrastructure and software requirements that are speci
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Standard Edition server has a collocated database that will accept the published configuration. You must first run the <STRONG>Prepare first Standard Edition server</STRONG> setup task in the Lync Server Deployment Wizard.
 
     

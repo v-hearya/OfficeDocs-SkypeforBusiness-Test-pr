@@ -75,7 +75,7 @@ Voice features are often the primary motivation for deploying SIP trunking, but 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Contact your ITSP for a list of services that they support and can enable for your organization.
 
 

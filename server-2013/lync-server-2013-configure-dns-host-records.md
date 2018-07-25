@@ -45,7 +45,7 @@ To successfully complete this procedure, you should be logged on to the server o
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > In deployments that use a Director pool, the host (A) records for the simple URLs should point to the VIP of the Director load balancer.
 
     
@@ -54,7 +54,7 @@ To successfully complete this procedure, you should be logged on to the server o
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you deploy only one Enterprise Edition server or Director that is connected to the topology without a load balancer, or if you deploy a Standard Edition server, type the IP address of the Enterprise Edition server, Standard Edition server, or Director. A load balancer is required if you deploy more than one Enterprise Edition server or Director in a pool. Load balancers are not used with Standard Edition servers.
 
     

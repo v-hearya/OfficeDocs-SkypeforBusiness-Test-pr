@@ -43,7 +43,7 @@ To make either of these changes, you must run Topology Builder, make the changes
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can define a topology by using an account that is a member of the local Users group, but to publish a topology, which is required to add a component to the topology, you must use an account that is a member of the <STRONG>Domain Admins</STRONG> group and the <STRONG>RTCUniversalServerAdmins</STRONG> group, and that has full control permissions (that is, read, write, and modify) on the file share that you are using for the Lync Server 2013 file store (that is, so that Topology Builder can configure the required discretionary access control lists (DACLs), or an account with equivalent rights.
 
     
@@ -102,7 +102,7 @@ To make either of these changes, you must run Topology Builder, make the changes
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If you have any Lync users who are not homed on Exchange 2013 servers, do not delete the SQL Server store information.
 
     
@@ -113,7 +113,7 @@ To make either of these changes, you must run Topology Builder, make the changes
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The changes you make in Topology Builder do not take effect until you publish the new topology. For details, see <A href="lync-server-2013-publishing-the-updated-topology-to-add-archiving-databases.md">Publishing the updated topology to add Archiving databases in Lync Server 2013</A> in the Deployment documentation.
 
     

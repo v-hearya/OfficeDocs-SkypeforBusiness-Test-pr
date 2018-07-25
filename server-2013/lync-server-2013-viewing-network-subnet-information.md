@@ -43,7 +43,7 @@ You can use the following procedure to view a network subnet. From the Lync Serv
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can only view one subnet at a time.
 
     

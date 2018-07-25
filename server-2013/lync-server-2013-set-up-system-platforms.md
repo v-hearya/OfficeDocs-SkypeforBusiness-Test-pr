@@ -43,7 +43,7 @@ You can also deploy Persistent Chat Server with Lync Server 2013 Standard Editi
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > We do not support Persistent Chat Server&nbsp;Standard Edition for high availability. Performance and scale will be limited. Furthermore, we support only new Persistent Chat Server&nbsp;Standard Edition server deployments. We do not support an upgrade of Lync Server 2010, Group Chat Server to a Lync Server 2013&nbsp;Persistent Chat Server&nbsp;Standard Edition.
 
 

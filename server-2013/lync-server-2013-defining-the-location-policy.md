@@ -41,7 +41,7 @@ Each location policy contains the following information:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The disclaimer text will not appear if a user manually entered a location before being enabled for E9-1-1. Updates to the disclaimer text will not be viewed by users that have already viewed the disclaimer.
 
     
@@ -55,7 +55,7 @@ Each location policy contains the following information:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This location policy setting differs from Lync Server 2010, where you used the <STRONG>Set-CsEnhancedEmergencyServiceDisclaimer</STRONG> cmdlet to set a global disclaimer for the entire organization. If a global disclaimer already exists, you need to specify that disclaimer in location policy. That is, Lync Server 2013 uses only disclaimers specified in location policy.
 
     
@@ -69,7 +69,7 @@ Each location policy contains the following information:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If your organization does not use an external line access prefix, you do not need to create a corresponding Dial Plan normalization rule that adds a “+” to the 911 string prior to sending the call to Outbound Routing on a Lync pool server; the “+” will be automatically prepended by the Lync client as a result of the location policy. However, if your site uses an external access prefix, you need to add a normalization rule to the applicable Dial Plan policy that strips the external access prefix and adds the “+”. For example, if your location uses an external access prefix of 9 and a user dials 9&nbsp;911 to place an emergency call, the client will use its Dial Plan policy to normalize this to +911 before the the dialed number is evaluated by the routes in the caller’s location profile.
 
     
@@ -88,7 +88,7 @@ Each location policy contains the following information:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Only one usage can be assigned to a location policy. This PSTN Usage overrides the PSTN Usages assigned to the user’s voice policy, but applies only to calls placed to the Emergency Dial String or to one of the Emergency Dial String Masks.
 
     

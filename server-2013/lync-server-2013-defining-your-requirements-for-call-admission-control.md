@@ -39,7 +39,7 @@ Planning for call admission control (CAC) requires detailed information about yo
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Bandwidth limits refer to how much of the bandwidth on a WAN link is allocated to Enterprise Voice and audio/video traffic. When a WAN link is described as “bandwidth-constrained,” the WAN link has a bandwidth limit that is lower than the expected peak traffic over the link.
 
     
@@ -56,7 +56,7 @@ To explain these concepts, we’ll use the example network topology shown in the
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > All network sites are associated with a network region. For example, Portland, Reno, and Albuquerque are included in the North America region. In this figure, only WAN links that have CAC policies applied are shown, with bandwidth limits. The network sites of Chicago, New York, and Detroit are shown inside the North America region oval because they are not bandwidth-constrained, and therefore do not require CAC policies.
 
 
@@ -86,7 +86,7 @@ CAC requires that a Lync Server central site is defined for each network region.
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Central sites do not necessarily correspond to network sites. In the examples in this documentation, some central sites—Chicago, London, and Beijing—share the same name as the network sites. However, even if a central site and network site share the same name, the central site is an element of the Lync Server topology, whereas the network site is a part of the overall network in which the Lync Server topology resides.
 
 
@@ -180,7 +180,7 @@ CAC bandwidth policies can define any or all of the following:
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > All CAC bandwidth values represent the maximum <EM>unidirectional</EM> bandwidth limits.
 
 
@@ -190,7 +190,7 @@ CAC bandwidth policies can define any or all of the following:
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The Lync Server 2013 Voice Policy features provide the ability to override bandwidth policy checks for incoming calls to the user (not for outgoing calls that are placed by the user). After the session is established, the bandwidth consumption will be accurately accounted for. This setting should be used sparingly. For details, see <A href="lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md">Create a voice policy and configure PSTN usage records in Lync Server 2013</A> or <A href="lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md">Modify a voice policy and configure PSTN usage records in Lync Server 2013</A> in the Deployment documentation.
 
 
@@ -265,7 +265,7 @@ Use the following table to help optimize the maximum per-session bandwidth setti
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Bandwidth requirements take into account overhead for the following: Ethernet II, IP, User Datagram Protocol (UDP), RTP (real-time transport protocol), and SRTP (secure real-time transport protocol). They also include 10 kbps for RTCP overhead.
 
 
@@ -353,7 +353,7 @@ In our example, the New York site in the North America region is assigned the fo
 <div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > The IP subnets specified during network configuration on the server must match the format provided by client computers in order to be properly used for media bypass. A Lync client takes its local IP address and masks the IP address with the associated subnet mask. When determining the bypass ID associated with each client, the Registrar will compare the list of IP subnets associated with each network site against the subnet provided by the client for an exact match. For this reason, it is important that subnets entered during network configuration on the server are actual subnets instead of virtual subnets. (If you deploy call admission control, but not media bypass, call admission control will function properly even if you configure virtual subnets.)<BR>For example, if a client signs in on a computer with an IP address of 172.29.81.57 with an IP subnet mask of 255.255.255.0, Lync 2013 will request the bypass ID associated with subnet 172.29.81.0. If the subnet is defined as 172.29.0.0/16, although the client belongs to the virtual subnet, the Registrar will not consider this a match because the Registrar is specifically looking for subnet 172.29.81.0. Therefore, it is important that the administrator enters subnets exactly as provided by Lync clients (which are provisioned with subnets during network configuration either statically or by DHCP.)
 
 

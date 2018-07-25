@@ -33,7 +33,7 @@ Lync Server 2013 supports the following IP and networking protocols:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Lync Server 2013 can function in a network with dual IP stack enabled.
 
     
@@ -44,7 +44,7 @@ Lync Server 2013 supports the following IP and networking protocols:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The content of each blog and its URL are subject to change without notice.
 
     

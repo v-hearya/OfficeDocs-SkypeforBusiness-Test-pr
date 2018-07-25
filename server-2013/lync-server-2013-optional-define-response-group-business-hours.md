@@ -35,7 +35,7 @@ Business hour settings define when the workflow is available to answer calls and
 <div>
 
 
-> [!TIP]
+> [!TIP]  
 > When you create or modify a workflow, you can specify a custom schedule that applies only to that workflow. For details, see <A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Create or modify a hunt group workflow in Lync Server 2013</A> or <A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">Create or modify an interactive workflow in Lync Server 2013</A>.
 
 
@@ -45,7 +45,7 @@ Business hour settings define when the workflow is available to answer calls and
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If a workflow is defined as a Managed workflow, then any user who is assigned the CsResponseGroupManager role can set and modify custom business hours for workflows that they manage.
 
 
@@ -55,7 +55,7 @@ Business hour settings define when the workflow is available to answer calls and
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Use 24-hour notation for the parameters in the following cmdlets (for example, 20:00=8:00 P.M.).
 
 

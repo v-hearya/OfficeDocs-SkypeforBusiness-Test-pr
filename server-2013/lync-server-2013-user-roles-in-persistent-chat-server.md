@@ -31,7 +31,7 @@ Persistent Chat Server provides the concept of Allowed/Denied members, which app
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Allowed/Denied members in a Category is not the same as a <STRONG>Member</STRONG> role, which applies to a Persistent Chat room.<BR>Searches display all open and closed chat rooms for which the user performing the search is in the Allowed/Denied member list. Secret rooms are not displayed unless the user who performs the search is a member of the secret room. The user can search only for rooms that he or she is already a member of, or those for which they can request membership.
 
 
@@ -47,7 +47,7 @@ Following are the four user roles Persistent Chat Server:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Being a Creator simply provides rights for creating chat rooms. It is the automatic promotion to Manager that enables the Creator to further refine memberships, managers, and so on, on the created chat services.
 
     
@@ -60,7 +60,7 @@ Following are the four user roles Persistent Chat Server:
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If the manager is also a Creator in another category, he or she can change the category to one where they are authorized to create rooms.
 
     
@@ -73,7 +73,7 @@ Following are the four user roles Persistent Chat Server:
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Persistent Chat Server lets users create and manage chat room for a specific site. Users cannot, however, create or manage chat rooms on other sites within the same topology. Be sure to specify chat room Creators and Managers for all the sites in your organization.
 
 

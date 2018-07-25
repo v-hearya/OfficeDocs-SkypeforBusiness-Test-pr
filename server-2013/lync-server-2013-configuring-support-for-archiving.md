@@ -31,7 +31,7 @@ After adding Archiving to your topology and publishing the new topology, you nee
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > After deployment, you can change Archiving settings to disable or enable Archiving. For details about how to implement archiving support for day-to-day management or to meet new requirements in your organization after deployment, see <A href="lync-server-2013-managing-archiving.md">Managing Lync Server 2013 Archiving</A> in the Operations documentation.
 
 

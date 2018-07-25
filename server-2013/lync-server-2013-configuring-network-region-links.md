@@ -45,7 +45,7 @@ You can configure links between two network regions as part of call admission co
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This value must be unique within your Lync Server 2013 deployment.
 
     
@@ -90,7 +90,7 @@ You can configure links between two network regions as part of call admission co
 
 
 [New-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegionLink)  
-[Set-CsNetworkRegionLink](href: https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegionLink)  
+[Set-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegionLink)  
 [Remove-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkRegionLink)  
 [Get-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)  
   

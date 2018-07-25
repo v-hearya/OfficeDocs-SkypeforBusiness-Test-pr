@@ -93,7 +93,7 @@ After you merge the topology and run the **Import-CsLegacyConfiguration** cmdlet
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The <STRONG>Meeting</STRONG> policy from previous versions of Office Communications Server is now known as the conferencing policy in Lync Server 2013. Additionally, the <STRONG>Anonymous Particpants</STRONG> setting from previous versions of Office Communications Server is now a setting in the Lync Server 2013 conferencing policy.
 
     
@@ -102,7 +102,7 @@ After you merge the topology and run the **Import-CsLegacyConfiguration** cmdlet
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > In Office Communications Server 2007 R2, if the conferencing policy is not set to <STRONG>use per user</STRONG>, only global policy settings are imported. No other conference policies are imported in this situation.
 
     
@@ -111,7 +111,7 @@ After you merge the topology and run the **Import-CsLegacyConfiguration** cmdlet
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If <STRONG>Anonymous Participants</STRONG> is set to <STRONG>Enforce per user</STRONG> in your Office Communications Server 2007 R2 conferencing policy, two conferencing policies are created during migration: one with <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> set to <STRONG>True</STRONG> and one with <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> set to <STRONG>False</STRONG>.
 
     
@@ -122,7 +122,7 @@ After you merge the topology and run the **Import-CsLegacyConfiguration** cmdlet
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > In Lync Server 2013, <STRONG>location profiles</STRONG> are now referred to as <STRONG>dial-plans</STRONG>.
 
     
@@ -133,7 +133,7 @@ After you merge the topology and run the **Import-CsLegacyConfiguration** cmdlet
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If voice policy is not set to <STRONG>use per user</STRONG> in your Office Communications Server 2007 R2 environment, only global policy settings are imported. No other voice policies are imported in this situation.
 
     

@@ -65,7 +65,7 @@ You must set up the SQL Server platforms prior to deploying and enabling Archivi
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Ensure that the SQL Server Agent Service Startup Type is Automatic and the SQL Server Agent Service is running for the SQL Instance which is holding the Archiving database, so that the Default Archiving SQL Server Maintenance Job can run on its scheduled basis under the control of the SQL Server Agent Service.
 
 

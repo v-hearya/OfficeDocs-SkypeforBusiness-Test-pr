@@ -119,7 +119,7 @@ In Lync Server 2013 ABS Configuration tool, attributes (rows) may be removed by 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The enable checkbox is in the far right column; you may need to scroll right to see the column
 
 
@@ -245,7 +245,7 @@ The **Topology Info** tab shows a list of all the links that are configured in t
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If the Bandwidth Policy Service Monitor tool experiences failure when it connects to any of the configured Bandwidth Policy services, the information in the <STRONG>Machine Info</STRONG> and the <STRONG>Topology Info</STRONG> tabs won’t be populated. However, it is possible that the tool might connect initially but subsequently lose its connection to the service. In such cases, administrators might see outdated information. There is a <STRONG>Last Updated</STRONG> time stamp on each of the tabs that can allow administrators to see when the data was last updated for a particular Bandwidth Policy Service.
 
 
@@ -363,7 +363,7 @@ There are two phases when using Bandwidth Utilization Analyzer:
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > We strongly recommend that BandwidthUtilizationAnalyzer.xlsm not be manually launched by end users.
 
 
@@ -417,7 +417,7 @@ The following file directories can be specified by the user as shown.
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Ensure that sufficient file access to the server logs and the temporary file store folder is provided to the tool user.
 
 
@@ -773,7 +773,7 @@ DBAnalyze is a command-line tool that helps administrators to gather analysis re
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Running diagnostic mode can affect server performance.
 
     
@@ -830,7 +830,7 @@ To install Dbanalyze.exe, copy it to a local folder and then run the tool. To us
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > A local administrator account is required for <STRONG>/report:disk</STRONG> mode.
 
 
@@ -897,7 +897,7 @@ Install the Lync Server 2013, Resource Kit Tools. The tool runs on domain-joined
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > On Windows Server 2012, Windows PowerShell Remoting is enabled by default, but not on the Windows Server 2008 operating system.
 
 
@@ -1458,7 +1458,7 @@ The current version of SEFAUtil is only a command-line tool; there is no support
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > New in Lync Server 2013 SEFAUtil tool
 
     
@@ -1469,7 +1469,7 @@ The current version of SEFAUtil is only a command-line tool; there is no support
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > New in Lync Server 2013 SEFAUtil tool
 
     
@@ -1480,7 +1480,7 @@ The current version of SEFAUtil is only a command-line tool; there is no support
     <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > New in Lync Server 2013 SEFAUtil tool
 
     
@@ -1535,7 +1535,7 @@ The SEFAUtil tool can be run only on a computer that is a part of a Trusted Appl
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > UCMA 3.0 must be installed on any computer that will be used to run the SEFAUtil tool.
 
     
@@ -1548,7 +1548,7 @@ The SEFAUtil tool can be run only on a computer that is a part of a Trusted Appl
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > A different port can be used if needed.
 
     
@@ -1589,7 +1589,7 @@ The following command displays the call handling for the user. `SEFAUtil.exe /se
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > This example uses the <STRONG>/server</STRONG> switch to specify the Lync Server to connect to.
 
 
@@ -1707,7 +1707,7 @@ This example removes the delegate.
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > When the last delegate is removed, delegate ringing is automatically disabled.
 
 
@@ -1755,7 +1755,7 @@ This example enables simultaneous ringing and sets a simultaneous ringing destin
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > To change the simultaneous ringing destination number of a user that has already simultaneous ringing enabled, keep the command with the /enablesimulring switch, otherwise the destination number will not be changed.
 
 
@@ -1802,7 +1802,7 @@ This example adds a team member to the team-call group of a user and enables sim
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Adding a member to the team-call group of a user will automatically switch the simultaneous ringing settigs of the users to simulring his team-call group.
 
 
@@ -1829,7 +1829,7 @@ This example removes a team member of the team-call group of a user.
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If the member being removed is the only member of the team-call group, simultaneously ringing to the team-call group will be automatically disabled.
 
 
@@ -1874,7 +1874,7 @@ This example enables team-call for a given user.
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If the team-call group of the user has no members, team-call won’t be enabled.
 
 
@@ -1931,7 +1931,7 @@ This example disables Group Call Pickup for a given user.
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > When you disable Group Call Pickup for a user, the group number that was assigned to the user is not retained. If you subsequently want to re-enable Group Call Pickup for that user, you must assign the group number again with the /enablegrouppickup switch.
 
 
@@ -2068,7 +2068,7 @@ When executed, the Unassigned Number Announcements Migration script will perform
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > the audio files are removed from the source pool once they’re copied to the destination pool.
 
     
@@ -2179,7 +2179,7 @@ This tool allows the administrator to perform the following operations:
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The Resource Kit Tools for Lync Server 2010 supported moving all Web conferencing data associated with a single user when that user is moved from one pool to another. That functionality is now deprecated from this tool in favor of the <STRONG>MoveConferenceData</STRONG> parameter. For details about this parameter, see the <A href="https://technet.microsoft.com/en-us/library/gg398528(v=ocs.15)">Move-CsUser</A> cmdlet.
 
 

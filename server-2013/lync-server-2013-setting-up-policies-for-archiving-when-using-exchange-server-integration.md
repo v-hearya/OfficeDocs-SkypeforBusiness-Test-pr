@@ -31,7 +31,7 @@ If users homed on Exchange 2013 have their mailboxes put on In-Place Hold, Excha
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you deploy Exchange 2013 and Lync Server 2013 in the same forest, your Exchange 2013 In-Place Hold policies control archiving. If you deploy Exchange 2013 and Lync Server 2013 in separate forests, see “Deploying Lync Server and Microsoft Exchange in Different Forests” in <A href="lync-server-2013-deployment-checklist-for-archiving.md">Deployment checklist for Archiving in Lync Server 2013</A>.
 
 

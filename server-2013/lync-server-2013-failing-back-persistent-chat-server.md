@@ -45,7 +45,7 @@ These steps are designed to recover configuration as it existed prior to the dis
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The SQL Server agent on the secondary Persistent Chat Server Back End Server should be running under a privileged account. Specifically, the account must include: 
     > <UL>
     > <LI>
@@ -115,7 +115,7 @@ These steps are designed to recover configuration as it existed prior to the dis
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > All the active servers must be located within the same data center as the new primary database, or in a data center that has a low latency/high bandwidth connection to the database.
 
     

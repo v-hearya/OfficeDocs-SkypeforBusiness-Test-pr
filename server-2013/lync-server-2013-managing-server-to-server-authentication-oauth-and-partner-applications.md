@@ -35,7 +35,7 @@ OAuth authentication typically involves three parties: a single authorization se
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > A realm is simply a security container. By default, Lync Server 2013 uses your default SIP domain as its OAuth realm. Additional SIP namespaces are added to the Subject Alternate Name list in the OAuth certificate.
 
 
@@ -69,7 +69,7 @@ In order to configure server-to-server authentication for an on-premises impleme
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > A "partner application" is any application that Lync Server 2013 can directly exchange security tokens with, without having to go through a third-party security token server.
 
 

@@ -51,7 +51,7 @@ In this topic, the example primary database will have a fully qualified domain n
     <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > If you have configured your back-end database to use synchronized mirroring with a witness, failover is automatic.
 
     

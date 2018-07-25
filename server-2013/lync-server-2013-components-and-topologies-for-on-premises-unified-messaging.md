@@ -57,7 +57,7 @@ Lync Server 2013 supports the following topologies for Exchange UM integration:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Exchange can be deployed in multiple forests. Each Exchange organization can provide Exchange UM to its users, or Exchange UM can be deployed in the same forest as Lync Server 2013.
 
     

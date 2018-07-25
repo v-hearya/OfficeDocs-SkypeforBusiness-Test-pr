@@ -31,7 +31,7 @@ If you have deployed Exchange Unified Messaging (UM), as described in [Planning 
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > For internal certificates, both the servers running Lync Server 2013 and the servers running Microsoft Exchange must have trusted root authority certificates that are mutually trusted. The certification authority (CA) can either be the same, or a different certification authority, as long as the servers have the certification authority’s root certificate registered in their trusted root authority certificate store.
 
 
@@ -63,7 +63,7 @@ The Exchange Server must be configured with a server certificate in order to con
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can also specify Distinguished Encoding Rules (DER) encoding at this step. If you select DER encoding, the file type in the next step of this procedure and in step 10 of <STRONG>To Install the CA certificate</STRONG> is .p7b rather than .cer.
 
     
@@ -142,7 +142,7 @@ The Exchange Server must be configured with a server certificate in order to con
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You must enter the FQDN of the Exchange Server for communications to work.
 
     
@@ -177,7 +177,7 @@ The Exchange Server must be configured with a server certificate in order to con
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For the certificate <STRONG>Subject Name</STRONG>, you must enter the FQDN of the Exchange Server for communications to work.
 
     
@@ -200,7 +200,7 @@ The Exchange Server must be configured with a server certificate in order to con
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > It may take a few minutes before the certificate displays as valid.
 
     
@@ -211,7 +211,7 @@ The Exchange Server must be configured with a server certificate in order to con
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The server running Exchange Server 2007 SP1 Unified Messaging automatically retrieves the correct certificate.
 
     

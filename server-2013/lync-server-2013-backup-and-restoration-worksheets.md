@@ -33,7 +33,7 @@ Use the following worksheets to record the information that you need to back up 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The worksheets in this section cover only the information that is required to restore the data and settings of Lync Server databases and servers. If you need to document other restoration information, such as the information for reinstalling operating systems and other software, use your organization's deployment plans and backup and restoration plans to address those requirements.
 
 

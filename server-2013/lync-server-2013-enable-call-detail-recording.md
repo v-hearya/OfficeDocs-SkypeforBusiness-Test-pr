@@ -33,7 +33,7 @@ Use the following procedure to enable CDR for your whole organization or each si
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In order to enable CDR you must configure monitoring and a monitoring database. For details, see <A href="lync-server-2013-deploying-monitoring.md">Deploying monitoring in Lync Server 2013</A>.
 
 
@@ -55,7 +55,7 @@ Use the following procedure to enable CDR for your whole organization or each si
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > CDR is enabled by default.
 
     

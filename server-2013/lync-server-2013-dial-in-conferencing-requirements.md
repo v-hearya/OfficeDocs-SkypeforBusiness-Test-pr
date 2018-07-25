@@ -47,7 +47,7 @@ You can deploy a PSTN gateway in a central site or in a branch site. In a branch
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Dial-in conferencing does not use media bypass because A/V Conferencing Server do not support media bypass.
 
 

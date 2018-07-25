@@ -31,7 +31,7 @@ To ensure that the antivirus scanner does not interfere with the operation of Ly
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Folder and file locations listed below are the default locations for Lync Server 2013. For any locations for which you did not use the default, exclude the locations you specified for your organization instead of the default locations specified in this topic.
 
 
@@ -41,7 +41,7 @@ To ensure that the antivirus scanner does not interfere with the operation of Ly
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Please note that some antivirus programs may need absolute, not relative paths, for their exclusion list.
 
 

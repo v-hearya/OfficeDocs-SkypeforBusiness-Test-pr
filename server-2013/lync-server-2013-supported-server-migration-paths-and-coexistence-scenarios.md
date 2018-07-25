@@ -74,7 +74,7 @@ Topology Builder will display the following message to inform you of this issue:
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you intend to deploy server roles that are new to your Lync Server 2013 deployment, you should first upgrade your existing deployment as described in the Migration documentation and the Deployment documentation, and then deploy the new server roles as described in the Planning documentation and Deployment documentation. If you are migrating a previous version of Group Chat, migrate it last, after completing the process for migrating all other components from Lync Server 2010 or Office Communications Server 2007 R2.
 
 

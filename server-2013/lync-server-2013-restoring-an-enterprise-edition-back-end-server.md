@@ -39,7 +39,7 @@ If the Central Management store fails, see [Restoring the server hosting the Cen
 <div>
 
 
-> [!TIP]
+> [!TIP]  
 > We recommend that you take an image copy of the system before you start restoration. You can use this image as a rollback point, in case something goes wrong during restoration. You might want to take the image copy after you install the operating system and SQL Server, and restore or reenroll the certificates.
 
 
@@ -55,7 +55,7 @@ If the Central Management store fails, see [Restoring the server hosting the Cen
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Follow your organization's server deployment procedures to perform this step.
 
     
@@ -68,7 +68,7 @@ If the Central Management store fails, see [Restoring the server hosting the Cen
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Depending on your deployment, the Back End Server might include multiple collocated or separate databases. Follow the same procedure to install SQL Server that you used originally to deploy the server, including SQL Server permissions and logins.
 
     
@@ -89,7 +89,7 @@ If the Central Management store fails, see [Restoring the server hosting the Cen
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Only stand-alone databases are displayed on the <STRONG>Create databases</STRONG> page.
 
         
@@ -102,7 +102,7 @@ If the Central Management store fails, see [Restoring the server hosting the Cen
     <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > Instead of running Topology Builder, you can use the <STRONG>Install-CsDatabase</STRONG> cmdlet to create each database, and the <STRONG>Install-CsMirrorDatabase</STRONG> cmdlet to configure mirroring. For details, see the Lync Server Management Shell documentation.
 
     

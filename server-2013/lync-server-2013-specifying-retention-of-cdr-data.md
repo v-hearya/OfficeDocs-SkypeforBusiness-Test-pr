@@ -31,7 +31,7 @@ By default, call detail recording (CDR) data is purged after 60 days. You can us
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You should configure CDR and Quality of Experience (QoE) to retain data for the same number of days. Each call in the call detail reports (CDRs), available from the Monitoring Server Reports webpage, includes CDR and QoE information. If the purging duration for CDR and QoE is different, some calls might only include CDR data, while other may only include QoE data.
 
 

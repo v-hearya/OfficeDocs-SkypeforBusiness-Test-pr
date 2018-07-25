@@ -37,7 +37,7 @@ Lync Server 2013 introduces the following new video features:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Lync Server 2013 still supports the VC1 codec for interoperability with previous versions of Lync. For details and background information about the new video codec, see Jeff Schertz's Blog article, "Video Interoperability in Lync 2013," at <A class=uri href="http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/">http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/</A>.
 
     

@@ -33,7 +33,7 @@ If you decide to use HTTPS for initial Lync Server 2013 Autodiscover Service req
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The reverse proxy publishing rule and listener can service both the external web services and the Autodiscover Service, as long as the certificate assigned to the listener contains the necessary subject name and subject alternative names for both. For details on the default configuration of the web listener and publishing rule, see <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">Setting up reverse proxy servers for Lync Server 2013</A> for more details.
 
 
@@ -47,7 +47,7 @@ The procedures in this section describe how to create or modify the web publishi
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > These procedures assume that you have installed the Standard Edition of Forefront Threat Management Gateway (TMG) 2010. If you are using another reverse proxy, the procedures are similar, but will need to be mapped to the documentation for the third-party product.
 
 
@@ -123,7 +123,7 @@ The procedures in this section describe how to create or modify the web publishi
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > You will repeat the modification for each publishing rule and listener that you have. Typically, this will be one rule and listener for the Front End pools and one for the optional Directors or Director pools, if you have deployed them.
 
     

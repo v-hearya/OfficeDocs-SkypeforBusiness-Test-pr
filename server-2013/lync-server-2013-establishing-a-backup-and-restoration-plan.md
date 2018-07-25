@@ -55,7 +55,7 @@ Modify the backup and restoration procedures in this topic, adding and deleting 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > It is good practice to create scripts for as many steps as possible, to help ensure the quality and reproducibility of procedures.
 
 

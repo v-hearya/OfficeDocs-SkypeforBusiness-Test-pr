@@ -45,7 +45,7 @@ Using Topology Builder, perform the steps in the following procedure to deploy I
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > This is the recommended option for IP version 6 (IPv6) configurations.
 
         
@@ -60,7 +60,7 @@ Using Topology Builder, perform the steps in the following procedure to deploy I
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > The installation of additional network interface cards (NIC)s to support the PSTN IP address configuration for Lync Server 2013 is not supported on collocated Mediation Server roles. For more information about supported NIC configurations for Lync Server 2013, see <A href="lync-server-2013-server-hardware-platforms.md">Server hardware platforms for Lync Server 2013</A>.
 
         

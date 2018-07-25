@@ -67,7 +67,7 @@ The following table lists the features supported in a hybrid deployment when int
 <p>For more information, see <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">Configuring Microsoft Lync Server 2013 to use the unified contact store</a></p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > Requires Exchange 2013.<BR>A Lync 2013 desktop client is required.
 
 
@@ -76,7 +76,7 @@ The following table lists the features supported in a hybrid deployment when int
 <p>For more information, see <a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">Configuring the use of high-resolution photos in Microsoft Lync Server 2013</a></p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > Requires Exchange 2013.
 
 
@@ -88,7 +88,7 @@ The following table lists the features supported in a hybrid deployment when int
 <p>For more information, see <a href="lync-server-2013-deployment-checklist-for-archiving.md">Deployment checklist for Archiving in Lync Server 2013</a></p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > Requires Exchange 2013.
 
 
@@ -96,7 +96,7 @@ The following table lists the features supported in a hybrid deployment when int
 <li><p>Search archived content</p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > Requires Exchange 2013.
 
 
@@ -118,7 +118,7 @@ The following table lists the features supported in a hybrid deployment when int
 <li><p>Contact List (via Unified Contact Store). For more information, see <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">Configuring Microsoft Lync Server 2013 to use the unified contact store</a></p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > Lync Server 2013 only. A Lync 2013 desktop client is required.
 
 
@@ -144,7 +144,7 @@ The following table lists the features supported in a hybrid deployment when int
 <li><p>High-resolution Contact Photo in Lync 2013 client.</p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > Requires Microsoft Exchange Server 2013. This is not supported in Lync Web App when users are homed on Skype for Business Online.
 
 
@@ -166,7 +166,7 @@ The following table lists the features supported in a hybrid deployment when int
 <li><p>Contact List (via Unified Contact Store)</p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > Lync Server 2013 client Required
 
 

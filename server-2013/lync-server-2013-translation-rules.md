@@ -33,7 +33,7 @@ By performing outbound route translation on the server, you can reduce the confi
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Associating one or more translation rules with an Enterprise Voice trunk configuration should be used as an alternative to configuring translation rules on the trunk peer. Do not associate translation rules with an Enterprise Voice trunk configuration if you have configured translation rules on the trunk peer, because the two rules might conflict.
 
 

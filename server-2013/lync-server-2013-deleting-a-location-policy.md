@@ -45,7 +45,7 @@ You can configure location policies from the **Network Configuration** group in 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can delete more than one location policy at a time. To do this, press CTRL and select multiple policies while holding down the CTRL key. Or, to select all policies, click <STRONG>Select all</STRONG> on the <STRONG>Edit</STRONG> menu.
 
     
@@ -58,7 +58,7 @@ You can configure location policies from the **Network Configuration** group in 
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > You cannot delete the Global location policy. If you attempt to delete the Global policy you will receive a warning message and that policy will be reset to its default values.
 
     

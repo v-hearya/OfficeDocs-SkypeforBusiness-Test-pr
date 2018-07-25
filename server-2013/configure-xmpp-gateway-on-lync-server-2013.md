@@ -31,7 +31,7 @@ The final steps for migrating your XMPP Gateway are to configure certificates fo
 <div class=" ">
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > XMPP federation is not supported for users who are homed on survivable branch appliances. This applies to both seeing presence information and exchanging IM messages.
 
 
@@ -47,7 +47,7 @@ The final steps for migrating your XMPP Gateway are to configure certificates fo
     <div class=" ">
     
 
-    > [!TIP]
+    > [!TIP]  
     > If you are deploying the Edge Server for the first time, you will see Run instead of Run Again.
 
     
@@ -84,7 +84,7 @@ The final steps for migrating your XMPP Gateway are to configure certificates fo
     <div class=" ">
     
 
-    > [!TIP]
+    > [!TIP]  
     > If the XMPP proxy is installed, by default the domain name (such as contoso.com) is populated in the SAN entries. If you require more entries, add them in this step.
 
     

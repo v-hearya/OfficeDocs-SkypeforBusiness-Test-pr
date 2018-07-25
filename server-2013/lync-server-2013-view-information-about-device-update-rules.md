@@ -31,7 +31,7 @@ View details about device update rules that have already been imported, includin
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details about how to import, approve, reset, restore, and remove rules, see the topics listed at <A href="lync-server-2013-device-update-rules.md">Device Update rules in Lync Server 2013</A>.
 
 
@@ -59,7 +59,7 @@ Detailed information about all your device update rules can also be viewed by us
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.
 
 

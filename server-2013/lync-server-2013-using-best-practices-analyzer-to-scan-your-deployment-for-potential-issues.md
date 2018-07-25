@@ -55,7 +55,7 @@ To run a Best Practices Analyzer scan, you must specify the following:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Before beginning the scan, Best Practices Analyzer performs a network and permissions check to ensure that the specified account credentials are valid and that Best Practices Analyzer can connect to Active Directory Domain Services. If the tool is running on a workgroup server, the tool also verifies that it can connect to Edge Servers in the perimeter network (that is, if they are included in the scan).
 
     
@@ -76,7 +76,7 @@ To run a Best Practices Analyzer scan, you must specify the following:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For details about the Best Practices Analyzer reports and the issues they identify, see <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Viewing and working with reports created by Best Practices Analyzer in Lync Server 2013</A> and <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">Analyzing and resolving issues identified by Best Practices Analyzer in Lync Server 2013</A>.
 
     

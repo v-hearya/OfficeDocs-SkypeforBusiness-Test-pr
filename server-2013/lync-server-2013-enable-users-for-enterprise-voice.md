@@ -31,7 +31,7 @@ After you install files for one or more Mediation Servers, configure outbound ca
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Of the following procedures, only the first can be performed by using Lync Server Control Panel. For the remaining procedures, you can use only Lync Server Management Shell.
 
 

@@ -45,7 +45,7 @@ In addition to CPU and memory usage counters, you can use the following performa
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you meet or exceed these values, you should revisit and re-compute your capacity planning for the correct sizing of CPU, number of cores and memory for the computers hosting the Web services.
 
 
@@ -69,7 +69,7 @@ In addition to CPU and memory usage counters, you can use the following ASP.NET 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you meet or exceed these values, you should revisit and recompute your capacity planning for the correct sizing of CPU, number of cores, and memory for the computers hosting the Web services.
 
 

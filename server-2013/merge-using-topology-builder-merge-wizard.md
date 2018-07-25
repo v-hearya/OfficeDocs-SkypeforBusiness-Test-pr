@@ -41,7 +41,7 @@ _**Topic Last Modified:** 2012-10-02_
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > <STRONG>Expanded Edge deployment</STRONG> is not a supported configuration. An <STRONG>Expanded Edge Server</STRONG> must first be converted to a <STRONG>Single Edge Server</STRONG> or a <STRONG>Load-balanced consolidated Edge</STRONG> Server.
 
     
@@ -56,7 +56,7 @@ _**Topic Last Modified:** 2012-10-02_
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Before you click <STRONG>Next</STRONG>, do the next step in this procedure. It is very important that you do not miss this step.
 
     
@@ -91,7 +91,7 @@ _**Topic Last Modified:** 2012-10-02_
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > It’s important that you complete the next topic, <A href="import-policies-and-settings.md">Import policies and settings</A>, to ensure that the legacy policy settings are imported into Lync Server 2013.
 
     

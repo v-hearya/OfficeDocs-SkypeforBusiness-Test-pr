@@ -31,7 +31,7 @@ In Lync Server 2013 Control Panel, you can use the **Persistent Chat Configurati
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > To configure and use Persistent Chat Server, you must first use Topology Builder to add Persistent Chat Server support to the topology, and then publish the topology. For details, see <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Adding Persistent Chat Server to your deployment in Lync Server 2013</A> in the Deployment documentation.
 
 
@@ -49,7 +49,7 @@ In Lync Server 2013 Control Panel, you can use the **Persistent Chat Configurati
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > You can also use Windows PowerShell cmdlets. For details, see <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuring Persistent Chat Server by using Windows PowerShell cmdlets</A> in the Deployment documentation.
 
     
@@ -62,7 +62,7 @@ In Lync Server 2013 Control Panel, you can use the **Persistent Chat Configurati
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Choose this option if you want the configuration to be applied to all Persistent Chat Server pools deployed in the site. Click <STRONG>Pool Configuration</STRONG> if you want the configuration to be applied to a specific Persistent Chat Server pool.
 
     
@@ -79,7 +79,7 @@ In Lync Server 2013 Control Panel, you can use the **Persistent Chat Configurati
         <div>
         
 
-        > [!IMPORTANT]
+        > [!IMPORTANT]  
         > Persistent Chat Server will cache these messages in memory, so if you increase this number, more messages will be cached. You can always access historical content by search. The default number simply determines the maximum number of messages that you initially see when connecting to a chat room.
 
         
@@ -90,7 +90,7 @@ In Lync Server 2013 Control Panel, you can use the **Persistent Chat Configurati
         <div>
         
 
-        > [!IMPORTANT]
+        > [!IMPORTANT]  
         > This setting is enforced on the server because custom applications or previous Group Chat clients using Office Communications Server 2007 R2&nbsp;Group Chat Server or Lync Server 2010, Group Chat can post files to a room. The Lync 2013 client does not have file upload/download capability, so if you have a pure Lync 2013 deployment or Lync 2013 client, it is not possible to post files in a Persistent Chat Server chat room.
 
         
@@ -117,7 +117,7 @@ In Lync Server 2013 Control Panel, you can use the **Persistent Chat Configurati
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > You can also use Windows PowerShell cmdlets. For details, see <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuring Persistent Chat Server by using Windows PowerShell cmdlets</A> in the Deployment documentation.
 
     
@@ -138,7 +138,7 @@ In Lync Server 2013 Control Panel, you can use the **Persistent Chat Configurati
         <div>
         
 
-        > [!IMPORTANT]
+        > [!IMPORTANT]  
         > Persistent Chat Server will cache these messages in memory, so if you increase this number, more messages will be cached. You can always access historical content by search. The default number simply determines the maximum number of messages that you initially see when connecting to a chat room.
 
         
@@ -149,7 +149,7 @@ In Lync Server 2013 Control Panel, you can use the **Persistent Chat Configurati
         <div>
         
 
-        > [!IMPORTANT]
+        > [!IMPORTANT]  
         > This setting is enforced on the server because custom applications or previous Group Chat clients (Office Communications Server 2007 R2&nbsp;Group Chat Server or Lync Server 2010, Group Chat) can post files to a room. The Lync 2013 client does not have file upload/download capability, so if you have a pure Lync 2013 deployment or Lync 2013 client, it is not possible to post files in a Persistent Chat Server chat room.
 
         

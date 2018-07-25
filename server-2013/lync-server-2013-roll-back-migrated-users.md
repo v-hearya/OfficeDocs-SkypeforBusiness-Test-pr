@@ -31,7 +31,7 @@ If you need to roll back the unified contact store feature, roll back the contac
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The <STRONG>Move-CsUser</STRONG> cmdlet automatically rolls back the user's contact store from Exchange 2013 to Lync Server 2013 in the following situations: 
 > <UL>
 > <LI>
@@ -46,7 +46,7 @@ If you need to roll back the unified contact store feature, roll back the contac
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Importing unified contact store data from a backup database can cause unified contact store data and user data to become corrupted if the unified contact store mode changed between the export and the import. For example: 
 > <UL>
 > <LI>
@@ -61,7 +61,7 @@ If you need to roll back the unified contact store feature, roll back the contac
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Before you move an Exchange mailbox from Exchange 2013 to Exchange 2010, the Exchange administrator must make sure that the Lync Server administrator has first rolled back the Lync Server user contacts from Exchange 2013 to Lync Server. To roll back unified contact store contacts to Lync Server, see procedure "To roll back unified contact store contacts from Exchange 2013 to Lync Server 2013," later in this section.
 
 
@@ -89,7 +89,7 @@ The following procedure describes how to roll back user contacts. If you use the
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If this step is omitted, the Buddy List will be lost.
 
     
@@ -106,7 +106,7 @@ The following procedure describes how to roll back user contacts. If you use the
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > We do not recommend using the –Force option to force the rollback. If you use this option, the users' contacts will be lost.
 
     
@@ -139,7 +139,7 @@ The following procedure describes how to roll back user contacts. If you use the
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > You must first roll back the Lync Server user, and then move the Exchange 2013 mailbox. The Exchange administrator is blocked from rolling back Exchange until the Lync Server rollback is complete. We do not recommend using the –Force option to force the rollback. If you use this option, the users' contacts will be lost.
 
     

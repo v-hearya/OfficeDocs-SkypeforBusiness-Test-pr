@@ -43,7 +43,7 @@ You can view links between two network regions as part of call admission control
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can only view information about one region link at a time.
 
     

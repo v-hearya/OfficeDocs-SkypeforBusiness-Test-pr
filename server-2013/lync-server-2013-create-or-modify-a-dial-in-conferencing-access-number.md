@@ -31,7 +31,7 @@ Follow these steps if you want to create or modify a dial-in conferencing access
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Before you create a new dial-in access number, you must set a dial-in conferencing region in the dial plan that is associated with the new dial-in access number. Multiple dial plans can use the same region.
 
 
@@ -57,7 +57,7 @@ Follow these steps if you want to create or modify a dial-in conferencing access
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Using the search field to search for the contents of a column in the list of dial-in access numbers may not yield the results you expect. Instead, sort the list by the column of interest to identify the dial-in access number you want to view or change.
 
         
@@ -68,7 +68,7 @@ Follow these steps if you want to create or modify a dial-in conferencing access
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This number is displayed in meeting invitations and on the Dial-in Conferencing Settings webpage.
 
     
@@ -79,7 +79,7 @@ Follow these steps if you want to create or modify a dial-in conferencing access
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This name is displayed in the client when a user calls the access number.
 
     
@@ -90,7 +90,7 @@ Follow these steps if you want to create or modify a dial-in conferencing access
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The same Line URI cannot be reused by another dial-in conferencing access number.
 
     
@@ -103,7 +103,7 @@ Follow these steps if you want to create or modify a dial-in conferencing access
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > The same SIP URI cannot be reused by another dial-in conferencing access number. The SIP URI cannot be modified after the access number is created. The only way to change the SIP URI is to delete and recreate the access number.
 
         
@@ -116,7 +116,7 @@ Follow these steps if you want to create or modify a dial-in conferencing access
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you need to change the pool after you create the access number, you must use the <STRONG>Move-CsApplicationEndpoint</STRONG> cmdlet or delete and recreate the access number.
 
     
@@ -127,7 +127,7 @@ Follow these steps if you want to create or modify a dial-in conferencing access
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The primary language is the language that the Conferencing Attendant uses to answer the call. Supported languages are displayed alongside each access phone number on the Dial-in Conferencing Settings webpage.
 
     
@@ -138,7 +138,7 @@ Follow these steps if you want to create or modify a dial-in conferencing access
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can choose up to four secondary languages for each dial-in access number. Users can select a secondary language before entering the conference ID when they dial in to a conference.
 
     

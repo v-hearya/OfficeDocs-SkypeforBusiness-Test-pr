@@ -37,7 +37,7 @@ As shown in the diagram, an IP virtual private network (VPN) is used for connect
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Contact your service provider to determine whether it provides support for high availability, including failover. If so, you will need to determine the procedures for setting it up. For example, do you need to configure only one IP address and one SIP trunk on each Mediation Server, or do you need to configure multiple SIP trunks on each Mediation Server?<BR>If you have multiple central sites, also ask whether the service provider has the ability to enable connections to and from another central site.
 
 
@@ -47,7 +47,7 @@ As shown in the diagram, an IP virtual private network (VPN) is used for connect
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For SIP trunking, we strongly recommend that you deploy stand-alone Mediation Servers. For details, see <A href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">Deploying Mediation Servers and defining peers in Lync Server 2013</A> in the Deployment documentation.
 
 

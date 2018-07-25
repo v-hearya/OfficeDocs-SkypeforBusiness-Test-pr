@@ -49,7 +49,7 @@ For details about the [set-cshostedvoicemailpolicy](https://docs.microsoft.com/e
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > In the previous example cmdlet, the value “corp1.litwareinc.com” replaces any value that might already be present in the Organization parameter. For example, if the policy already contains a comma-separated list of organizations, the full list would be replaced. If you want to add an organization to the list rather than replace the entire list, run a command similar to the following.
 
     

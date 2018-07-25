@@ -33,7 +33,7 @@ Dial-in access numbers are displayed in meeting invitations and on the Dial-in C
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You cannot use a new dial-in access number until Active Directory replication of that access number is complete. Replication can take several hours.
 
 

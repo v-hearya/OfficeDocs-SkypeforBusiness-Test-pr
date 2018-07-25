@@ -31,7 +31,7 @@ Call Park uses orbits for parking calls. Before users can park and retrieve call
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > An orbit range typically encompasses 100 or fewer orbits. Each range can be much larger, as long as it is smaller than the maximum of 10,000 orbits per range and you have fewer than 50,000 orbits per pool. If a range is too small, the orbits are reused more quickly.
 
 
@@ -43,7 +43,7 @@ Use blocks of virtual extensions (extensions that have no user or phone assigned
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Assigning Direct Inward Dialing (DID) numbers as orbit numbers in the Call Park orbit table is not supported.
 
 

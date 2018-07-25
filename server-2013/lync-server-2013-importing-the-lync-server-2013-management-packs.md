@@ -33,7 +33,7 @@ You can extend the capabilities of System Center Operations Manager by installin
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For details about configuring Operations Manager notification, see the Configuring Notification in the TechNet Library at <A href="http://go.microsoft.com/fwlink/p/?linkid=268785">http://go.microsoft.com/fwlink/p/?LinkId=268785</A>.
 
     
@@ -48,7 +48,7 @@ The Component and User Management Pack is only used to monitor Lync Server 2013.
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Management packs for Lync Server 2010 include the Lync Server 2010 Monitoring Management Pack and the Lync Server 2010 Group Chat Monitoring Management Pack.
 
 

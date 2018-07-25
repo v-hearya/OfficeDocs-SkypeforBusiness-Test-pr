@@ -40,7 +40,7 @@ The mobility policy is one of the individual settings of a user account that you
     4.  Depending on the user property you selected, enter the criteria you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
         
 
-        > [!TIP]
+        > [!TIP]  
         > To add additional search clauses to your query, click <STRONG>Add Filter</STRONG>.
 
     
@@ -49,7 +49,7 @@ The mobility policy is one of the individual settings of a user account that you
 6.  Click a user in the search results, click **Action**, and then click **Assign policies**.
     
 
-    > [!TIP]
+    > [!TIP]  
     > If you want the same per-user mobility policy to apply to multiple users, select multiple users in the search results, then click <STRONG>Actions</STRONG>, and then click <STRONG>Assign policies</STRONG>.
 
 
@@ -57,7 +57,7 @@ The mobility policy is one of the individual settings of a user account that you
 7.  In **Assign Policies**, under **Mobility policy**, do one of the following:
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Because there are multiple policies that you can configure in <STRONG>Assign Policies</STRONG>, <STRONG>&lt;Keep as is&gt;</STRONG> is selected by default for every policy in the dialog box. Continue using the policy previously assigned to the user by making no changes to this setting.
 
     
@@ -66,7 +66,7 @@ The mobility policy is one of the individual settings of a user account that you
       - Click the name of a per-user mobility policy you previously defined on the **Mobility Policy** page.
         
 
-        > [!TIP]
+        > [!TIP]  
         > To help you decide the policy you want to assign, after you click a policy name, click <STRONG>View</STRONG> to view the user rights and permissions defined in the policy.
 
 

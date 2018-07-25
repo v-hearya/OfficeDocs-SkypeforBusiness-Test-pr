@@ -49,7 +49,7 @@ You must use the Lync Server User Provisioning Tool to create users and contacts
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > You must be logged on as a member of the Domain Admins security group in order to run UserProvisioningTool.exe. It is necessary to run from this context because UserProvisioningTool.exe will be creating and configuring new Active Directory Domain Services users.
 
 
@@ -59,7 +59,7 @@ You must use the Lync Server User Provisioning Tool to create users and contacts
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > When you create a significant number of users (10,000 or more), run UserProvisioningTool.exe from a high-end computer. Note that the domain controller will also experience high load while the users are being created.
 
 
@@ -119,7 +119,7 @@ When you click on Delete Users button, it will validate all the input parameters
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > <OL>
 > <LI>
 > <P>Only U.S.-formatted phone numbers are supported. Phone numbers are always assigned to users, and all users created by UserProvisioningTool.exe are enabled for Enterprise Voice. Any scenarios that use the phone number, such as Conferencing Auto Attendant or UC-PSTN calls, use this phone number to properly route calls. For this reason, every user must have a unique phone number. If you have to create users twice, the command will fail unless you use a different area code, or if the previous users have been disabled by using the <STRONG>Disable-CsUser</STRONG> cmdlet.</P>
@@ -159,7 +159,7 @@ To configure users’ contacts, follow these steps.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > None of the users should be signed in when creating contacts.
 
     
@@ -172,7 +172,7 @@ To configure users’ contacts, follow these steps.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > After the contacts are created, this tool will restart all the Front End Servers in the target pool. It may take longer (up to 2 hours) for the Front End Servers to start, depending on how many contacts were created by this operation.
 
     

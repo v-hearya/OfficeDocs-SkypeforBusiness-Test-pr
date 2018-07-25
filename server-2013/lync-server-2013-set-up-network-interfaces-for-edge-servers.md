@@ -55,7 +55,7 @@ Each Edge Server is a multihomed computer with external and internal facing inte
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The internal and external subnets must not be routable to each other.
 
     
@@ -66,7 +66,7 @@ Each Edge Server is a multihomed computer with external and internal facing inte
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > It is possible to use as few as one IP address for this interface, but to do this you need to change the port assignments to non-standard values. You determine this when you create the topology in Topology Builder.
 
     
@@ -87,7 +87,7 @@ Each Edge Server is a multihomed computer with external and internal facing inte
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The internal and external subnets must not be routable to each other.
 
     
@@ -98,7 +98,7 @@ Each Edge Server is a multihomed computer with external and internal facing inte
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > It is possible, but not recommended, to use as few as one IP address for the external interface. To allow this to work, you need to change the port assignments to non-standard values, and away from the default port 443 that is typically “firewall friendly” for client communication. You determine the IP address setting and the port settings when you create the topology in Topology Builder.
 
     

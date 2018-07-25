@@ -43,7 +43,7 @@ For more information on enrolling on behalf of users as an enrollment agent, see
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you are using Internet Explorer 10, you may need to view this website in Compatibility Mode.
 
     
@@ -88,7 +88,7 @@ For more information on enrolling on behalf of users as an enrollment agent, see
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The default virtual smart card PIN value is ‘12345678’.
 
     
@@ -99,7 +99,7 @@ For more information on enrolling on behalf of users as an enrollment agent, see
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If your certificate request fails with the error “This Web browser does not support the generation of certificate requests,” there are three possible ways to resolve the issue: 
     > <OL>
     > <LI>

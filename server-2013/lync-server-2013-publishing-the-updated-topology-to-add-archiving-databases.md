@@ -37,7 +37,7 @@ After updating your topology in Topology Builder, you must publish the topology 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can define a topology by using an account that is a member of the local Users group, but to publish a topology, which is required to add a server to the topology, you must use an account that is a member of the <STRONG>Domain Admins</STRONG> group and the <STRONG>RTCUniversalServerAdmins</STRONG> group, and that has full control permissions (that is, read, write, and modify) on the file share that you are using for the Lync Server 2013 file store (that is, so that Topology Builder can configure the required discretionary access control list (DACLs), or an account with equivalent rights.
 
     
@@ -54,7 +54,7 @@ After updating your topology in Topology Builder, you must publish the topology 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you do not have the appropriate permissions to create databases, you can cancel the selection of the database and someone with appropriate permissions can create the database. For details about the required administrator rights and permissions, see <A href="lync-server-2013-deployment-permissions-for-sql-server.md">Deployment permissions for SQL Server in Lync Server 2013</A> in the Deployment documentation.<BR>Only databases on dedicated SQL Server servers can be installed by using Topology Builder. Databases on SQL Server servers that are collocated with other server components must be installed by running local setup on that computer.
 
     
@@ -65,7 +65,7 @@ After updating your topology in Topology Builder, you must publish the topology 
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > After publishing the topology, you must configure options and policies for Archiving before any content can be archived. For details, see <A href="lync-server-2013-configuring-support-for-archiving.md">Configuring support for Archiving in Lync Server 2013</A> in the Deployment documentation.
 
     

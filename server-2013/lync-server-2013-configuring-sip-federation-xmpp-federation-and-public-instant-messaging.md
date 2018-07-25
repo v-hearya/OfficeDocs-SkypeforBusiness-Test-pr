@@ -31,7 +31,7 @@ Federation, public instant messaging connectivity and Extensible Messaging and P
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > An end of life date of June 2014 for AOL and Yahoo! has been announced. For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>.
 
 
@@ -74,7 +74,7 @@ XMPP federation defines an external deployment based on the eXtensible Messaging
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The XMPP capability of Lync Server 2013 is tested and supported by Microsoft for instant messaging federation with Google Talk. For any other XMPP systems contact the third-party vendor to verify that they support federation with Lync Server 2013, and for any deployment or troubleshooting recommendations.
 
 
@@ -108,7 +108,7 @@ XMPP federation defines an external deployment based on the eXtensible Messaging
 <td><p>Domain Admins group and RTCUniversalServerAdmins group</p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > You can edit a topology using an account that is a member of the local users group, but publishing a topology requires an account that is a member of the Domain Admins group and the RTCUniversalServerAdmins group
 
 

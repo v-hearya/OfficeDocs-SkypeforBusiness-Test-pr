@@ -33,7 +33,7 @@ To create a new Persistent Chat Server room
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > -PersistentChatPoolFqdn is not needed if one of the following is true: 
 > <UL>
 > <LI>

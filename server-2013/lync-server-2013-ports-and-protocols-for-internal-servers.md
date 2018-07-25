@@ -31,7 +31,7 @@ This section summarizes the ports and protocols used by servers, load balancers,
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Lync and Communicator clients when involved in a one to one communication, is often referred to as peer-to-peer. Technically, the two clients are communicating in a one to one conversation, with the Instant Messaging multipoint control unit (IMMCU) in the middle. The IMMCU is a component of Front End Server. Placing the IMMCU in the required communication workflow allows call detail recording and other features that the Front End Server enables. Communication is from a dynamic source port on the client to the Front End Server port TLS/TCP/5061 (assuming the use of the recommended transport layer security). By design, peer-to-peer communication (as well as multi-party IM) is possible only when Lync Server and the IMMCU is active and available.
 
 
@@ -45,7 +45,7 @@ This section summarizes the ports and protocols used by servers, load balancers,
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Windows Firewall must be running before you start the Lync Server services on a server, because that is when Lync Server opens the required ports in the firewall.
 
 
@@ -450,7 +450,7 @@ The following table lists the ports that need to be open on each internal server
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Some remote call control scenarios require a TCP connection between the Front End Server or Director and the PBX. Although Lync Server no longer uses TCP port 5060, during remote call control deployment you create a trusted server configuration, which associates the RCC Line Server FQDN with the TCP port that the Front End Server or Director will use to connect to the PBX system. For details, see the <STRONG>CsTrustedApplicationComputer</STRONG> cmdlet in the Lync Server Management Shell documentation.
 
 
@@ -742,7 +742,7 @@ Your Front End pools and Director pools that use DNS load balancing also must ha
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The set programs for Lync clients automatically create the required operating-system firewall exceptions on the client computer.
 
 
@@ -752,7 +752,7 @@ Your Front End pools and Director pools that use DNS load balancing also must ha
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The ports that are used for external user access are required for any scenario in which the client must traverse the organization’s firewall (for example, any external communications or meetings hosted by other organizations).
 
 

@@ -59,7 +59,7 @@ For details, see [Active Directory infrastructure requirements for Lync Server 2
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > We recommend that you deploy global settings to the Configuration container instead of the System container. This does not enhance security, but can result in scalability improvements for some Active Directory Domain Services topologies. If you are migrating from Microsoft Office Communications Server 2007 and have used the System container but plan to use the Configuration container, you MUST move the settings in the System container BEFORE you do any upgrade preparations. To migrate your System container settings to the Configuration container, see Office Communications Server 2007 Global Settings Migration Tool at <A href="http://go.microsoft.com/fwlink/p/?linkid=145236">http://go.microsoft.com/fwlink/p/?LinkId=145236</A>.
 
 
@@ -95,7 +95,7 @@ For details about the specific universal groups created when preparing AD for Ly
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Lync Server 2013 supports the universal groups in the Windows Server 2012 for servers running Lync Server 2013, as well as Windows Server 2003 operating systems for domain controllers. Members of universal groups can include other groups and accounts from any domain in the domain tree or forest and can be assigned permissions in any domain in the domain tree or forest. Universal group support, combined with administrator delegation, simplifies the management of a Lync Server deployment. For example, it is not necessary to add one domain to another to enable an administrator to manage both.
 
 

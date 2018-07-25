@@ -31,7 +31,7 @@ When you add a Front End Server to a pool, or remove a Front End Server from a p
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you're adding new servers to the pool, update your new pool servers to be at the same Cumulative Update level as the existing servers in the Pool.
 
 

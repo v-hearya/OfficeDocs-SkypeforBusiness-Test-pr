@@ -33,7 +33,7 @@ Make sure that you review infrastructure, operating system, software, and admini
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If your organization requires that you locate Internet Information Services (IIS) and all Web Services on a drive other than the system drive, you can change the installation location path for the Lync Server files in the Setup dialog box. If you install the Setup files to this path, including OCSCore.msi, the rest of the Lync Server 2013 files will be deployed to this drive as well.
 
 
@@ -55,7 +55,7 @@ Make sure that you review infrastructure, operating system, software, and admini
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If your organization requires that you locate Internet Information Services (IIS) and all Web Services on a drive other than the system drive, you can change the installation location path for the Lync Server 2013 files in the Setup dialog box. If you install the Setup files to this path, including OCSCore.msi, the rest of the Lync Server 2013 files will be deployed to this drive too.
 
     

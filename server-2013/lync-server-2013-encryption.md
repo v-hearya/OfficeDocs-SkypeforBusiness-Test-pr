@@ -31,7 +31,7 @@ Microsoft Lync Server 2013 uses TLS and MTLS to encrypt instant messages. All se
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > A security advisory regarding SSL 3.0 was published in 2014. Disabling SSL 3.0 in Lync Server 2013 is a supported option. To learn more about the security advisory, see <A class=uri href="https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/">https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/</A>.
 
 
@@ -115,7 +115,7 @@ Media traffic is encrypted using Secure RTP (SRTP), a profile of Real-Time Trans
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Audio/Video (A/V) is supported with the new version of Windows Live Messenger. If you are implementing A/V federation with Windows Live Messenger, you must also modify the Lync Server encryption level. By default, the encryption level is Required. You must change this setting to Supported by using the Lync Server Management Shell. For more information, see <A href="lync-server-2013-deploying-external-user-access.md">Deploying external user access in Lync Server 2013</A> in the Deployment documentation.
 
 

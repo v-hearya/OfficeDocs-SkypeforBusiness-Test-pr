@@ -61,7 +61,7 @@ The following steps describe the client discovery and registration process:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Using a Director pool is optional. A Front End pool can be used instead.
 
     

@@ -52,10 +52,10 @@ With SQL mirroring, database recovery mode is always set to **Full**, which mean
 
 With SQL mirroring, you can either configure the topology for mirroring when you create the pools, or after the pools are already created.
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Using Topology Builder or cmdlets to set up and remove SQL mirroring is supported only when the primary, mirror, and witness (if desired) servers all belong to the same domain. If you want to set up SQL mirroring among servers in different domains, see your SQL Server documentation.
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Whenever you make a change to a Back End Database mirroring relationship, you must restart all the Front End Servers in the pool.<BR>For a change in mirroring, (such as changing the location of a mirror), you must use Topology Builder to perform these three steps: 
 > <OL>
 > <LI>
@@ -65,7 +65,7 @@ With SQL mirroring, you can either configure the topology for mirroring when you
 > <LI>
 > <p>Publish the topology.</p></LI></OL>
 
-> [!NOTE]
+> [!NOTE]  
 > A file share has to be created for the mirror files to be written to, and the service that SQL Server and SQL Agent are running under needs read/write access. If the SQL Server service is running under the context of Network Service, you can add &lt;Domain&gt;\\&lt;SQLSERVERNAME&gt;$ of both the Principal and Mirror SQL Servers to the share permissions. The $ is important to identify that this is a computer account.
 
 <div>

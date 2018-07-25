@@ -31,7 +31,7 @@ Follow these steps if you want to modify a voice policy. If you want to create a
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If a user is assigned to a voice policy has no associated public switched telephone network (PSTN) usage records, the user cannot place outbound calls. For a listing of all PSTN usage records available in your Enterprise Voice deployment and view their properties, see <A href="lync-server-2013-view-pstn-usage-records.md">View PSTN usage records in Lync Server 2013</A>.
 
 
@@ -53,7 +53,7 @@ Follow these steps if you want to modify a voice policy. If you want to create a
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The scope and name were set when the voice policy was created. They cannot be changed.
 
     
@@ -68,7 +68,7 @@ Follow these steps if you want to modify a voice policy. If you want to create a
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > This feature is only configurable through the Lync Server Management Shell
 
         
@@ -93,7 +93,7 @@ Follow these steps if you want to modify a voice policy. If you want to create a
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > The policy will be overridden only for incoming calls to the user and not for outgoing calls that are placed by the user. After the session is established, the bandwidth consumption will be accurately recorded. This setting should be used sparingly.
 
         
@@ -116,7 +116,7 @@ Follow these steps if you want to modify a voice policy. If you want to create a
             <div>
             
 
-            > [!NOTE]
+            > [!NOTE]  
             > The PSTN usage record name must be unique within the Enterprise Voice deployment. After the record is saved, the <STRONG>Name</STRONG> field cannot be edited.
 
             
@@ -155,7 +155,7 @@ Follow these steps if you want to modify a voice policy. If you want to create a
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The order in which PSTN usage records are listed in the voice policy is significant. Lync Server traverses the list from the top down. We recommend that you organize the list by frequency of use, for example: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
 
     
@@ -182,7 +182,7 @@ Follow these steps if you want to modify a voice policy. If you want to create a
                 <div>
                 
 
-                > [!NOTE]
+                > [!NOTE]  
                 > The PSTN usage record name must be unique within the Enterprise Voice deployment. After the record is saved, the <STRONG>Name</STRONG> field cannot be edited.
 
                 
@@ -221,7 +221,7 @@ Follow these steps if you want to modify a voice policy. If you want to create a
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can save a voice policy that does not yet pass the test and then reconfigure it later. For details, see <A href="lync-server-2013-test-voice-routing.md">Test voice routing in Lync Server 2013</A>.
 
     
@@ -234,7 +234,7 @@ Follow these steps if you want to modify a voice policy. If you want to create a
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Whenever you create or modify a voice policy, you must run the <STRONG>Commit all</STRONG> command to publish the configuration change. For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A> in the Operations documentation.
 
     

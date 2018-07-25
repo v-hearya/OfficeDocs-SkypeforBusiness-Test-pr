@@ -31,7 +31,7 @@ You can specify your own music file to use for music on hold, instead of the def
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you customize music on hold and want the same music for multiple sites, you must configure the music file for each site that runs the Call Park application.
 
 
@@ -53,7 +53,7 @@ You can specify your own music file to use for music on hold, instead of the def
     <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > Use the <STRONG>Get-CsService</STRONG> cmdlet to identify the service. For details, see <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService">Get-CsService</A>.
 
     

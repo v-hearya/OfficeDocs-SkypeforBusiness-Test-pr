@@ -31,7 +31,7 @@ To use the Lync Room System (LRS) Administrative Web Portal, you will need to in
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If the server is configured with both Kerberos and NTLM authentication, and LRS is running on a computer that is not joined to the domain, Kerberos authentication will fail and the user will not see the status of LRS in the administrative portal. To resolve this issue, configure the server with NTLM authentication or both NTLM and TLS-DSK authentication (without Kerberos), or join the LRS computer to the domain.
 
 

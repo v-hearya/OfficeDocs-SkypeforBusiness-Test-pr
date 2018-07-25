@@ -31,7 +31,7 @@ Lync Server 2013 supports Enhanced 9-1-1 (E9-1-1) calling from Lync clients and 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details on deploying advanced Enterprise Voice features, such as E9-1-1 and the Location Information service, see <A href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">Deploying advanced Enterprise Voice features in Lync Server 2013</A>.
 
 

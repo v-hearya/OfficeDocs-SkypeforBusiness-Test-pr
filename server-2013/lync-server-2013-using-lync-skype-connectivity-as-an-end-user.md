@@ -33,7 +33,7 @@ Lync-Skype Connectivity enables Skype users and Lync users to add each other as 
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > In order for Lync and Skype users to fully communicate with each other, the following requirements must be met: 
 > <UL>
 > <LI>
@@ -78,7 +78,7 @@ In each instance, the Lync user must enter the Skype user’s email in the follo
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > This step is not required for Microsoft accounts that use the following domain names: <STRONG>@live.com, @hotmail.com or @outlook.com</STRONG>. For more information on supported custom domain names, see <A href="https://support.microsoft.com/kb/897567">Supported public IM domains</A>.
 
 
@@ -91,13 +91,13 @@ In each instance, the Lync user must enter the Skype user’s email in the follo
 
 2.  From the list of available contact providers, select **Skype**.
 
-3.  In the **IM Address** field, enter the Microsoft Account (MSA) of the Skype user in the format **user(domain name)@msn.com** . So for user bob@contoso.com, the entry would be **bob(contoso.com)@msn.com** .
+3.  In the **IM Address** field, enter the Microsoft Account (MSA) of the Skype user in the format <strong>user(domain name)@msn.com</strong>. So for user bob@contoso.com, the entry would be <strong>bob(contoso.com)@msn.com<strong> .
 
 4.  In the **Add to contact group** drop-down list box, select a contact group to add the user to.
 
 5.  In the **Set privacy relationship** drop-down list box, select the appropriate contact setting and then click **OK**.
 
-6.  A Lync user can also use the **Find someone or a room, or dial a number** field in Lync, and add an address that resembles the following **user(domain name)@msn.com** . So for the bob@contoso.com Microsoft account, the entry would be **bob(contoso.com)@msn.com** .
+6.  A Lync user can also use the **Find someone or a room, or dial a number** field in Lync, and add an address that resembles the following <strong>user(domain name)@msn.com</strong> . So for the bob@contoso.com Microsoft account, the entry would be <strong>bob(contoso.com)@msn.com</strong> .
 
 7.  Follow steps 4 and 5 earlier in this procedure to add the contact to a contact group and to select the appropriate privacy relationship.
 
@@ -118,7 +118,7 @@ In each instance, the Lync user must enter the Skype user’s email in the follo
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The Lync Server administrator must configure the Lync user’s policy settings to allow incoming requests. If not, the Lync user will not receive contact requests from the Skype user. Depending on the configuration of the Lync user’s policy settings, the request to add the Skype user will appear on the Lync client’s <STRONG>New</STRONG> tab. To begin communicating with the Skype user, the Lync user must add the Skype user to either the Favorites list or a contact list. The image below shows the location of the <STRONG>New</STRONG> tab in the Lync client.
 
     

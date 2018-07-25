@@ -29,7 +29,7 @@ _**Topic Last Modified:** 2013-11-07_
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > When you run the Certificate Wizard, ensure that you are logged in using an account that is a member of a group that has been assigned the appropriate permissions for the type of certificate template you will use. By default, a Lync Server 2013 certificate request will use the Web Server certificate template. If you use an account that is a member of the RTCUniversalServerAdmins group to request a certificate using this template, verify that the group has been assigned the Enroll permissions required to use that template.
 
 
@@ -59,7 +59,7 @@ If you have more than one site with Edge Servers (that is, a multiple-site edge 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The steps for procedures in this section are based on using a Windows Server&nbsp;2008 CA, Windows Server&nbsp;2008&nbsp;R2 CA, Windows Server 2012 CA, or Windows Server 2012 R2 CA to create a certificate for each Edge Server. For step-by-step guidance for any other CA, consult the documentation for that CA. By default, all authenticated users have the appropriate user rights to request certificates.<BR>The procedures in this section are based on creating certificate requests on the Edge Server as part of the Edge Server deployment process. It is possible to create certificate requests using the Front End Server. You can do this to complete the certificate request early in the planning and deployment process, before you start deployment of the Edge Servers. To do this, you must ensure that the certificate you request is defined with an exportable private key.<BR>The procedures in this section describe using a .cer and a .p7b file for the certificate. If you use a different type of file, modify these procedures as appropriate.
 
 
@@ -83,7 +83,7 @@ If you have more than one site with Edge Servers (that is, a multiple-site edge 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you are using a Windows Server 2008 or Windows Server 2008 R2 enterprise CA, you must use https, not http.
 
     
@@ -100,7 +100,7 @@ If you have more than one site with Edge Servers (that is, a multiple-site edge 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The .p7b file contains all of the certificates that are in the certification path. To view the certification path, open the server certificate and click the certification path.
 
     
@@ -165,7 +165,7 @@ If you have more than one site with Edge Servers (that is, a multiple-site edge 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you have multiple Edge Servers in one location in a pool, you can run the Certificate Wizard on any one of the Edge Servers.<BR>After you run Step 3 the first time, the button changes to <STRONG>Run again</STRONG>, and a green check mark that indicates successful completion of the task is not displayed until all require certificates have been requested, installed, and assigned.
 
     
@@ -190,7 +190,7 @@ If you have more than one site with Edge Servers (that is, a multiple-site edge 
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Higher bit lengths offer more security, but they have a negative impact on speed.
 
         
@@ -261,7 +261,7 @@ If you have more than one site with Edge Servers (that is, a multiple-site edge 
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If there are no certificates in the Certificates Personal store for the local computer, there is no private key associated with the certificate that was imported. Review the request and import steps. If the problem persists, contact your certification authority administrator or provider.
 
     
@@ -274,7 +274,7 @@ If you have more than one site with Edge Servers (that is, a multiple-site edge 
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If the selection <STRONG>Yes, export the private key</STRONG> is not available, the private key associated with this certificate was not marked for export. You will need to request the certificate again, ensuring that the certificate is marked to allow for the export of the private key before you can continue with the export. Contact your certification authority administrator or provider.
 
     
@@ -289,7 +289,7 @@ If you have more than one site with Edge Servers (that is, a multiple-site edge 
         <div>
         
 
-        > [!WARNING]
+        > [!WARNING]  
         > When exporting the certificate from an Edge server, do not select <STRONG>Delete the private key if the export is successful</STRONG>. Selecting this option will require that you import the certificate and the private key to this Edge server.
 
         

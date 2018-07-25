@@ -31,7 +31,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You can use Lync Server Management Shell or the Response Group Configuration Tool to create and modify hunt group workflows. You can access the Response Group Configuration Tool from Lync Server Control Panel, or by opening the webpage directly from a web browser by typing the following URL: <STRONG>https://</STRONG>&lt;webPoolFqdn&gt;<STRONG>/RgsConfig</STRONG>.
 
 
@@ -55,7 +55,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The Response Group Configuration Tool opens. You can also open the Response Group Configuration Tool directly from a web browser by typing the following URL: <STRONG>https://</STRONG>&lt;webPoolFqdn&gt;<STRONG>/RgsConfig</STRONG>.
 
     
@@ -72,7 +72,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you are to creating a managed workflow, you need to select <STRONG>Activate the workflow</STRONG>. After you save the active, managed workflow, you can then modify and deactivate it.
 
     
@@ -83,7 +83,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The global external access policy applies to the Response Group application. You can configure the global policy for response group federation by using Lync Server Control Panel or by using the <STRONG>Set-CsExternalAccessPolicy</STRONG> cmdlet to set the EnableOutsideAccess parameter to True. Keep in mind that global policy settings apply to all users unless they are assigned a site or user policy. Therefore, before changing this setting for response groups, make sure that the federation setting meets the requirements of your organization. For details about how policies apply to users, see <A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Manage external access policy in Lync Server 2013</A>. For details about the federation setting, see <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy">Set-CsExternalAccessPolicy</A>.
 
     
@@ -92,7 +92,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Users who are hosted in Lync Online can’t place calls to response groups that are hosted in an on-premise deployment. This is true in both hybrid deployments and in cases where an on-premise deployment is federated with a Lync Online deployment.
 
     
@@ -103,7 +103,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Anonymous calls cannot start with instant messaging (IM) or video, although the agent or the caller can add IM and video after the call is established. An anonymous agent can also put calls on hold, transfer calls (both blind and consultative transfers), and park and retrieve calls. Anonymous calls do not support conferencing, application sharing and desktop sharing, file transfer, whiteboarding and data collaboration, and call recording. Agents using the Lync VDI Plugin can receive incoming calls anonymously, but they cannot make outgoing calls anonymously.
 
     
@@ -114,7 +114,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The primary URI for a workflow is how the workflow is identified and referenced. The SIP URI that you enter is created as a contact object in Active Directory Domain Services. To create the URI, the object must be unique in Active Directory.
 
     
@@ -125,7 +125,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Do not include the "&lt;" or "&gt;" characters in the display name. Do not use the following display names because they are reserved: <STRONG>RGS Presence Watcher</STRONG> or <STRONG>Announcement Service</STRONG>.
 
     
@@ -146,7 +146,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Every user who is designated as a manager of a response group must be assigned the CsResponseGroupManager role. If users are not assigned this role, they cannot manage response groups.
 
     
@@ -161,7 +161,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message.
 
         
@@ -172,7 +172,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > All user-provided audio files must meet certain requirements. For details about supported file formats, see <A href="lync-server-2013-technical-requirements-for-response-group.md">Technical requirements for Response Group in Lync Server 2013</A>.
 
         
@@ -183,7 +183,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The time zone is the time zone where the callers and agents of the workflow reside. It is used to calculate the open and close hours. For example, if the workflow is configured to use the North American Eastern Time zone and the workflow is scheduled to open at 7:00 A.M. and close at 11:00 P.M., the open and close times are assumed to be 7:00 Eastern Time and 23:00 Eastern Time respectively. (You must enter the times in 24-hour time notation.)
 
     
@@ -196,7 +196,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > You must have defined at least one preset schedule previously to be able to select this option. You define preset schedules by using the <STRONG>New-CSRgsHoursOfBusiness</STRONG> cmdlet. For details, see <A href="lync-server-2013-optional-define-response-group-business-hours.md">(Optional) Define Response Group business hours in Lync Server 2013</A>.
 
         
@@ -205,7 +205,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > When you select a preset schedule, <STRONG>Day</STRONG>, <STRONG>Open</STRONG>, and <STRONG>Close</STRONG> are automatically filled with the days and hours that the response group is available.
 
         
@@ -220,7 +220,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The <STRONG>Open</STRONG> and <STRONG>Close</STRONG> hours must be in 24-hour time notation. For example, if your office works a 9-to-5 work day and closes at noon for lunch, the business hours are specified as <STRONG>Open</STRONG> 9:00, <STRONG>Close</STRONG> 12:00, <STRONG>Open</STRONG> 13:00, and <STRONG>Close</STRONG> 17:00.
 
     
@@ -233,7 +233,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message.
 
         
@@ -244,7 +244,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > All user-provided audio files must meet certain requirements. For details about supported audio file formats, see <A href="lync-server-2013-technical-requirements-for-response-group.md">Technical requirements for Response Group in Lync Server 2013</A>.
 
         
@@ -265,7 +265,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You need to define holidays and holiday sets before you configure the workflow. Use the <STRONG>New-CsRgsHoliday</STRONG> and <STRONG>New-CsRgsHolidaySet</STRONG> cmdlets to define holidays and holiday sets. For details, see <A href="lync-server-2013-optional-define-response-group-holiday-sets.md">(Optional) Define Response Group holiday sets in Lync Server 2013</A>.
 
     
@@ -278,7 +278,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message.
 
         
@@ -289,7 +289,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > All user-provided audio files must meet certain requirements. For details about supported audio file formats, see <A href="lync-server-2013-technical-requirements-for-response-group.md">Technical requirements for Response Group in Lync Server 2013</A>.
 
         
@@ -316,7 +316,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > All user provided audio files must meet certain requirements. For details about supported audio file formats, see <A href="lync-server-2013-technical-requirements-for-response-group.md">Technical requirements for Response Group in Lync Server 2013</A>.
 
         
@@ -345,7 +345,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > To use an audio file for the prompt, use the <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet. For details, see <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.
 
     
@@ -364,7 +364,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For hunt group workflows, the default action must direct the call to a queue. This is parameter is required for active workflows. It is not required for inactive workflows.
 
     
@@ -393,7 +393,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > All users who are designated managers for workflows must be assigned the CsResponseGroupManager role.
 
     
@@ -402,7 +402,7 @@ Use one of the following procedures to create or modify a hunt group workflow.
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For details about additional optional parameters, see <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow">New-CsRgsWorkflow</A> or <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow">Set-CsRgsWorkflow</A>
 
     

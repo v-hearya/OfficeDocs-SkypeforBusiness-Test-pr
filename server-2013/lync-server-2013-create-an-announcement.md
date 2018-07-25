@@ -37,7 +37,7 @@ To create a new announcement, you need to perform the following steps:
     <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > You might want to create an announcement with no prompt (for example, if you want to transfer calls to a specific destination without playing a message).
 
     

@@ -35,7 +35,7 @@ Major changes have been made to the Microsoft Lync Server 2013 monitoring infras
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The Archiving Server role has also been deprecated in Lync Server 2013. Like the monitoring services, Lync Server 2013 archiving services are now collocated on each Front End server. This is important to note simply because monitoring and archiving often share the same SQL Server database instance.
 
 
@@ -53,7 +53,7 @@ Although it's often easier to enable monitoring at the same time that you create
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If monitoring has been enabled for a pool you can disable the process of collecting monitoring data without having to change your topology: Lync Server Management Shell provides a way for you to disable (and then later re-enable) call detail recording (CDR) or Quality of Experience (QoE) data collection. For more information, see the Configuring Call Detail Recording and Quality of Experience Settings section of this document.
 
 
@@ -65,7 +65,7 @@ One other important enhancement to monitoring in Lync Server 2013 is the fact th
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Ensure that the SQL Server Agent Service Startup Type is Automatic and the SQL Server Agent Service is running for the SQL Instance which is holding the Monitoring databases, so that the Default Monitoring SQL Server Maintenance Jobs can run on their scheduled basis under the control of the SQL Server Agent Service.
 
 

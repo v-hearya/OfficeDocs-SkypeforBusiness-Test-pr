@@ -31,7 +31,7 @@ Did your organization deploy Lync Online before it ever deployed Lync Server on-
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > This section is only about moving users who were originally enabled for Lync in Lync Online. Maybe you have user accounts that you first enabled for Lync on-premises, then moved to Lync Online? If so, and you want to move them back to on-premises, the process is easy: <A href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Administering users in a hybrid Lync Server 2013 deployment</A>.
 
 

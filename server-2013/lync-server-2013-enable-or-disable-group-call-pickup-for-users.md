@@ -31,7 +31,7 @@ When a Group Call Pickup range is added to the call park orbit table, you can en
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The SEFAUtil parameter, /enablegrouppickup, enables Group Call Pickup and assigns the group number.
 
 

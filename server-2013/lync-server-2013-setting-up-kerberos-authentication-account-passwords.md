@@ -31,7 +31,7 @@ After you create the computer object for the Kerberos authentication account, yo
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The Kerberos account object is a computer object, but uses the UserAccount parameter for operations in the Windows PowerShell cmdlets that are referenced. Note that this is not a mistake, but the intended behavior of the cmdlet when used with the Kerberos account creation and maintenance.
 
 

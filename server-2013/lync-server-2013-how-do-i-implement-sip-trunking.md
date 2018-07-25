@@ -33,7 +33,7 @@ Each Mediation Server has an internal network interface and an external network 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The external edge component of the ITSP could be a Session Border Controller (SBC), a router, or a gateway.
 
 
@@ -69,7 +69,7 @@ The decision whether to deploy centralized or distributed SIP trunking requires 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details about distributed SIP trunking, see <A href="lync-server-2013-branch-site-sip-trunking.md">Branch site SIP trunking in Lync Server 2013</A>.
 
 
@@ -117,7 +117,7 @@ SIP Trunk Peak Bandwidth = Max Simultaneous Calls x (64 kbps + header size)
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Header size is 20 bytes maximum.
 
 
@@ -149,7 +149,7 @@ For details about Microsoft certified SIP trunking providers, contact your Micro
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > You must use a Microsoft certified service provider to ensure that your ITSP supports all of the functionality that traverses the SIP trunk (for example, setting up and managing sessions and supporting all of the extended VoIP services). Microsoft technical support does not extend to configurations that use noncertified providers. If you currently use an Internet service provider that is not certified for SIP trunking, you can opt to continue using that provider as your ISP and use a provider certified by Microsoft for SIP trunking.
 
 

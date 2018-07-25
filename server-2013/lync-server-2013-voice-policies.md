@@ -59,7 +59,7 @@ The following steps will help you plan the voice policies that you will need for
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > We recommend that you deploy a user voice policy for branch site Enterprise Voice users who are registered with the central site deployment, or users who are registered on a Survivable Branch Appliance.
 
     
@@ -110,7 +110,7 @@ Each voice policy should have one or more associated PSTN usage records. PSTN us
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > PSTN usage order is critical because in matching users to routes, the outbound routing functionality compares PSTN usages from top to bottom. If the first usage matches the call route, that route is used. If not, the outbound routing functionality looks at the next PSTN usage on the list and continues until a match is found. In effect, the subsequent PSTN usages provide backup if the first one on the list is unavailable.
 
 

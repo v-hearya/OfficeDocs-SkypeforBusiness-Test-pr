@@ -37,7 +37,7 @@ The decision about whether to use subject alternative name lists on reverse prox
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > For new installations or upgrades from Lync Server 2010 where you deployed Mobility, you either used Port 80 for Autodiscover of the Mobility service, or reissued certificates with the proper subject name and subject alternative names in place. Review the certificates on your Director and Front End Server to confirm which path you chose.
 
     

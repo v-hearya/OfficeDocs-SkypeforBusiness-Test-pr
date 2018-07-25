@@ -47,7 +47,7 @@ Follow these steps to create a user-level or a site-level conferencing policy. F
         <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > The site name becomes the conferencing policy name, and it cannot be changed.
 
         

@@ -43,7 +43,7 @@ To remove an Archiving Server, you need to change or clear the dependency on the
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > <STRONG>Survivable Branch Appliances</STRONG> in the user interface applies to both Survivable Branch Server and Survivable Branch Appliance.
 
     

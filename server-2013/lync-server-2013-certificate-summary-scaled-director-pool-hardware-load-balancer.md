@@ -66,7 +66,7 @@ Certificate requirements for a Director with a hardware load balancer will use a
 <td><p>No Entry</p></td>
 <td><div>
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Note that the minimum key length is 1024, but you may receive a warning that the minimum recommended key length is 2048 bits.
 
 

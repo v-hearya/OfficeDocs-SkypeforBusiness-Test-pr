@@ -33,7 +33,7 @@ This section describes how to manage unassigned number ranges to handle calls to
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Using unassigned number handling during an outage is optional.
 
 

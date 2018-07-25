@@ -43,7 +43,7 @@ After you install the Local Configuration store on your servers, install the Lyn
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The command to start the services on the server is a best effort method to report that the services have in fact started. It might not reflect the actual state of the service. We recommend that you use the step <STRONG>Service Status (Optional)</STRONG> immediately following <STRONG>Start Services</STRONG> to open the Microsoft Management Console (MMC) and confirm that the services have started successfully. If any Lync Server service has not started, you can right-click that service in the MMC, and then click <STRONG>Start</STRONG>.
 
     

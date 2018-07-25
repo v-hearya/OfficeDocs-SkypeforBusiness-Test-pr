@@ -35,7 +35,7 @@ This Deployment documentation provides procedures for using the Certificate Wiza
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Lync Server 2013 includes support for SHA-256 certificates for connections from clients running the Windows Vista, Windows Server&nbsp;2008, Windows Server&nbsp;2008&nbsp;R2, and Windows 7 operating systems, and Lync Phone Edition. To support external access using SHA-256, the external certificate is issued by a public CA using SHA-256.
 
 

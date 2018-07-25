@@ -78,7 +78,7 @@ Get-CsVoiceNormalizationRule -Identity "global/Prefix All" | Test-CsVoiceNormali
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > . Or, you can also use this approach to retrieve an instance of a rule and then test that rule against a specified phone number:
 
 

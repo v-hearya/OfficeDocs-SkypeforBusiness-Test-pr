@@ -29,7 +29,7 @@ _**Topic Last Modified:** 2012-10-11_
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If you want to use Exchange Unified Messaging (UM) to provide call answering, Outlook Voice Access, or auto-attendant services for Enterprise Voice users, read <A href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">Planning for Exchange Unified Messaging integration in Lync Server 2013</A> in the Planning documentation, and then follow the instructions in this section.
 
 
@@ -43,7 +43,7 @@ To configure Exchange Unified Messaging (UM) to work with Enterprise Voice, youâ
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Add all Client Access and Mailbox servers to all UM SIP URI dial plans. If not, outbound call routing wonâ€™t work as expected.
 
     
@@ -82,7 +82,7 @@ Also note the following:
     <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > To see which integration steps are performed on which servers and by which administrator roles, see <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">Deployment process for integrating on-premises Unified Messaging and Lync Server 2013</A>.
 
     

@@ -39,7 +39,7 @@ In Option 1, you create a new base URL for each simple URL.
 <div class="">
 
 
-> [!NOTE]
+> [!NOTE]  
 > When a user clicks a simple URL meeting link, the server that the DNS A record resolves to determines the correct client software to start. After the client software is started, it automatically communicates with the pool where the conference is hosted. This way, users are directed to the appropriate server for meeting content no matter which server or pool the simple URL DNS A records resolve to.
 
 
@@ -188,7 +188,7 @@ Then create CNAME records that resolve your Meet simple URL (such as meet.contos
 <div class="">
 
 
-> [!NOTE]
+> [!NOTE]  
 > If your network uses <EM>hairpinning</EM> (routing all your Simple URL traffic through the external link, including traffic that comes from within your organization), then you can just configure the external GeoDNS address and resolve your Meet simple URL to only that external address.
 
 

@@ -53,7 +53,7 @@ To enable Exchange 2013 Outlook Web Access (OWA) and instant messaging (IM) inte
     <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If your CAS server is <EM>not</EM> collocated on the same server that is running Exchange 2013 Unified Messaging (UM), skip the remaining steps in this procedure and perform the “Create a trusted application for the Exchange 2013 CAS server” procedure later in this topic. If your CAS server is collocated on the same server that is running Exchange 2013 Unified Messaging (UM), complete the steps in this procedure and do not perform the “Create a trusted application for the Exchange 2013 CAS server” procedure later in this topic.
 
     

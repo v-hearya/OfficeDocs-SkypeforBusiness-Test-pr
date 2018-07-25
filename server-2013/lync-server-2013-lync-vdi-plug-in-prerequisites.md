@@ -31,7 +31,7 @@ In a virtual desktop infrastructure (VDI) environment, the virtual machines and 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Refer to your virtualization solution provider for details about how to install and deploy the virtualized environment. For information about deploying a virtualized environment based on Hyper-V and Remote Desktop Services, see the following articles in the Microsoft TechNet Library: 
 > <UL>
 > <LI>

@@ -39,7 +39,7 @@ For more details about File Share requirements, see [File storage support in Lyn
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You may be looking for information on configuring a non-DFS share. If so, check out <A href="lync-server-2013-hardware-setup.md">Hardware setup for Lync Server 2013</A>.
 
 

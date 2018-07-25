@@ -75,7 +75,7 @@ One of the more interesting uses of the Response Group Usage Report might not be
 <div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > A Response Group workflow is basically a set of instructions that determines what Lync Server does when a user dials a particular phone number. To that end, each workflow is uniquely associated with a phone number. When someone calls that number, the workflow determines how the call will be handled. For example, the workflow might cause the call to be routed to a series of interactive voice response (IVR) questions that prompt the caller to enter additional information ("Press 1 for hardware support. Press 2 for software support."). Alternatively, the workflow might cause the call to be placed in a queue , with the caller put on hold until an agent is available to answer the call. The availability of agents to answer calls is also dictated by the workflow: workflows are used to configure both business hours (the days of the week and the times of day when agents are available to answer calls) and holidays (days when no agents are available to answer calls). Any time you dial a phone number that belongs to the Response Group application you are essentially calling a Response Group workflow.
 
 

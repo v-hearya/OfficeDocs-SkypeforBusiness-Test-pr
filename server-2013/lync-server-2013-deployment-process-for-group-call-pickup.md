@@ -63,14 +63,14 @@ This section provides an overview of the steps involved in deploying Group Call 
 <td><p>Use the <strong>New-CSCallParkOrbit</strong> cmdlet to create call pickup number ranges in the call park orbit table and assign the call pickup ranges the type GroupPickup.</p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > You must use Lync Server Management Shell to create, modify, remove, and view Group Call Pickup number ranges in the call park orbit table. Group Call Pickup number ranges are not available in Lync Server Control Panel.
 
 
 </div>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > For seamless integration with existing dial plans, number ranges are typically configured as a block of virtual extensions. Assigning Direct Inward Dialing (DID) numbers as range numbers in the call park orbit table is not supported.
 
 

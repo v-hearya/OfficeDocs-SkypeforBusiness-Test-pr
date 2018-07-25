@@ -101,7 +101,7 @@ The Back End Servers are database servers running Microsoft SQL Server that prov
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > We do not recommend collocating Lync Server databases with other databases. If you do so, availability and performance may be affected.
 
 
@@ -121,7 +121,7 @@ Edge Server enables your users to communicate and collaborate with users outside
 <div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > <UL>
 > <LI>
 > <P>As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (“PIC USL”) is no longer available for purchase for new or renewing agreements. Customers with active licenses will be able to continue to federate with Yahoo! Messenger until the service shut down date. An end of life date of June 2014 for AOL and Yahoo! has been announced. For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>.</P>

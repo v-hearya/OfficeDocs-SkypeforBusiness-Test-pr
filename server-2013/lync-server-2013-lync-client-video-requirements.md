@@ -59,7 +59,7 @@ Lync 2013 introduces hardware acceleration for video encoding and decoding based
 </ul>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > For details about decoding modes, see <A href="http://go.microsoft.com/fwlink/p/?linkid=268530">http://go.microsoft.com/fwlink/p/?LinkId=268530</A>.
 
 
@@ -85,7 +85,7 @@ Lync 2013 introduces hardware acceleration for video encoding and decoding based
 <td><p>USB video cameras with integrated H.264 hardware encoder that conforms to the USB Video Class (UVC) specification version 1.5.</p>
 <div>
 
-> [!NOTE]
+> [!NOTE]  
 > Lync 2013 supports UVC 1.5 cameras with Windows 8 or Windows 8.1, which includes support for UVC 1.5. Because Windows 7 does not include support for UVC 1.5, Lync 2013 treats UVC 1.5 cameras as regular cameras with no hardware encoding support.
 
 
@@ -222,7 +222,7 @@ The following three tables explain the maximum encoding and decoding capability 
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The WinSAT score on Windows 7 is limited to a maximum of 7.9. Therefore, the encoding capability for a computer without a hardware accelerated encoder can only be achieved on Windows 8 or Windows 8.1, where the maximum WinSAT score is 9.9.
 
 

@@ -33,7 +33,7 @@ Use the topics in this section to learn how to set up and manage your conferenci
 <div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For more information about the conferencing devices supported for use with Lync Server 2013 see the web page <A href="http://technet.microsoft.com/en-us/lync/gg278164.aspx">Phones and devices qualified for Microsoft Lync</A>.
 
 
