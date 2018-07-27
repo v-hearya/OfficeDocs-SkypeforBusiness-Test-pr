@@ -85,7 +85,7 @@ A voice mail policy defines two attributes that the Lync Server 2013 ExUM Routin
 
 
 > [!NOTE]  
-> The tenant administrator of your hosted Exchange UM service will provide the necessary values for your Destination and Organization attribute settings. To configure your policy, you must run the New-CsHostedVoicemailPolicy cmdlet or use the set-cshostedvoicemailpolicy cmdlet to modify one that exists (for example, the global policy).
+> The tenant administrator of your hosted Exchange UM service will provide the necessary values for your Destination and Organization attribute settings. To configure your policy, you must run the New-CsHostedVoicemailPolicy cmdlet or use the Set-CsHostedVoicemailPolicy cmdlet to modify one that exists (for example, the global policy).
 
 
 
@@ -95,7 +95,7 @@ For details about managing hosted voice mail policies, see the Lync Server Manag
 
   - New-CsHostedVoicemailPolicy
 
-  - set-cshostedvoicemailpolicy
+  - Set-CsHostedVoicemailPolicy
 
   - Get-CsHostedVoicemailPolicy
 

@@ -111,7 +111,7 @@ A trunk configuration as described below groups a set of parameters that are app
     
 
     > [!NOTE]  
-    > If you disable this option while the <STRONG>Enable media bypass</STRONG> option is selected, additional settings are required. If the trunk peer does not support receiving SIP REFER requests from the Mediation Server and media bypass is enabled, you must also run the <STRONG>set-cstrunkconfiguration</STRONG> cmdlet to disable RTCP for active and held calls in order to support proper conditions for media bypass. For details, see the <A href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 Management Shell</A> documentation.<BR>Alternatively, you can select <STRONG>Enable refer using third-party-call control</STRONG> if you want transferred calls to be media bypassed, and the gateway does not support SIP REFER requests.
+    > If you disable this option while the <STRONG>Enable media bypass</STRONG> option is selected, additional settings are required. If the trunk peer does not support receiving SIP REFER requests from the Mediation Server and media bypass is enabled, you must also run the <STRONG>Set-CsTrunkConfiguration</STRONG> cmdlet to disable RTCP for active and held calls in order to support proper conditions for media bypass. For details, see the <A href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 Management Shell</A> documentation.<BR>Alternatively, you can select <STRONG>Enable refer using third-party-call control</STRONG> if you want transferred calls to be media bypassed, and the gateway does not support SIP REFER requests.
 
     
     </div>

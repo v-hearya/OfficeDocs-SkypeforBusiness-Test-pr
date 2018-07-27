@@ -30,7 +30,7 @@ Who can run this cmdlet: By default, members of the following groups are authori
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsAddressBookConfiguration"}
 
-Set-CsAddressBookConfiguration is similar to the new-csaddressbookconfiguration cmdlet, except it is used to modify an existing configuration.
+Set-CsAddressBookConfiguration is similar to the New-CsAddressBookConfiguration cmdlet, except it is used to modify an existing configuration.
 
 For example:
 

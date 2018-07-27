@@ -26,9 +26,9 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2012-09-24_
 
-The *global* hosted voice mail policy is installed with Lync Server 2013. You can modify it to meet your needs, but you cannot rename or delete it. To modify the global policy, you use the set-cshostedvoicemailpolicy cmdlet to set the parameters to appropriate values for your specific deployment.
+The *global* hosted voice mail policy is installed with Lync Server 2013. You can modify it to meet your needs, but you cannot rename or delete it. To modify the global policy, you use the Set-CsHostedVoicemailPolicy cmdlet to set the parameters to appropriate values for your specific deployment.
 
-For details about the [set-cshostedvoicemailpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy) cmdlet, see the Lync Server Management Shell documentation.
+For details about the [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy) cmdlet, see the Lync Server Management Shell documentation.
 
 <div>
 
@@ -36,9 +36,9 @@ For details about the [set-cshostedvoicemailpolicy](https://docs.microsoft.com/e
 
 1.  Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.
 
-2.  Run the set-cshostedvoicemailpolicy cmdlet to set the global policy parameters for your environment. For example, run:
+2.  Run the Set-CsHostedVoicemailPolicy cmdlet to set the global policy parameters for your environment. For example, run:
     
-        set-cshostedvoicemailpolicy -Destination ExUM.fabrikam.com -Organization "corp1.litwareinc.com"
+        Set-CsHostedVoicemailPolicy -Destination ExUM.fabrikam.com -Organization "corp1.litwareinc.com"
     
     Because this command does not specify the policy’s Identity parameter, Windows PowerShell command-line interface sets the following values on the global hosted voice mail policy:
     
@@ -57,7 +57,7 @@ For details about the [set-cshostedvoicemailpolicy](https://docs.microsoft.com/e
     
         $a = Get-CsHostedVoicemailPolicy
         $a.Organization += ",corp3.litwareinc.com"
-        set-cshostedvoicemailpolicy -Organization $a.Organization
+        Set-CsHostedVoicemailPolicy -Organization $a.Organization
 
 </div>
 
