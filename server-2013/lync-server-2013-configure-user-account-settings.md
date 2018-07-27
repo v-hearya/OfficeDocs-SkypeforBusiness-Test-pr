@@ -46,10 +46,10 @@ The procedure in this topic describes how to assign a **Line URI** for a single 
 
 6.  Under **Telephony**, in the **Line URI** field, type a unique, normalized phone number (for example, tel:+14255550200).
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can specify <STRONG>Line URI</STRONG> only if <STRONG>Telephony</STRONG> is set to <STRONG>PC-to-PC only</STRONG>, <STRONG>Enterprise Voice</STRONG>, <STRONG>Remote call control</STRONG> or <STRONG>Remote call control only</STRONG>.
 
     

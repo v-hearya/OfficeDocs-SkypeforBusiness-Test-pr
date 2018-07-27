@@ -28,17 +28,17 @@ _**Topic Last Modified:** 2017-09-14_
 
 Microsoft Lync Server 2013 uses TLS and MTLS to encrypt instant messages. All server-to-server traffic requires MTLS, regardless of whether the traffic is confined to the internal network or crosses the internal network perimeter. TLS is optional but strongly recommended between the Mediation Server and media gateway. If TLS is configured on this link, MTLS is required. Therefore, the gateway must be configured with a certificate from a CA that is trusted by the Mediation Server.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > A security advisory regarding SSL 3.0 was published in 2014. Disabling SSL 3.0 in Lync Server 2013 is a supported option. To learn more about the security advisory, see <A class=uri href="https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/">https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/</A>.
 
 
 
 </div>
 
-<div class="alert">
+<div>
 
 <table>
 <thead>
@@ -112,10 +112,10 @@ The following table summarizes the protocol requirements for each type of traffi
 
 Media traffic is encrypted using Secure RTP (SRTP), a profile of Real-Time Transport Protocol (RTP) that provides confidentiality, authentication, and replay attack protection to RTP traffic. In addition, media flowing in both directions between the Mediation Server and its internal next hop is also encrypted using SRTP. Media flowing in both directions between the Mediation Server and a media gateway is not encrypted by default. The Mediation Server can support encryption to the media gateway, but the gateway must support MTLS and storage of a certificate.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Audio/Video (A/V) is supported with the new version of Windows Live Messenger. If you are implementing A/V federation with Windows Live Messenger, you must also modify the Lync Server encryption level. By default, the encryption level is Required. You must change this setting to Supported by using the Lync Server Management Shell. For more information, see <A href="lync-server-2013-deploying-external-user-access.md">Deploying external user access in Lync Server 2013</A> in the Deployment documentation.
 
 

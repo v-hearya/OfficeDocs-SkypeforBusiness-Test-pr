@@ -70,10 +70,10 @@ The following table describes the ports that are used by dial-in conferencing. I
 
 These ports are default settings that you can change by using the **Set-CsApplicationServer** cmdlet. For details about this cmdlet, see the Lync Server Management Shell documentation.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > All instances of the same application in a pool use the same SIP listening port.
 
 
@@ -124,10 +124,10 @@ You can use the following client to schedule on-premises conferences that suppor
 
 The Dial-in Conferencing Settings page supports the combinations of operating systems and web browsers described in the following table.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > 32-bit and 64-bit versions of the operating systems are supported.
 
 

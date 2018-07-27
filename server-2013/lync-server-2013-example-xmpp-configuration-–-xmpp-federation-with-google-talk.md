@@ -50,10 +50,10 @@ An example configuration for deploying the XMPP Proxy defines a federation with 
 
 7.  On the Edge Server, in the Lync Server Deployment Wizard, next to **Step 3: Request, Install, or Assign Certificates**, click **Run again**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > If you are deploying the Edge Server for the first time, you will see Run instead of Run Again.
 
     
@@ -87,10 +87,10 @@ An example configuration for deploying the XMPP Proxy defines a federation with 
 
 18. On the **Configure Additional Subject Alternate Names** page, specify any additional subject alternative names that are required.
     
-    <div class="alert">
+    <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > If the XMPP proxy is installed, by default the domain name (such as contoso.com) is populated in the SAN entries. If you require more entries, add them in this step.
 
     

@@ -74,10 +74,10 @@ The following procedure describes how to use SQL Server Management Studio to res
     
     3.  Under **Database role membership**, select the **ServerRole** permission, and then click **OK**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You do not need to restart the archiving or monitoring service.
 
     

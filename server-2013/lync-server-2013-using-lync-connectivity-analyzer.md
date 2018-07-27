@@ -60,11 +60,11 @@ You can download Lync Connectivity Analyzer from the Microsoft Download Center a
     
       - In **Lync Account Type**, select **Office 365** or **On-Premises**.
     
-      - In **SIP URI**, enter the SIP sign-in address for the Lync connection in the format **user@domain.com**.
+      - In **SIP URI**, enter the SIP sign-in address for the Lync connection in the format <strong>user@domain.com</strong>.
     
       - In **Password**, enter the password associated with this account.
     
-      - In **User name (optional)**, enter a user name if applicable. The user name is also known as the User Principal Name (UPN). If the user name and the SIP URI are the same, you do not need to enter a user name. If they are not the same, enter the user name in the format **user@domain.com** or **domain\\user**, as appropriate.
+      - In **User name (optional)**, enter a user name if applicable. The user name is also known as the User Principal Name (UPN). If the user name and the SIP URI are the same, you do not need to enter a user name. If they are not the same, enter the user name in the format <strong>user@domain.com</strong> or **domain\\user**, as appropriate.
     
       - **Network access**, choose **From inside my organization** if you are running Lync Connectivity Analyzer from a computer connected to your internal network. Otherwise, choose **External (Internet)**. Lync Connectivity Analyzer always performs both internal and external tests, but specifying whether you are inside or outside of your own network helps the tool interpret whether certain failures are expected.
     

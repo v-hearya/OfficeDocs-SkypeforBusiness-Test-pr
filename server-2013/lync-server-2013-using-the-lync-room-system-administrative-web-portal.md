@@ -114,10 +114,10 @@ The Health section gives a visual indication of the health of the Lync Server co
 
 ## Additional Notes about the Administrative Web Portal
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > <UL>
 > <LI>
 > <P>Setting changes are applied only after the LRS system is restarted.</P>

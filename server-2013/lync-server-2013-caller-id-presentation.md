@@ -54,10 +54,10 @@ Lync Server 2013 introduces the option to also translate the calling party’s p
     
       - To remove a translation rule from the trunk, highlight the rule name and click **Remove**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Do not associate translation rules with a trunk if you have configured translation rules on the associated trunk peer, because the two rules might conflict.
 
     

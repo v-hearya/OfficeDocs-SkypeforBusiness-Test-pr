@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2014-04-22_
 
 By default, Lync client applications can use any port between ports 1024 and 65535 when involved in a communication session; this is because specific port ranges are not automatically enabled for clients. In order to use Quality of Service, however, you will need to reassign the various traffic types (audio, video, media, application sharing, and file transfer) to a series of unique port ranges. This can be done by using the Set-CsConferencingConfiguration cmdlet.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > End users cannot make these changes themselves. Port changes can only be made by administrators using the Set-CsConferencingConfiguration cmdlet.
 
 
@@ -132,10 +132,10 @@ Or, use this command to assign these same port ranges for all your conferencing 
 
 Individual users must log off from Lync and then log back on before these changes will actually take effect.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You can also enable client media port ranges, and then assign those port ranges, using a single command. For example:<BR><CODE>Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20</CODE>
 
 

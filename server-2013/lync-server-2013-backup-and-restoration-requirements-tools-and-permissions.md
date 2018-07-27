@@ -79,9 +79,9 @@ To back up Lync Server, use the tools identified in the following table. All the
 </tr>
 <tr class="odd">
 <td><p>All file stores: Lync Server file store, Archiving file store</p>
-<div class="alert">
+<div>
 
-> [!NOTE]
+> [!NOTE]  
 > Files named <STRONG>Meeting.Active</STRONG> should not be backed up. These files are in use and locked while a meeting takes place.
 
 
@@ -138,9 +138,9 @@ To restore Lync Server, use the tools in the following table. All the commands t
 </tr>
 <tr class="even">
 <td><p>Restore the Active Directory Domain Services pointer to the Central Management store</p>
-<div class="alert">
+<div>
 
-> [!NOTE]
+> [!NOTE]  
 > If you lose the service connection point at any time, you can rerun this cmdlet.
 
 
@@ -164,9 +164,9 @@ To restore Lync Server, use the tools in the following table. All the commands t
 <tr class="even">
 <td><p>Reinstall Lync Server components</p></td>
 <td><p>Lync Server Setup</p>
-<div class="alert">
+<div>
 
-> [!NOTE]
+> [!NOTE]  
 > Located in the Lync Server installation folder or media at \setup\amd64\Setup.exe.
 
 
@@ -183,9 +183,9 @@ To restore Lync Server, use the tools in the following table. All the commands t
 <tr class="odd">
 <td><p>Restore Response Group configuration data (RgsConfig.mdf)</p></td>
 <td><p>Import-CsRgsConfiguration</p>
-<div class="alert">
+<div>
 
-> [!NOTE]
+> [!NOTE]  
 > If the configuration is being restored in a newly deployed pool that has no Response Group data in the database, then you should use the –OverwriteOwner option. Use this option even if the data being restored is in a pool with the same fully qualified domain name (FQDN). Otherwise, the import will not succeed, due to the contact objects to the Response Groups already existing in Active Directory.
 
 

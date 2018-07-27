@@ -34,10 +34,10 @@ In Microsoft Lync Server 2013, monitoring is used to collect usage information a
 
   - Another user via a peer-to-peer conversation such as instant messaging or an audio call
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Lync Server 2013 keeps track of information about each session: who called who; which endpoints were used in the session; how long did the session last; what was the perceived quality of the session; and so on. However, Lync Server does not record and store the actual call itself. That includes instant messaging sessions as well: although Lync Server records information about instant messaging sessions, it does not maintain a record of each instant message that was sent during the session.
 
 

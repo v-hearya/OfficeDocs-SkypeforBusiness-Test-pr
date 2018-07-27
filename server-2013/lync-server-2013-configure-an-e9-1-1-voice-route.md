@@ -28,11 +28,11 @@ _**Topic Last Modified:** 2012-09-17_
 
 To deploy E9-1-1, you first need to configure an emergency call voice route. For details about creating voice routes, see [Create a voice route in Lync Server 2013](lync-server-2013-create-a-voice-route.md). You may define more than one route if, for example, your deployment includes a primary SIP trunk and a secondary SIP trunk.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
-> To include location information in an E9-1-1 INVITE, you need to configure the SIP trunk that connects to the E9-1-1 service provider to route emergency calls through the gateway. To do this, set the EnablePIDFLOSupport flag on the <STRONG>Set-CsTrunkConfiguration</STRONG> cmdlet to True. The default value for EnablePIDFLOSupport is False. For example: <CODE>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</CODE><BR>It is not necessary to enable receiving locations for fallback public switched telephone network (PSTN) gateways and Emergency Location Identification Number (ELIN) gateways.
+> [!NOTE]  
+> To include location information in an E9-1-1 INVITE, you need to configure the SIP trunk that connects to the E9-1-1 service provider to route emergency calls through the gateway. To do this, set the EnablePIDFLOSupport flag on the <STRONG>set-cstrunkconfiguration</STRONG> cmdlet to True. The default value for EnablePIDFLOSupport is False. For example: <CODE>set-cstrunkconfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</CODE><BR>It is not necessary to enable receiving locations for fallback public switched telephone network (PSTN) gateways and Emergency Location Identification Number (ELIN) gateways.
 
 
 

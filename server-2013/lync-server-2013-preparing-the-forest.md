@@ -30,10 +30,10 @@ Forest preparation creates Active Directory global settings and objects and Acti
 
 Forest preparation also creates objects that contain property sets and display specifiers that are used by Lync Server 2013, and stores them in the Configuration container.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Make sure that schema preparation changes have replicated to all domain controllers before performing the forest preparation procedure. If replication is not completed, an error occurs.
 
 

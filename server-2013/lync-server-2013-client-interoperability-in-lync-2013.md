@@ -163,10 +163,10 @@ Peer-to-peer features are supported for users who are homed on different version
 
 The following table compares feature availability in peer-to-peer sessions where the client is signed in to either Lync Server 2013 or Lync Server 2010.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Lync Web App and Lync 2010 Attendee are meeting-only clients and aren’t included in this table.
 
 
@@ -281,10 +281,10 @@ The following table compares feature availability in peer-to-peer sessions where
 </table>
 
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > <UL>
 > <LI>
 > <P>As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (PIC USL) is no longer available for the purchase for new or renewing agreements. Customers with active licenses will be able to continue to federate with Yahoo! Messenger until the service shutdown date. An end of life date of June 2014 for AOL and Yahoo! has been announced. For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>..</P>
@@ -299,10 +299,10 @@ The following table compares feature availability in peer-to-peer sessions where
 
 1 In Office Communicator 2007 R2, only desktop sharing (and not program sharing) is available.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Desktop sharing between Office Communicator 2007 R2 and Skype for Business 2015 cannot be initiated from the newer client when the Skype for Business 2015 client user interface is enforced.
 
 
@@ -445,10 +445,10 @@ Server support for the various scheduling add-ins is consistent with server and 
 
   - **Office Communicator 2007 R2 Conferencing Add-in**   Provides scheduling for both Office Live Meeting conferences and Office Communicator 2007 R2 conferences. 
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Live Meeting conferences cannot be scheduled on Lync Server 2013.
 
 

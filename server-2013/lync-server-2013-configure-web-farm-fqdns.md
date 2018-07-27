@@ -50,10 +50,10 @@ When you defined the configuration of the Standard Edition server, Front End poo
 
 6.  Right-click **Lync Server 2013**, and then click **Publish**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > After publishing successfully completes, a link may be presented that informs you that there are additional steps that need to be taken. The link, if clicked, opens a list of servers affected by the changes made in Topology Builder that will require you to re-run the Lync Server Deployment Wizard on each listed server to update the configuration for added, removed, or changed components.
 
     

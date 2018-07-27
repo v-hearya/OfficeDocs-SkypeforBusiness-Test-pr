@@ -58,10 +58,10 @@ The following steps describe the client discovery and registration process:
 
 1.  A client discovers Lync Server through DNS SRV records. In Lync Server 2013, DNS SRV records can be configured to return more than one FQDN to the DNS SRV query. For example, if enterprise Contoso has three central sites (North America, Europe, and Asia-Pacific) and a Director pool at each central site, DNS SRV records can point to the Director pool FQDNs in each of the three locations. As long as the Director pool in one of the locations is available, the client can connect to the first hop Lync Server.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Using a Director pool is optional. A Front End pool can be used instead.
 
     

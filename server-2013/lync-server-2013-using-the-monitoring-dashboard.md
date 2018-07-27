@@ -34,7 +34,7 @@ The Monitoring Dashboard provides administrators with a quick overview of their 
 
   - Totals for the month, and trend totals for the past six months (for system usage only).
 
-Note that you can use the [Get-CsReportingConfiguration](get-csreportingconfiguration.md) cmdlet to return the URL used for accessing Lync Server 2013 Monitoring Reports:
+Note that you can use the [Get-CsReportingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsReportingConfiguration) cmdlet to return the URL used for accessing Lync Server 2013 Monitoring Reports:
 
     Get-CsReportingConfiguration
 
@@ -170,10 +170,10 @@ Top worst servers by poor quality call percentage
 
 As noted, by default totals are shown for the current week and trend values are shown for the past six weeks. If you would prefer to see totals for the current month (as well as trend values for the past six months), click the **Monthly View** link in the upper right corner of the dashboard. If you decide to view monthly totals, the link text will change to **Weekly View**. You can switch back to the weekly view by clicking that link.
 
-<div class="alert">
+<div>
 
 
-> [!TIP]
+> [!TIP]  
 > The Monitoring Dashboard restricts you to looking at totals for the current week (or month) and trend values for the past six weeks (or months). You cannot change these dates and times. For example, you cannot use the Dashboard to view report totals for the time period beginning nine months ago.
 
 
@@ -182,10 +182,10 @@ As noted, by default totals are shown for the current week and trend values are 
 
 The values shown in the **This week**, **This month**, or **Today** columns link you to more detailed information about the item. Keep in mind that the column name and the values displayed in that column will often differ depending on the metric chosen and depending on whether you have selected weekly view or monthly view. For example, if you click the totals shown for the **Unique user logons** metric you will see the **User Registration Report** for the specified time period. You can return to the Monitoring Dashboard at any time by clicking **Dashboard**.
 
-<div class="alert">
+<div>
 
 
-> [!TIP]
+> [!TIP]  
 > You can also access the Monitoring Server Reports home page by clicking the <STRONG>Reports</STRONG> link in the upper right corner of the Dashboard.
 
 

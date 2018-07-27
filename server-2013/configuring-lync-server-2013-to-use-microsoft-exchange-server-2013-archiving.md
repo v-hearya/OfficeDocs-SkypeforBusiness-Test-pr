@@ -28,11 +28,11 @@ _**Topic Last Modified:** 2014-06-24_
 
 Microsoft Lync Server 2013 gives administrators the option of having instant messaging and Web conferencing transcripts archived to a user's Microsoft Exchange Server 2013 mailbox rather than a SQL Server database. If you enable this option, transcripts are written to the Purges folder in the user's mailbox. The Purges folder is a hidden folder found in the Recoverable Items folder. Although this folder is not visible to end-users, the folder is indexed by the Exchange search engine and can be discovered by using Exchange mailbox search and/or Microsoft SharePoint Server 2013. Because information is stored in the same folder used by the Exchange In-Place Hold feature (responsible for archiving email and other Exchange communications), administrators can use a single tool to search for all the electronic communications archived for a user.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
-> To completely disable archiving of Lync conversation, you must also disable Lync conversation history. For more information, see the following topics: <A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Managing the Archiving of internal and external communications in Lync Server 2013</A>, <A href="new-csclientpolicy.md">New-CsClientPolicy</A>, and <A href="set-csclientpolicy.md">Set-CsClientPolicy</A>.
+> [!IMPORTANT]  
+> To completely disable archiving of Lync conversation, you must also disable Lync conversation history. For more information, see the following topics: <A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Managing the Archiving of internal and external communications in Lync Server 2013</A>, <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy">New-CsClientPolicy</A>, and <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</A>.
 
 
 
@@ -66,10 +66,10 @@ To disable Exchange archiving, use a command similar to the following, which ena
 
     Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $False
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If the EnableArchiving property is set to None then Lync Server will not archive instant messaging and Web conferencing transcripts at all. In that case, the server will simply ignore the value configured for EnableExchangeArchiving.
 
 
@@ -86,10 +86,10 @@ Exchange archiving can also be enabled (or disabled) by using the Lync Server Co
 
 4.  After choosing the items to be archived, select the **Exchange Server integration** checkbox to enable Exchange archiving. To disable Exchange archiving, clear this checkbox.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The <STRONG>Exchange Server integration</STRONG> checkbox will not be available if the <STRONG>Archiving setting</STRONG> is set to <STRONG>Disable archiving</STRONG>. You must enable archiving first and then enable Exchange archiving.
 
 

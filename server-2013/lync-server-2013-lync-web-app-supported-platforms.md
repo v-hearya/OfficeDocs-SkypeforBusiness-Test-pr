@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2017-02-07_
 
 To use Lync Web App, you must have one of the following supported operating system and browser combinations.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > A plug-in is required for certain Lync Web App features, including computer-based voice, video, sharing, and viewing of ongoing screen sharing. You can install the sharing plug-in either when you join the meeting or when you initiate one of these features. 1<BR>
 
 

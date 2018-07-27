@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-02-23_
 
 Follow these steps to delete a user-level or a site-level conferencing policy.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You cannot delete the global conferencing policy.
 
 
@@ -88,7 +88,7 @@ You can delete conferencing policies by using Lync Server Management Shell and t
 
 </div>
 
-For details, see [Remove-CsConferencingPolicy](remove-csconferencingpolicy.md).
+For details, see [Remove-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsConferencingPolicy).
 
 </div>
 

@@ -72,10 +72,10 @@ Follow these steps if you want to define a translation rule by entering a set of
 
 9.  On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Whenever you create or modify a translation rule, you must run the <STRONG>Commit all</STRONG> command to publish the configuration change. For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A> in the Operations documentation.
 
     

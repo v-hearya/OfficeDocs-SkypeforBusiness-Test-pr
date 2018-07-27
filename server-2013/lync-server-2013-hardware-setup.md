@@ -38,10 +38,10 @@ Setting up the hardware and other components required in the infrastructure that
     
     For details about updating using file shares in a Distributed File System (DFS), see [Configure file storage for Lync Server 2013](lync-server-2013-configure-dfs-file-storage.md).
     
-    <div class="alert">
+    <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > The file share for Lync Server 2013, Enterprise Edition cannot be located on the Front End Server.
 
     

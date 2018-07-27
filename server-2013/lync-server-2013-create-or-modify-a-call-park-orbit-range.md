@@ -42,10 +42,10 @@ Use one of the following procedures to create or modify a call park orbit range.
     
       - To create a new orbit range, click **New**. In **Name**, type an identifying name for this range of numbers.
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > After you commit the orbit range to the database, you cannot change this name.
 
         
@@ -55,10 +55,10 @@ Use one of the following procedures to create or modify a call park orbit range.
 
 5.  In the first **Number range** field, type the beginning number of the range of extensions for this call park orbit, and in the second **Number range** field, type the ending number of the range.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > <UL>
     > <LI>
     > <P>The beginning number of the range must be less than or equal to the ending number of the range.</P>
@@ -114,8 +114,8 @@ Use one of the following procedures to create or modify a call park orbit range.
 [Delete a Call Park orbit range in Lync Server 2013](lync-server-2013-delete-a-call-park-orbit-range.md)  
 
 
-[New-CsCallParkOrbit](new-cscallparkorbit.md)  
-[Set-CsCallParkOrbit](set-cscallparkorbit.md)  
+[New-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCallParkOrbit)  
+[Set-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkOrbit)  
   
 
 </div>

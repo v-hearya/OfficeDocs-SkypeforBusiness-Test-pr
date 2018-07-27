@@ -40,10 +40,10 @@ You can view links between two network regions as part of call admission control
 
 4.  On the **Region Link** page, click the region link that you want to view.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can only view information about one region link at a time.
 
     
@@ -77,7 +77,7 @@ You can view network region links by using Windows PowerShell and the **Get-CsNe
 
 </div>
 
-For details, see [Get-CsNetworkRegionLink](get-csnetworkregionlink.md).
+For details, see [Get-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink).
 
 </div>
 

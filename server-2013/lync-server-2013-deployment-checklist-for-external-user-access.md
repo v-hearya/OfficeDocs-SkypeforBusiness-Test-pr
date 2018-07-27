@@ -40,10 +40,10 @@ For details about the Planning Tool and Topology Builder, see [Beginning the pla
 
 The following table provides an overview of the Edge Server deployment process. To review the planning decisions that must be made before deploying external user access, see [Scenarios for external user access in Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
 
-<div class="alert">
+<div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > The information in the following table focuses on a new deployment. If you have deployed Edge Servers in a Lync Server 2010, Office Communications Server 2007 R2 or Office Communications Server 2007 environment, see the <A href="migration.md">Migration</A> for details about migrating to Lync Server 2013. Migration is not supported from any version prior to Office Communications Server 2007 R2, including Office Communications Server 2007, Live Communications Server 2005, and Live Communications Server 2003.
 
 
@@ -85,9 +85,9 @@ To enhance Edge Server performance and security, and to facilitate deployment, a
 <li><p>Run Topology Builder to configure Edge Server settings and create and publish the topology, and then use Lync Server Management Shell to export the topology configuration file.</p></li>
 </ul></td>
 <td><p><strong>Domain Admins</strong> group and <strong>RTCUniversalServerAdmins</strong> or <strong>CsAdmins</strong> group</p>
-<div class="alert">
+<div>
 
-> [!NOTE]
+> [!NOTE]  
 > You can define a topology using an account that is a member of the local users group, but publishing a topology requires an account that is a member of the <STRONG>Domain Admins</STRONG> group and the <STRONG>RTCUniversalServerAdmins</STRONG> group.
 
 
@@ -102,9 +102,9 @@ To enhance Edge Server performance and security, and to facilitate deployment, a
 <li><p>Configure internal and external DNS records (host A and AAAA for IPv4 and IPv6), including configuring the DNS suffix on the computer to be deployed as an Edge Server.</p></li>
 <li><p>(Optional) Create and install public certificates. The time required to obtain certificates depends on which certification authority (CA) issues the certificate. If you do not perform this step at this point, you must do it during Edge Server installation. The Edge Server services cannot be started until certificates are obtained and installed.</p></li>
 <li><p>Provision support for public IM connectivity, if your deployment is to support communications with Windows Live, AOL, or Yahoo! users.</p>
-<div class="alert">
+<div>
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > <UL>
 > <LI>
 > <P>As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (“PIC USL”) is no longer available for purchase for new or renewing agreements. Customers with active licenses will be able to continue to federate with Yahoo! Messenger until the service shut down date. An end of life date of June 2014 for AOL and Yahoo! has been announced. For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>.</P>

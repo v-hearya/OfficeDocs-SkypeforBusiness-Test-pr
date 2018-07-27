@@ -42,10 +42,10 @@ Using Topology Builder, perform the steps in the following procedure to deploy I
     
       - **Use all configured IP addresses**. Select this option if you want to allow any IP address defined on the computer to be used.
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > This is the recommended option for IP version 6 (IPv6) configurations.
 
         
@@ -57,10 +57,10 @@ Using Topology Builder, perform the steps in the following procedure to deploy I
     
       - **PSTN IP address**. Define a PSTN IP address when a Mediation Server is standalone. This address must match the format of the selected address type.
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > The installation of additional network interface cards (NIC)s to support the PSTN IP address configuration for Lync Server 2013 is not supported on collocated Mediation Server roles. For more information about supported NIC configurations for Lync Server 2013, see <A href="lync-server-2013-server-hardware-platforms.md">Server hardware platforms for Lync Server 2013</A>.
 
         

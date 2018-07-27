@@ -30,10 +30,10 @@ If you don’t like the way that an update works on your test devices, you can r
 
 You can remove a device update rule by using either Lync Server Control Panel or Windows PowerShell.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > To uninstall a rule that you’ve already approved (that is, rolled out), restore it. For details, see <A href="lync-server-2013-restore-a-device-update-rule.md">Restore a Device Update rule in Lync Server 2013</A>.
 
 
@@ -60,10 +60,10 @@ You can remove a device update rule by using either Lync Server Control Panel or
 
 5.  Click **Action**, and then click **Cancel pending updates**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > If you’re sure you’ll never want to roll out the device update rule(s) that you cancelled, you might want to delete them. For details, see <A href="lync-server-2013-remove-a-device-update-rule.md">Remove a Device Update rule in Lync Server 2013</A>.
 
     
@@ -77,10 +77,10 @@ You can remove a device update rule by using either Lync Server Control Panel or
 
 Device update rules can also be reset by using Windows PowerShell and the **Reset-CsDeviceUpdateRule** cmdlet. This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.
 
 
@@ -117,7 +117,7 @@ Device update rules can also be reset by using Windows PowerShell and the **Rese
 
 </div>
 
-For details, see the Help topic for the [Reset-CsDeviceUpdateRule](reset-csdeviceupdaterule.md) cmdlet.
+For details, see the Help topic for the [Reset-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Reset-CsDeviceUpdateRule) cmdlet.
 
 </div>
 

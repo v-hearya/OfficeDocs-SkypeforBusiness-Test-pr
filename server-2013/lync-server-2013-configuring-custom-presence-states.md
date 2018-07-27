@@ -40,10 +40,10 @@ Configuration files have the following properties:
 
   - The CustomStateURL parameter specifies the location of the configuration file. In Lync 2013, SIP high security mode is enabled by default, so you will need to store the custom presence configuration file on a web server that has HTTPS enabled. Otherwise, Lync 2013 clients will be unable to connect to it. For example, a valid address would be `https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml`.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Although it is not recommended in a production environment, you can test a configuration file that is located on a non-HTTPS file share by using the EnableSIPHighSecurityMode registry setting to disable SIP high security mode on the client. Then you can use the CustomStateURL registry setting to specify a non-HTTPS location for the configuration file. Note that Lync 2013 honors Lync 2010 registry settings, but the registry hive has been updated. You would create the registry settings as follows: 
 > <UL>
 > <LI>
@@ -99,12 +99,12 @@ Localize your custom presence state by specifying one or more locale ID (LCID) s
 
 5.  Use the **Grant-CSClientPolicy** cmdlet to assign this new policy to users.
 
-For details, see [New-CsClientPolicy](new-csclientpolicy.md) and [Grant-CsClientPolicy](grant-csclientpolicy.md) in the Lync Server Management Shell documentation.
+For details, see [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) and [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy) in the Lync Server Management Shell documentation.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > <UL>
 > <LI>
 > <P>By default, Lync Server 2013&nbsp;updates client policies and settings every three hours.</P>

@@ -101,10 +101,10 @@ If the branch site’s WAN connection to a central site becomes unavailable, int
 
 Lync Server supports up to two Survivable Branch Appliance at a branch site.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Users who are homed on a Lync Server Survivable Branch Appliance are unable to create new Chat Rooms or view the Room Card for existing rooms.
 
 

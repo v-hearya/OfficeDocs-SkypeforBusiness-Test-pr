@@ -34,10 +34,10 @@ Even if the information on the certificate is valid, there must be some way to v
 
 Each certificate is linked to a public key. The server named on the certificate holds a corresponding private key that only it knows. A connecting client or server uses the public key to encrypt a random piece of information and sends it to the server. If the server decrypts the information and returns it as plain text, the connecting entity can be sure that the server holds the private key to the certificate and therefore is the server named on the certificate.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Not all public CAs comply with the requirements of Lync Server 2013 certificates. We recommend that you refer to the listing of certified Public CA vendors for your public certificate needs. For details, see Unified Communications Certificate Partners at <A href="http://go.microsoft.com/fwlink/p/?linkid=140898">http://go.microsoft.com/fwlink/p/?LinkId=140898</A>.
 
 
@@ -58,10 +58,10 @@ Lync Server 2013 requires all server certificates to contain one or more Certifi
 
 Lync Server 2013 requires all server certificates to support Enhanced Key Usage (EKU) for the purpose of server authentication. Configuring the EKU field for server authentication means that the certificate is valid for the purpose of authenticating servers. This EKU is essential for MTLS. It is possible to have more than one entry in the EKU, enabling the certificate for more than one purpose.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The Client Authentication EKU is required for outbound MTLS connections from Live Communications Server 2003 and Live Communications Server 2005, but it is no longer required. However, this EKU must be present on Edge Servers that connect to AOL by means of public IM connectivity.
 
 

@@ -8,23 +8,10 @@ ms.date: 05/04/2015
 mtps_version: v=OCS.15
 ---
 
-<div data-xmlns="http://www.w3.org/1999/xhtml">
-
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
-
-<div data-asp="http://msdn2.microsoft.com/asp">
-
 # Cmdlets in Skype for Business Online that use a user identity and the tag scope
 
-</div>
+ 
 
-<div id="mainSection">
-
-<div id="mainBody">
-
-<span> </span>
-
-_**Topic Last Modified:** 2013-07-05_
 
 The **Grant-Cs** cmdlets (used for assigning policies to users) require two identifiers: a user identity (the Identity parameter) and the identity of a per-user policy (the PolicyName parameter). For example, to assign the voice policy, RedmondVoicePolicy, to the user Ken Myer, you use the following command:
 
@@ -36,15 +23,11 @@ There are two things to keep in mind when assigning policies to users. First, on
 
 This command fails because there is no need to assign the global policy. If you want to manage a user by using the global policy, just be sure that you do not assign that user a per-user policy. If no per-user policy has been assigned to a user, the user will automatically be managed by using the global policy.
 
-<div class="alert">
 
-
-> [!NOTE]
+> [!NOTE]  
 > What if the user has previously been assigned a per-user policy, and you want to unassign that policy and have the user managed by the global policy instead? In that case, you’ll first use the following syntax, which unassigns a per-user policy by granting that user a null policy:<BR>Grant-CsVoicePolicy –Identity "Ken Myer" –PolicyName $Null
 
 
-
-</div>
 
 Second, keep in mind that per-user policies are created at the tag scope. However, you can omit the tag **prefix** when specifying a policy name. These two commands are identical:
 
@@ -57,36 +40,21 @@ If you would like to return the identities for all your per-user policies (or, a
 
 The following cmdlets make use of both a user Identity and the tag scope:
 
-  - [Grant-CsClientPolicy](grant-csclientpolicy.md)
+  - [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/gg412942\(v=ocs.15\))
 
-  - [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md)
+  - [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/gg425937\(v=ocs.15\))
 
-  - [Grant-CsDialPlan](grant-csdialplan.md)
+  - [Grant-CsDialPlan](https://technet.microsoft.com/en-us/library/gg398547\(v=ocs.15\))
 
-  - [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)
+  - [Grant-CsExternalAccessPolicy](https://technet.microsoft.com/en-us/library/gg425942\(v=ocs.15\))
 
-  - [Grant-CsHostedVoicemailPolicy](grant-cshostedvoicemailpolicy.md)
+  - [Grant-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/gg412829\(v=ocs.15\))
 
-  - [Grant-CsVoicePolicy](grant-csvoicepolicy.md)
-
-<div>
+  - [Grant-CsVoicePolicy](https://technet.microsoft.com/en-us/library/gg398828\(v=ocs.15\))
 
 ## See Also
 
 
 [Identities, scopes, and tenants in Skype for Business Online](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[The Skype for Business Online cmdlets](the-skype-for-business-online-cmdlets.md)  
-  
-
-</div>
-
-</div>
-
-<span> </span>
-
-</div>
-
-</div>
-
-</div>
+[The Skype for Business Online cmdlets](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
 

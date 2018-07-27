@@ -54,10 +54,10 @@ You can lock or unlock a user’s PIN from the **Users** section of Lync Server 
     
     4.  Depending on the user property you selected, enter the criteria that you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
         
-        <div class="alert">
+        <div>
         
 
-        > [!TIP]
+        > [!TIP]  
         > To add additional search clauses to your query, click <STRONG>Add Filter</STRONG>.
 
         
@@ -95,10 +95,10 @@ You can lock or unlock a user’s PIN from the **Users** section of Lync Server 
     
     4.  Depending on the user property you selected, enter the criteria that you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
         
-        <div class="alert">
+        <div>
         
 
-        > [!TIP]
+        > [!TIP]  
         > To add additional search clauses to your query, click <STRONG>Add Filter</STRONG>.
 
         
@@ -136,7 +136,7 @@ You can lock and unlock user PINs by using Windows PowerShell and the Lock-CsCli
 
 </div>
 
-For more information, see the help topic for the [Lock-CsClientPin](lock-csclientpin.md) and [Unlock-CsClientPin](unlock-csclientpin.md) cmdlets.
+For more information, see the help topic for the [Lock-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Lock-CsClientPin) and [Unlock-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Unlock-CsClientPin) cmdlets.
 
 </div>
 

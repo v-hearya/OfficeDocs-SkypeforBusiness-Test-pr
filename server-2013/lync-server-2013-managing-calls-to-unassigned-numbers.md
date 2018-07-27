@@ -30,10 +30,10 @@ Lync Server lets you configure the handling of incoming phone calls when the dia
 
 This section describes how to manage unassigned number ranges to handle calls to unassigned phone numbers. The section also describes how to manage Announcements during disaster recovery if you want this functionality during an outage.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Using unassigned number handling during an outage is optional.
 
 

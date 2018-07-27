@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2012-11-01_
 
 Use one of the following procedures to configure unassigned number ranges for the Announcement application.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Before you configure the unassigned number table, you must have already defined one or more announcements or set up an Exchange Unified Messaging (UM) Auto Attendant.
 
 
@@ -52,10 +52,10 @@ Use one of the following procedures to configure unassigned number ranges for th
     
       - To create a new number range, click **New**. In **Name**, type an identifying name for this range of numbers.
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > After you commit the new unassigned number range to the database, you cannot change this name.
 
         
@@ -65,10 +65,10 @@ Use one of the following procedures to configure unassigned number ranges for th
 
 5.  In the first **Number range** field, type the beginning number of the range, and in the second **Number range** field, type the ending number of the range.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > <UL>
     > <LI>
     > <P>The beginning number of the range must be less than or equal to the ending number of the range.</P>
@@ -98,10 +98,10 @@ Use one of the following procedures to configure unassigned number ranges for th
 
 10. On the **Unassigned Number** page, be sure that the unassigned number ranges are arranged in the order that you want. To change a range's position in the table, click one or more consecutive names in the list of ranges, and then click the up arrow or the down arrow.
     
-    <div class="alert">
+    <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > Lync Server searches the unassigned number table from top to bottom and uses the first range that matches the unassigned number. If you have overlapping ranges and one range specifies a last resort action, make sure that range is at the bottom of the list.
 
     
@@ -121,10 +121,10 @@ Use one of the following procedures to configure unassigned number ranges for th
 
 3.  Use **New-CsUnassignedNumber** to create a new unassigned number range. Use **Set-CsUnassignedNumber** to modify an existing unassigned number range.
     
-    <div class="alert">
+    <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > If you have overlapping ranges and want the ranges to be applied in a specific order, include the Priority parameter. The range with the highest priority will be applied to the call.
 
     
@@ -162,9 +162,9 @@ Use one of the following procedures to configure unassigned number ranges for th
 [Delete an unassigned number range in Lync Server 2013](lync-server-2013-delete-an-unassigned-number-range.md)  
 
 
-[New-CsUnassignedNumber](new-csunassignednumber.md)  
-[Set-CsUnassignedNumber](set-csunassignednumber.md)  
-[Get-CsUnassignedNumber](get-csunassignednumber.md)  
+[New-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUnassignedNumber)  
+[Set-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUnassignedNumber)  
+[Get-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUnassignedNumber)  
   
 
 </div>

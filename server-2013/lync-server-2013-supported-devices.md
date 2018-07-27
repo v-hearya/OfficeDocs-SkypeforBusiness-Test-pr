@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2012-10-08_
 
 Lync Server supports all of the phones listed in the following table. Note that not all of the supported phones can run Lync Phone Edition (some can run only earlier versions). Use the table to learn which phones can run Lync Phone Edition and where to get detailed information about all of the supported phones.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Three types of phones are supported: desk phones (handset IP or USB devices that are designed to be used by employees at their desk), conferencing devices (hands-free IP or USB phones that are designed to be used in meeting rooms), and common area phones (IP phones that are designed to be used in shared areas—such as lobbies, kitchens, factory floors, and shared workspaces—and can be customized to provide different sets of Lync Phone Edition features.
 
 
@@ -109,10 +109,10 @@ For detailed comparison tables about all devices that are optimized to work with
 </table>
 
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Support for analog devices is also provided. For details, see <A href="http://go.microsoft.com/fwlink/p/?linkid=257502">Planning to Deploy Analog Devices</A> in the Lync Server 2010 TechNet Library. (Lync Phone Edition works the same way in Lync Server 2013 and Lync Server 2010).
 
 

@@ -48,19 +48,19 @@ When you use the **Set-CsKerberosAccountPassword** cmdlet to set a password, Ker
     
         Set-CsKerberosAccountPassword -UserAccount "contoso\KerbAuth"
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You must specify the UserAccount parameter by using the Domain\User format. The User@Domain.extension format is not supported for referencing the computer objects created for Kerberos authentication purposes.
 
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > After making any changes to Kerberos authentication, such as adding an account or removing an account, you must run <STRONG>Enable-CsTopology</STRONG> from the Lync Server Management Shell command prompt.
 
     

@@ -90,7 +90,7 @@ Push notifications to Apple iPhone can be enabled or disabled by using the **Set
 
 </div>
 
-For more information, see the help topic for the [Set-CsPushNotificationConfiguration](set-cspushnotificationconfiguration.md) cmdlet.
+For more information, see the help topic for the [Set-CsPushNotificationConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPushNotificationConfiguration) cmdlet.
 
 </div>
 

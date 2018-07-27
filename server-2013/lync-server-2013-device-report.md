@@ -176,10 +176,10 @@ When it comes to device names, the Device Report is extremely detailed; for exam
 
   - Aastra 6725ip Microphone (USB Audio Device)-V0
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Keep in mind that capture device names might not be the same if you are running localized versions of Lync Server 2013. A device named Aastra 6725ip Microphone (Aastra 6725ip)-V0 in US English could have a different name in French or Spanish.
 
 

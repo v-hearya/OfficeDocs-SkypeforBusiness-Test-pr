@@ -50,10 +50,10 @@ The polling feature enhances collaboration by enabling presenters to quickly det
 
 During a conference you can share your entire desktop, an individual application, or individual monitors in a multi-monitor environment. Aside from just viewing the content, other participants in the conference can also request control of your screen and, with the permission, interact with the content (including scrolling and editing).
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Participants who are viewing the conference can also take over and start sharing content during the meeting
 
 

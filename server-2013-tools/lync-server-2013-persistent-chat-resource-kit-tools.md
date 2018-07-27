@@ -34,11 +34,11 @@ The Lync Server 2013 Persistent Chat Resource Kit tools help to make routine ta
 
 To install the Lync Server 2013, Resource Kit Tools, download **PersistentChatReskit.msi**. Run **PersistentChatReskit.msi** to do a simple installation. The .msi installs all the tools in the following path: \\**Program Files\\ Microsoft Lync Server 2013\\Persistent Chat Server Resource Kit**. Tools that are self-contained executables are in this folder. Tools that also have files are in their own subfolders.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
-> After installing the Lync Server 2013, Resource Kit Tools, you must install <STRONG>PsExec.exe</STRONG> and copy <STRONG>PsExec.exe</STRONG> to the following path: \<STRONG>Program Files\ Microsoft Lync Server 2013\Persistent Chat Server Resource Kit\ChatStressTool</STRONG>. If you do not copy <STRONG>PsExec.exe</STRONG>, the Persistent Chat Stress Tool will throw an error exception, and not perform correctly. Make sure that you meet this prerequisite requirement prior to running the tool. For details about installing <STRONG>PsExec.exe</STRONG>, see <A href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</A>.
+> [!IMPORTANT]  
+> After installing the Lync Server 2013, Resource Kit Tools, you must install <STRONG>PsExec.exe</STRONG> and copy <STRONG>PsExec.exe</STRONG> to the following path: \\<STRONG>Program Files\ Microsoft Lync Server 2013\Persistent Chat Server Resource Kit\ChatStressTool</STRONG>. If you do not copy <STRONG>PsExec.exe</STRONG>, the Persistent Chat Stress Tool will throw an error exception, and not perform correctly. Make sure that you meet this prerequisite requirement prior to running the tool. For details about installing <STRONG>PsExec.exe</STRONG>, see <A href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</A>.
 
 
 
@@ -104,6 +104,7 @@ Configure the AffCheck.exe.config file according to the instructions in the conf
 
 **AffCheck.exe.config:**
 
+```XML
     <?xml version="1.0" encoding="utf-8" ?>
     <configuration>
       <appSettings>
@@ -136,7 +137,7 @@ Configure the AffCheck.exe.config file according to the instructions in the conf
         <add key="Ignore" value ="DC=uatest,DC=test,DC=contoso,DC=com;DC=test,DC=contoso,DC=com"/>
       </appSettings>
     </configuration>
-
+  ```
 </div>
 
 </div>
@@ -171,7 +172,9 @@ The file, PersistentChatMonitoringSummary.exe.config, must contain a \<connectio
 
 ## Usage
 
+```Batch
     PersistentChatMonitoringSummary [-StartDateTime <date>] [-EndDateTime <date>]
+```
 
 These parameters define the selection of data:
 
@@ -185,6 +188,7 @@ These parameters define the selection of data:
 
 ## Example
 
+```Batch
     C:\Users\Administrator.VDOMAIN>Desktop\PersistentChatMonitoringSummary.exe
     Reading database connection information, Persistent Chat endpoint uri, and csv output path information from the application config file...
     Connecting to Monitoring database with connection string specified in the application config file...
@@ -193,6 +197,7 @@ These parameters define the selection of data:
     
     The summary information about Persistent Chat sessions from the Monitoring database has been output to C:\PersistentChatMonitoring_dd4ace24-4c8a-4a3d-8fd4-591bdfacf47b.csv
     Press enter to exit...
+```
 
 </div>
 
@@ -235,8 +240,9 @@ Create users and channels for use in the stress run:
   - Create a category for your stress channels, and then create as many rooms as are needed under that category. The category should have all stress users in its **Allowed** list (by way of adding their OU), and stress rooms should have a privacy setting of **Open**.
 
   - We recommend creating extra stress rooms. You can create 50,000 rooms with the following Windows PowerShell command-line interface command:
-    
+    ```Powershell
         for ($i = 0; $i -le 50000; $i++) { New-CsPersistentChatRoom -Category <parent category> -Name "StressChan_$i" -Privacy Open }
+    ```    
 
 Edit the configuration files to fit your topology:
 
@@ -350,8 +356,9 @@ The file, ChatUsageReport.exe.config, must contain a \<connectionStrings\> secti
 
 ## Usage
 
+```Powershell
     ChatUsageReport [-StartDate {date}] [-EndDate {date}] [-TopActiveUsers {n}] [-TopActiveRooms {n}] [-LeastActiveRooms {n}] [-RoomsInactiveSince {Date}] [-OutputFolder {path}]
-
+```
 These parameters define the selection of data:
 
 **StartDate:** Optionally specifies the UTC start date of the selection period. Default: Earliest Date
@@ -406,10 +413,12 @@ The report will always include the following output:
 
 The following example generates a usage report for the entire year 2001 and places the report in the OutputFolder specified in the ChatUsageReport.exe.config.
 
+```Powershell
     ChatUsageReport -RoomsInactiveSince 06-20-2010
-
+```
 ChatUsageReport.exe.config:
 
+```XML
     <?xml version="1.0" encoding="utf-8" ?>
     <configuration>
       <connectionStrings>
@@ -428,7 +437,7 @@ ChatUsageReport.exe.config:
         <add key="RoomsInactiveSince" value="01/01/0001"/>
       </appSettings>
     </configuration></configuration>
-
+```
 </div>
 
 </div>
@@ -459,6 +468,7 @@ The user account under which the script is run must have owner access to the Per
 
 Following are the contents of the default script:
 
+```Powershell
     /*
     This script will schedule a principal for a forced AD synchronization cycle
     
@@ -494,6 +504,7 @@ Following are the contents of the default script:
          ,nextTry = null
         where
          prinID = <PrinID,int,0>
+```
 
 </div>
 

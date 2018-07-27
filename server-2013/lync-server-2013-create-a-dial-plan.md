@@ -46,10 +46,10 @@ To create a new dial plan, perform the steps in the following procedure. If you 
     
       - **User dial plan** can be applied to specified users or groups.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > After you select the dial plan scope, it cannot be changed.
 
     
@@ -57,10 +57,10 @@ To create a new dial plan, perform the steps in the following procedure. If you 
 
 5.  If you are creating a user dial plan, enter a descriptive name in the **Name** field on the **New Dial Plan** dialog box. After this name is saved, it cannot be changed.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For site dial plans, the <STRONG>Name</STRONG> field is prepopulated with the site name and cannot be changed.<BR>For pool dial plans, the <STRONG>Name</STRONG> field is prepopulated with the PSTN gateway or Registrar name and cannot be changed.
 
     
@@ -68,10 +68,10 @@ To create a new dial plan, perform the steps in the following procedure. If you 
 
 6.  The **Simple name** field is prepopulated with the same name that appears in the **Name** field. You can optionally edit this field to specify a more descriptive name that reflects the site, service, or user to which the dial plan applies.
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The <STRONG>Simple name</STRONG> must be unique among all dial plans within the Lync Server deployment. It cannot exceed 256 Unicode characters, each of which can be an alphabetic or numeric character, a hyphen (-), a period (.), or an underscore (_).<BR>Characters <STRONG>not supported</STRONG> include spaces and Reserved characters as defined in RFC 3966 (http://www.ietf.org/rfc/rfc3966.txt). Reserved characters that are <STRONG>not supported</STRONG> in the <STRONG>Simple Name</STRONG> include the following:<BR>";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
 
     
@@ -81,10 +81,10 @@ To create a new dial plan, perform the steps in the following procedure. If you 
 
 8.  (Optional) If you want to use this dial plan as a region for dial-in access numbers, specify a **Dial-in conferencing region**. If you do not want to use this dial plan for dial-in access numbers, leave this field empty.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Dial-in conferencing regions are required to associate dial-in conferencing access numbers with one or more dial plans.
 
     
@@ -92,10 +92,10 @@ To create a new dial plan, perform the steps in the following procedure. If you 
 
 9.  (Optional) In the **External access prefix** field, specify a value only if users need to dial one or more additional leading digits (for example, 9) to get an external line. You can type in a prefix value of up to four characters (\#, \*, and 0-9).
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you specify an external access prefix, you do not need to create a new normalization rule to accommodate the prefix.
 
     
@@ -113,10 +113,10 @@ To create a new dial plan, perform the steps in the following procedure. If you 
     
       - To remove a normalization rule from the dial plan, highlight the rule name and click **Remove**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Each dial plan must have at least one associated normalization rule. For information about how to determine all of the normalization rules a dial plan requires, see <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Dial plans and normalization rules in Lync Server 2013</A> in the Planning documentation.
 
     
@@ -124,10 +124,10 @@ To create a new dial plan, perform the steps in the following procedure. If you 
 
 11. Verify that the dial plan’s normalization rules are arranged in the correct order. To change a rule’s position in the list, highlight the rule name and then click the up or down arrow.
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Lync Server traverses the normalization rule list from the top down and uses the first rule that matches the dialed number. If you configure a dial plan so that a dialed number can match more than one normalization rule, make sure the more restrictive rules are sorted above the less restrictive ones.<BR>The default <STRONG>Keep All</STRONG> normalization rule <STRONG>^(\d{11})$</STRONG> matches any 11-digit number. For example, if you add a normalization rule that matches 11-digit numbers that start with 1425, make sure that <STRONG>Keep All</STRONG> is sorted below the more restrictive <STRONG>^(1425\d{7})$</STRONG> rule.
 
     
@@ -135,10 +135,10 @@ To create a new dial plan, perform the steps in the following procedure. If you 
 
 12. (Optional) Enter a number to test the dial plan and then click **Go**. The test results are displayed under **Enter a number to test**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can save a dial plan that does not yet pass the test and then reconfigure it later. For details, see <A href="lync-server-2013-test-voice-routing.md">Test voice routing in Lync Server 2013</A>.
 
     
@@ -148,10 +148,10 @@ To create a new dial plan, perform the steps in the following procedure. If you 
 
 14. On the **Dial Plan** page, click **Commit**, and then click **Commit all**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Any time you create a dial plan, you must run the <STRONG>Commit all</STRONG> command to publish the configuration change. For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A> in the Operations documentation.
 
     

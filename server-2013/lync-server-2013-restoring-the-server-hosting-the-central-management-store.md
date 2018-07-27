@@ -32,20 +32,20 @@ To find the pool where the Central Management Server is located, open Topology B
 
 If the Back End Server that hosts the Central Management store is in a mirrored setup and the mirror database is still functional, we recommend that you make a backup of this still-functioning mirror, and then perform a full restore on both the primary database and the mirror database, using this backup, by following the restoration procedure below. This is necessary because Back End restore requires modifying and publishing the topology, and this can be done only if the primary database hosting CMS is operational. Also note that the primary and mirror database roles cannot be interchanged if the topology cannot be published.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If a Back End Server or Standard Edition server that does not host the Central Management store failed, see <A href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Restoring an Enterprise Edition Back End Server in Lync Server 2013</A> or <A href="lync-server-2013-restoring-a-standard-edition-server.md">Restoring a Standard Edition server in Lync Server 2013</A>. If a Back End Server that hosts the Central Management store is in a mirrored configuration and only the mirror failed, see <A href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Restoring a mirrored Enterprise Edition Back End Server in Lync Server 2013 - mirror</A>. If any other server failed, see <A href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Restoring an Enterprise Edition member server in Lync Server 2013</A>.
 
 
 
 </div>
 
-<div class="alert">
+<div>
 
 
-> [!TIP]
+> [!TIP]  
 > We recommend that you take an image copy of the system before you start restoration. You can use this image as a rollback point, in case something goes wrong during restoration. You might want to take the image copy after you install the operating system and SQL Server, and restore or reenroll the certificates.
 
 
@@ -58,10 +58,10 @@ If the Back End Server that hosts the Central Management store is in a mirrored 
 
 1.  Start with a clean or new server that has the same fully qualified domain name (FQDN) as the failed computer, install the operating system, and then restore or reenroll the certificates.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Follow your organization's server deployment procedures to perform this step.
 
     
@@ -71,10 +71,10 @@ If the Back End Server that hosts the Central Management store is in a mirrored 
 
 3.  If you are restoring a Standard Edition server, restore the File Store by copying the appropriate File Store from $Backup to the File Store location on the server, and then share the folder.
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The path and file name for the restored File Store should be exactly the same as the backed up File Store so that components that use the files can access them.
 
     
@@ -86,10 +86,10 @@ If the Back End Server that hosts the Central Management store is in a mirrored 
     
       - If you are installing an Enterprise Back End Server, install SQL Server 2012 or SQL Server 2008 R2, keeping the instance names the same as before the failure.
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Depending on the server that you are restoring and on your deployment, the server might include multiple collocated or separate databases. Follow the same procedure to install SQL Server that you used originally to deploy the server, including SQL Server permissions and logins.
 
         
@@ -113,10 +113,10 @@ If the Back End Server that hosts the Central Management store is in a mirrored 
     
         Set-CsConfigurationStoreLocation -SqlServerFqdn Server01.contoso.com -SqlInstanceName cms -Verbose
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you lose the connection point, you can rerun this cmdlet.
 
     
@@ -134,10 +134,10 @@ If the Back End Server that hosts the Central Management store is in a mirrored 
     
         Enable-CsTopology
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > After you enable the topology, you can find the topology document in the database.
 
     
@@ -157,10 +157,10 @@ If the Back End Server that hosts the Central Management store is in a mirrored 
     
     5.  Follow the **Install Database** wizard. If you are restoring a database other than the Central Management store on this server, on the **Create databases** page, select the databases you want to recreate.
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Only stand-alone databases are displayed on the <STRONG>Create databases</STRONG> page. Collocated databases are created when you run the Lync Server Deployment Wizard.
 
         
@@ -170,11 +170,11 @@ If the Back End Server that hosts the Central Management store is in a mirrored 
     
     7.  Follow the rest of the wizard, and then click **Finish**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!TIP]
-    > Instead of running Topology Builder, you can use the <STRONG>Install-CsDatabase</STRONG> cmdlet to create each database, and the <STRONG>Install-CsMirrorDatabase</STRONG> cmdlet to configure mirroring. For details, see <A href="install-csdatabase.md">Install-CsDatabase</A> and <A href="install-csmirrordatabase.md">Install-CsMirrorDatabase</A>.
+    > [!TIP]  
+    > Instead of running Topology Builder, you can use the <STRONG>Install-CsDatabase</STRONG> cmdlet to create each database, and the <STRONG>Install-CsMirrorDatabase</STRONG> cmdlet to configure mirroring. For details, see <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsDatabase">Install-CsDatabase</A> and <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsMirrorDatabase">Install-CsMirrorDatabase</A>.
 
     
     </div>

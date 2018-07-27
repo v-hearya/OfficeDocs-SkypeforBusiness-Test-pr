@@ -60,10 +60,10 @@ You can use the **Get-CsKerberosAccountAssignment** cmdlet to query information 
         
             Get-CsKerberosAccountAssignment -Filter "*Redmond"
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Specifying *SiteName for the Filter parameter returns information about all sites that contain the specified site name anywhere in the site identifier (for example, all sites that contain the string Redmond in the site identifier).
 
         

@@ -88,10 +88,10 @@ In planning your trunks that associate gateways:port pairs with Mediation Server
 
 Lync Server provides a way to manipulate the caller ID for outbound calls. For example, if an organization wants to mask employees’ direct-dial extensions and replace them with the generic corporate or departmental number, an administrator can do that by using Lync Server Control Panel to suppress the caller ID and replace it with a specified alternative caller ID. In planning your routing logic, consider which individuals, groups, sites you’ll want this option for—perhaps, even, for all employees.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For calls that are rerouted over the PSTN, the generic caller ID will be presented instead of the original caller ID. This can cause the call to bypass Do Not Disturb or privacy settings that the callee may have configured.
 
 

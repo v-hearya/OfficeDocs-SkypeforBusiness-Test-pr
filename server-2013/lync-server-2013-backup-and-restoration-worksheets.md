@@ -30,10 +30,10 @@ The backup and restoration plan for your organization should contain details abo
 
 Use the following worksheets to record the information that you need to back up and restore database, File Store, and settings information for a Lync Server pool or Standard Edition server. Keep one or more copies of these worksheets in a secure location so that they are readily accessible if you need to restore Lync Server.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The worksheets in this section cover only the information that is required to restore the data and settings of Lync Server databases and servers. If you need to document other restoration information, such as the information for reinstalling operating systems and other software, use your organization's deployment plans and backup and restoration plans to address those requirements.
 
 

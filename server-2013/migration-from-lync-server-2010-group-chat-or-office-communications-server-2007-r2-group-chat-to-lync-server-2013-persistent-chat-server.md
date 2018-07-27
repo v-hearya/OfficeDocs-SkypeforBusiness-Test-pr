@@ -28,20 +28,20 @@ _**Topic Last Modified:** 2012-10-06_
 
 The topics in this section guide you through the process of migrating either Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server. If you intend for your Lync Server 2013, Persistent Chat Server deployment to coexist with a Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat deployment, this guide also includes some essential information for operating in this mixed environment. This guide primarily focuses on data migration for Persistent Chat Server. For users who are migrating from legacy versions of Lync Server to Lync Server 2013, see [Migration from Lync Server 2010 to Lync Server 2013](migration-from-lync-server-2010-to-lync-server-2013.md) and [Migration from Office Communications Server 2007 R2 to Lync Server 2013](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md).
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > This topic assumes that you have already installed Lync Server 2013 in coexistence with Lync Server 2010 or Office Communications Server 2007 R2.
 
 
 
 </div>
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > This guide describes the steps generally required to accomplish each phase of migration. It does not address every possible legacy deployment topology or every possible migration scenario. Therefore, you may not need to perform every step that is described, or you may need to perform additional steps, depending on your deployment. The guide also provides examples of verification steps. These verification steps are provided to help you understand what you need to look for to be sure that each phase completes successfully as you progress through your migration. You can modify these verification steps to your specific migration process.
 
 
@@ -69,10 +69,10 @@ Persistent Chat Server is an extension of the Lync Server 2013 infrastructure. D
 
 If your organization requires compliance support, it is now automatically installed with each Persistent Chat Server. A separate server is no longer needed for compliance.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Persistent Chat Server must be installed on an NTFS file system to help enforce file system security. FAT32 is not a supported file system for Persistent Chat Server.<BR>If your organization requires compliance support, it is now automatically installed with each Persistent Chat Server. A separate server is no longer needed for compliance. For more details about changes in Lync Server 2013&nbsp;Persistent Chat Server, see <A href="lync-server-2013-new-persistent-chat-server-features.md">New Persistent Chat Server features in Lync Server 2013</A> in the Getting Started documentation.
 
 

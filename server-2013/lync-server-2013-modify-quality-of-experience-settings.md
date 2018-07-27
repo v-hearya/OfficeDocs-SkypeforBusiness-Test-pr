@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-02-23_
 
 By default, Quality of Experience (QoE) data is purged after 60 days. You can use the settings on the **Quality of Experience Data** page to retain the data for a longer or shorter period of time. If you disable QoE, data that was captured before QoE was enabled will also be subject to purging.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You should configure call detail recording (CDR) and QoE to retain data for the same number of days. Each call in the call detail reports (CDRs), available from the Monitoring Reports homepage, includes CDR and QoE information. If the purging duration for CDR and QoE is different, some calls may only include CDR data, while other may only include QoE data.
 
 
@@ -86,7 +86,7 @@ You can create QoE retention settings by using Windows PowerShell and the **Set-
 
 </div>
 
-For more information, see the help topic for the [Set-CsQoEConfiguration](set-csqoeconfiguration.md) cmdlet.
+For more information, see the help topic for the [Set-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsQoEConfiguration) cmdlet.
 
 </div>
 

@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2014-04-18_
 
 Topics in this section provide step-by-step procedures for configuring user settings that you can perform using the Lync Server 2013 Control Panel.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > You cannot use Lync Server Control Panel to manage users who are members of the Active Directory Domain Admins group. For Domain Admins users, you can use Lync Server Control Panel only to perform read-only search operations. To perform write operations on Domain Admins users (for example, enable or disable for Lync Server Control Panel, change pool or policy assignments, telephony settings, SIP address), you must use Windows PowerShell cmdlets while logged on as a Domain Admins user. For details about using Windows PowerShell cmdlets to manage users, see <A href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 Management Shell</A>.
 
 

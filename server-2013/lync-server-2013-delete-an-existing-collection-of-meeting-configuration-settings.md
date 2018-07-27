@@ -78,7 +78,7 @@ Meeting settings can be deleted by using Windows PowerShell and the Remove-CsMee
 
 </div>
 
-For more information, see the help topic for the [Remove-CsMeetingConfiguration](remove-csmeetingconfiguration.md) cmdlet.
+For more information, see the help topic for the [Remove-CsMeetingConfiguration](ttps://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsMeetingConfiguration) cmdlet.
 
 </div>
 

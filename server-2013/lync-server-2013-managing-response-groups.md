@@ -30,10 +30,10 @@ Response groups are a call management feature that enables you to queue calls th
 
 To manage response groups, you configure agent groups, queues, and workflows, which define what happens to a call from the time it is placed until an agent answers it.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you have more than 300 workflows in a single pool in your Response Group deployment, it is better to use Lync Server Management Shell cmdlets to create the workflows. If you use the Response Group Configuration Tool to create workflows for a pool that has more than 300 workflows, the webpage takes a long time to load. The number of agents that are indirectly associated with workflows through the queues also has a proportional effect on page loading.
 
 

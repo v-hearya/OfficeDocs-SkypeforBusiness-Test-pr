@@ -48,10 +48,10 @@ In addition, the cumulative update for Lync Server 2010: November 2011 installer
 
   - On Front End Servers or Standard Edition servers and on Directors to enable mobile devices to automatically discover mobility resources
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you are deploying mobility, we recommend that you use IIS 7.5. The Lync Server Mobility Service installer sets some ASP.NET flags to improve performance. IIS 7.5 is installed by default on Windows Server 2008 R2, and the Mobility Service installer automatically changes the ASP.NET settings. If you use IIS 7.0 on Windows Server 2008, you need to manually change these settings.
 
 
@@ -60,10 +60,10 @@ In addition, the cumulative update for Lync Server 2010: November 2011 installer
 
 Lync Server requires the following IIS modules to be installed:
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If your organization requires that you locate IIS and all Web Services on a drive other than the system drive, you can change the installation location path for the Lync Server files in the Setup dialog box. If you install the Setup files to this path, including OCSCore.msi, the rest of the Lync Server files will be deployed to this drive as well. For details about how to relocate the INETPUB deployed by Windows Server Manager when installing IIS, see <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>.
 
 
@@ -184,17 +184,17 @@ The following table lists the URIs for the virtual directories for internal acce
 </table>
 
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For Front End pools in a consolidated configuration, you must deploy IIS before you can add servers to the pool.
 
 
 
 </div>
 
-<div class="alert">
+<div>
 
 <table>
 <thead>

@@ -73,7 +73,7 @@ By comparison, this command tests all the addresses currently in your LIS databa
 
     Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
 
-For more information, see the Help documentation for the [Test-CsRegistration](test-csregistration.md) cmdlet.
+For more information, see the Help documentation for the [Test-CsRegistration](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsRegistration) cmdlet.
 
 </div>
 

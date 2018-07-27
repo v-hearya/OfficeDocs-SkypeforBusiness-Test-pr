@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-02-12_
 
 Push notifications, in the form of badges, icons, or alerts, can be sent to a mobile device even when the mobile application is inactive. Push notifications notify a user of events such as a new or missed IM invitation and voice mail. The Lync Server 2013 Mobility Service sends the notifications to the cloud-based Lync Server Push Notification Service, which then sends the notifications to the Apple Push Notification Service (APNS) (for an Apple device running the Lync 2010 Mobile client) or the Microsoft Push Notification Service (MPNS) (for a Windows Phone device running the Lync 2010 Mobile or the Lync 2013 Mobile client).
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If you use Windows Phone with Lync 2010 Mobile or Lync 2013 Mobile client, push notification is an important consideration.<BR>If you use Lync 2010 Mobile on Apple devices, push notification is an important consideration.<BR>If you use Lync 2013 Mobile on Apple devices, you no longer need push notification.
 
 
@@ -44,10 +44,10 @@ Configure your topology to support push notifications by doing the following:
 
   - If your environment has a Office Communications Server 2007 R2 Edge Server, you need to set up direct SIP federation with push.lync.com.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Push.lync.com is a Microsoft Office 365 domain for Push Notification Service.
 
     
@@ -73,10 +73,10 @@ Configure your topology to support push notifications by doing the following:
     
         New-CsHostingProvider -Identity "LyncOnline" -Enabled $True -ProxyFqdn "sipfed.online.lync.com" -VerificationLevel UseSourceVerification
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You cannot have more than one federation relationship with a single hosting provider. That is, if you have already set up a hosting provider that has a federation relationship with sipfed.online.lync.com, do not add another hosting provider for it, even if the identity of the hosting provider is something other than LyncOnline.
 
     
@@ -159,8 +159,8 @@ Configure your topology to support push notifications by doing the following:
 ## See Also
 
 
-[Test-CsFederatedPartner](test-csfederatedpartner.md)  
-[Test-CsMcxPushNotification](test-csmcxpushnotification.md)  
+[Test-CsFederatedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsFederatedPartner)  
+[Test-CsMcxPushNotification](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxPushNotification)  
   
 
 </div>

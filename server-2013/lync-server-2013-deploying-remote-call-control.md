@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2012-10-20_
 
 This section guides you through the process of deploying remote call control functionality to users in your organization.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Although remote call control features are available to remote users while they are outside of your organization’s firewall, details about deploying external access scenarios are beyond the scope of this documentation. For details about deploying external user access, see <A href="lync-server-2013-deploying-external-user-access.md">Deploying external user access in Lync Server 2013</A> in the Deployment documentation.
 
 

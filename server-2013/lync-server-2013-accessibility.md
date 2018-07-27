@@ -141,10 +141,10 @@ Every figure in Lync Server 2013 Help, including screenshots, diagrams, flow cha
 
 The following sections provide information about the features, products, and services that make Windows more accessible for people with disabilities.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The information in this section applies only to users who license Microsoft products in the United States. If you obtained this product outside the United States, you can use the subsidiary information card that came with your software package or visit the Microsoft Accessibility website at <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A> for a list of telephone numbers and addresses for Microsoft support services. You can contact your subsidiary to find out whether the type of products and services described in this section are available in your area. You can learn more about the accessibility features included in Microsoft products on the Accessibility in Microsoft Products website.
 
 

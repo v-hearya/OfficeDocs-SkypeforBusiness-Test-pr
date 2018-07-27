@@ -40,10 +40,10 @@ A network region interconnects various parts of a network across multiple geogra
 
 4.  On the **Region** page, click the region you want to view.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can only view one region at a time.
 
     
@@ -79,7 +79,7 @@ You can view network region information by using Windows PowerShell and the **Ge
 
 </div>
 
-For more information, see the help topic for the [Get-CsNetworkRegion](get-csnetworkregion.md) cmdlet.
+For more information, see the help topic for the [Get-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink) cmdlet.
 
 </div>
 

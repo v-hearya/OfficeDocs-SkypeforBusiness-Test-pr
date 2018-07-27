@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure Lync Server 2013 to work with Unified Messaging on Microsoft Exchange Server'
 TOCTitle: Configure Lync Server 2013 to work with Unified Messaging on Microsoft Exchange Server
 ms:assetid: 1098ae4d-f57f-44f3-804e-39889d9fc14e
@@ -22,8 +22,6 @@ mtps_version: v=OCS.15
 
 <div id="mainBody">
 
-<span> </span>
-
 _**Topic Last Modified:** 2013-04-03_
 
 This step requires the Exchange UM Integration Utility (OcsUmUtil.exe). This tool is located on the Lync Server 2013 server in the ..\\Program Files\\Common Files\\Microsoft Lync Server 2013\\Support folder.
@@ -44,7 +42,7 @@ When you run the Exchange UM Integration Utility, it performs the following task
 
   - Verifies that the name of each Enterprise Voice dial plan matches its corresponding unified messaging (UM) dial plan phone context. This matching is necessary only if the UM dial plan is running on a version of Exchange *earlier* than Exchange 2010 Service Pack 1 (SP1).
 
-<div class="alert">
+<div>
 
 <table>
 <colgroup>
@@ -63,7 +61,7 @@ When you run the Exchange UM Integration Utility, it performs the following task
 <p>For Microsoft Exchange Server 2010, see &quot;Create a UM Dial Plan&quot; at <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>.</p>
 <p>For Microsoft Exchange Server 2007 Service Pack 1 (SP1), see &quot;How to Create a Unified Messaging SIP URI Dial Plan&quot; at <a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>.</p></li>
 <li><p>Create one or more corresponding Lync Server dial plans, as described in <a href="lync-server-2013-create-a-dial-plan.md">Create a dial plan in Lync Server 2013</a>.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > If you are using a version of Exchange that is earlier than Microsoft Exchange Server 2010 SP1, you must enter the fully qualified domain name (FQDN) of the corresponding Exchange Unified Messaging (UM) SIP dial plan in the Lync Server 2013 dial plan <STRONG>Simple name</STRONG> field. If you are using Microsoft Exchange Server 2010 SP1 or latest service pack, this dial plan name matching is not necessary.
@@ -93,7 +91,7 @@ When you run the Exchange UM Integration Utility, it performs the following task
 
 5.  In the **Contact** box, accept the default organizational unit, or click **Browse** to start the **OU Picker**. In the **OU Picker** box, you can select an OU and click **OK**, or you can click **Make New OU** to create a new organizational unit under the root or any other OU in the domain (for example, "OU=RTC Special Accounts,DC=fourthcoffee,DC=com"), and then click **OK**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -104,7 +102,7 @@ When you run the Exchange UM Integration Utility, it performs the following task
 
 6.  In the **Name** box, either accept the default dial plan name or type a new display name for the contact object that you are creating.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -115,7 +113,7 @@ When you run the Exchange UM Integration Utility, it performs the following task
 
 7.  In the **SIP Address** box, either accept the default SIP address or type a new SIP address.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -126,7 +124,7 @@ When you run the Exchange UM Integration Utility, it performs the following task
 
 8.  In the **Server or Pool** list, select the Standard Edition server or Front End pool in which the contact object is to be enabled.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -141,7 +139,7 @@ When you run the Exchange UM Integration Utility, it performs the following task
 
 11. Repeat steps 1 through 10 for additional contact objects that you want to create.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -158,7 +156,7 @@ To verify that the contact objects have been created, open Active Directory User
 
 </div>
 
-<span> </span>
+<span> </span>
 
 </div>
 

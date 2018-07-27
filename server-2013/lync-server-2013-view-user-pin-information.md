@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-02-23_
 
 To join a dial-in conference as an authenticated user, a Lync Server 2013 user with Active Directory Domain Services (AD DS) credentials requires a personal identification number (PIN). You can view a user’s PIN information from Lync Server 2013 Control Panel.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You can view PIN status information such as whether the PIN has been set or when the PIN was last changed, but you cannot see the current PIN by looking at the PIN status. If a user has lost their PIN, you can reset it by following the procedures in <A href="lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md">Set a user's dial-in conferencing PIN in Lync Server 2013</A>
 
 
@@ -64,10 +64,10 @@ To join a dial-in conference as an authenticated user, a Lync Server 2013 user w
     
     4.  Depending on the user property you selected, enter the criteria that you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
         
-        <div class="alert">
+        <div>
         
 
-        > [!TIP]
+        > [!TIP]  
         > To add additional search clauses to your query, click <STRONG>Add Filter</STRONG>.
 
         
@@ -75,10 +75,10 @@ To join a dial-in conference as an authenticated user, a Lync Server 2013 user w
     
     5.  Click **Find**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If the PIN is locked, you must unlock the PIN before you can set it. To unlock the PIN, click the user, click <STRONG>Action</STRONG>, and then click <STRONG>Unlock PIN</STRONG>.
 
     
@@ -112,7 +112,7 @@ You can view user PIN information by using the Get-CsClientPinInfo cmdlet. This 
 
 </div>
 
-For more information, see the help topic for the [Get-CsConferenceDisclaimer](get-csconferencedisclaimer.md) cmdlet.
+For more information, see the help topic for the [Get-CsConferenceDisclaimer](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferenceDisclaimer) cmdlet.
 
 </div>
 

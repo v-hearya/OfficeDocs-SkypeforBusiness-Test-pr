@@ -40,10 +40,10 @@ A public switched telephone network (PSTN) usage record specifies a class of cal
 
 4.  On the **PSTN Usage** page, highlight the PSTN usage record you want to view, click **Edit** and then click **Show details**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > A read-only page of the selected PSTN usage record shows the associated routes and associated voice policies.
 
     
@@ -72,7 +72,7 @@ You can also view PSTN usages by using Windows PowerShell and the **Get-CsPstnUs
 
 </div>
 
-For details, see [Get-CsPstnUsage](get-cspstnusage.md).
+For details, see [Get-CsPstnUsage](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPstnUsage).
 
 </div>
 

@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2012-01-02_
 
 Before you can define and configure your topology, you must first define the location to install the Central Management Server.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > This will not take effect until you have published a topology in Topology Builder. To set the Central Management Server before the topology is created and published, run <STRONG>Set-CSConfigurationStoreLocation</STRONG>.
 
 

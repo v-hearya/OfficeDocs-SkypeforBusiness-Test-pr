@@ -46,20 +46,20 @@ Here is a list of terms and definitions that you might find useful as you read t
 
 You must use the Lync Server User Provisioning Tool to create users and contacts for load simulation. The Lync Server User Provisioning Tool is installed with the Lync Server Stress and Performance Tool package. Be sure that the package installer (CapacityPlanningTool.msi) has been run on the Front End Server or the Standard Edition server. Start the Lync Server User Provisioning Tool by running the file UserProvisioningTool.exe (located at %InstalledDirectory%LyncStressAndPerfTool\\LyncStress) on the Front End Server or on the Standard Edition server.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > You must be logged on as a member of the Domain Admins security group in order to run UserProvisioningTool.exe. It is necessary to run from this context because UserProvisioningTool.exe will be creating and configuring new Active Directory Domain Services users.
 
 
 
 </div>
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > When you create a significant number of users (10,000 or more), run UserProvisioningTool.exe from a high-end computer. Note that the domain controller will also experience high load while the users are being created.
 
 
@@ -116,10 +116,10 @@ When you click on Delete Users button, it will validate all the input parameters
 
   - If all the input values are correct, it will start disabling and deleting users in Active Directory Domain Services. A progress bar will appear at the bottom of this form. We recommend that you do not close the application while the progress bar is active.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > <OL>
 > <LI>
 > <P>Only U.S.-formatted phone numbers are supported. Phone numbers are always assigned to users, and all users created by UserProvisioningTool.exe are enabled for Enterprise Voice. Any scenarios that use the phone number, such as Conferencing Auto Attendant or UC-PSTN calls, use this phone number to properly route calls. For this reason, every user must have a unique phone number. If you have to create users twice, the command will fail unless you use a different area code, or if the previous users have been disabled by using the <STRONG>Disable-CsUser</STRONG> cmdlet.</P>
@@ -156,10 +156,10 @@ To configure users’ contacts, follow these steps.
 
 6.  In Federated / Cross Pool User SIP Domain, specify the SIP Domain Name of the federated users.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > None of the users should be signed in when creating contacts.
 
     
@@ -169,10 +169,10 @@ To configure users’ contacts, follow these steps.
 
 8.  Click Create Contacts to begin the contact creation. This process can take several minutes. After it completes, a dialog box will appear with the message, "Operation Completed Successfully." You can validate the contacts that were created by logging on as a user that was created from the User Creation tab.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > After the contacts are created, this tool will restart all the Front End Servers in the target pool. It may take longer (up to 2 hours) for the Front End Servers to start, depending on how many contacts were created by this operation.
 
     

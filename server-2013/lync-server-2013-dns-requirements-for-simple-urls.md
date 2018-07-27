@@ -36,10 +36,10 @@ Lync Server supports the following three simple URLs: Meet, Dial-In, and Admin. 
 
 In Option 1, you create a new base URL for each simple URL.
 
-<div class="alert">
+<div class="">
 
 
-> [!NOTE]
+> [!NOTE]  
 > When a user clicks a simple URL meeting link, the server that the DNS A record resolves to determines the correct client software to start. After the client software is started, it automatically communicates with the pool where the conference is hosted. This way, users are directed to the appropriate server for meeting content no matter which server or pool the simple URL DNS A records resolve to.
 
 
@@ -171,20 +171,24 @@ If you have multiple sites that contain Front End pools and your DNS provider su
 
 To configure this, create two GeoDNS addresses. Each address has two DNS A or CNAME records that resolve to two pools which are paired together for disaster recovery purposes. One GeoDNS address is used for internal access, and resolves to the internal web FQDN or load balancer IP address for the two pools. The other GeoDNS address is used for external access and resolves to the external web FQDN or load balancer IP address for the two pools. The following is an example for the Meet simple URL, using the FQDNs for the pools.
 
+   ```
     Meet-int.geolb.contoso.com
          Pool1InternalWebFQDN.contoso.com
          Pool2InternalWebFQDN.contoso.com
+   ```
 
-    Meet-ext.geolb.contoso.com
+   ```
+   Meet-ext.geolb.contoso.com
          Pool1ExternalWebFQDN.contoso.com
          Pool2ExternalWebFQDN.contoso.com
+   ``` 
 
 Then create CNAME records that resolve your Meet simple URL (such as meet.contoso.com) to the two GeoDNS addresses.
 
-<div class="alert">
+<div class="">
 
 
-> [!NOTE]
+> [!NOTE]  
 > If your network uses <EM>hairpinning</EM> (routing all your Simple URL traffic through the external link, including traffic that comes from within your organization), then you can just configure the external GeoDNS address and resolve your Meet simple URL to only that external address.
 
 

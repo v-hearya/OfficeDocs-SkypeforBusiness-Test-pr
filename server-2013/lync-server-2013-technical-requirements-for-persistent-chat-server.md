@@ -72,10 +72,10 @@ For details about additional software required for deploying Persistent Chat Ser
 
 Persistent Chat Server uses the Persistent Chat database to store chat history, configuration, and user provisioning data. Optionally, it uses the Persistent Chat compliance database to store compliance data.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The Persistent Chat database (mgc) and the compliance database (mgccomp) can be located in the same instance of SQL Server or on different SQL Servers.
 
 

@@ -8,23 +8,10 @@ ms.date: 07/23/2014
 mtps_version: v=OCS.15
 ---
 
-<div data-xmlns="http://www.w3.org/1999/xhtml">
-
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
-
-<div data-asp="http://msdn2.microsoft.com/asp">
-
 # Assign a per-user PIN policy in Lync Server 2013
 
-</div>
+ 
 
-<div id="mainSection">
-
-<div id="mainBody">
-
-<span> </span>
-
-_**Topic Last Modified:** 2013-02-22_
 
 The dial-in conferencing personal identification number (PIN) policy is one of the individual settings of a user account that can be configured in the Lync Server 2013 Control Panel.
 
@@ -33,8 +20,6 @@ Deploying one or more per-user PIN policies is optional. You can also deploy onl
 After creating at least one per-user PIN policy, use the procedures in this topic to assign the policy that specifies the constraints you want the server to impose on the PINs created by and used by a particular user.
 
 For details about creating per-user dial-in conferencing PIN policies, see [Create or modify dial-in conferencing PIN settings in Lync Server 2013 for a site or group of users](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md).
-
-<div>
 
 ## To assign a per-user PIN policy
 
@@ -60,63 +45,43 @@ For details about creating per-user dial-in conferencing PIN policies, see [Crea
     
     4.  Depending on the user property you selected, enter the criteria you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
         
-        <div class="alert">
-        
 
-        > [!TIP]
+        > [!TIP]  
         > To add additional search clauses to your query, click <STRONG>Add Filter</STRONG>.
 
-        
-        </div>
     
     5.  Click **Find**.
 
 6.  Click a user in the search results, click **Action**, and then click **Assign policies**.
     
-    <div class="alert">
-    
 
-    > [!TIP]
+    > [!TIP]  
     > If you want the same per-user PIN policy to apply to multiple users, select multiple users in the search results, then click <STRONG>Actions</STRONG>, and then click <STRONG>Assign policies</STRONG>.
 
-    
-    </div>
+
 
 7.  In **Assign Policies**, under **PIN policy**, do one of the following:
     
-    <div class="alert">
-    
 
-    > [!NOTE]
+    > [!NOTE]  
     > Because there are multiple policies that you can configure by using the <STRONG>Assign Policies</STRONG> dialog box, <STRONG>&lt;Keep as is&gt;</STRONG> is selected by default for every policy in the dialog box. Continue using the policy previously assigned to the user by making no changes to this setting.
 
-    
-    </div>
     
       - Allow Lync Server 2013 to automatically choose either the global-level policy or, if defined, the site-level policy.
     
       - Click the name of a per-user PIN policy you previously defined on the **PIN Policy** page.
         
-        <div class="alert">
-        
 
-        > [!TIP]
+        > [!TIP]  
         > To help you decide the policy you want to assign, after you click a policy name, click <STRONG>View</STRONG> to view the user rights and permissions defined in the policy.
 
-        
-        </div>
+
 
 8.  When you are finished, click **OK**.
-
-</div>
-
-<div>
 
 ## Assigning a Per-User PIN Policy by Using Windows PowerShell Cmdlets
 
 You can assign per-user PIN policies by using Windows PowerShell and the **Grant-CsPinPolicy** cmdlet. You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
-
-<div>
 
 ## To assign a per-user PIN policy to a single user
 
@@ -124,19 +89,11 @@ You can assign per-user PIN policies by using Windows PowerShell and the **Grant
     
         Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName "RedmondPinPolicy"
 
-</div>
-
-<div>
-
 ## To assign a per-user PIN policy to multiple users
 
-  - The following command assigns the per-user PIN policy RedmondUsersPinPolicy to all the users who work in the city of Redmond. For details about the LdapFilter parameter used in this command, see [Get-CsUser](get-csuser.md).
+  - The following command assigns the per-user PIN policy RedmondUsersPinPolicy to all the users who work in the city of Redmond. For details about the LdapFilter parameter used in this command, see [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)).
     
         Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
-
-</div>
-
-<div>
 
 ## To unassign a per-user PIN policy
 
@@ -144,13 +101,7 @@ You can assign per-user PIN policies by using Windows PowerShell and the **Grant
     
         Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
 
-</div>
-
-For details, see [Grant-CsPinPolicy](grant-cspinpolicy.md).
-
-</div>
-
-<div>
+For details, see [Grant-CsPinPolicy](https://technet.microsoft.com/en-us/library/gg398871\(v=ocs.15\)).
 
 ## See Also
 
@@ -158,18 +109,5 @@ For details, see [Grant-CsPinPolicy](grant-cspinpolicy.md).
 [Create a new PIN policy in Lync Server 2013](lync-server-2013-create-a-new-pin-policy.md)  
 
 
-[Assigning per-user policies in Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)  
-  
-
-</div>
-
-</div>
-
-<span> </span>
-
-</div>
-
-</div>
-
-</div>
+[Assigning per-user policies in Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)
 

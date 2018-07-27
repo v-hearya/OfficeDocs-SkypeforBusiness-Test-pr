@@ -30,10 +30,10 @@ To successfully complete this procedure, you should be logged on to the server m
 
 Before you configure and install the Front End Server for Lync Server 2013, Standard Edition or the first Front End Server in a pool, you install and configure the server role and Web Services for Internet Information Services (IIS).
 
-<div class="alert">
+<div class=" ">
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If your organization requires that you locate IIS and all Web Services on a drive other than the system drive, you can change the installation location path for the Lync Server 2013 files in the Setup dialog box when you initially install the Lync Server 2013 Administrative tools. You install the Administrative tools before installing IIS. If you install the Setup files to this path, including OCSCore.msi, the rest of the Lync Server 2013 files will be deployed to this drive as well. For dtails, see <A href="lync-server-2013-install-lync-server-administrative-tools.md">Install Lync Server 2013 administrative tools</A>. For details about how to relocate the INETPUB deployed by Windows Server Manager when installing IIS, see <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>.
 
 
@@ -132,14 +132,18 @@ The following table indicates the required IIS 7.5 role services.
 
 On the Windows Server 2008 R2 SP1 x64 operating system, you can use Windows PowerShell 2.0. You must first import the ServerManager module, and then install the IIS 7.5 role and role services.
 
+   ```
     Import-Module ServerManager
+   ```
 
+   ```
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scripting-Tools, Web-Windows-Auth, Web-Asp-Net, Web-Log-Libraries, Web-Http-Tracing, Web-Stat-Compression, Web-Dyn-Compression, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Errors, Web-Http-Logging, Web-Net-Ext, Web-Client-Auth, Web-Filtering, Web-Mgmt-Console
+   ```
 
-<div class="alert">
+<div class=" ">
 
 
-> [!NOTE]
+> [!NOTE]  
 > Anonymous authentication is installed by default with the IIS server role. You can manage anonymous authentication after the installation of IIS. For details, see “Enable Anonymous Authentication (IIS 7)” at <A href="http://go.microsoft.com/fwlink/p/?linkid=203935">http://go.microsoft.com/fwlink/p/?linkId=203935</A>.
 
 
@@ -148,10 +152,10 @@ On the Windows Server 2008 R2 SP1 x64 operating system, you can use Windows Po
 
 The following table indicates the required IIS 8.0 and IIS 8.5 role services for Windows Server 2012 and Windows Server 2012 R2.
 
-<div class="alert">
+<div class=" ">
 
 
-> [!NOTE]
+> [!NOTE]  
 > For Windows Server 2012 and Windows Server 2012 R2, the Add-WindowsFeature cmdlet has been replaced by the Install-WindowsFeature cmdlet. For details, see <A href="http://go.microsoft.com/fwlink/p/?linkid=392274">Install-WindowsFeature</A>.
 
 
@@ -330,14 +334,18 @@ The following table indicates the required IIS 8.0 and IIS 8.5 role services for
 
 In Windows Server 2012 and Windows Server 2012 R2, you can use Windows PowerShell 3.0 to install the IIS Requirements. Using the ServerManager module in Windows PowerShell 3.0, type:
 
+   ```
     Import-Module ServerManager
+   ```
 
+   ```
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-Framework-45-Core, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Console, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, BITS -Source D:\sources\sxs
+   ```
 
-<div class="alert">
+<div class=" ">
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > New with Windows Server 2012 is the –Source parameter that defines where the Windows Server 2012 source media can be found. The media can be defined as a DVD drive (for example, D:\Sources\Sxs), or to a network share that the media files have been copied (for example, \\fileserver\windows2012\sources\Sxs).
 
 

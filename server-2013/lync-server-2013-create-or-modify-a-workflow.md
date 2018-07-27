@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2012-10-02_
 
 Lync Server 2013 supports two types of workflows: hunt group and interactive voice response (IVR). When you create a workflow, you use the Response Group Configuration Tool to specify the queue to use and other settings, such as a welcome message, music on hold, business hours, and questions that the Response Group application asks the caller.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You must create agent groups and queues before you create a workflow that uses them. If you want to create predefined business hours and holidays that you can use for multiple workflows, you must also define these hours and holidays before you create a workflow that uses them.
 
 

@@ -32,10 +32,10 @@ The domain preparation that takes place when you install Lync Server does not au
 
 Keep in mind that this cmdlet only grants permissions to the RTCUniversalServerAdmins group; the cmdlet cannot be used to grant permissions to other security groups or to individual users.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > <STRONG>Enable-CsTopology</STRONG> is the key cmdlet to allow the RTCUniversalServerAdmins group members to set up and deploy Lync Server 2013.
 
 
@@ -54,10 +54,10 @@ Keep in mind that this cmdlet only grants permissions to the RTCUniversalServerA
     
         Grant-CsSetupPermission -ComputerOU <DN of the OU> -Domain <Domain FQDN>
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If the OU is not top level, you must provide the full domain name.
 
     

@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-02-23_
 
 If you no longer want to use a collection of settings for devices running Lync Phone Edition, delete it. If you delete a collection for a site, the global settings will apply to the phones in that site. You cannot delete the global collection.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Instead of deleting a collection, you might just want to change some of the settings. For details about how to do so, see <A href="lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md">Create or modify a collection of Lync Phone Edition configuration settings in Lync Server 2013</A>.
 
 
@@ -50,10 +50,10 @@ If you no longer want to use a collection of settings for devices running Lync P
 
 4.  On the **Device Configuration** page, click the collection you want to delete, click the **Edit** menu, and then click **Delete**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you delete the global collection, the settings just revert to the default settings. The collection does not go away.
 
     
@@ -99,7 +99,7 @@ You can delete Lync Phone Edition configuration settings by using Windows PowerS
 
 </div>
 
-For details, see [Remove-CsUCPhoneConfiguration](remove-csucphoneconfiguration.md).
+For details, see [Remove-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUCPhoneConfiguration).
 
 </div>
 

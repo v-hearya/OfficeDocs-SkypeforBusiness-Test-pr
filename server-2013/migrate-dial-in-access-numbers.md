@@ -46,20 +46,20 @@ Dial-in access numbers that you created in Lync Server 2010 but moved to Lync Se
 
 You must finish migrating dial-in access numbers that point to a Lync Server 2010 pool before you decommission the Lync Server 2010 pool. If you do not complete dial-in access number migration as described in the following procedure, incoming calls to the access numbers will fail.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > You must perform this procedure prior to decommissioning the Lync Server 2010 pool.
 
 
 
 </div>
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > We recommend that you move dial-in access numbers when network usage is low, in case there is a short period of service outage.
 
 
@@ -82,10 +82,10 @@ You must finish migrating dial-in access numbers that point to a Lync Server 201
 
 6.  Verify that no dial-in access numbers remain for the Lync Server 2010 pool from which you are migrating.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > When all dial-in access numbers point to the Lync Server 2013 pool, you can then decommission the Lync Server 2010 pool.
 
     

@@ -44,10 +44,10 @@ For an optimum experience when deploying Enterprise Voice, make sure that your I
 
   - A unique primary phone number has been designated, normalized, and copied to the **msRTCSIP-line** attribute for each user who is to be enabled for Enterprise Voice.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Lync Server supports E.164 numbers and non-Direct Inward Dialing (DID) numbers. Non-DID numbers can be represented in the format <STRONG>&lt;E.164&gt;;ext=&lt;extension&gt;</STRONG> or as a string of digits, with the requirement that the private extension is unique across the enterprise. For example, a private number of 1001 can be represented as <STRONG>+1425550100;ext=1001</STRONG>, or as <STRONG>1001</STRONG>. When represented as <STRONG>1001</STRONG>, the expectation is that this private number is unique across the enterprise.
 
     

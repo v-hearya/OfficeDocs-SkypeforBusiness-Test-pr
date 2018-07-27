@@ -36,10 +36,10 @@ The specific hardware used for Lync Server 2013 deployment can vary, depending o
 
 For best performance, we recommend that you run Lync Server on servers with hardware that meets the requirements in the following table. If you use less powerful hardware, you may experience functionality problems or poor performance. Note that these hardware requirements are higher than those of previous versions of Lync Server, primarily because in Lync Server 2013, all Front End Servers run SQL Server.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > NIC teaming is supported and should be transparent to Lync Server. For details, see <A href="http://go.microsoft.com/fwlink/p/?linkid=389910">Communications Server or Lync Server and network adapter teaming</A>.
 
 
@@ -82,9 +82,9 @@ For best performance, we recommend that you run Lync Server on servers with hard
 <td><p>Network</p></td>
 <td><ul>
 <li><p>1 dual-port network adapter, 1 Gbps or higher (2 recommended, which requires teaming with a single MAC address and single IP address).</p>
-<div class="alert">
+<div>
 
-> [!NOTE]
+> [!NOTE]  
 > Dual or multi-homed configurations are not supported for Front End Servers, Back End Servers, Standard Edition servers, and Persistent Chat Servers.<BR>ILO/DRAC/etc. connections not exposed to the Operating System and used to monitor and manage the server hardware do not constitute a multi-homed server and thus are supported.
 
 
@@ -136,9 +136,9 @@ For best performance, we recommend that you run Lync Server on servers with hard
 <td><ul>
 <li><p>1 dual-port network adapter, 1 Gbps or higher (2 recommended, which requires teaming with a single MAC address and single IP address). 2 network interfaces are required on Edge Servers, and are supported on standalone Mediation Servers.</p></li>
 </ul>
-<div class="alert">
+<div>
 
-> [!NOTE]
+> [!NOTE]  
 > Dual or multi-homed configurations are not supported for Directors.<BR>ILO/DRAC/etc. connections not exposed to the Operating System and used to monitor and manage the server hardware do not constitute a multi-homed server and thus are supported.
 
 

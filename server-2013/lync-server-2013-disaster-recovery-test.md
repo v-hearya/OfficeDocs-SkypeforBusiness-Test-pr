@@ -87,10 +87,10 @@ To facilitate the failover, this CNAME record must be updated to reference the D
 
   - OCSServices.\<domain\>
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > For detailed administration and management procedures, see <A href="lync-server-2013-backing-up-and-restoring-lync-server.md">Backing up and restoring Lync Server 2013</A>.
 
 
@@ -105,10 +105,10 @@ To facilitate the failover, this CNAME record must be updated to reference the D
 
 
 [Planning for high availability and disaster recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
-[Backup and high availability cmdlets in Lync Server 2013](lync-server-2013-backup-and-high-availability-cmdlets.md)  
+[Backup and high availability cmdlets in Lync Server 2013](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps)  
 
 
-[Import-CsConfiguration](import-csconfiguration.md)  
+[Import-CsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsConfiguration)  
 [Backing up and restoring Lync Server 2013](lync-server-2013-backing-up-and-restoring-lync-server.md)  
 [Managing Lync Server 2013 disaster recovery, high availability, and Backup Service](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)  
   

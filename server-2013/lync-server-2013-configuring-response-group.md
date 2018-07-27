@@ -32,10 +32,10 @@ The components that Response Group requires are installed and enabled automatica
 
 This section guides you through the configuration of Lync Server 2013 Response Group. It assumes that you have already read the planning sections related to Response Group and have deployed an Enterprise Edition server or a Standard Edition server with Enterprise Voice.
 
-<div class="alert">
+<div>
 
 
-> [!TIP]
+> [!TIP]  
 > For details about creating a Response Group by using Lync Server Management Shell, including a sample script, see "Creating Your First Response Group Using Lync Server Management Shell" at <A href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</A>.
 
 

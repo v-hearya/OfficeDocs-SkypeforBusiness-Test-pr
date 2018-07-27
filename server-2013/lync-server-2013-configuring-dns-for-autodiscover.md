@@ -52,10 +52,10 @@ The DNS records can be either A (host) records or CNAME records, based on your a
     
       - For an internal DNS record, in the console tree of the DNS server, expand **Forward Lookup Zones** for your Active Directory domain (for example, contoso.local).
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > This domain is the Active Directory domain where your Lync Server 2013&nbsp;Director pool and Front End pool are installed.
 
         
@@ -77,10 +77,10 @@ The DNS records can be either A (host) records or CNAME records, based on your a
 
 6.  For an internal DNS record, in the console tree of your DNS server, expand **Forward Lookup Zones** for your SIP domain (for example, contoso.com).
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you are creating an external DNS record, <STRONG>Forward Lookup Zones</STRONG> is already expanded for your SIP domain from step 3.
 
     
@@ -100,19 +100,19 @@ The DNS records can be either A (host) records or CNAME records, based on your a
     
       - For an external DNS record, type or browse to the external Web Services FQDN for your Director pool (for example, lyncwebextdir.contoso.com), and then click **OK**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you do not use a Director, use the internal and external Web Services FQDN for the Front End pool, or, for a single server, the FQDN for the Front End Server or Standard Edition server.
 
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > You must create a new Autodiscover CNAME record in the forward lookup zone of each SIP domain that you support in your Lync Server 2013 environment.
 
     
@@ -136,10 +136,10 @@ The DNS records can be either A (host) records or CNAME records, based on your a
     
       - For an internal DNS record, in the console tree of the DNS server, expand **Forward Lookup Zones** for your Active Directory domain (for example, contoso.local).
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > This domain is the Active Directory domain where your Lync Server 2013&nbsp;Director pool and Front End pool are installed.
 
         
@@ -161,10 +161,10 @@ The DNS records can be either A (host) records or CNAME records, based on your a
 
 6.  For an internal DNS record, in the console tree of your DNS server, expand **Forward Lookup Zones** for your SIP domain (for example, contoso.com).
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you are creating an external DNS record, <STRONG>Forward Lookup Zones</STRONG> is already expanded for your SIP domain from step 3.
 
     
@@ -178,10 +178,10 @@ The DNS records can be either A (host) records or CNAME records, based on your a
     
       - For an external DNS record, type lyncdiscover as the host name for the external Autodiscover Service URL.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The domain name is assumed from the zone in which the record is defined and, therefore, does not need to be entered as part of the A record.
 
     
@@ -191,10 +191,10 @@ The DNS records can be either A (host) records or CNAME records, based on your a
     
       - For an internal DNS record, type the internal Web Services IP address of the Director (or, if you use a load balancer, type the virtual IP (VIP) of the Director load balancer).
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > If you do not use a Director, type the IP address of the Front End Server or Standard Edition server, or, if you use a load balancer, type the VIP of the Front End pool load balancer.
 
         
@@ -206,10 +206,10 @@ The DNS records can be either A (host) records or CNAME records, based on your a
 
 11. To create an additional A record, repeat steps 8 through 10.
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > You must create a new lyncdiscover and lyncdiscoverinternal A records in the forward lookup zone of each SIP domain that you support in your Lync Server 2013 environment.
 
     

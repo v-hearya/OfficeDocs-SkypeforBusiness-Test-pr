@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-02-23_
 
 If a user has been enabled for Lync Server 2013 and you have created one or more user policies for archiving for users homed on Lync Server 2013, you can implement archiving support for specific users by applying the appropriate policies to those users or user groups. For example, if you create a policy to support archiving of internal communications, you can apply it to at least one user or user group to support archiving of the user’s Lync Server 2013 communications.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you enabled Microsoft Exchange integration for your deployment, Exchange In-Place Hold policies control whether archiving is enabled for the users who are homed on Exchange 2013 and have their mailboxes put on In-Place Hold. For details, see <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Setting up policies for Archiving in Lync Server 2013 when using Exchange Server integration</A> in the Deployment documentation.<BR>You should specify all appropriate options in the Archiving configurations before enabling Archiving. For details, see <A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Managing Archiving configuration options in Lync Server 2013 for your organization, sites, and pools</A> in the Operations documentation.
 
 
@@ -54,10 +54,10 @@ Use the procedure in this topic to apply a previously created Archiving user pol
 
 5.  In **Edit Lync Server User** under **Archiving policy**, select the archiving user policy that you want to apply.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The <STRONG>&lt;Automatic&gt;</STRONG> settings apply the default server installation settings. These settings are applied automatically by the server.
 
     
@@ -87,7 +87,7 @@ Per-user archiving policies can be assigned by using Windows PowerShell and the 
 
 ## To assign a per-user archiving policy to multiple users
 
-  - This command assigns the per-user archiving policy RedmondArchivingPolicy to all users who have accounts homed on the Registrar pool atl-cs-001.litwareinc.com. For details about the Filter parameter used in this command, see the [Get-CsUser](get-csuser.md) cmdlet documentation.
+  - This command assigns the per-user archiving policy RedmondArchivingPolicy to all users who have accounts homed on the Registrar pool atl-cs-001.litwareinc.com. For details about the Filter parameter used in this command, see the [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) cmdlet documentation.
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -103,7 +103,7 @@ Per-user archiving policies can be assigned by using Windows PowerShell and the 
 
 </div>
 
-For details, see the [Grant-CsArchivingPolicy](grant-csarchivingpolicy.md) cmdlet documentation.
+For details, see the [Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy) cmdlet documentation.
 
 </div>
 

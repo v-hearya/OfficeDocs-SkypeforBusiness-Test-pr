@@ -105,9 +105,9 @@ The settings for the negotiation types in the configuration of an XMPP Partner h
 <td><p>Required</p></td>
 <td><p>True</p></td>
 <td><p>SASL over TLS</p></td>
-<td><div class="alert">
+<td><div>
 
-> [!WARNING]
+> [!WARNING]  
 > Dialback will not operate if both SASL and TLS are required.
 
 
@@ -125,9 +125,9 @@ The settings for the negotiation types in the configuration of an XMPP Partner h
 <td><p>Required</p></td>
 <td><p>True</p></td>
 <td><p>SASL over TLS, TLS Dialback, TCP Dialback</p></td>
-<td><div class="alert">
+<td><div>
 
-> [!WARNING]
+> [!WARNING]  
 > SASL requires TLS. Allowing TLS to be optional may result in failed session negotiations.
 
 
@@ -138,9 +138,9 @@ The settings for the negotiation types in the configuration of an XMPP Partner h
 <td><p>Required</p></td>
 <td><p>False</p></td>
 <td><p>SASL over TLS</p></td>
-<td><div class="alert">
+<td><div>
 
-> [!WARNING]
+> [!WARNING]  
 > SASL requires TLS. Allowing TLS to be optional may result in failed session negotiations.
 
 
@@ -151,9 +151,9 @@ The settings for the negotiation types in the configuration of an XMPP Partner h
 <td><p>Required</p></td>
 <td><p>True</p></td>
 <td><p>TCP Dialback</p></td>
-<td><div class="alert">
+<td><div>
 
-> [!WARNING]
+> [!WARNING]  
 > SASL requires TLS. Allowing TLS to be optional may result in failed session negotiations.
 
 
@@ -163,16 +163,16 @@ The settings for the negotiation types in the configuration of an XMPP Partner h
 <td><p>Not Supported</p></td>
 <td><p>Required</p></td>
 <td><p>False</p></td>
-<td><div class="alert">
+<td><div>
 
-> [!WARNING]
+> [!WARNING]  
 > Not Valid Configuration
 
 
 </div></td>
-<td><div class="alert">
+<td><div>
 
-> [!WARNING]
+> [!WARNING]  
 > Because SASL requires TLS, and TLS is not available, SASL/TLS cannot succeed. TCP Dialback is set to false, and cannot be used.
 
 
@@ -197,9 +197,9 @@ The settings for the negotiation types in the configuration of an XMPP Partner h
 <td><p>Optional</p></td>
 <td><p>True</p></td>
 <td><p>SASL over TLS, TLS Dialback, TCP Dialback</p></td>
-<td><div class="alert">
+<td><div>
 
-> [!WARNING]
+> [!WARNING]  
 > SASL requires TLS. Allowing TLS to be optional may result in failed session negotiations.
 
 
@@ -210,9 +210,9 @@ The settings for the negotiation types in the configuration of an XMPP Partner h
 <td><p>Optional</p></td>
 <td><p>False</p></td>
 <td><p>SASL over TLS</p></td>
-<td><div class="alert">
+<td><div>
 
-> [!WARNING]
+> [!WARNING]  
 > SASL requires TLS. Allowing TLS to be optional may result in failed session negotiations.
 
 
@@ -223,9 +223,9 @@ The settings for the negotiation types in the configuration of an XMPP Partner h
 <td><p>Optional</p></td>
 <td><p>True</p></td>
 <td><p>TCP Dialback</p></td>
-<td><div class="alert">
+<td><div>
 
-> [!WARNING]
+> [!WARNING]  
 > SASL requires TLS. Allowing TLS to be optional may result in failed session negotiations.
 
 
@@ -235,16 +235,16 @@ The settings for the negotiation types in the configuration of an XMPP Partner h
 <td><p>Not Supported</p></td>
 <td><p>Optional</p></td>
 <td><p>False</p></td>
-<td><div class="alert">
+<td><div>
 
-> [!WARNING]
+> [!WARNING]  
 > Not Valid Configuration
 
 
 </div></td>
-<td><div class="alert">
+<td><div>
 
-> [!WARNING]
+> [!WARNING]  
 > SASL requires TLS. Allowing TLS to be optional may result in failed session negotiations.
 
 
@@ -262,9 +262,9 @@ The settings for the negotiation types in the configuration of an XMPP Partner h
 <td><p>Not Supported</p></td>
 <td><p>False</p></td>
 <td><p>Not Valid Configuration</p></td>
-<td><div class="alert">
+<td><div>
 
-> [!WARNING]
+> [!WARNING]  
 > SASL or Dialback must be enabled.
 
 
@@ -282,9 +282,9 @@ The settings for the negotiation types in the configuration of an XMPP Partner h
 <td><p>Not Supported</p></td>
 <td><p>False</p></td>
 <td><p>Not Valid Configuration</p></td>
-<td><div class="alert">
+<td><div>
 
-> [!WARNING]
+> [!WARNING]  
 > SASL or Dialback must be enabled.
 
 
@@ -302,9 +302,9 @@ The settings for the negotiation types in the configuration of an XMPP Partner h
 <td><p>Not Supported</p></td>
 <td><p>False</p></td>
 <td><p>Not Valid Configuration</p></td>
-<td><div class="alert">
+<td><div>
 
-> [!WARNING]
+> [!WARNING]  
 > SASL or Dialback must be enabled.
 
 

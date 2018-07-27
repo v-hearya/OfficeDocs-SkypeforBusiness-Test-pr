@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2012-09-10_
 
 The Call Park application uses extension numbers in the Call Park orbit table to park calls. You need to configure the Call Park orbit table with the ranges of extension numbers that your organization reserves for parked calls. These extensions need to be virtual extensions (that is, extensions that have no user or phone assigned to them). Each Lync Server pool where a Call Park application is deployed and configured can have one or more orbit ranges. Orbit ranges must be globally unique across the Lync Server deployment.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > You must select the <STRONG>Enable call park</STRONG> check box in your voice policy before you can use Call Park. By default, this option is not selected.
 
 

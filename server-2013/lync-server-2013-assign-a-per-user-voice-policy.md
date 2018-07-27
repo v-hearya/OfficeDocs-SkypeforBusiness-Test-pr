@@ -8,27 +8,12 @@ ms.date: 07/23/2014
 mtps_version: v=OCS.15
 ---
 
-<div data-xmlns="http://www.w3.org/1999/xhtml">
-
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
-
-<div data-asp="http://msdn2.microsoft.com/asp">
-
 # Assign a per-user voice policy in Lync Server 2013
 
-</div>
+ 
 
-<div id="mainSection">
-
-<div id="mainBody">
-
-<span> </span>
-
-_**Topic Last Modified:** 2013-02-22_
 
 Global and site-level voice policies are automatically assigned to all Lync Server 2013 user accounts that are enabled for Enterprise Voice. You can also assign voice policies to specific users by using either the Lync Server 2013 Control Panel or the Lync Server 2013 Management Shell. Use the procedures in this topic to explicitly assign per-user policies to Lync Server users.
-
-<div>
 
 ## To assign a user-specific voice policy using the Lync Server Control Panel
 
@@ -42,24 +27,15 @@ Global and site-level voice policies are automatically assigned to all Lync Serv
 
 5.  In **Edit Lync Server User** under **Voice policy**, select the user policy that you want to apply.
     
-    <div class="alert">
-    
 
-    > [!NOTE]
+    > [!NOTE]  
     > The <STRONG>&lt;Automatic&gt;</STRONG> settings apply the default server or global policy settings.
 
-    
-    </div>
 
-</div>
-
-<div>
 
 ## Assigning a Per-User Voice Policy by using Windows PowerShell Cmdlets
 
 You can assign per-user voice policies by using Windows PowerShell and the **Grant-CsVoicePolicy** cmdlet. You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
-
-<div>
 
 ## To assign a per-user voice policy to a single user
 
@@ -67,19 +43,11 @@ You can assign per-user voice policies by using Windows PowerShell and the **Gra
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "RedmondVoicePolicy"
 
-</div>
-
-<div>
-
 ## To assign a per-user voice policy to multiple users
 
-  - This command assigns the per-user voice policy FinanceVoicePolicy to all the users who have accounts in the Finance OU in Active Directory. For more information on the OU parameter used in this command, see the documentation for the [Get-CsUser](get-csuser.md) cmdlet.
+  - This command assigns the per-user voice policy FinanceVoicePolicy to all the users who have accounts in the Finance OU in Active Directory. For more information on the OU parameter used in this command, see the documentation for the [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) cmdlet.
     
         Get-CsUser -OU "ou=Finance,ou=North America,dc=litwareinc,dc=com" | Grant-CsVoicePolicy -PolicyName "FinanceVoicePolicy"
-
-</div>
-
-<div>
 
 ## To unassign a per-user voice policy
 
@@ -87,13 +55,7 @@ You can assign per-user voice policies by using Windows PowerShell and the **Gra
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 
-</div>
-
-For more information, see the help topic for the [Grant-CsVoicePolicy](grant-csvoicepolicy.md) cmdlet.
-
-</div>
-
-<div>
+For more information, see the help topic for the [Grant-CsVoicePolicy](https://technet.microsoft.com/en-us/library/gg398828\(v=ocs.15\)) cmdlet.
 
 ## See Also
 
@@ -101,18 +63,5 @@ For more information, see the help topic for the [Grant-CsVoicePolicy](grant-csv
 [Disable a user for Enterprise Voice in Lync Server 2013](lync-server-2013-disable-a-user-for-enterprise-voice.md)  
 
 
-[Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md)  
-  
-
-</div>
-
-</div>
-
-<span> </span>
-
-</div>
-
-</div>
-
-</div>
+[Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md)
 

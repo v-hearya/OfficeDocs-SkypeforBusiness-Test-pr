@@ -26,10 +26,10 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2014-07-24_
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details about hardware requirements, see <A href="lync-server-2013-server-hardware-platforms.md">Server hardware platforms for Lync Server 2013</A>.
 
 
@@ -44,10 +44,10 @@ Servers running Lync Server 2013, Enterprise Edition are intended for large orga
 
 ## Operating System Installation
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Lync Server 2013 is available only in a 64-bit edition, which requires 64-bit hardware and a 64-bit edition of the Windows Server operating system. A 32-bit edition of Lync Server 2013 is not available with this release.
 
 
@@ -64,10 +64,10 @@ Standard Edition and Enterprise Edition server can use any of the following:
 
 Install the operating system software on the Standard Edition Server or Enterprise Edition Front End Server. Apply all updates in order to bring the operating system up to the latest update and required update level consistent with your organization’s standards. For more details about the operating requirements, see [Server and tools operating system support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in the Supportability documentation.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For Lync Server 2013 to work on Windows Server 2012 R2, you may need to change the value of a registry key in Windows Server. This change may be necessary for certificates to work correctly, and for clients to register with Survivable Branch Appliances. For more information, see <A class=uri href="http://support.microsoft.com/kb/2901554">http://support.microsoft.com/kb/2901554</A>.
 
 
@@ -98,10 +98,10 @@ Additionally, Windows PowerShell command-line interface 3.0 and Microsoft .NET F
 
 Lync Server 2013 requires you to install Windows PowerShell 3.0 on each computer that will take part in your Lync Server topology. For details about installing Windows PowerShell 3.0, see [Installing Windows PowerShell 3.0 for Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md).
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > On Windows Server&nbsp;2008&nbsp;R2 with SP1, Windows PowerShell command-line interface 3.0 cannot be installed before installing Microsoft .NET Framework 4.5.
 
 

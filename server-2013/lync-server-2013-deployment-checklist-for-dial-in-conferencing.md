@@ -30,10 +30,10 @@ The components required for dial-in conferencing are deployed when you deploy th
 
 All the steps in the following table must be performed before users can dial in from the PSTN to join an audio/video conference.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you are migrating from Office Communications Server 2007 R2, you must apply the latest updates to your Office Communications Server 2007 R2 environment before deploying dial-in conferencing.
 
 
@@ -64,9 +64,9 @@ All the steps in the following table must be performed before users can dial in 
 <li><p>Run Topology Builder to configure your topology. While configuring the topology, select the dial-in conferencing option.</p></li>
 <li><p>Publish the topology and deploy the Front End pool or Standard Edition server.</p></li>
 <li><p>If necessary, create a stand-alone Mediation Server and associate it with a PSTN gateway.</p>
-<div class="alert">
+<div>
 
-> [!NOTE]
+> [!NOTE]  
 > This step is required only if you do not deploy Enterprise Voice and do not collocate the Mediation Server with the Enterprise EditionFront End Server or Standard Edition server. If you deploy Enterprise Voice, you install and configure Mediation Servers and PSTN gateways as part of the Enterprise Voice deployment. If you collocate the Mediation Server, you install and configure the Mediation Server as part of the Front End pool or Standard Edition server deployment.
 
 
@@ -127,9 +127,9 @@ All the steps in the following table must be performed before users can dial in 
 <tr class="even">
 <td><p><strong>Configure dial-in access numbers</strong></p></td>
 <td><p>Use Lync Server 2013 Control Panel or Lync Server Management Shell to set up dial-in access numbers that users call to dial in to a conference, and specify the regions that associate the access number with the appropriate dial plans. The first three access numbers for the region specified by the organizer's dial plan are included in the conference invitation. All access numbers are available on the Dial-in Conferencing Settings page.</p>
-<div class="alert">
+<div>
 
-> [!NOTE]
+> [!NOTE]  
 > After you create dial-in access numbers, you can use the <STRONG>Set-CsDialInConferencingAccessNumber</STRONG> cmdlet to modify the display name of the Active Directory contact objects so that users can more easily identify the correct access number.
 
 

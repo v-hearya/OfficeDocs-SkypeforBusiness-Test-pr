@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-02-23_
 
 You can delete a user policy or site policy. The global policy cannot be removed. If you try to delete the global policy, Lync Server 2013 automatically resets the policy to the default values.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you enabled Microsoft Exchange integration for your deployment, Exchange policies control whether archiving is enabled for the users who are homed on Exchange 2013 and have their mailboxes put on In-Place Hold. For details, see <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Setting up policies for Archiving in Lync Server 2013 when using Exchange Server integration</A> in the Deployment documentation.
 
 
@@ -90,7 +90,7 @@ Archiving policies can be deleted by using Windows PowerShell and the **Remove-C
 
 </div>
 
-For more information, see the help topic for the [Remove-CsArchivingPolicy](remove-csarchivingpolicy.md) cmdlet.
+For more information, see the help topic for the [Remove-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsArchivingPolicy) cmdlet.
 
 </div>
 

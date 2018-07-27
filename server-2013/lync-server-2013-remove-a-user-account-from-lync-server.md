@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-02-22_
 
 You can use the following procedure to remove a previously added user account in Lync Server 2013.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Removing a user will cause you to lose any settings you configured for the user account. If you would like to temporarily disable a user account instead, see the topic <A href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Disable or re-enable user account for Lync Server 2013</A>.
 
 
@@ -76,7 +76,7 @@ You can remove user accounts by using the Disable-CsUser cmdlet. This cmdlet can
 
 </div>
 
-For more information, see the help topic for the [Disable-CsUser](disable-csuser.md) cmdlet.
+For more information, see the help topic for the [Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser) cmdlet.
 
 </div>
 

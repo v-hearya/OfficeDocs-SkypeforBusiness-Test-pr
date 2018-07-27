@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-02-19_
 
 Microsoft Lync 2013 has a redesigned user interface and important new features. For administrators, the client is now included with the Office setup program, providing a more streamlined approach to deploying Office and customizing clients in your organization.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For an illustrated view of Lync 2013 user interface updates, see “What’s New in Lync 2013” at <A href="http://go.microsoft.com/fwlink/?linkid=273885">http://go.microsoft.com/fwlink/?LinkId=273885</A>.
 
 
@@ -52,10 +52,10 @@ In previous versions of Lync and Office Communicator, you could use Windows Inst
 
   - Use Setup Command-Line Options
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The Lync 2013 setup program does not uninstall previous versions of Lync or Office Communicator. The Lync 2013 client installs side-by-side with other Lync or Office Communicator clients
 
 

@@ -44,10 +44,10 @@ Help improve the security of devices running Lync Phone Edition via your SIP sec
 
 6.  In **Edit Device Configuration**, under **Phone Lock**, select or clear the **Enforce device locking** check box (selected by default) and specify the minimum PIN length (6 characters by default) and timeout period (10 minutes by default). We recommend using these defaults or increasing the PIN length and/or decreasing the timeout period.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For details, see <A href="lync-server-2013-enforce-phone-locking.md">Enforce phone locking in Lync Server 2013</A>.
 
     
@@ -81,7 +81,7 @@ Security settings can be managed by using Lync Server Management Shell and the *
 
 </div>
 
-For details, see [Get-CsUCPhoneConfiguration](get-csucphoneconfiguration.md).
+For details, see [Get-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUCPhoneConfiguration).
 
 </div>
 

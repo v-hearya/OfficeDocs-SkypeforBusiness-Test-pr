@@ -58,9 +58,9 @@ The default music on hold is played when a call is placed on hold only if no cus
 ## See Also
 
 
-[Get-CsRgsConfiguration](get-csrgsconfiguration.md)  
-[Set-CsRgsConfiguration](set-csrgsconfiguration.md)  
-[Import-CsRgsAudioFile](import-csrgsaudiofile.md)  
+[Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration)  
+[Set-CsRgsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsConfiguration)  
+[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile)  
   
 
 </div>

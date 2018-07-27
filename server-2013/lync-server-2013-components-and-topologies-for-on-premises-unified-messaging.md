@@ -54,10 +54,10 @@ Lync Server 2013 supports the following topologies for Exchange UM integration:
 
   - Multiple forest (that is, resource forest). Lync Server 2013 is deployed in a single forest, and then users are distributed across multiple forests. The users’ Exchange UM attributes must be replicated over to the Lync Server 2013 forest.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Exchange can be deployed in multiple forests. Each Exchange organization can provide Exchange UM to its users, or Exchange UM can be deployed in the same forest as Lync Server 2013.
 
     

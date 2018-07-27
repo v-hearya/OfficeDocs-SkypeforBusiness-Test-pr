@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2012-12-12_
 
 The certificates for your Director pool, Front End pool, and reverse proxy require additional subject alternative name entries to support secure connections with Lync clients.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You can use the <STRONG>Get-CsCertificate</STRONG> cmdlet to view information about the currently assigned certificates. However, the default view truncates the properties of the certificate and does not display all values in the SubjectAlternativeNames property. You can use the <STRONG>Get-CsCertificate</STRONG> , <STRONG>Request-</STRONG>CsCertificate and the <STRONG>Set-CsCertificate</STRONG> cmdlets to view some information and to request and assign certificates. However, it’s not the best method to use if you are unsure of the properties of the subject alternative names (SAN) on the current certificate. To view the certificate and all property members, it is suggested to use the Certificates snap-in the <EM>Microsoft Management Console (MMC)</EM> or to use the Lync Server Deployment Wizard. In the Lync Server Deployment Wizard, you can use the Certificate Wizard to view the certificate properties. The procedures for viewing, requesting and assigning a certificate using the Lync Server Management Shell and the <EM>Microsoft Management Console (MMC)</EM> are detailed in the following procedures. To use the Lync Server Deployment Wizard, see details here if you have deployed the optional Director or Director pool: <A href="lync-server-2013-configure-certificates-for-the-director.md">Configure certificates for the Director in Lync Server 2013</A>. For the Front End Server or Front End pool, see the details here: <A href="lync-server-2013-configure-certificates-for-servers.md">Configure certificates for servers in Lync Server 2013</A>.<BR>The initial steps in this procedure are preparation steps, to orient you as to what role the current certificates play. By default, the certificates will not have a lyncdiscover.&lt;sipdomain&gt; or lyncdiscoverinternal.&lt;internal domain name&gt; entry unless you have previously installed Mobility Services or have prepared your certificates in advance. This procedure uses the example SIP domain name ‘contoso.com’ and the example internal domain name ‘contoso.net’.<BR>The default certificate configuration for Lync Server 2013 and Lync Server 2010 is to use a single certificate (named ‘Default’) with the purposes Default (for all purposes except for the web services), WebServicesExternal and WebServicesInternal. An optional configuration is to use separate certificates for each purpose. Certificates can be managed by using the Lync Server Management Shell and Windows PowerShell cmdlets, or by using the Certificate Wizard in the Lync Server Deployment Wizard.
 
 
@@ -74,10 +74,10 @@ The certificates for your Director pool, Front End pool, and reverse proxy requi
 
 8.  If the certificate is located on this computer, select **Local computer**. If the certificate is located on another computer, select **Another computer**, type in the fully qualified domain name of the computer or click **Browse** In **Enter the object name to select**, type the name of the computer. Click **Check Names**. When the name of the computer is resolved, it will be underlined. Click **OK**, then click **Finish**. Click **OK** to commit the selection and close the **Add or Remove Snap-ins** dialog.
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If the certificate does not show up in the console, ensure that you have not selected User or Service. You must select Computer, or you will not be able to locate the probper certificate.
 
     

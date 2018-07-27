@@ -40,10 +40,10 @@ To view information for an existing dial plan, perform the steps in the followin
 
 4.  On the **Dial Plan** page, double-click a dial plan name.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can view information for only one dial plan at a time.
 
     

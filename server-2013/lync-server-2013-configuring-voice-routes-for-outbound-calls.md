@@ -38,10 +38,10 @@ A Lync Server 2013 voice route associates destination phone numbers with one or 
 
 4.  Double-click a voice route to view additional properties from the list of voice routes, or select the route and click **Edit**. Then click **Show details**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can only view detailed information for a single route at a time.
 
     
@@ -67,10 +67,10 @@ A Lync Server 2013 voice route associates destination phone numbers with one or 
         SuppressCallerId  :
         AlternateCallerId :
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details, see <A href="lync-server-2013-voice-routes.md">Voice routes in Lync Server 2013</A> in the Planning documentation.
 
 

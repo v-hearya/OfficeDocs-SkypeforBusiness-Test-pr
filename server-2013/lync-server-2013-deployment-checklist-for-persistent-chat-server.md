@@ -133,10 +133,10 @@ The following table lists the basic steps to deploy Persistent Chat Server and p
 </table>
 
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > You can deploy one or more Persistent Chat Server pools. We support multiple Persistent Chat Server pools for regulatory reasons whereby data generated in a given region is required to stay in that region. For example, if you deploy a Persistent Chat Server pool in Chicago, and another in Zurich to comply with regulations for data in Switzerland, users can connect to rooms in both the Persistent Chat Server pools, provided they have access.
 
 

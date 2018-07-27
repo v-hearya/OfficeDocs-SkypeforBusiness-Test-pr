@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2012-09-10_
 
 Call Park is a call management feature that is installed by default when you deploy Enterprise Voice. This topic describes what you need to have in place before you can configure Call Park and the user rights that you need to perform configuration tasks.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Customized music-on-hold files for the Call Park application are not backed up as part of the Lync Server 2013 disaster recovery process, and the files will be lost if the files uploaded to the pool are damaged, corrupted, or erased. Always keep a separate backup copy of the customized music-on-hold files that you have uploaded for Call Park.
 
 
@@ -78,10 +78,10 @@ Configuring Call Park requires any of the following administrative roles, depend
 
   - **CsAdministrator:** This administrator role can perform all of the tasks of CsVoiceAdministrator, CsServerAdministrator, and CsUserAdministrator.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details about administrative rights, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation.
 
 

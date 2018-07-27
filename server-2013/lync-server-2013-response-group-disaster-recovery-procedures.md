@@ -52,10 +52,10 @@ Use the steps in the following procedure to prepare for and perform disaster rec
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:backup.contoso.com" -FileName "C:\RgsExportPrimary.zip" -ReplaceExistingSettings
     
-    <div class="alert">
+    <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > If you do not replace the settings in the backup pool and the primary pool can't be recovered, the primary pool settings will be lost. For details, see <A href="lync-server-2013-planning-for-response-group-disaster-recovery.md">Planning for response group disaster recovery in Lync Server 2013</A>.
 
     
@@ -107,10 +107,10 @@ Use the steps in the following procedure to prepare for and perform disaster rec
     
         Get-CsRgsWorkflow -Identity "service:ApplicationServer:<backup pool FQDN>" -ShowAll
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > You must use either the –ShowAll parameter or the –Owner parameter. If you do not use either of these parameters, the response groups that you imported to the backup pool will not be listed in the results returned by the cmdlets.
 
     
@@ -122,10 +122,10 @@ Use the steps in the following procedure to prepare for and perform disaster rec
 
 7.  Manage and modify the imported response groups as usual.
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > While the response groups are in the backup pool, you need to use Lync Server Management Shell to manage them. You cannot use Lync Server Control Panel to manage the response groups that you imported to the backup pool.
 
     
@@ -143,10 +143,10 @@ Use the steps in the following procedure to prepare for and perform disaster rec
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:primary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip"
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you rebuild a pool during recovery, whether with the same or a different fully qualified domain name (FQDN), you need to use the –OverwriteOwner parameter. As a rule of thumb, you can always use the –OverwriteOwner parameter when you import response groups back to the primary pool.
 
     
@@ -160,10 +160,10 @@ Use the steps in the following procedure to prepare for and perform disaster rec
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:newprimary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip" -ReplaceExistingSettings
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If you don't want to replace the application-level settings and default music-on-hold audio file for the new pool with the settings from the backup pool, the new pool will use the default application-level settings.
 
     
@@ -221,10 +221,10 @@ Use the steps in the following procedure to prepare for and perform disaster rec
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer:primary.contoso.com" -FileName "C:\RgsExportPrimaryUpdated.zip" -RemoveExportedConfiguration
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This step creates a new file with the exported configuration, and then removes it from the backup pool.
 
     

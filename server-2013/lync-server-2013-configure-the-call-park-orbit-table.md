@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2012-09-10_
 
 Call Park uses orbits for parking calls. Before users can park and retrieve calls, you must configure the Call Park orbit table. You need to specify the ranges of extension numbers (orbits) that your organization will reserve for parking calls and define the routing for those ranges by specifying which Call Park pool handles each range. When you define orbit ranges, the goal is to have enough orbits so that any one orbit is not reused too quickly, but not so many orbits that you limit the number of extensions available for users or other services. You can create multiple Call Park orbit ranges for each Lync Server pool where the Call Park application is deployed. Each Call Park orbit range must have a globally unique name and a unique set of extensions.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > An orbit range typically encompasses 100 or fewer orbits. Each range can be much larger, as long as it is smaller than the maximum of 10,000 orbits per range and you have fewer than 50,000 orbits per pool. If a range is too small, the orbits are reused more quickly.
 
 
@@ -40,10 +40,10 @@ Call Park uses orbits for parking calls. Before users can park and retrieve call
 
 Use blocks of virtual extensions (extensions that have no user or phone assigned to them) for your orbit ranges.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Assigning Direct Inward Dialing (DID) numbers as orbit numbers in the Call Park orbit table is not supported.
 
 

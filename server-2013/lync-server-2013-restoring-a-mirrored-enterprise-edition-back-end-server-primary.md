@@ -48,10 +48,10 @@ In this topic, the example primary database will have a fully qualified domain n
     
         Invoke-CsDataBaseFailover -PoolFqdn pool0.vdomain.com -DatabaseType User -NewPrincipal Mirror -Force -Verbose
     
-    <div class="alert">
+    <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > If you have configured your back-end database to use synchronized mirroring with a witness, failover is automatic.
 
     

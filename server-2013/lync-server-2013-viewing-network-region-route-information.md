@@ -40,10 +40,10 @@ Every region within a call admission control (CAC) configuration must have some 
 
 4.  On the **Region Route** page, click the region route that you want to view.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can only view one region route at a time.
 
     
@@ -77,7 +77,7 @@ Network region route information can be viewed by using Windows PowerShell and t
 
 </div>
 
-For more information, see the help topic for the [Get-CsNetworkInterRegionRoute](get-csnetworkinterregionroute.md) cmdlet.
+For more information, see the help topic for the [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterRegionRoute) cmdlet.
 
 </div>
 

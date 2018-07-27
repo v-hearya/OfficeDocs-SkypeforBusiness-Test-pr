@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2015-03-19_
 
 Persistent Chat Server provides the concept of Allowed/Denied members, which applies to Persistent Chat categories and controls who can access rooms in a particular category.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Allowed/Denied members in a Category is not the same as a <STRONG>Member</STRONG> role, which applies to a Persistent Chat room.<BR>Searches display all open and closed chat rooms for which the user performing the search is in the Allowed/Denied member list. Secret rooms are not displayed unless the user who performs the search is a member of the secret room. The user can search only for rooms that he or she is already a member of, or those for which they can request membership.
 
 
@@ -44,10 +44,10 @@ Following are the four user roles Persistent Chat Server:
 
   - **Creator:** Users who have permissions to create chat rooms. These users are in the Creators list of certain categories: they can create chat rooms in that category, and they can also assign membership according to the category, and assign managers to manage the chat room. The user who creates a chat room is automatically added as a manager of the room.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Being a Creator simply provides rights for creating chat rooms. It is the automatic promotion to Manager that enables the Creator to further refine memberships, managers, and so on, on the created chat services.
 
     
@@ -57,10 +57,10 @@ Following are the four user roles Persistent Chat Server:
 
   - **Manager:** Users who manage properties of a chat room. Chat room managers can modify the member list (add and remove members), and modify the chat room managers list (add and remove managers). Chat room managers can add themselves to the members or presenters list (for auditorium rooms) so they can participate in the chat room. Chat room managers can also disable chat rooms (administrators can query for disabled chat rooms and can permanently delete them). Managers can change all the properties of a chat room, except the category of the chat room. Only the Persistent Chat Administrator can change the category after the chat room has been created.
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If the manager is also a Creator in another category, he or she can change the category to one where they are authorized to create rooms.
 
     
@@ -70,10 +70,10 @@ Following are the four user roles Persistent Chat Server:
 
   - **Presenter:** Users who can post to an auditorium room.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Persistent Chat Server lets users create and manage chat room for a specific site. Users cannot, however, create or manage chat rooms on other sites within the same topology. Be sure to specify chat room Creators and Managers for all the sites in your organization.
 
 

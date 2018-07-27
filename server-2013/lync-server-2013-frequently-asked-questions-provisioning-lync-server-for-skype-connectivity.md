@@ -86,10 +86,10 @@ _**Topic Last Modified:** 2016-12-27_
 
   - Session Initiation Protocol (SIP) domain(s). This is the domain suffix of the SIP URI that users currently use for instant messaging. If your organization has more than one SIP domain, specify the domain suffix for each domain used for instant messaging. For example, for user1@contoso.com, specify contoso.com for the SIP domain; for user1@example.fabrikam.com, specify example.fabrikam.com as the SIP domain.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Specify only the domain suffix for the SIP domain. Do not specify any FQDNs, including the FQDN for the Access Edge service, for the SIP domain.
 
     

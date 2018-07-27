@@ -59,20 +59,20 @@ If you do not have backup copies of customized audio files, and the original aud
 
 To use the Announcement application during an outage, you need to recreate the announcement configuration in the backup pool by performing the tasks described in this section.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > We recommend that you perform these tasks after you fail over to the backup pool, because as soon as you perform step 2, the backup pool takes ownership of the unassigned number ranges.
 
 
 
 </div>
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > These steps are not required for number ranges that use an Exchange UM Auto Attendant phone number.
 
 
@@ -87,10 +87,10 @@ To use the Announcement application during an outage, you need to recreate the a
     
     2.  Recreate each announcement by using the **New-CsAnnouncement** cmdlet and specifying the backup pool for the Parent parameter.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For details about using these parameters to create announcements in the backup pool, see <A href="lync-server-2013-create-an-announcement.md">Create an announcement in Lync Server 2013</A>.
 
     
@@ -110,10 +110,10 @@ To use the Announcement application during an outage, you need to recreate the a
 
 When the primary pool becomes available, you need to redirect the unassigned number ranges that you changed for the outage back to the primary pool.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > These steps are not required for number ranges that use an Exchange UM Auto Attendant phone number.
 
 

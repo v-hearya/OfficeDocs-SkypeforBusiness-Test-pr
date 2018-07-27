@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-07-03_
 
 The following section describes how to configure Active Directory Federation Services (AD FS 2.0) to support multi-factor authentication. For information on how to install AD FS 2.0, see AD FS 2.0 Step-by-Step and How To Guides at [http://go.microsoft.com/fwlink/p/?LinkId=313374](http://go.microsoft.com/fwlink/p/?linkid=313374).
 
-<div class="alert">
+<div class="">
 
 
-> [!NOTE]
+> [!NOTE]  
 > When installing AD FS 2.0, do not use the Windows Server Manager to add the Active Directory Federation Services role. Instead, download and install the Active Directory Federation Services 2.0 RTW package at <A href="http://go.microsoft.com/fwlink/p/?linkid=313375">http://go.microsoft.com/fwlink/p/?LinkId=313375</A>.
 
 
@@ -63,16 +63,24 @@ The following section describes how to configure Active Directory Federation Ser
 
 8.  Create and assign an Issuance Authorization Rule for your relying party trust using Windows PowerShell by running the following commands:
     
+       ```
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
+       ```
     
+       ```
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth 
         -IssuanceAuthorizationRules $IssuanceAuthorizationRules
+       ```
 
 9.  Create and assign an Issuance Transform Rule for your relying party trust using Windows PowerShell by running the following commands:
     
+       ```
         $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
+       ```
     
+       ```
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
+       ```
 
 10. From the AD FS 2.0 Management console, right click on your relying party trust and select **Edit Claim Rules**.
 

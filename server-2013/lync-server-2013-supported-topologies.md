@@ -36,10 +36,10 @@ A Lync Server 2013 on-premises deployment consists of the following:
     
       - Enterprise Edition Front End pool, which consists of one or more Front End Servers (typically, at least two Front End Servers for scalability) and a separate Back End Server. A Front End pool can contain a maximum of twelve Front End Servers. Load balancing is required for multiple Front End Servers. For SIP traffic, we recommend DNS load balancing, but hardware load balancing is also supported. If you use DNS load balancing for SIP traffic, you still need a hardware load balancer for HTTP traffic. We recommend SQL Server mirroring for high availability of databases. The back-end database requires a separate instance, but you can collocate the archiving database, monitoring database, persistent chat database, and persistent chat compliance database with it. Lync Server 2013 supports the use of a shared cluster for the file shares in your deployment. For details about database storage requirements, see [Database software support in Lync Server 2013](lync-server-2013-database-software-support.md). For details about file storage requirements, see [File storage support in Lync Server 2013](lync-server-2013-file-storage-support.md).
         
-        <div class="alert">
+        <div>
         
 
-        > [!IMPORTANT]
+        > [!IMPORTANT]  
         > If you collocate Lync Server databases, we highly recommend assessing all factors that might affect availability and performance. To verify failover capabilities, we recommend testing all failover scenarios.
 
         
@@ -51,10 +51,10 @@ A Lync Server 2013 on-premises deployment consists of the following:
 
 This section describes the sites and components of a Lync Server 2013 deployment. For details about Lync Server 2013 site, topology, and component planning, see [Topology basics you must know before planning for Lync Server 2013](lync-server-2013-topology-basics-you-must-know-before-planning.md) and [Reference topologies in Lync Server 2013](lync-server-2013-reference-topologies.md) in the Planning documentation. For details about integration of components of previous releases, see [Supported migration paths and coexistence scenarios in Lync Server 2013](lync-server-2013-supported-migration-paths-and-coexistence-scenarios.md).
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Stretched pools are not supported for the Front End, Edge, Mediation, and Director server roles.
 
 
@@ -87,10 +87,10 @@ Although a central site topology must include one Front End pool or one Standard
 
   - Reverse proxy, which is not a Lync Server 2013 component, but is required if you want to support sharing of web content for federated users or to support Mobility traffic. You cannot collocate a reverse proxy server with any Lync Server 2013 server role, but you can implement reverse proxy support for a Lync Server 2013 deployment by configuring the support on an existing reverse proxy server in your organization that is used for other applications. For details about reverse proxy servers, see [Setting up reverse proxy servers for Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md) in the Deployment documentation.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In Lync Server 2013, A/V Conferencing, Monitoring, and Archiving run on Front End Servers and are no longer separate server roles.
 
 
@@ -113,10 +113,10 @@ All Front End pools and Standard Edition servers that you deploy at a central si
 
   - Archiving
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > An Exchange UM Server can be implemented with your Lync Server 2013 deployment if you want to support integration of Exchange 2013 Unified Messaging, but it is not a component of the Lync Server 2013 site.
 
 
@@ -135,10 +135,10 @@ Multiple central sites can also share any of the following that you deploy in on
 
   - Monitoring
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > An Exchange UM Server can be implemented with your Lync Server 2013 deployment and shared by multiple central sites, but it is not a component of the Lync Server 2013 site.
 
 

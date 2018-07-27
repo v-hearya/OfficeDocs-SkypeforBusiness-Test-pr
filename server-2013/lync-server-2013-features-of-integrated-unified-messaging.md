@@ -60,10 +60,10 @@ Auto attendant is an Exchange UM feature that can be used to configure a phone n
 
 Exchange UM includes fax features, which enable users to receive incoming faxes in their Exchange mailboxes. For details, see "Unified Messaging" in the Microsoft Exchange Server documentation at [http://go.microsoft.com/fwlink/p/?linkId=135652](http://go.microsoft.com/fwlink/p/?linkid=135652).
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Fax services provided by the Exchange UM server are not available in Lync Server deployments that are integrated with Microsoft Exchange Server 2010, Exchange 2010 with the latest service pack, or Exchange 2013.
 
 

@@ -104,9 +104,9 @@ The following table summarizes these recommendations.
 <tr class="even">
 <td><p>A/V Conferencing</p></td>
 <td><p>The A/V Conferencing service provided by a Front End pool supports the pool’s conferences assuming a maximum conference size of 250 users, and only one such large conference running at a time.</p>
-<div class="alert">
+<div>
 
-> [!NOTE]
+> [!NOTE]  
 > Additionally, you can support large conferences of between 250 and 1000 users by deploying a separate Front End pool with two Front End Servers to host the large conferences. For details, see <A href="lync-server-2013-supporting-large-meetings.md">Supporting large meetings using Lync Server 2013</A>.
 
 
@@ -144,10 +144,10 @@ The following table summarizes these recommendations.
 
 ## Front End Server
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Stretched pools are not supported for this server role.
 
 
@@ -172,10 +172,10 @@ The number of users supported with good performance by a particular Front End po
 
   - Your organization’s usage differs significantly from the user models, such as significantly more conferencing traffic.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > In Lync Server 2013, the presence databases are now hosted on Front End Servers, unlike in Lync Server 2010 where they were hosted on the Back End Server. This means that the disk performance and capacity of your Front End Servers should not be compromised from the recommendations listed earlier in this section and in <A href="lync-server-2013-server-hardware-platforms.md">Server hardware platforms for Lync Server 2013</A>, regardless of the number of users hosted by your Front End Servers.
 
 
@@ -205,10 +205,10 @@ The following table shows the average bandwidth for IM and presence, given the u
 </table>
 
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > To improve the media performance of the co-located A/V Conferencing and Mediation Server functionality on your Front End Servers, you should enable receive-side scaling (RSS) on the network adapters on your Front End Servers. RSS enables incoming packets to be handled in parallel by multiple processors on the server. For details, see "Receive-Side Scaling Enhancements in Windows Server 2008" at <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>. For details about how to enable RSS, see your network adapter documentation.
 
 
@@ -237,10 +237,10 @@ If your organization has many more mixed-mode conferences than are assumed in th
 
 ## Edge Server
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Stretched pools are not supported for this server role.
 
 
@@ -251,10 +251,10 @@ You should deploy one Edge Server for every 12,000 remote users who will access 
 
 When you account for the number of users for the Edge Servers, include the users homed on Survivable Branch Appliances and Survivable Branch Servers at branch offices that are associated with a Front End pool at this site.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > To improve the performance of the A/V Conferencing Edge service on your Edge Servers, you should enable receive-side scaling (RSS) on the network adapters on your Edge Servers. RSS enables incoming packets to be handled in parallel by multiple processors on the server. For details, see "Receive-Side Scaling Enhancements in Windows Server 2008" at <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>. For details about how to enable RSS, see your network adapter documentation.
 
 
@@ -267,10 +267,10 @@ When you account for the number of users for the Edge Servers, include the users
 
 ## Director
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Stretched pools are not supported for this server role.
 
 
@@ -287,10 +287,10 @@ When you account for the number of users for the Directors, include the users ho
 
 ## Mediation Server
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Stretched pools are not supported for this server role.
 
 
@@ -339,10 +339,10 @@ All the following tables assume usage as summarized in [User models in Lync Serv
 </table>
 
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Although servers with 32 GB of memory were used for performance testing, servers with 16 GB of memory are supported for stand-alone Mediation Server, and are sufficient to provide the performance shown in this table.
 
 
@@ -371,20 +371,20 @@ All the following tables assume usage as summarized in [User models in Lync Serv
 </table>
 
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > This number is much smaller than the numbers for the stand-alone Mediation Server because the Front End Server has to handle other features and functions for the 6600 users homed on it, in addition to the transcoding needed for voice calls.
 
 
 
 </div>
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > To improve the performance of the Mediation Server, you should enable receive-side scaling (RSS) on the network adapters on your Mediation Servers. RSS enables incoming packets to be handled in parallel by multiple processors on the server. For details, see "Receive-Side Scaling Enhancements in Windows Server 2008" at <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>. For details about how to enable RSS, see your network adapter documentation.
 
 

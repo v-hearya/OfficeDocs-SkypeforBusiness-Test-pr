@@ -70,10 +70,10 @@ You can use the **Create voice routing test case information** dialog box to run
     
     2.  Note that the remaining fields on the **Save Voice Routing Test Case Information** dialog box are read-only, and are prepopulated from the informal test configuration *and* results. Verify that this is the configuration that you want to save for the test case.
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Values from the test results are used to prepopulate fields on the <STRONG>Save Voice Routing Test Case Information</STRONG> dialog box as follows: 
         > <UL>
         > <LI>
@@ -90,10 +90,10 @@ You can use the **Create voice routing test case information** dialog box to run
 
 11. Click **Commit**, and then click **Commit all**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Whenever you create a voice routing test case, you must run the <STRONG>Commit all</STRONG> command to publish the test case. For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A> in the Operations documentation.
 
     

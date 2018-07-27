@@ -28,17 +28,17 @@ _**Topic Last Modified:** 2013-02-20_
 
 You can view information about the conferencing devices configured for use in your organization by using Windows PowerShell and the **Get-CsMeetingRoom** cmdlet. Run the **Get-CsMeetingRoom** cmdlet from either the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.
 
 
 
 </div>
 
-If you use the **Get-CsMeetingRoom** cmdlet without any parameters, it returns information about all your conferencing devices. Optional parameters provide different ways for you to filter information. For details, see the Parameters section of [Get-CsMeetingRoom](get-csmeetingroom.md).
+If you use the **Get-CsMeetingRoom** cmdlet without any parameters, it returns information about all your conferencing devices. Optional parameters provide different ways for you to filter information. For details, see the Parameters section of [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom).
 
 <div>
 
@@ -83,7 +83,7 @@ If you use the **Get-CsMeetingRoom** cmdlet without any parameters, it returns i
 
 </div>
 
-For details, see the Help topic for the [Get-CsMeetingRoom](get-csmeetingroom.md) cmdlet.
+For details, see the Help topic for the [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom) cmdlet.
 
 </div>
 

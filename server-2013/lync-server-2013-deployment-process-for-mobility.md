@@ -86,14 +86,14 @@ This section describes the sequence of steps required to deploy the Lync Server 
 <tr class="even">
 <td><p>Test your mobility deployment for Lync 2010 Mobile using the Mcx Mobility Service</p></td>
 <td><p>Run <strong>Test-CsMcxP2PIM</strong> to test sending an instant message from one person to another.</p>
-<p>See the Lync Server Management Shell cmdlet documentation for <a href="test-csmcxp2pim.md">Test-CsMcxP2PIM</a> for a complete list of options.</p></td>
+<p>See the Lync Server Management Shell cmdlet documentation for <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxP2PIM">Test-CsMcxP2PIM</a> for a complete list of options.</p></td>
 <td><p>CsAdministrator</p></td>
 <td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Verifying your mobility deployment in Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Test your mobility deployment for Lync 2013 Mobile clients using the UCWA Web components</p></td>
 <td><p>Use the <strong>Test-CsUcwaConference</strong> cmdlet to test and verify that pre-defined test users or a pair of actual users can use UCWA to create and participate in a conference.</p>
-<p>See the Lync Server Management Shell cmdlet documentation for <a href="test-csucwaconference.md">Test-CsUcwaConference</a> for a complete list of options.</p></td>
+<p>See the Lync Server Management Shell cmdlet documentation for <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUcwaConference">Test-CsUcwaConference</a> for a complete list of options.</p></td>
 <td><p>CsAdministrator</p></td>
 <td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Verifying your mobility deployment in Lync Server 2013</a></p></td>
 </tr>
@@ -106,9 +106,9 @@ This section describes the sequence of steps required to deploy the Lync Server 
 <li><p>If you want to support push notifications over a Wi-Fi network, configure a firewall rule outbound for TCP port 5223.</p></li>
 <li><p>Use the <strong>Set-CsPushNotificationConfiguration</strong> cmdlet to enable push notifications to the Apple Push Notification Service (APNS) and Microsoft Push Notification Service (MPNS). This feature is disabled by default.</p></li>
 <li><p>Use the <strong>Test-CsFederatedPartner</strong> cmdlet to test the federation configuration and the <strong>Test-CsMCXPushNotification</strong> cmdlet to test push notifications.</p>
-<div class="alert">
+<div>
 
-> [!NOTE]
+> [!NOTE]  
 > Push notifications are used for Lync 2010 Mobile clients on Apple devices and Windows Phone<BR>Push notification is required for Lync 2013 Mobile clients on Windows Phone only
 
 

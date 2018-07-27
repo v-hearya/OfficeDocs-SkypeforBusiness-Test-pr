@@ -41,7 +41,7 @@ For example:
 ## See Also
 
 
-[Remove-CsWebServiceConfiguration](remove-cswebserviceconfiguration.md)  
+[Remove-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsWebServiceConfiguration)  
   
 
 </div>
