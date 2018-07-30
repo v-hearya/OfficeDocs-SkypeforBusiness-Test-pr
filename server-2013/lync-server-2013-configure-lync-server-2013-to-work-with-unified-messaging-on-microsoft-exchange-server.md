@@ -42,33 +42,17 @@ When you run the Exchange UM Integration Utility, it performs the following task
 
   - Verifies that the name of each Enterprise Voice dial plan matches its corresponding unified messaging (UM) dial plan phone context. This matching is necessary only if the UM dial plan is running on a version of Exchange *earlier* than Exchange 2010 Service Pack 1 (SP1).
 
-<div>
-
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/JJ204887.important(OCS.15).gif" title="important" alt="important" />Important:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Before running the Exchange UM Integration Utility, be sure that you have done the following:
-<ul>
-<li><p>Create one or more Exchange UM dial plans, as described in the Exchange product documentation.</p>
-<p>For Microsoft Exchange Server 2010, see &quot;Create a UM Dial Plan&quot; at <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>.</p>
-<p>For Microsoft Exchange Server 2007 Service Pack 1 (SP1), see &quot;How to Create a Unified Messaging SIP URI Dial Plan&quot; at <a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>.</p></li>
-<li><p>Create one or more corresponding Lync Server dial plans, as described in <a href="lync-server-2013-create-a-dial-plan.md">Create a dial plan in Lync Server 2013</a>.</p>
-<div>
 
 > [!IMPORTANT]
-> If you are using a version of Exchange that is earlier than Microsoft Exchange Server 2010 SP1, you must enter the fully qualified domain name (FQDN) of the corresponding Exchange Unified Messaging (UM) SIP dial plan in the Lync Server 2013 dial plan <STRONG>Simple name</STRONG> field. If you are using Microsoft Exchange Server 2010 SP1 or latest service pack, this dial plan name matching is not necessary.
-
-
-</div></li>
-<li><p>Create an auto-attendant and make sure that both the subscriber access number and auto-attendant number are in E.164 format.</p></li>
+> Before running the Exchange UM Integration Utility, be sure that you have done the following:
+> <ul>
+> <li><p>Create one or more Exchange UM dial plans, as described in the Exchange product documentation.</p>
+> <p>For Microsoft Exchange Server 2010, see &quot;Create a UM Dial Plan&quot; at <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>.</p>
+> <p>For Microsoft Exchange Server 2007 Service Pack 1 (SP1), see &quot;How to Create a Unified Messaging SIP URI Dial Plan&quot; at <a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>.</p></li>
+> <li><p>Create one or more corresponding Lync Server dial plans, as described in <a href="lync-server-2013-create-a-dial-plan.md">Create a dial plan in Lync Server 2013</a>.</p>
+> [!IMPORTANT]
+> If you are using a version of Exchange that is earlier than Microsoft Exchange Server 2010 SP1, you must enter the fully qualified domain name (FQDN) of the corresponding Exchange Unified Messaging (UM) SIP dial plan in the Lync Server 2013 dial plan <STRONG>Simple name</STRONG> field. If you are using Microsoft Exchange Server 2010 SP1 or latest service pack, this dial plan name matching is not necessary.</li>
+> <li><p>Create an auto-attendant and make sure that both the subscriber access number and auto-attendant number are in E.164 format.</p></li>
 </ul></td>
 </tr>
 </tbody>

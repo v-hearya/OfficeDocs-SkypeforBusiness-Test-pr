@@ -4188,8 +4188,8 @@
         - name: Windows PowerShell cmdlets for Address Book management
           href: lync-server-2013-windows-powershell-cmdlets-for-address-book-management.md
           items:
-          - name: new-csaddressbookconfiguration for Address Book management
-            href: lync-server-2013-new-csaddressbookconfiguration-for-address-book-management.md
+          - name: New-CsAddressBookConfiguration for Address Book management
+            href: lync-server-2013-New-CsAddressBookConfiguration-for-address-book-management.md
           - name: Set-CsAddressBookConfiguration for Address Book management
             href: lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md
           - name: Get-CsAddressBookConfiguration for Address Book management
@@ -4208,8 +4208,8 @@
             href: lync-server-2013-set-csclientpolicy-for-address-book-management.md
           - name: Get-CsService for Address Book management
             href: lync-server-2013-get-csservice-for-address-book-management.md
-          - name: new-cswebserviceconfiguration for Address Book management
-            href: lync-server-2013-new-cswebserviceconfiguration-for-address-book-management.md
+          - name: New-CsWebServiceConfiguration for Address Book management
+            href: lync-server-2013-New-CsWebServiceConfiguration-for-address-book-management.md
           - name: Get-CsWebServiceConfiguration for Address Book management
             href: lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md
           - name: Set-CsWebServiceConfiguration for Address Book management
