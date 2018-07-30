@@ -121,44 +121,21 @@ Edge failover scenarios supported with DNS Load Balancing are Lync-to-Lync point
 
 **\*** Failover for public instant messaging (IM) connectivity, and federation with servers running Office Communications Server is not available with DNS load balancing. Exchange UM (remote user) failover using DNS load balancing requires Exchange Server 2010 SP1 or newer.
 
-<div>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398811.note(OCS.15).gif" title="note" alt="note" />Note:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><br />
-Single Edge and Scaled Edge (DNS load balanced) topologies can use:
-<ul>
-<li><p>Routable public IP addresses</p></li>
-<li><p>Non-routable private IP address if symmetric network address translation (NAT) is used</p>
-<div>
 
 > [!NOTE]
-> If you use public IP address or private IP address with NAT, you will still use the same number of IP addresses based on your configuration choice in Topology Builder. You can configure the Edge Server to use a single IP address with distinct ports per service, or use distinct IP addresses per service, but use the same port (by default, TCP 443).
+> Single Edge and Scaled Edge (DNS load balanced) topologies can use:
+> <ul>
+> <li><p>Routable public IP addresses</p></li>
+> <li><p>Non-routable private IP address if symmetric network address translation (NAT) is used</p>
+> [!NOTE]
+> If you use public IP address or private IP address with NAT, you will still use the same number of IP addresses based on your configuration choice in Topology Builder. You can configure the Edge Server to use a single IP address with distinct ports per service, or use distinct IP addresses per service, but use the same port (by default, TCP 443).</li></ul>
+> If you decide to use non-routable private IP addresses with NAT:
+> <ul><li><p>You must use routable private IP addresses on all three external interfaces</p></li>
+> <li><p>You must configure symmetric NAT for incoming and outgoing traffic</p></li></ul>
+> Scaled Edge (hardware load balanced) topology must use public IP addresses.
 
 
-</div></li>
-</ul>
-If you decide to use non-routable private IP addresses with NAT:
-<ul>
-<li><p>You must use routable private IP addresses on all three external interfaces</p></li>
-<li><p>You must configure symmetric NAT for incoming and outgoing traffic</p></li>
-</ul>
-Scaled Edge (hardware load balanced) topology must use public IP addresses.</td>
-</tr>
-</tbody>
-</table>
-
-
-</div>
 
 Lync Server 2013 supports placing Access, Web Conferencing, and A/V Edge external interfaces behind a router or firewall that performs network address translation (NAT) for both single and scaled consolidated Edge Server topologies.
 
