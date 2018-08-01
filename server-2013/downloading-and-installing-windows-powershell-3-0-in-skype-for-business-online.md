@@ -62,15 +62,12 @@ After Windows PowerShell is running, you must change the execution policy to all
 
     Set-ExecutionPolicy RemoteSigned -Force
 
-<div class="alert">
-
 
 > [!NOTE]
 > When you run the preceding command, you might receive the following error message:<BR>Set-ExecutionPolicy : Access to the registry key'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\ShellIds\Micrsoft.PowerShell' is denied.<BR>This error message typically occurs if you are not running Windows PowerShell under administrator credentials. Close your session of Windows PowerShell, and start a new session as an administrator.
 
 
 
-</div>
 
 To verify that the execution policy has been configured correctly, type the following at the Windows PowerShell prompt and then press ENTER:
 

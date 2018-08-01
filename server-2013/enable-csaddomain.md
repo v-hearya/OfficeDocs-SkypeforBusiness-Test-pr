@@ -70,15 +70,12 @@ Before you can install Lync Server in a domain, that domain must be correctly pr
 
 After the **Enable-CsAdDomain** cmdlet finishes running, you can use the **Get-CsAdDomain** cmdlet to verify that the domain is ready for the next step in the installation process.
 
-<div class="alert">
 
 
 > [!NOTE]
 > If you receive the following error, “Cannot find the object ‘CrossRef’ in Active Directory” while running tasks to prepare a child domain of a single-forest environment with multiple domains, you may have to manually add the RTCComponentUniversalServices group from the parent domain to the Windows Authorization Access group in the child domain.
 
 
-
-</div>
 
 This cmdlet carries out tasks similar to those carried out by the following Microsoft Office Communications Server 2007 R2 command:
 
