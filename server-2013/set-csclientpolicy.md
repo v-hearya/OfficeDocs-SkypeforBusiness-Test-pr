@@ -299,7 +299,7 @@ Get-CsAdminRole | Where-Object {$\_.Cmdlets –match "Set-CsClientPolicy"}
 <td><p><em>DisableOneNote12Integration</em></p></td>
 <td><p>Optional</p></td>
 <td><p>System.Boolean</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!NOTE]
 > This setting applies to the Lync 2010 Client only. Lync 2013 or higher clients do not implement this setting. To disable Shared Notes in conference, refer to <A href="set-csconferencingpolicy.md">Set-CsConferencingPolicy</A> parameter AllowSharedNotes.
@@ -637,7 +637,7 @@ Get-CsAdminRole | Where-Object {$\_.Cmdlets –match "Set-CsClientPolicy"}
 <p>1110000</p>
 <p>After the binary value has been constructed it must then be converted to a decimal value before being assigned to SearchPrefixFlags. To convert a binary number to a decimal number you can use the following Windows PowerShell command:</p>
 <p>[Convert]::ToInt32(&quot;1110111&quot;, 2)</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Manual registry key creation is required for the search prefix flags to be implemented. A SearchPrefixFlags key must be created for either the machine or user as in the following examples. The "119" value is the integer equivalent of a "1110111" SearchPrefixFlags binary. The integer you enter will be based on your own search preferences.<BR>Use the appropriate Office version in the registry keys. 

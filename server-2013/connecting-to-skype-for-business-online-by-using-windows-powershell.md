@@ -38,7 +38,6 @@ After you have installed the prerequisite software, you are ready to begin using
 
 3.  When you close your remote session, the downloaded items are deleted from your computer’s memory. For example, you might start a remote session of Windows PowerShell with the **Get-CsTenant** cmdlet, and then close that session. If you restart Windows PowerShell, the **Get-CsTenant** cmdlet will no longer be available. To get access to the **Get-CsTenant** cmdlet, you'll need to reconnect to Skype for Business Online.
 
-<div class="alert">
 
 
 > [!NOTE]
@@ -46,7 +45,6 @@ After you have installed the prerequisite software, you are ready to begin using
 
 
 
-</div>
 
 To create a remote connection to Skype for Business Online, begin by starting a new session of Windows PowerShell on your local computer. If you are running Windows 7, Windows Server 2008 R2, Windows Server 2012, or Windows Server 2012 R2 do the following:
 
@@ -60,7 +58,7 @@ After the Windows PowerShell console appears, you must then create a Windows Pow
 
     $credential = Get-Credential
 
-<div class="alert">
+
 
 
 > [!NOTE]
@@ -68,7 +66,6 @@ After the Windows PowerShell console appears, you must then create a Windows Pow
 
 
 
-</div>
 
 After you press ENTER, you should see the **Windows PowerShell Credential** dialog box:
 
@@ -88,7 +85,6 @@ Windows PowerShell will respond by showing you something similar to this:
     --------                            --------
     kenmyer@litwareinc.com              System.Security.SecureString
 
-<div class="alert">
 
 
 > [!NOTE]
@@ -96,13 +92,11 @@ Windows PowerShell will respond by showing you something similar to this:
 
 
 
-</div>
 
 After you have created the credentials object, you can then create a new remote Windows PowerShell session that makes a connection to Skype for Business Online. To do this, type the following command at the Windows PowerShell prompt and then press ENTER:
 
     $session = New-CsOnlineSession -Credential $credential -Verbose
 
-<div class="alert">
 
 
 > [!NOTE]
@@ -110,7 +104,6 @@ After you have created the credentials object, you can then create a new remote 
 
 
 
-</div>
 
 Make sure that you type the command exactly as shown (with the possible exception of the variable name). Note that it does not matter what the name of your Skype for Business Online domain is. Regardless of your domain name, the **New-CsOnlineSession** cmdlet will connect you to Office 365 and log you on, using the supplied credentials. After you make the connection and have been authenticated, you will then be automatically redirected to the appropriate URI based on the supplied credentials.
 
@@ -172,17 +165,12 @@ The **Remove-PSSession** cmdlet disconnects you from Skype for Business Online a
 
 This message simply means that, in order to reconnect to Skype for Business Online, you'll need to create a new session.
 
-If you forget to remove the session before closing the Windows PowerShell console (or if the console closes unexpectedly), nothing bad will happen. After 15 minutes of inactivity, the session will automatically disconnect itself. However, by default, each Skype for Business Online administrator is allowed only three simultaneous connections to Skype for Business Online. If you close the Windows PowerShell console without removing the session, that closed session will still count as one connection, even though it's not being used at the moment. (And it will continue to count as one connection until it times out.) For example, you might open and close the Windows PowerShell console three times, each time without removing the Skype for Business Online session. If you open Windows PowerShell and try to make a fourth connection, your command will hang, and no connection will be made.
 
-<div class="alert">
 
 
 > [!NOTE]
 > If Windows PowerShell hangs while trying to make a connection, press Ctrl-C to terminate the stuck command.
 
-
-
-</div>
 
 While individual administrators can have only three simultaneous connections to a Skype for Business Online tenant, an organization can have as many as nine simultaneous connections. That means that three administrators could have three simultaneous connections apiece, or nine administrators could have one connection to Skype for Business Online, and so on. However, again, no single administrators can have more than three active sessions.
 

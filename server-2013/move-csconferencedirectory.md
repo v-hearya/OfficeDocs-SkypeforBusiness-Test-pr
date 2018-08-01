@@ -80,7 +80,7 @@ When you create a dial-in conferencing Uniform Resource Identifier (URI), those 
 
 Occasionally, you might need to move a conference directory from one pool to another; for example, if you decommission a pool you might need to move your existing conference directories to a new location. The **Move-CsConferenceDirectory** cmdlet enables you to move conference directories to a different pool.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

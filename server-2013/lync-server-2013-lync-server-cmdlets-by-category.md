@@ -38,7 +38,7 @@ To retrieve a full list of cmdlets available for managing Microsoft Lync Server 
 
 If you are unsure which cmdlets you need, we have also provided a categorized list of cmdlets and their help topics. You will find that some of the cmdlets show up in more than one category, which was intentional as they apply to multiple areas of the product. The following is a list of categories:
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

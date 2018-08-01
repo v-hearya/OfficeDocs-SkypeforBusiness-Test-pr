@@ -84,15 +84,12 @@ SLA is a feature in Skype for Business (SfB) for handling multiple calls on a sp
 
 The **Get-CsSlaConfiguration** cmdlet provides a way to retrieve a shared number configuration.
 
-<div class="alert">
-
 
 > [!NOTE]
 > Logging in with the account created for the SLA number is not supported. Using the SLA number account with any device or Desktop Client can result in unpredictable behavior. It is not necessary to use that account for the Shared Line Appearance feature to function.
 
 
 
-</div>
 
 By default, members of the RTCUniversalServerAdmins group are authorized to run the **Get-CsSlaConfiguration** cmdlet: RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:
 

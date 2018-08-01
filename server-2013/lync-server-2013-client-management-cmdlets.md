@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-09-27_
 
 Client management consists primarily of determining which client applications (such as Microsoft Lync 2013) will be allowed to log on to Lync Server 2013 and determining the capabilities available to those client applications after they have logged on.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
