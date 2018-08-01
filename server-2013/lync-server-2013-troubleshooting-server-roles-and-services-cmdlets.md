@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-08-27_
 
 The troubleshooting cmdlets provide different ways to verify that Microsoft Lync Server 2013 is working as expected. For example, the CsHealthMonitoringConfiguration cmdlets enable you to set up test accounts for Registrar and Director pools. In turn, you can then use those test accounts to verify that users are able to successfully complete common tasks such as logging on to the system, exchanging instant messages, or making calls to a phone located on the public switched telephone network (PSTN).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
