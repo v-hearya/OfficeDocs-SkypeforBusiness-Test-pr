@@ -32,11 +32,13 @@ Retrieves a hosted voice mail policy. This cmdlet was introduced in Lync Server 
 
 ## Syntax
 
-    Get-CsHostedVoicemailPolicy [-Identity <XdsIdentity>] <COMMON PARAMETERS>
+``` PowerShell
+Get-CsHostedVoicemailPolicy [-Identity <XdsIdentity>] <COMMON PARAMETERS>
 
-    Get-CsHostedVoicemailPolicy [-Filter <String>] <COMMON PARAMETERS>
+Get-CsHostedVoicemailPolicy [-Filter <String>] <COMMON PARAMETERS>
 
-    COMMON PARAMETERS: [-LocalStore <SwitchParameter>] [-Tenant <Guid>]
+COMMON PARAMETERS: [-LocalStore <SwitchParameter>] [-Tenant <Guid>]
+```
 
 </div>
 
@@ -50,7 +52,9 @@ Retrieves a hosted voice mail policy. This cmdlet was introduced in Lync Server 
 
 This command returns all defined hosted voice mail policies for the Lync Server implementation.
 
-    Get-CsHostedVoicemailPolicy
+``` PowerShell
+Get-CsHostedVoicemailPolicy
+```
 
 </div>
 
@@ -60,7 +64,9 @@ This command returns all defined hosted voice mail policies for the Lync Server 
 
 This command returns the policy settings for the per-user hosted voice mail policy ExRedmond.
 
-    Get-CsHostedVoicemailPolicy -Identity ExRedmond
+``` PowerShell
+Get-CsHostedVoicemailPolicy -Identity ExRedmond
+```    
 
 </div>
 
@@ -70,7 +76,9 @@ This command returns the policy settings for the per-user hosted voice mail poli
 
 This command returns the policy settings for all per-user hosted voice mail policies (policies beginning with the tag scope).
 
-    Get-CsHostedVoicemailPolicy -Filter tag:*
+``` PowerShell
+Get-CsHostedVoicemailPolicy -Filter tag:*
+```    
 
 </div>
 
@@ -80,7 +88,9 @@ This command returns the policy settings for all per-user hosted voice mail poli
 
 This command returns the hosted voice mail policy for the Lync Online tenant with the tenant ID 73d355dd-ce5d-4ab9-bf49-7b822c18dd98.
 
-    Get-CsHostedVoicemailPolicy -Tenant "73d355dd-ce5d-4ab9-bf49-7b822c18dd98"
+``` PowerShell
+Get-CsHostedVoicemailPolicy -Tenant "73d355dd-ce5d-4ab9-bf49-7b822c18dd98"
+```
 
 </div>
 
@@ -98,8 +108,6 @@ Who can run this cmdlet: By default, members of the following groups are authori
 
 Get-CsAdminRole | Where-Object {$\_.Cmdlets –match "Get-CsHostedVoicemailPolicy"}
 
-``` 
-```
 
 </div>
 
