@@ -72,7 +72,7 @@ Business hour settings define when the workflow is available to answer calls and
 
 3.  For each unique range of hours you want to define, run:
     
-        $x = new-Csrgstimerange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
+        $x = New-CsRgsTimeRange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
     
     To create the business hours collection that uses the ranges you defined, run:
     
