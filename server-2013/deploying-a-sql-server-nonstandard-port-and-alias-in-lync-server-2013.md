@@ -143,7 +143,7 @@ The SQL Server non-standard port and alias must be set up on the database instan
     <div>
     
 
-    > [!WARNING]  
+    > [!CAUTION]  
     > Make sure to enter the same non-standard port you used in the previous step since that is the port SQL Server will be listening on. If a configured alias is connecting to the wrong SQL Server FQDN or Instance, disable and then re-enable the associated network protocol. Doing this clears any cached connection information and allows the client to connect correctly.
 
     
@@ -218,9 +218,7 @@ Once the SQL Server alias has been configured, you can use it to create a Lync S
 ## See Also
 
 
-[Microsoft Lync Server 2013](microsoft-lync-server-2013.md)  
-
-
+[Microsoft Lync Server 2013](microsoft-lync-server-2013.md) 
 [Planning for security in Lync Server 2013](lync-server-2013-planning-for-security.md)  
 [Defining and configuring the topology in Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md)  
 [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md)  
