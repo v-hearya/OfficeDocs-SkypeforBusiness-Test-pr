@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2012-10-18_
 
 Follow these steps to delete a user-level or a site-level PIN policy.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You cannot delete the global PIN policy.
 
 

@@ -30,10 +30,10 @@ _**Topic Last Modified:** 2013-02-12_
 
 The following table describes the Group Call Pickup user model that you can use as the basis for capacity planning requirements.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Group Call Pickup is based on the Call Park application. Keep in mind that, for disaster recovery capacity planning, each pool of a paired pool should be able to handle the workloads for Call Park services, including Group Call Pickup, in both pools.
 
 
@@ -85,10 +85,10 @@ The following table describes the Group Call Pickup user model that you can use 
 </table>
 
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > <UL>
 > <LI>
 > <P>For Front End pools that have fewer than eight Front End Servers, calculate the metrics linearly. For example, if your Front End pool has one Front End Server, calculate the maximum load as 1/8 of the values shown in the table.</P>

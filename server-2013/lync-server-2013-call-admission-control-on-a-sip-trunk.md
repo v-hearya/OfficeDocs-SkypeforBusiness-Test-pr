@@ -38,10 +38,10 @@ To configure CAC on a SIP trunk, you will have to perform the following tasks du
 
 1.  Create a network site to represent the ITSP. Associate the network site to an appropriate network region, and allocate bandwidth of zero for audio and video for this network site. For details, see [Configure network sites for CAC in Lync Server 2013](lync-server-2013-configure-network-sites-for-cac.md) in the Deployment documentation.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For the ITSP, this network site configuration is not functional. Bandwidth policy values are actually applied in step 2.
 
     

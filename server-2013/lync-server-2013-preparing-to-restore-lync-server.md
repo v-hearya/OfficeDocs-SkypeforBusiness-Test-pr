@@ -106,10 +106,10 @@ When you restore a server, you need to start with a new or clean computer. Addit
 
   - A clean or new server with the same fully qualified domain name (FQDN) as the server that failed.
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > When you install the operating system, make sure that you do not delete the computer account in Active Directory Domain Services, and verify that the group permissions for the account are retained.
 
     
@@ -119,10 +119,10 @@ When you restore a server, you need to start with a new or clean computer. Addit
 
   - Installation software for SQL Server 2012 or SQL Server 2008 R2. To install a database server, use the appropriate version of SQL Server and the database server deployment procedures and configurations established by your organization. You should have these procedures and configuration requirements available when you restore service.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The Lync Server Deployment Wizard automatically installs SQL Server 2012 Express on each Standard Edition server and on any other Lync Server server when a local configuration store is installed, unless you have preinstalled SQL Server 2012 or SQL Server 2008 R2 on the server.
 
     
@@ -130,10 +130,10 @@ When you restore a server, you need to start with a new or clean computer. Addit
 
   - Software for taking system images.
     
-    <div class="alert">
+    <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > We recommend that you take an image copy of the system after you install the operating system and SQL Server, and before you start restoration, so that you can use this image as a rollback point in case something goes wrong during restoration.
 
     
@@ -169,10 +169,10 @@ Before you restore the server, you must perform the following steps:
 
 4.  Take an image of the system before starting restoration to use as a rollback point, in case something goes wrong during restoration.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The Lync Server Deployment Wizard and cmdlets described in the procedures in this topic, and related topics, set all required access control lists (ACLs).
 
 

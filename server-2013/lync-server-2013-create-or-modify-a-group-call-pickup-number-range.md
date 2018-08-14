@@ -28,20 +28,20 @@ _**Topic Last Modified:** 2013-01-30_
 
 Use the following procedure to create or modify a call pickup group number range in the call park orbit table.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You must use Lync Server Management Shell to create, modify, remove, and view Group Call Pickup number ranges in the call park orbit table. Group Call Pickup number ranges are not available in Lync Server Control Panel.
 
 
 
 </div>
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The call pickup group number range must be assigned a type of GroupPickup. Users are enabled for Group Call Pickup only if the group number that they are assigned is type GroupPickup.
 
 
@@ -82,10 +82,10 @@ The call pickup group number ranges must comply with the following rules:
     
         Set-CsCallParkOrbit -Identity "Redmond call pickup" -Type GroupPickup
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Use this cmdlet to change the type assigned to number ranges only if you initially specified the incorrect type and the group range is not yet in use. If you change the number range from CallPark to GroupPickup or vice versa and the number range is already in use, either Call Park or Group Call Pickup will stop working for that number range. For example, if you change a number range from CallPark to GroupPick, the Call Park application can no longer use that range of orbits to park calls.
 
     
@@ -101,8 +101,8 @@ The call pickup group number ranges must comply with the following rules:
 [Delete a Call Park orbit range in Lync Server 2013](lync-server-2013-delete-a-call-park-orbit-range.md)  
 
 
-[New-CsCallParkOrbit](new-cscallparkorbit.md)  
-[Set-CsCallParkOrbit](set-cscallparkorbit.md)  
+[New-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCallParkOrbit)  
+[Set-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkOrbit)  
   
 
 </div>

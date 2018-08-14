@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-03-21_
 
 Lync Server 2013 uses certificates to provide communications encryption and server identity authentication. In some cases, such as web publishing through the reverse proxy, strong subject alternative name (SAN) entry matching to the fully qualified domain name (FQDN) of the server presenting the service is not required. In these cases, you can use certificates with wildcard SAN entries (commonly known as “wildcard certificates”) to reduce the cost of a certificate requested from a public certification authority and to reduce the complexity of the planning process for certificates.
 
-<div class="alert">
+<div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > To retain the functionality of unified communications (UC) devices (for example, desk phones), you should test the deployed certificate carefully to ensure that devices function properly after you implement a wildcard certificate.
 
 
@@ -69,10 +69,10 @@ Server roles that are not addressed in this topic:
 
   - Internal Edge Server
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For the internal Edge Server interface, a wildcard entry can be assigned to the SAN, and is supported. The SAN on the internal Edge Server is not queried, and a wildcard SAN entry is of limited value.
 
     

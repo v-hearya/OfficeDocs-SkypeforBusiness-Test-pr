@@ -8,23 +8,10 @@ ms.date: 07/23/2014
 mtps_version: v=OCS.15
 ---
 
-<div data-xmlns="http://www.w3.org/1999/xhtml">
-
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
-
-<div data-asp="http://msdn2.microsoft.com/asp">
-
 # Assign a per-user conferencing policy in Lync Server 2013
 
-</div>
+ 
 
-<div id="mainSection">
-
-<div id="mainBody">
-
-<span> </span>
-
-_**Topic Last Modified:** 2013-02-22_
 
 The conferencing policy is one of the individual settings of a user account that you can configure in Lync Server Control Panel.
 
@@ -35,8 +22,6 @@ After creating at least one per-user conferencing policy, use the procedures in 
 For a list of all available conferencing policy settings, see [Conferencing policy settings reference for Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
 
 For details about creating conferencing policies, see [Create or modify a conferencing policy in Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md).
-
-<div>
 
 ## To assign a per-user conferencing policy
 
@@ -62,63 +47,43 @@ For details about creating conferencing policies, see [Create or modify a confer
     
     4.  Depending on the user property you selected, enter the criteria you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
         
-        <div class="alert">
-        
 
-        > [!TIP]
+        > [!TIP]  
         > To add additional search clauses to your query, click <STRONG>Add Filter</STRONG>.
 
-        
-        </div>
     
     5.  Click **Find**.
 
 6.  Click a user in the search results, click **Action**, and then click **Assign policies**.
     
-    <div class="alert">
-    
 
-    > [!TIP]
+    > [!TIP]  
     > If you want the same per-user conferencing policy to apply to multiple users, select multiple users in the search results, then click <STRONG>Actions</STRONG>, and then click <STRONG>Assign policies</STRONG>.
 
-    
-    </div>
+
 
 7.  In **Assign Policies**, under **Conferencing policy**, do one of the following:
     
-    <div class="alert">
-    
 
-    > [!NOTE]
+    > [!NOTE]  
     > Because there are multiple policies that you can configure in <STRONG>Assign Policies</STRONG>, <STRONG>&lt;Keep as is&gt;</STRONG> is selected by default for every policy in the dialog box. Continue using the policy previously assigned to the user by making no changes to this setting.
 
-    
-    </div>
     
       - Select **\<Automatic\>** to allow Lync Server 2013 to automatically choose either the global-level policy or, if defined, the site-level policy.
     
       - Click the name of a per-user conferencing policy you previously defined on the **Conferencing Policy** page.
         
-        <div class="alert">
-        
 
-        > [!TIP]
+        > [!TIP]  
         > To help you decide the policy you want to assign, after you click a policy name, click <STRONG>View</STRONG> to view the user rights and permissions defined in the policy.
 
-        
-        </div>
+
 
 8.  When you are finished, click **OK**.
-
-</div>
-
-<div>
 
 ## Assigning a Per-User Conferencing Policy by Using Windows PowerShell Cmdlets
 
 Per-user conferencing policies can be assigned by using Windows PowerShell and the Grant-CsConferencingPolicy cmdlet. This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
-
-<div>
 
 ## To assign a per-user conferencing policy to a single user
 
@@ -126,19 +91,11 @@ Per-user conferencing policies can be assigned by using Windows PowerShell and t
     
         Grant-CsConferencingPolicy -Identity "Ken Myer" -PolicyName "RedmondConferencingPolicy"
 
-</div>
-
-<div>
-
 ## To assign a per-user conferencing policy to multiple users
 
-  - This command assigns the per-user conferencing policy HRConferencingPolicy to all the users who work for the Human Resources department. For more information on the LdapFilter parameter used in this command, see the documentation for the [Get-CsUser](get-csuser.md) cmdlet.
+  - This command assigns the per-user conferencing policy HRConferencingPolicy to all the users who work for the Human Resources department. For more information on the LdapFilter parameter used in this command, see the documentation for the [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) cmdlet.
     
         Get-CsUser -LdapFilter "Department=Human Resources" | Grant-CsConferencingPolicy -PolicyName "HRConferencingPolicy"
-
-</div>
-
-<div>
 
 ## To unassign a per-user conferencing policy
 
@@ -146,13 +103,7 @@ Per-user conferencing policies can be assigned by using Windows PowerShell and t
     
         Grant-CsConferencingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-</div>
-
-For more information, see the help topic for the [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md) cmdlet.
-
-</div>
-
-<div>
+For more information, see the help topic for the [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/gg425937\(v=ocs.15\)) cmdlet.
 
 ## See Also
 
@@ -160,18 +111,5 @@ For more information, see the help topic for the [Grant-CsConferencingPolicy](gr
 [Create or modify a conferencing policy in Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md)  
 
 
-[Assigning per-user policies in Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)  
-  
-
-</div>
-
-</div>
-
-<span> </span>
-
-</div>
-
-</div>
-
-</div>
+[Assigning per-user policies in Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)
 

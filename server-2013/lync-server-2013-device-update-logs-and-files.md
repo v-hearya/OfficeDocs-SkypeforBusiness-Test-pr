@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-02-20_
 
 Device update logs contain important information that you can use to manage and troubleshoot the Device Update Web service. You can change what is logged and remove device logs and updates that you don’t want or no longer need. This section describes how you can use Lync Server Control Panel or Lync Server Management Shell to modify logging settings, clear the device update log, or remove log files from the server.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details about device update log files, see <A href="http://technet.microsoft.com/en-us/library/gg398250(v=ocs.14).aspx">Log File Types and Locations</A> in the Lync Server 2010 TechNet Library. (Note that the Device Update Web service, like all Lync Phone Edition components, works the same way with Lync Server 2013 as it does with Lync Server 2010.)
 
 

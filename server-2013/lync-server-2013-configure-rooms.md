@@ -44,10 +44,10 @@ Persistent Chat Server lets users collaborate by posting messages into Persisten
 
 When a message is deleted, you cannot undo the action. However, deleted messages can be restored if there is a backup. If a Persistent Chat Compliance server is enabled, old messages are persisted in the compliance database.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > This chat room data usage applies to the Lync Server 2013, Persistent Chat Server API application, except for the case when the administrator role is involved. The Persistent Chat Server API cannot be used to do any of the administrator’s operations. You must perform these operations in the Lync Server Management Shell.
 
 

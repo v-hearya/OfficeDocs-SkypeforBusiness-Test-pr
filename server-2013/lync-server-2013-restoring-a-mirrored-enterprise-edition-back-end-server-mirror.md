@@ -66,10 +66,10 @@ We recommend that you take an image copy of the system before you start restorat
     
       - Follow the wizard until a prompt of **Create Mirror Database** appears. Select the database that you want to install and complete this process.
         
-        <div class="alert">
+        <div>
         
 
-        > [!TIP]
+        > [!TIP]  
         > Instead of running Topology Builder, you can use the <STRONG>Install-CsMirrorDatabase</STRONG> cmdlet to configure mirroring. For details, see the Lync Server Management Shell documentation.
 
         

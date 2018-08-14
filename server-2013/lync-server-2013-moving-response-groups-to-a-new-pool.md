@@ -30,10 +30,10 @@ Lync Server 2013 introduces new cmdlet support for moving response groups from o
 
 Use the steps in the following procedure to move response groups from one Front End pool to another Front End pool with a different FQDN.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In a coexistence environment, you can move response groups only between Lync Server 2013&nbsp;Front End pools.
 
 
@@ -68,11 +68,11 @@ Use the steps in the following procedure to move response groups from one Front 
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:destination.contoso.com" -FileName "C:\RgsExportSource.zip" -OverwriteOwner -ReplaceExistingSettings
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
-    > Application-level settings include the default music-on-hold configuration, the default music-on-hold audio file, the agent ringback grace period, and the call context configuration. To view these configuration settings, run the <STRONG>Get-CsRgsConfiguration</STRONG> cmdlet. For details about this cmdlet, see <A href="get-csrgsconfiguration.md">Get-CsRgsConfiguration</A>.
+    > [!NOTE]  
+    > Application-level settings include the default music-on-hold configuration, the default music-on-hold audio file, the agent ringback grace period, and the call context configuration. To view these configuration settings, run the <STRONG>Get-CsRgsConfiguration</STRONG> cmdlet. For details about this cmdlet, see <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</A>.
 
     
     </div>

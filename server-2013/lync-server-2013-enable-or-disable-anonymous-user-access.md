@@ -30,10 +30,10 @@ Anonymous users are users who do not have a user account in your organization's 
 
 If you later want to temporarily or permanently prevent access by anonymous users, you can disable it for your organization. Use the procedure in this section to enable or disable anonymous user access for your organization.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > By enabling anonymous user access for your organization you are only specifying that your servers running the Access Edge service support access by anonymous users. Anonymous users cannot participate in any meetings in your organization until you also configure at least one conferencing policy and apply it to one or more users or user groups. The only users that can invite anonymous users to meetings are those users that are assigned a conferencing policy that is configured to support anonymous users. For details about configuring conferencing policies to support inviting anonymous users, see <A href="lync-server-2013-conferencing-policies.md">Conferencing policies in Lync Server 2013</A>.
 
 

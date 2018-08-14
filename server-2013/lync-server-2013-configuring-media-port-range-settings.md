@@ -84,10 +84,10 @@ Media port range settings can significantly impact client performance and should
     
         Set-CsConferencingConfiguration
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can create additional sets of conferencing configuration settings for specific sites. Use the <STRONG>New- CsConferencingConfiguration</STRONG> cmdlet with a site identity. When you create new conferencing configuration settings for sites, the site settings take precedence over the global settings. For details, see the Lync Server Management Shell documentation.
 
     

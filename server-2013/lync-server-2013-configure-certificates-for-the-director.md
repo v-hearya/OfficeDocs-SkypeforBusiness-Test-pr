@@ -26,10 +26,10 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2012-09-08_
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > When you run the Certificate Wizard, ensure that you are logged in using an account that is a member of a group that has been assigned the appropriate permissions for the type of certificate template you will use. By default, a Lync Server 2013 certificate request will use the Web Server certificate template. If you use an account that is a member of the RTCUniversalServerAdmins group to request a certificate using this template, verify that the group has been assigned the Enroll permissions required to use that template.
 
 
@@ -66,10 +66,10 @@ Use the following procedure to configure Director certificates. Repeat the proce
 
 11. On the **Subject Name / Subject Alternative Names** page, click **Next**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The subject alternative name list should contain the name of the computer on which you are installing the Director (if a single Director) or the Director pool name, and the simple URL names configured for the organization.
 
     
@@ -87,10 +87,10 @@ Use the following procedure to configure Director certificates. Repeat the proce
 
 17. On the **Certificate Assignment** page, click **Next**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > if you want to view the certificate, double-click the certificate in the list.
 
     

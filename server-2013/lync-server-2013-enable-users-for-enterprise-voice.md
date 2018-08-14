@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2012-11-01_
 
 After you install files for one or more Mediation Servers, configure outbound call routing, and optionally deploy one or more advanced Enterprise Voice features, you can use the following procedures to enable a user to make calls by using Enterprise Voice:
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Of the following procedures, only the first can be performed by using Lync Server Control Panel. For the remaining procedures, you can use only Lync Server Management Shell.
 
 

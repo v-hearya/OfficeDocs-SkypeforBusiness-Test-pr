@@ -88,10 +88,10 @@ Having these services run on each Persistent Chat Server provides high availabil
 
 Additionally, to support the file upload and download in Persistent Chat rooms, Persistent Chat Server includes a web service. Previously, this service was collocated on the Persistent Chat Server, Front End Server and required Internet Information Services (IIS) to be installed as a prerequisite. In Lync Server 2013 Persistent Chat Server, the File Upload/Download web service is collocated with the Lync Server 2013 Front End Server. As a side effect, Internet Information Services (IIS) is no longer a prerequisite for Persistent Chat Server. The File Upload/Download web service is identified as **PersistentChat** in the Internet Information Services (IIS) Manager.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The <STRONG>PersistentChatService</STRONG> role can run on the same server as a Lync Server 2013&nbsp;Front End Server only if that Front End Server is a Standard Edition&nbsp;Front End Server. The <STRONG>PersistentChatService</STRONG> role cannot run independently of a Lync Server 2013&nbsp;Front End Server. It can be installed only in the context of a Lync Server 2013 deployment.
 
 
@@ -106,19 +106,19 @@ In Lync Server 2013, there are Compliance service modifications:
 
   - The Message Queuing (also known as MSMQ) queue that is shared by the Persistent Chat service and the Compliance service on each Persistent Chat Server Front End Server is now a private queue shared only by the two services. All compliance services write to the same Compliance Back End database. They also all read from that database, for the purpose of sending the data to their instance of the adapter. The Compliance Back End Server is represented as a new Back End Server role.
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > As in previous versions, all compliance data is processed only once. The data may be processed by any of the adapter instances invoked by the compliance service running on the various Lync Server 2013, Persistent Chat Server computers. In Persistent Chat Server, any one of the adapter instances could process the data.
 
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For information about installing Message Queuing, see <A href="lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md">Install operating systems and prerequisite software on servers for Lync Server 2013</A> in the Deployment documentation.
 
     

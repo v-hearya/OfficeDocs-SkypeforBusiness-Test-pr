@@ -132,10 +132,10 @@ One last thing to keep in mind is that you may have a single Default certificate
         
         Where “Thumbprint” is the thumbprint displayed for the newly issued individual certificates.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Just to note, Steps 12 and 13 should be run only if the account running them has access to the Certificate Authority with appropriate permissions. If you are unable to log in with an account that’s got those permissions, or if you’re using a public or remote Certificate Authority for your certificates, you would need to request them through the Lync Server Deployment Wizard, which was touched on at the top of the article.
 
     

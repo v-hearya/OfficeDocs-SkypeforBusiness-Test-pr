@@ -116,10 +116,10 @@ The ABSConfig tool can be started by using the absConfig.exe file. The tool open
 
 In Lync Server 2013 ABS Configuration tool, attributes (rows) may be removed by unchecking the “enable” checkbox for the attribute. This has the same effect as deleting the row in Lync Server 2010.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The enable checkbox is in the far right column; you may need to scroll right to see the column
 
 
@@ -242,10 +242,10 @@ The **Machine Info** tab shows the details of the Bandwidth Policy Service that 
 
 The **Topology Info** tab shows a list of all the links that are configured in the Network configuration settings. For each link, the audio and video bandwidth capacity is displayed. Additionally, the currently utilized bandwidth is displayed, both in Kbps and as a percentage of the capacity. The tool uses color-coding to highlight links that have utilization that is close to the capacity—this allows administrators to quickly isolate such links.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If the Bandwidth Policy Service Monitor tool experiences failure when it connects to any of the configured Bandwidth Policy services, the information in the <STRONG>Machine Info</STRONG> and the <STRONG>Topology Info</STRONG> tabs won’t be populated. However, it is possible that the tool might connect initially but subsequently lose its connection to the service. In such cases, administrators might see outdated information. There is a <STRONG>Last Updated</STRONG> time stamp on each of the tabs that can allow administrators to see when the data was last updated for a particular Bandwidth Policy Service.
 
 
@@ -346,7 +346,7 @@ Bandwidth Utilization Analyzer has the following two applications (tools):
 
   - **WanLinkLogCollector.exe**   This tool enables its user to input the required information.
 
-  - **BandwidthUtilizationAnalyzer.xlsm **  A Microsoft Excel spreadsheet software report is automatically launched by WanLinkLogCollector.exe. This application allows the user to apply filters to the report as shown later in this article.
+  - **BandwidthUtilizationAnalyzer.xlsm**  A Microsoft Excel spreadsheet software report is automatically launched by WanLinkLogCollector.exe. This application allows the user to apply filters to the report as shown later in this article.
 
 </div>
 
@@ -360,10 +360,10 @@ There are two phases when using Bandwidth Utilization Analyzer:
 
   - Customize reports, which is performed by using BandwidthUtilizationAnalyzer.xlsm
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > We strongly recommend that BandwidthUtilizationAnalyzer.xlsm not be manually launched by end users.
 
 
@@ -386,7 +386,7 @@ There are three steps to using WanLinkLogCollector.exe:
 
 2.  **Specify the file directories**   Provide file location information
 
-3.  **Collect the logs and launch the report viewer **  Execute the command to generate the report
+3.  **Collect the logs and launch the report viewer**  Execute the command to generate the report
 
 <div>
 
@@ -410,14 +410,14 @@ The following file directories can be specified by the user as shown.
 
   - **Server log files location** The folder location where Bandwidth policy server logs are stored. This is typically in \<fileserver\>\\\<choice of FE\>\\AppServerFiles\\PDP.
 
-  - **Temporary file storage location ** The temporary file location where intermediate files are stored while the report is being generated.
+  - **Temporary file storage location** The temporary file location where intermediate files are stored while the report is being generated.
 
 ![File directories in the Bandwidth Utilization Anal](images/JJ945604.d66daeac-1669-45e3-932d-3f6782840c2a(OCS.15).jpg "File directories in the Bandwidth Utilization Anal")
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Ensure that sufficient file access to the server logs and the temporary file store folder is provided to the tool user.
 
 
@@ -619,6 +619,7 @@ The purpose of the CPS tool is to provide command-line access to the CPS databas
 
 There are no requirements if this tool is run on the same computer that is running CPS. If this tool is run on a remote computer, the SQL Server database used by Lync Server 2013 must be configured to allow remote access. Call Parkometer must be configured with a SQL Server database connection string to connect to the pool’s SQL Server. This SQL Server database connection string is defined in the configuration file, **parkometer.exe.config**. It must be placed in the same directory where parkometer.exe is located. The following XML file is an example of a parkometer.exe.config. The parameters that must be configured are user name (for example, mydomain\\Administrator), password (for example, mypassword), and host name (for example, myserver).
 
+```xml
     <?xml version="1.0" encoding="utf-8" ?>
     <configuration>
       <appSettings>
@@ -629,6 +630,7 @@ There are no requirements if this tool is run on the same computer that is runni
     Integrated Security=false;"/>
       </appSettings>
     </configuration>
+```
 
 </div>
 
@@ -768,10 +770,10 @@ DBAnalyze is a command-line tool that helps administrators to gather analysis re
 
   - **Diagnostic mode**   Creates a report that includes information about tables (number of records, fragmentation, data size, and index size), data and log file sizes, the last back-up time, contact distribution among servers that are running Microsoft Office Communications Server, the average number of permissions, contacts, containers, subscriptions, publications, endpoints per user, any improperly homed users, users that can’t be routed, the average number of conferences organized per user, scheduled conferences, active conferences, and the database version.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Running diagnostic mode can affect server performance.
 
     
@@ -825,10 +827,10 @@ To install Dbanalyze.exe, copy it to a local folder and then run the tool. To us
 
 ![Permissions table for Dbanalyze.exe.](images/JJ945604.b8931e9e-834e-4dec-8a84-2fc47d1613e9(OCS.15).jpg "Permissions table for Dbanalyze.exe.")
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > A local administrator account is required for <STRONG>/report:disk</STRONG> mode.
 
 
@@ -892,10 +894,10 @@ This tool will increase CPU and IO load on the front end it is running on, as we
 
 Install the Lync Server 2013, Resource Kit Tools. The tool runs on domain-joined machines where Lync Server and Lync Server Management Shell are installed. The tool uses a cmdlet from the management shell to identify all the Front End servers in the pool. Secondly, the tool must be executed from a machine in the pool which has the **RtcLocal** database installed. This database is used by the tool to retrieve the location of the WEBSERVICE file share for the pool.Additionally, before using the tool, each Front End server must first enable Windows PowerShell Remoting using **Enable-PSRemoting** on each Front End server, as well as the machine that the tool is executed from. Otherwise, remote Windows PowerShell commands from this tool will fail. Windows PowerShell Remoting can be turned off on all Front End servers in the pool after it is finished. Finally, the account or credential invoking the tool must have read/write permission to the webservice file share for the pool they are executing this tool on. Otherwise the tool will fail with IO Permission errors.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > On Windows Server 2012, Windows PowerShell Remoting is enabled by default, but not on the Windows Server 2008 operating system.
 
 
@@ -1301,7 +1303,7 @@ Save and Store CAC network topology diagram in JPG or BMP format: Lync Server 20
 
 ![Saving the network configuration as a picture.](images/JJ945604.145a6fb9-58b1-46b1-bbd5-a661ceba07b4(OCS.15).jpg "Saving the network configuration as a picture.")
 
-**View CAC network topology configuration data:**Lync Server 2013 administrators can view related network configuration data such as network regions, network sites, bandwidth profiles, and site subnet IP addresses in a textual format by using the View Network Configuration data option as shown below.
+**View CAC network topology configuration data:** Lync Server 2013 administrators can view related network configuration data such as network regions, network sites, bandwidth profiles, and site subnet IP addresses in a textual format by using the View Network Configuration data option as shown below.
 
 ![Viewing network configuration data.](images/JJ945604.b72a4c21-a042-4d91-bf96-fcb396af0679(OCS.15).jpg "Viewing network configuration data.")
 
@@ -1453,10 +1455,10 @@ The current version of SEFAUtil is only a command-line tool; there is no support
 
   - Enable/disable/modify team-call group settings
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > New in Lync Server 2013 SEFAUtil tool
 
     
@@ -1464,10 +1466,10 @@ The current version of SEFAUtil is only a command-line tool; there is no support
 
   - Enable/disable/modify simultaneous ringing settings (includes destination)
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > New in Lync Server 2013 SEFAUtil tool
 
     
@@ -1475,10 +1477,10 @@ The current version of SEFAUtil is only a command-line tool; there is no support
 
   - Enable/disable/modify group call pickup settings
     
-    <div class="alert">
+    <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > New in Lync Server 2013 SEFAUtil tool
 
     
@@ -1530,10 +1532,10 @@ The SEFAUtil tool can be run only on a computer that is a part of a Trusted Appl
     
         New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > UCMA 3.0 must be installed on any computer that will be used to run the SEFAUtil tool.
 
     
@@ -1543,10 +1545,10 @@ The SEFAUtil tool can be run only on a computer that is a part of a Trusted Appl
     
         New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > A different port can be used if needed.
 
     
@@ -1584,10 +1586,10 @@ Group Call Pickup requires additional configuration in Lync Server for the capab
 
 The following command displays the call handling for the user. `SEFAUtil.exe /server:lyncserver.contoso.com katarina@contoso.com`
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > This example uses the <STRONG>/server</STRONG> switch to specify the Lync Server to connect to.
 
 
@@ -1702,10 +1704,10 @@ This example changes the simultaneous ringing rule that was set in the previous 
 
 This example removes the delegate.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > When the last delegate is removed, delegate ringing is automatically disabled.
 
 
@@ -1750,10 +1752,10 @@ This example enables simultaneous ringing and sets a simultaneous ringing destin
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /setsimulringdestination:+14255550126 /enablesimulring
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > To change the simultaneous ringing destination number of a user that has already simultaneous ringing enabled, keep the command with the /enablesimulring switch, otherwise the destination number will not be changed.
 
 
@@ -1797,10 +1799,10 @@ This example adds a team member to the team-call group of a user and enables sim
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /addteammember:anders@contoso.com /simulringteam
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Adding a member to the team-call group of a user will automatically switch the simultaneous ringing settigs of the users to simulring his team-call group.
 
 
@@ -1824,10 +1826,10 @@ This example removes a team member of the team-call group of a user.
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /removeteammember:anders@contoso.com
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If the member being removed is the only member of the team-call group, simultaneously ringing to the team-call group will be automatically disabled.
 
 
@@ -1869,10 +1871,10 @@ This example enables team-call for a given user.
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /simulringteam
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If the team-call group of the user has no members, team-call won’t be enabled.
 
 
@@ -1926,10 +1928,10 @@ This example disables Group Call Pickup for a given user.
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /disablegrouppickup
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > When you disable Group Call Pickup for a user, the group number that was assigned to the user is not retained. If you subsequently want to re-enable Group Call Pickup for that user, you must assign the group number again with the /enablegrouppickup switch.
 
 
@@ -2063,10 +2065,10 @@ When executed, the Unassigned Number Announcements Migration script will perform
 
 1.  Move all the audio files used by the unassigned number announcements of the announcement application hosted in the source server or pool to the file store of the destination server or pool.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > the audio files are removed from the source pool once they’re copied to the destination pool.
 
     
@@ -2174,10 +2176,10 @@ This tool allows the administrator to perform the following operations:
 
 4.  Move all Web conferencing data associated with a single user when that user is moved from one pool to another.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The Resource Kit Tools for Lync Server 2010 supported moving all Web conferencing data associated with a single user when that user is moved from one pool to another. That functionality is now deprecated from this tool in favor of the <STRONG>MoveConferenceData</STRONG> parameter. For details about this parameter, see the <A href="https://technet.microsoft.com/en-us/library/gg398528(v=ocs.15)">Move-CsUser</A> cmdlet.
 
 
@@ -2249,4 +2251,3 @@ This tool can be a valuable resource to administrators who need more precise con
 </div>
 
 </div>
-

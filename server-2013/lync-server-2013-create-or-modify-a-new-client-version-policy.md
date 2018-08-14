@@ -38,10 +38,10 @@ You can use client version policies to specify the versions of clients that are 
 
 3.  In the left navigation bar, click **Clients**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The <STRONG>Client Version Policy</STRONG> tab is selected by default.
 
     
@@ -83,7 +83,7 @@ You can create client version policies by using the **New-CsClientVersionPolicy*
 
 </div>
 
-For details, see the Help topics for the [New-CsClientVersionPolicy](new-csclientversionpolicy.md) cmdlet and the [Set-CsClientVersionPolicy](set-csclientversionpolicy.md) cmdlet.
+For details, see the Help topics for the [New-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionPolicy) cmdlet and the [Set-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy) cmdlet.
 
 </div>
 

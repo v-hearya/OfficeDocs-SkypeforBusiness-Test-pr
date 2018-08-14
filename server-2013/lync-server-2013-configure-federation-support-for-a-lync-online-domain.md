@@ -28,12 +28,12 @@ _**Topic Last Modified:** 2012-11-01_
 
 Federating with a Microsoft Lync Online 2010 customer requires you to complete the following steps:
 
-  - Configure support for the domain of the Lync Online 2010 customer (for example, contoso.onmicrosoft.com). As specified in the [Prerequisites for federating with a Lync Online customer in Lync Server 2013](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md) section of this documentation, you should have already enabled federation for your organization. Enabling federation requires specifying the method to be used to control access by federated domains. If you configured your organization to use discovery, adding the domain to your organization’s allowed list is optional. If you did not enable domain discovery, then you must add the domain name of the Lync Online customer to your allowed domains list. You can add a domain name either by using Lync Server Control Panel or by running the **New-CSAllowedDomain** cmdlet. For details about using Lync Server Control Panel, including enabling discovery of domains, see [Manage SIP federated providers for your organization in Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md) in the Operations documentation. For details about using the **New-CSAllowedDomain** cmdlet to add a domain, see [New-CsAllowedDomain](new-csalloweddomain.md) in the Operations documentation.
+  - Configure support for the domain of the Lync Online 2010 customer (for example, contoso.onmicrosoft.com). As specified in the [Prerequisites for federating with a Lync Online customer in Lync Server 2013](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md) section of this documentation, you should have already enabled federation for your organization. Enabling federation requires specifying the method to be used to control access by federated domains. If you configured your organization to use discovery, adding the domain to your organization’s allowed list is optional. If you did not enable domain discovery, then you must add the domain name of the Lync Online customer to your allowed domains list. You can add a domain name either by using Lync Server Control Panel or by running the **New-CSAllowedDomain** cmdlet. For details about using Lync Server Control Panel, including enabling discovery of domains, see [Manage SIP federated providers for your organization in Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md) in the Operations documentation. For details about using the **New-CSAllowedDomain** cmdlet to add a domain, see [New-CsAllowedDomain](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAllowedDomain) in the Operations documentation.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > A Lync Online customer can have multiple domains. If you want to federate with more than one of the domains, you must configure support for each individual domain with which you want to support federation, and the administrator of the Lync Online customer must enable federation for each of the domains to be federated.
 
     
@@ -41,10 +41,10 @@ Federating with a Microsoft Lync Online 2010 customer requires you to complete t
 
   - Configure support for the hosting provider of the Lync Online 2010 customer domain with which you want to federate. Use the procedure in this section to configure support for hosting provider.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This step is required only for federation with a domain of a Lync Online customer, not for federation with any domain that is deployed on-premises at a federated partner’s location.
 
     
@@ -76,7 +76,7 @@ Federating with a Microsoft Lync Online 2010 customer requires you to complete t
     
       - **IsLocal** indicates whether the proxy server used by the hosting provider is contained within your Lync Server topology.
     
-    For details about using this cmdlet, see [New-CsHostingProvider](new-cshostingprovider.md) in the Operations documentation.
+    For details about using this cmdlet, see [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider) in the Operations documentation.
 
 </div>
 

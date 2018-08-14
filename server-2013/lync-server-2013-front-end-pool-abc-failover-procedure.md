@@ -46,7 +46,7 @@ To run the cmdlets, open a Lync Server Management Shell using Run as Administrat
     
         Invoke-CsManagementServerFailover -BackupSqlServerFqdn <Pool B BE FQDN> -BackupSqlInstanceName <Pool B BE instance name> [-BackupMirrorSqlServerFqdn <Pool B Mirror BE FQDN> -BackupMirrorSqlInstanceName <Pool B Mirror BE Instance name>] -Force -Verbose
     
-    After you do this, we recommend that you move the CMS from pool B to another existing paired pool for extra resiliency. For details, see [Move-CsManagementServer](move-csmanagementserver.md)..
+    After you do this, we recommend that you move the CMS from pool B to another existing paired pool for extra resiliency. For details, see [Move-CsManagementServer](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsManagementServer)..
 
 3.  If Pool A contains CMS, import the LIS configuration from pool A into pool B’s LIS database (Lis.mdf). This will work only if you have been backing up LIS data on a regular basis. To import the LIS configuration, run the following cmdlets:
     
@@ -55,10 +55,10 @@ To run the cmdlets, open a Lync Server Management Shell using Run as Administrat
 
 4.  Import backed-up Lync Server Response Group service workflows from pool A into pool B.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Currently, the <STRONG>Import-CsRgsConfiguration</STRONG> cmdlet requires that the queue and workflow names on pool A are distinct from the queue and workflow names on pool B. If the names are not distinct, you will get an error when running the <STRONG>Import-CsRgsConfiguration</STRONG> cmdlet, and the queues and workflows will need to be renamed in pool B before proceeding with <STRONG>Import-CsRgsConfiguration</STRONG> cmdlet.
 
     
@@ -74,10 +74,10 @@ To run the cmdlets, open a Lync Server Management Shell using Run as Administrat
         
             Import-CsRgsConfiguration -Destination "service:ApplicationServer:<Pool B FQDN>" -FileName "C:\RgsExportPrimary.zip"
     
-    <div class="alert">
+    <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Keep in mind that if you do not want to overwrite the application-level settings of the backup pool (pool B) with the settings of the primary pool (pool A), pool A’s application-level settings will be lost if pool A is lost, because the Response Group application can store only one set of application-level settings per pool. When pool C is deployed to replace pool A, the application-level settings must be reconfigured, including the default music-on-hold audio file.
 
     
@@ -99,10 +99,10 @@ To run the cmdlets, open a Lync Server Management Shell using Run as Administrat
         
             Set-CsUnassignedNumber -Identity "<Range Name>" -AnnouncementService "<Pool B FQDN>" -AnnouncementName "<New Announcement in pool B>"
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This step is not required for unassigned number ranges that use "Exchange UM" as the selected announcement service.
 
     
@@ -179,10 +179,10 @@ To run the cmdlets, open a Lync Server Management Shell using Run as Administrat
         
             Import-CsRgsConfiguration -Destination "service:ApplicationServer:<Pool B FQDN>" -FileName "C:\RgsExportPrimary.zip"
     
-    <div class="alert">
+    <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Keep in mind that if you do not want to overwrite the application-level settings of Pool C with the settings of the backup pool (pool B), pool B’s application-level settings will be lost because the Response Group application can store only one set of application-level settings per pool.
 
     
@@ -210,10 +210,10 @@ To run the cmdlets, open a Lync Server Management Shell using Run as Administrat
     
       - (Optional) Remove from pool B the announcements that were re-created in pool C if they are no longer in use in pool B. To remove announcements, use the **Remove-CsAnnouncement** cmdlet.
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > This step is not required for unassigned number ranges that use "Exchange UM" as the announcement service.
 
         
@@ -288,10 +288,10 @@ To run the cmdlets, open a Lync Server Management Shell using Run as Administrat
             Update-CsUserData -FileName c:\logs\exportedUserDAta.xml -UserFilter $user - 
             }
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > A service outage will occur for users who are homed on SBAs that are associated with pool A until these users are moved to pool C.
 
         

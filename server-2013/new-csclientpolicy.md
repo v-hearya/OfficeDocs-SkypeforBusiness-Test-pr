@@ -501,7 +501,7 @@ Get-CsAdminRole | Where-Object {$\_.Cmdlets –match "New-CsClientPolicy"}
 <td><p>Optional</p></td>
 <td><p>System.String</p></td>
 <td><p>Indicates which Microsoft Outlook contact folders (if any) should not be searched any time Lync searches for new contacts. Multiple folders can be specified by separating the folder names using semicolons; for example: -ExcludedContactFolders &quot;SenderPhotoContacts;OtherContacts&quot;.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > When using a Skype for Business client, with either Office 2013 or Office 2016, this policy won't work in the same way.<BR>In that combination, the Skype for Business client uses the search capabilities of Office (mso.dll), which finds contacts from Exchange mailbox contact folders. There isn't an option to suppress the search of those contact folders for the Office search component.
@@ -620,7 +620,7 @@ Get-CsAdminRole | Where-Object {$\_.Cmdlets –match "New-CsClientPolicy"}
 <p>1110000</p>
 <p>After the binary value has been constructed, it must then be converted to a decimal value before being assigned to SearchPrefixFlags. To convert a binary number to a decimal number, you can use the a Windows PowerShell command similar to this:</p>
 <p>[Convert]::ToInt32(&quot;1110111&quot;, 2)</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Manual registry key creation is required for the search prefix flags to be implemented. A SearchPrefixFlags key must be created for either the machine or user as in the following examples. The "119" value is the integer equivalent of a "1110111" SearchPrefixFlags binary. The integer you enter will be based on your own search preferences.<BR>Use the appropriate Office version in the registry keys. 

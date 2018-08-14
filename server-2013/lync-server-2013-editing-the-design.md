@@ -50,10 +50,10 @@ The Planning Tool displays the site topology for the selected site. At the botto
 
   - Site Summary – The site summary presents an overview of the selections that you made by either answering the initial interview questions or filling in the values in **Design Sites**. Capacity information is also presented.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The information on the Site Summary page is customized for each design and may not contain all sections or information detailed here.
 
     

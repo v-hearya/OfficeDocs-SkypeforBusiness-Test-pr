@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-02-23_
 
 Device update rules can be imported only by using Windows PowerShell and the **Import-CsDeviceUpdate** cmdlet. This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.
 
 
@@ -61,7 +61,7 @@ Device update rules can be imported only by using Windows PowerShell and the **I
 
 </div>
 
-For details, see the Help topic for the [Import-CsDeviceUpdate](import-csdeviceupdate.md) cmdlet.
+For details, see the Help topic for the [Import-CsDeviceUpdate](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsDeviceUpdate) cmdlet.
 
 </div>
 

@@ -32,10 +32,10 @@ An agent who must sign in and out of the group, which is different from signing 
 
 An agent who does not sign in or out of the group is called an *informal agent*. Informal agents are automatically signed in to the group when they sign in to Lync Server, and they cannot sign out of the group.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Only on-premises users can be agents. If an agent is moved from on-premises to online, Response Group calls will not be routed to that agent.
 
 

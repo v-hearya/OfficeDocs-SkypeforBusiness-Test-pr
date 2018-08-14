@@ -28,20 +28,20 @@ _**Topic Last Modified:** 2014-01-02_
 
 All servers running Lync Server must meet certain minimum system requirements. System requirements for Lync Server include the server hardware, the operating system to be installed on each server, and related software requirements, such as the Windows updates and other software that must be installed on the servers.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Lync Server is available only in a 64-bit edition, which requires 64-bit hardware and a 64-bit edition of Windows Server. The exception is the Microsoft Lync Server 2013, Planning Tool, which is available in a 32-bit edition.
 
 
 
 </div>
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details about Active Directory support, supported topologies, server collocation, and other supportability issues, see <A href="lync-server-2013-supportability.md">Supportability for Lync Server 2013</A>.
 
 

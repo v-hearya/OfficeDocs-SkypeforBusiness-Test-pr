@@ -32,30 +32,30 @@ _**Topic Last Modified:** 2012-11-01_
 
 Business hour settings define when the workflow is available to answer calls and specify the actions to take for calls outside of business hours. Response Group administrators can use the **New-CsRgsHoursOfBusiness** cmdlet to create predefined schedules that you can use for any number of response groups.
 
-<div class="alert">
+<div>
 
 
-> [!TIP]
+> [!TIP]  
 > When you create or modify a workflow, you can specify a custom schedule that applies only to that workflow. For details, see <A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Create or modify a hunt group workflow in Lync Server 2013</A> or <A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">Create or modify an interactive workflow in Lync Server 2013</A>.
 
 
 
 </div>
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If a workflow is defined as a Managed workflow, then any user who is assigned the CsResponseGroupManager role can set and modify custom business hours for workflows that they manage.
 
 
 
 </div>
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Use 24-hour notation for the parameters in the following cmdlets (for example, 20:00=8:00 P.M.).
 
 
@@ -72,7 +72,7 @@ Business hour settings define when the workflow is available to answer calls and
 
 3.  For each unique range of hours you want to define, run:
     
-        $x = New-CsRgsTimeRange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
+        $x = new-Csrgstimerange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
     
     To create the business hours collection that uses the ranges you defined, run:
     
@@ -98,8 +98,8 @@ Business hour settings define when the workflow is available to answer calls and
 [Create or modify an interactive workflow in Lync Server 2013](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
 
 
-[New-CsRgsTimeRange](new-csrgstimerange.md)  
-[New-CsRgsHoursOfBusiness](new-csrgshoursofbusiness.md)  
+[new-Csrgstimerange](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsTimeRange)  
+[New-CsRgsHoursOfBusiness](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHoursOfBusiness)  
   
 
 </div>

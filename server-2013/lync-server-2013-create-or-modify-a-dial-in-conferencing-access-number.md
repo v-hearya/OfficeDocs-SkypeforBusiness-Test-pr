@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2012-09-17_
 
 Follow these steps if you want to create or modify a dial-in conferencing access number.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Before you create a new dial-in access number, you must set a dial-in conferencing region in the dial plan that is associated with the new dial-in access number. Multiple dial plans can use the same region.
 
 
@@ -54,10 +54,10 @@ Follow these steps if you want to create or modify a dial-in conferencing access
     
       - Click one of the dial-in access numbers in the list, click **Edit**, and then click **Show details**.
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Using the search field to search for the contents of a column in the list of dial-in access numbers may not yield the results you expect. Instead, sort the list by the column of interest to identify the dial-in access number you want to view or change.
 
         
@@ -65,10 +65,10 @@ Follow these steps if you want to create or modify a dial-in conferencing access
 
 5.  In **Display number**, type the phone number that public switched telephone network (PSTN) phone users dial to join a conference.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This number is displayed in meeting invitations and on the Dial-in Conferencing Settings webpage.
 
     
@@ -76,10 +76,10 @@ Follow these steps if you want to create or modify a dial-in conferencing access
 
 6.  In **Display name**, type a description for the dial-in access number. This is the name that is associated with the dial-in access number in Lync search results.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This name is displayed in the client when a user calls the access number.
 
     
@@ -87,10 +87,10 @@ Follow these steps if you want to create or modify a dial-in conferencing access
 
 7.  In **Line URI**, type the E.164 number of the dial-in access number in TEL URI format, including the + symbol before the number and excluding spaces. For example, tel:+14255550200.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The same Line URI cannot be reused by another dial-in conferencing access number.
 
     
@@ -100,10 +100,10 @@ Follow these steps if you want to create or modify a dial-in conferencing access
     
       - In the text box, type a unique SIP URI for this dial-in conferencing access number. This SIP URI is displayed in various locations including, but not limited to, call notification messages and previous versions of Communicator clients.
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > The same SIP URI cannot be reused by another dial-in conferencing access number. The SIP URI cannot be modified after the access number is created. The only way to change the SIP URI is to delete and recreate the access number.
 
         
@@ -113,10 +113,10 @@ Follow these steps if you want to create or modify a dial-in conferencing access
 
 9.  In **Pool**, click the pool that is running the instance of Conferencing Attendant that supports this dial-in access number.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you need to change the pool after you create the access number, you must use the <STRONG>Move-CsApplicationEndpoint</STRONG> cmdlet or delete and recreate the access number.
 
     
@@ -124,10 +124,10 @@ Follow these steps if you want to create or modify a dial-in conferencing access
 
 10. In **Primary language**, click the language in which prompts are played for this dial-in access number.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The primary language is the language that the Conferencing Attendant uses to answer the call. Supported languages are displayed alongside each access phone number on the Dial-in Conferencing Settings webpage.
 
     
@@ -135,10 +135,10 @@ Follow these steps if you want to create or modify a dial-in conferencing access
 
 11. (Optional) In **Secondary languages (maximum of four)**, click **Add**, select one or more additional languages that you want to support for callers to this dial-in access number, and then click **OK**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can choose up to four secondary languages for each dial-in access number. Users can select a secondary language before entering the conference ID when they dial in to a conference.
 
     

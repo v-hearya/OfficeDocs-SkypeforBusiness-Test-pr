@@ -42,20 +42,20 @@ The process of homing users on a Survivable Branch Appliance or a Survivable Bra
 
 2.  In the Lync Server Management Shell, run the cmdlet **Move-CsUser** to move home users.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You can also use Lync Server Control Panel to verify prerequisites and home users.
 
 
 
 </div>
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Users who are homed on a Lync Server Survivable Branch Appliance are unable to create new chat rooms or view the room card for existing rooms.
 
 
@@ -69,10 +69,10 @@ The process of homing users on a Survivable Branch Appliance or a Survivable Bra
 ## See Also
 
 
-[Test-CsPstnOutboundCall](test-cspstnoutboundcall.md)  
-[Get-CsVoicePolicy](get-csvoicepolicy.md)  
-[Get-CsVoicemailReroutingConfiguration](get-csvoicemailreroutingconfiguration.md)  
-[Move-CsUser](move-csuser.md)  
+[Test-CsPstnOutboundCall](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPstnOutboundCall)  
+[Get-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicePolicy)  
+[Get-CsVoicemailReroutingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicemailReroutingConfiguration)  
+[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser)  
   
 
 </div>

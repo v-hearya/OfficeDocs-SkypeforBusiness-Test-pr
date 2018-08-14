@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2010-11-03_
 
 After you create the computer object for the Kerberos authentication account, you can set up the password for the account. You run the Windows PowerShell cmdlet for setting the Kerberos account password on one server. You can set the password on the object that you created for the Kerberos authentication. The password can be set to a known value, but by default is a random password. The password is available to all Kerberos authentication sources that use the account. You use Windows PowerShell cmdlets to set up and manage Kerberos account passwords.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The Kerberos account object is a computer object, but uses the UserAccount parameter for operations in the Windows PowerShell cmdlets that are referenced. Note that this is not a mistake, but the intended behavior of the cmdlet when used with the Kerberos account creation and maintenance.
 
 

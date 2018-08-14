@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-06-19_
 
 Use the **Disable-CsAdForest** cmdlet to reverse the forest preparation step.
 
-<div class="alert">
+<div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > If you run the <STRONG>Disable-CsAdForest</STRONG> cmdlet in an environment where you also have a previous version of Lync Server deployed, the global settings for the previous version will also be deleted.
 
 

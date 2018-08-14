@@ -30,10 +30,10 @@ To enhance performance and facilitate deployment, apply the following best pract
 
   - Ensure that WANs are adequately provisioned for current and anticipated media traffic.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > We recommend that you factor in a buffer to your bandwidth limits. There are scenarios such as race conditions that affect the total bandwidth used and can result in situations where the bandwidth limit is exceeded. For example, if two calls try to start while media traffic is approaching a bandwidth limit, one of them may be denied because the other managed to start first.
 
     
@@ -45,10 +45,10 @@ To enhance performance and facilitate deployment, apply the following best pract
 
   - If you want to re-route blocked calls onto the PSTN, verify PSTN functionality and capacity. For details, see [Planning outbound voice routing in Lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md).
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Capacity refers to the number of ports you need to open to support potential PSTN re-routing.
 
     

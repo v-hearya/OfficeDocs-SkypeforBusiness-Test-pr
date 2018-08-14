@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-09-08_
 
 Each Edge Server is a multihomed computer with external and internal facing interfaces. The adapter Domain Name System (DNS) settings depend on whether there are DNS servers in the perimeter network. If DNS servers exist in the perimeter, they must have a zone containing one or more DNS A records for the next hop server or pool (that is, either a Director or a designated Front End pool), and for external queries they refer name lookups to other public DNS servers. If no DNS servers exist in the perimeter, the Edge Server(s) use external DNS servers to resolve Internet name lookups, and each Edge Server uses a HOST to resolve the next hop server names to IP addresses.
 
-<div class="alert">
+<div>
 
 <table>
 <thead>
@@ -52,10 +52,10 @@ Each Edge Server is a multihomed computer with external and internal facing inte
 
 1.  Install two network adapters for each Edge Server, one for the internal-facing interface and one for the external-facing interface.
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The internal and external subnets must not be routable to each other.
 
     
@@ -63,10 +63,10 @@ Each Edge Server is a multihomed computer with external and internal facing inte
 
 2.  On the external interface, configure three static IP addresses on the external perimeter network (also known as DMZ, demilitarized zone, and screened subnet) subnet, and point the default gateway to the internal interface of the external firewall. Configure adapter DNS settings to point to a pair of perimeter DNS servers.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > It is possible to use as few as one IP address for this interface, but to do this you need to change the port assignments to non-standard values. You determine this when you create the topology in Topology Builder.
 
     
@@ -84,10 +84,10 @@ Each Edge Server is a multihomed computer with external and internal facing inte
 
 1.  Install two network adapters for each Edge Server, one for the internal-facing interface and one for the external-facing interface.
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The internal and external subnets must not be routable to each other.
 
     
@@ -95,10 +95,10 @@ Each Edge Server is a multihomed computer with external and internal facing inte
 
 2.  On the external interface, configure three static IP addresses on the external perimeter network subnet. You also configure the default gateway on the external interface. For example, define the Internet-facing router or the external firewall as the default gateway. Configure DNS settings to point to a DNS server, preferably to a pair of external DNS servers.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > It is possible, but not recommended, to use as few as one IP address for the external interface. To allow this to work, you need to change the port assignments to non-standard values, and away from the default port 443 that is typically “firewall friendly” for client communication. You determine the IP address setting and the port settings when you create the topology in Topology Builder.
 
     

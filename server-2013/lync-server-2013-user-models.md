@@ -94,9 +94,9 @@ The following table describes the user model for registration, contacts, instant
 <li><p>50% of the contacts are within the organization. 10% of those users are remote users, connecting from outside the firewall.</p></li>
 <li><p>40% of the contacts are public cloud users (such as users of AOL, Yahoo!, MSN, or Google Talk).</p></li>
 <li><p>10% of the contacts are from federated partners.</p>
-<div class="alert">
+<div>
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > <UL>
 > <LI>
 > <P>As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (“PIC USL”) is no longer available for purchase for new or renewing agreements. Customers with active licenses will be able to continue to federate with Yahoo! Messenger until the service shut down date. An end of life date of June 2014 for AOL and Yahoo! has been announced. For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>.</P>
@@ -256,9 +256,9 @@ The following table describes the conferencing model.
 <td><p>Media mix for conferences</p></td>
 <td><p>75% of conferences are web conferences, which include audio plus some other collaboration modalities.</p>
 <p>For these conferences, the other collaboration methods are as follows:</p>
-<div class="alert">
+<div>
 
-> [!NOTE]
+> [!NOTE]  
 > These numbers add up to more than 100% because one conference can have multiple collaboration methods.
 
 

@@ -26,10 +26,10 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2012-09-21_
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If you have already created network regions for E9-1-1 or media bypass, you can modify the existing network regions by adding settings specific to call admission control (CAC) by using the <STRONG>Set-CsNetworkRegion</STRONG> cmdlet. For an example of how to modify a network region, see <A href="lync-server-2013-create-or-modify-a-network-region.md">Create or modify a network region in Lync Server 2013</A>.
 
 
@@ -40,10 +40,10 @@ _**Topic Last Modified:** 2012-09-21_
 
 The example network topology for CAC has three regions: North America, EMEA, and APAC. Each region has a specified central site. For the North America region, the designated central site is named CHICAGO. The following procedure shows an example of how you can use the **New-CsNetworkRegion** cmdlet to create the North America region.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In the following procedure, Lync Server Management Shell is used to create a network region. For details about using Lync Server Control Panel to create a network region, see <A href="lync-server-2013-create-or-modify-a-network-region.md">Create or modify a network region in Lync Server 2013</A>.
 
 

@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2017-02-17_
 
 Internal servers that are running Lync Server and that require certificates include Standard Edition server, Enterprise Edition Front End Server, Mediation Server, and Director. The following table shows the certificate requirements for these servers. You can use the Lync Server certificate wizard to request these certificates.
 
-<div class="alert">
+<div>
 
 
-> [!TIP]
+> [!TIP]  
 > Wildcard certificates are supported for the subject alternative names associated with the simple URLs on the Front End pool, Front End Server, or Director. For details about wildcard certificate support, see <A href="lync-server-2013-wildcard-certificate-support.md">Wildcard certificate support in Lync Server 2013</A>.
 
 
@@ -48,20 +48,20 @@ The following tables show certificate requirements by server role for Front End 
 
 Note that server enhanced key usage (EKU) is automatically configured when you use the certificate wizard to request certificates.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Each certificate Friendly Name must be unique in the computer store.
 
 
 
 </div>
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you have configured sipinternal.contoso.com or sipexternal.contoso.com in your DNS, you will need to add them in the certificate’s Subject Alternative Name.
 
 

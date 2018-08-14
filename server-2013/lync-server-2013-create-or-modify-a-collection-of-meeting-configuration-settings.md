@@ -62,10 +62,10 @@ You can use the settings on the Meeting Configuration page to define various cha
     
       - To customize the logo that appears in the meeting invite, in **Logo URL**, enter the location of the logo.
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > The logo must be a GIF or JPG image with a size of 188 by 30 pixels.
 
         
@@ -137,7 +137,7 @@ Meeting configuration settings can be created (at the site scope only) by using 
 
 </div>
 
-For more information, see the help topic for the [New-CsMeetingConfiguration](new-csmeetingconfiguration.md) cmdlet.
+For more information, see the help topic for the [New-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMeetingConfiguration) cmdlet.
 
 </div>
 

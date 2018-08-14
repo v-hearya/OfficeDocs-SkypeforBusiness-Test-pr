@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2012-09-26_
 
 If you have deployed Exchange Unified Messaging (UM), as described in [Planning for Exchange Unified Messaging integration in Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) in the Planning documentation, and you want to provide Exchange UM features to Enterprise Voice users in your organization, you can use the following procedures to configure the certificate on the server running Exchange UM.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > For internal certificates, both the servers running Lync Server 2013 and the servers running Microsoft Exchange must have trusted root authority certificates that are mutually trusted. The certification authority (CA) can either be the same, or a different certification authority, as long as the servers have the certification authority’s root certificate registered in their trusted root authority certificate store.
 
 
@@ -60,10 +60,10 @@ The Exchange Server must be configured with a server certificate in order to con
 
 3.  Under **Download a CA Certificate, Certificate Chain, or CRL**, select **Encoding Method to Base 64**, and then click **Download CA certificate**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can also specify Distinguished Encoding Rules (DER) encoding at this step. If you select DER encoding, the file type in the next step of this procedure and in step 10 of <STRONG>To Install the CA certificate</STRONG> is .p7b rather than .cer.
 
     
@@ -139,10 +139,10 @@ The Exchange Server must be configured with a server certificate in order to con
 
 6.  Under **Identifying Information for Offline Template**, in the **Name** box, type the fully qualified domain name (FQDN) of the Exchange Server.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You must enter the FQDN of the Exchange Server for communications to work.
 
     
@@ -174,10 +174,10 @@ The Exchange Server must be configured with a server certificate in order to con
     
     2.  "Import an Exchange Certificate" at [http://go.microsoft.com/fwlink/p/?linkId=195496](http://go.microsoft.com/fwlink/p/?linkid=195496)
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For the certificate <STRONG>Subject Name</STRONG>, you must enter the FQDN of the Exchange Server for communications to work.
 
     
@@ -197,10 +197,10 @@ The Exchange Server must be configured with a server certificate in order to con
 
 4.  Double-click the certificate to read its details and verify that it is valid.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > It may take a few minutes before the certificate displays as valid.
 
     
@@ -208,10 +208,10 @@ The Exchange Server must be configured with a server certificate in order to con
 
 5.  Restart the Microsoft Exchange Unified Messaging service.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The server running Exchange Server 2007 SP1 Unified Messaging automatically retrieves the correct certificate.
 
     

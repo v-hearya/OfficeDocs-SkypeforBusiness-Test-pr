@@ -42,10 +42,10 @@ Every region within a call admission control (CAC) configuration must have some 
 
 5.  In **New Region Route**, type a value in the **Name** field.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This value must be unique within your Microsoft Lync Server 2013 deployment.
 
     
@@ -57,10 +57,10 @@ Every region within a call admission control (CAC) configuration must have some 
 
 8.  Use the **Network region links** list box to add region links to the route. Click the **Add** button to display the **Region Link** page. Click a region link to add to this route, and then click **OK**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Continue to click the <STRONG>Add</STRONG> button to add more links, or select a link and click <STRONG>Remove</STRONG> to remove a link.
 
     

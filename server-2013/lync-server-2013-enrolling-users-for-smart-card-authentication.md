@@ -40,10 +40,10 @@ For more information on enrolling on behalf of users as an enrollment agent, see
 
 3.  Browse to the **Certificate Authority Web Enrollment** page (e.g. https://MyCA.contoso.com/certsrv).
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you are using Internet Explorer 10, you may need to view this website in Compatibility Mode.
 
     
@@ -85,10 +85,10 @@ For more information on enrolling on behalf of users as an enrollment agent, see
 
 10. When prompted, enter the PIN that was used to create the virtual smart card.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The default virtual smart card PIN value is ‘12345678’.
 
     
@@ -96,10 +96,10 @@ For more information on enrolling on behalf of users as an enrollment agent, see
 
 11. Once the certificate has been issued, click **Install this certificate** to complete the enrollment process.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If your certificate request fails with the error “This Web browser does not support the generation of certificate requests,” there are three possible ways to resolve the issue: 
     > <OL>
     > <LI>

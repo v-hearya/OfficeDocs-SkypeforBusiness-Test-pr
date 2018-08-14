@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure Lync Server 2013 to work with Unified Messaging on Microsoft Exchange Server'
 TOCTitle: Configure Lync Server 2013 to work with Unified Messaging on Microsoft Exchange Server
 ms:assetid: 1098ae4d-f57f-44f3-804e-39889d9fc14e
@@ -22,8 +22,6 @@ mtps_version: v=OCS.15
 
 <div id="mainBody">
 
-<span> </span>
-
 _**Topic Last Modified:** 2013-04-03_
 
 This step requires the Exchange UM Integration Utility (OcsUmUtil.exe). This tool is located on the Lync Server 2013 server in the ..\\Program Files\\Common Files\\Microsoft Lync Server 2013\\Support folder.
@@ -44,7 +42,7 @@ When you run the Exchange UM Integration Utility, it performs the following task
 
   - Verifies that the name of each Enterprise Voice dial plan matches its corresponding unified messaging (UM) dial plan phone context. This matching is necessary only if the UM dial plan is running on a version of Exchange *earlier* than Exchange 2010 Service Pack 1 (SP1).
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > Before running the Exchange UM Integration Utility, be sure that you have done the following:
 > <ul>
 > <li><p>Create one or more Exchange UM dial plans, as described in the Exchange product documentation.</p>
@@ -56,6 +54,7 @@ When you run the Exchange UM Integration Utility, it performs the following task
 > If you are using a version of Exchange that is earlier than Microsoft Exchange Server 2010 SP1, you must enter the fully qualified domain name (FQDN) of the corresponding Exchange Unified Messaging (UM) SIP dial plan in the Lync Server 2013 dial plan <STRONG>Simple name</STRONG> field. If you are using Microsoft Exchange Server 2010 SP1 or latest service pack, this dial plan name matching is not necessary.</li>
 > <li>Create an auto-attendant and make sure that both the subscriber access number and auto-attendant number are in E.164 format.</li>
 </ul></td>
+
 
 <div>
 
@@ -71,7 +70,7 @@ When you run the Exchange UM Integration Utility, it performs the following task
 
 5.  In the **Contact** box, accept the default organizational unit, or click **Browse** to start the **OU Picker**. In the **OU Picker** box, you can select an OU and click **OK**, or you can click **Make New OU** to create a new organizational unit under the root or any other OU in the domain (for example, "OU=RTC Special Accounts,DC=fourthcoffee,DC=com"), and then click **OK**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]  
@@ -82,7 +81,7 @@ When you run the Exchange UM Integration Utility, it performs the following task
 
 6.  In the **Name** box, either accept the default dial plan name or type a new display name for the contact object that you are creating.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]  
@@ -93,7 +92,7 @@ When you run the Exchange UM Integration Utility, it performs the following task
 
 7.  In the **SIP Address** box, either accept the default SIP address or type a new SIP address.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]  
@@ -104,7 +103,7 @@ When you run the Exchange UM Integration Utility, it performs the following task
 
 8.  In the **Server or Pool** list, select the Standard Edition server or Front End pool in which the contact object is to be enabled.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]  
@@ -119,7 +118,7 @@ When you run the Exchange UM Integration Utility, it performs the following task
 
 11. Repeat steps 1 through 10 for additional contact objects that you want to create.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]  
@@ -136,7 +135,7 @@ To verify that the contact objects have been created, open Active Directory User
 
 </div>
 
-<span> </span>
+<span> </span>
 
 </div>
 

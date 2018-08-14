@@ -46,11 +46,11 @@ You can configure your simple URLs to have global scope, or you can specify diff
 
 In most cases, we recommend that you set simple URLs only at the global level, so that a user’s Meet simple URL does not change if they move from one site to another. The exception would be organizations that need to use different telephone numbers for dial-in users at different sites. Note that if you set one simple URL (such as the Dial-in simple URL) at a site to be a site-level simple URL, you must also set the other simple URLs at that site to be site-level as well.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
-> If you choose to use site scoped simple URLs, your users won't be able to move between Front-End pools in different sites without those users rescheduling all of their scheduled meetings as the meeting simple URLs are different between sites. This includes fail-over scenarios where pools in backup relationships are in separate sites. When you need to fail-over between sites where site scoped simple URLs are deployed, users won't be able to join their meetings because of the scope for URL. For further information, check <A href="get-cssimpleurlconfiguration.md">Get-CsSimpleUrlConfiguration</A>.
+> [!NOTE]  
+> If you choose to use site scoped simple URLs, your users won't be able to move between Front-End pools in different sites without those users rescheduling all of their scheduled meetings as the meeting simple URLs are different between sites. This includes fail-over scenarios where pools in backup relationships are in separate sites. When you need to fail-over between sites where site scoped simple URLs are deployed, users won't be able to join their meetings because of the scope for URL. For further information, check <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSimpleUrlConfiguration">Get-CsSimpleUrlConfiguration</A>.
 
 
 

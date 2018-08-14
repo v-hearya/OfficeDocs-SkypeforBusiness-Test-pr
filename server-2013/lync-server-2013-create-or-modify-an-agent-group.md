@@ -28,20 +28,20 @@ _**Topic Last Modified:** 2014-02-07_
 
 Use one of the following procedures to create or modify an agent group.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > An Administrator—for example, CsVoiceAdministrator—must enable users for Enterprise Voice and Lync Server before the users can be assigned to agent groups. If you are one of the delegated Response Group Managers for a managed workflow, you can create agent groups and use the agent groups in the workflows that you manage.
 
 
 
 </div>
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > When you assign users as response group agents, inform them that, if they have Privacy mode enabled, they need to search for "RGS Presence Watcher" contacts and add them to their Contacts list. Agents who have Privacy mode enabled, but who do not have "RGS Presence Watcher" in their Contacts list, cannot receive calls to the response group. Agents who do not have Privacy mode enabled are not affected.
 
 
@@ -54,10 +54,10 @@ Use one of the following procedures to create or modify an agent group.
 
 1.  Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you are one of the delegated Response Group Managers for a managed workflow, you can create groups and use them in the workflows that you manage.
 
     
@@ -85,10 +85,10 @@ Use one of the following procedures to create or modify an agent group.
 
 8.  In **Alert time (seconds)**, specify the number of seconds to ring an agent before offering the call to the next available agent (the default is 20 seconds).
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The agent alert time setting cannot exceed 180 seconds. If the agent alert time exceeds 180 seconds, the client application rejects the call because the SIP transaction timer reaches its maximum wait time.
 
     
@@ -128,10 +128,10 @@ Use one of the following procedures to create or modify an agent group.
         
           - If the distribution list contains users for which Lync Server 2010 is enabled but Enterprise Voice is not enabled, they will be added to the agent group as dysfunctional agents. Make sure that all members of the distribution list have Enterprise Voice enabled for their user accounts.
         
-        <div class="alert">
+        <div>
         
 
-        > [!IMPORTANT]
+        > [!IMPORTANT]  
         > If you use an email distribution list, hidden memberships or hidden lists might become visible to the Response Group administrator or users.
 
         
@@ -163,10 +163,10 @@ Use one of the following procedures to create or modify an agent group.
     
         New-CsRgsAgentGroup -Name "Help Desk" -Parent "service:ApplicationServer:atl-cs-001.contoso.com"  -Description "Contoso Help Desk" -AgentAlertTime 20 -ParticipationPolicy Formal -RoutingMethod RoundRobin -AgentsByUri("sip:mindy@contoso.com","sip:bob@contoso.com")
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The agent alert time setting cannot exceed 180 seconds. If the agent alert time is greater than 180 seconds, the client application rejects the call because the SIP transaction timer reaches its maximum wait time.
 
     
@@ -187,10 +187,10 @@ Use one of the following procedures to create or modify an agent group.
 
 
 [Managing Response Group agent groups in Lync Server 2013](lync-server-2013-managing-response-group-agent-groups.md)  
-[Get-CsService](get-csservice.md)  
-[New-CsRgsAgentGroup](new-csrgsagentgroup.md)  
-[Set-CsRgsAgentGroup](set-csrgsagentgroup.md)  
-[Get-CsRgsAgentGroup](get-csrgsagentgroup.md)  
+[Get-CsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService)  
+[New-CsRgsAgentGroup](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsAgentGroup)  
+[Set-CsRgsAgentGroup](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsAgentGroup)  
+[Get-CsRgsAgentGroup](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsRgsAgentGroup)  
   
 
 </div>

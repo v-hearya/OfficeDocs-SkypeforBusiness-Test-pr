@@ -76,10 +76,10 @@ If you use separate SQL Server databases for Archiving, instead of or in additio
 
   - Back-end database of an Enterprise Edition Front End pool
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The server hosting the Archiving database can host other databases. However, when you consider collocating the Archiving database with other databases, be aware that if you are archiving the messages of more than a few users, the disk space needed by the Archiving database can grow very large. For this reason, we do not recommend collocating the Archiving database with the back-end database.
 
 

@@ -30,10 +30,10 @@ A workflow defines the behavior of a call from the time that the phone rings to 
 
 You use the Response Group Configuration Tool to create workflows. You can access the Response Group Configuration Tool from the Response Group page of Lync Server Control Panel.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You must create agent groups and queues before you create a workflow that uses them.
 
 

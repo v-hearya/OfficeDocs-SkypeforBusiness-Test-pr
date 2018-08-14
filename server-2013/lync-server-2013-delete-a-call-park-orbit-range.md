@@ -62,11 +62,11 @@ Use one of the following procedures to delete a Call Park orbit range.
     
         Remove-CsCallParkOrbit -Identity "Redmond orbit 1"
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
-    > For details about more options, see <A href="remove-cscallparkorbit.md">Remove-CsCallParkOrbit</A>.
+    > [!NOTE]  
+    > For details about more options, see <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.
 
     
     </div>
@@ -81,8 +81,8 @@ Use one of the following procedures to delete a Call Park orbit range.
 [Create or modify a Call Park orbit range in Lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  
 
 
-[Remove-CsCallParkOrbit](remove-cscallparkorbit.md)  
-[Get-CsCallParkOrbit](get-cscallparkorbit.md)  
+[Remove-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit)  
+[Get-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCallParkOrbit)  
   
 
 </div>

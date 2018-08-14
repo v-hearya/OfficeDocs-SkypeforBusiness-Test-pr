@@ -53,9 +53,9 @@ A presence policy is a set of limits and restrictions that affect presence. The 
 <td><p>Maximum Number of Subscriber Category Subscriptions</p></td>
 <td><p>Limits the number of subscriber category subscriptions. For example, when Communicator subscribes to a user’s presence, it obtains a category subscription for each of the contact card, calendar data, notes, services, and state categories.</p>
 <p>A setting of 0 means that the user or contact object cannot be subscribed to by others.</p>
-<div class="alert">
+<div>
 
-> [!NOTE]
+> [!NOTE]  
 > This setting can have a significant impact on performance if it is set to a high number, and the average user has a large number of users subscribing to his or her presence.
 
 

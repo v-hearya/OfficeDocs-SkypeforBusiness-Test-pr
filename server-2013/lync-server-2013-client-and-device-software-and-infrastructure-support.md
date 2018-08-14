@@ -41,10 +41,10 @@ Software support for clients and devices of a Lync Server 2013 deployment includ
   - <span></span>  
     [How user photos are displayed in Lync](how-user-photos-are-displayed-in-lync.md)
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Lync Phone Edition works the same way with Lync Server 2013 as it does with Lync Server 2010. For details about software support for devices, see the following topics in the Lync Server 2010 TechNet Library: 
 > <UL>
 > <LI>

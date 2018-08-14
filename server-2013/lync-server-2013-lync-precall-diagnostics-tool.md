@@ -74,10 +74,10 @@ This topic describes the following versions of the tool, available for free down
 
 ## Lync PCD System Requirements
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > PCD requires that Unified Communications Web API (UCWA) be installed and configured to support mobile clients in the Lync Server deployment. UCWA is installed with Lync Server.
 
 

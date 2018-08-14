@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2012-09-24_
 
 The *global* hosted voice mail policy is installed with Lync Server 2013. You can modify it to meet your needs, but you cannot rename or delete it. To modify the global policy, you use the Set-CsHostedVoicemailPolicy cmdlet to set the parameters to appropriate values for your specific deployment.
 
-For details about the [Set-CsHostedVoicemailPolicy](set-cshostedvoicemailpolicy.md) cmdlet, see the Lync Server Management Shell documentation.
+For details about the [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy) cmdlet, see the Lync Server Management Shell documentation.
 
 <div>
 
@@ -46,10 +46,10 @@ For details about the [Set-CsHostedVoicemailPolicy](set-cshostedvoicemailpolicy.
     
       - **Organization** specifies a comma-separated list of the Exchange tenants that home Lync Server users. Each tenant must be specified as the FQDN of that tenant on the hosted Exchange UM service.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > In the previous example cmdlet, the value “corp1.litwareinc.com” replaces any value that might already be present in the Organization parameter. For example, if the policy already contains a comma-separated list of organizations, the full list would be replaced. If you want to add an organization to the list rather than replace the entire list, run a command similar to the following.
 
     

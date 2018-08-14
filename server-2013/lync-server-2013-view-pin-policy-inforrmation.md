@@ -70,7 +70,7 @@ You can also view PIN policies by using Windows PowerShell and the Get-CsPinPoli
 
 </div>
 
-For more information, see the help topic for the [Get-CsPinPolicy](get-cspinpolicy.md) cmdlet.
+For more information, see the help topic for the [Get-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPinPolicy) cmdlet.
 
 </div>
 

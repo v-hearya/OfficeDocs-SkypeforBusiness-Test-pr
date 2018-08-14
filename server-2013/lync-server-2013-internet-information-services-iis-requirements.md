@@ -91,7 +91,7 @@ When the Web Server (IIS) role is enabled on Windows Server 2008, various role s
 </table>
 
 
-<div class="alert">
+<div>
 
 <table>
 <thead>

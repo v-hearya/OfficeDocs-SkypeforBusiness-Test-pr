@@ -113,10 +113,10 @@ Log settings can be changed and applied globally, or per site.
 
 Device update log file settings can be modified by using Windows PowerShell and the **Set-CsDeviceUpdateConfiguration** cmdlet. This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.
 
 
@@ -145,7 +145,7 @@ The following examples show a couple of the ways that you can use **Set-CsDevice
 
 </div>
 
-For details, see the Help topic for the [Set-CsDeviceUpdateConfiguration](set-csdeviceupdateconfiguration.md) cmdlet.
+For details, see the Help topic for the [Set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsDeviceUpdateConfiguration) cmdlet.
 
 </div>
 

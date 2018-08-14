@@ -26,10 +26,10 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2012-09-05_
 
-<div class="alert">
+<div class=" ">
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If you have already created network sites for E9-1-1 or media bypass, you can modify the existing network sites to apply a bandwidth policy profile by using the <STRONG>Set-CsNetworkSite</STRONG> cmdlet. For an example of how to modify a network site, see <A href="lync-server-2013-create-or-modify-a-network-site.md">Create or modify a network site in Lync Server 2013</A>.
 
 
@@ -42,10 +42,10 @@ In the example CAC deployment, the North America region has six sites. Three of 
 
 To view the example network topology, see [Example: Gathering your requirements for call admission control in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in the Planning documentation.
 
-<div class="alert">
+<div class=" ">
 
 
-> [!NOTE]
+> [!NOTE]  
 > In the following procedure, Lync Server Management Shell is used to create a network site. For details about using Lync Server Control Panel to create a network site, see <A href="lync-server-2013-create-or-modify-a-network-site.md">Create or modify a network site in Lync Server 2013</A>.
 
 
@@ -60,11 +60,17 @@ To view the example network topology, see [Example: Gathering your requirements 
 
 2.  Run the **New-CsNetworkSite** cmdlet to create network sites and apply an appropriate bandwidth policy profile to each site. For example, run:
     
+       ```
         New-CsNetworkSite -NetworkSiteID Reno -Description "NA:Branch office for sales force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 10MB_Link
+       ```
     
+       ```
         New-CsNetworkSite -NetworkSiteID Portland -Description "NA:Branch office for marketing force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 5MB_Link
+       ```
     
+       ```
         New-CsNetworkSite -NetworkSiteID Albuquerque -Description "NA:Branch office for SouthWest sales" -NetworkRegionID EMEA -BWPolicyProfileID 10MB_Link
+       ```
 
 3.  To finish creating network sites for the entire example topology, repeat step 2 for the bandwidth-constrained network sites in the EMEA and APAC regions.
 

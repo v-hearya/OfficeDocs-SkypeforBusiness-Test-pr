@@ -42,10 +42,10 @@ The currently supported public instant messaging connectivity partners are:
 
 For communications with Windows Live users, Lync Server 2013 supports peer-to-peer IM and audio and video calls. For communications with AOL and Yahoo\!, Lync Server 2013 supports peer-to-peer IM. A separate license may be required.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > <UL>
 > <LI>
 > <P>As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (“PIC USL”) is no longer available for purchase for new or renewing agreements. Customers with active licenses will be able to continue to federate with Yahoo! Messenger until the service shut down date. An end of life date of June 2014 for AOL and Yahoo! has been announced. For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>.</P>

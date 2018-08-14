@@ -54,10 +54,10 @@ If your organization wants to support public instant messaging (IM) connectivity
     
     The default certificate name of the template used for Lync Server is Web Server. Only specify the \<template name\> if you need to use a template that is different from the default template.
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If your organization wants to support public IM connectivity with AOL, you must use Windows PowerShell instead of the Certificate Wizard to request the certificate to be assigned to the external edge for the Access Edge service. This is because the Certificate Authority (CA) Web Server template that the Certificate Wizard uses to request a certificate does not support client EKU configuration. Before using Windows PowerShell to create the certificate, the CA administrator must create and deploy a new template that supports client EKU.
 
     

@@ -32,13 +32,13 @@ While region links set bandwidth limitations on the connections between regions,
 
 For details about working with network interregion routes, see the Lync Server Management Shell documentation for the following cmdlets:
 
-  - [New-CsNetworkInterRegionRoute](new-csnetworkinterregionroute.md)
+  - [New-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterRegionRoute)
 
-  - [Get-CsNetworkInterRegionRoute](get-csnetworkinterregionroute.md)
+  - [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterRegionRoute)
 
-  - [Set-CsNetworkInterRegionRoute](set-csnetworkinterregionroute.md)
+  - [Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterRegionRoute)
 
-  - [Remove-CsNetworkInterRegionRoute](remove-csnetworkinterregionroute.md)
+  - [Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterRegionRoute)
 
 In the example topology, network interregion routes must be defined for each of the three region pairs: North America/EMEA, EMEA/APAC, and North America/APAC.
 
@@ -50,16 +50,22 @@ In the example topology, network interregion routes must be defined for each of 
 
 2.  Run the **New-CsNetworkInterRegionRoute** cmdlet to define the required routes. For example, run:
     
+       ```
         New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
+       ```
     
+       ```
         New-CsNetworkInterRegionRoute -Identity NorthAmerica_APAC_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 APAC -NetworkRegionLinkIDs "NA-EMEA-LINK, EMEA-APAC-LINK"
+       ```
     
+       ```
         New-CsNetworkInterRegionRoute -Identity EMEA_APAC_Route -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -NetworkRegionLinkIDs "EMEA-APAC-LINK"
+       ```
     
-    <div class="alert">
+    <div class=" ">
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The North America/APAC network interregion route requires two network region links because there is no direct network region link between them.
 
     
@@ -87,10 +93,10 @@ In the example topology, network interregion routes must be defined for each of 
 
 8.  Click **Add** beside the **Network Region Links** field, and then add a network region link that will be used in the network interregion route.
     
-    <div class="alert">
+    <div class=" ">
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you are creating a route for two network regions that do not have a direct network region link between them, you must add all the necessary links to complete the route. For example, the North America/APAC network interregion route requires two network region links because there is no direct network region link between them.
 
     

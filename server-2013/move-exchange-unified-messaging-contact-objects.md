@@ -32,10 +32,10 @@ To migrate Auto Attendant (AA) and Subscriber Access (SA) contact objects to the
 
   - Add it to the Unified Messaging hunt groups.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In order to use the <STRONG>Get-CsExUmContact</STRONG> and <STRONG>Move-CsExUmContact</STRONG> cmdlets, you must be a member of the RTCUniversalUserAdmins group and have organizational unit (OU) permission to the OU where the contacts objects are stored. OU permission can be granted using the <STRONG>Grant-OUPermission</STRONG> cmdlet.
 
 
@@ -78,10 +78,10 @@ To migrate Auto Attendant (AA) and Subscriber Access (SA) contact objects to the
     
     where forest FQDN specifies the forest in which Lync Server 2013 is deployed.
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Be sure to restart the <STRONG>Lync Server Front-End</STRONG> service (rtcsrv.exe) <EM>after</EM> you run exchucutil.ps1. Otherwise, Lync Server 2013 will not detect Unified Messaging in the topology.
 
     

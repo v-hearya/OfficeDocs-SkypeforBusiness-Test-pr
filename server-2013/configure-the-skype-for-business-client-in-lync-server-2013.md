@@ -32,20 +32,20 @@ Skype for Business provides a new user experience that is based on the Skype con
 
 Lync Server 2013 supports the new Skype for Business client experience as well as the Lync client experience. As an administrator, you can choose the preferred client experience for your users. For example, you might want to deploy the Lync client experience until users in your organization are fully trained in the new Skype for Business experience. Or, if you have not yet upgraded all users to Skype for Business Server 2015, you might want all users to have the same client experience until all are upgraded to the new server.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If your organization has both Skype for Business Server 2015 and Lync Server 2013 deployed, the default client experience will differ depending on server versions and UI settings. When users launch Skype for Business for the first time, they will always see the Skype for Business user interface--even if you have selected the Lync user interface. After several minutes, users are asked to switch to Lync mode. For more information, see <STRONG>First launch client behavior</STRONG> later in this topic.
 
 
 
 </div>
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The Lync 2013 client experience is not an option for Skype for Business 2016 client versions. Before you attempt to configure your client environment to use the Lync 2013 client, please check the client version to ensure it does not start with the number 16; for example: 16.x.x.x.
 
 

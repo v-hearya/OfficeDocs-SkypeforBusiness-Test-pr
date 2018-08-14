@@ -41,7 +41,7 @@ For example:
 ## See Also
 
 
-[New-CsWebServiceConfiguration](new-cswebserviceconfiguration.md)  
+[New-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsWebServiceConfiguration)  
   
 
 </div>

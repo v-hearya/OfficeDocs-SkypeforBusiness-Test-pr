@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2015-02-27_
 
 Microsoft Lync Server 2013 Monitoring Reports provide you with a wealth of information about the quality and quantity of the communication sessions that take place in your organization. However, Monitoring Reports are not automatically installed when you install Lync Server 2013; instead, you must install Monitoring Reports separately, and only after Lync Server has been installed on the computer.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > It is recommended that you install Monitoring Reports on the same computer where the monitoring database is installed. This simplifies the process of assigning permissions for accessing the reports: installing Monitoring Reports on the computer that hosts the monitoring store means that you will not have to configure permissions that allow a database on one computer to interact with Reporting Services running on a second computer.
 
 
@@ -48,10 +48,10 @@ Lync Server Monitoring Reports include over 30 reports designed to provide detai
 
 More information on the individual reports can be found in the Monitoring Reports documentation.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > There is another new report – QoE Call Detail Subreport – included in Lync Server 2013. However, this report is primarily for internal use, and is not intended to be directly accessed.
 
 

@@ -67,7 +67,7 @@ After you have successfully established a connection to Skype for Business Onlin
 
     Import-PSSession $session -AllowClobber
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

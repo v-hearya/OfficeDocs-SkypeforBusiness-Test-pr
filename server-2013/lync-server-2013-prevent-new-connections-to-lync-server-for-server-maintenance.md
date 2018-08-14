@@ -46,10 +46,10 @@ For details about DNS load balancing, see [DNS load balancing in Lync Server 201
 
 In addition to preventing new connections for all services on a server running Lync Server, you can also prevent new connections for individual Lync Server services. For example, this method is useful in a situation where you need to apply a Lync Server update that does not require the whole server to be shut down. Note that when you prevent connections for one service, you must select a service as it is grouped and displayed in the Windows list of services. For example, the Lync Server Front-End service and the data collection agent for Monitoring are separate Lync Server services, but in the Windows services list they are consolidated and shown as the Lync Server Front End service. You can prevent new connections for the Lync Server Front End service, but you cannot prevent new connections for these two individual underlying Lync Server services separately.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > When you set a server to prevent new connections, and then restart the server, by default the server will immediately begin accepting new connections after it starts. To prevent this, set the server to only pause and resume manually, before you restart the server.
 
 
@@ -70,10 +70,10 @@ In addition to preventing new connections for all services on a server running L
 
 5.  Optionally, but recommended, next to **Startup type**, click **Manual**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > When you set a server to prevent new connections, and then restart the server, by default the server will immediately begin accepting new connections after it starts. To prevent this, set the server to only pause and resume manually, before you restart the server.
 
     

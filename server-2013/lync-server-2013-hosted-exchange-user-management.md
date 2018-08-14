@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2012-10-18_
 
 To provide voice mail services for Lync Server 2013 users whose mailboxes are located on a hosted Exchange service, you must enable their user accounts for hosted voice mail.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Before a Lync Server 2013 user can be enabled for hosted voice mail, a hosted voice mail policy that applies to the corresponding user account must be deployed. The policy can be global, site, or per-user in scope, as long as it applies to the user whom you want to enable. For details, see <A href="lync-server-2013-hosted-voice-mail-policies.md">Hosted voice mail policies in Lync Server 2013</A>.
 
 
@@ -88,10 +88,10 @@ The attribute’s key/value pairs and their authors are shown in the following t
 </table>
 
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If the attribute already has values other than one of the Lync Server 2013 key/value pairs (CSHostedVoiceMail=0 or CSHostedVoiceMail=1), a warning will indicate that the attribute may be managed by a different application. For example, a warning is displayed if the key/value pair ExchangeHostedVoiceMail=0 or ExchangeHostedVoiceMail=1 is already present. In that case, you can change the value by editing it the Active Directory, or run the following cmdlet to set the value to null:<BR>Set-CsUser –identity user –HostedVoicemail $null
 
 

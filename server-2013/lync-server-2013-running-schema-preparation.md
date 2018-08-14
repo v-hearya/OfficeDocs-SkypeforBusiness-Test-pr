@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2012-10-29_
 
 You can use Setup or Lync Server Management Shell cmdlets to prepare the Active Directory schema. The cmdlet that extends the Active Directory schema is **Install-CsAdServerSchema**.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The schema preparation cmdlet (<STRONG>Install-CsAdServerSchema</STRONG>) must access the schema master, which requires that the remote registry service is running and that the remote registry key is enabled. If the remote registry service cannot be enabled on the schema master, you can run the cmdlet locally on the schema master. For details about registry remote access, see Microsoft Knowledge Base article 314837, "How to Manage Remote Access to the Registry," at <A href="http://go.microsoft.com/fwlink/p/?linkid=125769">http://go.microsoft.com/fwlink/p/?linkId=125769</A>.
 
 

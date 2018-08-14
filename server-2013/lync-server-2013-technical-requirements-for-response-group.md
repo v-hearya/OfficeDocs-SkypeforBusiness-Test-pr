@@ -68,19 +68,19 @@ The Response Group application uses the following ports:
 
   - **Port 8404**   Used for interserver communications
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This port is used for the Match Making service and is required when the Response Group application is deployed in a pool that has more than one Front End Server.
 
     
     </div>
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > These ports are default settings that you can change by using the <STRONG>Set-CsApplicationServer</STRONG> cmdlet. For details about this cmdlet, see the Lync Server Management Shell documentation.
 
 
@@ -133,10 +133,10 @@ You can use the Microsoft Expression Encoder 4 to convert a file to the Windows 
 
 The Response Group Configuration Tool supports the combinations of operating systems and web browsers described in the following table.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > 32-bit or 64-bit versions of the operating systems are supported. Only 32-bit versions of Internet Explorer are supported.
 
 
@@ -193,10 +193,10 @@ The Response Group Configuration Tool supports the combinations of operating sys
 
 The agent console supports the combinations of operating systems and web browsers described in the following table.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > 32-bit or 64-bit versions of the operating systems are supported. Only 32-bit versions of Internet Explorer are supported.
 
 

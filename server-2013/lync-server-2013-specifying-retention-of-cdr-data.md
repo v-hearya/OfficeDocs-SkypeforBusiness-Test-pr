@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-02-23_
 
 By default, call detail recording (CDR) data is purged after 60 days. You can use the settings on the **Call Detail Recording** page to retain the data for a longer or shorter period of time. If you disable CDR, data that was captured before CDR was enabled will also be subject to purging.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You should configure CDR and Quality of Experience (QoE) to retain data for the same number of days. Each call in the call detail reports (CDRs), available from the Monitoring Server Reports webpage, includes CDR and QoE information. If the purging duration for CDR and QoE is different, some calls might only include CDR data, while other may only include QoE data.
 
 
@@ -88,7 +88,7 @@ You can create CDR retention settings by using Windows PowerShell and the Set-Cs
 
 </div>
 
-For more information, see the help topic for the [Set-CsCdrConfiguration](set-cscdrconfiguration.md) cmdlet.
+For more information, see the help topic for the [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration) cmdlet.
 
 </div>
 

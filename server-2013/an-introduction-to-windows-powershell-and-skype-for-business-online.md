@@ -48,7 +48,6 @@ As you can see, the parameters (that is, EnableApplePushNotificationService and 
 
 In sum, you can use either the admin center or a Windows PowerShell cmdlet and the appropriate parameters to manage push notifications. Both approaches work, and both approaches work equally well.
 
-<div class="alert">
 
 
 > [!NOTE]
@@ -56,7 +55,6 @@ In sum, you can use either the admin center or a Windows PowerShell cmdlet and t
 
 
 
-</div>
 
 This brings up an obvious question: if the Skype for Business Online admin center and Windows PowerShell provide the exact same functionality, why would you choose to use one over the other? For that matter, why would you ever choose to type commands in Windows PowerShell, rather than to simply select or clear check boxes in the admin center?
 

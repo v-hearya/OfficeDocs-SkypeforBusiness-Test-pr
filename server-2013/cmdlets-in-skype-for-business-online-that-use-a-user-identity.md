@@ -8,23 +8,10 @@ ms.date: 05/04/2015
 mtps_version: v=OCS.15
 ---
 
-<div data-xmlns="http://www.w3.org/1999/xhtml">
-
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
-
-<div data-asp="http://msdn2.microsoft.com/asp">
-
 # Cmdlets in Skype for Business Online that use a user identity
 
-</div>
+ 
 
-<div id="mainSection">
-
-<div id="mainBody">
-
-<span> </span>
-
-_**Topic Last Modified:** 2013-08-15_
 
 In Skype for Business Online, there are a number of different ways to reference an individual user Identity:
 
@@ -46,29 +33,29 @@ In Skype for Business Online, there are a number of different ways to reference 
 
 The following cmdlets accept a user Identity:
 
-  - [Disable-CsMeetingRoom](disable-csmeetingroom.md)
+  - [Disable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj204723\(v=ocs.15\))
 
-  - [Enable-CsMeetingRoom](enable-csmeetingroom.md)
+  - [Enable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj205062\(v=ocs.15\))
 
-  - [Get-CsExUmContact](get-csexumcontact.md)
+  - [Get-CsExUmContact](https://technet.microsoft.com/en-us/library/gg412725\(v=ocs.15\))
 
-  - [Get-CsMeetingRoom](get-csmeetingroom.md)
+  - [Get-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj205277\(v=ocs.15\))
 
-  - [Get-CsOnlineUser](get-csonlineuser.md)
+  - [Get-CsOnlineUser](https://technet.microsoft.com/en-us/library/jj994026\(v=ocs.15\))
 
-  - [Get-CsUserAcp](get-csuseracp.md)
+  - [Get-CsUserAcp](https://technet.microsoft.com/en-us/library/gg398978\(v=ocs.15\))
 
-  - [New-CsExUmContact](new-csexumcontact.md)
+  - [New-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398139\(v=ocs.15\))
 
-  - [Remove-CsExUmContact](remove-csexumcontact.md)
+  - [Remove-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398946\(v=ocs.15\))
 
-  - [Remove-CsUserAcp](remove-csuseracp.md)
+  - [Remove-CsUserAcp](https://technet.microsoft.com/en-us/library/gg398982\(v=ocs.15\))
 
-  - [Set-CsExUmContact](set-csexumcontact.md)
+  - [Set-CsExUmContact](https://technet.microsoft.com/en-us/library/gg412944\(v=ocs.15\))
 
-  - [Set-CsMeetingRoom](set-csmeetingroom.md)
+  - [Set-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj204831\(v=ocs.15\))
 
-  - [Set-CsUserAcp](set-csuseracp.md)
+  - [Set-CsUserAcp](https://technet.microsoft.com/en-us/library/gg413018\(v=ocs.15\))
 
 Note that you do not need to specify a user Identity when calling one of the **Get-Cs** cmdlets. In this case, the cmdlets return all the instances of the specified item. For example, this command returns information about all the users who have been enabled for Skype for Business Online:
 
@@ -78,24 +65,9 @@ The Identity parameter is required only if you want to return information for a 
 
     Get-CsOnlineUser -Identity "Ken Myer"
 
-<div>
-
 ## See Also
 
 
 [Identities, scopes, and tenants in Skype for Business Online](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[The Skype for Business Online cmdlets](the-skype-for-business-online-cmdlets.md)  
-  
-
-</div>
-
-</div>
-
-<span> </span>
-
-</div>
-
-</div>
-
-</div>
+[The Skype for Business Online cmdlets](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
 

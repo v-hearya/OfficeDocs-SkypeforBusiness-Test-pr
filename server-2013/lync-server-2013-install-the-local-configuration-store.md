@@ -30,10 +30,10 @@ Before following these steps, make sure you’re logged onto the server with a d
 
 To be able to do anything with the Lync Server Deployment Wizard, we need the Local Configuration store to exist on a server. The Local Configuration store is a read-only copy of the Central Management store, which gets created after the local installation of SQL Server Express. The Central Management store itself is added to the existing SQL Server database installed on the Standard Edition server or SQL Server Express-based database.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If you haven’t run Lync Server 2013 setup on this server before, you’ll be prompted for a drive and path to install Lync Server 2013 to. This will let you install to a drive other than the system drive, if your organization requires it, or if you have space concerns. You can just change the installation location path for the Lync Server files in the Setup dialog box to a new, available drive. If you install the Setup files to this path, including OCSCore.msi, the rest of the Lync Server 2013 files will deploy there as well.
 
 

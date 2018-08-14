@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-02-22_
 
 Use the following flow chart to determine Domain Name System (DNS) requirements. Changes for the Cumulative Updates for Lync Server 2013: February 2013 are noted where they apply.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Microsoft Lync Server 2013 supports the use of IPv6 addressing. To use IPv6 addresses, you must also provide support for IPv6 DNS and configure DNS host AAAA (known as “quad-A”) records. In deployments where both IPv4 and IPv6 are being used, it is best to configure and maintain both host A records for IPv4 and host AAAA for IPv6. Even if your deployment has transitioned fully to IPv6, IPv4 DNS host records may still be required when external users are still using IPv4.
 
 
@@ -42,10 +42,10 @@ Use the following flow chart to determine Domain Name System (DNS) requirements.
 
 ![175782ac-363e-408a-912f-8991bf152970](images/Gg398758.175782ac-363e-408a-912f-8991bf152970(OCS.15).jpg "175782ac-363e-408a-912f-8991bf152970")
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > By default the computer name of a computer that is not joined to a domain is a host name, not a fully qualified domain name (FQDN). Topology Builder uses FQDNs, not host names. So, you must configure a DNS suffix on the name of the computer to be deployed as an Edge Server that is not joined to a domain. <STRONG>Use only standard characters</STRONG> (including A–Z, a–z, 0–9, and hyphens) when assigning FQDNs of your Lync Servers, Edge Servers, and pools. Do not use Unicode characters or underscores. Nonstandard characters in an FQDN are often not supported by external DNS and public CAs (that is, when the FQDN must be assigned to the SN in the certificate). For additional details, see <A href="lync-server-2013-configure-dns-host-records.md">Configure DNS Host records for Lync Server 2013</A>
 
 
@@ -90,30 +90,30 @@ When a connection is successful, the Autodiscover Service returns all the Web Se
 
 If the Cumulative Updates for Lync Server 2013: February 2013 has been installed, the Autodiscover Service also returns references to Internal/UCWA, External/UCWA and UCWA. These entries refer to the Unified Communications Web API (UCWA) web component. Currently, only the entry UCWA is used and provides a reference to a URL for the web component. UCWA is used by Lync 2013 Mobile clients instead of the Mcx Mobility Service used by the Lync 2010 Mobile clients.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > When creating SRV records, it is important to remember that they must point to a DNS A and AAAA (if you are using IPv6 addressing) record in the same domain in which the DNS SRV record is created. For example, if the SRV record is in contoso.com, the A and AAAA (if you are using IPv6 addressing) record it points to cannot be in fabrikam.com.
 
 
 
 </div>
 
-<div class="alert">
+<div>
 
 
-> [!TIP]
+> [!TIP]  
 > The default configuration is to direct all mobile client traffic through the external site. You can modify settings to return only the internal URL, if this is more preferable for your requirements. With this configuration, users can use Lync mobile applications on their mobile devices only when they are inside the corporate network. To define this configuration, you use the <STRONG>Set-CsMcxConfiguration</STRONG> cmdlet.
 
 
 
 </div>
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Although mobile applications can also connect to other Lync Server 2013 services, such as Address Book Service, internal mobile application web requests go to the external web FQDN only for the Mobility Service. Other service requests, such as Address Book requests, do not require this configuration.
 
 
@@ -136,10 +136,10 @@ We recommend that you use automatic discovery, rather than manual discovery. How
 
 Split-brain DNS is known by a number of names, for example, split DNS or split-horizon DNS. Simply, it describes a DNS configuration where there are two DNS zones with the same namespace – but one DNS zone services internal-only requests, and the other DNS zone services external-only requests. However, many of the DNS SRV and A records contained in the internal DNS will not be contained in the external DNS, and the reverse is also true. In cases where the same DNS record exists in both the internal and external DNS (for example, www.contoso.com), the IP address returned will be different based on where (internal or external) the query was initiated.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Currently, Split-Brain DNS is not supported for the mobility, or more specifically, the LyncDiscover and LyncDiscoverInternal DNS records. LyncDiscover must be defined on an external DNS server and LyncDiscoverInternal must be defined on an internal DNS server.
 
 
@@ -210,10 +210,10 @@ If automatic configuration is required for clients running Lync, select one of t
 
   - **Group Policy Objects**   Use Group Policy objects (GPOs) to populate the correct server values.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This option does not enable automatic configuration, but it does automate the process of manual configuration, so if this approach is used, the SRV records associated with automatic configuration are not required.
 
     
@@ -241,10 +241,10 @@ If automatic configuration is required for clients running Lync, select one of t
         dnscmd . /recordadd pool01.fabrikam.com. @ A 192.168.10.91
         dnscmd . /recordadd pool01.contoso.com. @ AAAA <IPv6 address>
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The Front End pool FQDN appears twice, but with two different IP addresses. This is because DNS load balancing is used, but if hardware load balancing is used, there would be only a single Front End pool entry. Also, the Front End pool FQDN values change between the contoso.com example and the fabrikam.com example, but the IP addresses remain the same. This is because users signing in from either SIP domain, use the same Front End pool for automatic configuration.
 
 
@@ -253,10 +253,10 @@ If automatic configuration is required for clients running Lync, select one of t
 
 For details, see the DMTF blog article, "Communicator Automatic Configuration and Split-Brain DNS," at [http://go.microsoft.com/fwlink/p/?linkId=200707](http://go.microsoft.com/fwlink/p/?linkid=200707).
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The content of each blog and its URL are subject to change without notice.
 
 
@@ -390,10 +390,10 @@ For example, if there are three front end servers in a pool named pool01.contoso
 
   - If the client tries all cached entries without a successful connection, the user is notified that no servers running Lync Server 2013 are available at the moment.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > DNS-based load balancing is different from DNS round robin (DNS RR) which typically refers to load balancing by relying on DNS to provide a different order of IP addresses corresponding to the servers in a pool. Typically DNS RR only enables load distribution, but does not enable failover. For example, if the connection to the one IP address returned by the DNS A and AAAA (if you are using IPv6 addressing) query fails, the connection fails. Therefore, DNS round robin by itself is less reliable than DNS-based load balancing. You can use DNS round robin in conjunction with DNS load balancing.
 
 

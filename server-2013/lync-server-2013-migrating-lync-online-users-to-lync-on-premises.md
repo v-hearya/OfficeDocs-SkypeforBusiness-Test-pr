@@ -26,10 +26,10 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2015-11-13_
 
-<div class="alert">
+<div class="">
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > These steps are necessary only for migrating user accounts that were originally enabled for Lync in Lync Online, before you deployed Lync on-premises. To move users who were originally enabled for Lync on-premises, then later moved to Lync Online, see <A href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Administering users in a hybrid Lync Server 2013 deployment</A>.<BR>Additionally, all users being moved must have accounts in the on-premises Active Directory.
 
 
@@ -48,9 +48,13 @@ _**Topic Last Modified:** 2015-11-13_
     
       - On your on-premises deployment, in Lync Server Management Shell, type the following cmdlets to create the hosting provider for Lync Online:
         
-            Set-CsAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
+           ```
+           Set-CsAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
+           ```
         
+           ```
             New-CsHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+           ```
 
 2.  Confirm that on your on-premises Edge Servers, you have the certificate chain that enables connection to Lync Online, as shown in the following table. You can download this chain here: [https://corp.sts.microsoft.com/Onboard/ADFS\_Onboarding\_Pack/corp\_sts\_certs.zip](https://corp.sts.microsoft.com/onboard/adfs_onboarding_pack/corp_sts_certs.zip) .
     
@@ -115,9 +119,13 @@ _**Topic Last Modified:** 2015-11-13_
     
     To move a single user, type this:
     
-        $cred = Get-Credential
+       ```
+       $cred = Get-Credential
+       ```
     
-        Move-CsUser -Identity <username>@contoso.com -Target "<fe-pool>.contoso.com" -Credential $cred -HostedMigrationOverrideURL <URL>
+       ```
+       Move-CsUser -Identity <username>@contoso.com -Target "<fe-pool>.contoso.com" -Credential $cred -HostedMigrationOverrideURL <URL>
+       ```
     
     You can move multiple users by using the **Get-CsUSer** cmdlet with the –Filter parameter to select the users with a specific property. For example, you could select all Lync Online users by filtering for {Hosting Provider –eq “sipfed.online.lync.om”}. You can then pipe the returned users to the **Move-CsUSer** cmdlet, as shown below.
     
@@ -151,10 +159,10 @@ _**Topic Last Modified:** 2015-11-13_
     
     </div>
     
-    <div class="alert">
+    <div class="">
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The default maximum size for transaction log files of the rtcxds database is 16 GB. This might not be big enough if you’re moving a large number of users at once, especially if you have mirroring enabled. To get around this you can increase the file size or back up the log files regularly. For more information, see <A class=uri href="http://support.microsoft.com/kb/2756725">http://support.microsoft.com/kb/2756725</A>.
 
     

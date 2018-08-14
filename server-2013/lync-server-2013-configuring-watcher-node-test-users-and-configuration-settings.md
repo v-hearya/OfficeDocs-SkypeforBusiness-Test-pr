@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-07-29_
 
 After configuring the computer that will act as a watcher node, you must:
 
-1.  Create the test accounts to be used by these watcher nodes. If you are using the Negotiate authentication method, you must also use the [Set-CsTestUserCredential](set-cstestusercredential.md) cmdlet to enable these test accounts for use on the watcher node.
+1.  Create the test accounts to be used by these watcher nodes. If you are using the Negotiate authentication method, you must also use the [Set-CsTestUserCredential](https://docs.microsoft.com/en-us/powershell/module/skype/) cmdlet to enable these test accounts for use on the watcher node.
 
 2.  Update the watcher node configuration settings.
 
@@ -195,10 +195,10 @@ The preceding command will return information similar to this, depending on the 
     PersistentChatMessage
     DataConference
 
-<div class="alert">
+<div>
 
 
-> [!TIP]
+> [!TIP]  
 > To view the synthetic transactions in alphabetical order, use this command instead:<BR>Get-CsWatcherNodeConfiguration –Identity "atl-cs-001.litwareinc.com" | Select-Object –ExpandProperty Tests | Sort-Object
 
 

@@ -34,10 +34,10 @@ Lync Server 2013 and Lync 2013 can securely and seamlessly communicate with othe
 
   - Archived content from Lync, such as IM and meeting content, can be stored in Exchange storage.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Lync Server 2013 supports integration with previous versions of Microsoft Exchange Server and SharePoint Server, but not all functionality is supported with these previous versions, such as integration of Archiving storage with Microsoft Exchange.<BR>If you are migrating your users to Exchange 2013 or Exchange 2016, you can use both Exchange storage and Lync Server storage on an interim basis, while you complete the migration. Permanent use of both Exchange and Lync Server storage is not supported.
 
 
@@ -52,10 +52,10 @@ Lync Server 2013 supports the two server-to-server authentication scenarios. The
 
   - A pair of Office components (for example, between Microsoft Exchange 365 and Microsoft Lync Server 365, or between Microsoft Lync Server 365 and Microsoft SharePoint 365).
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Server-to-server authentication between an on-premises server and an Office 365 component is not supported in this Lync Server 2013 release. Among other things, this means that you cannot set up server-to-server authentication between an on-premises installation of Lync Server 2013 and Microsoft Exchange 365.
 
 

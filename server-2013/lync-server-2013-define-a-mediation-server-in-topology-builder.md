@@ -50,10 +50,10 @@ Follow the steps in this topic to use Topology Builder to define a Mediation Ser
 
 5.  In **Select collocated server roles**, check the option **Collocate Mediation Server**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > <UL>
     > <LI>
     > <P>If the type of Front End pool you selected is the Enterprise Edition, then the Mediation Server component will be installed on all the Front End Servers of that Front End pool.</P>
@@ -69,10 +69,10 @@ Follow the steps in this topic to use Topology Builder to define a Mediation Ser
 
 7.  Click **Finish** when you are finished associating one or more peers to the Front End pool.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Before you proceed to the next step in the Enterprise Voice deployment process, make sure that the Mediation Server pool (i.e. Front End pool with the Mediation Server component collocated) is using the FQDNs that you specified.
 
     
@@ -92,10 +92,10 @@ Follow the steps in this topic to use Topology Builder to define a stand-alone M
 
 If you already deployed Mediation Servers collocated to Front End pools at this site, you can skip this section and [Install the files for Mediation Server in Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md) before proceeding to [Configuring trunks in Lync Server 2013](lync-server-2013-configuring-trunks.md).
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > This section assumes that you have already setup at least one Front End pool, as described in <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Define and configure a Front End pool or Standard Edition server in Lync Server 2013</A> and <A href="lync-server-2013-publish-the-topology.md">Publish the topology in Lync Server 2013</A> in the Deployment Guide documentation.
 
 
@@ -118,10 +118,10 @@ If you already deployed Mediation Servers collocated to Front End pools at this 
     
       - If you want to deploy multiple Mediation Servers in the pool to provide high availability, then select **Multiple computer pool**.
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > You must deploy DNS load balancing to support Mediation Server pools that have multiple Mediation Servers. For details, see the Using DNS Load Balancing on Mediation Server Pools section of <A href="lync-server-2013-dns-load-balancing.md">DNS load balancing in Lync Server 2013</A> in the Planning documentation.
 
         
@@ -163,10 +163,10 @@ Follow the steps in this topic to use Topology Builder to define the listening p
 
 4.  Specify the desired TLS or TCP listening port range the Mediation Server will accept incoming connections from PSTN gateways.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Entering a TCP port range is not required if <STRONG>Enable TCP port</STRONG> is not checked. This setting is optional.
 
     

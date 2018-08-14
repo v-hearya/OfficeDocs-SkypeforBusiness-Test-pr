@@ -30,18 +30,18 @@ A *network intersite policy* defines bandwidth limitations between sites that ha
 
 For details, see the Lync Server Management Shell documentation for the following cmdlets:
 
-  - [New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md)
+  - [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterSitePolicy)
 
-  - [Get-CsNetworkInterSitePolicy](get-csnetworkintersitepolicy.md)
+  - [Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterSitePolicy)
 
-  - [Set-CsNetworkInterSitePolicy](set-csnetworkintersitepolicy.md)
+  - [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterSitePolicy)
 
-  - [Remove-CsNetworkInterSitePolicy](remove-csnetworkintersitepolicy.md)
+  - [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterSitePolicy)
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > A network intersite policy is required <EM>only</EM> if there is a direct cross link between two network sites.
 
 

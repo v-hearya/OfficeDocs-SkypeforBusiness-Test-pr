@@ -48,10 +48,10 @@ The following tables compare the features and capabilities among Lync 2013 mobil
 
 These tables indicate the features that are available to Lync users in an on-premises deployment of Lync Server 2013. The same features are also available to Skype for Business Online and Microsoft Office 365 users, unless otherwise indicated in the table footnotes.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > <UL>
 > <LI>
 > <P>Looking for the mobile client comparison tables for Skype for Business? See <A href="https://technet.microsoft.com/en-us/library/dn951412.aspx">Mobile client comparison tables for Skype for Business</A>.</P>

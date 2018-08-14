@@ -98,10 +98,10 @@ Additionally, one Front End pool in the deployment also runs the *Central Manage
 
 The Back End Servers are database servers running Microsoft SQL Server that provide the database services for the Front End pool. The Back End Servers serve as backup stores for the pool’s user and conference data, and are the primary stores for other databases such as the Response Group database. You can have a single Back End Server, but a solution that uses SQL Server mirroring is recommended for failover. Back End Servers do not run any Lync Server software.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > We do not recommend collocating Lync Server databases with other databases. If you do so, availability and performance may be affected.
 
 
@@ -118,10 +118,10 @@ Information stored in the Back End Server databases includes presence informatio
 
 Edge Server enables your users to communicate and collaborate with users outside the organization’s firewalls. These external users can include the organization’s own users who are currently working offsite, users from federated partner organizations, and outside users who have been invited to join conferences hosted on your Lync Server deployment. Edge Server also enables connectivity to public IM connectivity services, including Windows Live, AOL, Yahoo\!, and Google Talk.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > <UL>
 > <LI>
 > <P>As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (“PIC USL”) is no longer available for purchase for new or renewing agreements. Customers with active licenses will be able to continue to federate with Yahoo! Messenger until the service shut down date. An end of life date of June 2014 for AOL and Yahoo! has been announced. For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>.</P>

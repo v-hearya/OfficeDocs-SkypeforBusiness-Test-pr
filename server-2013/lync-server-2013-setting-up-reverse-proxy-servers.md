@@ -50,10 +50,10 @@ In addition, you need to publish the simple URLs. If the organization has a Dire
 
 You can use Microsoft Forefront Threat Management Gateway 2010, Microsoft Internet Security and Acceleration (ISA) Server 2006 SP1, or Internet Information Server 7.0, 7.5 or 8.0 with Application Request Routing (IIS ARR) as a reverse proxy. The detailed steps in this section describe how to configure Forefront Threat Management Gateway 2010, and the steps for configuring ISA Server 2006 are almost identical. Guidance is also provided for IIS ARR. If you are using a different reverse proxy, consult the documentation for that product and map the requirements defined here to the associated features in other reverse proxies.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Internet Information Server Application Request Routing (IIS ARR) is a fully tested and supported option for implementing a reverse proxy for Lync Server 2010 and Lync Server 2013. In November, 2012, Microsoft ceased license sales of ForeFront Threat Management Gateway 2010, or TMG. TMG is still a fully supported product, and is still available for sale on appliances sold by third parties. Also, many third party hardware load balancers and firewalls provide reverse proxy support. For hardware load balancers and firewalls that provide reverse proxy features, check with your vendor for specific instructions on how to configure their product to provide reverse proxy support for Lync Server. You can also view third parties that have submitted documentation for their product to Microsoft. Support is provided by the third party for their solution. To see third parties that are active in providing solutions, see <A href="http://go.microsoft.com/fwlink/?linkid=268730">Infrastructure qualified for Microsoft Lync</A>.
 
 
@@ -105,10 +105,10 @@ To successfully deploy IIS ARR as your reverse proxy, review the following topic
   - <span></span>  
     To install ARR, for the instructions at [Install Application Request Routing Version 2](http://go.microsoft.com/fwlink/?linkid=291299)
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The instructions currently posted are for ARR 2.0. For installation of the extension, there is no difference between the two versions.
 
     

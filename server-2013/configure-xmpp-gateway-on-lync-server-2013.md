@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-10-28_
 
 The final steps for migrating your XMPP Gateway are to configure certificates for the Lync Server 2013 Edge Server, deploy the Lync Server 2013 XMPP Gateway, and update the DNS records for the XMPP Gateway. These steps should be performed in parallel to minimize the down time of your XMPP Gateway. All users must be moved to your Microsoft Lync Server 2013 deployment before performing these steps.
 
-<div class="alert">
+<div class=" ">
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > XMPP federation is not supported for users who are homed on survivable branch appliances. This applies to both seeing presence information and exchanging IM messages.
 
 
@@ -44,10 +44,10 @@ The final steps for migrating your XMPP Gateway are to configure certificates fo
 
 1.  On the Edge Server, in the Deployment Wizard, next to **Step 3: Request, Install, or Assign Certificates**, click **Run again**.
     
-    <div class="alert">
+    <div class=" ">
     
 
-    > [!TIP]
+    > [!TIP]  
     > If you are deploying the Edge Server for the first time, you will see Run instead of Run Again.
 
     
@@ -81,10 +81,10 @@ The final steps for migrating your XMPP Gateway are to configure certificates fo
 
 12. On the **Configure Additional Subject Alternate Names** page, specify any additional subject alternative names that are required.
     
-    <div class="alert">
+    <div class=" ">
     
 
-    > [!TIP]
+    > [!TIP]  
     > If the XMPP proxy is installed, by default the domain name (such as contoso.com) is populated in the SAN entries. If you require more entries, add them in this step.
 
     
@@ -101,6 +101,8 @@ The final steps for migrating your XMPP Gateway are to configure certificates fo
 17. After receiving, importing and assigning the public certificate, you must stop and restart the Edge Server services. You do this by typing in the Lync Server Management console:
     
         Stop-CsWindowsService
+
+      &nbsp;
     
         Start-CsWindowsService
 

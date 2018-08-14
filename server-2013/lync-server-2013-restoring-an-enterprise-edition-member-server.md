@@ -38,10 +38,10 @@ If a server running one of the following server roles fails, follow the procedur
 
   - Edge Server
 
-<div class="alert">
+<div>
 
 
-> [!TIP]
+> [!TIP]  
 > We recommend that you take an image copy of the system before you start restoration. You can use this image as a rollback point, in case something goes wrong during restoration. You might want to take the image copy after you install the operating system and SQL Server, and restore or reenroll the certificates.
 
 
@@ -54,10 +54,10 @@ If a server running one of the following server roles fails, follow the procedur
 
 1.  Start with a clean or new server that has the same fully qualified domain name (FQDN) as the failed server, install the operating system, and then restore or reenroll the certificates.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Follow your organization's server deployment procedures to perform this step.
 
     

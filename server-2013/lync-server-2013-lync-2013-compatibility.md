@@ -206,9 +206,9 @@ The following table describes Lync 2013 support for various versions of Exchange
 <tr class="odd">
 <td><p>Exchange Server 2013</p></td>
 <td><p>Same as Exchange Server 2010 support, with the addition of Unified Contact Store, high-resolution pictures, and archiving integration.</p>
-<div class="alert">
+<div>
 
-> [!NOTE]
+> [!NOTE]  
 > For details, see <A href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">Integrating Microsoft Lync Server 2013 and Microsoft Exchange Server 2013</A>.
 
 
@@ -302,10 +302,10 @@ In addition, the XMPP integration feature of Lync Server 2013 lets users exchang
 
 \*A/V is supported with the latest version of Windows Live Messenger. If you are implementing audio/video (A/V) federation with Windows Live Messenger, you must also modify the server encryption level. By default, the encryption level is Required. You must change this setting to Supported by using the Lync Server Management Shell.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > <UL>
 > <LI>
 > <P>As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (“PIC USL”) is no longer available for purchase for new or renewing agreements. Customers with active licenses will be able to continue to federate with Yahoo! Messenger until the service shut down date. An end of life date of June 2014 for AOL and Yahoo! has been announced. For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>.</P>

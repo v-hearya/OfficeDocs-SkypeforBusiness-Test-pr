@@ -40,10 +40,10 @@ Call admission control (CAC) is a network of regions, sites, and subnets that en
 
 4.  On the **Global** page, click the **Global** configuration.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Only one network can be configured for any Microsoft Lync Server 2013 deployment, so there will never be more than one network configuration in the list. You cannot rename the Global configuration.
 
     
@@ -69,9 +69,9 @@ If you make changes to your network configuration, you can run the validation ch
 
 [Planning for call admission control in Lync Server 2013](lync-server-2013-planning-for-call-admission-control.md)  
 [Configure call admission control in Lync Server 2013](lync-server-2013-configure-call-admission-control.md)  
-[Get-CsNetworkConfiguration](get-csnetworkconfiguration.md)  
-[Set-CsNetworkConfiguration](set-csnetworkconfiguration.md)  
-[Remove-CsNetworkConfiguration](remove-csnetworkconfiguration.md)  
+[Get-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkConfiguration)  
+[Set-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkConfiguration)  
+[Remove-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkConfiguration)  
   
 
 </div>

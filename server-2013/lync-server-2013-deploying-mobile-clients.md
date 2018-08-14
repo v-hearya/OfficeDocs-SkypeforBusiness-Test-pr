@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-02-19_
 
 Lync 2013 apps for mobile clients provide instant messaging (IM), enhanced presence, and telephony for users in your organization who are connecting from a smartphone or a phone running a Professional edition of Windows Mobile. You can instruct your users to install Lync 2013 by directing them to the app marketplace for their mobile phone.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Lync Server 2013 also supports Lync 2010 for mobile clients. For details, refer to the following articles in the Lync Server 2010 TechNet library: 
 > <UL>
 > <LI>

@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2014-12-08_
 
 With enhanced presence privacy mode, users can restrict their presence information so that it is visible only to the contacts listed in their Lync 2013 Contacts list. The **New-CsPrivacyConfiguration** and **Set-CsPrivacyConfiguration** cmdlets have an EnablePrivacyMode parameter controls this option. When EnablePrivacyMode is set to True, the option to restrict presence information to contacts becomes available in the Lync 2013 Status options. When EnablePrivacyMode is set to False, users can choose either to always allow everyone to see their presence information or to adhere to any future changes the administrator makes to the privacy mode.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Lync 2013 and Lync 2010 privacy settings are not honored by previous versions (Microsoft Office Communicator 2007 R2 or Microsoft Office Communicator 2007). If previous versions of Office Communicator are allowed to sign in, a Lync 2013 user’s status, contact information, or picture could be viewed by someone who has not been authorized to view it. Additionally, a Lync 2013 user’s privacy settings are reset if he or she later signs in with previous version of Communicator.<BR>For these reasons, in a migration scenario, before you enable enhanced presence privacy mode: 
 > <UL>
 > <LI>
@@ -62,9 +62,9 @@ With enhanced presence privacy mode, users can restrict their presence informati
 ## See Also
 
 
-[Get-CsPrivacyConfiguration](get-csprivacyconfiguration.md)  
-[New-CsPrivacyConfiguration](new-csprivacyconfiguration.md)  
-[Set-CsPrivacyConfiguration](set-csprivacyconfiguration.md)  
+[Get-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPrivacyConfiguration)  
+[New-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsPrivacyConfiguration)  
+[Set-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPrivacyConfiguration)  
   
 
 </div>

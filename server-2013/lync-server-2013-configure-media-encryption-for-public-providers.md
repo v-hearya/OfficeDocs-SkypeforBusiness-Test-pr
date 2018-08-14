@@ -36,14 +36,18 @@ If you are implementing audio/video (A/V) federation with Windows Live Messenger
 
 2.  From the command prompt, type the following commands:
     
+       ```
         Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
+       ```
     
+       ```
         Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
+       ```
     
-    <div class="alert">
+    <div class=" ">
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > This is required step because Windows Live Messenger does not support encryption of audio/video. The command sets your global policy to a support encryption setting instead of requiring encryption of the audio/video data. Clients that support encryption will still use encryption, such as Lync 2013.
 
     

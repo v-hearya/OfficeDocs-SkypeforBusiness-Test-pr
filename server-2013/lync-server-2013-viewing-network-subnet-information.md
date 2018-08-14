@@ -40,10 +40,10 @@ You can use the following procedure to view a network subnet. From the Lync Serv
 
 4.  On the **Subnet** page, click the subnet that you want to view.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can only view one subnet at a time.
 
     
@@ -77,7 +77,7 @@ Network subnet information can be viewed by using Windows PowerShell and the Get
 
 </div>
 
-For more information, see the help topic for the [Get-CsNetworkSubnet](get-csnetworksubnet.md) cmdlet.
+For more information, see the help topic for the [Get-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSubnet) cmdlet.
 
 </div>
 

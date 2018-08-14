@@ -63,7 +63,7 @@ Use **Remove-CsCommonAreaPhone** to remove one common area phone or all common a
 
 </div>
 
-For details, see the Help topic for the [Remove-CsCommonAreaPhone](remove-cscommonareaphone.md) cmdlet.
+For details, see the Help topic for the [Remove-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCommonAreaPhone) cmdlet.
 
 </div>
 
@@ -72,7 +72,7 @@ For details, see the Help topic for the [Remove-CsCommonAreaPhone](remove-cscomm
 ## See Also
 
 
-[Get-CsCommonAreaPhone](get-cscommonareaphone.md)  
+[Get-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCommonAreaPhone)  
   
 
 </div>

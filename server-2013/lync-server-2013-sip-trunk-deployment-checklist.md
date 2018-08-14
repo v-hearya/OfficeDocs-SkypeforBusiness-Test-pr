@@ -34,10 +34,10 @@ Get the following information for each ITSP gateway that you will connect to:
 
   - Fully qualified domain name (FQDN)
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The service provider may ask you to connect to more than one ITSP gateway. In that case, you must configure a connection between each ITSP gateway and each Mediation Server in your pool.
 
 
@@ -60,10 +60,10 @@ To determine whether you need a certificate for SIP trunking, check with your IT
 
 2.  If your ITSP supports Transport Layer Security (TLS), the ITSP must provide you with a certificate.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > SIP works in conjunction with real-time transport protocol (RTP) or secure real-time transport protocol (SRTP), the protocols that manage the actual voice data in Voice over Internet Protocol (VoIP) calls.
 
 

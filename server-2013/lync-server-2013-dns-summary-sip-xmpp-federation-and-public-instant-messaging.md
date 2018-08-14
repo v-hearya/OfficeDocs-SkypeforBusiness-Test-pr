@@ -30,10 +30,10 @@ The Domain Name System (DNS) records that will be required for defining a federa
 
 The DNS records summary table depicts the required entries for an open, or discoverable, federation. If you do not want to implement Federation Discovery, You can decide to not configure the \_sipfederationtls.\_tcp. *\<SIP domain name\>* record.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > There are specific scenarios in which you must have the _sipfederationtls._tcp. <EM>&lt;SIP domain name&gt;</EM> SRV record, but you do not want to have a discoverable federation. One such instance is where you have deployed mobility for your users. The mobility push notification clearinghouse (PNCH) is a special type of federation that is used for Microsoft Lync Mobile clients on Apple iPhone or iPad using the Lync 2010 Mobile client or Windows Phone using the Lync 2010 Mobile or Lync 2013 Mobile clients. The _sipfederationtls._tcp. <EM>&lt;SIP domain name&gt;</EM> SRV record is used in the case of mobility and push notification. To mitigate this issue and control your discoverability, clear the setting <STRONG>Enable partner domain discovery</STRONG> to turn off discovery.
 
 
@@ -70,9 +70,9 @@ When you configure domain name system (DNS) for public instant messaging connect
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Access Edge service external interface Required for automatic DNS discovery of your federation to other potential federation partners, and is known as “Allowed SIP Domains” (called enhanced federation in previous releases).Repeat as necessary for all SIP domains with Lync enabled users</p>
-<div class="alert">
+<div>
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > This SRV record is required for mobility and the push notification clearing house. In cases where there is more than one SIP domain, create and publish an SRV record for each domain that will have Lync Mobile clients. The Push Notification Service and Apple Push Notification service may not operate as expected if there is not an explicit SRV record for each SIP domain that the deployment supports.
 
 

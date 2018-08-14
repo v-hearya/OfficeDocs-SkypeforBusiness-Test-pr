@@ -40,10 +40,10 @@ Installing the latest version of Persistent Chat Server requires the following c
     
       - Compliance service, which is turned on if compliance is enabled
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > In Lync Server 2013, the Persistent Chat Web Services for File Upload/Download is now collocated with Lync Server 2013&nbsp;Front End Server.<BR>The Persistent Chat Web Services for Chat Room Management is also collocated with Lync Server 2013&nbsp;Front End Server.
 
     
@@ -51,10 +51,10 @@ Installing the latest version of Persistent Chat Server requires the following c
 
   - Server(s) (more than one server if mirroring is used) that host the SQL Server back-end database for hosting the Persistent Chat content database where chat room content, rooms, and categories are stored.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The back-end database stores chat history data, including information about categories and Persistent Chat rooms that are created.
 
     
@@ -80,10 +80,10 @@ Persistent Chat Server can be deployed on the Standard Edition server. The Persi
 
 For Lync Server 2013 Enterprise Edition, Persistent Chat Servers cannot be collocated on the Enterprise Edition server. The SQL Server database for Persistent Chat Server can be collocated with the Back End Server database of an Enterprise Edition Front End pool. The SQL Server database for Persistent Chat compliance can also be collocated with the Back End Server database of an Enterprise Edition pool.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The server hosting the Persistent Chat database can host other databases. However, when you consider collocating the Persistent Chat database with other databases, be aware that if you are storing the messages of more than a few users, the disk space needed by the Persistent Chat database can grow very large. For this reason, we do not recommend collocating the Persistent Chat database with the back-end database.
 
 
@@ -114,10 +114,10 @@ Persistent Chat Server supports the following topologies:
 
 You can add Persistent Chat Server to your Lync Server 2013 deployment by using Topology Builder. You can add a single server or a multiple server Persistent Chat Server pool to your topology.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > After you create a Persistent Chat Server pool with a single server by using Topology Builder, you cannot add additional servers to the pool.
 
 
@@ -130,10 +130,10 @@ You can add Persistent Chat Server to your Lync Server 2013 deployment by using 
 
 The minimum configuration and simplest deployment for Persistent Chat Server is a single Persistent Chat Server Front End Server topology. This deployment requires a single server that runs Persistent Chat Server (which optionally runs the Compliance service, if compliance is enabled), a server that hosts both the SQL Server database, and if compliance is required, the SQL Server database to store the compliance data.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > You cannot add additional servers to a Persistent Chat Server pool that is started as a single-server deployment in Topology Builder. We recommend using the multiple-server pool topology, even if you’re using a single server, so that you can add more servers later, if needed..
 
 

@@ -30,12 +30,12 @@ Follow the procedure to enable Lync Server 2013 users for voice mail on a hosted
 
 For details, see [Hosted Exchange user management in Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) in the Planning documentation.
 
-For details about the [Set-CsUser](set-csuser.md) cmdlet, see the Lync Server Management Shell documentation.
+For details about the [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser) cmdlet, see the Lync Server Management Shell documentation.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Before a Lync Server 2013 user can be enabled for hosted voice mail, a hosted voice mail policy that applies to their user account must be deployed. For details, see <A href="lync-server-2013-hosted-voice-mail-policies.md">Hosted voice mail policies in Lync Server 2013</A>.
 
 
@@ -66,10 +66,10 @@ For details about the [Set-CsUser](set-csuser.md) cmdlet, see the Lync Server Ma
         
           - The user's Active Directory Domain Services Display-Name (for example, Ken Myer). If using the Display-Name as the Identity value, you can use the asterisk (\*) wildcard character. For example, the Identity "\* Smith" returns all the users who have a Display-Name that ends with the string value "Smith".
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > The user’s Active Directory SAM-Account-Name cannot be used as the Identity value because the SAM-Account-Name is not necessarily unique in the forest.
 
         

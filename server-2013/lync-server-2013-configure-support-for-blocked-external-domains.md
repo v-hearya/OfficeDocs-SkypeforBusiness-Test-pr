@@ -46,10 +46,10 @@ Block one or more external domains from connecting to your organization. To do t
     
       - In **Domain name (or FQDN)**, type the name of the federated partner domain that you want to block.
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > The name cannot exceed 256 characters in length.<BR>The search on the federated partner domain name performs a suffix match. For example, if you type <STRONG>contoso.com</STRONG>, the search will also return the domain <STRONG>it.contoso.com</STRONG>.<BR>A federated partner domain cannot simultaneously be blocked and allowed. Lync Server 2013 prevents this from happening so that you do not have to synch up your lists.
 
         

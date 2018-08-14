@@ -40,22 +40,30 @@ After creating the Kerberos account, you must assign it to a site. This is a Lyn
 
 3.  From the command line, run the following two commands:
     
+       ```
         New-CsKerberosAccountAssignment -UserAccount "Domain\UserAccount"
                   -Identity "site:SiteName"
+       ```          
     
+       ```
         Enable-CsTopology
+       ```
     
     For example:
     
+       ```
         New-CsKerberosAccountAssignment -UserAccount "contoso\kerbauth"
                   -Identity "site:redmond"
+       ```
     
+       ```
         Enable-CsTopology
+       ```
     
-    <div class="alert">
+    <div class="">
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You must specify the UserAccount parameter by using the Domain\User format. The User@Domain.extension format is not supported for referring to the computer objects created for Kerberos authentication purposes.
 
     
@@ -65,12 +73,11 @@ After creating the Kerberos account, you must assign it to a site. This is a Lyn
     
         setspn -S http/webservices.contoso.local kerbauth
 
-5.  
-    
-    <div class="alert">
+5.     
+    <div class="">
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > After making any changes to Kerberos authentication, such as adding an account or removing an account, you must run <STRONG>Enable-CsTopology</STRONG> from the Lync Server Management Shell command prompt.
 
     

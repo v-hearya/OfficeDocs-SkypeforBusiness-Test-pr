@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2012-10-22_
 
 A Director is a server running Microsoft Lync Server 2013 communications software that can authenticate user requests, but does not home any user accounts. The Director also hosts web services similar to the Front End Server and will authenticate web ticket requests and provide other services.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If you deploy Directors, you must publish the Director web services externally through the reverse proxy as well as the web services of the Front End Server. The topics following describe the planning process for the possible Director topologies.
 
 

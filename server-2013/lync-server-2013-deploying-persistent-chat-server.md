@@ -42,10 +42,10 @@ Persistent Chat Server can also be deployed with Lync Server 2013 Standard Edit
 
 For details about supported colocation configurations, see [Supported server collocation in Lync Server 2013](lync-server-2013-supported-server-collocation.md).
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > We do not support high availability for Persistent Chat Server&nbsp;Standard Edition. Performance and scale will be limited. Furthermore, we support only new Persistent Chat Server&nbsp;Standard Edition server. We do not support upgrading Lync Server 2010, Group Chat Server to a Lync Server 2013&nbsp;Persistent Chat Server&nbsp;Standard Edition.
 
 
@@ -66,10 +66,10 @@ A single Persistent Chat Server Front End Server can support 20,000 active user
 
 Persistent Chat Server is also supported on a virtual server. The virtual server can support up to 20,000 concurrent users if it matches the specifications of the physical server.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Persistent Chat Server must be installed on an NTFS file system to help enforce file system security. FAT32 is not a supported file system for Persistent Chat Server.
 
 

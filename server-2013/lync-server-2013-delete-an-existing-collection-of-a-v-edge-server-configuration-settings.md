@@ -32,7 +32,7 @@ When you install Lync Server, a global collection of A/V Edge configuration sett
 
 However, custom settings collections that you have created at either the site scope or the service scope can be deleted by using the Remove-CsAVEdgeConfiguration cmdlet. If you delete site settings then A/V Edge servers in that site will be managed by the global settings. If you delete service-scope settings,, that server will then be managed by its site settings, if they exist, or by the global settings if no site settings are available.
 
-For more information, see the help topic for the [Remove-CsAVEdgeConfiguration](remove-csavedgeconfiguration.md) cmdlet.
+For more information, see the help topic for the [Remove-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAVEdgeConfiguration) cmdlet.
 
 <div>
 
@@ -74,7 +74,7 @@ For more information, see the help topic for the [Remove-CsAVEdgeConfiguration](
 
 
 [Audio/Video (A/V) Edge Servers in Lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[Remove-CsAVEdgeConfiguration](remove-csavedgeconfiguration.md)  
+[Remove-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAVEdgeConfiguration)  
   
 
 </div>

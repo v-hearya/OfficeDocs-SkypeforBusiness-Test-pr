@@ -68,11 +68,11 @@ Enterprise Voice includes several advanced calling features as well, such as Lyn
 
 Lync call delegation enables users to delegate call handling to one or more assistants, by going to **Tools** \> **Options** \> **Call Forwarding Settings**. The delegate can perform multiple calling tasks on behalf of the user, including screening calls, placing calls, and initiating conferences.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
-> You may be looking for another similarly named feature, Lync calendar delegation. It doesn't require the Enterprise Voice feature and does allow users to schedule online Lync meetings from Outlook. If you've come here looking for that info, we recommend checking out <A href="set-csclientpolicy.md">Set-CsClientPolicy</A> for information on enabling Exchange delegate sync.
+> [!IMPORTANT]  
+> You may be looking for another similarly named feature, Lync calendar delegation. It doesn't require the Enterprise Voice feature and does allow users to schedule online Lync meetings from Outlook. If you've come here looking for that info, we recommend checking out <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</A> for information on enabling Exchange delegate sync.
 
 
 
