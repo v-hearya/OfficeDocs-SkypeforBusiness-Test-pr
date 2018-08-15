@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Restoring a mirrored Enterprise Edition Back End Server - primary'
+title: 'Restoring a mirrored Enterprise Edition Back End Server - primary'
 TOCTitle: Restoring a mirrored Enterprise Edition Back End Server - primary
 ms:assetid: bc555b46-70c5-4eee-ae91-e195df238293
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945648(v=OCS.15)
@@ -48,10 +48,10 @@ In this topic, the example primary database will have a fully qualified domain n
     
         Invoke-CsDataBaseFailover -PoolFqdn pool0.vdomain.com -DatabaseType User -NewPrincipal Mirror -Force -Verbose
     
-    <div>
+    <div class="alert">
     
 
-    > [!WARNING]  
+    > [!WARNING]
     > If you have configured your back-end database to use synchronized mirroring with a witness, failover is automatic.
 
     

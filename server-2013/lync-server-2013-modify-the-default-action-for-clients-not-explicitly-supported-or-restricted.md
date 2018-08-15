@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Modify the default action for clients not explicitly supported or restricted'
+title: 'Modify the default action for clients not explicitly supported or restricted'
 TOCTitle: Modify the default action for clients not explicitly supported or restricted
 ms:assetid: 548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520994(v=OCS.15)
@@ -90,7 +90,7 @@ The default action to be taken when users try to sign on using clients that are 
 
 </div>
 
-For details, see the Help topic for the [Set-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy) cmdlet.
+For details, see the Help topic for the [Set-CsClientVersionPolicy](set-csclientversionpolicy.md) cmdlet.
 
 </div>
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configuring Persistent Chat Server for high availability and disaster recovery'
+title: 'Configuring Persistent Chat Server for high availability and disaster recovery'
 TOCTitle: Configuring Persistent Chat Server for high availability and disaster recovery
 ms:assetid: eebc581c-e3a0-4b69-8a43-80b607b4d8f2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205364(v=OCS.15)

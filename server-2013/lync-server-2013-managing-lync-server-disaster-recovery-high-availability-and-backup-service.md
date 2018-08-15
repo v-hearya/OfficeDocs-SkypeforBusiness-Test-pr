@@ -1,6 +1,6 @@
 ﻿---
-title: 'Lync Server 2013: Managing Lync Server disaster recovery, high availability, and Backup Service'
-TOCTitle: Managing Lync Server 2013 disaster recovery, high availability, and Backup Service
+title: 'Managing Lync Server disaster recovery, high availability, and Backup Service'
+TOCTitle: Managing Lync Server disaster recovery, high availability, and Backup Service
 ms:assetid: f4cd36fb-ffd6-48fa-b761-e11b3bcff91a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721939(v=OCS.15)
 ms:contentKeyID: 49733876
@@ -36,10 +36,10 @@ The disaster recovery procedures in the rest of this section assume the followin
 
   - If the Central Management store is hosted on either pool, it is installed and running on both of the paired pools, with one of those pools hosting the active master and the other pool hosting the standby.
 
-<div>
+<div class="alert">
 
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > In the following procedures, the <EM>PoolFQDN</EM> parameter refers to the FQDN of the pool that is affected by disaster, not the pool that affected users are being redirected from. For the same set of affected users, it refers to the same pool in both failover and failback cmdlets (that is, the pool that first homed the users before the failover).<BR>For example, assume a case in which all users homed on a pool P1 were failed over to the backup pool, P2. If the administrator wants to move all the users currently serviced by P2 to be serviced by P1, the administrator must perform the following steps: 
 > <OL>
 > <LI>

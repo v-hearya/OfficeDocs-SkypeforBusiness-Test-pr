@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: IIS requirements for Front End pools and Standard Edition servers'
+title: 'IIS requirements for Front End pools and Standard Edition servers'
 TOCTitle: IIS requirements for Front End pools and Standard Edition servers
 ms:assetid: e8a6c7ac-b6d5-4c7e-abe9-d8ea5eedbc62
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399038(v=OCS.15)
@@ -48,10 +48,10 @@ In addition, the cumulative update for Lync Server 2010: November 2011 installer
 
   - On Front End Servers or Standard Edition servers and on Directors to enable mobile devices to automatically discover mobility resources
 
-<div>
+<div class="alert">
 
 
-> [!NOTE]  
+> [!NOTE]
 > If you are deploying mobility, we recommend that you use IIS 7.5. The Lync Server Mobility Service installer sets some ASP.NET flags to improve performance. IIS 7.5 is installed by default on Windows Server 2008 R2, and the Mobility Service installer automatically changes the ASP.NET settings. If you use IIS 7.0 on Windows Server 2008, you need to manually change these settings.
 
 
@@ -60,10 +60,10 @@ In addition, the cumulative update for Lync Server 2010: November 2011 installer
 
 Lync Server requires the following IIS modules to be installed:
 
-<div>
+<div class="alert">
 
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > If your organization requires that you locate IIS and all Web Services on a drive other than the system drive, you can change the installation location path for the Lync Server files in the Setup dialog box. If you install the Setup files to this path, including OCSCore.msi, the rest of the Lync Server files will be deployed to this drive as well. For details about how to relocate the INETPUB deployed by Windows Server Manager when installing IIS, see <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>.
 
 
@@ -184,17 +184,17 @@ The following table lists the URIs for the virtual directories for internal acce
 </table>
 
 
-<div>
+<div class="alert">
 
 
-> [!NOTE]  
+> [!NOTE]
 > For Front End pools in a consolidated configuration, you must deploy IIS before you can add servers to the pool.
 
 
 
 </div>
 
-<div>
+<div class="alert">
 
 <table>
 <thead>

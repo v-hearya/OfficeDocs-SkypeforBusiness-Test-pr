@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Create or modify a collection of Device Update configuration settings'
+title: 'Create or modify a collection of Device Update configuration settings'
 TOCTitle: Create or modify a collection of Device Update configuration settings
 ms:assetid: 3e8ce95f-a8c8-417c-b1f7-0f759a567aff
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994029(v=OCS.15)
@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-02-23_
 
 Device update configuration settings can be created (at the site scope only) by using Windows PowerShell and the **New-CsDeviceUpdateConfiguration** cmdlet and modified by using the **Set-CsDeviceUpdateConfiguration** cmdlet. These cmdlets can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.
 
-<div>
+<div class="alert">
 
 
-> [!NOTE]  
+> [!NOTE]
 > For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.
 
 
@@ -73,7 +73,7 @@ Device update configuration settings can be created (at the site scope only) by 
 
 </div>
 
-For details about modifying existing device configuration settings, see the Help topic for the [Set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsDeviceUpdateConfiguration) cmdlet. For details about creating collections of configuration settings, see the Help topic for the [New-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsDeviceUpdateConfiguration) cmdlet.
+For details about modifying existing device configuration settings, see the Help topic for the [Set-CsDeviceUpdateConfiguration](set-csdeviceupdateconfiguration.md) cmdlet. For details about creating collections of configuration settings, see the Help topic for the [New-CsDeviceUpdateConfiguration](new-csdeviceupdateconfiguration.md) cmdlet.
 
 </div>
 

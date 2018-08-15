@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Deployment process for integrating on-premises Unified Messaging'
+title: 'Deployment process for integrating on-premises Unified Messaging'
 TOCTitle: Deployment process for integrating on-premises Unified Messaging and Lync Server
 ms:assetid: 269a4436-f09f-415b-96ab-49a64370a385
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425737(v=OCS.15)
@@ -32,10 +32,10 @@ If you want to integrate Exchange Unified Messaging (UM) with Lync Server 2013, 
 
 ## Unified Messaging Integration Process
 
-<div>
+<div class="alert">
 
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > It is important that you coordinate with your organization’s Exchange administrators to confirm the tasks that each of you will perform to help ensure a smooth, successful integration.
 
 
@@ -154,17 +154,17 @@ If you want to integrate Exchange Unified Messaging (UM) with Lync Server 2013, 
 <tr class="even">
 <td><p>Configure Lync Server 2013 dial plans.</p></td>
 <td><p>If you are integrating with Exchange 2007 SP1 or latest service pack, or Exchange 2010, create a new Enterprise Voice dial plan with a name that matches the Exchange UM dial plan fully qualified domain name (FQDN).</p>
-<div>
+<div class="alert">
 
-> [!NOTE]  
+> [!NOTE]
 > You will need to do this for each UM Dial plan.
 
 
 </div>
 <p>If you are integrating with Exchange 2010 SP1, ensure that suitable global/site-level or pool-level Enterprise Voice dial plans have been configured.</p>
-<div>
+<div class="alert">
 
-> [!NOTE]  
+> [!NOTE]
 > If you are integrating with Exchange 2010 SP1, the Lync Server dial plan and Exchange UM SIP dial plan names do not need to match.
 
 
@@ -181,16 +181,16 @@ If you want to integrate Exchange Unified Messaging (UM) with Lync Server 2013, 
 </ul>
 <p>This tool works by scanning the Active Directory for Exchange UM settings and allowing the Lync Server 2013 administrator to view, create, and edit contact objects.</p></td>
 <td><p>RTCUniversalServerAdmins <em>and</em> RTCUniversalUserAdmins</p>
-<div>
+<div class="alert">
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > To run ocsumutil.exe successfully, the user must belong to both of these groups.
 
 
 </div>
-<div>
+<div class="alert">
 
-> [!NOTE]  
+> [!NOTE]
 > To create Contact objects, the user who runs ocsumutil.exe must have the correct permission to the Active Directory organizational unit (OU) where the new contact objects are stored. This permission can be granted by running the <STRONG>Grant-CsOUPermission</STRONG> cmdlet. For details, see the Lync Server Management Shell documentation.
 
 

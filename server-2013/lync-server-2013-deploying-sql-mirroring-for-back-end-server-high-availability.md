@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Deploying SQL mirroring for Back End Server high availability'
+title: 'Deploying SQL mirroring for Back End Server high availability'
 TOCTitle: Deploying SQL mirroring for Back End Server high availability
 ms:assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204992(v=OCS.15)
@@ -52,10 +52,20 @@ With SQL mirroring, database recovery mode is always set to **Full**, which mean
 
 With SQL mirroring, you can either configure the topology for mirroring when you create the pools, or after the pools are already created.
 
-> [!IMPORTANT]  
+<div class="alert">
+
+
+> [!IMPORTANT]
 > Using Topology Builder or cmdlets to set up and remove SQL mirroring is supported only when the primary, mirror, and witness (if desired) servers all belong to the same domain. If you want to set up SQL mirroring among servers in different domains, see your SQL Server documentation.
 
-> [!IMPORTANT]  
+
+
+</div>
+
+<div class="alert">
+
+
+> [!IMPORTANT]
 > Whenever you make a change to a Back End Database mirroring relationship, you must restart all the Front End Servers in the pool.<BR>For a change in mirroring, (such as changing the location of a mirror), you must use Topology Builder to perform these three steps: 
 > <OL>
 > <LI>
@@ -63,10 +73,21 @@ With SQL mirroring, you can either configure the topology for mirroring when you
 > <LI>
 > <P>Add mirroring to the new mirror server.</P>
 > <LI>
-> <p>Publish the topology.</p></LI></OL>
+> <P>Publish the topology.</P></LI></OL>
 
-> [!NOTE]  
-> A file share has to be created for the mirror files to be written to, and the service that SQL Server and SQL Agent are running under needs read/write access. If the SQL Server service is running under the context of Network Service, you can add &lt;Domain&gt;\\&lt;SQLSERVERNAME&gt;$ of both the Principal and Mirror SQL Servers to the share permissions. The $ is important to identify that this is a computer account.
+
+
+</div>
+
+<div class="alert">
+
+
+> [!NOTE]
+> A file share has to be created for the mirror files to be written to, and the service that SQL Server and SQL Agent are running under needs read/write access. If the SQL Server service is running under the context of Network Service, you can add &lt;Domain&gt;\&lt;SQLSERVERNAME&gt;$ of both the Principal and Mirror SQL Servers to the share permissions. The $ is important to identify that this is a computer account.
+
+
+
+</div>
 
 <div>
 

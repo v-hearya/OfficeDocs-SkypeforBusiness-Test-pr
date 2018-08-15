@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Create or modify a translation rule by using the Build a Translation Rule tool'
+title: 'Create or modify a translation rule by using the Build a Translation Rule tool'
 TOCTitle: Create or modify a translation rule by using the Build a Translation Rule tool
 ms:assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412909(v=OCS.15)
@@ -72,10 +72,10 @@ Follow these steps if you want to define a translation rule by entering a set of
 
 9.  On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**.
     
-    <div>
+    <div class="alert">
     
 
-    > [!NOTE]  
+    > [!NOTE]
     > Whenever you create or modify a translation rule, you must run the <STRONG>Commit all</STRONG> command to publish the configuration change. For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A> in the Operations documentation.
 
     

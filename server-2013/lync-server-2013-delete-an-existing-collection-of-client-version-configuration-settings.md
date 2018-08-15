@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Delete an existing collection of client version configuration settings'
+title: 'Delete an existing collection of client version configuration settings'
 TOCTitle: Delete an existing collection of client version configuration settings
 ms:assetid: 70bf1216-d0d2-45ce-881f-b8edadf3cec7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898480(v=OCS.15)
@@ -78,7 +78,7 @@ You can delete client version configuration settings by using the **Remove-CsCli
 
 </div>
 
-For details, see the Help topic for the [Remove-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClientVersionConfiguration) cmdlet.
+For details, see the Help topic for the [Remove-CsClientVersionConfiguration](remove-csclientversionconfiguration.md) cmdlet.
 
 </div>
 

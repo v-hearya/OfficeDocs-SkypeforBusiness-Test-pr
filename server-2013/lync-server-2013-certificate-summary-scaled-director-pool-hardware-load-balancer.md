@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Certificate summary - Scaled Director pool, hardware load balancer'
+title: 'Certificate summary - Scaled Director pool, hardware load balancer'
 TOCTitle: Certificate summary - Scaled Director pool, hardware load balancer
 ms:assetid: 45940add-8027-418d-b79a-9033b494762f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204846(v=OCS.15)
@@ -64,9 +64,9 @@ Certificate requirements for a Director with a hardware load balancer will use a
 <td><p>OAuthTokenIssuer</p></td>
 <td><p>dir01.contoso.net</p></td>
 <td><p>No Entry</p></td>
-<td><div>
+<td><div class="alert">
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > Note that the minimum key length is 1024, but you may receive a warning that the minimum recommended key length is 2048 bits.
 
 

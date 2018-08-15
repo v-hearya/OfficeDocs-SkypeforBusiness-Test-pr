@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Understanding Centralized Logging Service configuration settings'
+title: 'Understanding Centralized Logging Service configuration settings'
 TOCTitle: Understanding Centralized Logging Service configuration settings
 ms:assetid: 3c34e600-0b91-43dc-b4cc-90b6a70ee12e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688029(v=OCS.15)
@@ -38,10 +38,10 @@ The Centralized Logging Service is configured to define what the logging service
     
         Get-CsClsConfiguration
     
-    <div>
+    <div class="alert">
     
 
-    > [!TIP]  
+    > [!TIP]
     > You can narrow or expand the scope of the configuration settings that are returned by defining <CODE>-Identity</CODE> and a scope, such as "Site:Redmond" to return only the CsClsConfiguration for the site Redmond. If you want details about a given portion of the configuration, you can pipe the output into another Windows PowerShell cmdlet. For example, to get details about the scenarios defined in the configuration for site "Redmond", type: <CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
 
     
@@ -142,10 +142,10 @@ The Centralized Logging Service is configured to define what the logging service
 [Overview of the Centralized Logging Service in Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md)  
 
 
-[Set-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration)  
-[Remove-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsConfiguration)  
-[New-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsConfiguration)  
-[Get-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration)  
+[Set-CsClsConfiguration](set-csclsconfiguration.md)  
+[Remove-CsClsConfiguration](remove-csclsconfiguration.md)  
+[New-CsClsConfiguration](new-csclsconfiguration.md)  
+[Get-CsClsConfiguration](get-csclsconfiguration.md)  
   
 
 </div>

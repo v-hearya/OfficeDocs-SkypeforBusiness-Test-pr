@@ -1,6 +1,6 @@
 ﻿---
-title: 'Lync Server 2013: Configuring on-premises Lync Server integration with Exchange Online'
-TOCTitle: Configuring on-premises Lync Server 2013 integration with Exchange Online
+title: 'Configuring on-premises Lync Server integration with Exchange Online'
+TOCTitle: Configuring on-premises Lync Server integration with Exchange Online
 ms:assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh533880(v=OCS.15)
 ms:contentKeyID: 48184900
@@ -66,10 +66,10 @@ Use the Lync Server Management Shell to configure a hosting provider on the Edge
 
     New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 
-<div>
+<div class="alert">
 
 
-> [!NOTE]  
+> [!NOTE]
 > If you are using Office 365 operated by 21Vianet in China, replace the value for the <STRONG>ProxyFqdn</STRONG> parameter in this example ("exap.um.outlook.com") with the FQDN for the service operated by 21Vianet: "exap.um.partner.outlook.cn".
 
 

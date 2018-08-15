@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Frequently Asked Questions: Provisioning Lync Server for Skype connectivity'
+title: 'Frequently Asked Questions: Provisioning Lync Server for Skype connectivity'
 TOCTitle: 'Frequently Asked Questions: Provisioning Lync Server for Skype connectivity'
 ms:assetid: 4d1b2bfc-780b-4b8c-afd5-11c2e59203b5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440172(v=OCS.15)
@@ -86,10 +86,10 @@ _**Topic Last Modified:** 2016-12-27_
 
   - Session Initiation Protocol (SIP) domain(s). This is the domain suffix of the SIP URI that users currently use for instant messaging. If your organization has more than one SIP domain, specify the domain suffix for each domain used for instant messaging. For example, for user1@contoso.com, specify contoso.com for the SIP domain; for user1@example.fabrikam.com, specify example.fabrikam.com as the SIP domain.
     
-    <div>
+    <div class="alert">
     
 
-    > [!NOTE]  
+    > [!NOTE]
     > Specify only the domain suffix for the SIP domain. Do not specify any FQDNs, including the FQDN for the Access Edge service, for the SIP domain.
 
     

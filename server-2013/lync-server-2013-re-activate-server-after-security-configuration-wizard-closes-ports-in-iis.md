@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Re-activate server after Security Configuration Wizard closes ports in IIS'
+title: 'Re-activate server after Security Configuration Wizard closes ports in IIS'
 TOCTitle: Re-activate server after Security Configuration Wizard closes ports in IIS
 ms:assetid: cb8e17cf-f8c1-4099-b63b-c242d656c26a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398851(v=OCS.15)
@@ -38,10 +38,10 @@ Some Lync Server 2013 roles run Web Services on Internet Information Services (I
 
 3.  On the **Executing Commands** page, when the task status is shown as completed, click **Finish**.
     
-    <div>
+    <div class="alert">
     
 
-    > [!NOTE]  
+    > [!NOTE]
     > You can also use bootstrapper.exe or <STRONG>Enable-CsComputer</STRONG> to re-activate the server.
 
     
