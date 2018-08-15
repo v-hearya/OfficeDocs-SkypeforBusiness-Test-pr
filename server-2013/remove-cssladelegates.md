@@ -64,7 +64,7 @@ SLA is a feature in Skype for Business (SfB) for handling multiple calls on a sp
 
 The **Remove-CsSlaDelegates** cmdlet provides a way remove a delegate from a shared number in Shared Line Appearance (SLA).
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

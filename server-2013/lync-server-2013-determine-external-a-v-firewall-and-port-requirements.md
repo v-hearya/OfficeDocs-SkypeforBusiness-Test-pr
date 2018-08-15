@@ -156,10 +156,10 @@ If your policies require both inbound and outbound firewall rule definitions, th
 </table>
 
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Microsoft Office Communications Server 2007 requires a slightly different configuration. The TCP and UDP port range of 50,000-59,999 must be open inbound and outbound. This requirement is only for Office Communicator 2007. Office Communications Server 2007 R2, Lync Server 2010 and Lync Server 2013 only require TCP range 50,000-59,999 open outbound.
 
 
@@ -176,10 +176,10 @@ NAT has typically been a routing function, but newer devices such as firewalls a
 
 Lync Server 2013 communications software does not support NAT for traffic to or from the Edge internal interface, but for the Edge external interface, the following NAT behavior is required.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > You must configure symmetric NAT for incoming and outgoing traffic. Symmetric NAT is the NAT technology described in this topic.
 
 

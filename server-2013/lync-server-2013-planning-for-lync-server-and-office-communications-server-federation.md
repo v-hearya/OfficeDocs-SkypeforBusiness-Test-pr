@@ -59,19 +59,19 @@ Enabling federation between Microsoft Lync Server 2013, Lync Server 2010 and Off
       - <span></span>  
         For manual configuration of federation, you must have the fully qualified domain name (FQDN) of the partner’s Edge Server and domain name, or online domain name, which is entered in the Lync Server Control Panel, **Federation and External Access**, **SIP Federated Domains**. Create a **New** policy or **Edit** an existing policy to either allow or block domains by FQDN.
         
-        <div class="alert">
+        <div>
         
 
-        > [!WARNING]
+        > [!WARNING]  
         > Manual configuration of a federation partner’s Edge Server is prone to failure in the event that the partner changes the IP address of their Edge Server.
 
         
         </div>
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > For <STRONG>New SIP Federated Domains</STRONG>, you must provide the <STRONG>Domain name (or FQDN)</STRONG> for Microsoft Lync Online, Microsoft Office 365. For Microsoft Lync Server 2013, Lync Server 2010 and Office Communications Server you must also provide an <STRONG>Access Edge service (FQDN)</STRONG>
 
         
@@ -80,10 +80,10 @@ Enabling federation between Microsoft Lync Server 2013, Lync Server 2010 and Off
       - <span></span>  
         For discovered partner federation, where partners can discover your Edge Server, you create an SRV record in your external DNS - \_sipfederationtls.\_tcp.contoso.com – which points to the port 5061 and the host (A) record of your Edge Server
         
-        <div class="alert">
+        <div>
         
 
-        > [!IMPORTANT]
+        > [!IMPORTANT]  
         > If you are supporting Microsoft Lync Mobile clients on either Windows Phone or Apple iPhone, iPad, or other Apple devices and are using the Push Notification Service or Push Notification Service, you must plan for _sipfederationtls._tcp. &lt;SIP domain&gt; SRV records for each SIP domain that you have Lync Mobile clients. Android and Nokia Symbian Lync Mobile do not use push notification and are not subject to this requirement.
 
         
@@ -97,10 +97,10 @@ The following information will aid you in defining the certificate, port/protoco
 
 Planning for certificates, firewall and port/protocol requirements and DNS requirements is generally a straight forward process if you have planned or deployed your Microsoft Lync Server 2013 Edge Servers. Because federation is an additional feature that uses the existing Edge Server, the planning requirements are generally met by the Edge Server planning and deployment. You should use the following tables to determine that your requirements are met and make changes in port/protocol and DNS accordingly.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If you have a pool of Edge Servers and are federating with Lync Server 2013 or Lync Server 2010 partners, then you can use either DNS load balancing or hardware load balancers on the internal and external facing sides of the Edge Servers. If you are federating with Office Communications Server 2007 or Office Communications Server 2007 R2, hardware load balancing will provide failover support in the event of an Edge Server. Office Communications Server 2007 and Office Communications Server 2007 R2 are not DNS load balancing aware. The partner Edge Servers will establish communication with the first Edge Server in your pool that responds. If that Edge Server fails, communication does not automatically failover.
 
 

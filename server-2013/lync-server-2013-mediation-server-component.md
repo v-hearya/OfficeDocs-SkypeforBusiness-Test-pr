@@ -64,10 +64,10 @@ The following figure shows the signaling and media protocols that are used by th
 
 ![Mediation Server Protocols diagram](images/Gg398399.c3d39ba0-e323-4a58-8f07-4e80d3278af2(OCS.15).jpg "Mediation Server Protocols diagram")
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you are using TCP or RTP/RTCP (instead of SRTP or SRTCP) on the network between the PSTN gateway and the Mediation Server, we recommend that you take measures to help ensure the security and privacy of the network.
 
 

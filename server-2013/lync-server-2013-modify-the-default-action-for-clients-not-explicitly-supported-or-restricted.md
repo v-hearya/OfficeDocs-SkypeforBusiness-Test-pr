@@ -90,7 +90,7 @@ The default action to be taken when users try to sign on using clients that are 
 
 </div>
 
-For details, see the Help topic for the [Set-CsClientVersionPolicy](set-csclientversionpolicy.md) cmdlet.
+For details, see the Help topic for the [Set-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy) cmdlet.
 
 </div>
 

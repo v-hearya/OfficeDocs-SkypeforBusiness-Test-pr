@@ -36,10 +36,10 @@ There are three components of client version control:
 
   - Client version policy rules make up a client version policy, and are used to define the actions that should be taken when users attempt to log on with specific clients and client versions.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Because anonymous users are not associated with a user, site, or service, anonymous users are affected by global-level policies only.
 
 

@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2015-11-16_
 
 When you set up your Front End pools and Standard Edition servers, you have the option to configure an external Web farm fully qualified domain name (FQDN) and associated ports. If you did not configure this URL when you ran the Lync Server Deployment Wizard, you need to manually configure these settings. An administrator typically does not need to modify these settings, as these are the recommended and default ports.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The following screen shot was taken while configuring a Standard Edition server, so the Override FQDN option is disabled. That option is enabled when configuring an Enterprise Edition server in a Front End pool.
 
 
@@ -52,10 +52,10 @@ When you set up your Front End pools and Standard Edition servers, you have the 
 
 4.  Add or edit the **External Web Services FQDN**, and then click **OK**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > If you have more than one Front End pool or Front End Server the external Web services FQDN must be unique. For example, if you define the external Web services FQDN of a Front End Server as <STRONG>pool01.contoso.com</STRONG>, you cannot use <STRONG>pool01.contoso.com</STRONG> for another Front End pool or Front End Server. If you are also deploying Directors, the external Web services FQDN defined for any Director or Director pool must be unique from any other Director or Director pool as well as any Front End pool or Front End Server.
 
     
@@ -75,10 +75,10 @@ There are a few requirements you should be aware of when configuring the Listeni
 
   - You can override the Internal web services on a Front End pool, Director or a Director pool and define your own FQDN.
     
-    <div class="alert">
+    <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > If you decide to override the Internal web services with a self-defined FQDN, each FQDN must be unique from any other Front End pool, Director or a Director pool.
 
     

@@ -74,10 +74,10 @@ You can move a user from your Lync Server 2010 pool to your Lync Server 2013 pil
     
     ![Output from Get-CsUser cmdlet with Identity filter](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Output from Get-CsUser cmdlet with Identity filter")  
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For details about the <STRONG>Get-CsUser</STRONG> cmdlet, run: <STRONG>Get-Help Get-CsUser –Detailed</STRONG>
 
     

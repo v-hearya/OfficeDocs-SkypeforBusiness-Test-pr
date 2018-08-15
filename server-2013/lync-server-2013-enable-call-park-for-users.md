@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2012-09-11_
 
 Users cannot park calls or retrieve parked calls until they are enabled for Call Park in voice policy.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > By default, Call Park is disabled for all users.
 
 

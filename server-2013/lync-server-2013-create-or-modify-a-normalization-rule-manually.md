@@ -56,10 +56,10 @@ Complete the following steps if you want to create or modify a normalization rul
 
 9.  (Optional) Enter a number to test the normalization rule and then click **Go**. The test results are displayed under **Enter a number to test**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can save a normalization rule that does not yet pass the test and then reconfigure it later. For details, see <A href="lync-server-2013-test-voice-routing.md">Test voice routing in Lync Server 2013</A>.
 
     
@@ -71,10 +71,10 @@ Complete the following steps if you want to create or modify a normalization rul
 
 12. On the **Dial Plan** page, click **Commit**, and then click **Commit all**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Whenever you create or change a normalization rule, you must run the <STRONG>Commit all</STRONG> command to publish the configuration change. For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A> in the Operations documentation.
 
     

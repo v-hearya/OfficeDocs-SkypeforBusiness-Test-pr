@@ -46,10 +46,10 @@ For users to be able to use Call via Work, they must meet the following two addi
 
   - Users must be assigned a mobility policy that has the **EnableOutsideVoice** option set to True.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Users who are not enabled for Enterprise Voice can use their mobile devices to make Lync to Lync Voice over IP (VoIP) calls, or can join conferences by using the Click to Join link on their mobile devices, if you assign those users the appropriate options for voice policy. For details, see <A href="lync-server-2013-defining-your-mobility-requirements.md">Defining your mobility requirements for Lync Server 2013</A>.
 
 
@@ -70,10 +70,10 @@ For details about enabling users for Lync Server 2013, see [Disable or re-enable
     
         Set-CsMobilityPolicy -EnableMobility $False -EnableOutsideVoice $False
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can turn off Call via Work without turning off access to mobility. However, you cannot turn off mobility without also turning off Call via Work.
 
     
@@ -130,11 +130,11 @@ For details about enabling users for Lync Server 2013, see [Disable or re-enable
 [Defining your mobility requirements for Lync Server 2013](lync-server-2013-defining-your-mobility-requirements.md)  
 
 
-[New-CsMobilityPolicy](new-csmobilitypolicy.md)  
-[Set-CsMobilityPolicy](set-csmobilitypolicy.md)  
-[Get-CsMobilityPolicy](get-csmobilitypolicy.md)  
-[Grant-CsMobilityPolicy](grant-csmobilitypolicy.md)  
-[Remove-CsMobilityPolicy](remove-csmobilitypolicy.md)  
+[New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy)  
+[Set-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMobilityPolicy)  
+[Get-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMobilityPolicy)  
+[Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy)  
+[Remove-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsMobilityPolicy)  
   
 
 </div>

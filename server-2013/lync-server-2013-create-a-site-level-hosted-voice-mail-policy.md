@@ -30,11 +30,11 @@ A *site* policy can impact all users that are homed on the site for which the po
 
 For details about configuring site policies, see the Lync Server Management Shell documentation for the following cmdlets:
 
-  - [New-CsHostedVoicemailPolicy](new-cshostedvoicemailpolicy.md)
+  - [New-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostedVoicemailPolicy)
 
-  - [Set-CsHostedVoicemailPolicy](set-cshostedvoicemailpolicy.md)
+  - [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy)
 
-  - [Get-CsHostedVoicemailPolicy](get-cshostedvoicemailpolicy.md)
+  - [Get-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostedVoicemailPolicy)
 
 <div>
 

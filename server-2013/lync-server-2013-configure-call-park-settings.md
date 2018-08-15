@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2012-11-01_
 
 If you don't want to use default Call Park settings, you can customize them. When you install the Call Park application, global settings are configured by default. You can modify the global settings, and you can also specify site-specific settings. Use the **New-CsCpsConfiguration** cmdlet to create new site-specific settings. Use the **Set-CsCpsConfiguration** cmdlet to modify existing settings.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > At a minimum, we recommend that you configure the <STRONG>OnTimeoutURI</STRONG> option for the fallback destination to use when a parked call times out and ringback fails.
 
 
@@ -88,10 +88,10 @@ Use **New-CsCpsConfiguration** cmdlet or the **Set-CsCpsConfiguration** cmdlet t
     
         New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
     
-    <div class="alert">
+    <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > Use the <STRONG>Get-CsSite</STRONG> cmdlet to identify the site. For details, see Lync Server Management Shell documentation.
 
     
@@ -111,9 +111,9 @@ Use **New-CsCpsConfiguration** cmdlet or the **Set-CsCpsConfiguration** cmdlet t
 [Customize Call Park music on hold in Lync Server 2013](lync-server-2013-customize-call-park-music-on-hold.md)  
 
 
-[New-CsCpsConfiguration](new-cscpsconfiguration.md)  
-[Set-CsCpsConfiguration](set-cscpsconfiguration.md)  
-[Get-CsSite](get-cssite.md)  
+[New-CsCpsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCpsConfiguration)  
+[Set-CsCpsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCpsConfiguration)  
+[Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite)  
   
 
 </div>

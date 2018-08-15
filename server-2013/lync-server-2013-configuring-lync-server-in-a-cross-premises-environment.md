@@ -72,10 +72,10 @@ Keep in mind that the realm name for a tenant is typically different than the or
 
 After the script completes you must then configure a trust relationship between Lync Server 2013 and the authorization server, and a second trust relationship between Exchange 2013 and the authorization server. This can only be done by using the Microsoft Online Services cmdlets.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you have not installed the Microsoft Online Services cmdlets you will need to do two things before proceeding. First, download and install the 64-bit version of the Microsoft Online Services Sign-in Assistant. After installation is complete, download and install the 64-bit version of the Microsoft Online Services Module for Windows PowerShell. Detailed information for installing and using the Microsoft Online Services Module can be found on the Office 365 web site. These instructions will also tell you how to configure single sign-on, federation, and synchronization between Office 365 and Active Directory.<BR>If you have not installed these cmdlets your script will fail because the Get-CsTenant cmdlet will not be available.
 
 

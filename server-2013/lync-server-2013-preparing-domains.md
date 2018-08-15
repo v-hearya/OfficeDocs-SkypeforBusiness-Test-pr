@@ -47,7 +47,7 @@ For details about the **Grant-CsOuPermission** cmdlet, see the Lync Server Manag
 <div class="">
 
 
-> [!TIP]
+> [!TIP]  
 > For details about the ACEs created on the domain root and in the Users, Computers, and Domain Controllers containers, see <A href="lync-server-2013-changes-made-by-domain-preparation.md">Changes made by domain preparation in Lync Server 2013</A>.
 
 

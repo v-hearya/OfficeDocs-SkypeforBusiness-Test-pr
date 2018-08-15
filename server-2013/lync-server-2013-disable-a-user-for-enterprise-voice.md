@@ -46,10 +46,10 @@ Use the following procedure to disable Enterprise Voice for a user account that 
 
 7.  On the **Edit Lync Server User** page, under **Telephony**, click any option except **Enterprise Voice**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > To restrict a user from making audio or video calls by using Lync, under <STRONG>Telephony</STRONG>, click <STRONG>Audio/video disabled</STRONG>.
 
     

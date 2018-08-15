@@ -66,10 +66,10 @@ Configuring Announcement application requires one of the following administrativ
 
   - **CsViewOnlyAdministrator**   This administrator role can view the deployment to monitor deployment health.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details about administrative user rights, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation.
 
 

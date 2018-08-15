@@ -44,20 +44,20 @@ An added requirement to support IPv6 in Lync Server 2013 is to create domain nam
 
 Edge Server introduces a fully integrated XMPP proxy (deployed on the Edge Servers) and an XMPP gateway (deployed on your Front End Servers). You can deploy XMPP federation as an optional component. By adding and configuring the XMPP proxy and XMPP gateway, you can enable your Microsoft Lync 2013 users to add contacts from XMPP-based partners for instant messaging (IM) and presence.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Currently, the XMPP services in Edge Server only provide IM and presence between Lync Server clients and XMPP-based contacts. Additionally, XMPP is hosted in only one site.
 
 
 
 </div>
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The XMPP capability of Lync Server 2013 is tested and supported by Microsoft for instant messaging federation with Google Talk. For any other XMPP systems contact the third-party vendor to verify that they support federation with Lync Server 2013, and for any deployment or troubleshooting recommendations.
 
 
@@ -76,7 +76,7 @@ For Audio/Video Authentication, tokens are used to authenticate port allocation 
 
 Server to Server Authentication is managed by a global certificate that is requested and applied to all servers in the deployment. The certificate is responsible for authenticating servers in Lync Server 2013 as well as authenticating to Exchange 2013 and Microsoft SharePoint Server 2013. For more information on how Server to Server Authentication works, see [Managing server-to-server authentication (OAuth) and partner applications in Lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md). One very important difference between the Audio/Video Authentication process and the Server to Server Authentication process is the lifetime of the authentication, or tokens. For Audio/Video Authentication, the authentication expires after eight hours. Server-to-Server Authentication has a lifetime of 24 hours. You must plan accordingly for each of the certificate types.
 
-New for Lync Server 2013 is the ability to stage a replacement Audio/Video Authentication certificate and Server to Server Authentication certificate in advance of the expiration of the current certificate. The new certificate is then used for generating new tokens or new authentication requests. but retains the old certificate for verifying the current sessions and authentications.. What this accomplishes is to effectively prevent nearly all failures due to token and certificate expirations. For details of this feature and how to configure it, see [Staging AV and OAuth certificates in Lync Server 2013 using -Roll in Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md)
+New for Lync Server 2013 is the ability to stage a replacement Audio/Video Authentication certificate and Server to Server Authentication certificate in advance of the expiration of the current certificate. The new certificate is then used for generating new tokens or new authentication requests. but retains the old certificate for verifying the current sessions and authentications.. What this accomplishes is to effectively prevent nearly all failures due to token and certificate expirations. For details of this feature and how to configure it, see [Staging AV and OAuth certificates in Lync Server 2013 using -Roll in Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)
 
 </div>
 
@@ -86,10 +86,10 @@ New for Lync Server 2013 is the ability to stage a replacement Audio/Video Authe
 
 In previous versions of Lync Server and Office Communications Server, cookie-based affinity was used by the Web services to ensure that the client and Web services session state was maintained. Lync Server 2013 Web services use a built in affinity mechanism that eliminates most of the requirements for cookie-based affinity.
 
-<div class="alert">
+<div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > The Microsoft Lync 2010 Mobile client must still use cookie-based affinity and will require configuration of cookie-based affinity until you have migrated all clients to the upcoming Microsoft Lync Mobile client (Date of release not yet determined).
 
 
@@ -114,10 +114,10 @@ The autodiscover feature in Lync Server 2013 enables clients to locate additiona
 
 Introduced in the cumulative update for Lync Server 2010: November 2011, mobility services in Lync Server 2013 enable mobile phones running Lync Mobile and tablet devices using supported Apple iOS, Android, Windows Phone, or Nokia mobile devices to perform activities such as sending and receiving instant messages, viewing contacts, and viewing presence. In addition, mobile devices support some Enterprise Voice features, such as click to join a conference, Call via Work, single number reach, voice mail, and missed call notification.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The mobility services use the reverse proxy and published services that are deployed on your Front End Servers. No changes are required to Edge Servers. Minimally you need outbound SIP/TCP/5061from the server running the Lync Server Access Edge service.
 
 

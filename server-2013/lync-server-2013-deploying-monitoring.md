@@ -32,10 +32,10 @@ Major changes have been made to the Microsoft Lync Server 2013 monitoring infras
 
   - Reduce the complexity of Lync Server setup and administration. By automatically collocating the monitoring services on each Front End server you no longer have to install, configure, and manage the Monitoring Server role.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The Archiving Server role has also been deprecated in Lync Server 2013. Like the monitoring services, Lync Server 2013 archiving services are now collocated on each Front End server. This is important to note simply because monitoring and archiving often share the same SQL Server database instance.
 
 
@@ -50,10 +50,10 @@ As you might expect, these changes have a major impact on how monitoring service
 
 Although it's often easier to enable monitoring at the same time that you create a new pool, it's also possible to create a new pool with monitoring disabled. If you do that, you can later use Topology Builder to enable the service: Topology Builder provides a way to enable or disable monitoring for a pool, or to associate a pool with a different monitoring store. Keep in mind that even though there is no longer a Monitoring Server role you will still need to create one or more monitoring stores: backend databases used to store the data gathered by the monitoring service. These backend databases can be created using either Microsoft SQL Server 2008 R2 or Microsoft SQL Server 2012.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If monitoring has been enabled for a pool you can disable the process of collecting monitoring data without having to change your topology: Lync Server Management Shell provides a way for you to disable (and then later re-enable) call detail recording (CDR) or Quality of Experience (QoE) data collection. For more information, see the Configuring Call Detail Recording and Quality of Experience Settings section of this document.
 
 
@@ -62,10 +62,10 @@ Although it's often easier to enable monitoring at the same time that you create
 
 One other important enhancement to monitoring in Lync Server 2013 is the fact that Lync Server Monitoring Reports now support IPv6: reports that use the IP Address field will display either IPv4 or IPv6 addresses depending on : 1) the SQL query being used; and, 2) where or not the IPv6 address is stored in the monitoring database.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Ensure that the SQL Server Agent Service Startup Type is Automatic and the SQL Server Agent Service is running for the SQL Instance which is holding the Monitoring databases, so that the Default Monitoring SQL Server Maintenance Jobs can run on their scheduled basis under the control of the SQL Server Agent Service.
 
 

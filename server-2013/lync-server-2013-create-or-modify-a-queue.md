@@ -34,10 +34,10 @@ Use one of the following procedures to create or modify a queue.
 
 1.  Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you are one of the delegated Response Group Managers for a managed workflow, you can create or modify response group queues and assign them to the workflows that you manage.
 
     
@@ -65,10 +65,10 @@ Use one of the following procedures to create or modify a queue.
     
       - To change the order in which agents are searched, in the list of agent groups, click a group, and then click the up arrow or down arrow.
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > When the server searches for an available agent for the queue, it uses group order. That is, the first group in the list is searched first, followed by the second group in the list, and so on.
 
         
@@ -122,10 +122,10 @@ Use one of the following procedures to create or modify a queue.
 
 1.  Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you are one of the delegated Response Group Managers for a managed workflow, you will be able to create agent groups and queues, and assign agent groups to queues.
 
     
@@ -141,11 +141,11 @@ Use one of the following procedures to create or modify a queue.
     
         "All agents are currently busy. Please call back later."
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
-    > To use an audio file for the prompt, use the <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet. For details, see <A href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</A>.
+    > [!NOTE]  
+    > To use an audio file for the prompt, use the <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet. For details, see <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.
 
     
     </div>
@@ -154,11 +154,11 @@ Use one of the following procedures to create or modify a queue.
     
         $actionTO = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
-    > For details about possible actions and their syntax, see <A href="new-csrgscallaction.md">New-CsRgsCallAction</A>.
+    > [!NOTE]  
+    > For details about possible actions and their syntax, see <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.
 
     
     </div>
@@ -175,11 +175,11 @@ Use one of the following procedures to create or modify a queue.
     
         $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
-    > To use an audio file for the prompt, use the <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet. For details, see <A href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</A>.
+    > [!NOTE]  
+    > To use an audio file for the prompt, use the <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet. For details, see <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.
 
     
     </div>
@@ -188,11 +188,11 @@ Use one of the following procedures to create or modify a queue.
     
         $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
-    > For details about possible actions and their syntax, see <A href="new-csrgscallaction.md">New-CsRgsCallAction</A>.
+    > [!NOTE]  
+    > For details about possible actions and their syntax, see <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.
 
     
     </div>
@@ -209,11 +209,11 @@ Use one of the following procedures to create or modify a queue.
     
         $agid = (Get-CsRgsAgentGroup -Name "Help Desk").Identity;
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
-    > For details about creating the agent group, see <A href="new-csrgsagentgroup.md">New-CsRgsAgentGroup</A>
+    > [!NOTE]  
+    > For details about creating the agent group, see <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</A>
 
     
     </div>
@@ -237,13 +237,13 @@ Use one of the following procedures to create or modify a queue.
 ## See Also
 
 
-[New-CsRgsQueue](new-csrgsqueue.md)  
-[Set-CsRgsQueue](set-csrgsqueue.md)  
-[New-CsRgsPrompt](new-csrgsprompt.md)  
-[New-CsRgsCallAction](new-csrgscallaction.md)  
-[Get-CsRgsQueue](get-csrgsqueue.md)  
-[Import-CsRgsAudioFile](import-csrgsaudiofile.md)  
-[Remove-CsRgsQueue](remove-csrgsqueue.md)  
+[New-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsQueue)  
+[Set-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsQueue)  
+[New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt)  
+[New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction)  
+[Get-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsQueue)  
+[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile)  
+[Remove-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsRgsQueue)  
   
 
 </div>

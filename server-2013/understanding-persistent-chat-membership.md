@@ -38,10 +38,10 @@ A Persistent Chat administrator can create and manage chat room categories. As p
 
 Persistent Chat Server relies on Active Directory for the pool of internal Persistent Chat users. After you install Persistent Chat (client), you can add domains of users and user groups to the room category. You can then add these users and groups to the membership of your room categories.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > You must ensure that there are no duplicate names for users who want to make changes to their Persistent Chat room(s). If duplicate user names exist, change them to different names to unblock users from making those changes. If a user has duplicate names in Active Directory and tries to make changes in their room(s), an error message appears prompting the user to contact the administrator for resolution.
 
 
@@ -72,10 +72,10 @@ A category’s **AllowedMembers** must include all users who will use any Persis
 
 Categories can also be used to create ethical walls. Ethical walls prevent any conflict of interest in an organization. For example, an administrator can create chat rooms in a category for traders only, whereas chat rooms in another category can be used by analysts only.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In Lync Server 2013, Persistent Chat Server, we do not support access to federated users. If there are chats from federated users in previous versions of Persistent Chat Server, they will be migrated. The federated users are added as disabled principals.
 
 

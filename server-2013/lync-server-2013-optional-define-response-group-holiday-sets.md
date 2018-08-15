@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2014-02-07_
 
 Holiday settings define the days that a response group is closed for business and specify the action to take on those days. A holiday set is the collection of holidays that apply to a response group.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If a workflow is defined as a Managed workflow, then any user is assigned the CsResponseGroupManager role can set and modify holidays for workflows that they manage.
 
 
@@ -71,8 +71,8 @@ Holiday settings define the days that a response group is closed for business an
 [Create or modify an interactive workflow in Lync Server 2013](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
 
 
-[New-CsRgsHoliday](new-csrgsholiday.md)  
-[New-CsRgsHolidaySet](new-csrgsholidayset.md)  
+[New-CsRgsHoliday](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHoliday)  
+[New-CsRgsHolidaySet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHolidaySet)  
   
 
 </div>

@@ -44,10 +44,10 @@ In addition, if your deployment includes analog devices, you must configure the 
 
 To learn how to configure an analog gateway, see "Planning to Deploy Analog Devices" at [http://go.microsoft.com/fwlink/p/?LinkId=268537](http://go.microsoft.com/fwlink/p/?linkid=268537) in the Lync Server 2010 TechNet Library. (Analog devices work the same way in Lync Server 2013 as they do in Lync Server 2010.)
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > You can configure the switch for Enhanced 9-1-1 (E9-1-1), if the switch supports this.
 
 

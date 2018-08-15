@@ -49,10 +49,10 @@ You use the EnableHotdesking parameter of the **New-CSClientPolicy** cmdlet or t
 
 </div>
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > After this policy has been created, you must assign it to the appropriate common area phones. For details, see <A href="lync-server-2013-assign-policies-to-a-common-area-phone.md">Assign policies in Lync Server 2013 to a common area phone</A>.
 
 
@@ -69,7 +69,7 @@ You use the EnableHotdesking parameter of the **New-CSClientPolicy** cmdlet or t
 
 </div>
 
-For details, see the Help topics for the [New-CsClientPolicy](new-csclientpolicy.md) cmdlet and the [Set-CsClientPolicy](set-csclientpolicy.md) cmdlet.
+For details, see the Help topics for the [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) cmdlet and the [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy) cmdlet.
 
 </div>
 

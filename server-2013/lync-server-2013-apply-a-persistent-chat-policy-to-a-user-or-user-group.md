@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2012-10-06_
 
 If a user has been enabled for Lync Server 2013, you can apply appropriate policies to specific users to enable or disable them for Persistent Chat Server.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > To configure and use Persistent Chat Server, you must first use Topology Builder to add Persistent Chat Server support to the topology, and then publish the topology. For details, see <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Adding Persistent Chat Server to your deployment in Lync Server 2013</A> in the Deployment documentation.<BR>To configure Persistent Chat Server configuration settings, see <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Configure Persistent Chat Server options globally or for Persistent Chat Server pool in Lync Server 2013</A> in the Deployment documentation.
 
 
@@ -54,10 +54,10 @@ Use the procedure in this topic to apply a previously created Persistent Chat us
 
 5.  In **Edit Lync Server User** under **Persistent Chat policy**, select the Persistent Chat user policy that you want to apply.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The <STRONG>&lt;Automatic&gt;</STRONG> settings apply the default effective policy. These settings are applied automatically by the server.
 
     

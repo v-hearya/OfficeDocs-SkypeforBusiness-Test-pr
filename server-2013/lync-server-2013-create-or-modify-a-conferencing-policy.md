@@ -44,10 +44,10 @@ Follow these steps to create a user-level or a site-level conferencing policy. F
     
       - To create a site-level policy, click **Site policy**. In the **Select a Site** search field, type all or part of the name of the site for which you want to create a policy. In the list of sites, click the site that you want, and then click **OK**.
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > The site name becomes the conferencing policy name, and it cannot be changed.
 
         

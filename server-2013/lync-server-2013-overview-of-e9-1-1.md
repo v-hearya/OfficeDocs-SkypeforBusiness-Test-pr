@@ -40,10 +40,10 @@ Unlike time division multiplexing (TDM) and IP-based private branch exchange (PB
 
 When you use an ELIN gateway, you also add ERLs to the Location Information service database, but you include also an ELIN number for each location. The ELIN number becomes the emergency calling number during the emergency call. You must then make sure that your PSTN carrier uploads the ELINs to the Automatic Location Identification (ALI) database.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Lync-connected analog devices cannot receive location information from the Location Information service or transmit location to the E9-1-1 service provider. If you use the SIP trunk E9-1-1 service provider option and need to support E9-1-1 from analog phones, you have two options: 
 > <UL>
 > <LI>

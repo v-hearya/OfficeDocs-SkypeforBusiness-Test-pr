@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-02-23_
 
 Client version configuration settings are used to turn client version control on or off, either globally or for particular sites. The global client version configuration installs with Lync Server 2013 and is used to enable or disable client version control for the entire server deployment. When the global configuration is enabled, any client version policies you have in place will take effect when users attempt to log on. You can disable the global client version configuration if you do not want any client version control to occur. You can enable or disable client versioning from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Because anonymous users are not associated with a user, site, or service, anonymous users are affected by global-level policies only.
 
 
@@ -82,7 +82,7 @@ You can enable or disable client versioning by using the **Set-CsClientVersionCo
 
 </div>
 
-For details, see the Help topic for the [Set-CsClientVersionConfiguration](set-csclientversionconfiguration.md) cmdlet.
+For details, see the Help topic for the [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration) cmdlet.
 
 </div>
 

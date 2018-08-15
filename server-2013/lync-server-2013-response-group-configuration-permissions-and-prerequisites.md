@@ -123,10 +123,10 @@ To configure response groups, you must be a member of at least one of the follow
 </table>
 
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > <STRONG>(1)</STRONG> An Active Directory Domain Services user object must be a member of the specified Active Directory security group listed. An administrator or other delegated Active Directory group member with appropriate permissions to add users to a security group (For example, Administrator, Account Operators) must add a user object to the listed security group or group for the user to be able to perform the functions listed. <STRONG>(2)</STRONG> Only for workflows that the CsResponseGroupAdministrator has assigned to the CsResponseGroupManager. <STRONG>(3)</STRONG> A Response Group Manager can assign another member of CsResponseGroupManager to a workflow that the current manager already manages. <STRONG>(4)</STRONG> CsViewOnlyAdministrator can only run verb "Get" Lync Server Management Shell cmdlets.
 
 
@@ -201,10 +201,10 @@ To modify the Web.config file, do the following:
 
 This section applies to you only if your organization needs to support Yi, Meng, or Zang characters.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For information on what the Yi, Meng, and Zang characters are and why they may be important to your deployment, see the information on the GB18030 character sets <A href="http://go.microsoft.com/fwlink/p/?linkid=240223">http://go.microsoft.com/fwlink/p/?linkId=240223</A>.
 
 

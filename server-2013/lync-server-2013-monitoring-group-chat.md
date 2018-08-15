@@ -107,10 +107,10 @@ Assuming you are running latest cumulative update, use the following stress test
 </table>
 
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The following performance counter numbers will likely vary when different hardware specifications or user profiles are used.
 
 

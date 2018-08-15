@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-01-30_
 
 After you add Group Call Pickup group numbers to the call park orbit table, you can assign the groups to users. Use the secondary extension feature activation (SEFAUtil ) resource kit tool to assign call pickup groups to users.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In a hybrid deployment, do not assign a Group Call Pickup group to users who are homed online. Users who are homed online cannot participate in Group Call Pickup. That is, their calls cannot be answered by other users, and they cannot answer calls to other users.
 
 

@@ -58,7 +58,7 @@ The following cmdlets manage Skype for Business Online user accounts.
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!WARNING]

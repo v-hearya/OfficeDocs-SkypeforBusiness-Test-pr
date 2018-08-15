@@ -34,10 +34,10 @@ It's also important to note that the inventory report could include phones that 
 
 In addition, the IP Phone Inventory Report does not report summary totals for the different types of phones. For example, suppose you have 105 Polycom CX600 phones. The report will not tell you that you have 105 of these phones; instead, you will simply see 105 separate entries for the Polycom Cx600. The only way to know that there are 105 entries for the Polycom Cx600 would be to count each of those entries manually.
 
-<div class="alert">
+<div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > Or, export the data and use Microsoft Excel or Windows PowerShell to do that counting for you.
 
 

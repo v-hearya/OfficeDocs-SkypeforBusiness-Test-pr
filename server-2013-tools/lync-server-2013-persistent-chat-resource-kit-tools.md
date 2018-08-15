@@ -34,10 +34,10 @@ The Lync Server 2013 Persistent Chat Resource Kit tools help to make routine ta
 
 To install the Lync Server 2013, Resource Kit Tools, download **PersistentChatReskit.msi**. Run **PersistentChatReskit.msi** to do a simple installation. The .msi installs all the tools in the following path: \\**Program Files\\ Microsoft Lync Server 2013\\Persistent Chat Server Resource Kit**. Tools that are self-contained executables are in this folder. Tools that also have files are in their own subfolders.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > After installing the Lync Server 2013, Resource Kit Tools, you must install <STRONG>PsExec.exe</STRONG> and copy <STRONG>PsExec.exe</STRONG> to the following path: \\<STRONG>Program Files\ Microsoft Lync Server 2013\Persistent Chat Server Resource Kit\ChatStressTool</STRONG>. If you do not copy <STRONG>PsExec.exe</STRONG>, the Persistent Chat Stress Tool will throw an error exception, and not perform correctly. Make sure that you meet this prerequisite requirement prior to running the tool. For details about installing <STRONG>PsExec.exe</STRONG>, see <A href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</A>.
 
 
@@ -104,6 +104,7 @@ Configure the AffCheck.exe.config file according to the instructions in the conf
 
 **AffCheck.exe.config:**
 
+```XML
     <?xml version="1.0" encoding="utf-8" ?>
     <configuration>
       <appSettings>
@@ -136,7 +137,7 @@ Configure the AffCheck.exe.config file according to the instructions in the conf
         <add key="Ignore" value ="DC=uatest,DC=test,DC=contoso,DC=com;DC=test,DC=contoso,DC=com"/>
       </appSettings>
     </configuration>
-
+  ```
 </div>
 
 </div>
@@ -170,6 +171,7 @@ The file, PersistentChatMonitoringSummary.exe.config, must contain a \<connectio
 <div>
 
 ## Usage
+
 ```Batch
     PersistentChatMonitoringSummary [-StartDateTime <date>] [-EndDateTime <date>]
 ```
@@ -185,7 +187,8 @@ These parameters define the selection of data:
 <div>
 
 ## Example
-```batch
+
+```Batch
     C:\Users\Administrator.VDOMAIN>Desktop\PersistentChatMonitoringSummary.exe
     Reading database connection information, Persistent Chat endpoint uri, and csv output path information from the application config file...
     Connecting to Monitoring database with connection string specified in the application config file...
@@ -352,6 +355,7 @@ The file, ChatUsageReport.exe.config, must contain a \<connectionStrings\> secti
 <div>
 
 ## Usage
+
 ```Powershell
     ChatUsageReport [-StartDate {date}] [-EndDate {date}] [-TopActiveUsers {n}] [-TopActiveRooms {n}] [-LeastActiveRooms {n}] [-RoomsInactiveSince {Date}] [-OutputFolder {path}]
 ```
@@ -408,11 +412,13 @@ The report will always include the following output:
 ## Example
 
 The following example generates a usage report for the entire year 2001 and places the report in the OutputFolder specified in the ChatUsageReport.exe.config.
+
 ```Powershell
     ChatUsageReport -RoomsInactiveSince 06-20-2010
 ```
 ChatUsageReport.exe.config:
 
+```XML
     <?xml version="1.0" encoding="utf-8" ?>
     <configuration>
       <connectionStrings>
@@ -431,7 +437,7 @@ ChatUsageReport.exe.config:
         <add key="RoomsInactiveSince" value="01/01/0001"/>
       </appSettings>
     </configuration></configuration>
-
+```
 </div>
 
 </div>
@@ -461,6 +467,7 @@ The user account under which the script is run must have owner access to the Per
 ## Usage
 
 Following are the contents of the default script:
+
 ```Powershell
     /*
     This script will schedule a principal for a forced AD synchronization cycle

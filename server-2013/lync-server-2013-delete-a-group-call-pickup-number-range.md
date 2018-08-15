@@ -44,11 +44,11 @@ Use the following procedure to delete a Group Call Pickup number range.
     
         Remove-CsCallParkOrbit -Identity "Redmond call pickup"
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
-    > For details about more options, see <A href="remove-cscallparkorbit.md">Remove-CsCallParkOrbit</A>.
+    > [!NOTE]  
+    > For details about more options, see <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.
 
     
     </div>
@@ -63,8 +63,8 @@ Use the following procedure to delete a Group Call Pickup number range.
 [Create or modify a Call Park orbit range in Lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  
 
 
-[Remove-CsCallParkOrbit](remove-cscallparkorbit.md)  
-[Get-CsCallParkOrbit](get-cscallparkorbit.md)  
+[Remove-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit)  
+[Get-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCallParkOrbit)  
   
 
 </div>

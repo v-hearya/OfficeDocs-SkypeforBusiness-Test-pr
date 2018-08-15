@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2012-09-21_
 
 Perform this procedure at the central site, which contains at least one Front End pool or Standard Edition server.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Before you perform the procedure, the following conditions must be in place: 
 > <UL>
 > <LI>
@@ -59,20 +59,20 @@ Perform this procedure at the central site, which contains at least one Front En
 
 6.  In the **SIP Transport Protocol** list, click the transport protocol the gateway uses, and then click **OK**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > For security reasons, we strongly recommend that you use a PSTN gateway that supports Transport Layer Security (TLS).
 
     
     </div>
 
-<div class="alert">
+<div>
 
 
-> [!TIP]
-> Use the cmdlet <STRONG>Set-CsPstnGateway</STRONG> to modify properties of a PSTN gateway. For details, see <A href="set-cspstngateway.md">Set-CsPstnGateway</A>, in the Lync Server Management Shell Help.
+> [!TIP]  
+> Use the cmdlet <STRONG>Set-CsPstnGateway</STRONG> to modify properties of a PSTN gateway. For details, see <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPstnGateway">Set-CsPstnGateway</A>, in the Lync Server Management Shell Help.
 
 
 

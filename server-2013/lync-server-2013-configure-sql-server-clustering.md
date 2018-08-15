@@ -32,10 +32,10 @@ You should set up and configure the SQL Server cluster before you install and de
 
 When you install SQL Server, you should install SQL Server Management Studio to manage the locations for database and log file locations. SQL Server Management Studio is installed as an optional component when you install SQL Server.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > To install and deploy the databases on the SQL Server-based server, you must be a member of the SQL Server sysadmin group for the SQL Server-based server where you are installing the database files. If you are not a member of the SQL Server sysadmin group, you will need to request that you be added to the group until the database files are deployed. If you cannot be made a member of the sysadmin group, you should provide your SQL Server database administrator with the script to configure and deploy the databases. For details about the proper user rights and permissions that you need to accomplish the procedures, see <A href="lync-server-2013-deployment-permissions-for-sql-server.md">Deployment permissions for SQL Server in Lync Server 2013</A>.
 
 
@@ -48,10 +48,10 @@ When you install SQL Server, you should install SQL Server Management Studio to 
 
 1.  After you have completed the installation and configuration of SQL Server clustering, you define the SQL Server store in Topology Builder by using the SQL Server instance virtual cluster name (as configured in the setup for SQL Server clustering) and the instance name of the SQL Server database. Different from a single SQL Server-based server, you will use the virtual node fully qualified domain name (FQDN) for a clustered SQL Server-based server.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The individual Windows Server cluster nodes do not have to be configured for Topology Builder. You will use only the virtual SQL Server cluster name.
 
     
@@ -61,10 +61,10 @@ When you install SQL Server, you should install SQL Server Management Studio to 
 
 3.  Ensure that the database folder and log files folder defaults are mapped correctly to the shared disks in the SQL Server cluster by using SQL Server Management Studio. This is a required procedure if you will create databases by using Topology Builder.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you did not install SQL Server Management Studio, you can install it by rerunning the SQL Server installation, and then selecting the management tool as an added feature for the existing SQL Server deployment.
 
     
@@ -80,10 +80,10 @@ When you install SQL Server, you should install SQL Server Management Studio to 
 
 1.  Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > The following procedure assumes that you have defined and configured your topology in Topology Builder. For details about defining your topology, see<A href="lync-server-2013-defining-and-configuring-the-topology.md">Defining and configuring the topology in Lync Server 2013</A>. To use Topology Builder to publish the topology and configure the database, you must log on as a user with the correct user rights and group memberships. For details about the required rights and group memberships, see <A href="lync-server-2013-deployment-permissions-for-sql-server.md">Deployment permissions for SQL Server in Lync Server 2013</A>.
 
     

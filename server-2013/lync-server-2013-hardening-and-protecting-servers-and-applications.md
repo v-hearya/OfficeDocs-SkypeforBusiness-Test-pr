@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-12-05_
 
 You should harden and protect your operating system and applications according to best practices for that specific component. This section describes how to harden application servers and use Group Policy to implement security lockdowns.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You can also harden and protect the databases used for you Microsoft Lync Server 2013 deployment. For details, see <A href="lync-server-2013-hardening-and-protecting-databases.md">Hardening and protecting the databases of Lync Server 2013</A>.
 
 

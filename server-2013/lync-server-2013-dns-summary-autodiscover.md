@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-02-13_
 
 Autodiscover is a flexible service in that it will accept communication over HTTP or HTTPS. To accomplish this, the domain name system (DNS) and the certificates used by servers that host the Autodiscover service must be configured correctly. Certificate requirements are covered in [Certificate summary - Autodiscover in Lync Server 2013](lync-server-2013-certificate-summary-autodiscover.md).
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > DNS lookup logic for the Lync Server clients uses a specific order of resolution. You should always include both the lyncdiscoverinternal.&lt;domain&gt; and the lyncdiscover.&lt;domain&gt; in your DNS. Excluding the lyncdiscoverinternal.&lt;domain&gt; record will cause internal clients to fail to connect to the intended services or receive the incorrect Autodiscover response.
 
 
@@ -100,20 +100,20 @@ You need to create one of the following external DNS records:
 </table>
 
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > External traffic goes through the reverse proxy.
 
 
 
 </div>
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Mobile device clients do not support multiple Secure Sockets Layer (SSL) certificates from different domains. Therefore, CNAME redirection to different domains is not supported over HTTPS. For example, a DNS CNAME record for lyncdiscover.contoso.com that redirects to an address of director.contoso.net is not supported over HTTPS. In such a topology, a mobile device client needs to use HTTP for the first request, so that the CNAME redirection is resolved over HTTP. Subsequent requests then use HTTPS. To support this scenario, you need to configure your reverse proxy with a web publishing rule for port 80 (HTTP). For details, see "To create a web publishing rule for port 80" in <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Configuring the reverse proxy for mobility in Lync Server 2013</A>. CNAME redirection to the same domain is supported over HTTPS. In this case, the destination domain's certificate covers the originating domain.
 
 

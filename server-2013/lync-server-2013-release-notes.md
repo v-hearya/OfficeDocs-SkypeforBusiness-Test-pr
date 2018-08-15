@@ -685,7 +685,7 @@ To force an update to the most recent version of the screen-sharing plug-in when
 <div class="">
 
 
-> [!NOTE]
+> [!NOTE]  
 > The information in this section pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
 
@@ -777,7 +777,7 @@ This workaround will correctly display the Presence status of users homed to Off
 <div class="">
 
 
-> [!NOTE]
+> [!NOTE]  
 > The information in this section pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
 
@@ -903,7 +903,7 @@ There are no workarounds for this issue. The parked call should be retrieved wit
 <div class="">
 
 
-> [!NOTE]
+> [!NOTE]  
 > The information in this section pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
 
@@ -1017,7 +1017,7 @@ The *DropExistingDatabasesOnMirror* parameter causes the affected databases to b
 <div class="">
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Whenever you make a change to a back-end database mirroring relationship, you must restart all the Front End Servers in the pool.
 
 
@@ -1123,7 +1123,7 @@ To work around this issue, refresh the page of the Lync Server Control Panel in 
 <div class="">
 
 
-> [!NOTE]
+> [!NOTE]  
 > The information in this section pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
 
@@ -1193,7 +1193,7 @@ If you want to select a language with a neutral locale, always make sure that yo
 <div class="">
 
 
-> [!NOTE]
+> [!NOTE]  
 > The information in this section pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
 

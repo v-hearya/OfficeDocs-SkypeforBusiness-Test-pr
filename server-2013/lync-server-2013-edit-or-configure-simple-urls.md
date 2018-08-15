@@ -54,19 +54,19 @@ By default, simple URLs will be configured in the form of (for example, the dial
 
 2.  In the **Administrative access URL** box, enter the simple URL you want for administrative access to Lync Server 2013 Control Panel, and then click **OK**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > We recommend using the simplest possible URL for the Admin URL. The simplest option is <STRONG>https://admin.</STRONG>&lt;domain&gt;.
 
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If you change a simple URL after initial deployment, you must be aware of what changes impact your Domain Name System (DNS) records and certificates for simple URLs. If the change impacts the base of a simple URL, then you must change the DNS records and certificates as well. For example, changing from https://lync.contoso.com/Meet to https://meet.contoso.com changes the base URL from lync.contoso.com to meet.contoso.com, so you would need to change the DNS records and certificates to refer to meet.contoso.com. If you changed the simple URL from https://lync.contoso.com/Meet to https://lync.contoso.com/Meetings, the base URL of lync.contoso.com stays the same, so no DNS or certificate changes are needed. Whenever you change a simple URL name, however, you must run the <STRONG>Enable-CsComputer</STRONG> cmdlet on each Director and Front End Server to register the change.
 
     

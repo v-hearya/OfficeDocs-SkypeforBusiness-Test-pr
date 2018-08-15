@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-02-23_
 
 View details about device update rules that have already been imported, including the type, model, and brand of devices the update applies to; version and type of update; and locale and pool for the update. Information is available for all imported device update rules—those that are pending approval, deployed (approved), recalled (restored), and those you’ve decided not to use (reset). Access this information from either Lync Server Control Panel or Windows PowerShell.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details about how to import, approve, reset, restore, and remove rules, see the topics listed at <A href="lync-server-2013-device-update-rules.md">Device Update rules in Lync Server 2013</A>.
 
 
@@ -56,10 +56,10 @@ View details about device update rules that have already been imported, includin
 
 Detailed information about all your device update rules can also be viewed by using Windows PowerShell and the **Get-CsDeviceUpdateRule** cmdlet. This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.
 
 
@@ -100,7 +100,7 @@ Detailed information about all your device update rules can also be viewed by us
 
 </div>
 
-For details, see the Help topic for the [Get-CsDeviceUpdateRule](get-csdeviceupdaterule.md) cmdlet.
+For details, see the Help topic for the [Get-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDeviceUpdateRule) cmdlet.
 
 </div>
 

@@ -32,14 +32,14 @@ For details, see [Hosted Exchange Contact object management in Lync Server 2013]
 
 For details about configuring contact objects, see the Lync Server Management Shell documentation for the following cmdlets:
 
-  - [New-CsExUmContact](new-csexumcontact.md)
+  - [New-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExUmContact)
 
-  - [Set-CsExUmContact](set-csexumcontact.md)
+  - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
 
 <div class=" ">
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Before Lync Server 2013 contact objects can be enabled for hosted Exchange UM, a hosted voice mail policy that applies to them must be deployed. For details, see <A href="lync-server-2013-hosted-voice-mail-policies.md">Hosted voice mail policies in Lync Server 2013</A>.
 
 
@@ -71,7 +71,7 @@ For details about configuring contact objects, see the Lync Server Management Sh
         <div class=" ">
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Exchange UM contact objects cannot be moved to pools that are part of Lync Server 2013 deployments prior to Lync Server 2013.
 
         

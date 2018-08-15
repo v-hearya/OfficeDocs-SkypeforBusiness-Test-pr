@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2014-02-05_
 
 When you configure policies to support communications with federated partners, the policies apply to users of federated domains. You can configure one or more external user access policies to control whether users of federated domains can collaborate with your Lync Server 2013 users. To control federated user access, you can configure policies at the global, site, and user level. Lync Server policy settings that are applied at one policy level can override settings that are applied at another policy level. Lync Server policy precedence is: User policy (most influence) overrides a Site policy, and then a Site policy overrides a Global policy (least influence). This means that the closer the policy setting is to the object that the policy is affecting, the more influence it has on the object.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You can configure policies to control federated user access, even if you have not enabled federation for your organization. However, the policies that you configure are in effect only when you have federation enabled for your organization. For details about enabling federation, see <A href="lync-server-2013-enable-or-disable-remote-user-access.md">Enable or disable remote user access in Lync Server 2013</A> in the Deployment documentation or the Operations documentation. Additionally, if you specify a user policy to control federated user access, the policy applies only to users that are enabled for Lync Server 2013 and configured to use the policy.
 
 
@@ -90,10 +90,10 @@ If this is a user policy, you must also apply the policy to users that you want 
     
         Set-CsExternalAccessPolicy -Identity global -EnableFederationAccess $true -EnableXmppAccess $true -EnableOutsideAccess $true -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     
-    <div class="alert">
+    <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > The parameter “EnablePublicCloudAudioVideoAccess” does not have a corresponding selection in the Lync Server Control Panel
 
     
@@ -154,11 +154,11 @@ If this is a user policy, you must also apply the policy to users that you want 
 
 [Manage SIP federated domains for your organization in Lync Server 2013](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)  
 [Manage SIP federated providers for your organization in Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)  
-[Set-CsExternalAccessPolicy](set-csexternalaccesspolicy.md)  
-[New-CsExternalAccessPolicy](new-csexternalaccesspolicy.md)  
-[Get-CsExternalAccessPolicy](get-csexternalaccesspolicy.md)  
-[Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md)  
-[Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)  
+[Set-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy)  
+[New-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExternalAccessPolicy)  
+[Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)  
+[Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy)  
+[Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)  
   
 
 </div>

@@ -30,10 +30,10 @@ This documents the schema of the Persistent Chat database in Lync Server 2013 c
 
 The Persistent Chat database refers to the database corresponding to the Lync Server 2013 Back End Server roles **PersistentChatStore** (corresponding to the mgc database) and **PersistentChatComplianceStore** (corresponding to the mgccomp database). The goal of publishing this schema is to enable you to build queries and gain some insights into building useful reporting around chat usage, active rooms, top posters, and so on.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > We reserve the right to evolve this schema. Microsoft does not make any guarantees to maintain full backward compatibility with this published schema.
 
 

@@ -36,10 +36,10 @@ If you have a mirrored Enterprise Edition Back End and only the mirror or primar
 
 If the Central Management store fails, see [Restoring the server hosting the Central Management store in Lync Server 2013](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md). If an Enterprise Edition member server that is not the Back End Server fails, see [Restoring an Enterprise Edition member server in Lync Server 2013](lync-server-2013-restoring-an-enterprise-edition-member-server.md).
 
-<div class="alert">
+<div>
 
 
-> [!TIP]
+> [!TIP]  
 > We recommend that you take an image copy of the system before you start restoration. You can use this image as a rollback point, in case something goes wrong during restoration. You might want to take the image copy after you install the operating system and SQL Server, and restore or reenroll the certificates.
 
 
@@ -52,10 +52,10 @@ If the Central Management store fails, see [Restoring the server hosting the Cen
 
 1.  Start with a clean or new server that has the same fully qualified domain name (FQDN) as the failed computer, install the operating system, and then restore or reenroll the certificates.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Follow your organization's server deployment procedures to perform this step.
 
     
@@ -65,10 +65,10 @@ If the Central Management store fails, see [Restoring the server hosting the Cen
 
 3.  Install SQL Server 2012 or SQL Server 2008 R2, keeping the instance names the same as before the failure.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Depending on your deployment, the Back End Server might include multiple collocated or separate databases. Follow the same procedure to install SQL Server that you used originally to deploy the server, including SQL Server permissions and logins.
 
     
@@ -86,10 +86,10 @@ If the Central Management store fails, see [Restoring the server hosting the Cen
     
     5.  Follow the **Publish the Topology** wizard. On the **Create databases** page, select the databases that you want to re-create.
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Only stand-alone databases are displayed on the <STRONG>Create databases</STRONG> page.
 
         
@@ -99,10 +99,10 @@ If the Central Management store fails, see [Restoring the server hosting the Cen
     
     7.  Follow the rest of the wizard, and then click **Finish**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > Instead of running Topology Builder, you can use the <STRONG>Install-CsDatabase</STRONG> cmdlet to create each database, and the <STRONG>Install-CsMirrorDatabase</STRONG> cmdlet to configure mirroring. For details, see the Lync Server Management Shell documentation.
 
     

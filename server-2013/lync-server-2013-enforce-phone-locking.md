@@ -88,7 +88,7 @@ Phone locking can be enforced by using the Set-CsUCPhoneConfiguration cmdlet. Th
 
 </div>
 
-For more information, see the help topic for the [Set-CsUCPhoneConfiguration](set-csucphoneconfiguration.md) cmdlet.
+For more information, see the help topic for the [Set-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUCPhoneConfiguration) cmdlet.
 
 </div>
 

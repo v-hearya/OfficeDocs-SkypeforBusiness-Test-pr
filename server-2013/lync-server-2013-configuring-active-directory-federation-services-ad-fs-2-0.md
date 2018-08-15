@@ -31,7 +31,7 @@ The following section describes how to configure Active Directory Federation Ser
 <div class="">
 
 
-> [!NOTE]
+> [!NOTE]  
 > When installing AD FS 2.0, do not use the Windows Server Manager to add the Active Directory Federation Services role. Instead, download and install the Active Directory Federation Services 2.0 RTW package at <A href="http://go.microsoft.com/fwlink/p/?linkid=313375">http://go.microsoft.com/fwlink/p/?LinkId=313375</A>.
 
 

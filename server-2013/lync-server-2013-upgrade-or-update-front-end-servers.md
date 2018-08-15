@@ -48,10 +48,10 @@ When you upgrade servers, you must do so one Upgrade Domain at a time. Bring eac
     
     1.  Stop new connections to the Front End Servers you are going to upgrade by using the `Stop-CsWindowsService -Graceful -Verbose` cmdlet.
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > If you are performing these server upgrades during a scheduled server downtime, you can run this cmdlet without the ‘-<STRONG>Graceful</STRONG>‘ parameter, as follows: <STRONG>Stop-CsWindowsService</STRONG>. This will immediately shut down services, without waiting for all existing service requests to be filled.
 
         

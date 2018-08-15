@@ -43,7 +43,7 @@ To return a list of all RBAC roles this cmdlet was assigned to (including any cu
 ## See Also
 
 
-[Get-CsManagementStoreReplicationStatus](get-csmanagementstorereplicationstatus.md)  
+[Get-CsManagementStoreReplicationStatus](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsManagementStoreReplicationStatus)  
   
 
 </div>

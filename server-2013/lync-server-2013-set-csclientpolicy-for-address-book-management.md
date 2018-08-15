@@ -41,7 +41,7 @@ For example:
 ## See Also
 
 
-[Set-CsClientPolicy](set-csclientpolicy.md)  
+[Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy)  
   
 
 </div>

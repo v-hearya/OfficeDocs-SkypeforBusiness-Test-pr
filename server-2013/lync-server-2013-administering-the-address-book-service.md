@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2014-02-05_
 
 As a part of the deployment of Lync Server, Enterprise Edition or Standard Edition server, the Address Book Service is installed by default. The database used by the Address Book Service – RTCab – is created on the SQL Server (for Enterprise Edition, this is the back-end SQL Server; for Standard Edition server, the collocated SQL Server).
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For information about using <STRONG>ADSI Edit</STRONG> to edit Active Directory Domain Services object attributes, see <A href="http://go.microsoft.com/fwlink/?linkid=330427">ADSI Edit</A>. For information about a tool in the Resource Kit specifically for the Address Book service, see <A href="http://go.microsoft.com/fwlink/?linkid=330429">Microsoft Lync Server 2013 Resource Kit Tools</A>.
 
 
@@ -263,10 +263,10 @@ The numbers in the **ID** column must be unique and should never be reused. Also
 
 In previous versions of Lync Server, when applying a change to Active Directory, the administrator would be required to run **Update -CSUserDatabase** and **Update –CSAddressBook** Windows PowerShell cmdlets to persist the change to the Lync Server user database and RTCab database immediately. In Lync Server 2013, Lync Server User Replicator will pick up the changes from Active Directory and update the Lync Server user database based on a configured interval. Lync Server User Replicator will also propagate the changes to the RTCab database quickly without the administrator having to run Update-CSAddressBook. If Address Book Web query is enabled, then the changes will be reflected in search results by Lync clients. Administrators will only need to run Update -CSAddressBook if the Address Book file download is enabled.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > By default Lync Server User Replicator runs automatically every 5 minutes. You can configure this interval by using Set -CSUserReplicatorConfiguration -ReplicationCycleInterval &lt;&gt;.
 
 
@@ -283,11 +283,11 @@ The users populated in the Address Book Server files can be controlled based on 
 
 You can use some flag bits to define a filter to use on Address Book Server attributes. For example, the presence of certain flag bits can identify an attribute as an include attribute or an exclude attribute. User Replicator filters out contacts that contain an exclude attribute and filters out contains that do not contain an include attribute.
 
-<div class="alert">
+<div>
 
 
-> [!WARNING]
-> For more information about filtering the Address Book, see <A href="lync-server-2013-address-book-server-cmdlets.md">Address Book Server cmdlets in Lync Server 2013</A>, and <A href="http://go.microsoft.com/fwlink/?linkid=330430">Filter Lync 2013 address book</A>
+> [!WARNING]  
+> For more information about filtering the Address Book, see <A href="https://technet.microsoft.com/en-us/library/gg415643(v=ocs.15)">Address Book Server cmdlets in Lync Server 2013</A>, and <A href="http://go.microsoft.com/fwlink/?linkid=330430">Filter Lync 2013 address book</A>
 
 
 
@@ -324,10 +324,10 @@ Currently, there are three different filters. The following table lists these fi
 </table>
 
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If both the 0x4000 (exclude attribute) and 0x8000 (include attribute) flag bits are set, the 0x4000 bit overrides the 0x8000 bit and the contact is excluded.
 
 
@@ -340,20 +340,20 @@ While having full contact records in the Address Book files enables you to use L
 
 After you modify the AbAttribute table, you can refresh the data in the AbUserEntry table by running the cmdlet **Update-CsUserDatabase** command. After UR replication completes, you can update the file in the Address Book Server file store by manually running the cmdlet **UpdateCsAddressBook** command.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The Front End Server that the Address Book Server is placed is not administratively configurable. One is chosen during deployment—typically, the first Front End Server deployed. In the event of failure, the Address Book Service will move to another Front End Server, and requires no administrative attention.
 
 
 
 </div>
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If you have consolidated or otherwise modified your infrastructure from a multi-forest deployment or a parent/child deployment (such as consolidating your infrastructure before moving to Lync Server), you may find that the Address Book service download and the Address Book Web Query fails for some users. When in a deployment that had multiple domains or forests, the attribute <STRONG>MsRTCSIP-OriginatorSid</STRONG> is populated on the user objects that are exhibiting the issue. The <STRONG>MsRTCSIP-OriginatorSid</STRONG> attribute must be set to NULL on these objects to resolve the issue.
 
 

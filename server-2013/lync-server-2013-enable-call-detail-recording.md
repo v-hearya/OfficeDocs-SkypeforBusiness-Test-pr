@@ -30,10 +30,10 @@ Call detail recording (CDR) records usage and diagnostic information about peer-
 
 Use the following procedure to enable CDR for your whole organization or each site in your organization.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > In order to enable CDR you must configure monitoring and a monitoring database. For details, see <A href="lync-server-2013-deploying-monitoring.md">Deploying monitoring in Lync Server 2013</A>.
 
 
@@ -52,10 +52,10 @@ Use the following procedure to enable CDR for your whole organization or each si
 
 4.  On the **Call Detail Recording** page, click the appropriate site from the table, click **Action**, and then click **Enable CDR**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > CDR is enabled by default.
 
     
@@ -99,7 +99,7 @@ You can enable CDR by using Windows PowerShell and the **Set-CsCdrConfiguration*
 
 </div>
 
-For more information, see the help topic for the [Set-CsCdrConfiguration](set-cscdrconfiguration.md) cmdlet.
+For more information, see the help topic for the [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration) cmdlet.
 
 </div>
 

@@ -32,10 +32,10 @@ Enterprise Voice call management features control how incoming calls are routed 
 
   - **Group Pickup**:   Enables voice users to pick up calls that are ringing for other voice users who are assigned to call pickup groups.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Group Pickup is new with Cumulative Updates for Lync Server 2013: February 2013.
 
     

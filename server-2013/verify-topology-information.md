@@ -38,10 +38,10 @@ The first step in verifying the merge completed successfully is to view the Offi
 
 3.  Verify that the FQDNs for the pools and servers that you merge are displayed.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You do not see any information in <STRONG>BackCompatSite</STRONG> for server roles that are collocated on a Front End Server or Standard Edition server. Only server roles that are required for interoperability between Office Communications Server 2007 R2 and Lync Server 2013 are shown.
 
     
@@ -67,10 +67,10 @@ You can also use Lync Server 2013 Control Panel to view your merged topology. In
 
 To see more detail about a merged pool, use the **Get-CsPool** cmdlet. In addition to the information that is available in Topology Builder and Lync Server 2013 Control Panel, this cmdlet displays the services that run on the Lync Server 2013 pool.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > When you publish the topology after running the Merge wizard in Topology Builder, conference directories are merged to Lync Server 2013. Conference directories can be verified by running the <STRONG>Get-CsConferenceDirectory</STRONG> cmdlet.
 
 

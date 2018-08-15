@@ -34,10 +34,10 @@ The decision about whether to use subject alternative name lists on reverse prox
 
   - **Published on port 443**   The subject alternative name list on certificates used by the external web services publishing rule must contain a `lyncdiscover.<sipdomain>` entry for each SIP domain within your organization.
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > For new installations or upgrades from Lync Server 2010 where you deployed Mobility, you either used Port 80 for Autodiscover of the Mobility service, or reissued certificates with the proper subject name and subject alternative names in place. Review the certificates on your Director and Front End Server to confirm which path you chose.
 
     

@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2012-11-01_
 
 Lync Server 2013 supports Enhanced 9-1-1 (E9-1-1) calling from Lync clients and Lync Phone Edition devices. When you configure Lync Server 2013 for E9-1-1, emergency calls placed from Lync 2013 or Lync Phone Edition include Emergency Response Location (ERL) information from the Location Information service database. Use the procedures in this section to manage location policy.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > For details on deploying advanced Enterprise Voice features, such as E9-1-1 and the Location Information service, see <A href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">Deploying advanced Enterprise Voice features in Lync Server 2013</A>.
 
 

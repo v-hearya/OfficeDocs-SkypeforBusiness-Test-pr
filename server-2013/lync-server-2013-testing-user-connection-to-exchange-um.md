@@ -145,7 +145,7 @@ Here are some common reasons why **Test-CsExUMConnectivity** might fail:
 ## See Also
 
 
-[Test-CsExUMVoiceMail](test-csexumvoicemail.md)  
+[Test-CsExUMVoiceMail](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMVoiceMail)  
   
 
 </div>

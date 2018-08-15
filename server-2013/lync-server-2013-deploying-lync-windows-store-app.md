@@ -37,7 +37,7 @@ Cumulative Updates for Lync Server 2013: June 2013 adds support for multi-factor
 <div class=" ">
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The following are important considerations if you plan to configure AD FS for multi-factor authentication for Lync Windows Store app: 
 > <UL>
 > <LI>

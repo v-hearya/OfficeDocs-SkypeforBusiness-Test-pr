@@ -30,20 +30,20 @@ When you deploy dial-in conferencing, you need to set up phone numbers that user
 
 Before you can create dial-in access numbers, you must first plan your dial-in conferencing regions and then configure dial plans with the regions. For details about regions, see [Dial-in conferencing requirements in Lync Server 2013](lync-server-2013-dial-in-conferencing-requirements.md) in the Planning documentation. For details about configuring dial plans for dial-in conferencing, see [Configure dial plans for dial-in conferencing in Lync Server 2013](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md).
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You cannot use a new dial-in access number until Active Directory Domain Services (AD&nbsp;DS) replication of that access number is complete. Replication can take several hours to complete.
 
 
 
 </div>
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > After you create dial-in access numbers, you can modify the display name for the Active Directory contact objects so that users can more easily identify the correct access number. Use the <STRONG>Set-CsDialInConferencingAccessNumber</STRONG> cmdlet to modify the display name. You should not modify Active Directory objects manually. For details about modifying an access number, see Lync Server Management Shell documentation for the <STRONG>Set-CsDialInConferencingAccessNumber</STRONG> cmdlet.
 
 

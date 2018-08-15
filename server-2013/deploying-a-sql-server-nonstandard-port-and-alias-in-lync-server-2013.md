@@ -40,10 +40,10 @@ Lync Server 2013 Topology Builder supports using a SQL Server alias as the Full
 
 In order to be successful in determining the port Lync Server 2013 is using to communicate with SQL Server, the attacker would need to scan all ports to obtain the port information. A port scan by an attacker increases the chances that security can detect and stop the instruction. In addition to adding increased security with a non-standard port, you can also use a SQL Server alias to provide flexibility for the deployment. This is valuable in order to reduce configuration changes in situations where a SQL Server name change is required.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > SQL Server provides two fault tolerance methods (Failover Clustering and Mirroring). Both SQL Server fault tolerance methods are supported using a SQL Server non-standard port and alias with Lync Server 2013. If the SQL Server backend used by the pool is in a mirrored configuration, then the SQL browser service on the SQL Server backend servers should be running for Front End servers to connect to the mirrored database when the databases are failed over to the mirrored SQL Server.
 
 
@@ -114,10 +114,10 @@ The SQL Server non-standard port and alias must be set up on the database instan
     
     ![Reset the SQL Server service for instance.](images/Dn776290.a965c8cf-f769-4b52-bb38-c48a438cf491(OCS.15).jpg "Reset the SQL Server service for instance.")
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Make sure you update your firewall settings to accommodate the new SQL Server port.
 
 
@@ -140,10 +140,10 @@ The SQL Server non-standard port and alias must be set up on the database instan
     
     ![Creating a new alias](images/Dn776290.03653588-aecf-4fdd-b58a-95f5b372d478(OCS.15).jpg "Creating a new alias")
     
-    <div class="alert">
+    <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Make sure to enter the same non-standard port you used in the previous step since that is the port SQL Server will be listening on. If a configured alias is connecting to the wrong SQL Server FQDN or Instance, disable and then re-enable the associated network protocol. Doing this clears any cached connection information and allows the client to connect correctly.
 
     
@@ -181,10 +181,10 @@ The SQL Server non-standard port and alias must be set up on the database instan
 
 There are many different ways to make sure it is working. You want to make sure that the SQL Server database is listening on the specified port using the alias. A quick check can be completed using the **netstat** and **telnet** commands.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Telnet Client is a Feature that comes with Windows Server but that must be installed. A Windows Server Feature can be installed by opening Server Manager and selecting Add Roles and Features from the Manage menu.
 
 

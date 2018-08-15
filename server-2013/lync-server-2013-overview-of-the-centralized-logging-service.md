@@ -38,12 +38,12 @@ The Centralized Logging Service is designed to provide a means for controlled co
 
 You issue commands using the Windows Server command-line interface or using the Lync Server Management Shell. The commands are executed on the computer you are logged in to and sent to the ClsAgent locally or to the other computers and pools in your deployment.
 
-ClsAgent maintains an index file of all .CACHE files that it has on the local machine. ClsAgent allocates them so that they are evenly distributed across volumes defined by the option CacheFileLocalFolders, never consuming more than 80% of each volume (that is, the local cache location and the percentage is configurable using the **Set-CsClsConfiguration** cmdlet). ClsAgent is also responsible for aging old cached event trace log (.etl) files off the local machine. After two weeks (that is, the timeframe is configurable using the **Set-CsClsConfiguration** cmdlet) these files are copied to a file share and deleted from the local computer. For details, see [Set-CsClsConfiguration](set-csclsconfiguration.md). When a search request is received, the search criteria is used to select the set of cached .etl files to perform the search based on the values in the index maintained by the agent.
+ClsAgent maintains an index file of all .CACHE files that it has on the local machine. ClsAgent allocates them so that they are evenly distributed across volumes defined by the option CacheFileLocalFolders, never consuming more than 80% of each volume (that is, the local cache location and the percentage is configurable using the **Set-CsClsConfiguration** cmdlet). ClsAgent is also responsible for aging old cached event trace log (.etl) files off the local machine. After two weeks (that is, the timeframe is configurable using the **Set-CsClsConfiguration** cmdlet) these files are copied to a file share and deleted from the local computer. For details, see [Set-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration). When a search request is received, the search criteria is used to select the set of cached .etl files to perform the search based on the values in the index maintained by the agent.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Files that are moved to the file share from the local computer can be searched by ClsAgent. Once ClsAgent moves the files to the file share, the aging and removal of files is not maintained by ClsAgent. You should define an administrative task to monitor the size of the files in the file share and delete them or archive them.
 
 
@@ -62,10 +62,10 @@ When a user requests a log search, the ClsController determines which machines t
 
 When you start a logging session, you specify scenarios that are relative to the problem that you are trying to resolve. You can have two scenarios running at any time. One of these two scenarios should be the AlwaysOn scenario. As the name implies, it should always be running in your deployment, collecting information on all computers, pools, and components.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > By default, the AlwaysOn scenario is not running in your deployment. You must explicitly start the scenario. Once started, it will continue to run until explicitly stopped, and the running state will persist through reboots of the computers. For details on starting and stopping scenarios, see <A href="lync-server-2013-using-start-for-the-centralized-logging-service-to-capture-logs.md">Using Start for the Centralized Logging Service to capture logs in Lync Server 2013</A> and <A href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Using Stop for the Centralized Logging Service in Lync Server 2013</A>.
 
 
@@ -74,10 +74,10 @@ When you start a logging session, you specify scenarios that are relative to the
 
 When a problem occurs, start a second scenario that relates to the problem reported. Reproduce the problem, and stop the logging for the second scenario. Begin your log searches relative to the problem reported. The aggregated collection of logs produces a log file that contains trace messages from all computers in your site or global scope of your deployment. If the search returns more data than you can feasibly analyze (typically known as a signal-to-noise ratio, where the noise is too high), you run another search with narrower parameters. At this point, you can begin to notice patterns that show up and can help you get a clearer focus on the problem. Ultimately, after you perform a couple of refined searches you can find data that is relevant to the problem and figure out the root cause.
 
-<div class="alert">
+<div>
 
 
-> [!TIP]
+> [!TIP]  
 > When presented with a problem scenario in Lync Server, start by asking yourself “What do I already know about the problem?” If you quantify the problem boundaries, you can eliminate a large part of the operational entities in Lync Server.<BR>Consider an example scenario where you know that users are not getting current results when looking for a contact. There is no point in looking for problems in the media components, Enterprise Voice, conferencing, and a number of other components. What you may not know is where the problem actually is: on the client, or is this a server-side problem? Contacts are collected from Active Directory by the User Replicator and delivered to the client by way of the Address Book Server (ABServer). The ABServer gets its updates from the RTC database (where User Replicator wrote them) and collects them into address book files, by default – 1:30 AM. The Lync Server clients retrieve the new address book on a randomized schedule. Because you know how the process works, you can reduce your search for the potential cause to an issue related to data being collected from Active Directory by the User Replicator, the ABServer not retrieving and creating the address book files, or the clients not downloading the address book file.
 
 

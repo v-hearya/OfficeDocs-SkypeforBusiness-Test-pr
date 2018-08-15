@@ -46,10 +46,10 @@ Perform the following steps for log shipping to continue if the primary Persiste
 
 9.  If the backup folder is located on the primary server, type the local path to the backup folder in the **If the backup folder is located on the primary server, type a local path to the folder** box. (If the backup folder is not on the primary server, you can leave this box empty.)
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If the SQL Server service account on your primary server runs under the local system account, you must create your backup folder on the primary server and specify a local path to that folder.
 
     
@@ -59,10 +59,10 @@ Perform the following steps for log shipping to continue if the primary Persiste
 
 11. Look at the backup schedule listed in the **Schedule** box under **Backup job**. To customize the schedule for your installation, click **Schedule**, and adjust the SQL Server Agent schedule, as required.
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Use the same settings that you used for the primary database.
 
     
@@ -86,10 +86,10 @@ Perform the following steps for log shipping to continue if the primary Persiste
 
 20. Select and run the first half of the query (see step 18) up to the line: -- \*\*\*\*\*\* End: Script to be run at Primary: \*\*\*\*\*\*.
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Manually running this script is necessary because SQL Server Management Studio does not support multiple primary databases in a SQL Server Log Shipping configuration.
 
     

@@ -38,10 +38,10 @@ Verify the following fields in your conferencing policy:
 
   - **Allow participants not enabled for Enterprise Voice to dial out**   This setting allows meeting participants and organizers that are not enabled for Enterprise Voice to dial out to a phone number to join the audio portion of the conference. The dial-out call is authorized based on the organizer’s assigned voice policy. This setting is not selected by default in the default global conferencing policy. The setting default value is disabled.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > To enable this capability, a meeting organizer that is not enabled for Enterprise Voice should have an appropriate voice policy assigned to them to authorize any dial-out from a conference organized by that user. A voice policy can be assigned to a user that is not enabled for Enterprise Voice from the Lync Server Management Shell. If the user does not have a voice policy explicitly assigned to him, the site voice policy will be used to authorize the dial-out request. If there is no site voice policy, the global voice policy will be used.&nbsp;
 
     

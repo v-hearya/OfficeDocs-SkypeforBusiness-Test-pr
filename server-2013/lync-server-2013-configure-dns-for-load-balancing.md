@@ -30,10 +30,10 @@ To successfully complete this procedure, you should be logged on to the server o
 
 Domain Name System (DNS) Load Balancing balances the network traffic that is unique to Lync Server 2013, such as SIP traffic and media traffic. DNS load balancing is supported for Front End pools, Edge pools, Director pools, and stand-alone Mediation pools. A pool that is configured to use DNS load balancing must have two fully qualified domain names (FQDNs) defined: the regular pool FQDN that is used by DNS load balancing (for example, pool1.contoso.com) and that resolves to the physical IPs of the servers in the pool, and another FQDN for the pool’s Web Services (for example, web1.contoso.net), which resolves to the virtual IP address of the pool. For details about DNS Load Balancing, see [DNS load balancing in Lync Server 2013](lync-server-2013-dns-load-balancing.md) in the Planning documentation.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Hardware load balancing is still required for client to server HTTPS traffic.
 
 
@@ -44,10 +44,10 @@ Before you can use DNS load balancing, you must do the following:
 
 1.  Override the internal Web Services pool FQDN.
     
-    <div class="alert">
+    <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > If decide to override the Internal web services with a self-defined FQDN, each FQDN must be unique from any other Front End pool, Director or a Director pool.
 
     
@@ -57,10 +57,10 @@ Before you can use DNS load balancing, you must do the following:
 
 3.  Enable IP Address randomization or, for Windows Server DNS, enable round robin.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Round robin should be enabled by default.
 
     
@@ -155,10 +155,10 @@ Before you can use DNS load balancing, you must do the following:
     
     ![DNS Round Robin dialog box](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "DNS Round Robin dialog box")
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > This feature should be enabled by default.
 
 

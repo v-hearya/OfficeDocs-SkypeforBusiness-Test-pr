@@ -8,25 +8,12 @@ ms.date: 05/04/2015
 mtps_version: v=OCS.15
 ---
 
-<div data-xmlns="http://www.w3.org/1999/xhtml">
-
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
-
-<div data-asp="http://msdn2.microsoft.com/asp">
-
 # Cmdlets in Skype for Business Online that use a conferencing provider identity
 
-</div>
+ 
 
-<div id="mainSection">
 
-<div id="mainBody">
-
-<span> </span>
-
-_**Topic Last Modified:** 2013-07-05_
-
-To return information about all of the audio conferencing providers that your organization has contracted with, you can simply call the [Get-CsAudioConferencingProvider](get-csaudioconferencingprovider.md) cmdlet without any parameters:
+To return information about all of the audio conferencing providers that your organization has contracted with, you can simply call the [Get-CsAudioConferencingProvider](https://technet.microsoft.com/en-us/library/jj994030\(v=ocs.15\)) cmdlet without any parameters:
 
     Get-CsAudioConferencingProvider
 
@@ -36,26 +23,11 @@ If you want to limit the returned data to a single provider (in this example, th
 
 There is only one Skype for Business Online cmdlet that accepts an audio conferencing provider ID:
 
-  - [Get-CsAudioConferencingProvider](get-csaudioconferencingprovider.md)
-
-<div>
+  - [Get-CsAudioConferencingProvider](https://technet.microsoft.com/en-us/library/jj994030\(v=ocs.15\))
 
 ## See Also
 
 
 [Identities, scopes, and tenants in Skype for Business Online](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[The Skype for Business Online cmdlets](the-skype-for-business-online-cmdlets.md)  
-  
-
-</div>
-
-</div>
-
-<span> </span>
-
-</div>
-
-</div>
-
-</div>
+[The Skype for Business Online cmdlets](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
 

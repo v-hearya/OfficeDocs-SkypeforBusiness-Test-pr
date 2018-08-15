@@ -82,7 +82,7 @@ You can delete web service configuration settings by using Windows PowerShell an
 
 </div>
 
-For details, see [Remove-CsWebServiceConfiguration](remove-cswebserviceconfiguration.md).
+For details, see [Remove-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsWebServiceConfiguration).
 
 </div>
 

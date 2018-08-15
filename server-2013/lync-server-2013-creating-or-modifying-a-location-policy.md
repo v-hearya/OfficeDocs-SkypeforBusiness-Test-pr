@@ -58,12 +58,12 @@ In Lync Server 2013, you can override the default amount of time between client 
         
           - **Not Required**   The user will not be prompted for a location. When a call is made with no location information, the emergency services provider will answer the call and ask for a location.
         
-          - **Disclaimer**   This option is the same as **Required** except that the user cannot dismiss the prompt without entering location information. The user can still complete an emergency call, but no other calls can be completed without entering the information. In addition, disclaimer text will be displayed to the user that can alert them to the consequences of declining to enter location information. To set the disclaimer text, you must use Lync Server Management Shell to run the **Set-CsLocationPolicy** cmdlet or the **New-CsLocationPolicy** cmdlet with the EnhancedEmergencyServiceDisclaimer parameter. For details, see [Set-CsLocationPolicy](set-cslocationpolicy.md) or [New-CsLocationPolicy](new-cslocationpolicy.md) in the Lync Server Management Shell documentation.
+          - **Disclaimer**   This option is the same as **Required** except that the user cannot dismiss the prompt without entering location information. The user can still complete an emergency call, but no other calls can be completed without entering the information. In addition, disclaimer text will be displayed to the user that can alert them to the consequences of declining to enter location information. To set the disclaimer text, you must use Lync Server Management Shell to run the **Set-CsLocationPolicy** cmdlet or the **New-CsLocationPolicy** cmdlet with the EnhancedEmergencyServiceDisclaimer parameter. For details, see [Set-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsLocationPolicy) or [New-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsLocationPolicy) in the Lync Server Management Shell documentation.
             
-            <div class="alert">
+            <div>
             
 
-            > [!NOTE]
+            > [!NOTE]  
             > In Lync Server 2013, you can use location policy to set different disclaimers for different locales or different sets of users, unlike in Lync Server 2010 where you could specify only a global disclaimer for the entire organization.
 
             
@@ -77,10 +77,10 @@ In Lync Server 2013, you can override the default amount of time between client 
     
       - **Emergency dial mask**   A number that you want to translate into the value of the emergency dial number value when it is dialed. For example, if you enter a value of 212 in this field and the emergency dial number field has a value of 911, if a user dials 212 the call will be made to 911. This allows for alternate emergency numbers to be dialed and still have the call reach emergency services (for example, if someone from a country or region with a different emergency number attempts to dial that country or region’s number rather than the number for the country or region they are currently in). You can define multiple emergency dial masks by separating the values with semicolons. For example, 212;414. Maximum length of the string is 100 characters. Each character must be a digit 0 through 9.
         
-        <div class="alert">
+        <div>
         
 
-        > [!IMPORTANT]
+        > [!IMPORTANT]  
         > Ensure that the specified dial mask value is not the same as a number in a call park orbit range. Call park routing will take precedence over emergency dial string conversion. To see the existing call park orbit ranges, click <STRONG>Voice Features</STRONG> in the left navigation bar and then click <STRONG>Call Park</STRONG>. For details, see <A href="lync-server-2013-configure-phone-number-extensions-for-parking-calls.md">Configure phone number extensions for parking calls in Lync Server 2013</A>.
 
         
@@ -98,10 +98,10 @@ In Lync Server 2013, you can override the default amount of time between client 
 
 6.  Click **Commit**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > When you create a user policy, initially that policy does not apply to any users or network sites. To apply the policy to a user, click <STRONG>Users</STRONG> in the left navigation bar. Find the user to which you want to apply the policy. On the <STRONG>Edit</STRONG> menu, click <STRONG>Show details</STRONG>. On the <STRONG>Edit Lync Server User</STRONG> page, select the new location policy from the <STRONG>Location policy</STRONG> drop-down list and then click <STRONG>Commit</STRONG>.<BR>To apply the policy to a network site, click <STRONG>Network Configuration</STRONG> in the left navigation bar and then click <STRONG>Site</STRONG>. Find the network site to which you want to apply the policy. On the <STRONG>Edit</STRONG> menu, click <STRONG>Show details</STRONG>. In <STRONG>Edit Site</STRONG>, select the new location policy from the <STRONG>Location policy</STRONG> drop-down list and then click <STRONG>Commit</STRONG>.
 
     

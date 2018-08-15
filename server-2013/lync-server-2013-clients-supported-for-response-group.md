@@ -38,10 +38,10 @@ The Response Group application supports the following clients:
 
   - Lync Phone Edition
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The Response Group application is not supported on Lync mobile clients.
 
 

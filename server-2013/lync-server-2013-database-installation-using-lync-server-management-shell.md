@@ -31,7 +31,7 @@ Separation of roles and responsibilities between server administrators and SQL S
 <div class=" ">
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The following procedure assumes that at a minimum the Lync Server 2013 OCSCore.msi, SQL Server Native Client (sqlncli.msi) Microsoft SQL Server 2012 Management Objects, CLR Types for Microsoft SQL Server 2012 and Microsoft SQL Server 2012 ADOMD.NET are installed. The OCSCore.msi is located on the installation media in the \Setup\AMD64\Setup directory. The remaining components are located in \Setup\amd64. Additionally, Active Directory preparation for Lync Server 2013 has been successfully completed.
 
 
@@ -43,7 +43,7 @@ Separation of roles and responsibilities between server administrators and SQL S
 <div class=" ">
 
 
-> [!WARNING]
+> [!WARNING]  
 > To avoid performance and possible time-out issues, always use fully qualified domain names (FQDNs) when referring to SQL Server-based servers. Avoid using host name-only references. For example, use sqlbe01.contoso.net, but avoid using SQLBE01.
 
 
@@ -83,7 +83,7 @@ For installing databases, **Install-CsDatabase** uses three primary methods for 
     <div class=" ">
     
 
-    > [!TIP]
+    > [!TIP]  
     > The Report parameter is optional but is useful if you are documenting the installation process.
 
     
@@ -110,7 +110,7 @@ For installing databases, **Install-CsDatabase** uses three primary methods for 
     <div class=" ">
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > To be able to configure the SQL Server-based databases, make sure the SQL Server administrator account used to run the steps described here is also a member of the sysadmins group (or equivalent) on the server running SQL Server and holding the Central Management Server role. This is especially important to check for any additional Lync Server 2013 pools which require SQL Server database installation or configuration. For example, if you are deploying a second pool (pool02) but the Central Management Server role is held by pool01. The SQL Server sysadmin group (or equivalent) must have permissions on both SQL Server-based databases.
 
     
@@ -133,7 +133,7 @@ For installing databases, **Install-CsDatabase** uses three primary methods for 
     <div class=" ">
     
 
-    > [!TIP]
+    > [!TIP]  
     > The Report parameter is optional but is useful if you are documenting the installation process.
 
     
@@ -154,7 +154,7 @@ For installing databases, **Install-CsDatabase** uses three primary methods for 
     <div class=" ">
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > To be able to configure the SQL Server-based databases, make sure the SQL Server administrator account used to run the steps described here is also a member of the sysadmins group (or equivalent) on the server running SQL Server and holding the Central Management Server role. This is especially important to check for any additional Lync Server pools which require SQL Server database installation or configuration. For example, if you are deploying a second pool (pool02) but the Central Management Server role is held by pool01. The SQL Server sysadmin group (or equivalent) must have permissions on both SQL Server-based databases.
 
     

@@ -154,7 +154,7 @@ Dialin.fabrikam.com
 ## See Also
 
 
-[Get-CsCertificate](get-cscertificate.md)  
+[Get-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCertificate)  
   
 
 </div>

@@ -34,10 +34,10 @@ The Access Edge service, Web Conferencing Edge service, A/V Edge service and XMP
 
   - Reverse proxy
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The reverse proxy does not need to be dedicated to serving only Lync Server 2013. For example, you can provide services to publish the Lync Server Web services, and concurrently provide a published Web site for another Web site that has no bearing on Lync Server at all. If you already have a reverse proxy server in the perimeter network to support other services, you can use it for Lync Server 2013.
 
 

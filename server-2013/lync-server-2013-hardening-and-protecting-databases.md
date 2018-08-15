@@ -44,10 +44,10 @@ On any Lync Server 2013 server except Standard Edition server, the SQL Server Ex
     
       - Lync Server 2013 uses the TCP/IP protocol. It supports IP version 4 (IPv4), but not IP version 6 (IPv6).
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Lync Server 2013 can function in a network with dual IP stack enabled.
 
         
@@ -59,10 +59,10 @@ On any Lync Server 2013 server except Standard Edition server, the SQL Server Ex
 
   - Run SQL Server on a static (non-default) port, and do not run SQL Server Browser (so it cannot report the listening port to the client). This requires a custom configuration on each SQL Server client, including Front End Servers, Monitoring Server, Archiving Server, and administrative consoles (running Lync Server Management Shell, Lync Server Control Panel, or Topology Builder), and all other servers running Lync Server databases).
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Access to databases must be limited to trusted database administrators. A malicious database administrator could insert or modify data into the databases to acquire privileges over the Lync Server 2013 servers or obtain sensitive information from the services, even if the database administrator has not been granted direct access or control of the Lync Server 2013 servers.
 
 
@@ -71,10 +71,10 @@ On any Lync Server 2013 server except Standard Edition server, the SQL Server Ex
 
 For details about custom configurations and hardening SQL Server databases, see the NextHop blog article, "Using Lync Server 2010 with a Custom SQL Server Network Configuration," at [http://go.microsoft.com/fwlink/p/?LinkId=214008](http://go.microsoft.com/fwlink/p/?linkid=214008).
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > You can also harden operating systems and applications servers, and you can use Group Policy to implement security lockdowns in your Lync Server deployment. For details, see <A href="lync-server-2013-hardening-and-protecting-servers-and-applications.md">Hardening and protecting servers and applications for Lync Server 2013</A>.
 
 

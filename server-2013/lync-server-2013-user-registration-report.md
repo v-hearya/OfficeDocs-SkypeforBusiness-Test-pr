@@ -95,10 +95,10 @@ In addition to knowing the number of unique logons, you need to know the total n
 
 If the preceding command returns a value of 1,236 and Unique logon users metric returns an average value of 667, that suggests that a little over half of your users enable for Lync are actually logging on to the system each day (that is, 667 divided by 1,236, which is approximately 54%).
 
-<div class="alert">
+<div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > Keep in mind that the logon metrics record users who actually logged on during the specified time period. They don't keep track of users who were already logged on to the system. For example, if your Unique logon users metric shows 667 logons and you have 1,236 users, that suggests that about half your users are logging on to the system. However, suppose 300 users were already logged on to the system at the time you began checking the logon data. That would mean that you actually had nearly 1,000 users logged on to Lync Server, which would mean that closer to 80% of your users were logged on.
 
 

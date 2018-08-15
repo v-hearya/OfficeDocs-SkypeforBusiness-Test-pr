@@ -40,10 +40,10 @@ In general, the restoration process works as follows:
 
   - When a failure or outage occurs, you restore the data in the location referenced by **$Backup** to new or clean computers.
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > This restoration process does not restore data onto an existing server state. That is, this process requires that the server is clean or new.
 
     
@@ -65,10 +65,10 @@ If a server running Lync Server fails, recovery includes the following steps:
 
   - In general, if the server hosted a server role, run step 1 through step 4 of the Lync Server Deployment Wizard to install the local configuration files, install the server role components, assign certificates, and start the services.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If the server hosted a database collocated with the server role, running step 2 of the Lync Server Deployment Wizard recreates the database.
 
     

@@ -36,10 +36,10 @@ To configure the location database, you will perform the following tasks:
 
 3.  Publish the updated database.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Alternately, you can define a secondary location source database that can be used in placed of the location database. For details, see <A href="lync-server-2013-configure-a-secondary-location-information-service.md">Configure a secondary Location Information service in Lync Server 2013</A>.
 
 

@@ -38,10 +38,10 @@ A dial plan’s *scope* determines the hierarchical level at which the dial plan
 
 Clients obtain dial plan scope levels through in-band provisioning settings that are provided when users log on to Lync Server. As the administrator, you can manage and assign dial plan scope levels by using Lync Server Control Panel.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The service level public switched telephone network (PSTN) gateway dial plan is applied to the incoming calls from a particular gateway.
 
 
@@ -120,10 +120,10 @@ If you are deploying dial-in conferencing, you will need to specify a dial-in co
 
 You can specify an external access prefix of up to four characters (\#, \*, and 0-9) if users need to dial one or more additional leading digits (for example, 9) to get an external line.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you specify an external access prefix, you do not need to create an additional normalization rule to accommodate the prefix.
 
 
@@ -319,10 +319,10 @@ The following table illustrates a sample dial plan for Redmond, Washington, Unit
 </table>
 
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The normalization rules names shown in the preceding table do not include spaces, but this is a matter of choice. The first name in the table, for example, could have been written "5 digit extension" or "5-digit Extension" and still be valid.
 
 

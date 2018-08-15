@@ -35,7 +35,7 @@ You can manage user settings and policies for users migrated to Lync Online by u
 <div class="">
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > This section applies only to users that were created and enabled for Lync on-premises and then moved from an on-premises deployment to Lync Online. If you want to move users that were created in Lync Online (and not ever enabled for Lync in an on-premises deployment) see, <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Moving users from Lync Online to Lync on-premises in Lync Server 2013</A>.
 
 

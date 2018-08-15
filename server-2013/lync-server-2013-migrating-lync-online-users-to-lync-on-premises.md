@@ -29,7 +29,7 @@ _**Topic Last Modified:** 2015-11-13_
 <div class="">
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > These steps are necessary only for migrating user accounts that were originally enabled for Lync in Lync Online, before you deployed Lync on-premises. To move users who were originally enabled for Lync on-premises, then later moved to Lync Online, see <A href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Administering users in a hybrid Lync Server 2013 deployment</A>.<BR>Additionally, all users being moved must have accounts in the on-premises Active Directory.
 
 
@@ -162,7 +162,7 @@ _**Topic Last Modified:** 2015-11-13_
     <div class="">
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > The default maximum size for transaction log files of the rtcxds database is 16 GB. This might not be big enough if you’re moving a large number of users at once, especially if you have mirroring enabled. To get around this you can increase the file size or back up the log files regularly. For more information, see <A class=uri href="http://support.microsoft.com/kb/2756725">http://support.microsoft.com/kb/2756725</A>.
 
     

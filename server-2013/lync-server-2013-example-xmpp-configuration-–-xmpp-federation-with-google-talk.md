@@ -50,10 +50,10 @@ An example configuration for deploying the XMPP Proxy defines a federation with 
 
 7.  On the Edge Server, in the Lync Server Deployment Wizard, next to **Step 3: Request, Install, or Assign Certificates**, click **Run again**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > If you are deploying the Edge Server for the first time, you will see Run instead of Run Again.
 
     
@@ -87,10 +87,10 @@ An example configuration for deploying the XMPP Proxy defines a federation with 
 
 18. On the **Configure Additional Subject Alternate Names** page, specify any additional subject alternative names that are required.
     
-    <div class="alert">
+    <div>
     
 
-    > [!TIP]
+    > [!TIP]  
     > If the XMPP proxy is installed, by default the domain name (such as contoso.com) is populated in the SAN entries. If you require more entries, add them in this step.
 
     
@@ -106,9 +106,12 @@ An example configuration for deploying the XMPP Proxy defines a federation with 
 
 23. After receiving, importing and assigning the public certificate, you must stop and restart the Edge Server services. Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.. In the Lync Server Management Shell, type:
     
-        Stop-CsWindowsService
-    
-        Start-CsWindowsService
+    ```
+    Stop-CsWindowsService
+    ```
+    ```
+    Start-CsWindowsService
+    ```
 
 24. To configure DNS for XMPP federation, you add the following SRV record to external DNS:\_xmpp-server.\_tcp.\<domain name\> The SRV record will resolve to the access edge FQDN of the Edge server, with a port value of 5269
 

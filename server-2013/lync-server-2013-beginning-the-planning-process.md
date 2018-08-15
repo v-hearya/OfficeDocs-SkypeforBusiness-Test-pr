@@ -44,10 +44,10 @@ You can run the Planning Tool multiple times, answering questions differently, a
 
 After you are satisfied, you can use the Planning Tool to create a diagram of your planned deployment. You can use this diagram while creating the deployment in Topology Builder.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > The Planning Tool included with this release of Lync Server 2013 is a prerelease version. Note that the capacity planning numbers in the Planning Tool are preliminary and are not supported for the final release.
 
 

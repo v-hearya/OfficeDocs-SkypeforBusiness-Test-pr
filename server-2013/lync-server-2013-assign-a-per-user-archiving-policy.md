@@ -8,23 +8,10 @@ ms.date: 07/23/2014
 mtps_version: v=OCS.15
 ---
 
-<div data-xmlns="http://www.w3.org/1999/xhtml">
-
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
-
-<div data-asp="http://msdn2.microsoft.com/asp">
-
 # Assign a per-user archiving policy in Lync Server 2013
 
-</div>
+ 
 
-<div id="mainSection">
-
-<div id="mainBody">
-
-<span> </span>
-
-_**Topic Last Modified:** 2013-02-22_
 
 The archiving policy is one of the individual settings of a user account that you can configure in the Lync Server 2013 Control Panel.
 
@@ -33,8 +20,6 @@ Deploying one or more per-user archiving policies is optional. You can also depl
 After creating at least one per-user archiving policy, use the procedures in this topic to assign the policy that appropriately specifies whether a particular user’s internal communications, external communications, or both, will be archived by the server.
 
 For details about creating per-user archiving policies, see [Creating an Archiving policy in Lync Server 2013 to enable or disable Archiving of Internal or external communications for specific sites or users](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md).
-
-<div>
 
 ## To assign a per-user archiving policy
 
@@ -60,63 +45,43 @@ For details about creating per-user archiving policies, see [Creating an Archivi
     
     4.  Depending on the user property you selected, enter the criteria you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
         
-        <div class="alert">
-        
 
-        > [!TIP]
+        > [!TIP]  
         > To add additional search clauses to your query, click <STRONG>Add Filter</STRONG>.
 
-        
-        </div>
     
     5.  Click **Find**.
 
 6.  Click a user in the search results, click **Action**, and then click **Assign policies**.
     
-    <div class="alert">
-    
 
-    > [!TIP]
+    > [!TIP]  
     > If you want the same per-user archiving policy to apply to multiple users, select multiple users in the search results, then click <STRONG>Actions</STRONG>, and then click <STRONG>Assign policies</STRONG>.
 
-    
-    </div>
+
 
 7.  In **Assign Policies**, under **Archiving policy**, do one of the following:
     
-    <div class="alert">
-    
 
-    > [!NOTE]
+    > [!NOTE]  
     > Because there are multiple policies that you can configure by using the <STRONG>Assign Policies</STRONG> dialog box, <STRONG>&lt;Keep as is&gt;</STRONG> is selected by default for every policy in the dialog box. Continue using the policy previously assigned to the user by making no changes to this setting.
 
-    
-    </div>
     
       - Allow Lync Server 2013 to automatically choose either the global-level policy or, if defined, the site-level policy.
     
       - Click the name of a per-user archiving policy you previously defined on the **Archiving Policy** page.
         
-        <div class="alert">
-        
 
-        > [!TIP]
+        > [!TIP]  
         > To help you decide the policy that you want to assign, after you click a policy name, click <STRONG>View</STRONG> to view the user rights and permissions defined in the policy.
 
-        
-        </div>
+
 
 8.  When you are finished, click **OK**.
-
-</div>
-
-<div>
 
 ## Assigning a Per-User Archiving Policy by Using Windows PowerShell Cmdlets
 
 You can assign per-user archiving policies by using Windows PowerShell and the **Grant-CsArchivingPolicy** cmdlet. You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
-
-<div>
 
 ## To assign a per-user archiving policy to a single user
 
@@ -124,19 +89,11 @@ You can assign per-user archiving policies by using Windows PowerShell and the *
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName "RedmondArchivingPolicy"
 
-</div>
-
-<div>
-
 ## To assign a per-user archiving policy to multiple users
 
-  - This command assigns the per-user archiving policy RedmondArchivingPolicy to all the users who have accounts homed on the Registrar pool atl-cs-001.litwareinc.com. For more information on the Filter parameter used in this command, see the documentation for the [Get-CsUser](get-csuser.md) cmdlet.
+  - This command assigns the per-user archiving policy RedmondArchivingPolicy to all the users who have accounts homed on the Registrar pool atl-cs-001.litwareinc.com. For more information on the Filter parameter used in this command, see the documentation for the [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) cmdlet.
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
-
-</div>
-
-<div>
 
 ## To unassign a per-user archiving policy
 
@@ -144,13 +101,7 @@ You can assign per-user archiving policies by using Windows PowerShell and the *
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-</div>
-
-For more information, see the help topic for the [Grant-CsArchivingPolicy](grant-csarchivingpolicy.md) cmdlet.
-
-</div>
-
-<div>
+For more information, see the help topic for the [Grant-CsArchivingPolicy](https://technet.microsoft.com/en-us/library/gg398475\(v=ocs.15\)) cmdlet.
 
 ## See Also
 
@@ -158,18 +109,5 @@ For more information, see the help topic for the [Grant-CsArchivingPolicy](grant
 [Creating an Archiving policy in Lync Server 2013 to enable or disable Archiving of Internal or external communications for specific sites or users](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)  
 
 
-[Assigning per-user policies in Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)  
-  
-
-</div>
-
-</div>
-
-<span> </span>
-
-</div>
-
-</div>
-
-</div>
+[Assigning per-user policies in Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)
 

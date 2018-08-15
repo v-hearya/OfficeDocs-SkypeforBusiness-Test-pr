@@ -26,10 +26,10 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2012-09-12_
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > This topic assumes that you have configured media bypass global settings and that you have configured network region and network sites for media bypass.
 
 

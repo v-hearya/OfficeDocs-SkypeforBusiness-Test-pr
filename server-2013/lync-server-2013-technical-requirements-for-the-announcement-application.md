@@ -62,10 +62,10 @@ The Announcement application uses the following port:
 
   - **Port 5071**   Used for SIP listening requests
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > This port is the default setting, which you can change by using the <STRONG>Set-CsApplicationServer</STRONG> cmdlet. For details about this cmdlet, see the Lync Server Management Shell documentation.
 
 

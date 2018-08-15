@@ -33,7 +33,7 @@ The voice, video, and sharing features in Lync Web App require a Microsoft Activ
 <div class=" ">
 
 
-> [!NOTE]
+> [!NOTE]  
 > In Lync Server 2013 Edge Server deployments, an HTTPS reverse proxy in the perimeter network is required for Lync Web App client access. You must also publish simple URLs. For details, see <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">Setting up reverse proxy servers for Lync Server 2013</A> and <A href="lync-server-2013-planning-for-simple-urls.md">Planning for simple URLs in Lync Server 2013</A>.
 
 
@@ -49,7 +49,7 @@ The Lync Server 2013 version of Lync Web App supports multi-factor authenticatio
 <div class=" ">
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The following are important considerations if you plan to configure AD FS for multi-factor authentication: 
 > <UL>
 > <LI>
@@ -110,7 +110,7 @@ For details about disabling BranchCache, see the BranchCache Deployment Guide, w
 
 ## Verifying Lync Web App Deployment
 
-You can use the Test-CsUcwaConference cmdlet to verify that a pair of test users can participate in a conference using the Unified Communications Web API (UCWA). For details about this cmdlet, see [Test-CsUcwaConference](test-csucwaconference.md) in the Lync Server Management Shell documentation.
+You can use the Test-CsUcwaConference cmdlet to verify that a pair of test users can participate in a conference using the Unified Communications Web API (UCWA). For details about this cmdlet, see [Test-CsUcwaConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUcwaConference) in the Lync Server Management Shell documentation.
 
 </div>
 
@@ -133,7 +133,7 @@ If installation of the plug-in fails on a computer running Windows ServerÂ 2008Â
     <div class=" ">
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If selected, this setting will also cause an error when trying to download an attachment from Lync Web App.
 
     

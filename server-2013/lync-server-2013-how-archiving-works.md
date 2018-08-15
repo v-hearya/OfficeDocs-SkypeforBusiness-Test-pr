@@ -108,10 +108,10 @@ Lync Server 2013 Archiving policies include the following:
 
 For details about how to set up initial Archiving policies when you deploy Archiving, see [Configuring and assigning Archiving policies in Lync Server 2013](lync-server-2013-configuring-and-assigning-archiving-policies.md) in the Deployment documentation. For details about using Archiving policies to enable and disable communications after deployment, see [Managing the Archiving of internal and external communications in Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md) in the Operations documentation.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you implement both Lync Server 2013 Archiving databases and enable Microsoft Exchange integration, Exchange 2013 policies override Lync Server Archiving policies, but only for users who are homed on Exchange 2013 and have had had their mailboxes put on In-Place Hold. Lync Archiving depends on Microsoft Exchange In-Place Hold policy only.
 
 
@@ -152,10 +152,10 @@ The global-level configuration is created automatically when you deploy archivin
     
       - After the archiving data has been exported (which includes data that has been uploaded to Exchange, if you enable Microsoft Exchange integration).
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you enable Microsoft Exchange integration, purging for users homed on Exchange 2013 and with their mailboxes put on In-Place Hold is controlled by Exchange. The only qualification is for conferencing files, which are stored on the Lync Server file share. These files are purged from the file share only after the files have been exported (uploaded to Exchange), if you select the option to purge data after the archiving data has been exported, or after the specified maximum number of days, if you specify a maximum number of days for retention.
 
     
@@ -181,9 +181,9 @@ For details about how to set up initial Archiving configurations when you deploy
 
 Using Lync Server 2013 Management Shell, you can use cmdlets to implement options that are not available in Lync Server 2013 Control Panel. These options include the following:
 
-  - **Archive duplicate messages**. For details, see [New-CsArchivingConfiguration](new-csarchivingconfiguration.md) and [Set-CsArchivingConfiguration](set-csarchivingconfiguration.md) in the Operations documentation.
+  - **Archive duplicate messages**. For details, see [New-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingConfiguration) and [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration) in the Operations documentation.
 
-  - **Export archived data**. For details, see [Export-CsArchivingData](export-csarchivingdata.md)
+  - **Export archived data**. For details, see [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)
 
 </div>
 

@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2012-09-23_
 
 If you plan to deploy a Survivable Branch Appliance, you must add the Survivable Branch Appliance to Active Directory Domain Services. Perform this procedure at the central site.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Perform this procedure only if you are deploying a Survivable Branch Appliance. Do not perform it if you are deploying a Survivable Branch Server.
 
 
@@ -52,10 +52,10 @@ If you plan to deploy a Survivable Branch Appliance, you must add the Survivable
 
 5.  In the **Select User or Group** dialog box, add the RTCUniversalSBATechnicians group and then click **OK**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > A member of the RTCUniversalSBATechnicians group at the branch site will add this device to the domain later.
 
     

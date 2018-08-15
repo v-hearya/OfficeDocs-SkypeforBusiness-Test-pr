@@ -328,9 +328,9 @@ Some attributes have a bit-mask value. For these attributes, each setting is rep
 <td><p>msRTCSIP-EnableBestEffortNotify (obsolete)</p></td>
 <td><p>This attribute controls whether a server generates a Best Effort NOTIFY (BENOTIFY) request, instead of a NOTIFY request, in response to a SUBSCRIBE request from a client. BENOTIFY is a performance-enhancing extension to the subscribe notification handshake where the server generates BENOTIFY requests, instead of regular NOTIFY requests. The performance benefit is that a BENOTIFY request does not require a 200 OK response from the client as the NOTIFY request does.</p>
 <p>The valid values are <strong>TRUE</strong> or <strong>FALSE</strong>.</p>
-<div class="alert">
+<div>
 
-> [!NOTE]
+> [!NOTE]  
 > Live Communications Server 2003 does not support BENOTIFY requests. To interoperate with server applications written with the Live Communications Server 2003 server API running on Live Communications Server 2005 and third-party servers, BENOTIFY requests can be disabled by setting its value to <STRONG>FALSE</STRONG>. BENOTIFY is not currently part of the IETF (Internet Engineering Task Force) SIP standardization process.
 
 
@@ -694,7 +694,7 @@ Some attributes have a bit-mask value. For these attributes, each setting is rep
 <td><p>This attribute is a single-valued Unicode string. This string attribute contains the policy definition in XML format. The XML schema definition is common across different policy types, only the settings are different for each policy type.</p>
 <p>The XML schema definition (XSD) is defined as follows:</p>
 <pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-&lt;xs:schema id=&quot;instance&quot;  xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;
+&lt;xs:schema id=&quot;instance&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;
   &lt;xs:element name=&quot;instance&quot; msdata:IsDataSet=&quot;true&quot;&gt;
     &lt;xs:complexType&gt;
       &lt;xs:choice maxOccurs=&quot;unbounded&quot;&gt;

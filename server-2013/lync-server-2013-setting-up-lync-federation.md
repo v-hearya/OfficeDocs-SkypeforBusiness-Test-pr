@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2014-03-27_
 
 If you have already deployed you Edge server or servers, adding the federated scenarios features is straight forward. If you have not set up Edge Servers, you must do that first. For details, see: [Planning for external user access in Lync Server 2013](lync-server-2013-planning-for-external-user-access.md) in the Planning documentation and [Deploying external user access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) in the Deployment documentation.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > If you intend to setup any combination of XMPP federation, Lync Federation, or public instant messaging connectivity, you can deploy them concurrently or one at a time. If you configure the options through the Topology Builder and the Lync Server Management shell, then run the Deployment Wizard at the Edge server after configuring the options for one, two or all three federation types, you can reduce the number of steps required.
 
 
@@ -52,10 +52,10 @@ If you have already deployed you Edge server or servers, adding the federated sc
 
 5.  At Setup Lync Server components, click Next. The summary screen will show actions as they are executed. Once the deployment is done, click View Log to view available log files. Click Finish to complete the deployment.
     
-    <div class="alert">
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > You can select this option, but only one Edge pool or Edge Server in your organization can be published externally for federation. All access by federated users, including public instant messaging (IM) users, go through the same Edge pool or single Edge Server. For example, if your deployment includes an Edge pool or single Edge Server deployed in New York and one deployed in London and you enable federation support on the New York Edge pool or single Edge Server, signal traffic for federated users will go through the New York Edge pool or single Edge Server. This is true even for communications with London users, although a London internal user calling a London federated user uses the London pool or Edge Server for A/V traffic.
 
     
@@ -122,9 +122,9 @@ If you have already deployed you Edge server or servers, adding the federated sc
     <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Create or edit hosted SIP federated providers Lync Server 2013</a></p></li>
     </ul></td>
     <td><p>This federation type defines services and hosting providers that you want to configure for your users. Typical uses include configuration for public IM providers like Windows Live Messenger, Yahoo! and AOL, as well as hosting providers such as Lync Online and Office 365</p>
-    <div class="alert">
+    <div>
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > <UL>
     > <LI>
     > <P>As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (“PIC USL”) is no longer available for purchase for new or renewing agreements. Customers with active licenses will be able to continue to federate with Yahoo! Messenger until the service shut down date. An end of life date of June 2014 for AOL and Yahoo! has been announced. For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>.</P>
@@ -142,12 +142,12 @@ If you have already deployed you Edge server or servers, adding the federated sc
 
 2.  Define and configure any required DNS host (A or AAAA for IPv6) and DNS SRV records
 
-3.  Define and configure any policies using the Lync Server Control Panel or by using the Lync Server Management Shell and the appropriate cmdlets. For details on the Lync Server Management Shell cmdlets, see [Federation and external access cmdlets in Lync Server 2013](lync-server-2013-federation-and-external-access-cmdlets.md)
+3.  Define and configure any policies using the Lync Server Control Panel or by using the Lync Server Management Shell and the appropriate cmdlets. For details on the Lync Server Management Shell cmdlets, see [Federation and external access cmdlets in Lync Server 2013](https://docs.microsoft.com/en-us/powershell/module/skype/)
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Lync Room System (LRS) does not show join button for meetings sent by organizers in federated Lync partners. For a meeting join link to appear on LRS, the sending organization must enable TNEF by using the following cmdlet:<BR><BR><CODE>New-RemoteDomain -DomainName Contoso.com -Name Contoso</CODE><BR><CODE>Set-RemoteDomain -Identity Contoso -TNEFEnabled $true</CODE><BR>Note that this is not LRS specific. Outlook and Lync would also not show Join links in this case as MAPI properties are not transported, but in the Outlook case, the user can open up the meeting invite and click on the meeting URL. When TNEFEnabled is set to true Exchange 2013 does not strip MAPI properties including OnlineMeetingExternalLink and the Join button will be shown on the reminder.
 
     

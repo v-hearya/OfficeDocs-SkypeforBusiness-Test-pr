@@ -30,10 +30,10 @@ Quality of Experience (QoE) records numeric data that indicates the media qualit
 
 Use the following procedure to enable QoE for your whole organization or each site in your organization.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > To enable QoE, you must first configure monitoring and a monitoring back-end database. For details, see <A href="lync-server-2013-deploying-monitoring.md">Deploying monitoring in Lync Server 2013</A>.
 
 
@@ -90,7 +90,7 @@ You can enable QoE by using Windows PowerShell and the **Set-CsQoEConfiguration*
 
 </div>
 
-For details, see [Set-CsQoEConfiguration](set-csqoeconfiguration.md).
+For details, see [Set-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsQoEConfiguration).
 
 </div>
 

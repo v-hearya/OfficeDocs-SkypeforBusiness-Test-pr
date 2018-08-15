@@ -30,11 +30,11 @@ Lync Server lets you configure what happens to incoming calls to phone numbers t
 
 How you configure the unassigned number table depends on how you want to use it. You can configure the table with all the valid extensions for your organization, with only unassigned extensions, or with a combination of both types of numbers. The unassigned number table can include both assigned and unassigned numbers, but it is invoked only when a caller dials a number that is not currently assigned. If you include all the valid extensions in the unassigned number table, you can specify the action that occurs whenever someone leaves your organization, without needing to reconfigure the table. If you include unassigned extensions in the table, you can tailor the action that occurs for specific numbers. For example, if you change the extension for your customer service desk, you can include the old customer service number in the table and assign it to an announcement that provides the new number.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
-> Before you configure the unassigned number table, you must already have either one or more announcements defined or an Exchange UM Auto Attendant set up. For details about creating announcements, see <A href="lync-server-2013-create-an-announcement.md">Create an announcement in Lync Server 2013</A>. To see if you have configured Exchange UM settings, run the <STRONG>Get-CsExUmContact</STRONG> cmdlet. For details, see <A href="get-csexumcontact.md">Get-CsExUmContact</A>.
+> [!IMPORTANT]  
+> Before you configure the unassigned number table, you must already have either one or more announcements defined or an Exchange UM Auto Attendant set up. For details about creating announcements, see <A href="lync-server-2013-create-an-announcement.md">Create an announcement in Lync Server 2013</A>. To see if you have configured Exchange UM settings, run the <STRONG>Get-CsExUmContact</STRONG> cmdlet. For details, see <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact">Get-CsExUmContact</A>.
 
 
 

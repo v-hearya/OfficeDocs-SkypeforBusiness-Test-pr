@@ -38,10 +38,10 @@ The reverse proxy has minimal requirements for firewall and port/protocol.
     
     ![13142405-d5c9-45b7-a8b7-a8c89f09c97c](images/JJ204932.13142405-d5c9-45b7-a8b7-a8c89f09c97c(OCS.15).jpg "13142405-d5c9-45b7-a8b7-a8c89f09c97c")  
     
-    <div class="alert">
+    <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Do not confuse the 4443 over TCP from the reverse proxy to the internal deployment for the port 4443 over TCP traffic from the Standard Edition server or the Front End pool that manages the Central Management store role.
 
     

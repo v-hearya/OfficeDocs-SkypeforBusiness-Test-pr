@@ -38,10 +38,10 @@ By default, audio and video port ranges do not overlap in Microsoft Lync Server 
     
     Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPortCount
 
-<div class="alert">
+<div>
 
 
-> [!WARNING]
+> [!WARNING]  
 > As you can see in the preceding commands, each port type – audio, video, and application sharing – is assigned two separate property values: the port start and the port count. The port start indicates the first port used for that modality; for example, if the audio port start is equal to 50000 that means that the first port used for audio traffic is port 50000. If the audio port count is 2 (which is not a valid value, but is used here for illustration purposes) that means that only 2 ports are allocated for audio. If the first port is port 50000 and there are a total of two ports, that means the second port must be port 50001 (port ranges have to be contiguous). As a result, the port range for audio would be ports 50000 through 50001, inclusive.<BR>Note, too that Application server and Mediation server only support QoS for audio; you do not need to change video or application sharing ports in your Application servers or Mediation servers.
 
 

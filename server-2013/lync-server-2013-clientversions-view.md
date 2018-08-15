@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2012-10-01_
 
 The ClientVersions view stores information about the various client types and versions that have participated in sessions recorded in the database. Each record in the view represents one client version. This view was introduced in Microsoft Lync Server 2013.
 
-<div class="alert">
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > There may be multiple records for certain columns.
 
 

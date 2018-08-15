@@ -40,10 +40,10 @@ You can configure links between two network regions as part of call admission co
 
 4.  On the **Region Link** page, click the region link that you want to delete.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can delete more than one region link at a time. To do this, press CTRL and select multiple region links while holding down the CTRL key. Or, to select all region links, click <STRONG>Select all</STRONG> on the <STRONG>Edit</STRONG> menu.
 
     

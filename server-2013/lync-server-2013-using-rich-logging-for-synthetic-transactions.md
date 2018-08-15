@@ -56,15 +56,8 @@ Administrators have the option of including the OutLoggerVariable parameter foll
 
     Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable RegistrationTest
 
-<div class="alert">
-
-
-> [!NOTE]
+> [!NOTE]  
 > Do not preface the variable name with the $ character. Use a variable name like RegistrationTest and not $RegistrationTest.
-
-
-
-</div>
 
 The preceding command outputs content similar to the following:
 
@@ -86,19 +79,11 @@ These files can then be viewed using Internet Explorer, Visual Studio, or any ot
 
 Synthetic transactions run from inside of System Center Operations Manager will automatically generate these log files for failures. However, these logs will not be generated if the execution fails before Windows PowerShell is able to load and run the synthetic transaction.
 
-<div class="alert">
-
-
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > By default, Lync Server 2013 saves log files to a folder that is not shared. To make these logs readily accessible, you should share this folder (for example, \\\\atl-watcher-001.litwareinc.com\WatcherNode.
 
 
-
 </div>
-
-</div>
-
-<span> </span>
 
 </div>
 

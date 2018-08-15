@@ -87,10 +87,10 @@ You cannot modify the **Associated sites** on this page. The list of associated 
 [Configure network regions for CAC in Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md)  
 
 
-[New-CsNetworkRegion](new-csnetworkregion.md)  
-[Set-CsNetworkRegion](set-csnetworkregion.md)  
-[Remove-CsNetworkRegion](remove-csnetworkregion.md)  
-[Get-CsNetworkRegion](get-csnetworkregion.md)  
+[New-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegion)  
+[Set-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegion)  
+[Remove-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkRegion)  
+[Get-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)  
   
 
 </div>

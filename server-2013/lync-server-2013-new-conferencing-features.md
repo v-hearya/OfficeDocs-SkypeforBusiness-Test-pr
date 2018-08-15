@@ -50,10 +50,10 @@ Lync Server 2013 introduces several new features that enhance conferencing, as d
     
     In video conferences, users can see videos of up to five conference participants at the same time.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Gallery View is experienced in conferences with up to 75 participants. When the conference gets larger than 75 participants, the experience reverts to single view.
 
     

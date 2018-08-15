@@ -48,10 +48,10 @@ For computers equipped with a Trusted Platform Module (TPM) chip that meets spec
 
 6.  From the TPM management console, verify that your TPM specification version is at least 1.2
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you receive a dialog stating that a Compatible Trust Platform Module (TPM) cannot be found, verify that the computer has a compatible TPM module and that it is enabled in the system BIOS.
 
     
@@ -63,10 +63,10 @@ For computers equipped with a Trusted Platform Module (TPM) chip that meets spec
     
         TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > To provide a custom PIN value when creating the virtual smart card, use /pin prompt instead.
 
     

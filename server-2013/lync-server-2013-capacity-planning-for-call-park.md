@@ -30,10 +30,10 @@ _**Topic Last Modified:** 2012-09-13_
 
 The following table describes the Call Park user model that you can use as the basis for capacity planning requirements.
 
-<div class="alert">
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Keep in mind that, for disaster recovery capacity planning, each pool of a paired pool should be able to handle the workloads for Call Park services in both pools.
 
 

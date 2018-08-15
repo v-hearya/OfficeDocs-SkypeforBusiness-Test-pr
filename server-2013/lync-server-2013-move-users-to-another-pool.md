@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2018-02-09_
 
 You can use Lync Server Control Panel to assign users to a specific server or pool.
 
-<div class="alert">
+<div>
 
 
-> [!TIP]
+> [!TIP]  
 > Moving all existing users from a source pool that is running Lync Server 2010 or earlier to a Lync Server 2013 destination pool in a complex Active Directory environment might result in slower Active Directory replication. To avoid this, you can use search filters to move users from pools that are running Lync Server 2010 or earlier separately, or you can use Lync Server Management Shell to move users with cmdlets. Also, the filter functionality works with Lync Server 2013 users.
 
 
@@ -58,10 +58,10 @@ You can use Lync Server Control Panel to assign users to a specific server or po
 
 8.  (Optional) If the destination server or pool is unavailable, select the **Force** check box.
     
-    <div class="alert">
+    <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > If you select <STRONG>Force</STRONG>, the user account is moved, but associated user data such scheduled conferences and contacts is not moved.
 
     
@@ -87,10 +87,10 @@ You can use Lync Server Control Panel to assign users to a specific server or po
 
 7.  (Optional) If the destination server or pool is unavailable, select the **Force** check box.
     
-    <div class="alert">
+    <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > If you select <STRONG>Force</STRONG>, the user account is moved, but associated user data such scheduled conferences and contacts is not moved.
 
     
@@ -114,10 +114,10 @@ You can use Lync Server Control Panel to assign users to a specific server or po
 
 6.  On the **Action** menu, click **Move all users to pool**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > When a filter is applied to an existing set of users, the option <STRONG>Move all users to pool</STRONG> is in the context of the filtered subset of users, not <STRONG><EM>all</EM></STRONG> possible users.
 
     
@@ -129,10 +129,10 @@ You can use Lync Server Control Panel to assign users to a specific server or po
 
 9.  (Optional) If the destination server or pool is unavailable, select the **Force** check box.
     
-    <div class="alert">
+    <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > If you select <STRONG>Force</STRONG>, the user account is moved, but associated user data such scheduled conferences and contacts is not moved.
 
     

@@ -40,10 +40,10 @@ A network region interconnects various parts of a network across multiple geogra
 
 4.  On the **Region** page, click the region you want to delete.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > You can delete more than one region at a time. To do this, press CTRL and select multiple regions while holding down the CTRL key. Or, to select all regions, click <STRONG>Select all</STRONG> on the <STRONG>Edit</STRONG> menu.
 
     
@@ -53,10 +53,10 @@ A network region interconnects various parts of a network across multiple geogra
 
 6.  Click **OK**.
     
-    <div class="alert">
+    <div>
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > A network region cannot be removed if it is associated with a network site. If you attempt to remove a region associated with a site you will receive an error message. To see if a region is associated with any sites, select the region and then click <STRONG>Show details</STRONG> on the <STRONG>Edit</STRONG> menu.
 
     

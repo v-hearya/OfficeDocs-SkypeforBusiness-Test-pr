@@ -42,10 +42,10 @@ Using Topology Builder, perform the steps in the following procedure to deploy I
     
       - **Use all configured IP addresses**. Select this option if you want to allow any IP address defined on the computer to be used.
         
-        <div class="alert">
+        <div>
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > This is the recommended option for IP version 6 (IPv6) configurations.
 
         

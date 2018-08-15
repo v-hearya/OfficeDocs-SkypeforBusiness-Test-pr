@@ -30,11 +30,11 @@ After you have configured your network settings for call admission control deplo
 
 For details, see the Lync Server Management Shell documentation for the following cmdlets:
 
-  - [Get-CsNetworkConfiguration](get-csnetworkconfiguration.md)
+  - [Get-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkConfiguration)
 
-  - [Set-CsNetworkConfiguration](set-csnetworkconfiguration.md)
+  - [Set-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkConfiguration)
 
-  - [Remove-CsNetworkConfiguration](remove-csnetworkconfiguration.md)
+  - [Remove-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkConfiguration)
 
 <div>
 
@@ -66,10 +66,10 @@ For details, see the Lync Server Management Shell documentation for the followin
 
 5.  On the **Edit Global Settings** page, select the **Enable call admission control** check box.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you want to disable call admission control throughout your deployment, clear this check box.
 
     

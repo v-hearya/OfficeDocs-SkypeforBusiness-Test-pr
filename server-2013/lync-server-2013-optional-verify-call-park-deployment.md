@@ -30,10 +30,10 @@ After you install and configure Call Park, you need to verify the configuration 
 
   - Call a user who has Call Park enabled and have the user park the call.
     
-    <div class="alert">
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > If you enabled Call Park in voice policy just before performing this test, the user who is parking the call needs to sign out of Lync Server, and then sign back in, to be able to see the Call Park option in the transfer call list.
 
     
