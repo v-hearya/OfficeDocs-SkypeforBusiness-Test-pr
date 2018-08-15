@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Viewing information about user accounts enabled for Lync Server'
+title: 'Viewing information about user accounts enabled for Lync Server'
 TOCTitle: Viewing information about user accounts enabled for Lync Server 2013
 ms:assetid: 18309dca-b502-44e5-83e2-e314a827d298
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687980(v=OCS.15)

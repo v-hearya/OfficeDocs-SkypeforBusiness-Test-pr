@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Using Topology Builder to configure high availability and disaster recovery'
+title: 'Using Topology Builder to configure high availability and disaster recovery'
 TOCTitle: Using Topology Builder to configure high availability and disaster recovery
 ms:assetid: abc1a25d-1f5e-46ef-91d2-0144fc847206
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205172(v=OCS.15)

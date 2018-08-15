@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configuring Autodiscover for mobility with hybrid deployments'
+title: 'Configuring Autodiscover for mobility with hybrid deployments'
 TOCTitle: Configuring Autodiscover for mobility with hybrid deployments
 ms:assetid: f838af79-d8b4-4122-b81c-7889573d143e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215885(v=OCS.15)
@@ -59,8 +59,8 @@ To enable mobile clients to discover the deployment where the user home server i
 ## See Also
 
 
-[Get-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostingProvider)  
-[Set-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostingProvider)  
+[Get-CsHostingProvider](get-cshostingprovider.md)  
+[Set-CsHostingProvider](set-cshostingprovider.md)  
   
 
 </div>

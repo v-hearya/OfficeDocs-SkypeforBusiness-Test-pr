@@ -1,6 +1,6 @@
 ﻿---
-title: 'Lync Server 2013: Creating and configuring user policies for Archiving in Lync Server'
-TOCTitle: Creating and configuring user policies for Archiving in Lync Server 2013
+title: 'Creating and configuring user policies for Archiving in Lync Server'
+TOCTitle: Creating and configuring user policies for Archiving in Lync Server
 ms:assetid: 5af0e605-3563-4d6f-a3c6-511d204a3165
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204923(v=OCS.15)
 ms:contentKeyID: 48184234
@@ -30,10 +30,10 @@ To enable or disable Archiving for specific users homed on Lync Server, you must
 
 For details about how Archiving policies work, including the hierarchy for global, site, and user policies, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, in the Deployment documentation, or in the Operations documentation.
 
-<div>
+<div class="alert">
 
 
-> [!NOTE]  
+> [!NOTE]
 > If you enabled Microsoft Exchange integration for your deployment, Exchange In-Place Hold policies control whether archiving is enabled for the users who are homed on Exchange 2013 and have their mailboxes put on In-Place Hold. For details, see <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Setting up policies for Archiving in Lync Server 2013 when using Exchange Server integration</A> in the Deployment documentation.<BR>You should specify all appropriate options in the Archiving configurations before enabling Archiving. For details, see <A href="lync-server-2013-configuring-archiving-options.md">Configuring Archiving options in Lync Server 2013</A> in the Deployment documentation.
 
 

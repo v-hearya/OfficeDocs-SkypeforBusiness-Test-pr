@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Remove-CsAddressBookConfiguration for Address Book management'
+title: 'Remove-CsAddressBookConfiguration for Address Book management'
 TOCTitle: Remove-CsAddressBookConfiguration for Address Book management
 ms:assetid: 5d173ebe-ec4d-4640-8432-a25071ea9cc5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429705(v=OCS.15)
@@ -41,7 +41,7 @@ For example:
 ## See Also
 
 
-[Remove-CsAddressBookConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAddressBookConfiguration)  
+[Remove-CsAddressBookConfiguration](remove-csaddressbookconfiguration.md)  
   
 
 </div>

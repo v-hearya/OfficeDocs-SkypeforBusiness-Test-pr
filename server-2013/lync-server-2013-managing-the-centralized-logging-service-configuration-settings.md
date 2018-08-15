@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Managing the Centralized Logging Service configuration settings'
+title: 'Managing the Centralized Logging Service configuration settings'
 TOCTitle: Managing the Centralized Logging Service configuration settings
 ms:assetid: f455c3aa-0061-413d-bdfb-a3e78f82723d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721938(v=OCS.15)
@@ -28,18 +28,18 @@ _**Topic Last Modified:** 2012-11-01_
 
 The Centralized Logging Service is controlled and configured by settings and parameters that are created and used by the Centralized Logging Service Controller (CLSController) to send commands to the individual computer’s Centralized Logging Service Agent (CLSAgent). The agent processes the commands that are sent to it and (in the case of a Start command) uses the configuration of the scenarios, providers, log size, trace duration, and flags to begin collecting trace logs according to the configuration information provided.
 
-<div>
+<div class="alert">
 
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > Not all Windows PowerShell cmdlets listed for the Centralized Logging Service are intended for use with Lync Server 2013 on-premises deployments. Although they may appear to work, the following cmdlets are not designed to function with Lync Server 2013 on-premises deployments: 
 > <UL>
 > <LI>
-> <P><STRONG>CsClsRegion cmdlets:</STRONG> <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsRegion">Get-CsClsRegion</A>, <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsRegion">Set-CsClsRegion</A>, <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsRegion">New-CsClsRegion</A>, and <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsRegion">Remove-CsClsRegion</A>.</P>
+> <P><STRONG>CsClsRegion cmdlets:</STRONG> <A href="get-csclsregion.md">Get-CsClsRegion</A>, <A href="set-csclsregion.md">Set-CsClsRegion</A>, <A href="new-csclsregion.md">New-CsClsRegion</A>, and <A href="remove-csclsregion.md">Remove-CsClsRegion</A>.</P>
 > <LI>
-> <P><STRONG>CsClsSearchTerm cmdlets:</STRONG> <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsSearchTerm">Get-CsClsSearchTerm</A> and <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsSearchTerm">Set-CsClsSearchTerm</A>.</P>
+> <P><STRONG>CsClsSearchTerm cmdlets:</STRONG> <A href="get-csclssearchterm.md">Get-CsClsSearchTerm</A> and <A href="set-csclssearchterm.md">Set-CsClsSearchTerm</A>.</P>
 > <LI>
-> <P><STRONG>CsClsSecurityGroup cmdlets:</STRONG> <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsSecurityGroup">Get-CsClsSecurityGroup</A>, <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsSecurityGroup">Set-CsClsSecurityGroup</A>, <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsSecurityGroup">New-CsClsSecurityGroup</A>, and <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsSecurityGroup">Remove-CsClsSecurityGroup</A>.</P></LI></UL>The settings defined in these cmdlets will not hinder or cause any adverse behavior, but they are designed for use with Microsoft Office 365 and will not yield the expected results in on-premises deployments. This is not to say that there is no use for these cmdlets in on-premises deployments, but their use is a more advanced topic that is not covered in this documentation.
+> <P><STRONG>CsClsSecurityGroup cmdlets:</STRONG> <A href="get-csclssecuritygroup.md">Get-CsClsSecurityGroup</A>, <A href="set-csclssecuritygroup.md">Set-CsClsSecurityGroup</A>, <A href="new-csclssecuritygroup.md">New-CsClsSecurityGroup</A>, and <A href="remove-csclssecuritygroup.md">Remove-CsClsSecurityGroup</A>.</P></LI></UL>The settings defined in these cmdlets will not hinder or cause any adverse behavior, but they are designed for use with Microsoft Office 365 and will not yield the expected results in on-premises deployments. This is not to say that there is no use for these cmdlets in on-premises deployments, but their use is a more advanced topic that is not covered in this documentation.
 
 
 
@@ -65,7 +65,7 @@ The topics in this section define the configuration options, parameters, and set
 
 
 [Overview of the Centralized Logging Service in Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md)  
-[Centralized Logging cmdlets in Lync Server 2013](https://docs.microsoft.com/en-us/powershell/module/skype/)  
+[Centralized Logging cmdlets in Lync Server 2013](lync-server-2013-centralized-logging-cmdlets.md)  
   
 
 </div>

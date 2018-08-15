@@ -1,6 +1,6 @@
 ﻿---
-title: 'Lync Server 2013: Example of gathering your requirements for call admission control'
-TOCTitle: "Example: Gathering your organization's requirements for call admission control"
+title: 'Example of gathering your requirements for call admission control'
+TOCTitle: "Example of gathering your requirements for call admission control"
 ms:assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425827(v=OCS.15)
 ms:contentKeyID: 48183820
@@ -60,10 +60,10 @@ To prepare for call admission control, gather the information described in the f
     
     ![Network Topology Example with 3 Network Regions](images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "Network Topology Example with 3 Network Regions")  
     
-    <div>
+    <div class="alert">
     
 
-    > [!NOTE]  
+    > [!NOTE]
     > A Multiprotocol Label Switching (MPLS) network should be represented as a network region in which each geographic location has a corresponding network site. For details, see the “<A href="lync-server-2013-call-admission-control-on-an-mpls-network.md">Call admission control on an MPLS network with Lync Server 2013</A>” topic in the Planning documentation.
 
     
@@ -104,10 +104,10 @@ To prepare for call admission control, gather the information described in the f
     </tbody>
     </table>
     
-    <div>
+    <div class="alert">
     
 
-    > [!NOTE]  
+    > [!NOTE]
     > Depending on your Lync Server topology, the same central site can be assigned to multiple network regions.
 
     
@@ -280,19 +280,19 @@ To prepare for call admission control, gather the information described in the f
 
 6.  For every subnet in your network, specify its associated network site.
     
-    <div>
+    <div class="alert">
     
 
-    > [!IMPORTANT]  
+    > [!IMPORTANT]
     > Every subnet in your network must be associated with a network site, even if the network site is not bandwidth constrained. This is because call admission control uses subnet information to determine at which network site an endpoint is located. When the locations of both parties in the session are determined, call admission control can determine if there is sufficient bandwidth to establish a call. When a session is established over a link that has no bandwidth limits, an alert is generated.<BR>If you deploy Audio/Video Edge Servers, the public IP addresses of each Edge Server must be associated with the network site where the Edge Server is deployed. Each public IP address of the A/V Edge Server must be added to your network configuration settings as a subnet with a subnet mask of 32. For example, if you deploy A/V Edge Servers in Chicago, then for each external IP address of those servers create a subnet with a subnet mask of 32 and associate network site Chicago with those subnets. For details about public IP addresses, see <A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Determine external A/V firewall and port requirements for Lync Server 2013</A> in the Planning documentation.
 
     
     </div>
     
-    <div>
+    <div class="alert">
     
 
-    > [!NOTE]  
+    > [!NOTE]
     > A Key Health Indicator (KHI) alert is raised, specifying a list of IP addresses that are present in your network but are either not associated with a subnet, or the subnet that includes the IP addresses is not associated with a network site. This alert will not be raised more than once within an 8 hour period. The relevant alert information and an example are as follows:<BR><STRONG>Source:</STRONG> CS Bandwidth Policy Service (Core)<BR><STRONG>Event number:</STRONG> 36034<BR><STRONG>Level:</STRONG> 2<BR><STRONG>Description:</STRONG> The subnets for the following IP Addresses: &lt;List of IP Addresses&gt; are either not configured or the subnets are not associated to a network site.<BR><STRONG>Cause:</STRONG> The subnets for the corresponding IP addresses are missing from the network configuration settings or the subnets are not associated to a network site.<BR><STRONG>Resolution:</STRONG> Add subnets corresponding to the preceding list of IP addresses into the network configuration settings and associate every subnet to a network site.<BR>For example, if the IP address list in the alert specifies 10.121.248.226 and 10.121.249.20, either these IP addresses are not associated with a subnet, or the subnet that they are associated with does not belong to a network site. If 10.121.248.0/24 and 10.121.249.0/24 are the corresponding subnets for these addresses, you can resolve this issue as follows: 
     > <OL>
     > <LI>
@@ -459,10 +459,10 @@ To prepare for call admission control, gather the information described in the f
 
 8.  Define a route between every pair of network regions.
     
-    <div>
+    <div class="alert">
     
 
-    > [!NOTE]  
+    > [!NOTE]
     > Two links are required for the route between the North America and APAC regions because there is no region link that directly connects them.
 
     
@@ -568,10 +568,10 @@ To prepare for call admission control, gather the information described in the f
 
 After you have gathered the required information, you can perform CAC deployment either by using the Lync Server Management Shell or Lync Server Control Panel.
 
-<div>
+<div class="alert">
 
 
-> [!NOTE]  
+> [!NOTE]
 > Although you can perform most network configuration tasks by using Lync Server Control Panel, to create subnets and intersite links, you must use Lync Server Management Shell. For details, see the Lync Server Management Shell documentation for the <STRONG>New-CsNetworkSubnet</STRONG> cmdlet and the <STRONG>New-CsNetworkIntersitePolicy</STRONG> cmdlet.
 
 

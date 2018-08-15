@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configuring a watcher node to use Trusted Server authentication'
+title: 'Configuring a watcher node to use Trusted Server authentication'
 TOCTitle: Configuring a watcher node to use Trusted Server authentication
 ms:assetid: 42d879ac-aa90-4ed6-b5e2-1e208711672a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204852(v=OCS.15)
@@ -30,10 +30,10 @@ If your watcher node computer lies inside the perimeter network, using Trusted S
 
 The first step in configuring Trusted Server authentication is to create a trusted application pool to host the watcher node computer. After the trusted application pool has been created, you must then configure synthetic transactions on that watcher node to run as a trusted application.
 
-<div>
+<div class="alert">
 
 
-> [!NOTE]  
+> [!NOTE]
 > A trusted application is an application that is given trusted status to run as part of Lync Server 2013, but that is not a built-in part of the product. Trusted status means that the application will not be challenged for authentication each time it runs.
 
 
@@ -44,10 +44,10 @@ To create a trusted application pool, open the Lync Server 2013 Management Shell
 
     New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar atl-cs-001.litwareinc.com -ThrottleAsServer $True -TreatAsAuthenticated $True -OutboundOnly $False -RequiresReplication $True -ComputerFqdn atl-watcher-001.litwareinc.com -Site Redmond
 
-<div>
+<div class="alert">
 
 
-> [!NOTE]  
+> [!NOTE]
 > For details about the parameters used in the preceding command, type the following at the Lync Server Management Shell prompt:<BR>Get-Help New-CsTrustedApplicationPool -Full | more
 
 
@@ -80,10 +80,10 @@ Each watcher node must have a Default certificate assigned by using the Lync Ser
 
 2.  In the Lync Server Deployment Wizard, click **Install or Update Lync Server System** and then click **Run** under the heading **Request, Install, or Assign Certificate**.
     
-    <div>
+    <div class="alert">
     
 
-    > [!NOTE]  
+    > [!NOTE]
     > If the <STRONG>Run</STRONG> button is disabled, you may need to first click <STRONG>Run</STRONG> under <STRONG>Install Local Configuration Store</STRONG>.
 
     
@@ -111,10 +111,10 @@ After you have restarted the watcher node computer and configured a certificate,
     
         C:\Tools\Watchernode.msi Authentication=TrustedServer
     
-    <div>
+    <div class="alert">
     
 
-    > [!NOTE]  
+    > [!NOTE]
     > You can also run Watchernode.msi from a command window. To open a command window, click <STRONG>Start</STRONG>, right-click <STRONG>Command Prompt</STRONG>, and then click <STRONG>Run as administrator</STRONG>. When the command window opens, type the same preceding command.
 
     

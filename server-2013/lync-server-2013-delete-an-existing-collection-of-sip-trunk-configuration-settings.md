@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Delete an existing collection of SIP trunk configuration settings'
+title: 'Delete an existing collection of SIP trunk configuration settings'
 TOCTitle: Delete an existing collection of SIP trunk configuration settings
 ms:assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688024(v=OCS.15)
@@ -34,7 +34,7 @@ SIP trunk configuration settings define the relationship and capabilities betwee
 
   - Whether or not secure real-time protocol (SRTP) encryption is required on each trunk.
 
-When you install Microsoft Lync Server 2013, a global collection of SIP trunk configuration settings is created for you. This global collection of settings cannot be deleted. However, you can use the Lync Server Control Panel or the [Remove-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrunkConfiguration) cmdlet to "reset" the properties in the global collection to their default values. For example, if you have set the Enable3pccRefer property to True, when you reset the global collection the Enable3pccRefer property will revert to its default value of False.
+When you install Microsoft Lync Server 2013, a global collection of SIP trunk configuration settings is created for you. This global collection of settings cannot be deleted. However, you can use the Lync Server Control Panel or the [Remove-CsTrunkConfiguration](remove-cstrunkconfiguration.md) cmdlet to "reset" the properties in the global collection to their default values. For example, if you have set the Enable3pccRefer property to True, when you reset the global collection the Enable3pccRefer property will revert to its default value of False.
 
 Administrators can also create custom trunk configuration settings at the site scope or at the service scope (for an individual PSTN gateway); these custom settings can be removed. When removing these custom settings keep the following in mind:
 
@@ -96,7 +96,7 @@ You can delete trunk configuration settings by using Windows PowerShell and the 
 
 </div>
 
-For more information, see the help topic for the [Remove-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrunkConfiguration) cmdlet.
+For more information, see the help topic for the [Remove-CsTrunkConfiguration](remove-cstrunkconfiguration.md) cmdlet.
 
 </div>
 

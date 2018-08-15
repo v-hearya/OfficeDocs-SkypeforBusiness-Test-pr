@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Create or modify a collection of Lync Phone Edition configuration settings'
+title: 'Create or modify a collection of Lync Phone Edition configuration settings'
 TOCTitle: Create or modify a collection of Lync Phone Edition configuration settings
 ms:assetid: 6cf714af-8f57-4a71-89ad-0a776302b2ba
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688086(v=OCS.15)
@@ -46,10 +46,10 @@ Configuration settings consist of the collection name, scope (global or site), S
     
       - To edit any of the settings in an existing collection, click the collection, click the **Edit** menu, click **Show details**, and then make your changes.
         
-        <div>
+        <div class="alert">
         
 
-        > [!TIP]  
+        > [!TIP]
         > To go back to using the default settings for the global collection, click the global collection, click the <STRONG>Edit</STRONG> menu, click <STRONG>Delete</STRONG>, and then click <STRONG>OK</STRONG>. This will not delete the global collection; it just resets the settings to the defaults.
 
         
@@ -97,7 +97,7 @@ You can create Lync Phone Edition configuration settings can (at the site scope 
 
 </div>
 
-For details, see [New-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUCPhoneConfiguration).
+For details, see [New-CsUCPhoneConfiguration](new-csucphoneconfiguration.md).
 
 </div>
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configuring watcher node test users and configuration settings'
+title: 'Configuring watcher node test users and configuration settings'
 TOCTitle: Configuring watcher node test users and configuration settings
 ms:assetid: ab00e9cb-f539-4aa6-bcb4-5533fbe7bc44
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205152(v=OCS.15)
@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2013-07-29_
 
 After configuring the computer that will act as a watcher node, you must:
 
-1.  Create the test accounts to be used by these watcher nodes. If you are using the Negotiate authentication method, you must also use the [Set-CsTestUserCredential](https://docs.microsoft.com/en-us/powershell/module/skype/) cmdlet to enable these test accounts for use on the watcher node.
+1.  Create the test accounts to be used by these watcher nodes. If you are using the Negotiate authentication method, you must also use the [Set-CsTestUserCredential](set-cstestusercredential.md) cmdlet to enable these test accounts for use on the watcher node.
 
 2.  Update the watcher node configuration settings.
 
@@ -195,10 +195,10 @@ The preceding command will return information similar to this, depending on the 
     PersistentChatMessage
     DataConference
 
-<div>
+<div class="alert">
 
 
-> [!TIP]  
+> [!TIP]
 > To view the synthetic transactions in alphabetical order, use this command instead:<BR>Get-CsWatcherNodeConfiguration –Identity "atl-cs-001.litwareinc.com" | Select-Object –ExpandProperty Tests | Sort-Object
 
 

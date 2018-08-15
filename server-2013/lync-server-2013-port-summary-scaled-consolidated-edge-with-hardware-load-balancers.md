@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Port summary - Scaled consolidated edge with hardware load balancers'
+title: 'Port summary - Scaled consolidated edge with hardware load balancers'
 TOCTitle: Port summary - Scaled consolidated edge with hardware load balancers
 ms:assetid: 91213b1e-f875-464b-83e8-fe3a351595a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398739(v=OCS.15)
@@ -230,10 +230,10 @@ When configuring hardware load balancers, consider the following requirements:
 
   - The HLB Access Edge service VIP will act as the default gateway for each Edge server interface
 
-<div>
+<div class="alert">
 
 
-> [!NOTE]  
+> [!NOTE]
 > For further information on NAT planning and functionality, please refer to <A href="lync-server-2013-hardware-load-balancer-requirements.md">Hardware load balancer requirements for Lync Server 2013</A>.
 
 
