@@ -30,7 +30,7 @@ In addition to the software support described in the other sections of this Supp
 
   - Lync Server 2013 supports Domain Name System (DNS) and hardware load balancing for specific server roles. It also supports application load balancing for Mediation Servers, where appropriate. For details about when to use each, see the Planning documentation.
 
-  - Lync Server 2013 uses the Distribution List Expansion Protocol (DLX) to expand distribution lists. This protocol also specifies the web service method that is used to get the membership of a distribution list. Microsoft Exchange Server supports dynamic groups that do not have members statically assigned to them. Instead, they store queries that are evaluated when the group is expanded. DLX does not support dynamic distribution lists.
+  - Lync Server 2013 uses the Distribution List Expansion Protocol (DLX) to expand distribution lists. This protocol also specifies the web service method that is used to get the membership of a distribution list. Microsoft Exchange Server supports dynamic groups that do not have members statically assigned to them. Instead, they store queries that are evaluated when the group is expanded. DLX does not support dynamic distribution lists. This DLX limitation applies to all versions of Lync Server.
 
   - The Enable User Wizard does not support automatic conversion of non-English characters to a SIP-compliant URI, so you must modify the SIP address manually.
 
