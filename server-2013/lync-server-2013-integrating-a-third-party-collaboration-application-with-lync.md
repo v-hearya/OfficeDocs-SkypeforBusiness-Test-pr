@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Integrating a third-party collaboration application with Lync'
+title: 'Integrating a third-party collaboration application with Lync'
 TOCTitle: Integrating a third-party collaboration application with Lync
 ms:assetid: 00b9312c-b0c8-4f79-8b76-05b2d820e197
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398068(v=OCS.15)

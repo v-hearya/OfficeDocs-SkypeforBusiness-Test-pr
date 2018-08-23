@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configuring voice policies, PSTN usage records, and voice routes'
+title: 'Configuring voice policies, PSTN usage records, and voice routes'
 TOCTitle: Configuring voice policies, PSTN usage records, and voice routes
 ms:assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398272(v=OCS.15)
@@ -30,10 +30,10 @@ Voice policies, PSTN usage records, and voice routes are integrally related. You
 
 The recommended workflow for a new Enterprise Voice deployment is to start by configuring a voice policy that includes the appropriate PSTN usage records, and then associate the appropriate routes to each PSTN usage record.
 
-<div>
+<div class="alert">
 
 
-> [!NOTE]  
+> [!NOTE]
 > You can also create voice policies with <EM>user</EM> scope and assign them to individual users or groups.
 
 

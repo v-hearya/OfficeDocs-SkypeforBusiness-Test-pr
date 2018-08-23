@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Defining the user experience for manually acquiring a location'
+title: 'Defining the user experience for manually acquiring a location'
 TOCTitle: Defining the user experience for manually acquiring a location
 ms:assetid: d37f67d3-e248-483b-b64c-3986559ef357
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398912(v=OCS.15)
@@ -35,10 +35,10 @@ If a client is located outside the network, or in an undefined subnet, the user 
 
 When a user manually enters a location, the location is mapped to the MAC address of the default gateway of the client’s network, and is stored in a per-user table located on the client. When the user returns to any previously stored location, the Lync client automatically sets itself to that location.
 
-<div>
+<div class="alert">
 
 
-> [!NOTE]  
+> [!NOTE]
 > You can modify only the current location of your client, but you can also delete any location stored in the local user’s table.
 
 

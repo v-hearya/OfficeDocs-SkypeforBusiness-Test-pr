@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configure a trusted application entry for remote call control'
+title: 'Configure a trusted application entry for remote call control'
 TOCTitle: Configure a trusted application entry for remote call control
 ms:assetid: 37777f93-8b24-40cf-808e-7c6230eb2132
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558636(v=OCS.15)
@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2015-11-02_
 
 The SIP/CSTA gateway must be configured as a trusted application in order for Lync Server to apply a static route to route calls to the gateway.
 
-<div>
+<div class="alert">
 
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > If you're migrating users from a previous version of Lync Server deployment, be sure that you removed all existing trusted application entries (previously known as authorized host entries) you created for the SIP/CSTA gateway before following the procedures in this topic. For details, see <A href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Remove a legacy authorized host in Lync Server 2013 (optional)</A>.<BR>If you plan to deploy new remote call control by using a Transmission Control Protocol (TCP) connection, you need to verify that <STRONG>Limit service usage to selected IP addresses</STRONG> should be set on existing trusted applications and pools, if you want to use the same TCP port for the new trusted application.
 
 

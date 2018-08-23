@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Deploy a Survivable Branch Appliance or Server - branch site task'
+title: 'Deploy a Survivable Branch Appliance or Server - branch site task'
 TOCTitle: Deploy a Survivable Branch Appliance or Server - branch site task
 ms:assetid: 7989ba29-0419-46dd-892c-4ad3238afd56
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398599(v=OCS.15)
@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2014-10-28_
 
 Perform one of the two procedures described in this topic at the branch site, after successfully completing the tasks in [Deploying a Survivable Branch Appliance or Server with Lync Server 2013 - central site tasks](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md).
 
-<div>
+<div class="alert">
 
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > To perform this procedure, you must be a member of the RTCUniversalSBATechnicians group.
 
 
@@ -52,10 +52,10 @@ Perform one of the two procedures described in this topic at the branch site, af
 
   - Install Lync Server 2013 on a computer running Windows Server 2008 R2, Windows Server 2012, or Windows Server 2012 R2, just as you would install any other Lync Server 2013 server role.
     
-    <div>
+    <div class="alert">
     
 
-    > [!NOTE]  
+    > [!NOTE]
     > For information about installing Lync Server, see <A href="lync-server-2013-deploying-lync-server.md">Deploying Lync Server 2013</A> in the Deployment documentation.
 
     

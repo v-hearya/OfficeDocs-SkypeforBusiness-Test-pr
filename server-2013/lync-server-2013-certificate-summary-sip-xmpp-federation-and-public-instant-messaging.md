@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Certificate summary - SIP, XMPP federation, and public instant messaging'
+title: 'Certificate summary - SIP, XMPP federation, and public instant messaging'
 TOCTitle: Certificate summary - SIP, XMPP federation, and public instant messaging
 ms:assetid: 933d6351-cfa6-4432-b3ed-1aff3ac92065
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618372(v=OCS.15)
@@ -60,25 +60,25 @@ To confirm that you have met the correct certificate requirements for your Edge 
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>contoso.com</p>
-<div>
+<div class="alert">
 
-> [!NOTE]  
+> [!NOTE]
 > To support the contoso.com XMPP namespace
 
 
 </div>
 <p>sip.fabrikam.com</p>
-<div>
+<div class="alert">
 
-> [!NOTE]  
+> [!NOTE]
 > To support the fabrikam.com SIP namespace
 
 
 </div>
 <p>fabrikam.com</p>
-<div>
+<div class="alert">
 
-> [!NOTE]  
+> [!NOTE]
 > To support the fabrikam.com XMPP namespace
 
 
@@ -89,9 +89,9 @@ To confirm that you have met the correct certificate requirements for your Edge 
 <li><p>Web Conferencing Edge service</p></li>
 <li><p>A/V Edge service</p></li>
 </ul>
-<div>
+<div class="alert">
 
-> [!NOTE]  
+> [!NOTE]
 > Technically, a certificate is not assigned to the A/V Edge. Secure communication and authentication is managed by way of the Media Relay Authentication Service (MRAS). MRAS uses the certificate assigned to the Edge Server internal interface.
 
 

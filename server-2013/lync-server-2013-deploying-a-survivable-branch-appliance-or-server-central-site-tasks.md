@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Deploying a Survivable Branch Appliance or Server - central site tasks'
+title: 'Deploying a Survivable Branch Appliance or Server - central site tasks'
 TOCTitle: Deploying a Survivable Branch Appliance or Server - central site tasks
 ms:assetid: 0f631a36-fc2e-41cd-8a0d-f27e84f4a89e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398189(v=OCS.15)
@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2012-10-18_
 
 Complete the tasks in this section at the central site. If you’re deploying a Survivable Branch Server, skip the first task.
 
-<div>
+<div class="alert">
 
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > Before you perform the tasks in this section, the following conditions must be in place: 
 > <UL>
 > <LI>

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Managing server-to-server authentication (OAuth) and partner applications'
+title: 'Managing server-to-server authentication (OAuth) and partner applications'
 TOCTitle: Managing server-to-server authentication (OAuth) and partner applications
 ms:assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204817(v=OCS.15)
@@ -32,10 +32,10 @@ Using a single, standardized method for server-to-server authentication is the a
 
 OAuth authentication typically involves three parties: a single authorization server and the two realms that need to communicate with one another. (You can also do server-to-server authentication without using an authorization server, a process that will be discussed later in this document.) Security tokens are issued by the authorization server (also known as a security token server) to the two realms that need to communicate; these tokens verify that communications originating from one realm should be trusted by the other realm. For example, the authorization server might issue tokens that verify that users from a specific Lync Server 2013 realm are able to access a specified Exchange 2013 realm, and vice-versa.
 
-<div>
+<div class="alert">
 
 
-> [!NOTE]  
+> [!NOTE]
 > A realm is simply a security container. By default, Lync Server 2013 uses your default SIP domain as its OAuth realm. Additional SIP namespaces are added to the Subject Alternate Name list in the OAuth certificate.
 
 
@@ -66,10 +66,10 @@ In order to configure server-to-server authentication for an on-premises impleme
 
   - Configure the server that Lync Server 2013 will communicate with to be a "partner application." For example, if Lync Server 2013 needs to communicate with Exchange 2013 then you will need to configure Exchange to be a partner application.
 
-<div>
+<div class="alert">
 
 
-> [!NOTE]  
+> [!NOTE]
 > A "partner application" is any application that Lync Server 2013 can directly exchange security tokens with, without having to go through a third-party security token server.
 
 

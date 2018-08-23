@@ -128,8 +128,9 @@ Edge failover scenarios supported with DNS Load Balancing are Lync-to-Lync point
 > <ul>
 > <li><p>Routable public IP addresses</p></li>
 > <li><p>Non-routable private IP address if symmetric network address translation (NAT) is used</p>
-> [!NOTE]
-> If you use public IP address or private IP address with NAT, you will still use the same number of IP addresses based on your configuration choice in Topology Builder. You can configure the Edge Server to use a single IP address with distinct ports per service, or use distinct IP addresses per service, but use the same port (by default, TCP 443).</li></ul>
+  > [!NOTE]
+  > If you use public IP address or private IP address with NAT, you will still use the same number of IP addresses based on your configuration choice in Topology Builder. You can configure the Edge Server to use a single IP address with distinct ports per service, or use distinct IP addresses per service, but use the same port (by default, TCP 443).</li>
+>  </ul>
 > If you decide to use non-routable private IP addresses with NAT:
 > <ul><li><p>You must use routable private IP addresses on all three external interfaces</p></li>
 > <li><p>You must configure symmetric NAT for incoming and outgoing traffic</p></li></ul>

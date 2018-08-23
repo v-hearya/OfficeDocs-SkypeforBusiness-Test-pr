@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Using search on capture logs created by the Centralized Logging Service'
+title: 'Using search on capture logs created by the Centralized Logging Service'
 TOCTitle: Using search on capture logs created by the Centralized Logging Service
 ms:assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687982(v=OCS.15)
@@ -60,10 +60,10 @@ The remainder of this topic focuses on how to define a search to optimize your t
     
         Search-CsClsLogging -OutputFilePath <string value of path and file to write the output file>
     
-    <div>
+    <div class="alert">
     
 
-    > [!NOTE]  
+    > [!NOTE]
     > By default, Search-CsClsLogging sends the results of the search to the console. If you want to save the search results to a file, use –OutputFilePath &lt;string fully qualified file path&gt;. To define the –OutputFilePath parameter, supply a path and a filename as part of the parameter in a string format enclosed in quotation marks (for example; C:\LogFiles\SearchOutput.txt). In this example, you must ensure that the directory C:\LogFiles exists and that you have permissions to Read and Write (NTFS permission Modify) files in the folder. The output is appended to and is not overwritten. If you need separate files, define a distinct file name for each search.
 
     
@@ -117,10 +117,10 @@ The remainder of this topic focuses on how to define a search to optimize your t
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
     
-    <div>
+    <div class="alert">
     
 
-    > [!NOTE]  
+    > [!NOTE]
     > The time and date string that you specify can be "date time" or "time date. " The command will parse the string and use the appropriate values for date and time.
 
     

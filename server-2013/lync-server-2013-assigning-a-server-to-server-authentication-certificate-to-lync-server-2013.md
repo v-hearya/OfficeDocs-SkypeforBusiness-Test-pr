@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Assigning a server-to-server authentication certificate to Lync Server 2013'
+title: 'Assigning a server-to-server authentication certificate to Lync Server 2013'
 TOCTitle: Assigning a server-to-server authentication certificate to Microsoft Lync Server 2013
 ms:assetid: c7413954-2504-47f4-a073-44548aff1c0c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205253(v=OCS.15)
@@ -56,10 +56,10 @@ On July 1, 2012 the new certificate will be configured as the current OAuthToken
 
 If you do not want to use Windows PowerShell you can also use the Certificates MMC console to export a certificate from one Front End Server and then import that same certificate on all your other Front End Servers. If you do this, make sure that you export the private key along with the certificate itself.
 
-<div>
+<div class="alert">
 
 
-> [!WARNING]  
+> [!WARNING]
 > In this case, the procedure must be performed on each Front End Server. When exporting and importing certificates in this manner Lync Server 2013 will not replicate that certificate to each Front End Server.
 
 

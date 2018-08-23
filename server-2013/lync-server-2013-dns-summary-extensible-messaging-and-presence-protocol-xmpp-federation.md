@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: DNS summary - Extensible messaging and presence protocol (XMPP) federation'
+title: 'DNS summary - Extensible messaging and presence protocol (XMPP) federation'
 TOCTitle: DNS summary - Extensible messaging and presence protocol (XMPP) federation
 ms:assetid: 0f720a2a-8ab5-43cc-882a-ab595ed3cec7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618368(v=OCS.15)

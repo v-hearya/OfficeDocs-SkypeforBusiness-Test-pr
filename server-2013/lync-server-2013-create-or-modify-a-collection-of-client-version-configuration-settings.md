@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Create or modify a collection of client version configuration settings'
+title: 'Create or modify a collection of client version configuration settings'
 TOCTitle: Create or modify a collection of client version configuration settings
 ms:assetid: 4e6faffd-a36f-40f1-8734-78d84b7df921
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898477(v=OCS.15)
@@ -28,10 +28,10 @@ _**Topic Last Modified:** 2013-02-23_
 
 Client version configuration settings are used to turn client version control on or off. The global client version configuration installs with Lync Server and is used to enable or disable client version control for the entire server deployment. You can also configure client version configuration settings for individual sites. You can create or modify client version configuration settings from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.
 
-<div>
+<div class="alert">
 
 
-> [!NOTE]  
+> [!NOTE]
 > Because anonymous users are not associated with a user, site, or service, anonymous users are affected by global-level policies only.
 
 
@@ -92,7 +92,7 @@ You can create client version configuration settings by using the **New-CsClient
 
 </div>
 
-For details, see the Help topic for the [New-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionConfiguration) and [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration) cmdlets.
+For details, see the Help topic for the [New-CsClientVersionConfiguration](new-csclientversionconfiguration.md) and [Set-CsClientVersionConfiguration](set-csclientversionconfiguration.md) cmdlets.
 
 </div>
 

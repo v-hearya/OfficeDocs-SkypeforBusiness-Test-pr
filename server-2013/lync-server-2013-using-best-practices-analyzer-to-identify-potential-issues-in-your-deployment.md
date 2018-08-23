@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Using Best Practices Analyzer to identify potential issues in your deployment'
+title: 'Using Best Practices Analyzer to identify potential issues in your deployment'
 TOCTitle: Using Best Practices Analyzer to identify potential issues in your deployment
 ms:assetid: 0903063c-4766-4406-92f1-dfea48f274a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591342(v=OCS.15)

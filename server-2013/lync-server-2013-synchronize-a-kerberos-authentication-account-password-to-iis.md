@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Synchronize a Kerberos authentication account password to IIS'
+title: 'Synchronize a Kerberos authentication account password to IIS'
 TOCTitle: Synchronize a Kerberos authentication account password to IIS
 ms:assetid: 05925a66-2684-4c1b-adfa-69bd0da1bf38
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398107(v=OCS.15)
@@ -46,19 +46,19 @@ In a site, Front End Servers, Standard Edition servers, and Directors can use a 
     
         Set-CsKerberosAccountPassword -FromComputer fe01.contoso.com -ToComputer dir01.contoso.com
     
-    <div>
+    <div class="alert">
     
 
-    > [!IMPORTANT]  
+    > [!IMPORTANT]
     > The name of the source computer and destination computer must be a fully qualified domain (FQDN) name of the server. You cannot use the pool FQDN unless the pool name is the same as the name of the computer that you are using as a source computer or destination computer.
 
     
     </div>
     
-    <div>
+    <div class="alert">
     
 
-    > [!IMPORTANT]  
+    > [!IMPORTANT]
     > After making any changes to Kerberos authentication, such as adding an account or removing an account, you must run <STRONG>Enable-CsTopology</STRONG> from the Lync Server Management Shell command prompt.
 
     

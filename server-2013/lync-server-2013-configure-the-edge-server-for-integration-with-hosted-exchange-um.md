@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configure the Edge Server for integration with hosted Exchange UM'
+title: 'Configure the Edge Server for integration with hosted Exchange UM'
 TOCTitle: Configure the Edge Server for integration with hosted Exchange UM
 ms:assetid: ede3f2f9-f412-418e-a705-8d8ec98176c5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399075(v=OCS.15)
@@ -36,14 +36,14 @@ To provide your Lync Server 2013 users with voice mail capabilities on hosted Ex
 
 For details, see the Lync Server Management Shell documentation for the following cmdlets:
 
-  - [Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAccessEdgeConfiguration)
+  - [Set-CsAccessEdgeConfiguration](set-csaccessedgeconfiguration.md)
 
-  - [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
+  - [New-CsHostingProvider](new-cshostingprovider.md)
 
-<div>
+<div class="alert">
 
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > You must create an external DNS SRV record for the hosting Exchange service before you perform these steps. For details, see <A href="lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md">Create a DNS SRV record for integration with hosted Exchange UM</A>.
 
 
@@ -96,10 +96,10 @@ For details, see the Lync Server Management Shell documentation for the followin
     
       - **EnabledSharedAddressSpace** indicates whether the hosting provider is being used in a shared SIP address space (split domain) scenario.
         
-        <div>
+        <div class="alert">
         
 
-        > [!NOTE]  
+        > [!NOTE]
         > Before you set <CODE>EnableSharedAddressSpace</CODE> to True, try to resolve the Federation SRV record internally. If this record cannot be resolved internally, then you need to create the records, _sipfederationtls._tcp.&lt;domain&gt; and _sip._tls.&lt;domain&gt; in the internal DNS. These records should point to the external IP address of the Access Interface of the Edge Server.
 
         
@@ -126,7 +126,7 @@ For details, see the Lync Server Management Shell documentation for the followin
 [Verify connectivity between internal servers and Edge Servers in Lync Server 2013](lync-server-2013-verify-connectivity-between-internal-servers-and-edge-servers.md)  
 
 
-[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)  
+[New-CsHostingProvider](new-cshostingprovider.md)  
   
 
 </div>
