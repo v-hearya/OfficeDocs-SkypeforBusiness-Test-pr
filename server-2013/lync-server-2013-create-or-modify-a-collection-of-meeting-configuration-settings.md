@@ -62,7 +62,7 @@ You can use the settings on the Meeting Configuration page to define various cha
     
       - To customize the logo that appears in the meeting invite, in **Logo URL**, enter the location of the logo.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]

@@ -50,7 +50,7 @@ An example configuration for deploying the XMPP Proxy defines a federation with 
 
 7.  On the Edge Server, in the Lync Server Deployment Wizard, next to **Step 3: Request, Install, or Assign Certificates**, click **Run again**.
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]
@@ -87,7 +87,7 @@ An example configuration for deploying the XMPP Proxy defines a federation with 
 
 18. On the **Configure Additional Subject Alternate Names** page, specify any additional subject alternative names that are required.
     
-    <div class="alert">
+    <div>
     
 
     > [!TIP]

@@ -230,7 +230,7 @@ When configuring hardware load balancers, consider the following requirements:
 
   - The HLB Access Edge service VIP will act as the default gateway for each Edge server interface
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

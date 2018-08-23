@@ -38,7 +38,7 @@ This topic describes how to configure the Domain Name System (DNS) SRV record th
 
 3.  In the console tree for your SIP domain, expand **Forward Lookup Zones**, and select the SIP domain in which Lync Server 2013 will be installed.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -59,7 +59,7 @@ This topic describes how to configure the Domain Name System (DNS) SRV record th
 
 9.  Click **Host offering this service**, and then type the fully qualified domain name (FQDN) of the Lync Server 2013 Edge pool that provides access to your Lync Server 2013 system for trusted external clients.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

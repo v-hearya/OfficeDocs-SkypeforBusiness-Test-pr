@@ -66,7 +66,7 @@ Use the Lync Server Management Shell to configure a hosting provider on the Edge
 
     New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

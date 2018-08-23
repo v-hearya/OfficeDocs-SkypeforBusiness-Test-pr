@@ -46,7 +46,7 @@ In a site, Front End Servers, Standard Edition servers, and Directors can use a 
     
         Set-CsKerberosAccountPassword -FromComputer fe01.contoso.com -ToComputer dir01.contoso.com
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -55,7 +55,7 @@ In a site, Front End Servers, Standard Edition servers, and Directors can use a 
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

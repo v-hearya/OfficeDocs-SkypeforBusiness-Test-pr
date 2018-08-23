@@ -28,7 +28,7 @@ _**Topic Last Modified:** 2014-10-28_
 
 Perform one of the two procedures described in this topic at the branch site, after successfully completing the tasks in [Deploying a Survivable Branch Appliance or Server with Lync Server 2013 - central site tasks](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md).
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -52,7 +52,7 @@ Perform one of the two procedures described in this topic at the branch site, af
 
   - Install Lync Server 2013 on a computer running Windows Server 2008 R2, Windows Server 2012, or Windows Server 2012 R2, just as you would install any other Lync Server 2013 server role.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
