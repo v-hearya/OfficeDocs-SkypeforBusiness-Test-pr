@@ -48,7 +48,7 @@ In addition, the cumulative update for Lync Server 2010: November 2011 installer
 
   - On Front End Servers or Standard Edition servers and on Directors to enable mobile devices to automatically discover mobility resources
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -60,7 +60,7 @@ In addition, the cumulative update for Lync Server 2010: November 2011 installer
 
 Lync Server requires the following IIS modules to be installed:
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -184,7 +184,7 @@ The following table lists the URIs for the virtual directories for internal acce
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -194,7 +194,7 @@ The following table lists the URIs for the virtual directories for internal acce
 
 </div>
 
-<div class="alert">
+<div>
 
 <table>
 <thead>

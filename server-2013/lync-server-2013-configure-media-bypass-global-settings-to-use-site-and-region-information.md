@@ -26,7 +26,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2012-09-21_
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -42,7 +42,7 @@ In addition to enabling media bypass for individual trunk connections associated
 
   - Call admission control (CAC) for bandwidth management is enabled.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -73,7 +73,7 @@ Furthermore, for bypass to work properly there must be consistency between a sit
 
 6.  If necessary, select the **Enable bypass for non-mapped sites** check box.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -86,7 +86,7 @@ Furthermore, for bypass to work properly there must be consistency between a sit
 
 Next, add subnets to the network site, as described in [Associate subnets with network sites for media bypass in Lync Server 2013](lync-server-2013-associate-subnets-with-network-sites-for-media-bypass.md). (The actual procedures for associating subnets with network sites are described in [Associate a subnet with a network site in Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).) After you associate all subnets with network sites, media bypass deployment is complete.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

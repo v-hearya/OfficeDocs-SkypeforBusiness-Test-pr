@@ -30,7 +30,7 @@ Front End Servers provide most Lync Server functionality. There are two editions
 
 Instant messaging (IM) enables your users to communicate with each other in real time on their computers using text-based messages. Both two-party and multiparty IM sessions are supported. A participant in a two-party IM conversation can add a third participant to the conversation at any time. When this happens, the Conversation window changes to support conferencing features.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

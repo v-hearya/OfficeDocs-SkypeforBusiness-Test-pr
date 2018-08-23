@@ -60,42 +60,42 @@ To confirm that you have met the correct certificate requirements for your Edge 
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>contoso.com</p>
-<div class="alert">
+
+
 
 > [!NOTE]
 > To support the contoso.com XMPP namespace
 
 
-</div>
 <p>sip.fabrikam.com</p>
-<div class="alert">
+
+
 
 > [!NOTE]
 > To support the fabrikam.com SIP namespace
 
 
-</div>
 <p>fabrikam.com</p>
-<div class="alert">
+
+
 
 > [!NOTE]
 > To support the fabrikam.com XMPP namespace
 
-
-</div></td>
+</td>
 <td><p>The certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed. The certificate is assigned to the external Edge Server interfaces for:</p>
 <ul>
 <li><p>Access Edge service</p></li>
 <li><p>Web Conferencing Edge service</p></li>
 <li><p>A/V Edge service</p></li>
 </ul>
-<div class="alert">
+
+
 
 > [!NOTE]
 > Technically, a certificate is not assigned to the A/V Edge. Secure communication and authentication is managed by way of the Media Relay Authentication Service (MRAS). MRAS uses the certificate assigned to the Edge Server internal interface.
 
 
-</div>
 <p>Note that SANs are automatically added to the certificate based on your definitions in Topology Builder. You add SAN entries as needed for additional SIP domains and other entries that you need to support. The subject name is replicated in the SAN and must be present for correct operation.</p></td>
 </tr>
 </tbody>

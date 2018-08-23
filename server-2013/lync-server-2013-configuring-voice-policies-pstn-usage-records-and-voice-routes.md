@@ -30,7 +30,7 @@ Voice policies, PSTN usage records, and voice routes are integrally related. You
 
 The recommended workflow for a new Enterprise Voice deployment is to start by configuring a voice policy that includes the appropriate PSTN usage records, and then associate the appropriate routes to each PSTN usage record.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

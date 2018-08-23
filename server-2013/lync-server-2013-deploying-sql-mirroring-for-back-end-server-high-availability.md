@@ -52,7 +52,7 @@ With SQL mirroring, database recovery mode is always set to **Full**, which mean
 
 With SQL mirroring, you can either configure the topology for mirroring when you create the pools, or after the pools are already created.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -62,7 +62,7 @@ With SQL mirroring, you can either configure the topology for mirroring when you
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -79,7 +79,7 @@ With SQL mirroring, you can either configure the topology for mirroring when you
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

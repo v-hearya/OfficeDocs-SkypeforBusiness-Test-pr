@@ -48,7 +48,7 @@ Dial-in conferencing requires the following Lync Server 2013 components:
 
 You deploy these components when you use the Topology Builder to define and publish your topology and then deploy a Front End pool or a Standard Edition server. If you are deploying Enterprise Voice, you should deploy it before you configure dial-in conferencing. If you are not deploying Enterprise Voice, you can deploy a Mediation Server and a public switched telephone network (PSTN) gateway when you deploy your Front End pool or Standard Edition server.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -66,7 +66,7 @@ This section assumes that you have done the following:
 
   - Published your topology, and set up the Front End pool or Standard Edition server. For details about publishing the topology and installing Lync Server 2013, see [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md) in the Deployment documentation.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -75,7 +75,7 @@ This section assumes that you have done the following:
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

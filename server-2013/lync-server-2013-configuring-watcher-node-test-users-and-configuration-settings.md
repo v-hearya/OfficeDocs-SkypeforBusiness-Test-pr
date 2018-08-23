@@ -195,7 +195,7 @@ The preceding command will return information similar to this, depending on the 
     PersistentChatMessage
     DataConference
 
-<div class="alert">
+<div>
 
 
 > [!TIP]

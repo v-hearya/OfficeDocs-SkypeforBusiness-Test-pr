@@ -54,7 +54,7 @@ You can configure two network adapters in each of your Edge Servers as follows:
     
     Three public IP addresses are assigned to this network adapter, for example 131.107.155.10 for Access Edge service, 131.107.155.20 for Web Conferencing Edge service, 131.107.155.30 for A/V Edge service.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -67,7 +67,7 @@ You can configure two network adapters in each of your Edge Servers as follows:
     
     Web Conferencing Edge service and A/V Edge service IP addresses secondary.
 
-<div class="alert">
+<div>
 
 
 > [!TIP]
