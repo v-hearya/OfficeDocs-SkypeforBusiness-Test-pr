@@ -71,7 +71,7 @@ If you are deploying an Enterprise server, a minimum number of Front End Servers
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -126,7 +126,7 @@ After you have defined your topology, use the following procedure to define a Fr
     
       - **Monitoring**   Monitoring Server enables you to collect numerical data that describes the media quality on your network and endpoints, usage information related to VoIP calls, IM messages, A/V conversations, meetings, application sharing, and file transfers, and call error and troubleshooting information for failed calls.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -196,7 +196,7 @@ After you have defined your topology, use the following procedure to define a Fr
     
       - If you intend to deploy the Mediation Server as a stand-alone server, clear the appropriate check box. You will deploy Mediation Server in a separate deployment step after you completely deploy the Front End Server.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -239,7 +239,7 @@ After you have defined your topology, use the following procedure to define a Fr
     
       - To define a new file share, select **Define a new file share**, in the **File Server FQDN** box, enter the FQDN of the existing file server where the file share is to reside, and then enter a name for the file share in the **File Share** box.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -250,7 +250,7 @@ After you have defined your topology, use the following procedure to define a Fr
 
 9.  On the **Specify the Web Services URL** page, do one or both of the following:
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -259,7 +259,7 @@ After you have defined your topology, use the following procedure to define a Fr
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
     > [!WARNING]
@@ -270,7 +270,7 @@ After you have defined your topology, use the following procedure to define a Fr
     
     1.  If you are configuring DNS load balancing, select the **Override internal Web Services pool FQDN** check box, enter the internal base URL (which must be different from the pool FQDN and could be, for example, internal-\<your base URL\>) in **Internal Base URL**.
         
-        <div class="alert">
+        <div>
         
 
         > [!WARNING]
@@ -281,7 +281,7 @@ After you have defined your topology, use the following procedure to define a Fr
     
     2.  Optionally enter the external base URL in **External Base URL**. You would enter the external base URL to differentiate it from your internal domain naming. For example, your internal domain is contoso.net, but your external domain name is contoso.com. You would define the URL using the contoso.com domain name. This is also important in the case of a reverse proxy. The external base URL domain name would be the same as the domain name of the FQDN of the reverse proxy. Instant messaging and presence does require HTTP access to the Front End pool.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -298,7 +298,7 @@ After you have defined your topology, use the following procedure to define a Fr
     
     If the Office Web Apps Server is deployed outside your internal firewall, then select the option **Office Web Apps Server is deployed in an external network (that is, perimeter/Internet)**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

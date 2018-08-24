@@ -38,7 +38,7 @@ Some Lync Server 2013 roles run Web Services on Internet Information Services (I
 
 3.  On the **Executing Commands** page, when the task status is shown as completed, click **Finish**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

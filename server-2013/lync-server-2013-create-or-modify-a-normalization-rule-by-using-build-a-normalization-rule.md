@@ -68,7 +68,7 @@ Complete the following steps if you want to create or modify a normalization rul
 
 9.  (Optional) Enter a number to test the normalization rule, and then click **Go**. The test results are displayed under **Enter a number to test**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -83,7 +83,7 @@ Complete the following steps if you want to create or modify a normalization rul
 
 12. On the **Dial Plan** page, click **Commit**, and then click **Commit all**.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]

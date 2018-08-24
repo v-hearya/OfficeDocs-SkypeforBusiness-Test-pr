@@ -60,7 +60,7 @@ To prepare for call admission control, gather the information described in the f
     
     ![Network Topology Example with 3 Network Regions](images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "Network Topology Example with 3 Network Regions")  
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -104,7 +104,7 @@ To prepare for call admission control, gather the information described in the f
     </tbody>
     </table>
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -280,7 +280,7 @@ To prepare for call admission control, gather the information described in the f
 
 6.  For every subnet in your network, specify its associated network site.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
@@ -289,7 +289,7 @@ To prepare for call admission control, gather the information described in the f
     
     </div>
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -459,7 +459,7 @@ To prepare for call admission control, gather the information described in the f
 
 8.  Define a route between every pair of network regions.
     
-    <div class="alert">
+    <div>
     
 
     > [!NOTE]
@@ -568,7 +568,7 @@ To prepare for call admission control, gather the information described in the f
 
 After you have gathered the required information, you can perform CAC deployment either by using the Lync Server Management Shell or Lync Server Control Panel.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]

@@ -46,7 +46,7 @@ Configuration settings consist of the collection name, scope (global or site), S
     
       - To edit any of the settings in an existing collection, click the collection, click the **Edit** menu, click **Show details**, and then make your changes.
         
-        <div class="alert">
+        <div>
         
 
         > [!TIP]

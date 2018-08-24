@@ -22,7 +22,7 @@ mtps_version: v=OCS.15
 
 <div id="mainBody">
 
-<span> </span>
+<span> </span>
 
 _**Topic Last Modified:** 2018-02-09_
 
@@ -61,7 +61,7 @@ You can use Lync Server Control Panel to assign users to a specific server or po
     <div>
     
 
-    > [!WARNING]  
+    > [!Caution]  
     > If you select <STRONG>Force</STRONG>, the user account is moved, but associated user data such scheduled conferences and contacts is not moved.
 
     
@@ -90,7 +90,7 @@ You can use Lync Server Control Panel to assign users to a specific server or po
     <div>
     
 
-    > [!WARNING]  
+    > [!Caution]  
     > If you select <STRONG>Force</STRONG>, the user account is moved, but associated user data such scheduled conferences and contacts is not moved.
 
     
@@ -132,7 +132,7 @@ You can use Lync Server Control Panel to assign users to a specific server or po
     <div>
     
 
-    > [!WARNING]  
+    > [!Caution]  
     > If you select <STRONG>Force</STRONG>, the user account is moved, but associated user data such scheduled conferences and contacts is not moved.
 
     
@@ -180,7 +180,7 @@ You can use Lync Server Control Panel to assign users to a specific server or po
 
 </div>
 
-<span> </span>
+<span> </span>
 
 </div>
 

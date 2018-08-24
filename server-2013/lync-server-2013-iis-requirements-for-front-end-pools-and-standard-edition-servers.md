@@ -49,6 +49,7 @@ In addition, the cumulative update for Lync Server 2010: November 2011 installer
   - On Front End Servers or Standard Edition servers and on Directors to enable mobile devices to automatically discover mobility resources
 
 
+
 > [!NOTE]
 > If you are deploying mobility, we recommend that you use IIS 7.5. The Lync Server Mobility Service installer sets some ASP.NET flags to improve performance. IIS 7.5 is installed by default on Windows Server 2008 R2, and the Mobility Service installer automatically changes the ASP.NET settings. If you use IIS 7.0 on Windows Server 2008, you need to manually change these settings.
 
@@ -177,7 +178,6 @@ The following table lists the URIs for the virtual directories for internal acce
 
 > [!NOTE]
 > For Front End pools in a consolidated configuration, you must deploy IIS before you can add servers to the pool.
-
 
 
 <table>

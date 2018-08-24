@@ -60,7 +60,7 @@ Follow these steps to create or modify a user-level or a site-level dial-in conf
 
 12. To allow common patterns of digits in PINs, such as sequential numbers and repetitive sets of numbers, select the **Allow common patterns** check box. If you do not select this option, only complex patterns of digits are allowed. By default, only complex patterns of digits are allowed.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]
