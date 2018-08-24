@@ -54,13 +54,13 @@ You also must install a public web server certificate on your reverse proxy serv
 <td><p>Subject alternative name</p></td>
 <td><p>Pool FQDN</p></td>
 <td><p>webext.contoso.com</p>
-<div class="alert">
+
+
 
 > [!IMPORTANT]
 > The subject name must also be present in the subject alternative name.
 
-
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p>Subject alternative name</p></td>
@@ -70,13 +70,13 @@ You also must install a public web server certificate on your reverse proxy serv
 <tr class="even">
 <td><p>Subject alternative name</p></td>
 <td><p>Meeting simple URL</p>
-<div class="alert">
+
+
 
 > [!NOTE]
 > All meeting simple URLs must be in the subject alternative name. Each SIP domain must have at least one active meeting simple URL.
 
-
-</div></td>
+</td>
 <td><p>meet.contoso.com</p></td>
 </tr>
 <tr class="odd">
@@ -93,19 +93,19 @@ You also must install a public web server certificate on your reverse proxy serv
 <td><p>Subject alternative name</p></td>
 <td><p>External Autodiscover Service URL</p></td>
 <td><p>lyncdiscover.contoso.com</p>
-<div class="alert">
+
+
 
 > [!NOTE]
 > If you are also using Microsoft Exchange Server you will also need to configure reverse proxy rules for the Exchange autodiscover and web services URLs.
 
-
-</div></td>
+</td>
 </tr>
 </tbody>
 </table>
 
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -121,7 +121,7 @@ You also must install a public web server certificate on your reverse proxy serv
 
 You create a certificate request on the reverse proxy. You create a request on another computer, but you must export the signed certificate with the private key and import it onto the reverse proxy once you have received it from the public certification authority.
 
-<div class="alert">
+<div>
 
 
 > [!NOTE]
@@ -131,7 +131,7 @@ You create a certificate request on the reverse proxy. You create a request on a
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!TIP]
@@ -171,7 +171,7 @@ To generate a certificate signing request on the computer where the certificate 
 
 13. On the **Certificate Properties** page, click the **Private Key** tab. Click the **Key options** arrow. For **Key size**, select **2048** from the drop down. If you are generating this key pair and CSR on a computer other than the reverse proxy that this certificate is intended for, select **Make private key exportable**.
     
-    <div class="alert">
+    <div>
     
     <table>
     <thead>
@@ -202,7 +202,7 @@ To generate a certificate signing request on the computer where the certificate 
 
 20. Locate the request file that you saved in the previous step. Submit to your public certification authority.
     
-    <div class="alert">
+    <div>
     
 
     > [!IMPORTANT]

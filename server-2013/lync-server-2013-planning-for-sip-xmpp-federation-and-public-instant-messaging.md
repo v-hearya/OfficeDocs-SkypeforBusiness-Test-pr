@@ -73,7 +73,7 @@ Enabling federation between Microsoft Lync Server 2013, Lync Server 2010 and Off
       - <span></span>  
         For manual configuration of federation, you must have the fully qualified domain name (FQDN) of the partner’s Edge Server and domain name, or online domain name, which is entered in the Lync Server Control Panel, **Federation and External Access**, **SIP Federated Domains**. Create a **New** policy or **Edit** an existing policy to either allow or block domains by FQDN.
         
-        <div class="alert">
+        <div>
         
 
         > [!WARNING]
@@ -82,7 +82,7 @@ Enabling federation between Microsoft Lync Server 2013, Lync Server 2010 and Off
         
         </div>
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]
@@ -94,7 +94,7 @@ Enabling federation between Microsoft Lync Server 2013, Lync Server 2010 and Off
       - <span></span>  
         For discovered partner federation, where partners can discover your Edge Server, you create an SRV record in your external DNS - \_sipfederationtls.\_tcp.contoso.com – which points to the port 5061 and the host (A) record of your Edge Server
         
-        <div class="alert">
+        <div>
         
 
         > [!IMPORTANT]
@@ -111,7 +111,7 @@ The following information will aid you in defining the certificate, port/protoco
 
 Planning for certificates, firewall and port/protocol requirements and DNS requirements is generally a straight forward process if you have planned or deployed your Microsoft Lync Server 2013 Edge Servers. Because federation is an additional feature that uses the existing Edge Server, the planning requirements are generally met by the Edge Server planning and deployment. You should use the following tables to determine that your requirements are met and make changes in port/protocol and DNS accordingly.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -137,7 +137,7 @@ Public Instant Messaging Connectivity is a class of federation, and is configure
 
   - America Online (AOL) contacts
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -171,7 +171,7 @@ Previous versions of Lync Server and Office Communications Server provided an ex
 
 Deployment and configuration of XMPP is covered in [Deploying external user access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) You plan for supporting XMPP in your organization by defining port and protocol rules on your firewall, configuration of certificates, and adding DNS records. The following topics in this section summarize the information that you will need to successfully plan XMPP federation for your deployment.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -181,7 +181,7 @@ Deployment and configuration of XMPP is covered in [Deploying external user acce
 
 </div>
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]

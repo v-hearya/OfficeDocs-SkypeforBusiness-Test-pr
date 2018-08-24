@@ -32,7 +32,7 @@ If you want to integrate Exchange Unified Messaging (UM) with Lync Server 2013, 
 
 ## Unified Messaging Integration Process
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -154,21 +154,21 @@ If you want to integrate Exchange Unified Messaging (UM) with Lync Server 2013, 
 <tr class="even">
 <td><p>Configure Lync Server 2013 dial plans.</p></td>
 <td><p>If you are integrating with Exchange 2007 SP1 or latest service pack, or Exchange 2010, create a new Enterprise Voice dial plan with a name that matches the Exchange UM dial plan fully qualified domain name (FQDN).</p>
-<div class="alert">
+
+
 
 > [!NOTE]
 > You will need to do this for each UM Dial plan.
 
 
-</div>
 <p>If you are integrating with Exchange 2010 SP1, ensure that suitable global/site-level or pool-level Enterprise Voice dial plans have been configured.</p>
-<div class="alert">
+
+
 
 > [!NOTE]
 > If you are integrating with Exchange 2010 SP1, the Lync Server dial plan and Exchange UM SIP dial plan names do not need to match.
 
-
-</div></td>
+</td>
 <td><p>RTCUniversalServerAdmins</p></td>
 <td><p><a href="lync-server-2013-configuring-dial-plans.md">Configuring dial plans in Lync Server 2013</a></p></td>
 </tr>
@@ -181,20 +181,20 @@ If you want to integrate Exchange Unified Messaging (UM) with Lync Server 2013, 
 </ul>
 <p>This tool works by scanning the Active Directory for Exchange UM settings and allowing the Lync Server 2013 administrator to view, create, and edit contact objects.</p></td>
 <td><p>RTCUniversalServerAdmins <em>and</em> RTCUniversalUserAdmins</p>
-<div class="alert">
+
+
 
 > [!IMPORTANT]
 > To run ocsumutil.exe successfully, the user must belong to both of these groups.
 
 
-</div>
-<div class="alert">
+
+
 
 > [!NOTE]
 > To create Contact objects, the user who runs ocsumutil.exe must have the correct permission to the Active Directory organizational unit (OU) where the new contact objects are stored. This permission can be granted by running the <STRONG>Grant-CsOUPermission</STRONG> cmdlet. For details, see the Lync Server Management Shell documentation.
 
-
-</div></td>
+</td>
 <td><p><a href="lync-server-2013-configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server.md">Configure Lync Server 2013 to work with Unified Messaging on Microsoft Exchange Server</a></p></td>
 </tr>
 <tr class="even">

@@ -40,7 +40,7 @@ For details, see the Lync Server Management Shell documentation for the followin
 
   - [New-CsHostingProvider](new-cshostingprovider.md)
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
@@ -96,7 +96,7 @@ For details, see the Lync Server Management Shell documentation for the followin
     
       - **EnabledSharedAddressSpace** indicates whether the hosting provider is being used in a shared SIP address space (split domain) scenario.
         
-        <div class="alert">
+        <div>
         
 
         > [!NOTE]

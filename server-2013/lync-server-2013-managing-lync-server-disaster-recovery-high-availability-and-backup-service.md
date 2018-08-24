@@ -36,7 +36,7 @@ The disaster recovery procedures in the rest of this section assume the followin
 
   - If the Central Management store is hosted on either pool, it is installed and running on both of the paired pools, with one of those pools hosting the active master and the other pool hosting the standby.
 
-<div class="alert">
+<div>
 
 
 > [!IMPORTANT]
