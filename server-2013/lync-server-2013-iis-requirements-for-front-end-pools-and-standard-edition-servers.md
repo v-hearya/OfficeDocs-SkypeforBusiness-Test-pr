@@ -48,7 +48,6 @@ In addition, the cumulative update for Lync Server 2010: November 2011 installer
 
   - On Front End Servers or Standard Edition servers and on Directors to enable mobile devices to automatically discover mobility resources
 
-<div>
 
 
 > [!NOTE]
@@ -56,19 +55,12 @@ In addition, the cumulative update for Lync Server 2010: November 2011 installer
 
 
 
-</div>
-
 Lync Server requires the following IIS modules to be installed:
-
-<div>
 
 
 > [!IMPORTANT]
 > If your organization requires that you locate IIS and all Web Services on a drive other than the system drive, you can change the installation location path for the Lync Server files in the Setup dialog box. If you install the Setup files to this path, including OCSCore.msi, the rest of the Lync Server files will be deployed to this drive as well. For details about how to relocate the INETPUB deployed by Windows Server Manager when installing IIS, see <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>.
 
-
-
-</div>
 
   - Static Content
 
@@ -184,17 +176,9 @@ The following table lists the URIs for the virtual directories for internal acce
 </table>
 
 
-<div>
-
-
 > [!NOTE]
 > For Front End pools in a consolidated configuration, you must deploy IIS before you can add servers to the pool.
 
-
-
-</div>
-
-<div>
 
 <table>
 <thead>
@@ -210,7 +194,6 @@ The following table lists the URIs for the virtual directories for internal acce
 </table>
 
 
-</div>
 
 </div>
 
